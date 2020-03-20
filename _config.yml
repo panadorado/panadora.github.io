@@ -2,6 +2,5 @@ site_name: "Công Nghệ Và Cuộc Sống"
 permalink: /:title.html
 
 # the subpath of your site, e.g. /blog
-baseurl: "https://panadora.github.io/"
+baseurl: "https://panadorado.github.io/"
 # the base hostname & protocol for your site, e.g. http://example.com
-url: "http://congnghevacuocsong.tk"
