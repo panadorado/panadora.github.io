@@ -64,6 +64,17 @@ li a:hover {
     margin-top: 10px;
   }
 }
+@media screen and (max-width: 720px)
+{
+  .text-logo {
+    height: 250px;
+  }
+
+  .text-logo h1 {
+    margin-top: 10px;
+  }
+}
+
 
 h1 a {
   color: #000;
