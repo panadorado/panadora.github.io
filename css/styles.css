@@ -60,16 +60,9 @@ li a:hover {
 
 @media screen and (max-width: 766px)
 {
-  .text-logo h1 {
-    margin-top: 10px;
-  }
-}
-@media screen and (max-width: 720px)
-{
   .text-logo {
     height: 250px;
   }
-
   .text-logo h1 {
     margin-top: 10px;
   }
