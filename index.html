@@ -36,7 +36,7 @@ layout: default
         		<div class="pagination">
 	        		{% if paginator.previous_page %}
 			            <li class="page-item">
-			                <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">&laquo; Mới nhất</a>
+			                <a class="page-link" href="{{ paginator.previous_page_path }}">&laquo; Trang trước</a>
 			            </li>
 	        		{% else %}
 	        		{% endif %}
@@ -59,7 +59,7 @@ layout: default
 
 	        		{% if paginator.next_page %}
 			            <li class="page-item">
-			                <a class="page-link" href="{{ paginator.next_page_path }}">Cũ nhất &raquo;</a>
+			                <a class="page-link" href="{{ paginator.next_page_path }}">Trang sau &raquo;</a>
 			            </li>
 	        		{% else %}
 	        		{% endif %}
