@@ -52,14 +52,14 @@ layout: default
 			                </li>
 	            		{% else %}
 			                <li class="page-item px-1">
-			                    <a class="page-link" href="{{ paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+			                    <a class="page-link" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
 			                </li>
 	            		{% endif %}
 	       			{% endfor %}
 
 	        		{% if paginator.next_page %}
 			            <li class="page-item">
-			                <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">Cũ nhất &raquo;</a>
+			                <a class="page-link" href="{{ relative_url }}">Cũ nhất &raquo;</a>
 			            </li>
 	        		{% else %}
 	        		{% endif %}
