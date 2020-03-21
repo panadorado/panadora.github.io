@@ -121,7 +121,7 @@ h1 a:hover {
   text-decoration: none;
 }
 
-.single-blog img {
+.single-blog a img {
   width: 100%;
 }
 
