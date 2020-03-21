@@ -6,8 +6,6 @@ excerpt: Nếu nhắc tới hệ điều hành mã nguồn mở dựa trên nhâ
 author: Panadora
 ---
 
-## Cài cặt giao diện (theme) cho Ubuntu 18.04 với Gnome Tweal Tool
-
  Nếu nhắc tới hệ điều hành mã nguồn mở dựa trên nhân linux thì chắc hẵn các bạn sẽ không thể nhắc Ubuntu, 1 hệ điều hành mã nguồn mở.
 
  Sau khi <a href="https://vi.wikipedia.org/wiki/Ubuntu">Canonical Ltd </a>- Cty phát triển bản phân phối linux Ubuntu loại bỏ UNITY chuyển sang dùng môi trường GNOME từ phiên bản 17.04 về sau, thì việc theme bằng "Unity Tweak Tool" sẽ không còn khả dụng. Thay vào đó người dùng sẽ phải sử dụng "Gnome Tweak Tool" thể cài đặt và tùy biến giao diện cho Ubuntu trở nên đẹp hơn và có thể làm giao diện riêng cho chính mình.
