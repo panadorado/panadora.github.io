@@ -66,13 +66,13 @@ li a:hover {
 
 .navmenu ul li {
   display: inline-block;
-  padding: 18px;
+  padding: 10px;
   float: left;
 }
 
 .navmenu ul li:hover {
   cursor: pointer;
-  transition: .4s;
+  transition: .5s;
   background: #dddd;
 }
 
@@ -81,7 +81,7 @@ li a:hover {
   color: #fff;
   font-size: 18px;
   padding: 20px;
-  transition: .4s;
+  transition: .5s;
 }
 
 .navmenu ul li a:hover {
@@ -338,7 +338,13 @@ p a:hover {
 }
 
 .btn-count-page {
-  background: #fff;
+  margin-top: 20px;
+  background: transparent;
+  font-size: 20px;
+}
+
+.btn-count-page li {
+  margin: 5px;
 }
 
 .img-hover {
