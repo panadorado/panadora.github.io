@@ -5,7 +5,6 @@ layout: post
 excerpt: Game Nhật thì anh em… biết cả rồi đấy.
 author: Panadora
 ---
-
 **Game Nhật thì anh em… biết cả rồi đấy.***
 
 <center><img class="img-thumbnail image-post" src="https://zicxa.com/hinh-anh/wp-content/uploads/2020/02/T%E1%BB%95ng-h%E1%BB%A3p-h%C3%ACnh-n%E1%BB%81n-Nier-Automata-Wallpaper-%C4%91%E1%BA%B9p-nh%E1%BA%A5t-10.jpg"></center>
@@ -48,3 +47,4 @@ Còn đây là danh sách top 5 game miễn phí, tính theo lượng người c
 Anh em có thể tham khảo thêm những tựa game này <a href="https://store.steampowered.com/sale/top_february_2020">tại đây</a>
 
 Nguồn thông tin: <a href="https://www.pcgamer.com/metro-exodus-and-waifus-over-husbandos-among-februarys-top-steam-games/?fbclid=IwAR3UN25T9XQiDZt1zJndjm3ZsRwhtQENEYvAoqENAVBh7b9bD_MD3GipwwM">PC GAMER</a>
+
