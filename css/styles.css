@@ -109,6 +109,7 @@ li a:hover {
   nav ul {
     max-height: 0px;
     background: #242424;
+    transition: .5s;
   }
 
   nav.black ul {
@@ -117,6 +118,7 @@ li a:hover {
 
   .showing {
     max-height: 20em;
+    transition: .5s;
   }
 
   nav ul li {
