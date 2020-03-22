@@ -58,7 +58,6 @@ li a:hover {
   color: #fff;
   text-align: center;
   margin: 0;
-  transition: 1s;
 }
 
 .navmenu.black ul {
@@ -72,15 +71,17 @@ li a:hover {
 }
 
 .navmenu ul li:hover {
-  background: #dddd;
   cursor: pointer;
+  transition: .4s;
+  background: #dddd;
 }
 
-.navmenu ul li a  {
+.navmenu ul li a {
   text-decoration: none;
   color: #fff;
   font-size: 18px;
   padding: 20px;
+  transition: .4s;
 }
 
 .navmenu ul li a:hover {
@@ -195,13 +196,14 @@ h1 a:hover {
 }
 
 .single-blog .entry-title {
-    font-weight: bold;
-    font-size: 20px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .single-blog .entry-title:hover {
   white-space: pre-line;
   overflow: visible;
+  transition: .4s width;
   width: 320px;
   /*transition: all 1s height;
   -webkit-transition: 1s height;
@@ -335,4 +337,12 @@ p a:hover {
 
 .btn-count-page {
   background: #fff;
+}
+
+.img-hover {
+  transition: .4s;
+}
+
+.img-hover:hover {
+  border-radius: 50px;
 }
