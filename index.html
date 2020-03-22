@@ -1,18 +1,19 @@
 ---
 layout: default
 ---
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 	<div class="col-md-4">
 		<div class="single-blog">
-
 			<p class="blog-meta">
-				<i class="fas fa-book-reader"> Post by {{ post.author }}</i>
-				<span>
+				<i class="fas fa-book-reader"> Đăng bởi {{ post.author }}</i>
+				<span class="post-date">
 					<i class="fas fa-calendar-alt"> {{ post.date | date_to_string }}</i>
 				</span>
 			</p>
 
-			<img class="img-thumbnail" src="{{ site.baseurl }}/image/{{ post.thumbnail }}" style="height: 200px;">
+			<a href="{{ post.url }}">
+				<img class="img-thumbnail img-hover" src="{{ site.baseurl }}/image/{{ post.thumbnail }}" style="height: 200px;">
+			</a>
 
 			<p class="entry-title"><a href="{{ post.url }}">{{ post.title }}</a></p>
 
@@ -21,11 +22,12 @@ layout: default
 			<p>
 				<a href="{{ post.url }}" class="read-more-btn">Đọc thêm</a>
 
-				<span>
+				<span class="plugin-facebook">
 					<i id="fb-root"></i>
-					<i class="fb-like" data-href="{{ site.baseurl }}/{{post.url}}" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></i>
+					<i class="fb-like" data-href="{{ site.url }}/{{post.url}}" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></i>
 				</span>
-			</p>
+			</p>		
 		</div>
 	</div>
 {% endfor %}
+{% include paginator.html %}

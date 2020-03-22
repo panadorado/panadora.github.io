@@ -5,7 +5,6 @@ layout: post
 excerpt: Hồi trước thì vẫn ổn, bây giờ lại nói bất hợp pháp là sao?...
 author: Panadora
 ---
-## Tựa game anh em yêu thích mùa dịch Coronavirus, Plague Inc., bị Trung Quốc tố là bất hợp pháp
 
 ### Hồi trước thì vẫn ổn, bây giờ lại nói bất hợp pháp là sao?...
 
