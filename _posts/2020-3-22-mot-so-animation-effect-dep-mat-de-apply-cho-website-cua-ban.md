@@ -89,6 +89,6 @@ Banner này tạo hiệu ứng chuyển đổi hình ảnh background khá đẹ
 
 Mình vừa chia sẻ với các bạn một số hiệu ứng banner mà mình thấy ấn tượng, có thể áp dụng trong quá trình thiết kế website. Ngoài ra các bạn có thể tham khảo thêm từ những nguồn bên dưới. Cá nhân mình thì thích các banner không sử dụng hoặc ít dùng js, vì mình thấy nó khá là rối rắm, nếu có dùng thì đa số chúng ta đều sử dụng js được chia sẻ trên mạng. Mai mốt chúng ta cùng tìm hiểu một số trang web có ý tưởng thiết kế thật độc đáo cool ngầu từ thiết kế menu cho tới cách hiển thị nội dung nhé.
 
-Link tham khảo:
-<a href="https://bashooka.com/coding/web-background-animation-effects/">https://bashooka.com/coding/web-background-animation-effects/</a>
+Link tham khảo:<br>
+<a href="https://bashooka.com/coding/web-background-animation-effects/">https://bashooka.com/coding/web-background-animation-effects/</a><br>
 <a href="https://speckyboy.com/css-javascript-text-animation-snippets/">https://speckyboy.com/css-javascript-text-animation-snippets/</a>
