@@ -306,12 +306,12 @@ h1 a:hover {
   font-size: 20px;
 }
 
-.footer-content  div a {
+.footer-content a {
   color: #fff;
   transition: .5s;
 }
 
-.footer-content div a:hover {
+.footer-content a:hover {
   text-decoration: none;
   color: red;
 }
