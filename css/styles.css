@@ -219,7 +219,7 @@ h1 a:hover {
 
 .entry-title a {
   color: #3c7984;
-  transition: .5s
+  transition: .5s;
 }
 
 .entry-title a:hover {
