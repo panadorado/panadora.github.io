@@ -134,6 +134,10 @@ li a:hover {
   .icon {
     display: block;
   }
+
+  .btn-count-page {
+    margin-bottom: 20px;
+  }
 }
 
 /**********************/
