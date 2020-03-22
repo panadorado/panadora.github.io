@@ -6,9 +6,9 @@ excerpt: Game Nhật thì anh em… biết cả rồi đấy.
 author: Panadora
 ---
 **Game Nhật thì anh em… biết cả rồi đấy.***
-<br><br>
+
 <center><img class="img-thumbnail image-post" src="https://zicxa.com/hinh-anh/wp-content/uploads/2020/02/T%E1%BB%95ng-h%E1%BB%A3p-h%C3%ACnh-n%E1%BB%81n-Nier-Automata-Wallpaper-%C4%91%E1%BA%B9p-nh%E1%BA%A5t-10.jpg"></center>
-<br><br>
+
 Vào khoảng giữa mỗi tháng, Valve sẽ công bố danh sách top game mới bán chạy tháng trước trên Steam dựa trên doanh số trong 2 tuần đầu của các tựa game đó. Doanh số cụ thể không được tiết lộ nên chúng ta không biết được game nào bán chạy nhất, nhưng kiểu gì thì mỗi tháng sẽ có vài game nghiễm nhiên nằm trong danh sách trên, và vài game khá là bất ngờ.
 
 Tháng 2/2020 cũng không phải ngoại lệ. Tựa game đình đám Metro Exodus tất nhiên là có tên trong danh sách, tương tự với Wolcen: Lords of Mayhem, Mega Man Zero/ZX Legacy Collection, và Dota Underlords (những game được nugời chơi mong chờ). Và bất ngờ là những game “vô danh” như Tank Mechanic Simulator, Death and Taxes, và OshiRabu: Waifus Over Husbandos cũng được nêu tên trong dnah sách này. Và điều đặc biệt là 11 trong số 20 game trong danh sách kia là tác phẩm đầu tay đến từ các nhà phát triển mới xuất hiện.
@@ -47,3 +47,4 @@ Còn đây là danh sách top 5 game miễn phí, tính theo lượng người c
 Anh em có thể tham khảo thêm những tựa game này <a href="https://store.steampowered.com/sale/top_february_2020">tại đây</a>
 
 Nguồn thông tin: <a href="https://www.pcgamer.com/metro-exodus-and-waifus-over-husbandos-among-februarys-top-steam-games/?fbclid=IwAR3UN25T9XQiDZt1zJndjm3ZsRwhtQENEYvAoqENAVBh7b9bD_MD3GipwwM">PC GAMER</a>
+

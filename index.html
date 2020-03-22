@@ -30,43 +30,4 @@ layout: default
 		</div>
 	</div>
 {% endfor %}
-
-<div class="container btn-count-page">
-    <nav aria-label="Page navigation example">
-        <ul class="pagination justify-content-center">
-    		{% if paginator.total_pages > 1 %}
-        		<div class="pagination">
-	        		{% if paginator.previous_page %}
-			            <li class="page-item">
-			                <a class="page-link" href="{{ paginator.previous_page_path }}">&laquo;Trước</a>
-			            </li>
-	        		{% else %}
-	        		{% endif %}
-
-	        		{% for page in (1..paginator.total_pages) %}
-	            		{% if page == paginator.page %}
-			                <li class="page-item px-1">
-			                    <em class="page-link text-dark">{{ page }}</em>
-			                </li>
-	            		{% elsif page == 1 %}
-			                <li class="page-item px-2">
-			                    <a class="page-link" href="{{ paginator.previous_page_path }}">{{ page }}</a>
-			                </li>
-	            		{% else %}
-			                <li class="page-item px-1">
-			                    <a class="page-link" href="{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a>
-			                </li>
-	            		{% endif %}
-	       			{% endfor %}
-
-	        		{% if paginator.next_page %}
-			            <li class="page-item">
-			                <a class="page-link" href="{{ paginator.next_page_path }}">Sau&raquo;</a>
-			            </li>
-	        		{% else %}
-	        		{% endif %}
-        		</div>
-    		{% endif %}
-        </ul>
-    </nav>
-</div> 
+{% include paginator.html %}

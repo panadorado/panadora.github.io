@@ -4,7 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
+	
+	<link rel="shortcut icon" type="image/x-icon" href="/image/favicon.png">
 	<title></title>
 
 	<link rel="stylesheet" type="text/css" href="/css/styles.css">
@@ -25,32 +26,43 @@
 
 </head>
 <body>
-
-	<nav class="navbar-menu fixed-top">
-		<ul class="text-center header-item">
-			<li class="nav-item"><a class="nav-link" href="/"><i class="fas fa-home"> Trang chủ</i></a></li>
-			<li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-youtube"> Youtube</i></a></li>
-			<li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-info-circle"> Thông tin</i></a></li>
-		</ul>
+	<nav class="navmenu">
+		<div class="icon"><i class="fa fa-bars"></i></div>
+		<div class="menu">
+			<ul>
+				<li><a href="/"><i class="fas fa-home"> Trang chủ</i></a></li>
+				<li><a href="https://www.youtube.com/channel/UCkoqufarETamiMrwtVg8ugQ/featured?view_as=subscriber"><i class="fab fa-youtube"> Youtube</i></a></li>
+				<li><a href="#"><i class="fas fa-info-circle"> Thông tin</i></a></li>
+			</ul>
+		</div>
 	</nav>
 
-	<section class="container show-container">
+	<script type="text/javascript">
+		//Menu toggle-button
+		$(document).ready(function() {
+			$(".icon").on("click", function() {
+				$("nav ul").toggleClass("showing");
+			})
+		})
+	</script>
+
+	<section class="container">
 		<div class="text-logo">
 			<h1 class="text-center"><a href="/">Công Nghệ Và Cuộc Sống</a></h1>
 			<p class="text-center">Nơi tổng hợp những thông tin về công nghệ, thông tin <br> gắn liền với cuộc sống của bạn !</p>
 		</div>
 
 		<div class="row">
-			<div class="container post bg-light container-border-radius py-3 px-4 my-lg-4 my-3 post-content">
+			<div class="container post bg-light container-border-radius py-3 px-4 my-lg-4 my-3 post-content" style="border-radius: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);">
     <article>
         <div class="row">
             <div class="d-block mx-auto"></div>
         </div>
         	
-        <div class="text-center shadow-sm container-border-radius p-3 style-entrys">
+        <div class="text-center shadow-sm container-border-radius p-2 style-entrys">
             <h1>Cải thiện sức mạnh đồ họa Intel/AMD trên ubuntu với Custom Mesa Driver</h1>
 
-            <div class="pb-1 pl-3">
+            <div class="pb-1 pl-3">+
                 <i class="fas fa-user font-weight-light mr-1">
                     <a href="#"><span>Panadora</span></a>
 				</i>
@@ -61,11 +73,9 @@
             </div>
         </div>
         <hr/>
-        <div class="row">
-            <div class="col-lg-8 col-md-8 col-sm-12">
-            	<h2 id="cải-thiện-sức-mạnh-đồ-họa-intelamd-trên-ubuntu-với-custom-mesa-driver">Cải thiện sức mạnh đồ họa Intel/AMD trên ubuntu với Custom Mesa Driver</h2>
-
-<h3 id="đối-tượng-cho-bài-viết">Đối tượng cho bài viết</h3>
+        <div class="row justify-content-center">
+            <div class="col-lg-9 col-md-9 col-sm-12">
+            	<h3 id="đối-tượng-cho-bài-viết">Đối tượng cho bài viết</h3>
 
 <p>Bạn là một người dùng Ubuntu (hoặc bất kì một distro base trên Ubuntu ví dụ như Mint) trên một computer dùng đồ họa của Intel hay AMD (Nvidia thì vẫn có thể dùng nhưng không đảm bảo sử dụng) và đòi hỏi máy đáp ứng nhu cầu đồ họa mạnh như game hay blender, render video,… (mà Mesa đi kèm - stock - không thể đáp ứng).</p>
 
@@ -155,30 +165,22 @@ Nếu muốn gỡ, thì bạn làm như trên.</p>
 
 
             	<div id="fb-root"></div>
-				<div class="fb-like" data-href="//cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
-				<div class="fb-comments" data-href="/cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver.html" data-width="720" data-numposts="5" data-order-by="reverse_time"></div>
+				<div class="fb-like" data-href="http://localhost:4000//2020/03/06/cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
+				<div class="fb-comments" data-href="http://localhost:4000/2020/03/06/cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver.html" data-width="820" data-numposts="5" data-order-by="reverse_time"></div>
         	</div>
 
-            <div style="border-color: rgba(0,0,0,.1)" class="col-lg-4 col-md-4 category-post border-left">
-                <div class="border-dark border-top">
-                	<h5 class="bg-dark text-white p-2">Mục lục</h5>
-            	</div>
-
-                <div class="border-dark border-top">
-                    <h5 class="bg-dark text-white p-2">
-                        Bài viết liên quan
-                    </h5>
-                    
-                </div>
-            </div>
         </div>
     </article>
 </div>
 		</div>
 	</section>
 
-	<footer class="footer">
-		<p class="text-center footer-content">Copyright <i class="far fa-copyright"> by</i><a href="https://www.facebook.com/xPanadora" target="_blank"> Panadora </a>|| <i class="fab fa-github"> Github - </i><a href="https://github.com/xpanadora" target="_blank"> xpanadora</a> || <i class="fab fa-blogger-b"> Blog game -</i><a href="http://www.cs-modbeta.tk/" target="_blank"> cs-mobeta</a></p>
+	<footer class="footer footer-content text-center">
+		<div class="container"> Copyright
+			<i class="far fa-copyright"> by</i><a href="https://www.facebook.com/xPanadora" target="_blank"> Panadora </a> ||
+			<i class="fab fa-github"> Github - </i><a href="https://github.com/panadorado" target="_blank"> Panadorado </a> ||
+			<i class="fab fa-blogger-b"> Blog game -</i><a href="http://www.cs-modbeta.tk/" target="_blank"> cs-mobeta</a>
+		</div>
 	</footer>
 </body>
 </html>
