@@ -10,13 +10,14 @@ body {
   background-image: linear-gradient(to top, #a4def5, #dddd);
 }
 
+/*
 .navbar-menu {
   background: #242424;
+  margin-bottom: 20px;
 }
 
 .header-item {
   display: flex;
-  margin-top: 15px;
 }
 
 .header-item li {
@@ -41,7 +42,98 @@ li a:hover {
   -moz-transition: background 1s, color 1s;
   background: #dddd;
   color: red;
+} */
+
+/* Navber MENU */
+
+.navmenu {
+  width: 100%;
+  z-index: 1;
 }
+
+.navmenu ul {
+  list-style: none;
+  background: #242424;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  transition: 1s;
+}
+
+.navmenu.black ul {
+  background: #242424;
+}
+
+.navmenu ul li {
+  display: inline-block;
+  padding: 18px;
+  float: left;
+}
+
+.navmenu ul li:hover {
+  background: #dddd;
+  cursor: pointer;
+}
+
+.navmenu ul li a  {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.navmenu ul li a:hover {
+  color: red;
+}
+
+.icon {
+  width: 100%;
+  background: #242424;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  display: none;
+  color: #fff;
+}
+
+
+@media(max-width: 580px) {
+
+  nav {
+    display: block;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: #242424;
+  }
+
+  nav.black ul {
+    background: #242424;
+  }
+
+  .showing {
+    max-height: 20em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navmenu ul li a {
+    padding: 22px 170px;
+  }
+
+  .icon {
+    display: block;
+  }
+}
+
+/**********************/
 
 .text-logo {
   text-transform: uppercase;
@@ -58,7 +150,7 @@ li a:hover {
   border-radius: 20px;
   border: 1px solid #242424;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-  margin-top: 90px;
+  margin-top: 20px;
 }
 
 .text-logo h1 {
@@ -239,4 +331,8 @@ p a:hover {
 .page-pagination {
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.btn-count-page {
+  background: #fff;
 }
