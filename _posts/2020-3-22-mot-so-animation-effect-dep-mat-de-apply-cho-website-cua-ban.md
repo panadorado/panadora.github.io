@@ -10,7 +10,7 @@ Khi bạn là một lập trình viên web, ít nhất đôi lần bạn sẽ ph
 
 <center><img class="img-thumbnail image-post" src="https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"></center>
 
-**Đầu tiên là phần banner**
+**Chú ý: nếu bạn không thấy animtion hiển thị hoặc resource ko thể truy cập, đừng lo bạn chỉ cần vào <a href="https://codepen.io/">codepen.io</a> để `submit` quyền truy cập vào trang. Sau đó f5 (reset) lại trang `https://congnghevacuocsong.tk` là được !**
 
 <hr>
 <hr>
