@@ -1,0 +1,81 @@
+---
+thumbnail: 2020326EffectCSSP1.jpg
+title: 13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 1)
+layout: post
+excerpt: Với CSS bạn có thể tạo ra các hiệu ứng rất đẹp và thú vị khi kết hợp với HTML và JavaScript, hoặc ngay cả khi chỉ có mình nó, CSS hỗ trợ rất nhiều trong việc thiết kế giao diện. Bạn sẽ ngạc nhiên về những gì các nhà phát triển có thể tạo ra.
+author: Panadora
+---
+
+Với CSS bạn có thể tạo ra các hiệu ứng rất đẹp và thú vị khi kết hợp với HTML và JavaScript, hoặc ngay cả khi chỉ có mình nó, CSS hỗ trợ rất nhiều trong việc thiết kế giao diện. Bạn sẽ ngạc nhiên về những gì các nhà phát triển có thể tạo ra.
+<br><br>
+<center><img class="img-thumbnail image-post" src="https://techtalk.vn/wp-content/uploads/2019/02/css-art.jpg"></center>
+<br><br>
+Từ các hình ảnh động cuộn đơn giản đến các background phức tạp được xây dựng hoàn toàn bằng CSS, những hiệu ứng này có thể làm trang web của bạn trơ nên lung linh và sáng tạo hơn.
+
+Hôm nay tôi đã thu thập được 14 CSS rất tuyệt vời.
+
+<hr>
+<hr>
+
+**1. Parallax Pixel Stars**
+
+<iframe height="500" style="width: 100%;" scrolling="no" title="Parallax Star background in CSS" src="https://codepen.io/saransh/embed/BKJun?height=500&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/saransh/pen/BKJun'>Parallax Star background in CSS</a> by Saransh Sinha
+  (<a href='https://codepen.io/saransh'>@saransh</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+<hr>
+<hr>
+
+**2. Gradient Background Animation**
+
+<iframe height="500" style="width: 100%;" scrolling="no" title="Pure CSS Gradient Background Animation" src="https://codepen.io/P1N2O/embed/pyBNzX?height=500&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/P1N2O/pen/pyBNzX'>Pure CSS Gradient Background Animation</a> by Manuel Pinto
+  (<a href='https://codepen.io/P1N2O'>@P1N2O</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+<hr>
+<hr>
+
+**3. Frosted Glass Effect**
+
+<iframe height="500" style="width: 100%;" scrolling="no" title="CSS only frosted glass effect" src="https://codepen.io/GreggOD/embed/xLbboZ?height=500&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/GreggOD/pen/xLbboZ'>CSS only frosted glass effect</a> by Gregg OD
+  (<a href='https://codepen.io/GreggOD'>@GreggOD</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+<hr>
+<hr>
+
+**4. Shooting Star**
+
+<iframe height="500" style="width: 100%;" scrolling="no" title="Only CSS: Shooting Star" src="https://codepen.io/YusukeNakaya/embed/XyOaBj?height=500&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/YusukeNakaya/pen/XyOaBj'>Only CSS: Shooting Star</a> by Yusuke Nakaya
+  (<a href='https://codepen.io/YusukeNakaya'>@YusukeNakaya</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+<hr>
+<hr>
+
+**5. Tri Travelers**
+
+<iframe height="500" style="width: 100%;" scrolling="no" title="Tri Travelers" src="https://codepen.io/natewiley/embed/WvEwej?height=500&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/natewiley/pen/WvEwej'>Tri Travelers</a> by Nate Wiley
+  (<a href='https://codepen.io/natewiley'>@natewiley</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+<hr>
+<hr>
+
+**6. ColorDrops**
+
+<iframe height="500" style="width: 100%;" scrolling="no" title="ColorDrops" src="https://codepen.io/natewiley/embed/PwWxRd?height=500&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/natewiley/pen/PwWxRd'>ColorDrops</a> by Nate Wiley
+  (<a href='https://codepen.io/natewiley'>@natewiley</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+<hr>
+<hr>
+
+Nguồn thông tin: <a href="https://viblo.asia/p/14-css-tao-hieu-ung-cho-background-tuyet-dep-LzD5djaeZjY">viblo.asia</a><br>
+Nguồn tổng hợp các tác giả tại: <a href="https://codepen.io">codepen.io</a>

@@ -18,7 +18,7 @@ Khi bạn là một lập trình viên web, ít nhất đôi lần bạn sẽ ph
 
 Banner có animation như 1 cơn mưa những cánh anh đào cực kỳ ấn tượng, phù hợp với các trang web du lịch hoặc thời trang. CSS đơn giản, tuy nhiên JS rất phức tạp.
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="tqdmv" src="https://codepen.io/at80/embed/tqdmv?height=500&theme-id=dark&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<iframe height="500" style="width: 100%;" scrolling="no" title="tqdmv" src="https://codepen.io/at80/embed/tqdmv?height=500&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/at80/pen/tqdmv'>tqdmv</a> by Anand Davaasuren
   (<a href='https://codepen.io/at80'>@at80</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
@@ -30,7 +30,7 @@ Banner có animation như 1 cơn mưa những cánh anh đào cực kỳ ấn t�
 
 Banner có animation khi bạn click vào sẽ đổi màu tuỳ theo thứ tự bạn đã setting trước. Cũng giống như Sakura Animation, css đơn giản và js rất phức tạp, và cũng rất bắt mắt. Phù hợp với các trang web về thiết kế nội thất.
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="Color Changin'" src="https://codepen.io/alexzaworski/embed/mEkvAG?height=500&theme-id=dark&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<iframe height="500" style="width: 100%;" scrolling="no" title="Color Changin'" src="https://codepen.io/alexzaworski/embed/mEkvAG?height=500&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/alexzaworski/pen/mEkvAG'>Color Changin'</a> by Alex Zaworski
   (<a href='https://codepen.io/alexzaworski'>@alexzaworski</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
@@ -42,7 +42,7 @@ Banner có animation khi bạn click vào sẽ đổi màu tuỳ theo thứ tự
 
 Banner có animation như các chòm sao (hoặc như các cấu trúc hoá học, nếu chỉnh sửa lại tí xíu). Đây là animation mình rất thích, vì nó hoàn toàn làm bằng css, không có js. 😄 Banner này phù hợp các website về thiên văn hoặc vật lý, hoá học.
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="Animated Background Header" src="https://codepen.io/jasperlachance/embed/QNMwBg?height=500&theme-id=dark&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<iframe height="500" style="width: 100%;" scrolling="no" title="Animated Background Header" src="https://codepen.io/jasperlachance/embed/QNMwBg?height=500&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/jasperlachance/pen/QNMwBg'>Animated Background Header</a> by Jasper LaChance
   (<a href='https://codepen.io/jasperlachance'>@jasperlachance</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
@@ -55,7 +55,7 @@ Banner có animation như các chòm sao (hoặc như các cấu trúc hoá họ
 Banner có animation như cảnh hoạt hình. Đây cũng là animation hoàn toàn làm bằng css.
 Banner này phù hợp các website về anime, manga. 
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="Parallax backgrounds with walk cycle" src="https://codepen.io/rachelnabors/embed/AvGhp?height=500&theme-id=dark&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<iframe height="500" style="width: 100%;" scrolling="no" title="Parallax backgrounds with walk cycle" src="https://codepen.io/rachelnabors/embed/AvGhp?height=500&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/rachelnabors/pen/AvGhp'>Parallax backgrounds with walk cycle</a> by Rachel Nabors
   (<a href='https://codepen.io/rachelnabors'>@rachelnabors</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
@@ -67,7 +67,7 @@ Banner này phù hợp các website về anime, manga.
 
 Banner này tạo hiệu ứng chuyển đổi hình ảnh background khá đẹp, sử dụng cả js và css. 
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="Clean Slider With Curved Background" src="https://codepen.io/mrspok407/embed/NRxBWa?height=500&theme-id=dark&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<iframe height="500" style="width: 100%;" scrolling="no" title="Clean Slider With Curved Background" src="https://codepen.io/mrspok407/embed/NRxBWa?height=500&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/mrspok407/pen/NRxBWa'>Clean Slider With Curved Background</a> by Ruslan Pivovarov
   (<a href='https://codepen.io/mrspok407'>@mrspok407</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
@@ -79,7 +79,7 @@ Banner này tạo hiệu ứng chuyển đổi hình ảnh background khá đẹ
 
 Đây là hiệu ứng tạo kiểu broken text cho banner, sử dụng cả js và css. Nếu kết hợp với các hiệu ứng banner khác, sẽ tạo ra 1 banner tuyệt vời cho website của bạn đấy.
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="Shattering Text Animation" src="https://codepen.io/ARS/embed/pjypwd?height=500&theme-id=dark&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<iframe height="500" style="width: 100%;" scrolling="no" title="Shattering Text Animation" src="https://codepen.io/ARS/embed/pjypwd?height=500&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/ARS/pen/pjypwd'>Shattering Text Animation</a> by Arsen Zbidniakov
   (<a href='https://codepen.io/ARS'>@ARS</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
