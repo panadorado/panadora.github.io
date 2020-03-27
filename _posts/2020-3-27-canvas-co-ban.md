@@ -29,14 +29,14 @@ Những phiên bản trình duyệt bắt đầu hỗ trợ thẻ `<canvas></can
 	}
 </style>
 
-<table class="table table-dark" style="text-align: center; width: auto;">
+<table class="table table-dark" style="text-align:">
 	<tr class="col">
 		<td> Browser </td>
-		<td> <i class="fab fa-chrome"> Chrome</i> </td>
-		<td> <i class="fab fa-firefox-browser"> Firefox</i> </td>
-		<td> <i class="fab fa-internet-explorer"> Explorer/Edge</i> </td>
-		<td> <i class="fab fa-safari"> Safari</i> </td>
-		<td> <i class="fab fa-opera"> Openra</i> </td>
+		<td> <i class="fab fa-chrome"></i> </td>
+		<td> <i class="fab fa-firefox-browser"></i> </td>
+		<td> <i class="fab fa-internet-explorer"></i> </td>
+		<td> <i class="fab fa-safari"></i> </td>
+		<td> <i class="fab fa-opera"></i> </td>
 	</tr>
 	<tr class="col">
 		<td> Version </td>
