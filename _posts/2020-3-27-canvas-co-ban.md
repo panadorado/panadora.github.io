@@ -23,14 +23,13 @@ Những phiên bản trình duyệt bắt đầu hỗ trợ thẻ `<canvas></can
                 border: 2px solid #dddd;
                 padding: 20px;
                 text-align: center;
-                width: auto;
         }
 	td i {
 		font-size: 25px;
 	}
 </style>
 
-<table class="table table-dark" style="text-align: center;">
+<table class="table table-dark" style="text-align: center; width: auto;">
 	<tr>
 		<td> Browser </td>
 		<td> <i class="fab fa-chrome"> Chrome</i> </td>
