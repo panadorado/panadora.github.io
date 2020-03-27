@@ -1,4 +1,159 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-22T13:54:27+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Các tựa game phong cách anime Nhật bất ngờ thống trị danh sách bán chạy của Steam trong tháng 2/2020</title><link href="http://localhost:4000/2020/03/22/cac-tua-game-phong-cach-anime-nhat-bat-ngo-thong-tri-danh-sach-ban-chay-cua-steam-trong-thang-2-2020.html" rel="alternate" type="text/html" title="Các tựa game phong cách anime Nhật bất ngờ thống trị danh sách bán chạy của Steam trong tháng 2/2020" /><published>2020-03-22T00:00:00+07:00</published><updated>2020-03-22T00:00:00+07:00</updated><id>http://localhost:4000/2020/03/22/cac-tua-game-phong-cach-anime-nhat-bat-ngo-thong-tri-danh-sach-ban-chay-cua-steam-trong-thang-2-2020</id><content type="html" xml:base="http://localhost:4000/2020/03/22/cac-tua-game-phong-cach-anime-nhat-bat-ngo-thong-tri-danh-sach-ban-chay-cua-steam-trong-thang-2-2020.html">&lt;p&gt;&lt;strong&gt;Game Nhật thì anh em… biết cả rồi đấy.&lt;/strong&gt;*&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-27T16:19:33+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 1)</title><link href="http://localhost:4000/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P1.html" rel="alternate" type="text/html" title="13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 1)" /><published>2020-03-26T00:00:00+07:00</published><updated>2020-03-26T00:00:00+07:00</updated><id>http://localhost:4000/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P1</id><content type="html" xml:base="http://localhost:4000/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P1.html">&lt;p&gt;Với CSS bạn có thể tạo ra các hiệu ứng rất đẹp và thú vị khi kết hợp với HTML và JavaScript, hoặc ngay cả khi chỉ có mình nó, CSS hỗ trợ rất nhiều trong việc thiết kế giao diện. Bạn sẽ ngạc nhiên về những gì các nhà phát triển có thể tạo ra.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://techtalk.vn/wp-content/uploads/2019/02/css-art.jpg&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+Từ các hình ảnh động cuộn đơn giản đến các background phức tạp được xây dựng hoàn toàn bằng CSS, những hiệu ứng này có thể làm trang web của bạn trơ nên lung linh và sáng tạo hơn.&lt;/p&gt;
+
+&lt;p&gt;Hôm nay tôi đã thu thập được 14 CSS rất tuyệt vời.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Parallax Pixel Stars&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe height=&quot;500&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Parallax Star background in CSS&quot; src=&quot;https://codepen.io/saransh/embed/BKJun?height=500&amp;amp;theme-id=dark&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/saransh/pen/BKJun&quot;&gt;Parallax Star background in CSS&lt;/a&gt; by Saransh Sinha
+  (&lt;a href=&quot;https://codepen.io/saransh&quot;&gt;@saransh&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Gradient Background Animation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe height=&quot;500&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Pure CSS Gradient Background Animation&quot; src=&quot;https://codepen.io/P1N2O/embed/pyBNzX?height=500&amp;amp;theme-id=dark&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/P1N2O/pen/pyBNzX&quot;&gt;Pure CSS Gradient Background Animation&lt;/a&gt; by Manuel Pinto
+  (&lt;a href=&quot;https://codepen.io/P1N2O&quot;&gt;@P1N2O&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Frosted Glass Effect&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe height=&quot;500&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;CSS only frosted glass effect&quot; src=&quot;https://codepen.io/GreggOD/embed/xLbboZ?height=500&amp;amp;theme-id=dark&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/GreggOD/pen/xLbboZ&quot;&gt;CSS only frosted glass effect&lt;/a&gt; by Gregg OD
+  (&lt;a href=&quot;https://codepen.io/GreggOD&quot;&gt;@GreggOD&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Shooting Star&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe height=&quot;500&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Only CSS: Shooting Star&quot; src=&quot;https://codepen.io/YusukeNakaya/embed/XyOaBj?height=500&amp;amp;theme-id=dark&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/YusukeNakaya/pen/XyOaBj&quot;&gt;Only CSS: Shooting Star&lt;/a&gt; by Yusuke Nakaya
+  (&lt;a href=&quot;https://codepen.io/YusukeNakaya&quot;&gt;@YusukeNakaya&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Tri Travelers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe height=&quot;500&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Tri Travelers&quot; src=&quot;https://codepen.io/natewiley/embed/WvEwej?height=500&amp;amp;theme-id=dark&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/natewiley/pen/WvEwej&quot;&gt;Tri Travelers&lt;/a&gt; by Nate Wiley
+  (&lt;a href=&quot;https://codepen.io/natewiley&quot;&gt;@natewiley&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;6. ColorDrops&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe height=&quot;500&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;ColorDrops&quot; src=&quot;https://codepen.io/natewiley/embed/PwWxRd?height=500&amp;amp;theme-id=dark&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/natewiley/pen/PwWxRd&quot;&gt;ColorDrops&lt;/a&gt; by Nate Wiley
+  (&lt;a href=&quot;https://codepen.io/natewiley&quot;&gt;@natewiley&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Nguồn thông tin: &lt;a href=&quot;https://viblo.asia/p/14-css-tao-hieu-ung-cho-background-tuyet-dep-LzD5djaeZjY&quot;&gt;viblo.asia&lt;/a&gt;&lt;br /&gt;
+Nguồn tổng hợp các tác giả tại: &lt;a href=&quot;https://codepen.io&quot;&gt;codepen.io&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><summary type="html">Với CSS bạn có thể tạo ra các hiệu ứng rất đẹp và thú vị khi kết hợp với HTML và JavaScript, hoặc ngay cả khi chỉ có mình nó, CSS hỗ trợ rất nhiều trong việc thiết kế giao diện. Bạn sẽ ngạc nhiên về những gì các nhà phát triển có thể tạo ra.</summary></entry><entry><title type="html">13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 2)</title><link href="http://localhost:4000/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P2.html" rel="alternate" type="text/html" title="13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 2)" /><published>2020-03-26T00:00:00+07:00</published><updated>2020-03-26T00:00:00+07:00</updated><id>http://localhost:4000/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P2</id><content type="html" xml:base="http://localhost:4000/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P2.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://giuseart.com/wp-content/uploads/2018/07/417645-636618158800124958-16x9.jpg&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;
+Phần tiếp theo của bài &lt;a href=&quot;/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P1.html&quot;&gt;post 13 CSS tạo hiệu ứng cho Background tuyệt đẹp&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;7. Zero Element: DeLight&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe height=&quot;500&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Zero Element: DeLight&quot; src=&quot;https://codepen.io/keithclark/embed/ZjrwpW?height=500&amp;amp;theme-id=dark&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/keithclark/pen/ZjrwpW&quot;&gt;Zero Element: DeLight&lt;/a&gt; by Keith Clark
+  (&lt;a href=&quot;https://codepen.io/keithclark&quot;&gt;@keithclark&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;8. Glowing Particle Animation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe height=&quot;500&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;CSS Glowing Particle Animation&quot; src=&quot;https://codepen.io/natewiley/embed/AucCw?height=500&amp;amp;theme-id=dark&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/natewiley/pen/AucCw&quot;&gt;CSS Glowing Particle Animation&lt;/a&gt; by Nate Wiley
+  (&lt;a href=&quot;https://codepen.io/natewiley&quot;&gt;@natewiley&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;9. Background Image Scroll Effect&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe height=&quot;500&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Pure CSS Background Image Scroll Effect&quot; src=&quot;https://codepen.io/carpenumidium/embed/LeOjKM?height=500&amp;amp;theme-id=dark&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/carpenumidium/pen/LeOjKM&quot;&gt;Pure CSS Background Image Scroll Effect&lt;/a&gt; by carpe numidium
+  (&lt;a href=&quot;https://codepen.io/carpenumidium&quot;&gt;@carpenumidium&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;10. Multiple Background Image Parallax&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe height=&quot;500&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;CSS Multiple Background Image Parallax Animation&quot; src=&quot;https://codepen.io/carpenumidium/embed/vNNzyG?height=500&amp;amp;theme-id=dark&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/carpenumidium/pen/vNNzyG&quot;&gt;CSS Multiple Background Image Parallax Animation&lt;/a&gt; by carpe numidium
+  (&lt;a href=&quot;https://codepen.io/carpenumidium&quot;&gt;@carpenumidium&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;11. Bokeh Effect&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe height=&quot;500&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Bokeh effect (CSS)&quot; src=&quot;https://codepen.io/Mamboleoo/embed/BxMQYQ?height=500&amp;amp;theme-id=dark&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/Mamboleoo/pen/BxMQYQ&quot;&gt;Bokeh effect (CSS)&lt;/a&gt; by Louis Hoebregts
+  (&lt;a href=&quot;https://codepen.io/Mamboleoo&quot;&gt;@Mamboleoo&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;12. Calm Breeze Login Screen&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe height=&quot;500&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Calm breeze login screen&quot; src=&quot;https://codepen.io/Lewitje/embed/BNNJjo?height=500&amp;amp;theme-id=dark&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/Lewitje/pen/BNNJjo&quot;&gt;Calm breeze login screen&lt;/a&gt; by Lewi Hussey
+  (&lt;a href=&quot;https://codepen.io/Lewitje&quot;&gt;@Lewitje&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;13. Effect Text Gradient&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe height=&quot;500&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Effect Text Gradient&quot; src=&quot;https://codepen.io/SoftwaRealles/embed/dExjRW?height=500&amp;amp;theme-id=dark&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/SoftwaRealles/pen/dExjRW&quot;&gt;Effect Text Gradient&lt;/a&gt; by Diogo Realles
+  (&lt;a href=&quot;https://codepen.io/SoftwaRealles&quot;&gt;@SoftwaRealles&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Nguồn thông tin: &lt;a href=&quot;https://viblo.asia/p/14-css-tao-hieu-ung-cho-background-tuyet-dep-LzD5djaeZjY&quot;&gt;viblo.asia&lt;/a&gt;&lt;br /&gt;
+Nguồn tổng hợp các tác giả tại: &lt;a href=&quot;https://codepen.io&quot;&gt;codepen.io&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><summary type="html">Phần tiếp theo của bài post 13 CSS tạo hiệu ứng cho Background tuyệt đẹp.</summary></entry><entry><title type="html">Các tựa game phong cách anime Nhật bất ngờ thống trị danh sách bán chạy của Steam trong tháng 2/2020</title><link href="http://localhost:4000/2020/03/22/cac-tua-game-phong-cach-anime-nhat-bat-ngo-thong-tri-danh-sach-ban-chay-cua-steam-trong-thang-2-2020.html" rel="alternate" type="text/html" title="Các tựa game phong cách anime Nhật bất ngờ thống trị danh sách bán chạy của Steam trong tháng 2/2020" /><published>2020-03-22T00:00:00+07:00</published><updated>2020-03-22T00:00:00+07:00</updated><id>http://localhost:4000/2020/03/22/cac-tua-game-phong-cach-anime-nhat-bat-ngo-thong-tri-danh-sach-ban-chay-cua-steam-trong-thang-2-2020</id><content type="html" xml:base="http://localhost:4000/2020/03/22/cac-tua-game-phong-cach-anime-nhat-bat-ngo-thong-tri-danh-sach-ban-chay-cua-steam-trong-thang-2-2020.html">&lt;p&gt;&lt;strong&gt;Game Nhật thì anh em… biết cả rồi đấy.&lt;/strong&gt;*&lt;/p&gt;
 
 &lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://zicxa.com/hinh-anh/wp-content/uploads/2020/02/T%E1%BB%95ng-h%E1%BB%A3p-h%C3%ACnh-n%E1%BB%81n-Nier-Automata-Wallpaper-%C4%91%E1%BA%B9p-nh%E1%BA%A5t-10.jpg&quot; /&gt;&lt;/center&gt;
 
@@ -43,7 +198,100 @@
 
 &lt;p&gt;Anh em có thể tham khảo thêm những tựa game này &lt;a href=&quot;https://store.steampowered.com/sale/top_february_2020&quot;&gt;tại đây&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Nguồn thông tin: &lt;a href=&quot;https://www.pcgamer.com/metro-exodus-and-waifus-over-husbandos-among-februarys-top-steam-games/?fbclid=IwAR3UN25T9XQiDZt1zJndjm3ZsRwhtQENEYvAoqENAVBh7b9bD_MD3GipwwM&quot;&gt;PC GAMER&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><summary type="html">Game Nhật thì anh em… biết cả rồi đấy.</summary></entry><entry><title type="html">Cách tạo trang blog với Jekyll</title><link href="http://localhost:4000/2020/03/21/cach-tao-trang-blog-voi-jekyll.html" rel="alternate" type="text/html" title="Cách tạo trang blog với Jekyll" /><published>2020-03-21T00:00:00+07:00</published><updated>2020-03-21T00:00:00+07:00</updated><id>http://localhost:4000/2020/03/21/cach-tao-trang-blog-voi-jekyll</id><content type="html" xml:base="http://localhost:4000/2020/03/21/cach-tao-trang-blog-voi-jekyll.html">&lt;p&gt;Bạn muốn làm một website đơn giản, không cầu kỳ về &lt;code class=&quot;highlighter-rouge&quot;&gt;database&lt;/code&gt;, không nhập xuất dữ liệu thì &lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt; là một ứng cử viên sáng giá nhất nhì so với &lt;strong&gt;Gatsby&lt;/strong&gt; hoặc &lt;strong&gt;NextJS&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Nguồn thông tin: &lt;a href=&quot;https://www.pcgamer.com/metro-exodus-and-waifus-over-husbandos-among-februarys-top-steam-games/?fbclid=IwAR3UN25T9XQiDZt1zJndjm3ZsRwhtQENEYvAoqENAVBh7b9bD_MD3GipwwM&quot;&gt;PC GAMER&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><summary type="html">Game Nhật thì anh em… biết cả rồi đấy.</summary></entry><entry><title type="html">Một số animation effect đẹp mắt để apply cho website của bạn</title><link href="http://localhost:4000/2020/03/22/mot-so-animation-effect-dep-mat-de-apply-cho-website-cua-ban.html" rel="alternate" type="text/html" title="Một số animation effect đẹp mắt để apply cho website của bạn" /><published>2020-03-22T00:00:00+07:00</published><updated>2020-03-22T00:00:00+07:00</updated><id>http://localhost:4000/2020/03/22/mot-so-animation-effect-dep-mat-de-apply-cho-website-cua-ban</id><content type="html" xml:base="http://localhost:4000/2020/03/22/mot-so-animation-effect-dep-mat-de-apply-cho-website-cua-ban.html">&lt;p&gt;Khi bạn là một lập trình viên web, ít nhất đôi lần bạn sẽ phải va chạm với css và js. Với 2 thứ bảo bối này kết hợp cho html, bạn sẽ thực sự ngạc nhiên nếu thấy những trang web độc đáo và cực kỳ bắt mắt mà chúng có thể tạo ra đấy. Chúng ta thử tìm hiểu một số hiệu ứng cool ngầu có thể áp dụng vào website nhé.&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;w=1000&amp;amp;q=80&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;strong&gt;Chú ý: nếu bạn không thấy animtion hiển thị hoặc resource ko thể truy cập, đừng lo bạn chỉ cần vào &lt;a href=&quot;https://codepen.io/&quot;&gt;codepen.io&lt;/a&gt; để &lt;code class=&quot;highlighter-rouge&quot;&gt;submit&lt;/code&gt; quyền truy cập vào trang. Sau đó f5 (reset) lại trang &lt;code class=&quot;highlighter-rouge&quot;&gt;https://congnghevacuocsong.tk&lt;/code&gt; là được !&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Sakura Animation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Banner có animation như 1 cơn mưa những cánh anh đào cực kỳ ấn tượng, phù hợp với các trang web du lịch hoặc thời trang. CSS đơn giản, tuy nhiên JS rất phức tạp.&lt;/p&gt;
+
+&lt;iframe height=&quot;500&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;tqdmv&quot; src=&quot;https://codepen.io/at80/embed/tqdmv?height=500&amp;amp;theme-id=dark&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/at80/pen/tqdmv&quot;&gt;tqdmv&lt;/a&gt; by Anand Davaasuren
+  (&lt;a href=&quot;https://codepen.io/at80&quot;&gt;@at80&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Hiệu ứng thay đổi màu&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Banner có animation khi bạn click vào sẽ đổi màu tuỳ theo thứ tự bạn đã setting trước. Cũng giống như Sakura Animation, css đơn giản và js rất phức tạp, và cũng rất bắt mắt. Phù hợp với các trang web về thiết kế nội thất.&lt;/p&gt;
+
+&lt;iframe height=&quot;500&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Color Changin'&quot; src=&quot;https://codepen.io/alexzaworski/embed/mEkvAG?height=500&amp;amp;theme-id=dark&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/alexzaworski/pen/mEkvAG&quot;&gt;Color Changin'&lt;/a&gt; by Alex Zaworski
+  (&lt;a href=&quot;https://codepen.io/alexzaworski&quot;&gt;@alexzaworski&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Hiệu ứng chòm sao&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Banner có animation như các chòm sao (hoặc như các cấu trúc hoá học, nếu chỉnh sửa lại tí xíu). Đây là animation mình rất thích, vì nó hoàn toàn làm bằng css, không có js. 😄 Banner này phù hợp các website về thiên văn hoặc vật lý, hoá học.&lt;/p&gt;
+
+&lt;iframe height=&quot;500&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Animated Background Header&quot; src=&quot;https://codepen.io/jasperlachance/embed/QNMwBg?height=500&amp;amp;theme-id=dark&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/jasperlachance/pen/QNMwBg&quot;&gt;Animated Background Header&lt;/a&gt; by Jasper LaChance
+  (&lt;a href=&quot;https://codepen.io/jasperlachance&quot;&gt;@jasperlachance&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Hiệu ứng hoạt hình&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Banner có animation như cảnh hoạt hình. Đây cũng là animation hoàn toàn làm bằng css.
+Banner này phù hợp các website về anime, manga.&lt;/p&gt;
+
+&lt;iframe height=&quot;500&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Parallax backgrounds with walk cycle&quot; src=&quot;https://codepen.io/rachelnabors/embed/AvGhp?height=500&amp;amp;theme-id=dark&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/rachelnabors/pen/AvGhp&quot;&gt;Parallax backgrounds with walk cycle&lt;/a&gt; by Rachel Nabors
+  (&lt;a href=&quot;https://codepen.io/rachelnabors&quot;&gt;@rachelnabors&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Hiệu ứng Clean Slider With Curved Background&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Banner này tạo hiệu ứng chuyển đổi hình ảnh background khá đẹp, sử dụng cả js và css.&lt;/p&gt;
+
+&lt;iframe height=&quot;500&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Clean Slider With Curved Background&quot; src=&quot;https://codepen.io/mrspok407/embed/NRxBWa?height=500&amp;amp;theme-id=dark&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/mrspok407/pen/NRxBWa&quot;&gt;Clean Slider With Curved Background&lt;/a&gt; by Ruslan Pivovarov
+  (&lt;a href=&quot;https://codepen.io/mrspok407&quot;&gt;@mrspok407&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;6. Hiệu ứng Shattering&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Đây là hiệu ứng tạo kiểu broken text cho banner, sử dụng cả js và css. Nếu kết hợp với các hiệu ứng banner khác, sẽ tạo ra 1 banner tuyệt vời cho website của bạn đấy.&lt;/p&gt;
+
+&lt;iframe height=&quot;500&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Shattering Text Animation&quot; src=&quot;https://codepen.io/ARS/embed/pjypwd?height=500&amp;amp;theme-id=dark&amp;amp;default-tab=result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/ARS/pen/pjypwd&quot;&gt;Shattering Text Animation&lt;/a&gt; by Arsen Zbidniakov
+  (&lt;a href=&quot;https://codepen.io/ARS&quot;&gt;@ARS&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Mình vừa chia sẻ với các bạn một số hiệu ứng banner mà mình thấy ấn tượng, có thể áp dụng trong quá trình thiết kế website. Ngoài ra các bạn có thể tham khảo thêm từ những nguồn bên dưới. Cá nhân mình thì thích các banner không sử dụng hoặc ít dùng js, vì mình thấy nó khá là rối rắm, nếu có dùng thì đa số chúng ta đều sử dụng js được chia sẻ trên mạng. Mai mốt chúng ta cùng tìm hiểu một số trang web có ý tưởng thiết kế thật độc đáo cool ngầu từ thiết kế menu cho tới cách hiển thị nội dung nhé.&lt;/p&gt;
+
+&lt;p&gt;Link tham khảo:&lt;br /&gt;
+&lt;a href=&quot;https://bashooka.com/coding/web-background-animation-effects/&quot;&gt;https://bashooka.com/coding/web-background-animation-effects/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://speckyboy.com/css-javascript-text-animation-snippets/&quot;&gt;https://speckyboy.com/css-javascript-text-animation-snippets/&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><summary type="html">Khi bạn là một lập trình viên web, ít nhất đôi lần bạn sẽ phải va chạm với css và js. Với 2 thứ bảo bối này kết hợp cho html, bạn sẽ thực sự ngạc nhiên nếu thấy những trang web độc đáo và cực kỳ bắt mắt mà chúng có thể tạo ra đấy. Chúng ta thử tìm hiểu một số hiệu ứng cool ngầu có thể áp dụng vào website nhé.</summary></entry><entry><title type="html">Cách tạo trang blog với Jekyll</title><link href="http://localhost:4000/2020/03/21/cach-tao-trang-blog-voi-jekyll.html" rel="alternate" type="text/html" title="Cách tạo trang blog với Jekyll" /><published>2020-03-21T00:00:00+07:00</published><updated>2020-03-21T00:00:00+07:00</updated><id>http://localhost:4000/2020/03/21/cach-tao-trang-blog-voi-jekyll</id><content type="html" xml:base="http://localhost:4000/2020/03/21/cach-tao-trang-blog-voi-jekyll.html">&lt;p&gt;Bạn muốn làm một website đơn giản, không cầu kỳ về &lt;code class=&quot;highlighter-rouge&quot;&gt;database&lt;/code&gt;, không nhập xuất dữ liệu thì &lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt; là một ứng cử viên sáng giá nhất nhì so với &lt;strong&gt;Gatsby&lt;/strong&gt; hoặc &lt;strong&gt;NextJS&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://d33wubrfki0l68.cloudfront.net/c9b06c39af69c905b6d31819a9ac9c8a78c77cd6/a5f98/media/images/blogging/jekyll/jekyll.png&quot; /&gt;&lt;/center&gt;
 
@@ -448,16 +696,4 @@ Nếu muốn gỡ, thì bạn làm như trên.&lt;/p&gt;
 
 &lt;p&gt;Dựa trên cấu trúc của Debian, Sparky Linux sở hữu các cơ chế sử dụng tương đương. Nó được thiết kế và phát triển dành cho những hệ thống phần cứng cũ, những chiếc máy có cấu hình tương đối kém so với hiện nay. Cùng với đó, nó sở hữu các ứng dụng được phát triển riêng, giúp nó có khả năng sử dụng tương đối hấp dẫn, bao gồm ứng dụng SparkyAPTus và kho ứng dụng không thua kém gì hệ điều hành Windows.
 &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><summary type="html">Debian là phiên bản distro Linux được nhiều chuyên gia đánh giá là tốt nhất dành cho những hệ thống máy trạm, server hay database.</summary></entry><entry><title type="html">Tựa game anh em yêu thích mùa dịch Coronavirus, Plague Inc., bị Trung Quốc tố là bất hợp pháp</title><link href="http://localhost:4000/2020/02/28/tua-game-anh-em-yeu-thich-mua-dich-coronavirus-plague-inc-bi-trung-quoc-to-la-bat-hop-phap.html" rel="alternate" type="text/html" title="Tựa game anh em yêu thích mùa dịch Coronavirus, Plague Inc., bị Trung Quốc tố là bất hợp pháp" /><published>2020-02-28T00:00:00+07:00</published><updated>2020-02-28T00:00:00+07:00</updated><id>http://localhost:4000/2020/02/28/tua-game-anh-em-yeu-thich-mua-dich-coronavirus-plague-inc-bi-trung-quoc-to-la-bat-hop-phap</id><content type="html" xml:base="http://localhost:4000/2020/02/28/tua-game-anh-em-yeu-thich-mua-dich-coronavirus-plague-inc-bi-trung-quoc-to-la-bat-hop-phap.html">&lt;h3 id=&quot;hồi-trước-thì-vẫn-ổn-bây-giờ-lại-nói-bất-hợp-pháp-là-sao&quot;&gt;Hồi trước thì vẫn ổn, bây giờ lại nói bất hợp pháp là sao?…&lt;/h3&gt;
-
-&lt;p&gt;Plague Inc. là một game thuộc thể loại chiến thuật thời gian thực. Hồi cuối tháng 1/2020, tựa game này bỗng dưng “hot” trở lại nhờ virus Corona. Tuy nhiên, mới đây thì App Store Trung Quốc đã xóa Plague Inc. khỏi thư viện game của họ.&lt;/p&gt;
-
-&lt;p&gt;Nhà phát triển Ndemic Creations giải thích rằng vấn đề này vượt ngoài tầm kiểm soát của họ và họ đang xem xét tình hình để đem Plague Inc. trở lại với game thủ Trung Quốc. Ndemic Creations cho biết lý do mà game này bị gỡ là bởi vì nó chứa nội dung bất hợp pháp theo Cục quản lý An ninh mạng Trung Quốc (Cyberspace Administration of China).&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://news.gearvn.com/wp-content/uploads/2020/02/5867854678-938x1024.jpg&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;Ngoài ra thì studio cũng không rõ việc này có liên quan đến dịch Coronavirus tại Trung Quốc hay không, bởi vì nội dung game này xoay quanh việc dịch bệnh chết người bị phát tán ra toàn cầu. Điều quan trọng nhất đối với Ndemic hiện tại là liên hệ với Cục quản lý An ninh mạng Trung Quốc để tìm giải pháp cho vấn đề này.&lt;/p&gt;
-
-&lt;p&gt;Các bạn có thể xem chi tiết thông báo của Ndemic Creations &lt;a href=&quot;https://www.ndemiccreations.com/en/news/173-statement-on-the-removal-of-plague-inc-from-the-china-app-store&quot;&gt;tại đây&lt;/a&gt;.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><summary type="html">Hồi trước thì vẫn ổn, bây giờ lại nói bất hợp pháp là sao?...</summary></entry></feed>
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><summary type="html">Debian là phiên bản distro Linux được nhiều chuyên gia đánh giá là tốt nhất dành cho những hệ thống máy trạm, server hay database.</summary></entry></feed>

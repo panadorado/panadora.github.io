@@ -7,42 +7,12 @@
 body {
   /*background: #efefef !important;*/
   font-family: 'Hepta Slab', serif;
-  background-image: linear-gradient(to top, #a4def5, #dddd);
+  background-image: url(../image/background-body.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-/*
-.navbar-menu {
-  background: #242424;
-  margin-bottom: 20px;
-}
-
-.header-item {
-  display: flex;
-}
-
-.header-item li {
-  list-style-type: none;
-  font-size: 18px;
-}
-
-li a {
-  color: #fff;
-  text-decoration: none;
-
-  transition: all background 1s , color 1s;
-  -webkit-transition: background 1s,  color 1s;
-  -moz-transition: background 1s, color 1s;
-}
-
-li a:hover {
-  text-decoration: none;
-
-  transition: all background 1s , color 1s;
-  -webkit-transition: background 1s,  color 1s;
-  -moz-transition: background 1s, color 1s;
-  background: #dddd;
-  color: red;
-} */
 
 /* Navber MENU */
 
@@ -206,7 +176,7 @@ h1 a:hover {
   font-size: 20px;
 }
 
-.single-blog .entry-title:hover {
+/*.single-blog .entry-title:hover {
   white-space: pre-line;
   overflow: visible;
   transition: .4s width;
@@ -214,8 +184,8 @@ h1 a:hover {
   /*transition: all 1s height;
   -webkit-transition: 1s height;
   -moz-transition: 1s height;
-  height: auto;*/
-}
+  height: auto;
+}*/
 
 .entry-title a {
   color: #3c7984;
@@ -274,26 +244,6 @@ h1 a:hover {
   background-image: linear-gradient(to left, #00ffa1, #00ffff);
   color: red;
 }
-
-/*
-
-.entry-title a {
-  display: block;
-  max-width: 350px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.text-content {
-  display: inline-block;
-  max-width: 320px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-} 
-
-*/
 
 .footer {
   left: 0;
@@ -363,5 +313,7 @@ h1 a:hover {
 }
 
 .img-hover:hover {
-  border-radius: 50px;
+  transform: scale(1.03);
+  opacity: 0.8;
+  border: 2px solid #000;
 }
