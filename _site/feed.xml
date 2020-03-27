@@ -1,4 +1,195 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-27T16:19:33+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 1)</title><link href="http://localhost:4000/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P1.html" rel="alternate" type="text/html" title="13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 1)" /><published>2020-03-26T00:00:00+07:00</published><updated>2020-03-26T00:00:00+07:00</updated><id>http://localhost:4000/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P1</id><content type="html" xml:base="http://localhost:4000/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P1.html">&lt;p&gt;Với CSS bạn có thể tạo ra các hiệu ứng rất đẹp và thú vị khi kết hợp với HTML và JavaScript, hoặc ngay cả khi chỉ có mình nó, CSS hỗ trợ rất nhiều trong việc thiết kế giao diện. Bạn sẽ ngạc nhiên về những gì các nhà phát triển có thể tạo ra.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-27T21:03:40+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Canvas cơ bản</title><link href="http://localhost:4000/2020/03/27/canvas-co-ban.html" rel="alternate" type="text/html" title="Canvas cơ bản" /><published>2020-03-27T00:00:00+07:00</published><updated>2020-03-27T00:00:00+07:00</updated><id>http://localhost:4000/2020/03/27/canvas-co-ban</id><content type="html" xml:base="http://localhost:4000/2020/03/27/canvas-co-ban.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://www.dammio.com/wp-content/uploads/2018/06/html5-canvas-770x433.jpg&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;Canvas là gì ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Phần tử &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;canvas&amp;gt;&amp;lt;/canvas&amp;gt;&lt;/code&gt; hay còn gọi là thẻ trong HTML được dùng để vẽ các đối tượng đồ họa, nó chiếm một vùng trên trang web, qua nguôn ngữ dạng &lt;code class=&quot;highlighter-rouge&quot;&gt;Script&lt;/code&gt; thường là &lt;code class=&quot;highlighter-rouge&quot;&gt;JavaScript&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;canvas&amp;gt;&amp;lt;/canvas&amp;gt;&lt;/code&gt; chỉ chứa khối đồ họa. Bạn phải dùng một script để vẽ các đối tượng. Canvas cung cấp nhiều cách để vẽ đường thẳng, hình hộp, hình tròn, viết chữ, chèn ảnh,v.v.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Trình duyệt hỗ trợ&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Những phiên bản trình duyệt bắt đầu hỗ trợ thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;canvas&amp;gt;&amp;lt;/canvas&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;style type=&quot;text/css&quot;&gt;
+	td {border: 2px solid #dddd; padding: 20px; text-align: center;}
+	td i {
+		font-size: 25px;
+	}
+&lt;/style&gt;
+
+&lt;table class=&quot;table table-dark&quot; style=&quot;text-align: center;&quot;&gt;
+	&lt;tr&gt;
+		&lt;td&gt; Browser &lt;/td&gt;
+		&lt;td&gt; &lt;i class=&quot;fab fa-chrome&quot;&gt; Chrome&lt;/i&gt; &lt;/td&gt;
+		&lt;td&gt; &lt;i class=&quot;fab fa-firefox-browser&quot;&gt; Firefox&lt;/i&gt; &lt;/td&gt;
+		&lt;td&gt; &lt;i class=&quot;fab fa-internet-explorer&quot;&gt; Explorer/Edge&lt;/i&gt; &lt;/td&gt;
+		&lt;td&gt; &lt;i class=&quot;fab fa-safari&quot;&gt; Safari&lt;/i&gt; &lt;/td&gt;
+		&lt;td&gt; &lt;i class=&quot;fab fa-opera&quot;&gt; Openra&lt;/i&gt; &lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt; Version &lt;/td&gt;
+		&lt;td&gt; 4.0 &lt;/td&gt;
+		&lt;td&gt; 9.0 &lt;/td&gt;
+		&lt;td&gt; 2.0 &lt;/td&gt;
+		&lt;td&gt; 3.1&lt;/td&gt;
+		&lt;td&gt; 9.0 &lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;Một số ví dụ về canvas&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Chú ý: Luôn luôn đặt thuộc tính &lt;code class=&quot;highlighter-rouge&quot;&gt;id&lt;/code&gt; hoặc &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt; (để có thể gọi trong script), thuộc tính width và height để đặt kích thước của &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt;. Để thêm đường viền, sử dụng thuộc tính style như ví dụ dưới.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	
+	/* 
+	** khai bảo thẻ &lt;span class=&quot;nt&quot;&gt;&amp;lt;canvas&amp;gt;&lt;/span&gt; trong thẻ &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt; của html
+	*/
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;canvas&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;drawing&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;300&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;300&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;border: 1px solid #000;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/canvas&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;kết quả như sau:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/border-with-canvas.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;strong&gt;Thao tác vẽ với JavaScript&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tạo một file html với tên là &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; và viết code sau:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+	&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+			&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;../drawCanvas.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+			&lt;span class=&quot;nt&quot;&gt;&amp;lt;canvas&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;drawing&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;200&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;200&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/canvas&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Tạo một file JavaScript với tên là &lt;code class=&quot;highlighter-rouge&quot;&gt;drawCanvas.js&lt;/code&gt; và viết code sau:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+	&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;canvas&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.drawing&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;canvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getContext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;2d&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;beginPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;moveTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;250&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;250&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stroke&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;kết quả như sau:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/draw-line-canvas.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;trong đó:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;c.beginPath();&lt;/code&gt; : Mở đầu cho mỗi nét vẽ. &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;c.moveTo(x, y);&lt;/code&gt; : Điểm bắt đầu vẽ xác định theo x và y. &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;c.lineTo(x, y);&lt;/code&gt; : Tạo đường vẽ từ điểm bắt đầu đến điểm cuối theo x và . &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;c.stroke();&lt;/code&gt; : Tạo nét. &lt;br /&gt;
+ &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt;: là trục hoành. &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;y&lt;/code&gt;: là trục tung. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ví dụ 2 vẽ đường dẫn tạo hình với JavaScript&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	
+	&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+			&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;../drawCanvas.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+			&lt;span class=&quot;nt&quot;&gt;&amp;lt;canvas&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;drawing&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;300&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;300&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/canvas&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+	&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;canvas&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.drawing&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;canvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getContext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;2d&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;beginPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;moveTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;250&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;250&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;250&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;250&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;250&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;closePath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;250&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stroke&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Tất nhiên bạn có thể tái sử dụng &lt;code class=&quot;highlighter-rouge&quot;&gt;lineTo()&lt;/code&gt; nhiều lần cho các nét vẽ tiếp theo.&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;closePath()&lt;/code&gt;: Nối điểm cuối cùng của nét vẽ cuối* đến điểm bắt đầu nét vẽ.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;kết quả như sau:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/draw-line-canvas2.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;strong&gt;Lưu ý !:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Nếu bạn có ý định tạo một nét vẽ mới, nên sử dụng &lt;code class=&quot;highlighter-rouge&quot;&gt;beginPath()&lt;/code&gt; mới và kết thúc chúng ngay khi dùng &lt;code class=&quot;highlighter-rouge&quot;&gt;stroke()&lt;/code&gt;, thay vì viết đè như ví dụ trên.&lt;/p&gt;
+
+&lt;p&gt;var canvas = document.querySelector(“.drawing”);
+var c = canvas.getContext(“2d”);&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ví dụ 3 độ rộng nét vẽ&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	
+	&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+			&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;../drawCanvas.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+			&lt;span class=&quot;nt&quot;&gt;&amp;lt;canvas&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;drawing&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;300&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;300&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/canvas&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+	&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;canvas&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.drawing&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;canvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getContext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;2d&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;beginPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;moveTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;220&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineWidth&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;strokeStyle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;#273c75&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stroke&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;beginPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;moveTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;220&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;220&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;220&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineWidth&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;strokeStyle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;#ED4C67&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stroke&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Kết quả:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/draw-linebg-canvas.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;trong đó:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;lineWidth&lt;/code&gt; : Tăng độ rộng cho nét vẽ. &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;strokeStyle&lt;/code&gt; : Màu nét vẽ, có thể là màu &lt;code class=&quot;highlighter-rouge&quot;&gt;hsl()&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rgb()&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rgba()&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;hex....&lt;/code&gt; &lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Lưu ý !:&lt;/strong&gt;
+&lt;br /&gt;
+Cột màu xanh lơ và cột màu hồng có sự khác nhau về đường nét. Canvas không thể chọn 0.5 điểm ảnh cho mỗi bên, vì thế trong canvas đừng nên dùng số lẻ.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nguồn thông tin từ:&lt;/strong&gt;  &lt;a href=&quot;https://dev-note.cf&quot; style=&quot;font-weight: bold;&quot;&gt;https://dev-note.cf&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><summary type="html">Canvas là gì ? phần tử canvas hay còn gọi là thẻ canvas trong html</summary></entry><entry><title type="html">13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 1)</title><link href="http://localhost:4000/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P1.html" rel="alternate" type="text/html" title="13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 1)" /><published>2020-03-26T00:00:00+07:00</published><updated>2020-03-26T00:00:00+07:00</updated><id>http://localhost:4000/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P1</id><content type="html" xml:base="http://localhost:4000/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P1.html">&lt;p&gt;Với CSS bạn có thể tạo ra các hiệu ứng rất đẹp và thú vị khi kết hợp với HTML và JavaScript, hoặc ngay cả khi chỉ có mình nó, CSS hỗ trợ rất nhiều trong việc thiết kế giao diện. Bạn sẽ ngạc nhiên về những gì các nhà phát triển có thể tạo ra.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://techtalk.vn/wp-content/uploads/2019/02/css-art.jpg&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;
@@ -644,56 +835,4 @@ Nếu muốn gỡ, thì bạn làm như trên.&lt;/p&gt;
 
 &lt;p&gt;Tuy nhiên Kali Linux lại được các giới hacker chuộn dùng nhằm các mục đích tấn công và kiểm tra bảo mât còn đối với người dùng, Kali Linux sẽ ko mấy thân thiện cho lắm. Nói đi nói lại Kali Linux cũng xứng đáng là một hệ điều hành với mục đích học tập hoặc làm việc.
 &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><summary type="html">Windows, OS X đang là 2 trong số những hệ điều hành được sử dụng phổ biến nhất trên những hệ máy tính xách tay và máy tính bàn. Những tính năng, khả năng hoạt động mạnh mẽ và độ tương thích của nó là không thể bàn cãi, tuy nhiên không vì thế mà bạn lại không quan tâm, hay chú ý đến một hệ điều hành khác, một hệ điều hành được ra đời từ khá lâu, và cũng nổi tiếng không hề thua kém 2 hệ điều hành trên, đó là Linux. Linux được biết đến như là một trong những hệ điều hành cơ bản, với khả năng hoạt động hết sức tối ưu với phần cứng, giúp người dùng không phải bận tâm đến sức mạnh phần cứng của chiếc máy mình đang dùng.</summary></entry><entry><title type="html">10 phiên bản hệ điều hành Linux tốt nhất hiện nay (Phần 2)</title><link href="http://localhost:4000/2020/02/28/10-phien-ban-he-dieu-hanh-linux-tot-nhat-hien-nay-phan-2-21232.html" rel="alternate" type="text/html" title="10 phiên bản hệ điều hành Linux tốt nhất hiện nay (Phần 2)" /><published>2020-02-28T00:00:00+07:00</published><updated>2020-02-28T00:00:00+07:00</updated><id>http://localhost:4000/2020/02/28/10-phien-ban-he-dieu-hanh-linux-tot-nhat-hien-nay-phan-2-21232</id><content type="html" xml:base="http://localhost:4000/2020/02/28/10-phien-ban-he-dieu-hanh-linux-tot-nhat-hien-nay-phan-2-21232.html">&lt;p&gt;Debian là phiên bản distro Linux được nhiều chuyên gia đánh giá là tốt nhất dành cho những hệ thống máy trạm, server hay database.&lt;/p&gt;
-
-&lt;p&gt;Tiếp theo &lt;a href=&quot;https://xpanadora.github.io/10-phien-ban-he-dieu-hanh-linux-tot-nhat-hien-nay-phan-1-21228.html&quot;&gt;phần 1 của bài viết 10 phiên bản hệ điều hành Linux tốt nhất hiện&lt;/a&gt; nay sẽ là 6 phiên bản distro tiếp theo của hệ điều hành Linux. Một trong những hệ điều hành sở hữu tính năng hấp dẫn, cùng khả năng hoạt động tối ưu và mạnh mẽ. Do đó, không hề bất ngờ khi nó đang là một trong những hệ điều hành dành cho máy trạm, server hay database.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Debian&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Debian là phiên bản distro Linux được nhiều chuyên gia đánh giá là tốt nhất dành cho những hệ thống máy trạm, server hay database. Nó sở hữu các tính năng và khả năng quản lý hiệu suất cao, bao gồm Gnome, KDE, Mate, XFCE… Debian có khả năng hoạt động linh hoạt, cùng các thiết lập hệ thống đơn giản, khi không yêu cầu trình điều khiển độc quyền hoặc codecs, bởi nó được đóng gói sẵn với công cụ trên.&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/03/30/He_dieu_hanh_Linux_30_3(1).jpg&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;Ngoài ra, không giống với những distro khác, Debian được nhà phát triển liên tục cung cấp các gói ổn định hệ thống, cùng các phiên bản cập nhật mới giúp hệ thống hoàn thiện và tự động sửa lỗi, do đó nó luôn sở hữu cơ chế bảo mật hấp dẫn cùng khả năng làm việc tối ưu.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Korora&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Korora là distro Linux cung cấp cho người dùng khá nhiều tiện ích, bao gồm các phiên bản Gnome, Cinnamon, Mate, KDE và XFCE, trong đó mỗi phiên bản còn chia ra 2 cấu trúc, gồm 32 bit và 64 bit. Cho người dùng khả năng sử dụng và vận hành một cách dễ dàng. Cùng với đó, Korora còn sở hữu các tính năng DVD Live khá hấp dẫn, và một kho ứng dụng phong phú, khiến nó là một trong những phiên bản Linux thân thiện với người dùng.&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/03/30/He_dieu_hanh_Linux_30_3(3).jpg&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;Ngoài ra, nó còn sở hữu nhiều phần mềm quản lý, bao gồm Apper và YUM-Extender, một trong 2 công cụ quản lý gói đồ họa phổ biến và được tin dùng nhất hiện nay.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Mageia&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Mageia là một distro Linux được phát triển và phân phối bởi Mandriva Linux, nó được lên kế hoạch phát triển vào những năm 1998, dựa trên cấu trúc Red Hat Linux 5.1, và cho đến nay nó đã đượ cung cấp ra thị trường nhiều phiên bản khác nhau, mỗi phiên bản là sở hữu những tính năng cung cấp đến người dùng riêng biệt.&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/03/30/He_dieu_hanh_Linux_30_3(6).jpg&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;Mageia là một distro dựa trên RPM, cùng các gói công cụ và ứng dụng đi kèm vô cùng phong phú, giúp nó là một trong những phiên bản Linux mạnh mẽ và tương đối dễ sử dụng. Cùng với đó, nó sở hữu các cơ chế cài đặt tương đối dễ dàng, cùng với các mức thiết lập từ cơ bản cho đến nâng cao, giúp người dùng dễ dàng sử dụng hơn.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Elementary OS&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Mặc dù được xây dựng trên cấu trúc của Ubuntu, nhưng Elementary lại đi theo xu hướng khác. Nó sở hữu các ứng dụng tùy chỉnh launcher, quản lý tập tin, khả năng xử dụng tương đương với những chiếc máy tính để bàn, biểu tượng, chủ đề và nhiều hơn thế nữa. Cùng với đó, nó cũng là một trong distro Linux tập trung khá nhiều vào thiết kế, với hàng loạt các gói phầm mềm hỗ trợ đi kèm.&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/03/30/He_dieu_hanh_Linux_30_3(7).jpg&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;Ngoài ra, nó còn có khả năng xử dụng các ứng dụng của Apple, bao gồm Apple Photo Booth, Geary Mail, soạn thảo văn bản Scratch, Audience Videoer, Gala Windows Manager…&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Sparky Linux&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://fptshop.com.vn/Uploads/images/2015/Tin-Tuc/03/30/He_dieu_hanh_Linux_30_3(10).jpg&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;Dựa trên cấu trúc của Debian, Sparky Linux sở hữu các cơ chế sử dụng tương đương. Nó được thiết kế và phát triển dành cho những hệ thống phần cứng cũ, những chiếc máy có cấu hình tương đối kém so với hiện nay. Cùng với đó, nó sở hữu các ứng dụng được phát triển riêng, giúp nó có khả năng sử dụng tương đối hấp dẫn, bao gồm ứng dụng SparkyAPTus và kho ứng dụng không thua kém gì hệ điều hành Windows.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><summary type="html">Debian là phiên bản distro Linux được nhiều chuyên gia đánh giá là tốt nhất dành cho những hệ thống máy trạm, server hay database.</summary></entry></feed>
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><summary type="html">Windows, OS X đang là 2 trong số những hệ điều hành được sử dụng phổ biến nhất trên những hệ máy tính xách tay và máy tính bàn. Những tính năng, khả năng hoạt động mạnh mẽ và độ tương thích của nó là không thể bàn cãi, tuy nhiên không vì thế mà bạn lại không quan tâm, hay chú ý đến một hệ điều hành khác, một hệ điều hành được ra đời từ khá lâu, và cũng nổi tiếng không hề thua kém 2 hệ điều hành trên, đó là Linux. Linux được biết đến như là một trong những hệ điều hành cơ bản, với khả năng hoạt động hết sức tối ưu với phần cứng, giúp người dùng không phải bận tâm đến sức mạnh phần cứng của chiếc máy mình đang dùng.</summary></entry></feed>
