@@ -19,13 +19,17 @@ Thẻ `<canvas></canvas>` chỉ chứa khối đồ họa. Bạn phải dùng m�
 Những phiên bản trình duyệt bắt đầu hỗ trợ thẻ `<canvas></canvas>`
 
 <style type="text/css">
-	td {border: 2px solid #dddd; padding: 20px; text-align: center;}
+	td {
+                border: 2px solid #dddd;
+                padding: 20px;
+                text-align: center;
+        }
 	td i {
 		font-size: 25px;
 	}
 </style>
 
-<table class="table table-dark" style="text-align: center;">
+<table class="table table-dark" style="text-align: center; width: auto;">
 	<tr>
 		<td> Browser </td>
 		<td> <i class="fab fa-chrome"> Chrome</i> </td>
