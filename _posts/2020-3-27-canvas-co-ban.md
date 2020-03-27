@@ -154,9 +154,6 @@ Tất nhiên bạn có thể tái sử dụng `lineTo()` nhiều lần cho các 
 
 Nếu bạn có ý định tạo một nét vẽ mới, nên sử dụng `beginPath()` mới và kết thúc chúng ngay khi dùng `stroke()`, thay vì viết đè như ví dụ trên.
 
-var canvas = document.querySelector(".drawing");
-var c = canvas.getContext("2d");
-
 **Ví dụ 3 độ rộng nét vẽ**
 
 ```html
