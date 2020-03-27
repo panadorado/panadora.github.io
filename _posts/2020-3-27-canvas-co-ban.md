@@ -19,7 +19,12 @@ Thẻ `<canvas></canvas>` chỉ chứa khối đồ họa. Bạn phải dùng m�
 Những phiên bản trình duyệt bắt đầu hỗ trợ thẻ `<canvas></canvas>`
 
 <style type="text/css">
-	td {border: 2px solid #dddd; padding: 20px; text-align: center;}
+	td {
+                border: 2px solid #dddd;
+                padding: 20px;
+                text-align: center;
+                width: auto;
+        }
 	td i {
 		font-size: 25px;
 	}
