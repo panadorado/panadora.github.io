@@ -30,7 +30,7 @@ Những phiên bản trình duyệt bắt đầu hỗ trợ thẻ `<canvas></can
 </style>
 
 <table class="table table-dark" style="text-align: center; width: auto;">
-	<tr>
+	<tr class="col">
 		<td> Browser </td>
 		<td> <i class="fab fa-chrome"> Chrome</i> </td>
 		<td> <i class="fab fa-firefox-browser"> Firefox</i> </td>
@@ -38,7 +38,7 @@ Những phiên bản trình duyệt bắt đầu hỗ trợ thẻ `<canvas></can
 		<td> <i class="fab fa-safari"> Safari</i> </td>
 		<td> <i class="fab fa-opera"> Openra</i> </td>
 	</tr>
-	<tr>
+	<tr class="col">
 		<td> Version </td>
 		<td> 4.0 </td>
 		<td> 9.0 </td>
