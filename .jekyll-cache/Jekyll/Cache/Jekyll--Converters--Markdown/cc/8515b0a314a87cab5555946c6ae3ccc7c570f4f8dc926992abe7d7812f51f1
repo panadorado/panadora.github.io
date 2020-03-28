@@ -1,0 +1,16 @@
+I"'<p><strong>Bạn là một người dùng windows và sau đó bạn chuyển sang dùng 1 hệ điều hành xa lạ để trải nghiệm đó là Ubuntu/Linux , điều đầu tiêp đập vào mắt bạn là ở 1 HĐH này là mới mẽ mang một loại cách tính năng khác lạ v.v.</strong></p>
+
+<p><strong>Nhưng bất ngờ vào một ngày đó bạn thử cài đặt một phần mềm của windows, nhưng không được vì phần mềm đó chỉ xây dựng và chạy trên HĐH Windows. Vì thế bài viết này sẽ hướng dẫn bạn cài đặt phần mềm đó trên HĐH Ubuntu/Linux với một ứng dụng mang tên PlayOnLinux.</strong></p>
+
+<p><strong>1. Cài đặt PlayOnLinux</strong></p>
+
+<p><em>PlayOnLinux là một frontend cho lớp tương thích phần mềm Wine cho phép người dùng Linux cài đặt các video game dựa trên Windows, Microsoft Office, Microsoft Internet Explorer, cũng như nhiều ứng dụng khác như Apple iTunes và Safari, chi tiết xin mời các bạn truy cập <a href="https://vi.wikipedia.org/wiki/PlayOnLinux">Wikipedia</a>.</em></p>
+
+<p>Thao tác mở <code class="highlighter-rouge">terminal</code> của ubuntu lên với tổ hợp phím <code class="highlighter-rouge">Ctrl + Alt + t</code> và thao dòng lệnh sau:</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+	<span class="nx">sudo</span> <span class="nx">apt</span> <span class="nx">install</span> <span class="nx">playonlinux</span>
+
+</code></pre></div></div>
+
+:ET
