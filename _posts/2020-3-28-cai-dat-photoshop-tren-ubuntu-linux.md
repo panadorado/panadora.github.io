@@ -6,7 +6,7 @@ author: Panadora
 excerpt: Bạn là một người dùng windows và sau đó bạn chuyển sang dùng 1 hệ điều hành xa lạ để trải nghiệm đó là Ubuntu/Linux , điều đầu tiên đập vào mắt bạn là ở 1 HĐH này là mới mẽ mang một loại cách tính năng khác lạ v.v.
 ---
 
-**Bạn là một người dùng windows và sau đó bạn chuyển sang dùng 1 hệ điều hành xa lạ để trải nghiệm đó là Ubuntu/Linux , điều đầu tiêp đập vào mắt bạn là ở 1 HĐH này là mới mẽ mang một loại cách tính năng khác lạ v.v.**
+**Bạn là một người dùng windows và sau đó bạn chuyển sang dùng 1 hệ điều hành xa lạ để trải nghiệm đó là Ubuntu/Linux , điều đầu tiên đập vào mắt bạn là ở 1 HĐH này là mới mẽ mang một loại cách tính năng khác lạ v.v.**
 
 **Nhưng bất ngờ vào một ngày đó bạn thử cài đặt một phần mềm của windows, nhưng không được vì phần mềm đó chỉ xây dựng và chạy trên HĐH Windows. Vì thế bài viết này sẽ hướng dẫn bạn cài đặt phần mềm đó trên HĐH Ubuntu/Linux với một ứng dụng mang tên PlayOnLinux.**
 
