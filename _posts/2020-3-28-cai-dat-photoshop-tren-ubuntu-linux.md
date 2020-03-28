@@ -49,6 +49,6 @@ Tới phần này buộc bạn ấn vào `Browse` tìm đến đường dẫn ch
 
 <iframe class="embed-responsive embed-responsive-21by9" height="450" src="https://www.youtube.com/embed/--bkO_K8YAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
-Nguôn thông tin: Được tổng hợp và thu thập từ nhiều nguồn.
+Nguồn thông tin: Được tổng hợp và thu thập từ nhiều nguồn.
 <hr>
 <br>
