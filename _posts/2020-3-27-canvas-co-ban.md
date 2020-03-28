@@ -19,23 +19,25 @@ Thẻ `<canvas></canvas>` chỉ chứa khối đồ họa. Bạn phải dùng m�
 Những phiên bản trình duyệt bắt đầu hỗ trợ thẻ `<canvas></canvas>`
 
 <style type="text/css">
-	td {border: 2px solid #dddd; padding: 20px; text-align: center;}
+	td {
+                border: 2px solid #dddd;
+                padding: 20px;
+                text-align: center;
+        }
 	td i {
 		font-size: 25px;
 	}
 </style>
 
-<table class="table table-dark" style="text-align: center;">
-	<tr>
-		<td> Browser </td>
-		<td> <i class="fab fa-chrome"> Chrome</i> </td>
-		<td> <i class="fab fa-firefox-browser"> Firefox</i> </td>
-		<td> <i class="fab fa-internet-explorer"> Explorer/Edge</i> </td>
-		<td> <i class="fab fa-safari"> Safari</i> </td>
-		<td> <i class="fab fa-opera"> Openra</i> </td>
+<table class="table table-dark" style="text-align:">
+	<tr class="col">
+		<td> <i class="fab fa-chrome"></i> </td>
+		<td> <i class="fab fa-firefox-browser"></i> </td>
+		<td> <i class="fab fa-internet-explorer"></i> </td>
+		<td> <i class="fab fa-safari"></i> </td>
+		<td> <i class="fab fa-opera"></i> </td>
 	</tr>
-	<tr>
-		<td> Version </td>
+	<tr class="col">
 		<td> 4.0 </td>
 		<td> 9.0 </td>
 		<td> 2.0 </td>
@@ -151,9 +153,6 @@ Tất nhiên bạn có thể tái sử dụng `lineTo()` nhiều lần cho các 
 **Lưu ý !:**
 
 Nếu bạn có ý định tạo một nét vẽ mới, nên sử dụng `beginPath()` mới và kết thúc chúng ngay khi dùng `stroke()`, thay vì viết đè như ví dụ trên.
-
-var canvas = document.querySelector(".drawing");
-var c = canvas.getContext("2d");
 
 **Ví dụ 3 độ rộng nét vẽ**
 
