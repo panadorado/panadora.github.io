@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-28T21:44:38+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Cài đặt Photoshop trên Ubuntu, Linux</title><link href="http://localhost:4000/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux.html" rel="alternate" type="text/html" title="Cài đặt Photoshop trên Ubuntu, Linux" /><published>2020-03-28T00:00:00+07:00</published><updated>2020-03-28T00:00:00+07:00</updated><id>http://localhost:4000/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux</id><content type="html" xml:base="http://localhost:4000/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux.html">&lt;p&gt;&lt;strong&gt;Bạn là một người dùng windows và sau đó bạn chuyển sang dùng 1 hệ điều hành xa lạ để trải nghiệm đó là Ubuntu/Linux , điều đầu tiêp đập vào mắt bạn là ở 1 HĐH này là mới mẽ mang một loại cách tính năng khác lạ v.v.&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-28T23:53:12+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Cài đặt Photoshop trên Ubuntu, Linux</title><link href="http://localhost:4000/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux.html" rel="alternate" type="text/html" title="Cài đặt Photoshop trên Ubuntu, Linux" /><published>2020-03-28T00:00:00+07:00</published><updated>2020-03-28T00:00:00+07:00</updated><id>http://localhost:4000/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux</id><content type="html" xml:base="http://localhost:4000/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux.html">&lt;p&gt;&lt;strong&gt;Bạn là một người dùng windows và sau đó bạn chuyển sang dùng 1 hệ điều hành xa lạ để trải nghiệm đó là Ubuntu/Linux , điều đầu tiêp đập vào mắt bạn là ở 1 HĐH này là mới mẽ mang một loại cách tính năng khác lạ v.v.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Nhưng bất ngờ vào một ngày đó bạn thử cài đặt một phần mềm của windows, nhưng không được vì phần mềm đó chỉ xây dựng và chạy trên HĐH Windows. Vì thế bài viết này sẽ hướng dẫn bạn cài đặt phần mềm đó trên HĐH Ubuntu/Linux với một ứng dụng mang tên PlayOnLinux.&lt;/strong&gt;&lt;/p&gt;
 
@@ -40,10 +40,75 @@ Thao tác mở &lt;code class=&quot;highlighter-rouge&quot;&gt;terminal&lt;/code
 
 &lt;iframe class=&quot;embed-responsive embed-responsive-21by9&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/--bkO_K8YAc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;
-Nguôn thông tin: Được tổng hợp và thu thập từ nhiều nguồn.&lt;/p&gt;
+Nguồn thông tin: Được tổng hợp và thu thập từ nhiều nguồn.&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><summary type="html">Bạn có thể không tin nhưng chúng ta hoàn toàn có thể cài đặt Photoshop trên Ubuntu, Linux một cách dễ dàng theo một phương thức đặt biệt.</summary></entry><entry><title type="html">Canvas cơ bản</title><link href="http://localhost:4000/2020/03/27/canvas-co-ban.html" rel="alternate" type="text/html" title="Canvas cơ bản" /><published>2020-03-27T00:00:00+07:00</published><updated>2020-03-27T00:00:00+07:00</updated><id>http://localhost:4000/2020/03/27/canvas-co-ban</id><content type="html" xml:base="http://localhost:4000/2020/03/27/canvas-co-ban.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://www.dammio.com/wp-content/uploads/2018/06/html5-canvas-770x433.jpg&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><summary type="html">Bạn là một người dùng windows và sau đó bạn chuyển sang dùng 1 hệ điều hành xa lạ để trải nghiệm đó là Ubuntu/Linux , điều đầu tiên đập vào mắt bạn là ở 1 HĐH này là mới mẽ mang một loại cách tính năng khác lạ v.v.</summary></entry><entry><title type="html">Hướng dẫn cài đặt Wine 5.0 trên Ubuntu</title><link href="http://localhost:4000/2020/03/28/huong-dan-cai-dat-wine.html" rel="alternate" type="text/html" title="Hướng dẫn cài đặt Wine 5.0 trên Ubuntu" /><published>2020-03-28T00:00:00+07:00</published><updated>2020-03-28T00:00:00+07:00</updated><id>http://localhost:4000/2020/03/28/huong-dan-cai-dat-wine</id><content type="html" xml:base="http://localhost:4000/2020/03/28/huong-dan-cai-dat-wine.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; width=&quot;350&quot; src=&quot;https://idroot.us/wp-content/uploads/2019/01/wine-linux-logo.jpg&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wine 5.0 trên Ubuntu – Wine 5.0 là phiên bản phát triển mới của phần mềm mã nguồn mở wine, phần mềm cho phép chạy các chương trình Windows chạy trên Unix / Linux.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Phát hành phiên bản Wine 5.0 Ổn định. Nhóm Wine đã công bố bản phát hành ổn định mới nhất 5.0 vào ngày 21 tháng 1 năm 2020. Mã nguồn của nó có sẵn để tải xuống từ trang web chính thức của nó. Bạn cũng có thể sử dụng trình quản lý gói để cài đặt wine.**&lt;/p&gt;
+
+&lt;p&gt;Wine là một triển khai mã nguồn mở của API Windows và sẽ luôn là phần mềm miễn phí. Khoảng một nửa mã nguồn được viết bởi các tình nguyện viên và nỗ lực còn lại được tài trợ bởi các lợi ích thương mại, đặc biệt là CodeWeavers.&lt;/p&gt;
+
+&lt;p&gt;Bài viết này sẽ giúp bạn cài đặt Phiên bản ổn định &lt;code class=&quot;highlighter-rouge&quot;&gt;Wine 5.0&lt;/code&gt; trên các hệ thống Ubuntu &lt;code class=&quot;highlighter-rouge&quot;&gt;19.10&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;18.04 LTS&lt;/code&gt; &amp;amp; &lt;code class=&quot;highlighter-rouge&quot;&gt;16.04 LTS&lt;/code&gt; bằng trình quản lý gói &lt;code class=&quot;highlighter-rouge&quot;&gt;apt-get&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bước 1 - Thiết lập PPA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Trước hết, nếu bạn đang chạy với hệ thống 64 bit, hãy bật kiến ​​trúc 32 bit. Ngoài ra, cài đặt chìa khóa được sử dụng để ký các gói wine.&lt;/p&gt;
+
+&lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;	~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;dpkg &lt;span class=&quot;nt&quot;&gt;--add-architecture&lt;/span&gt; i386
+&lt;span class=&quot;gp&quot;&gt;	~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;wget &lt;span class=&quot;nt&quot;&gt;-qO&lt;/span&gt; - https://dl.winehq.org/wine-builds/winehq.key | &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-key add -
+&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Sử dụng một trong các lệnh sau để bật kho lưu trữ Wine apt trong hệ thống của bạn dựa trên hệ điều hành và phiên bản Ubuntu của bạn.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bước 2 - Cài đặt Wine trên Ubuntu&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sử dụng các lệnh dưới đây để cài đặt các gói Wine từ kho apt. Tùy chọn khuyến nghị cài đặt sẽ cài đặt tất cả các gói được đề xuất bởi các phiên bản ổn định của &lt;code class=&quot;highlighter-rouge&quot;&gt;Winehq&lt;/code&gt; trên hệ thống &lt;code class=&quot;highlighter-rouge&quot;&gt;Ubuntu&lt;/code&gt; của bạn.&lt;/p&gt;
+
+&lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;	~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt update
+&lt;span class=&quot;gp&quot;&gt;	~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--install-recommends&lt;/span&gt; winehq-stable
+&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Nếu bạn gặp phải lỗi phụ thuộc chưa được đáp ứng trong khi cài đặt, hãy sử dụng các lệnh sau để cài đặt &lt;code class=&quot;highlighter-rouge&quot;&gt;Winehq&lt;/code&gt; bằng &lt;code class=&quot;highlighter-rouge&quot;&gt;ptitude&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;	~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;aptitude
+&lt;span class=&quot;gp&quot;&gt;	~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;aptitude &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;winehq-stable
+&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Bước 3 - Kiểm tra phiên bản wine&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sau khi cài đặt &lt;code class=&quot;highlighter-rouge&quot;&gt;wine&lt;/code&gt; thành công. Sử dụng lệnh sau để kiểm tra phiên bản &lt;code class=&quot;highlighter-rouge&quot;&gt;wine&lt;/code&gt; được cài đặt trên hệ thống của bạn.&lt;/p&gt;
+
+&lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;	~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;wine &lt;span class=&quot;nt&quot;&gt;--version&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;
+	wine-5.0
+
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Làm thế nào để sử dụng wine (tùy chọn)?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Để mở một ứng dụng có đuôi file là &lt;code class=&quot;highlighter-rouge&quot;&gt;.exe&lt;/code&gt; việc đơn giản các bạn chỉ cần &lt;code class=&quot;highlighter-rouge&quot;&gt;click chuột&lt;/code&gt; phải vào file đó và chọn &lt;code class=&quot;highlighter-rouge&quot;&gt;Open With Other Application&lt;/code&gt; và chọn &lt;code class=&quot;highlighter-rouge&quot;&gt;Wine Windows Program Loader&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Ví dụ mình có file: &lt;code class=&quot;highlighter-rouge&quot;&gt;PTS-CS-PSP.exe&lt;/code&gt; mình chỉ cần &lt;code class=&quot;highlighter-rouge&quot;&gt;click chuột&lt;/code&gt; &amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Open With Other Application&lt;/code&gt; &amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Wine Windows Program Loader&lt;/code&gt; và đợi cho &lt;code class=&quot;highlighter-rouge&quot;&gt;wine&lt;/code&gt; tiến hành mở ứng dụng cho bạn.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;/image/wine_application.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;
+Nguồn thông tin chi tiết tại: &lt;a href=&quot;https://tecadmin.net/install-wine-on-ubuntu/&quot;&gt;https://tecadmin.net&lt;/a&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><summary type="html">Wine 5.0 trên Ubuntu – Wine 5.0 là phiên bản phát triển mới của phần mềm mã nguồn mở wine, phần mềm cho phép chạy các chương trình Windows chạy trên Unix / Linux.</summary></entry><entry><title type="html">Canvas cơ bản</title><link href="http://localhost:4000/2020/03/27/canvas-co-ban.html" rel="alternate" type="text/html" title="Canvas cơ bản" /><published>2020-03-27T00:00:00+07:00</published><updated>2020-03-27T00:00:00+07:00</updated><id>http://localhost:4000/2020/03/27/canvas-co-ban</id><content type="html" xml:base="http://localhost:4000/2020/03/27/canvas-co-ban.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://www.dammio.com/wp-content/uploads/2018/06/html5-canvas-770x433.jpg&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;strong&gt;Canvas là gì ?&lt;/strong&gt;&lt;/p&gt;
 
@@ -751,90 +816,4 @@ Jekyll sử dụng Liquid template, Markdown, YAML front-matter để hoạt đ�
 
 &lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://jaredchu.com/wp-content/uploads/2018/08/gnome-tweak-select-theme-jaredchu-blog.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><summary type="html">Nếu nhắc tới hệ điều hành mã nguồn mở dựa trên nhân linux thì chắc hẵn các bạn sẽ không thể nhắc Ubuntu, 1 hệ điều hành mã nguồn mở.</summary></entry><entry><title type="html">Cải thiện sức mạnh đồ họa Intel/AMD trên ubuntu với Custom Mesa Driver</title><link href="http://localhost:4000/2020/03/06/cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver.html" rel="alternate" type="text/html" title="Cải thiện sức mạnh đồ họa Intel/AMD trên ubuntu với Custom Mesa Driver" /><published>2020-03-06T00:00:00+07:00</published><updated>2020-03-06T00:00:00+07:00</updated><id>http://localhost:4000/2020/03/06/cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver</id><content type="html" xml:base="http://localhost:4000/2020/03/06/cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver.html">&lt;h3 id=&quot;đối-tượng-cho-bài-viết&quot;&gt;Đối tượng cho bài viết&lt;/h3&gt;
-
-&lt;p&gt;Bạn là một người dùng Ubuntu (hoặc bất kì một distro base trên Ubuntu ví dụ như Mint) trên một computer dùng đồ họa của Intel hay AMD (Nvidia thì vẫn có thể dùng nhưng không đảm bảo sử dụng) và đòi hỏi máy đáp ứng nhu cầu đồ họa mạnh như game hay blender, render video,… (mà Mesa đi kèm - stock - không thể đáp ứng).&lt;/p&gt;
-
-&lt;p&gt;Với Mesa (driver graphics mã nguồn mở trên hầu hết distro Linux) stock hay còn gọi là đi kèm theo khi cài Ubuntu là bản gốc hoặc cũ (nếu dùng LTS) chưa được cải tiến, chỉ dùng ổn với 2D, còn 3D thì không đáp ứng. Thì trong bài viết này mình giới thiệu và hướng dẫn cài đặt 2 bản Mesa đã chỉnh sửa của Oibaf và Padoka, luôn cập nhật theo git cách 2 ngày và tối ưu hóa mức cao nhất.&lt;/p&gt;
-
-&lt;p&gt;Chú ý rằng bài này sẽ không đề cập tới graphics Nvidia và chú trọng tới graphics Intel nhất, AMD thì cơ bản vẫn giống.&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/070d1750882925.58dc072db3109.jpg&quot; /&gt;&lt;/center&gt;
-
-&lt;h3 id=&quot;tìm-hiểu-sâu-hơn&quot;&gt;Tìm hiểu sâu hơn&lt;/h3&gt;
-
-&lt;p&gt;Trong bộ cài Ubuntu chứa Mesa - driver đồ họa mã nguồn mở cho linux - bản gốc tương thích với mọi phần cứng, nhưng chỉ đáp ứng đồ họa mức 2D ở mức Full HD là cùng, trở lên thì sẽ rất lag và có performance 3D vô cùng tệ. Như mình, vào các game đồ họa 3D trên Steam, hầu hết đều crash khi load game (Intel), nhiều người dùng khác cũng phản ánh điều này.
-Mình cũng tìm hiểu trên Google và ai cũng trả lời chung câu trả lời, theo Softpedia thì họ chốt 1 câu:&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	Ubuntu gamers with older AMD Radeon or Intel graphics cards know by now that they have to install a third-party PPA (Personal Package Archive) that contains the latest open-source graphics drivers to enjoy a much better gaming experience.
-&lt;/p&gt;
-
-&lt;p&gt;Dịch sang tiếng việt:&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	Game thủ Ubuntu với card đồ họa AMD Radeon cũ hay Intel graphics đều biết rằng họ phải cài PPA bên thứ ba (Kho package cá nhân) chứa Mesa bản mới nhất để trải nghiệm gaming tốt hơn.
-&lt;/p&gt;
-
-&lt;p&gt;Và chỉ có 2 PPA chứa bản Mesa mới nhất và đã tối ưu hóa rất đáng kể cho 3D do tác giả có nickname Oibaf - tên viết ngược từ tên thật của tác giả (Fabio Pedretti) và Padoka (Paulo Miguel Dias).
-Giới thiệu đủ rồi, đào thôi!&lt;/p&gt;
-
-&lt;h3 id=&quot;phiên-bản-của-tác-giả-oibafs-ppa&quot;&gt;Phiên bản của tác giả Oibaf’s PPA&lt;/h3&gt;
-
-&lt;p&gt;PPA này lập từ 2011 do tác giả Oibaf, được lấy từ git commit hằng ngày từ repo Mesa và chỉnh sửa, tối ưu và đưa update cứ 2 ngày 1 lần (bạn vẫn có thể skip qua update). Bản này được nhiều thánh Linux khuyên dùng và thấy rất stable (ổn định).
-PPA này hỗ trợ các bản Ubuntu từ 18.04 đến 19.10 (testing).
-Để cài đặt, bạn chạy lệnh sau (copy hết đọan rồi enter cho gọn):&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	sudo add-apt-repository ppa:oibaf/graphics-drivers&lt;br /&gt;
-	sudo apt update &lt;br /&gt;
-	sudo apt upgrade &lt;br /&gt;
-	sudo reboot
-&lt;/p&gt;
-
-&lt;p&gt;Cả đoạn này bao gồm thêm PPA vào danh sách update và thay update từ PPA thay cho update từ Ubuntu. Chú ý: khi xong máy sẽ tự reboot, và không nên dùng máy khi đang thực hiện. Khi reboot, bạn vào thử 1 game và ngon cỡ nào nhé :D.
-Có nhiều điều quan trọng khi dùng cả 2 PPA này, bạn kéo xuống xem phần Lưu ý&lt;/p&gt;
-
-&lt;h3 id=&quot;phiên-bản-của-tác-giả-padokas-ppa&quot;&gt;Phiên bản của tác giả Padoka’s PPA&lt;/h3&gt;
-
-&lt;p&gt;Với PPA của tác giả Padoka mình chưa dùng. Có 2 PPA: ổn định và thiếu ổn định. Mình sẽ nói về bản ổn định.
-Mình ít thấy ai review về PPA này, đa số đều đã cũ (từ hồi Ubuntu bản 17.10 thì hiệu năng nhỉnh hơn của Oibaf một tý), hay ai đó nói về sự ổn định. Nếu đã dùng thì hãy cho mình biết dưới comment nhé! :D.
-PPA này chỉ hỗ trợ hai bản Ubuntu là 18.04.x và 18.10 do tác giả rất bận, không có thời gian.
-Sau đây là cách sử dụng:&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	sudo add-apt-repository ppa:paulo-miguel-dias/pkppa  &lt;br /&gt;
-	sudo apt update  &lt;br /&gt;
-	sudo apt upgrade  &lt;br /&gt;
-	sudo reboot
-&lt;/p&gt;
-
-&lt;p&gt;Đọan lệnh này cũng như trên, sẽ tự động restart máy khi hoàn thành nên mình khuyên đừng dùng nhé!&lt;/p&gt;
-
-&lt;h3 id=&quot;lưu-ý&quot;&gt;Lưu ý&lt;/h3&gt;
-&lt;p&gt;Khi update lên 1 bản Ubuntu mới như 18.04 lên 18.10 hay 18.10 lên 19.04 v.v… thì bạn BẮT BUỘC phải gỡ hai PPA này trước khi update lên phiên bản mới của ubuntu, để gỡ bạn chạy 2 lệnh:&lt;/p&gt;
-
-&lt;h3 id=&quot;cài-đặt-gói-ppa-purge&quot;&gt;Cài đặt gói ppa-purge&lt;/h3&gt;
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	sudo apt-get install ppa-purge
-&lt;/p&gt;
-&lt;h3 id=&quot;đối-với-oibaf&quot;&gt;đối với Oibaf&lt;/h3&gt;
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	sudo ppa-purge ppa:oibaf/graphics-drivers
-&lt;/p&gt;
-&lt;h3 id=&quot;đối-với-padoka&quot;&gt;đối với Padoka.&lt;/h3&gt;
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	sudo ppa-purge ppa:paulo-miguel-dias/pkppa 
-&lt;/p&gt;
-&lt;p&gt;Sau khi nâng Ubuntu bạn cài lại từ đầu nhé!
-Nếu muốn gỡ, thì bạn làm như trên.&lt;/p&gt;
-
-&lt;h3 id=&quot;theo-nguồn-cung-cấp-từ&quot;&gt;Theo nguồn cung cấp từ:&lt;/h3&gt;
-
-&lt;p&gt;Tác giả bài viết: Đặng Trung Nhân&lt;/p&gt;
-
-&lt;p&gt;Softpedia quote on this post&lt;/p&gt;
-
-&lt;p&gt;Oibaf’s PPA &amp;amp; Padoka’s PPA stable
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><summary type="html">Bạn là một người dùng Ubuntu (hoặc bất kì một distro base trên Ubuntu ví dụ như Mint) trên một computer dùng đồ họa của Intel hay AMD (Nvidia thì vẫn có thể dùng nhưng không đảm bảo sử dụng) và đòi hỏi máy đáp ứng nhu cầu đồ họa mạnh như game hay blender, render video,... (mà Mesa đi kèm - stock - không thể đáp ứng).</summary></entry></feed>
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><summary type="html">Nếu nhắc tới hệ điều hành mã nguồn mở dựa trên nhân linux thì chắc hẵn các bạn sẽ không thể nhắc Ubuntu, 1 hệ điều hành mã nguồn mở.</summary></entry></feed>
