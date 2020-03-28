@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-28T21:40:22+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Cài đặt Photoshop trên Ubuntu, Linux</title><link href="http://localhost:4000/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux.html" rel="alternate" type="text/html" title="Cài đặt Photoshop trên Ubuntu, Linux" /><published>2020-03-28T00:00:00+07:00</published><updated>2020-03-28T00:00:00+07:00</updated><id>http://localhost:4000/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux</id><content type="html" xml:base="http://localhost:4000/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux.html">&lt;p&gt;&lt;strong&gt;Bạn là một người dùng windows và sau đó bạn chuyển sang dùng 1 hệ điều hành xa lạ để trải nghiệm đó là Ubuntu/Linux , điều đầu tiêp đập vào mắt bạn là ở 1 HĐH này là mới mẽ mang một loại cách tính năng khác lạ v.v.&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-28T21:44:38+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Cài đặt Photoshop trên Ubuntu, Linux</title><link href="http://localhost:4000/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux.html" rel="alternate" type="text/html" title="Cài đặt Photoshop trên Ubuntu, Linux" /><published>2020-03-28T00:00:00+07:00</published><updated>2020-03-28T00:00:00+07:00</updated><id>http://localhost:4000/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux</id><content type="html" xml:base="http://localhost:4000/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux.html">&lt;p&gt;&lt;strong&gt;Bạn là một người dùng windows và sau đó bạn chuyển sang dùng 1 hệ điều hành xa lạ để trải nghiệm đó là Ubuntu/Linux , điều đầu tiêp đập vào mắt bạn là ở 1 HĐH này là mới mẽ mang một loại cách tính năng khác lạ v.v.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Nhưng bất ngờ vào một ngày đó bạn thử cài đặt một phần mềm của windows, nhưng không được vì phần mềm đó chỉ xây dựng và chạy trên HĐH Windows. Vì thế bài viết này sẽ hướng dẫn bạn cài đặt phần mềm đó trên HĐH Ubuntu/Linux với một ứng dụng mang tên PlayOnLinux.&lt;/strong&gt;&lt;/p&gt;
 
@@ -56,23 +56,25 @@ Nguôn thông tin: Được tổng hợp và thu thập từ nhiều nguồn.&lt
 &lt;p&gt;Những phiên bản trình duyệt bắt đầu hỗ trợ thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;canvas&amp;gt;&amp;lt;/canvas&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
 &lt;style type=&quot;text/css&quot;&gt;
-	td {border: 2px solid #dddd; padding: 20px; text-align: center;}
+	td {
+                border: 2px solid #dddd;
+                padding: 20px;
+                text-align: center;
+        }
 	td i {
 		font-size: 25px;
 	}
 &lt;/style&gt;
 
-&lt;table class=&quot;table table-dark&quot; style=&quot;text-align: center;&quot;&gt;
-	&lt;tr&gt;
-		&lt;td&gt; Browser &lt;/td&gt;
-		&lt;td&gt; &lt;i class=&quot;fab fa-chrome&quot;&gt; Chrome&lt;/i&gt; &lt;/td&gt;
-		&lt;td&gt; &lt;i class=&quot;fab fa-firefox-browser&quot;&gt; Firefox&lt;/i&gt; &lt;/td&gt;
-		&lt;td&gt; &lt;i class=&quot;fab fa-internet-explorer&quot;&gt; Explorer/Edge&lt;/i&gt; &lt;/td&gt;
-		&lt;td&gt; &lt;i class=&quot;fab fa-safari&quot;&gt; Safari&lt;/i&gt; &lt;/td&gt;
-		&lt;td&gt; &lt;i class=&quot;fab fa-opera&quot;&gt; Openra&lt;/i&gt; &lt;/td&gt;
+&lt;table class=&quot;table table-dark&quot; style=&quot;text-align:&quot;&gt;
+	&lt;tr class=&quot;col&quot;&gt;
+		&lt;td&gt; &lt;i class=&quot;fab fa-chrome&quot;&gt;&lt;/i&gt; &lt;/td&gt;
+		&lt;td&gt; &lt;i class=&quot;fab fa-firefox-browser&quot;&gt;&lt;/i&gt; &lt;/td&gt;
+		&lt;td&gt; &lt;i class=&quot;fab fa-internet-explorer&quot;&gt;&lt;/i&gt; &lt;/td&gt;
+		&lt;td&gt; &lt;i class=&quot;fab fa-safari&quot;&gt;&lt;/i&gt; &lt;/td&gt;
+		&lt;td&gt; &lt;i class=&quot;fab fa-opera&quot;&gt;&lt;/i&gt; &lt;/td&gt;
 	&lt;/tr&gt;
-	&lt;tr&gt;
-		&lt;td&gt; Version &lt;/td&gt;
+	&lt;tr class=&quot;col&quot;&gt;
 		&lt;td&gt; 4.0 &lt;/td&gt;
 		&lt;td&gt; 9.0 &lt;/td&gt;
 		&lt;td&gt; 2.0 &lt;/td&gt;
@@ -182,9 +184,6 @@ Nguôn thông tin: Được tổng hợp và thu thập từ nhiều nguồn.&lt
 &lt;p&gt;&lt;strong&gt;Lưu ý !:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Nếu bạn có ý định tạo một nét vẽ mới, nên sử dụng &lt;code class=&quot;highlighter-rouge&quot;&gt;beginPath()&lt;/code&gt; mới và kết thúc chúng ngay khi dùng &lt;code class=&quot;highlighter-rouge&quot;&gt;stroke()&lt;/code&gt;, thay vì viết đè như ví dụ trên.&lt;/p&gt;
-
-&lt;p&gt;var canvas = document.querySelector(“.drawing”);
-var c = canvas.getContext(“2d”);&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Ví dụ 3 độ rộng nét vẽ&lt;/strong&gt;&lt;/p&gt;
 
