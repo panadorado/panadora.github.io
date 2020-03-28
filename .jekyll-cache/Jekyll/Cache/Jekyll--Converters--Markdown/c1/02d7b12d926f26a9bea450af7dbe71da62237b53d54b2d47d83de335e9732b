@@ -1,0 +1,46 @@
+I"D<p><strong>Bạn là một người dùng windows và sau đó bạn chuyển sang dùng 1 hệ điều hành xa lạ để trải nghiệm đó là Ubuntu/Linux , điều đầu tiêp đập vào mắt bạn là ở 1 HĐH này là mới mẽ mang một loại cách tính năng khác lạ v.v.</strong></p>
+
+<p><strong>Nhưng bất ngờ vào một ngày đó bạn thử cài đặt một phần mềm của windows, nhưng không được vì phần mềm đó chỉ xây dựng và chạy trên HĐH Windows. Vì thế bài viết này sẽ hướng dẫn bạn cài đặt phần mềm đó trên HĐH Ubuntu/Linux với một ứng dụng mang tên PlayOnLinux.</strong></p>
+
+<p><strong>1. Cài đặt PlayOnLinux:</strong></p>
+
+<p><em>PlayOnLinux là một frontend cho lớp tương thích phần mềm Wine cho phép người dùng Linux cài đặt các video game dựa trên Windows, Microsoft Office, Microsoft Internet Explorer, cũng như nhiều ứng dụng khác như Apple iTunes và Safari, chi tiết xin mời các bạn truy cập <a href="https://vi.wikipedia.org/wiki/PlayOnLinux">Wikipedia</a>.</em></p>
+
+<center><img class="img-thumbnail" src="/image/reviewAppPlayOnLinux.png" /></center>
+<p><br />
+Thao tác mở <code class="highlighter-rouge">terminal</code> của ubuntu lên với tổ hợp phím <code class="highlighter-rouge">Ctrl + Alt + t</code> và thao dòng lệnh sau:</p>
+
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">
+</span><span class="gp"> ~$</span><span class="w"> </span>wget <span class="nt">-q</span> <span class="s2">"http://deb.playonlinux.com/public.gpg"</span> <span class="nt">-O-</span> | <span class="nb">sudo </span>apt-key add -
+<span class="gp"> ~$</span><span class="w"> </span><span class="nb">sudo </span>wget http://deb.playonlinux.com/playonlinux_saucy.list <span class="nt">-O</span> /etc/apt/sources.list.d/playonlinux.list
+<span class="gp"> ~$</span><span class="w"> </span><span class="nb">sudo </span>apt update
+<span class="gp"> ~$</span><span class="w"> </span><span class="nb">sudo </span>apt <span class="nb">install </span>playonlinux
+<span class="go">
+</span></code></pre></div></div>
+<p>Xác nhận <code class="highlighter-rouge">Password</code> của bạn và tiến hành lấy gói tập tin về.</p>
+
+<p><strong>2. Cài đặt Photoshop CS 6 bằng PlayOnLinux trên Ubuntu:</strong></p>
+
+<p><em>Đầu tiền bạn cần tải <a href="https://drive.google.com/file/d/1DD6PB5qzPMHD6FICQHCPHrlUwtRZt7E7/view">Adobe Photoshop CS6 Extended</a> về.</em></p>
+
+<p>Mở PlayOnLinux lên và click chọn <code class="highlighter-rouge">install</code> <img class="img-thumbnail" src="/image/choose_install.png" width="60" /> tìm và chọn mục <code class="highlighter-rouge">Graphics</code> <img class="img-thumbnail" src="/image/Type_Graphics.png" width="60" />.</p>
+
+<p>Tìm đến phần mềm <code class="highlighter-rouge">Adobe Photoshop CS6</code>.</p>
+
+<p><img class="img-thumbnail" src="/image/app_ptscs6_pbp.png" /> <br /></p>
+
+<p>Bạn chỉ cần ấn <code class="highlighter-rouge">next</code></p>
+
+<p><img class="img-thumbnail" src="/image/pts1.png" /> <br />
+<img class="img-thumbnail" src="/image/pts2.png" /> <br />
+<img class="img-thumbnail" src="/image/pts3.png" /> <br />
+<img class="img-thumbnail" src="/image/pts4.png" /> <br /></p>
+
+<p>Tới phần này buộc bạn ấn vào <code class="highlighter-rouge">Browse</code> tìm đến đường dẫn chứa <code class="highlighter-rouge">Set-up.exe</code> của Photoshop. Việc bây giờ bạn chỉ cần next để tiến hành giải nén và cài đặt tất cả các file của Photoshop. Sau Khi xong bạn có thể mở ứng dụng lên hưởng thành quả !</p>
+
+<iframe class="embed-responsive embed-responsive-21by9" height="450" src="https://www.youtube.com/embed/--bkO_K8YAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><br /></p>
+
+<p>Nguôn thông tin: Được tổng hợp và thu thập từ nhiều nguồn.
+<br /></p>
+:ET

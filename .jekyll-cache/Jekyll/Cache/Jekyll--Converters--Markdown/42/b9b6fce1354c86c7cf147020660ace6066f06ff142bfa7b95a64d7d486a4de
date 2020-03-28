@@ -1,0 +1,26 @@
+I"�
+<p><strong>Bạn là một người dùng windows và sau đó bạn chuyển sang dùng 1 hệ điều hành xa lạ để trải nghiệm đó là Ubuntu/Linux , điều đầu tiêp đập vào mắt bạn là ở 1 HĐH này là mới mẽ mang một loại cách tính năng khác lạ v.v.</strong></p>
+
+<p><strong>Nhưng bất ngờ vào một ngày đó bạn thử cài đặt một phần mềm của windows, nhưng không được vì phần mềm đó chỉ xây dựng và chạy trên HĐH Windows. Vì thế bài viết này sẽ hướng dẫn bạn cài đặt phần mềm đó trên HĐH Ubuntu/Linux với một ứng dụng mang tên PlayOnLinux.</strong></p>
+
+<p><strong>1. Cài đặt PlayOnLinux:</strong></p>
+
+<p><em>PlayOnLinux là một frontend cho lớp tương thích phần mềm Wine cho phép người dùng Linux cài đặt các video game dựa trên Windows, Microsoft Office, Microsoft Internet Explorer, cũng như nhiều ứng dụng khác như Apple iTunes và Safari, chi tiết xin mời các bạn truy cập <a href="https://vi.wikipedia.org/wiki/PlayOnLinux">Wikipedia</a>.</em></p>
+
+<center><img class="img-thumbnail" src="/image/reviewAppPlayOnLinux.png" /></center>
+<p><br />
+Thao tác mở <code class="highlighter-rouge">terminal</code> của ubuntu lên với tổ hợp phím <code class="highlighter-rouge">Ctrl + Alt + t</code> và thao dòng lệnh sau:</p>
+
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">
+</span><span class="gp">	~$</span><span class="w"> </span>wget <span class="nt">-q</span> <span class="s2">"http://deb.playonlinux.com/public.gpg"</span> <span class="nt">-O-</span> | <span class="nb">sudo </span>apt-key add - 
+<span class="gp">	~$</span><span class="w"> </span><span class="nb">sudo </span>apt update
+<span class="gp">	~$</span><span class="w"> </span><span class="nb">sudo </span>apt <span class="nb">install </span>playonlinux <span class="nt">-y</span>
+<span class="go">
+</span></code></pre></div></div>
+<p>Đối với phiên bản <code class="highlighter-rouge">Ubuntu 18.04 LTS</code> thì bạn chỉ cần thao tác lệnh <code class="highlighter-rouge">install</code> về và không cần thao tác lệnh thứ nhất. Xác nhận <code class="highlighter-rouge">Password</code> của bạn và tiến hành lấy gói tập tin về.</p>
+
+<p><strong>2. Cài đặt Photoshop CS 6 bằng PlayOnLinux trên Ubuntu:</strong></p>
+
+<p>Mở PlayOnLinux lên và click chọn <code class="highlighter-rouge">install</code> <img class="img-thumbnail" src="/image/choose_install.png" width="50" /> tìm và chọn mục <code class="highlighter-rouge">Graphics</code> <img class="img-thumbnail" src="/image/Type_Graphics.png" width="60" /></p>
+
+:ET
