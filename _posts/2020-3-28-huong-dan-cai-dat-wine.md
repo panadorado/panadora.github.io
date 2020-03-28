@@ -71,7 +71,7 @@ Sau khi cài đặt `wine` thành công. Sử dụng lệnh sau để kiểm tra
 
 Ví dụ mình có file: `PTS-CS-PSP.exe` mình chỉ cần `click chuột` > `Open With Other Application` > `Wine Windows Program Loader` và đợi cho `wine` tiến hành mở ứng dụng cho bạn.
 
-<center><img src="{{site.baseurl}}/image/wine_application.png"></center>
+<center><img class="img-thumbnail" src="{{site.baseurl}}/image/wine_application.png"></center>
 <br>
 Nguồn thông tin chi tiết tại: <a href="https://tecadmin.net/install-wine-on-ubuntu/">https://tecadmin.net</a>
 <br>
