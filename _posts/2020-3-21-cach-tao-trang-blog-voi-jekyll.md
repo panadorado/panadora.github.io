@@ -4,6 +4,7 @@ title: "Cách tạo trang blog với Jekyll"
 layout: post
 author: Panadora
 excerpt: Bạn muốn làm một website đơn giản, không cầu kỳ về `database`, không nhập xuất dữ liệu thì `Jekyll` là một ứng cử viên sáng giá nhất nhì so với **Gatsby** hoặc **NextJS**.
+category: [windows, news, unixlinux, terminal]
 ---
 Bạn muốn làm một website đơn giản, không cầu kỳ về `database`, không nhập xuất dữ liệu thì `Jekyll` là một ứng cử viên sáng giá nhất nhì so với **Gatsby** hoặc **NextJS**.
 

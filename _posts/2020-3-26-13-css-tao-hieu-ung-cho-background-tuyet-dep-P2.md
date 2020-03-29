@@ -4,6 +4,7 @@ title: 13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 2)
 layout: post
 excerpt: Phần tiếp theo của bài post 13 CSS tạo hiệu ứng cho Background tuyệt đẹp.
 author: Panadora
+category: [html, css, javascript]
 ---
 <br>
 <center><img class="img-thumbnail image-post" src="https://giuseart.com/wp-content/uploads/2018/07/417645-636618158800124958-16x9.jpg"></center>

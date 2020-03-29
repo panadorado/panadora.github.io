@@ -4,6 +4,7 @@ layout: post
 title: "Canvas cơ bản"
 excerpt: Canvas là gì ? phần tử canvas hay còn gọi là thẻ canvas trong html
 author: Panadora
+category: [html, css, javascript]
 ---
 
 <center><img class="img-thumbnail" src="https://www.dammio.com/wp-content/uploads/2018/06/html5-canvas-770x433.jpg"></center>

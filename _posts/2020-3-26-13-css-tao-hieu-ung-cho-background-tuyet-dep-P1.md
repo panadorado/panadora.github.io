@@ -4,6 +4,7 @@ title: 13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 1)
 layout: post
 excerpt: Với CSS bạn có thể tạo ra các hiệu ứng rất đẹp và thú vị khi kết hợp với HTML và JavaScript, hoặc ngay cả khi chỉ có mình nó, CSS hỗ trợ rất nhiều trong việc thiết kế giao diện. Bạn sẽ ngạc nhiên về những gì các nhà phát triển có thể tạo ra.
 author: Panadora
+category: [html, css, javascript]
 ---
 
 Với CSS bạn có thể tạo ra các hiệu ứng rất đẹp và thú vị khi kết hợp với HTML và JavaScript, hoặc ngay cả khi chỉ có mình nó, CSS hỗ trợ rất nhiều trong việc thiết kế giao diện. Bạn sẽ ngạc nhiên về những gì các nhà phát triển có thể tạo ra.

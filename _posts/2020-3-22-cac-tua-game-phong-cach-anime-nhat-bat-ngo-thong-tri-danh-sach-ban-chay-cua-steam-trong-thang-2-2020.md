@@ -4,6 +4,7 @@ title: Các tựa game phong cách anime Nhật bất ngờ thống trị danh s
 layout: post
 excerpt: Game Nhật thì anh em… biết cả rồi đấy.
 author: Panadora
+category: [games, news]
 ---
 **Game Nhật thì anh em… biết cả rồi đấy.***
 

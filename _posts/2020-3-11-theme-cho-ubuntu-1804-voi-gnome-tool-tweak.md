@@ -4,6 +4,7 @@ title: Cài cặt giao diện (theme) cho Ubuntu 18.04 với Gnome Tweal Tool
 layout: post
 excerpt: Nếu nhắc tới hệ điều hành mã nguồn mở dựa trên nhân linux thì chắc hẵn các bạn sẽ không thể nhắc Ubuntu, 1 hệ điều hành mã nguồn mở.
 author: Panadora
+category: [unixlinux, terminal]
 ---
 
  Nếu nhắc tới hệ điều hành mã nguồn mở dựa trên nhân linux thì chắc hẵn các bạn sẽ không thể nhắc Ubuntu, 1 hệ điều hành mã nguồn mở.

@@ -4,6 +4,7 @@ title: "Cài đặt Photoshop trên Ubuntu, Linux"
 layout: post
 author: Panadora
 excerpt: Bạn là một người dùng windows và sau đó bạn chuyển sang dùng 1 hệ điều hành xa lạ để trải nghiệm đó là Ubuntu/Linux , điều đầu tiên đập vào mắt bạn là ở 1 HĐH này là mới mẽ mang một loại cách tính năng khác lạ v.v.
+category: [unixlinux, terminal]
 ---
 
 **Bạn là một người dùng windows và sau đó bạn chuyển sang dùng 1 hệ điều hành xa lạ để trải nghiệm đó là Ubuntu/Linux , điều đầu tiên đập vào mắt bạn là ở 1 HĐH này là mới mẽ mang một loại cách tính năng khác lạ v.v.**
