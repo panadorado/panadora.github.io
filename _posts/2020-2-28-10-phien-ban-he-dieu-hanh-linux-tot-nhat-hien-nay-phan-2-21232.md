@@ -4,6 +4,7 @@ title: 10 phiên bản hệ điều hành Linux tốt nhất hiện nay (Phần 
 layout: post
 excerpt: Debian là phiên bản distro Linux được nhiều chuyên gia đánh giá là tốt nhất dành cho những hệ thống máy trạm, server hay database.
 author: Panadora
+category: unixlinux
 ---
 
 Debian là phiên bản distro Linux được nhiều chuyên gia đánh giá là tốt nhất dành cho những hệ thống máy trạm, server hay database.

@@ -4,6 +4,7 @@ title: Vì phát triển “dự án đặc biệt” nên cựu kỹ sư Micros
 layout: post
 excerpt: Vừa rồi, một cựu kỹ sư Microsoft tên là Volodymyr Kvashuk đã bị Tòa án quận Hoa Kỳ (U.S. District Court) kết án vì tội biển thủ 10 triệu USD tiền ảo (cryptocurrency) của Microsoft.
 author: Panadora
+category: [news, windows]
 ---
 
 ### Vừa rồi, một cựu kỹ sư Microsoft tên là Volodymyr Kvashuk đã bị Tòa án quận Hoa Kỳ (U.S. District Court) kết án vì tội biển thủ 10 triệu USD tiền ảo (cryptocurrency) của Microsoft.
