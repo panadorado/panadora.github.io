@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-31T20:50:58+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Cài đặt Photoshop trên Ubuntu, Linux</title><link href="http://localhost:4000/unixlinux/terminal/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux.html" rel="alternate" type="text/html" title="Cài đặt Photoshop trên Ubuntu, Linux" /><published>2020-03-28T00:00:00+07:00</published><updated>2020-03-28T00:00:00+07:00</updated><id>http://localhost:4000/unixlinux/terminal/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux</id><content type="html" xml:base="http://localhost:4000/unixlinux/terminal/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux.html">&lt;p&gt;&lt;strong&gt;Bạn là một người dùng windows và sau đó bạn chuyển sang dùng 1 hệ điều hành xa lạ để trải nghiệm đó là Ubuntu/Linux , điều đầu tiên đập vào mắt bạn là ở 1 HĐH này là mới mẽ mang một loại cách tính năng khác lạ v.v.&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-31T20:52:46+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Cài đặt Photoshop trên Ubuntu, Linux</title><link href="http://localhost:4000/unixlinux/terminal/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux.html" rel="alternate" type="text/html" title="Cài đặt Photoshop trên Ubuntu, Linux" /><published>2020-03-28T00:00:00+07:00</published><updated>2020-03-28T00:00:00+07:00</updated><id>http://localhost:4000/unixlinux/terminal/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux</id><content type="html" xml:base="http://localhost:4000/unixlinux/terminal/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux.html">&lt;p&gt;&lt;strong&gt;Bạn là một người dùng windows và sau đó bạn chuyển sang dùng 1 hệ điều hành xa lạ để trải nghiệm đó là Ubuntu/Linux , điều đầu tiên đập vào mắt bạn là ở 1 HĐH này là mới mẽ mang một loại cách tính năng khác lạ v.v.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Nhưng bất ngờ vào một ngày đó bạn thử cài đặt một phần mềm của windows, nhưng không được vì phần mềm đó chỉ xây dựng và chạy trên HĐH Windows. Vì thế bài viết này sẽ hướng dẫn bạn cài đặt phần mềm đó trên HĐH Ubuntu/Linux với một ứng dụng mang tên PlayOnLinux.&lt;/strong&gt;&lt;/p&gt;
 
@@ -108,197 +108,7 @@ Nguồn thông tin: Được tổng hợp và thu thập từ nhiều nguồn.&l
 &lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/wine_application.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;
 Nguồn thông tin chi tiết tại: &lt;a href=&quot;https://tecadmin.net/install-wine-on-ubuntu/&quot;&gt;https://tecadmin.net&lt;/a&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;terminal&quot;]" /><summary type="html">Wine 5.0 trên Ubuntu – Wine 5.0 là phiên bản phát triển mới của phần mềm mã nguồn mở wine, phần mềm cho phép chạy các chương trình Windows chạy trên Unix / Linux.</summary></entry><entry><title type="html">Canvas cơ bản</title><link href="http://localhost:4000/html/css/javascript/2020/03/27/canvas-co-ban.html" rel="alternate" type="text/html" title="Canvas cơ bản" /><published>2020-03-27T00:00:00+07:00</published><updated>2020-03-27T00:00:00+07:00</updated><id>http://localhost:4000/html/css/javascript/2020/03/27/canvas-co-ban</id><content type="html" xml:base="http://localhost:4000/html/css/javascript/2020/03/27/canvas-co-ban.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://www.dammio.com/wp-content/uploads/2018/06/html5-canvas-770x433.jpg&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;Canvas là gì ?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Phần tử &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;canvas&amp;gt;&amp;lt;/canvas&amp;gt;&lt;/code&gt; hay còn gọi là thẻ trong HTML được dùng để vẽ các đối tượng đồ họa, nó chiếm một vùng trên trang web, qua nguôn ngữ dạng &lt;code class=&quot;highlighter-rouge&quot;&gt;Script&lt;/code&gt; thường là &lt;code class=&quot;highlighter-rouge&quot;&gt;JavaScript&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;canvas&amp;gt;&amp;lt;/canvas&amp;gt;&lt;/code&gt; chỉ chứa khối đồ họa. Bạn phải dùng một script để vẽ các đối tượng. Canvas cung cấp nhiều cách để vẽ đường thẳng, hình hộp, hình tròn, viết chữ, chèn ảnh,v.v.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Trình duyệt hỗ trợ&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Những phiên bản trình duyệt bắt đầu hỗ trợ thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;canvas&amp;gt;&amp;lt;/canvas&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;style type=&quot;text/css&quot;&gt;
-	td {
-                border: 2px solid #dddd;
-                padding: 20px;
-                text-align: center;
-        }
-	td i {
-		font-size: 25px;
-	}
-&lt;/style&gt;
-
-&lt;table class=&quot;table table-dark&quot; style=&quot;text-align:&quot;&gt;
-	&lt;tr class=&quot;col&quot;&gt;
-		&lt;td&gt; &lt;i class=&quot;fab fa-chrome&quot;&gt;&lt;/i&gt; &lt;/td&gt;
-		&lt;td&gt; &lt;i class=&quot;fab fa-firefox-browser&quot;&gt;&lt;/i&gt; &lt;/td&gt;
-		&lt;td&gt; &lt;i class=&quot;fab fa-internet-explorer&quot;&gt;&lt;/i&gt; &lt;/td&gt;
-		&lt;td&gt; &lt;i class=&quot;fab fa-safari&quot;&gt;&lt;/i&gt; &lt;/td&gt;
-		&lt;td&gt; &lt;i class=&quot;fab fa-opera&quot;&gt;&lt;/i&gt; &lt;/td&gt;
-	&lt;/tr&gt;
-	&lt;tr class=&quot;col&quot;&gt;
-		&lt;td&gt; 4.0 &lt;/td&gt;
-		&lt;td&gt; 9.0 &lt;/td&gt;
-		&lt;td&gt; 2.0 &lt;/td&gt;
-		&lt;td&gt; 3.1&lt;/td&gt;
-		&lt;td&gt; 9.0 &lt;/td&gt;
-	&lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;Một số ví dụ về canvas&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Chú ý: Luôn luôn đặt thuộc tính &lt;code class=&quot;highlighter-rouge&quot;&gt;id&lt;/code&gt; hoặc &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt; (để có thể gọi trong script), thuộc tính width và height để đặt kích thước của &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt;. Để thêm đường viền, sử dụng thuộc tính style như ví dụ dưới.&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	
-	/* 
-	** khai bảo thẻ &lt;span class=&quot;nt&quot;&gt;&amp;lt;canvas&amp;gt;&lt;/span&gt; trong thẻ &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt; của html
-	*/
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;canvas&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;drawing&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;300&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;300&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;border: 1px solid #000;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/canvas&amp;gt;&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;kết quả như sau:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/border-with-canvas.png&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;strong&gt;Thao tác vẽ với JavaScript&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Tạo một file html với tên là &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; và viết code sau:&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-	&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
-		&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-			&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;../drawCanvas.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-		&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-		&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-			&lt;span class=&quot;nt&quot;&gt;&amp;lt;canvas&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;drawing&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;200&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;200&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/canvas&amp;gt;&lt;/span&gt;
-		&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Tạo một file JavaScript với tên là &lt;code class=&quot;highlighter-rouge&quot;&gt;drawCanvas.js&lt;/code&gt; và viết code sau:&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-	&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;canvas&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.drawing&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;canvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getContext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;2d&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;beginPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;moveTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;250&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;250&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stroke&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;kết quả như sau:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/draw-line-canvas.png&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;trong đó:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;c.beginPath();&lt;/code&gt; : Mở đầu cho mỗi nét vẽ. &lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;c.moveTo(x, y);&lt;/code&gt; : Điểm bắt đầu vẽ xác định theo x và y. &lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;c.lineTo(x, y);&lt;/code&gt; : Tạo đường vẽ từ điểm bắt đầu đến điểm cuối theo x và . &lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;c.stroke();&lt;/code&gt; : Tạo nét. &lt;br /&gt;
- &lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt;: là trục hoành. &lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;y&lt;/code&gt;: là trục tung. &lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ví dụ 2 vẽ đường dẫn tạo hình với JavaScript&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	
-	&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
-		&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-			&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;../drawCanvas.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-		&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-		&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-			&lt;span class=&quot;nt&quot;&gt;&amp;lt;canvas&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;drawing&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;300&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;300&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/canvas&amp;gt;&lt;/span&gt;
-		&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-	&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;canvas&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.drawing&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;canvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getContext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;2d&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;beginPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;moveTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;250&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;250&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;250&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;250&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;250&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;closePath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;250&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stroke&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Tất nhiên bạn có thể tái sử dụng &lt;code class=&quot;highlighter-rouge&quot;&gt;lineTo()&lt;/code&gt; nhiều lần cho các nét vẽ tiếp theo.&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;closePath()&lt;/code&gt;: Nối điểm cuối cùng của nét vẽ cuối* đến điểm bắt đầu nét vẽ.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;kết quả như sau:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/draw-line-canvas2.png&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;strong&gt;Lưu ý !:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Nếu bạn có ý định tạo một nét vẽ mới, nên sử dụng &lt;code class=&quot;highlighter-rouge&quot;&gt;beginPath()&lt;/code&gt; mới và kết thúc chúng ngay khi dùng &lt;code class=&quot;highlighter-rouge&quot;&gt;stroke()&lt;/code&gt;, thay vì viết đè như ví dụ trên.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ví dụ 3 độ rộng nét vẽ&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	
-	&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
-		&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-			&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;../drawCanvas.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-		&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-		&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-			&lt;span class=&quot;nt&quot;&gt;&amp;lt;canvas&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;drawing&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;300&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;300&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/canvas&amp;gt;&lt;/span&gt;
-		&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-	&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;canvas&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.drawing&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;canvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getContext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;2d&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;beginPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;moveTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;220&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineWidth&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;strokeStyle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;#273c75&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stroke&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;beginPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;moveTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;220&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;220&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;220&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lineWidth&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;strokeStyle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;#ED4C67&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stroke&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Kết quả:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/draw-linebg-canvas.png&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;trong đó:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;lineWidth&lt;/code&gt; : Tăng độ rộng cho nét vẽ. &lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;strokeStyle&lt;/code&gt; : Màu nét vẽ, có thể là màu &lt;code class=&quot;highlighter-rouge&quot;&gt;hsl()&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rgb()&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rgba()&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;hex....&lt;/code&gt; &lt;br /&gt;
-&lt;br /&gt;
-&lt;strong&gt;Lưu ý !:&lt;/strong&gt;
-&lt;br /&gt;
-Cột màu xanh lơ và cột màu hồng có sự khác nhau về đường nét. Canvas không thể chọn 0.5 điểm ảnh cho mỗi bên, vì thế trong canvas đừng nên dùng số lẻ.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Nguồn thông tin từ:&lt;/strong&gt;  &lt;a href=&quot;https://dev-note.cf&quot; style=&quot;font-weight: bold;&quot;&gt;https://dev-note.cf&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;html&quot;, &quot;css&quot;, &quot;javascript&quot;]" /><summary type="html">Canvas là gì ? phần tử canvas hay còn gọi là thẻ canvas trong html</summary></entry><entry><title type="html">13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 1)</title><link href="http://localhost:4000/html/css/javascript/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P1.html" rel="alternate" type="text/html" title="13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 1)" /><published>2020-03-26T00:00:00+07:00</published><updated>2020-03-26T00:00:00+07:00</updated><id>http://localhost:4000/html/css/javascript/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P1</id><content type="html" xml:base="http://localhost:4000/html/css/javascript/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P1.html">&lt;p&gt;Với CSS bạn có thể tạo ra các hiệu ứng rất đẹp và thú vị khi kết hợp với HTML và JavaScript, hoặc ngay cả khi chỉ có mình nó, CSS hỗ trợ rất nhiều trong việc thiết kế giao diện. Bạn sẽ ngạc nhiên về những gì các nhà phát triển có thể tạo ra.
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;terminal&quot;]" /><summary type="html">Wine 5.0 trên Ubuntu – Wine 5.0 là phiên bản phát triển mới của phần mềm mã nguồn mở wine, phần mềm cho phép chạy các chương trình Windows chạy trên Unix / Linux.</summary></entry><entry><title type="html">13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 1)</title><link href="http://localhost:4000/html/css/javascript/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P1.html" rel="alternate" type="text/html" title="13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 1)" /><published>2020-03-26T00:00:00+07:00</published><updated>2020-03-26T00:00:00+07:00</updated><id>http://localhost:4000/html/css/javascript/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P1</id><content type="html" xml:base="http://localhost:4000/html/css/javascript/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P1.html">&lt;p&gt;Với CSS bạn có thể tạo ra các hiệu ứng rất đẹp và thú vị khi kết hợp với HTML và JavaScript, hoặc ngay cả khi chỉ có mình nó, CSS hỗ trợ rất nhiều trong việc thiết kế giao diện. Bạn sẽ ngạc nhiên về những gì các nhà phát triển có thể tạo ra.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://techtalk.vn/wp-content/uploads/2019/02/css-art.jpg&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;
@@ -816,4 +626,90 @@ Jekyll sử dụng Liquid template, Markdown, YAML front-matter để hoạt đ�
 
 &lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://jaredchu.com/wp-content/uploads/2018/08/gnome-tweak-select-theme-jaredchu-blog.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;terminal&quot;]" /><summary type="html">Nếu nhắc tới hệ điều hành mã nguồn mở dựa trên nhân linux thì chắc hẵn các bạn sẽ không thể nhắc Ubuntu, 1 hệ điều hành mã nguồn mở.</summary></entry></feed>
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;terminal&quot;]" /><summary type="html">Nếu nhắc tới hệ điều hành mã nguồn mở dựa trên nhân linux thì chắc hẵn các bạn sẽ không thể nhắc Ubuntu, 1 hệ điều hành mã nguồn mở.</summary></entry><entry><title type="html">Cải thiện sức mạnh đồ họa Intel/AMD trên ubuntu với Custom Mesa Driver</title><link href="http://localhost:4000/unixlinux/terminal/2020/03/06/cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver.html" rel="alternate" type="text/html" title="Cải thiện sức mạnh đồ họa Intel/AMD trên ubuntu với Custom Mesa Driver" /><published>2020-03-06T00:00:00+07:00</published><updated>2020-03-06T00:00:00+07:00</updated><id>http://localhost:4000/unixlinux/terminal/2020/03/06/cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver</id><content type="html" xml:base="http://localhost:4000/unixlinux/terminal/2020/03/06/cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver.html">&lt;h3 id=&quot;đối-tượng-cho-bài-viết&quot;&gt;Đối tượng cho bài viết&lt;/h3&gt;
+
+&lt;p&gt;Bạn là một người dùng Ubuntu (hoặc bất kì một distro base trên Ubuntu ví dụ như Mint) trên một computer dùng đồ họa của Intel hay AMD (Nvidia thì vẫn có thể dùng nhưng không đảm bảo sử dụng) và đòi hỏi máy đáp ứng nhu cầu đồ họa mạnh như game hay blender, render video,… (mà Mesa đi kèm - stock - không thể đáp ứng).&lt;/p&gt;
+
+&lt;p&gt;Với Mesa (driver graphics mã nguồn mở trên hầu hết distro Linux) stock hay còn gọi là đi kèm theo khi cài Ubuntu là bản gốc hoặc cũ (nếu dùng LTS) chưa được cải tiến, chỉ dùng ổn với 2D, còn 3D thì không đáp ứng. Thì trong bài viết này mình giới thiệu và hướng dẫn cài đặt 2 bản Mesa đã chỉnh sửa của Oibaf và Padoka, luôn cập nhật theo git cách 2 ngày và tối ưu hóa mức cao nhất.&lt;/p&gt;
+
+&lt;p&gt;Chú ý rằng bài này sẽ không đề cập tới graphics Nvidia và chú trọng tới graphics Intel nhất, AMD thì cơ bản vẫn giống.&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/070d1750882925.58dc072db3109.jpg&quot; /&gt;&lt;/center&gt;
+
+&lt;h3 id=&quot;tìm-hiểu-sâu-hơn&quot;&gt;Tìm hiểu sâu hơn&lt;/h3&gt;
+
+&lt;p&gt;Trong bộ cài Ubuntu chứa Mesa - driver đồ họa mã nguồn mở cho linux - bản gốc tương thích với mọi phần cứng, nhưng chỉ đáp ứng đồ họa mức 2D ở mức Full HD là cùng, trở lên thì sẽ rất lag và có performance 3D vô cùng tệ. Như mình, vào các game đồ họa 3D trên Steam, hầu hết đều crash khi load game (Intel), nhiều người dùng khác cũng phản ánh điều này.
+Mình cũng tìm hiểu trên Google và ai cũng trả lời chung câu trả lời, theo Softpedia thì họ chốt 1 câu:&lt;/p&gt;
+
+&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
+	Ubuntu gamers with older AMD Radeon or Intel graphics cards know by now that they have to install a third-party PPA (Personal Package Archive) that contains the latest open-source graphics drivers to enjoy a much better gaming experience.
+&lt;/p&gt;
+
+&lt;p&gt;Dịch sang tiếng việt:&lt;/p&gt;
+
+&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
+	Game thủ Ubuntu với card đồ họa AMD Radeon cũ hay Intel graphics đều biết rằng họ phải cài PPA bên thứ ba (Kho package cá nhân) chứa Mesa bản mới nhất để trải nghiệm gaming tốt hơn.
+&lt;/p&gt;
+
+&lt;p&gt;Và chỉ có 2 PPA chứa bản Mesa mới nhất và đã tối ưu hóa rất đáng kể cho 3D do tác giả có nickname Oibaf - tên viết ngược từ tên thật của tác giả (Fabio Pedretti) và Padoka (Paulo Miguel Dias).
+Giới thiệu đủ rồi, đào thôi!&lt;/p&gt;
+
+&lt;h3 id=&quot;phiên-bản-của-tác-giả-oibafs-ppa&quot;&gt;Phiên bản của tác giả Oibaf’s PPA&lt;/h3&gt;
+
+&lt;p&gt;PPA này lập từ 2011 do tác giả Oibaf, được lấy từ git commit hằng ngày từ repo Mesa và chỉnh sửa, tối ưu và đưa update cứ 2 ngày 1 lần (bạn vẫn có thể skip qua update). Bản này được nhiều thánh Linux khuyên dùng và thấy rất stable (ổn định).
+PPA này hỗ trợ các bản Ubuntu từ 18.04 đến 19.10 (testing).
+Để cài đặt, bạn chạy lệnh sau (copy hết đọan rồi enter cho gọn):&lt;/p&gt;
+
+&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
+	sudo add-apt-repository ppa:oibaf/graphics-drivers&lt;br /&gt;
+	sudo apt update &lt;br /&gt;
+	sudo apt upgrade &lt;br /&gt;
+	sudo reboot
+&lt;/p&gt;
+
+&lt;p&gt;Cả đoạn này bao gồm thêm PPA vào danh sách update và thay update từ PPA thay cho update từ Ubuntu. Chú ý: khi xong máy sẽ tự reboot, và không nên dùng máy khi đang thực hiện. Khi reboot, bạn vào thử 1 game và ngon cỡ nào nhé :D.
+Có nhiều điều quan trọng khi dùng cả 2 PPA này, bạn kéo xuống xem phần Lưu ý&lt;/p&gt;
+
+&lt;h3 id=&quot;phiên-bản-của-tác-giả-padokas-ppa&quot;&gt;Phiên bản của tác giả Padoka’s PPA&lt;/h3&gt;
+
+&lt;p&gt;Với PPA của tác giả Padoka mình chưa dùng. Có 2 PPA: ổn định và thiếu ổn định. Mình sẽ nói về bản ổn định.
+Mình ít thấy ai review về PPA này, đa số đều đã cũ (từ hồi Ubuntu bản 17.10 thì hiệu năng nhỉnh hơn của Oibaf một tý), hay ai đó nói về sự ổn định. Nếu đã dùng thì hãy cho mình biết dưới comment nhé! :D.
+PPA này chỉ hỗ trợ hai bản Ubuntu là 18.04.x và 18.10 do tác giả rất bận, không có thời gian.
+Sau đây là cách sử dụng:&lt;/p&gt;
+
+&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
+	sudo add-apt-repository ppa:paulo-miguel-dias/pkppa  &lt;br /&gt;
+	sudo apt update  &lt;br /&gt;
+	sudo apt upgrade  &lt;br /&gt;
+	sudo reboot
+&lt;/p&gt;
+
+&lt;p&gt;Đọan lệnh này cũng như trên, sẽ tự động restart máy khi hoàn thành nên mình khuyên đừng dùng nhé!&lt;/p&gt;
+
+&lt;h3 id=&quot;lưu-ý&quot;&gt;Lưu ý&lt;/h3&gt;
+&lt;p&gt;Khi update lên 1 bản Ubuntu mới như 18.04 lên 18.10 hay 18.10 lên 19.04 v.v… thì bạn BẮT BUỘC phải gỡ hai PPA này trước khi update lên phiên bản mới của ubuntu, để gỡ bạn chạy 2 lệnh:&lt;/p&gt;
+
+&lt;h3 id=&quot;cài-đặt-gói-ppa-purge&quot;&gt;Cài đặt gói ppa-purge&lt;/h3&gt;
+&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
+	sudo apt-get install ppa-purge
+&lt;/p&gt;
+&lt;h3 id=&quot;đối-với-oibaf&quot;&gt;đối với Oibaf&lt;/h3&gt;
+&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
+	sudo ppa-purge ppa:oibaf/graphics-drivers
+&lt;/p&gt;
+&lt;h3 id=&quot;đối-với-padoka&quot;&gt;đối với Padoka.&lt;/h3&gt;
+&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
+	sudo ppa-purge ppa:paulo-miguel-dias/pkppa 
+&lt;/p&gt;
+&lt;p&gt;Sau khi nâng Ubuntu bạn cài lại từ đầu nhé!
+Nếu muốn gỡ, thì bạn làm như trên.&lt;/p&gt;
+
+&lt;h3 id=&quot;theo-nguồn-cung-cấp-từ&quot;&gt;Theo nguồn cung cấp từ:&lt;/h3&gt;
+
+&lt;p&gt;Tác giả bài viết: Đặng Trung Nhân&lt;/p&gt;
+
+&lt;p&gt;Softpedia quote on this post&lt;/p&gt;
+
+&lt;p&gt;Oibaf’s PPA &amp;amp; Padoka’s PPA stable
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;terminal&quot;]" /><summary type="html">Bạn là một người dùng Ubuntu (hoặc bất kì một distro base trên Ubuntu ví dụ như Mint) trên một computer dùng đồ họa của Intel hay AMD (Nvidia thì vẫn có thể dùng nhưng không đảm bảo sử dụng) và đòi hỏi máy đáp ứng nhu cầu đồ họa mạnh như game hay blender, render video,... (mà Mesa đi kèm - stock - không thể đáp ứng).</summary></entry></feed>
