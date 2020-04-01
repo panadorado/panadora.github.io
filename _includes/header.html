@@ -1,61 +1,23 @@
 <header>
 	<nav>
 		<ul class="nav">
-			{% for item in site.data._link-menu %}
-				<li>
-					<a href="{{ item.href }}">
-						<i class="{{ item.fas-class }}"> {{ item.title }}</i>
-					</a>
-				</li>
-			{% endfor %}
-			<!-- <li>
-				<a href="#">
-					<i class="fas fa-list-alt"> Thể loại</i>
-				</a>
+			<li><a href="/"><i class="fas fa-home"> Trang chủ</i></a></li>
+			<li><a href="#"><i class="fab fa-youtube"> Youtube</i></a></li>
+			<li><a href="#"><i class="fas fa-list-alt"> Thông tin</i></a></li>
+			<li><a><i class="fas fa-list-alt"> Thể loại</i></a>
 				<ul class="sub-menu">
-					<li>
-						<a href="{{site.baseurl}}/categories/windows.html">Windows</a>
-					</li>
+					<li><a href="{{site.baseurl}}/categories/windows.html">Windows</a></li>
 					<li>
 						<a href="{{site.baseurl}}/categories/unixlinux.html">Linux/Unix</a>
 						<ul class="sub-menu">
-							<li>
-								<a href="{{site.baseurl}}/categories/terminal.html">Terminal</a>
-							</li>
+							<li><a href="{{site.baseurl}}/categories/terminal.html">Terminal</a></li>
 						</ul>
 					</li>
-					<li>
-						<a href="{{site.baseurl}}/categories/html.html">HTML</a>
-					</li>
-					<li>
-						<a href="{{site.baseurl}}/categories/css.html">CSS</a>
-					</li>
-					<li>
-						<a href="{{site.baseurl}}/categories/javascript.html">JavaScript</a>
-					</li>
+					<li><a href="{{site.baseurl}}/categories/html.html">HTML</a></li>
+					<li><a href="{{site.baseurl}}/categories/css.html">CSS</a></li>
+					<li><a href="{{site.baseurl}}/categories/javascript.html">JavaScript</a></li>
 				</ul>
-			</li> -->
-
-			<div class="btn-group">
-				<button type="button" class="btn bg-transparent dropdown-toggle" style="outline: none; box-shadow: none;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<i class="fas fa-list-alt text-light"> Thể loại</i>
-				</button>
-				<div class="dropdown-menu">
-
-					{% for data in site.data._categories.datas %}
-						<h6 class="dropdown-header"> {{ data.title }}</h6>
-						{% for item in data.topic %}
-							<a class="dropdown-item" href="{{site.baseurl}}/categories/{{ item.href }}">{{ item.name-cat }}</a>
-						{% endfor %}
-					{% endfor %}
-
-
-					<!-- <h6 class="dropdown-header">Hệ Điều Hành</h6>
-					<a class="dropdown-item" href="{{site.baseurl}}/categories/html.html">HTML</a>
-					<a class="dropdown-item" href="{{site.baseurl}}/categories/css.html">CSS</a>
-					<a class="dropdown-item" href="{{site.baseurl}}/categories/javascript.html">JavaScript</a> -->
-				  </div>
-			  </div>
+			</li>
 		</ul>
 	</nav>
 </header>
