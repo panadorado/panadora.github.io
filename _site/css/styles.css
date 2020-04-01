@@ -15,6 +15,10 @@ body {
 
 
 /* Navber MENU */
+.bg-transparent {
+  background: rgba(0, 0, 0, 0);
+}
+
 .nav {
   background: #242424; 
 }
