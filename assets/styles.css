@@ -14,66 +14,35 @@ body {
 
 
 /* Navber MENU */
-.bg-transparent {
-  background: rgba(0, 0, 0, 0);
+nav.navbar {
+  background: #242424;
 }
 
-.nav {
-  background: #242424; 
+button.navbar-toggler span {
+  color: #fff;
 }
- 
-.nav li{
-  position: relative;
-  list-style:none;
-}
- 
-.nav li a{
-  padding: 10px 10px;
-  line-height: 20px;
-  display: inline-block;
+
+.navbar-nav li a.nav-link {
   color: #fff;
   transition: .5s;
 }
 
-.nav li a:hover {
-  text-decoration: none;
-  color: red;
-  background: #dddd;
+.navbar-nav li a.nav-link:hover {
+  background: #fff;
+  color: #e9473f;
 }
 
-.nav>li{
-  float: left;
-  margin-right: 15px;
+div.dropdown-menu {
+  background: #242424;
+  transition: .4s;
 }
- 
-.nav>li>a{
+
+a.dropdown-item {
   color: #fff;
 }
 
-.nav .sub-menu{
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 100%;
-  background-color: #242424;
-  padding: 5px 5px;
-  text-align: center;
-}
- 
-.nav>li>.sub-menu{
-  top: 40px;
-  left: 0;
-}
-
-.nav li:hover>.sub-menu{
-  display: inline-block;
-}
-
-@media(max-width: 580px) {
-
-  .btn-count-page {
-    margin-bottom: 20px;
-  }
+a.dropdown-item:hover {
+  color: red;
 }
 
 /**********************/
