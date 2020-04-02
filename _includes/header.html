@@ -1,23 +1,29 @@
-<header>
-	<nav>
-		<ul class="nav">
-			<li><a href="/"><i class="fas fa-home"> Trang chủ</i></a></li>
-			<li><a href="#"><i class="fab fa-youtube"> Youtube</i></a></li>
-			<li><a href="#"><i class="fas fa-list-alt"> Thông tin</i></a></li>
-			<li><a><i class="fas fa-list-alt"> Thể loại</i></a>
-				<ul class="sub-menu">
-					<li><a href="{{site.baseurl}}/categories/windows.html">Windows</a></li>
-					<li>
-						<a href="{{site.baseurl}}/categories/unixlinux.html">Linux/Unix</a>
-						<ul class="sub-menu">
-							<li><a href="{{site.baseurl}}/categories/terminal.html">Terminal</a></li>
-						</ul>
-					</li>
-					<li><a href="{{site.baseurl}}/categories/html.html">HTML</a></li>
-					<li><a href="{{site.baseurl}}/categories/css.html">CSS</a></li>
-					<li><a href="{{site.baseurl}}/categories/javascript.html">JavaScript</a></li>
-				</ul>
-			</li>
-		</ul>
-	</nav>
-</header>
+<nav class="navbar navbar-expand-lg">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="fas fa-bars"></span>
+	</button>
+	 	<div class="collapse navbar-collapse" id="navbarNavDropdown">
+	    	<ul class="navbar-nav">
+		   		<li class="nav-item active">
+		    		<a class="nav-link" href="#"><i class="fas fa-home"> Trang chủ</i><span class="sr-only">(current)</span></a>
+				</li>
+	    		<li class="nav-item">
+		   			<a class="nav-link" href="#"><i class="fab fa-youtube"> Youtube</i></a>
+		   		</li>
+		   		<li class="nav-item">
+		   			<a class="nav-link" href="#"><i class="fas fa-address-card"> Thông tin</i></a>
+		    	</li>
+	    	<li class="nav-item dropdown">
+	    		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-list-alt"> Thể loại</i></a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          			<a class="dropdown-item" href="{{site.baseurl}}/categories/windows.html"><i class="fab fa-windows"> Windows</i></a>
+        			<a class="dropdown-item" href="{{site.baseurl}}/categories/unixlinux.html"><i class="fab fa-linux"> Unix/Linux</i></a>
+        			<a class="dropdown-item" href="{{site.baseurl}}/categories/games.html"><i class="fas fa-gamepad"> Games</i></a>
+        			<a class="dropdown-item" href="{{site.baseurl}}/categories/html.html"><i class="fab fa-html5"> HTML</i></a>
+        			<a class="dropdown-item" href="{{site.baseurl}}/categories/css.html"><i class="fab fa-css3-alt"> CSS</i></a>
+        			<a class="dropdown-item" href="{{site.baseurl}}/categories/javascript.html"><i class="fab fa-js"> JavaScript</i></a>
+    			</div>
+    		</li>
+    	</ul>
+	</div>
+</nav>
