@@ -1,4 +1,280 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-01T11:48:45+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Cài đặt Photoshop trên Ubuntu, Linux</title><link href="http://localhost:4000/unixlinux/terminal/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux.html" rel="alternate" type="text/html" title="Cài đặt Photoshop trên Ubuntu, Linux" /><published>2020-03-28T00:00:00+07:00</published><updated>2020-03-28T00:00:00+07:00</updated><id>http://localhost:4000/unixlinux/terminal/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux</id><content type="html" xml:base="http://localhost:4000/unixlinux/terminal/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux.html">&lt;p&gt;&lt;strong&gt;Bạn là một người dùng windows và sau đó bạn chuyển sang dùng 1 hệ điều hành xa lạ để trải nghiệm đó là Ubuntu/Linux , điều đầu tiên đập vào mắt bạn là ở 1 HĐH này là mới mẽ mang một loại cách tính năng khác lạ v.v.&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-03T21:47:48+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Hướng dẫn cài đặt ubuntu song song với windows</title><link href="http://localhost:4000/windows/unixlinux/2020/04/02/huong-dan-cai-dat-ubuntu-song-song-windows.html" rel="alternate" type="text/html" title="Hướng dẫn cài đặt ubuntu song song với windows" /><published>2020-04-02T00:00:00+07:00</published><updated>2020-04-02T00:00:00+07:00</updated><id>http://localhost:4000/windows/unixlinux/2020/04/02/huong-dan-cai-dat-ubuntu-song-song-windows</id><content type="html" xml:base="http://localhost:4000/windows/unixlinux/2020/04/02/huong-dan-cai-dat-ubuntu-song-song-windows.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/202042ubuntu-windows.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bạn là một người dùng hệ điều hành &lt;code class=&quot;highlighter-rouge&quot;&gt;Windows&lt;/code&gt; và muốn chuyển sang dùng &lt;code class=&quot;highlighter-rouge&quot;&gt;Ubuntu&lt;/code&gt; để trải nghiệm sự mới của hệ điều hành mang nhân &lt;code class=&quot;highlighter-rouge&quot;&gt;linux&lt;/code&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tuy nhiên việc bạn cài hoàn toàn 1 hệ điều hành &lt;code class=&quot;highlighter-rouge&quot;&gt;Ubuntu/Linux&lt;/code&gt; lên một chiếc PC hoặc Laptop thì hết sức bình thường, nhưng điều đó sẽ quá xa lạ với 1 hệ điều hành mang đầy tính năng mới mẽ đối với bạn. Thì buộc bạn phải cài song song cả 2 hệ điều hành trên cùng một chiếc PC hoặc Laptop để tiện cho việc nghiên cứu và học tập.&lt;/p&gt;
+
+&lt;p&gt;Trong bài post này mình xin hướng dẫn các bạn cài đặt Ubuntu song song với Windows trên PC hoặc Laptop nhé.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bước 1: Cài đặt và tạo boot USB&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Đầu tiện bạn cần tải phần mềm &lt;code class=&quot;highlighter-rouge&quot;&gt;rufus&lt;/code&gt; để tạo boot USB &lt;a href=&quot;https://rufus.ie/&quot;&gt;tại đây&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;File &lt;code class=&quot;highlighter-rouge&quot;&gt;iso&lt;/code&gt; chứa hệ điều hành &lt;code class=&quot;highlighter-rouge&quot;&gt;Ubuntu&lt;/code&gt; &lt;a href=&quot;https://ubuntu.com/#download&quot;&gt;tại đây&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tiếp theo bạn khởi tạo boot hệ điều hành ubuntu vào USB&lt;/p&gt;
+
+&lt;p&gt;Kết nối USB vào Máy tính và mở phần mềm rufus lên và cấu hình như sau:&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://www.upsieutoc.com/images/2020/04/03/rufus-createBoot-Ubuntu.png&quot; alt=&quot;rufus-createBoot-Ubuntu.png&quot; border=&quot;0&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bước 2: Tiến hành cài đặt song song Ubuntu vào máy tính&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tổng hợp danh sách các phím truy cập BIOS cho bo mạch chủ của PC&lt;/strong&gt;&lt;/p&gt;
+
+&lt;article class=&quot;text-blog&quot;&gt;
+	&lt;style&gt;	
+		table, th, td {
+		  background: #dddd;
+		  border: 1px solid #242424;
+		  padding: 8px;
+		}
+	&lt;/style&gt;
+	&lt;table&gt;
+		&lt;tr&gt;
+			&lt;th&gt; Tên Mainboard PC &lt;/th&gt;
+			&lt;th&gt; Phím tắt &lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard Abit &lt;/td&gt;
+			&lt;td&gt; phím DEL &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard ASRock &lt;/td&gt;
+			&lt;td&gt; phím F2 &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard ASUS &lt;/td&gt;
+			&lt;td&gt; Phím DEL, Print hoặc F10 &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard BFG &lt;/td&gt;
+			&lt;td&gt; Phím DEL &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard FREESCALE &lt;/td&gt;
+			&lt;td&gt; Phím DEL &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard DFI &lt;/td&gt;
+			&lt;td&gt; Phím DEL &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard ECS Elitegroup &lt;/td&gt;
+			&lt;td&gt; Phím DEL hoặc F1 &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard EVGA &lt;/td&gt;
+			&lt;td&gt; Phím DEL &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard Foxconn &lt;/td&gt;
+			&lt;td&gt; Phím DEL &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard GIGABYTE &lt;/td&gt;
+			&lt;td&gt; Phím DEL &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard Intel &lt;/td&gt;
+			&lt;td&gt; Phím DEL &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard JetWay &lt;/td&gt;
+			&lt;td&gt; Phím DEL &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard Mach Speed &lt;/td&gt;
+			&lt;td&gt; Phím DEL &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard MSI (Micro-Star) &lt;/td&gt;
+			&lt;td&gt; Phím DEL &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard PCChips &lt;/td&gt;
+			&lt;td&gt; Phím DEL hoặc F1 &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard SAPPHIRE &lt;/td&gt;
+			&lt;td&gt; Phím DEL &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard Shuttle &lt;/td&gt;
+			&lt;td&gt; Del hoặc Ctrl + Alt + Esc &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard Soyo &lt;/td&gt;
+			&lt;td&gt; Phím DEL &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard Super Micro &lt;/td&gt;
+			&lt;td&gt; Phím DEL &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard TYAN &lt;/td&gt;
+			&lt;td&gt; DEL hoặc F4 &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Mainboard XFX &lt;/td&gt;
+			&lt;td&gt; DEL hoặc &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th&gt; Tên Laptop &lt;/th&gt;
+			&lt;th&gt; Phím tắt &lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/table&gt;
+&lt;/article&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;Danh sách phím truy cập BIOS theo dòng máy&lt;/strong&gt;&lt;/p&gt;
+&lt;article class=&quot;text-blog&quot;&gt;
+	&lt;style&gt;	
+		table, th, td {
+		  background: #dddd;
+		  border: 1px solid #242424;
+		  padding: 5px;
+		}
+	&lt;/style&gt;
+	&lt;table&gt;
+		&lt;tr&gt;
+			&lt;th&gt; Tên Laptop &lt;/th&gt;
+			&lt;th&gt; Phím tắt &lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Laptop SONY VAIO &lt;/td&gt;
+			&lt;td&gt; 
+				Để vào được BIOS khi khởi động lại máy tính bạn cần nhấn và giữ phím F2 &lt;br /&gt;
+				Để vào được Recovery khi khởi động lại máy tính bạn cần nhấn và giữ phím F10 
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Laptop HP – COMPAQ &lt;/td&gt;
+			&lt;td&gt; 
+				Một số dòng máy của HP thì bạn sẽ phải bấm Esc - nút Escape để vào BIOS.&lt;br /&gt;
+				Để vào được BIOS khi khởi động lại máy tính bạn cần nhấn và giữ phím F10&lt;br /&gt;
+				Để vào được Recovery khi khởi động lại máy tính bạn cần nhấn và giữ phím F11&lt;br /&gt;
+				Để vào được BOOT khi khởi động lại máy tính bạn cần nhấn và giữ phím F9
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Laptop ACER &lt;/td&gt;
+			&lt;td&gt; 
+				Để vào được BOOT khi khởi động lại máy tính bạn cần nhấn và giữ phím F12&lt;br /&gt;
+				Để vào được BIOS khi khởi động lại máy tính bạn cần nhấn và giữ phím F2.&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Laptop ASUS &lt;/td&gt;
+			&lt;td&gt; 
+				Để vào được BIOS khi khởi động lại máy tính bạn cần nhấn và giữ phím ESC&lt;br /&gt;
+				Để vào được BOOT khi khởi động lại máy tính bạn cần nhấn và giữ phím F2 
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Laptop LENOVO THINKPAD &lt;/td&gt;
+			&lt;td&gt; 
+				Để vào được BIOS khi khởi động lại máy tính bạn cần nhấn và giữ phím F1&lt;br /&gt;
+				Để vào được Recovery khi khởi động lại máy tính bạn cần nhấn và giữ phím ThinkVantage&lt;br /&gt;
+				Để vào được BOOT khi khởi động lại máy tính bạn cần nhấn và giữ phím F12 
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; Laptop DELL &lt;/td&gt;
+			&lt;td&gt; 
+				Để vào được BIOS khi khởi động lại máy tính bạn cần nhấn và giữ phím F2&lt;br /&gt;
+				Để vào được Recovery khi khởi động lại máy tính bạn cần nhấn và giữ phím F8 rồi chọn Repair your Computer&lt;br /&gt;
+				Để vào được BOOT khi khởi động lại máy tính bạn cần nhấn và giữ phím F12 
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/table&gt;
+&lt;/article&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Lưu ý: trước khi cài đặt Ubuntu yêu cầu các bạn tắt &lt;code class=&quot;highlighter-rouge&quot;&gt;Security Boot&lt;/code&gt; và chọn đúng Chuẩn boot bạn đang sử dụng nếu không nhớ bạn có thể nguyên chuẩn MBR (BIOS hoặc UEFI) như Bước 1 &lt;code class=&quot;highlighter-rouge&quot;&gt;Cài đặt và tạo boot USB&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Sau đó chọn Boot USB để vào giao diện cài đặt hệ điều hành &lt;code class=&quot;highlighter-rouge&quot;&gt;Ubuntu&lt;/code&gt;:&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-1.png&quot; alt=&quot;ubuntu-pic-1.png&quot; border=&quot;0&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bạn chọn &lt;code class=&quot;highlighter-rouge&quot;&gt;Install Ubuntu&lt;/code&gt;, chọn ngôn ngữ &lt;code class=&quot;highlighter-rouge&quot;&gt;English&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-2.png&quot; alt=&quot;ubuntu-pic-2.png&quot; border=&quot;0&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Keyboard (mặt định &lt;code class=&quot;highlighter-rouge&quot;&gt;English US&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-3.png&quot; alt=&quot;ubuntu-pic-3.png&quot; border=&quot;0&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Phần &lt;code class=&quot;highlighter-rouge&quot;&gt;Update and other software&lt;/code&gt; bạn chọn &lt;code class=&quot;highlighter-rouge&quot;&gt;Normal installation&lt;/code&gt; và tích vào 2 hàng ở phần Other option&lt;/li&gt;
+&lt;/ul&gt;
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-4.png&quot; alt=&quot;ubuntu-pic-4.png&quot; border=&quot;0&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Phần &lt;code class=&quot;highlighter-rouge&quot;&gt;Installation type&lt;/code&gt; nếu cài song song bạn chọn &lt;code class=&quot;highlighter-rouge&quot;&gt;Something else&lt;/code&gt;, nếu bạn muốn cài đặt hoàn toàn Ubuntu thì bạn chọn &lt;code class=&quot;highlighter-rouge&quot;&gt;Erea disk and install Ubuntu&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-6.png&quot; alt=&quot;ubuntu-pic-6.png&quot; border=&quot;0&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Phần &lt;code class=&quot;highlighter-rouge&quot;&gt;Installation type&lt;/code&gt; trong phần này các bắt đầu khởi tạo phân vùng như sau:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bạn click vào dấu &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt;&lt;/strong&gt; khởi tạo phân vùng &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Swap area&lt;/code&gt;&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;Phần Size (dung lượng) bạn set cho gắp đôi dung lương &lt;code class=&quot;highlighter-rouge&quot;&gt;RAM&lt;/code&gt; nhé ví dụ:&lt;br /&gt;
+RAM 2GB -&amp;gt; Swap sẽ là 4GB (1024KB x 4 = 4096KB)&lt;br /&gt;
+RAM 4GB -&amp;gt; Swap sẽ là 8GB (1024KB x 8 = 8192KB)&lt;/p&gt;
+
+&lt;p&gt;Phần Type for the new partition: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Logical&lt;/code&gt;&lt;/strong&gt;&lt;br /&gt;
+Phần Use as: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Swap area&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-7.png&quot; alt=&quot;ubuntu-pic-7.png&quot; border=&quot;0&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Phần còn lại bạn dùng làm Phân vùng chính để cài &lt;code class=&quot;highlighter-rouge&quot;&gt;Ubuntu&lt;/code&gt; &lt;br /&gt;
+Phần Type for the new partition: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Primary&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
+Phần Use as: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Ext4 journaling file system&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-8.png&quot; alt=&quot;ubuntu-pic-8.png&quot; border=&quot;0&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;tiếp tục click vào &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Continue&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-9.png&quot; alt=&quot;ubuntu-pic-9.png&quot; border=&quot;0&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Where are you?: &lt;code class=&quot;highlighter-rouge&quot;&gt;Ho Chi Minh&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-10.png&quot; alt=&quot;ubuntu-pic-10.png&quot; border=&quot;0&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Who are you?:&lt;/strong&gt;&lt;br /&gt;
+Your name: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt; tên user bạn muốn đặt &amp;gt;&lt;/code&gt;&lt;/strong&gt;&lt;br /&gt;
+Your computer’s name: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt; tên cho máy tính bạn muốn đặt &amp;gt;&lt;/code&gt;&lt;/strong&gt;&lt;br /&gt;
+Pick a username: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt; tên tài khoảng bạn muốn đặt &amp;gt;&lt;/code&gt;&lt;/strong&gt;&lt;br /&gt;
+Choose a password: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt; mật khẩu bạn muốn đặt &amp;gt;&lt;/code&gt;&lt;/strong&gt;&lt;br /&gt;
+Confirm your password: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt; xác nhận lại mật khẩu &amp;gt;&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-11.png&quot; alt=&quot;ubuntu-pic-11.png&quot; border=&quot;0&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click vào &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;continue&lt;/code&gt;&lt;/strong&gt; để tiến hành cài đặt &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Ubuntu&lt;/code&gt;&lt;/strong&gt;.&lt;br /&gt;
+Sau khi cài đặt hoàn tất, các bạn khởi động lại máy tính và màn hình Dual-Boot Ubuntu với Windows hiện lên. Bạn có thể sử dụng phím mũi tên để di chuyển đến hệ điều hành muốn khởi động và nhấn Enter, lựa chọn Ubuntu để vào Ubuntu hoặc &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Windows Boot Manager&lt;/code&gt;&lt;/strong&gt; để truy cập vào Windows.&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://privatstrand.dirkschmidtke.de/wp-content/ubuntu-18.04-welcome.jpg&quot; /&gt;&lt;/center&gt;
+&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;windows&quot;, &quot;unixlinux&quot;]" /><summary type="html">Bạn là một người dùng hệ điều hành Windows và muốn chuyển sang dùng Ubuntu</summary></entry><entry><title type="html">Cài đặt Photoshop trên Ubuntu, Linux</title><link href="http://localhost:4000/unixlinux/terminal/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux.html" rel="alternate" type="text/html" title="Cài đặt Photoshop trên Ubuntu, Linux" /><published>2020-03-28T00:00:00+07:00</published><updated>2020-03-28T00:00:00+07:00</updated><id>http://localhost:4000/unixlinux/terminal/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux</id><content type="html" xml:base="http://localhost:4000/unixlinux/terminal/2020/03/28/cai-dat-photoshop-tren-ubuntu-linux.html">&lt;p&gt;&lt;strong&gt;Bạn là một người dùng windows và sau đó bạn chuyển sang dùng 1 hệ điều hành xa lạ để trải nghiệm đó là Ubuntu/Linux , điều đầu tiên đập vào mắt bạn là ở 1 HĐH này là mới mẽ mang một loại cách tính năng khác lạ v.v.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Nhưng bất ngờ vào một ngày đó bạn thử cài đặt một phần mềm của windows, nhưng không được vì phần mềm đó chỉ xây dựng và chạy trên HĐH Windows. Vì thế bài viết này sẽ hướng dẫn bạn cài đặt phần mềm đó trên HĐH Ubuntu/Linux với một ứng dụng mang tên PlayOnLinux.&lt;/strong&gt;&lt;/p&gt;
 
@@ -626,90 +902,4 @@ Jekyll sử dụng Liquid template, Markdown, YAML front-matter để hoạt đ�
 
 &lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://jaredchu.com/wp-content/uploads/2018/08/gnome-tweak-select-theme-jaredchu-blog.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;terminal&quot;]" /><summary type="html">Nếu nhắc tới hệ điều hành mã nguồn mở dựa trên nhân linux thì chắc hẵn các bạn sẽ không thể nhắc Ubuntu, 1 hệ điều hành mã nguồn mở.</summary></entry><entry><title type="html">Cải thiện sức mạnh đồ họa Intel/AMD trên ubuntu với Custom Mesa Driver</title><link href="http://localhost:4000/unixlinux/terminal/2020/03/06/cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver.html" rel="alternate" type="text/html" title="Cải thiện sức mạnh đồ họa Intel/AMD trên ubuntu với Custom Mesa Driver" /><published>2020-03-06T00:00:00+07:00</published><updated>2020-03-06T00:00:00+07:00</updated><id>http://localhost:4000/unixlinux/terminal/2020/03/06/cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver</id><content type="html" xml:base="http://localhost:4000/unixlinux/terminal/2020/03/06/cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver.html">&lt;h3 id=&quot;đối-tượng-cho-bài-viết&quot;&gt;Đối tượng cho bài viết&lt;/h3&gt;
-
-&lt;p&gt;Bạn là một người dùng Ubuntu (hoặc bất kì một distro base trên Ubuntu ví dụ như Mint) trên một computer dùng đồ họa của Intel hay AMD (Nvidia thì vẫn có thể dùng nhưng không đảm bảo sử dụng) và đòi hỏi máy đáp ứng nhu cầu đồ họa mạnh như game hay blender, render video,… (mà Mesa đi kèm - stock - không thể đáp ứng).&lt;/p&gt;
-
-&lt;p&gt;Với Mesa (driver graphics mã nguồn mở trên hầu hết distro Linux) stock hay còn gọi là đi kèm theo khi cài Ubuntu là bản gốc hoặc cũ (nếu dùng LTS) chưa được cải tiến, chỉ dùng ổn với 2D, còn 3D thì không đáp ứng. Thì trong bài viết này mình giới thiệu và hướng dẫn cài đặt 2 bản Mesa đã chỉnh sửa của Oibaf và Padoka, luôn cập nhật theo git cách 2 ngày và tối ưu hóa mức cao nhất.&lt;/p&gt;
-
-&lt;p&gt;Chú ý rằng bài này sẽ không đề cập tới graphics Nvidia và chú trọng tới graphics Intel nhất, AMD thì cơ bản vẫn giống.&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/070d1750882925.58dc072db3109.jpg&quot; /&gt;&lt;/center&gt;
-
-&lt;h3 id=&quot;tìm-hiểu-sâu-hơn&quot;&gt;Tìm hiểu sâu hơn&lt;/h3&gt;
-
-&lt;p&gt;Trong bộ cài Ubuntu chứa Mesa - driver đồ họa mã nguồn mở cho linux - bản gốc tương thích với mọi phần cứng, nhưng chỉ đáp ứng đồ họa mức 2D ở mức Full HD là cùng, trở lên thì sẽ rất lag và có performance 3D vô cùng tệ. Như mình, vào các game đồ họa 3D trên Steam, hầu hết đều crash khi load game (Intel), nhiều người dùng khác cũng phản ánh điều này.
-Mình cũng tìm hiểu trên Google và ai cũng trả lời chung câu trả lời, theo Softpedia thì họ chốt 1 câu:&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	Ubuntu gamers with older AMD Radeon or Intel graphics cards know by now that they have to install a third-party PPA (Personal Package Archive) that contains the latest open-source graphics drivers to enjoy a much better gaming experience.
-&lt;/p&gt;
-
-&lt;p&gt;Dịch sang tiếng việt:&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	Game thủ Ubuntu với card đồ họa AMD Radeon cũ hay Intel graphics đều biết rằng họ phải cài PPA bên thứ ba (Kho package cá nhân) chứa Mesa bản mới nhất để trải nghiệm gaming tốt hơn.
-&lt;/p&gt;
-
-&lt;p&gt;Và chỉ có 2 PPA chứa bản Mesa mới nhất và đã tối ưu hóa rất đáng kể cho 3D do tác giả có nickname Oibaf - tên viết ngược từ tên thật của tác giả (Fabio Pedretti) và Padoka (Paulo Miguel Dias).
-Giới thiệu đủ rồi, đào thôi!&lt;/p&gt;
-
-&lt;h3 id=&quot;phiên-bản-của-tác-giả-oibafs-ppa&quot;&gt;Phiên bản của tác giả Oibaf’s PPA&lt;/h3&gt;
-
-&lt;p&gt;PPA này lập từ 2011 do tác giả Oibaf, được lấy từ git commit hằng ngày từ repo Mesa và chỉnh sửa, tối ưu và đưa update cứ 2 ngày 1 lần (bạn vẫn có thể skip qua update). Bản này được nhiều thánh Linux khuyên dùng và thấy rất stable (ổn định).
-PPA này hỗ trợ các bản Ubuntu từ 18.04 đến 19.10 (testing).
-Để cài đặt, bạn chạy lệnh sau (copy hết đọan rồi enter cho gọn):&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	sudo add-apt-repository ppa:oibaf/graphics-drivers&lt;br /&gt;
-	sudo apt update &lt;br /&gt;
-	sudo apt upgrade &lt;br /&gt;
-	sudo reboot
-&lt;/p&gt;
-
-&lt;p&gt;Cả đoạn này bao gồm thêm PPA vào danh sách update và thay update từ PPA thay cho update từ Ubuntu. Chú ý: khi xong máy sẽ tự reboot, và không nên dùng máy khi đang thực hiện. Khi reboot, bạn vào thử 1 game và ngon cỡ nào nhé :D.
-Có nhiều điều quan trọng khi dùng cả 2 PPA này, bạn kéo xuống xem phần Lưu ý&lt;/p&gt;
-
-&lt;h3 id=&quot;phiên-bản-của-tác-giả-padokas-ppa&quot;&gt;Phiên bản của tác giả Padoka’s PPA&lt;/h3&gt;
-
-&lt;p&gt;Với PPA của tác giả Padoka mình chưa dùng. Có 2 PPA: ổn định và thiếu ổn định. Mình sẽ nói về bản ổn định.
-Mình ít thấy ai review về PPA này, đa số đều đã cũ (từ hồi Ubuntu bản 17.10 thì hiệu năng nhỉnh hơn của Oibaf một tý), hay ai đó nói về sự ổn định. Nếu đã dùng thì hãy cho mình biết dưới comment nhé! :D.
-PPA này chỉ hỗ trợ hai bản Ubuntu là 18.04.x và 18.10 do tác giả rất bận, không có thời gian.
-Sau đây là cách sử dụng:&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	sudo add-apt-repository ppa:paulo-miguel-dias/pkppa  &lt;br /&gt;
-	sudo apt update  &lt;br /&gt;
-	sudo apt upgrade  &lt;br /&gt;
-	sudo reboot
-&lt;/p&gt;
-
-&lt;p&gt;Đọan lệnh này cũng như trên, sẽ tự động restart máy khi hoàn thành nên mình khuyên đừng dùng nhé!&lt;/p&gt;
-
-&lt;h3 id=&quot;lưu-ý&quot;&gt;Lưu ý&lt;/h3&gt;
-&lt;p&gt;Khi update lên 1 bản Ubuntu mới như 18.04 lên 18.10 hay 18.10 lên 19.04 v.v… thì bạn BẮT BUỘC phải gỡ hai PPA này trước khi update lên phiên bản mới của ubuntu, để gỡ bạn chạy 2 lệnh:&lt;/p&gt;
-
-&lt;h3 id=&quot;cài-đặt-gói-ppa-purge&quot;&gt;Cài đặt gói ppa-purge&lt;/h3&gt;
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	sudo apt-get install ppa-purge
-&lt;/p&gt;
-&lt;h3 id=&quot;đối-với-oibaf&quot;&gt;đối với Oibaf&lt;/h3&gt;
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	sudo ppa-purge ppa:oibaf/graphics-drivers
-&lt;/p&gt;
-&lt;h3 id=&quot;đối-với-padoka&quot;&gt;đối với Padoka.&lt;/h3&gt;
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	sudo ppa-purge ppa:paulo-miguel-dias/pkppa 
-&lt;/p&gt;
-&lt;p&gt;Sau khi nâng Ubuntu bạn cài lại từ đầu nhé!
-Nếu muốn gỡ, thì bạn làm như trên.&lt;/p&gt;
-
-&lt;h3 id=&quot;theo-nguồn-cung-cấp-từ&quot;&gt;Theo nguồn cung cấp từ:&lt;/h3&gt;
-
-&lt;p&gt;Tác giả bài viết: Đặng Trung Nhân&lt;/p&gt;
-
-&lt;p&gt;Softpedia quote on this post&lt;/p&gt;
-
-&lt;p&gt;Oibaf’s PPA &amp;amp; Padoka’s PPA stable
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;terminal&quot;]" /><summary type="html">Bạn là một người dùng Ubuntu (hoặc bất kì một distro base trên Ubuntu ví dụ như Mint) trên một computer dùng đồ họa của Intel hay AMD (Nvidia thì vẫn có thể dùng nhưng không đảm bảo sử dụng) và đòi hỏi máy đáp ứng nhu cầu đồ họa mạnh như game hay blender, render video,... (mà Mesa đi kèm - stock - không thể đáp ứng).</summary></entry></feed>
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;terminal&quot;]" /><summary type="html">Nếu nhắc tới hệ điều hành mã nguồn mở dựa trên nhân linux thì chắc hẵn các bạn sẽ không thể nhắc Ubuntu, 1 hệ điều hành mã nguồn mở.</summary></entry></feed>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="h-100" lang="vi">
+<html lang="vi">
 <head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -7,16 +7,18 @@
 <link rel="shortcut icon" type="image/x-icon" href="/image/favicon.png">
 <title></title>
 
-<link rel="stylesheet" type="text/css" href="/css/styles.css" integrity="">
-<link rel="stylesheet" type="text/css" href="/css/zenburn.css" integrity="">
+<link rel="stylesheet" type="text/css" href="/assets/styles.css" integrity="">
+<link rel="stylesheet" type="text/css" href="/assets/zenburn.css" integrity="">
 
 <!-- ---------------------- BOOSTRAP CDN ---------------------- -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="">
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity=sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity=sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<!-- ----------------------------------------------------------- -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- ----------------------------------------------------------- -->
+
 
 	<!--  ICON FONTAWESOME  -->
 <script src="https://kit.fontawesome.com/01e0beb3d4.js" crossorigin="anonymous"></script>
@@ -26,103 +28,73 @@
 	
 	<!-- Script Add-ons Codepen -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://unpkg.com/@popperjs/core@2"></script></head>
-<body><header>
-	<nav>
-		<ul class="nav">
-			
-				<li>
-					<a href="/">
-						<i class="fas fa-home"> Trang chủ</i>
-					</a>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script></head>
+<body><nav class="navbar navbar-expand-lg">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="fas fa-bars"></span>
+	</button>
+	 	<div class="collapse navbar-collapse" id="navbarNavDropdown">
+	    	<ul class="navbar-nav">
+		   		<li class="nav-item active">
+		    		<a class="nav-link" href="/"><i class="fas fa-home"> Trang chủ</i><span class="sr-only">(current)</span></a>
 				</li>
-			
-				<li>
-					<a href="/https://www.youtube.com/channel/UCkoqufarETamiMrwtVg8ugQ/featured?view_as=subscriber">
-						<i class="fab fa-youtube"> Youtube</i>
-					</a>
-				</li>
-			
-				<li>
-					<a href="/#">
-						<i class="fas fa-info-circle"> Thông tin</i>
-					</a>
-				</li>
-			
-			<!-- <li>
-				<a href="#">
-					<i class="fas fa-list-alt"> Thể loại</i>
-				</a>
-				<ul class="sub-menu">
-					<li>
-						<a href="/categories/windows.html">Windows</a>
-					</li>
-					<li>
-						<a href="/categories/unixlinux.html">Linux/Unix</a>
-						<ul class="sub-menu">
-							<li>
-								<a href="/categories/terminal.html">Terminal</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a href="/categories/html.html">HTML</a>
-					</li>
-					<li>
-						<a href="/categories/css.html">CSS</a>
-					</li>
-					<li>
-						<a href="/categories/javascript.html">JavaScript</a>
-					</li>
-				</ul>
-			</li> -->
-
-			<div class="btn-group">
-				<button type="button" class="btn bg-transparent dropdown-toggle" style="outline: none; box-shadow: none;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<i class="fas fa-list-alt text-light"> Thể loại</i>
-				</button>
-				<div class="dropdown-menu">
-
-					
-						<h6 class="dropdown-header"> Hệ Điều Hành</h6>
-						
-							<a class="dropdown-item" href="/categories/unixlinux.html">Linux/Unix</a>
-						
-							<a class="dropdown-item" href="/categories/windows.html">Windows</a>
-						
-					
-						<h6 class="dropdown-header"> Website</h6>
-						
-							<a class="dropdown-item" href="/categories/html.html">HTML</a>
-						
-							<a class="dropdown-item" href="/categories/css.html">CSS</a>
-						
-							<a class="dropdown-item" href="/categories/javascript.html">JavaScript</a>
-						
-					
-
-
-					<!-- <h6 class="dropdown-header">Hệ Điều Hành</h6>
-					<a class="dropdown-item" href="/categories/html.html">HTML</a>
-					<a class="dropdown-item" href="/categories/css.html">CSS</a>
-					<a class="dropdown-item" href="/categories/javascript.html">JavaScript</a> -->
-				  </div>
-			  </div>
-		</ul>
-	</nav>
-</header>
-<section class="container">
+	    		<li class="nav-item">
+		   			<a class="nav-link" href="https://www.youtube.com/channel/UCkoqufarETamiMrwtVg8ugQ"><i class="fab fa-youtube"> Youtube</i></a>
+		   		</li>
+		   		<li class="nav-item">
+		   			<a class="nav-link" href="#"><i class="fas fa-address-card"> Thông tin</i></a>
+		    	</li>
+	    	<li class="nav-item dropdown">
+	    		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-list-alt"> Thể loại</i></a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          			<a class="dropdown-item" href="/categories/windows.html"><i class="fab fa-windows"> Windows</i></a>
+        			<a class="dropdown-item" href="/categories/unixlinux.html"><i class="fab fa-linux"> Unix/Linux</i></a>
+        			<a class="dropdown-item" href="/categories/games.html"><i class="fas fa-gamepad"> Games</i></a>
+        			<a class="dropdown-item" href="/categories/graphics.html"><i class="fas fa-microchip"> Graphics</i></a>
+        			<a class="dropdown-item" href="/categories/html.html"><i class="fab fa-html5"> HTML</i></a>
+        			<a class="dropdown-item" href="/categories/css.html"><i class="fab fa-css3-alt"> CSS</i></a>
+        			<a class="dropdown-item" href="/categories/javascript.html"><i class="fab fa-js"> JavaScript</i></a>
+    			</div>
+    		</li>
+    	</ul>
+	</div>
+</nav>
+<section class="container">	
 		<div class="text-logo">
 			<h1 class="text-center"><a href="/">Công Nghệ Và Cuộc Sống</a></h1>
 			<p class="text-center">Nơi tổng hợp những thông tin về công nghệ, thông tin <br> gắn liền với cuộc sống của bạn !</p>
 		</div>
-		
+
 		<div class="row">
 			
+    <div class="col-md-4">
+		<div class="single-blog">
+			<p class="blog-meta">
+				<i class="fas fa-book-reader"> Đăng bởi Panadora</i>
+				<span class="post-date">
+					<i class="fas fa-calendar-alt"> 02 Apr 2020</i>
+				</span>
+			</p>
+
+			<a href="/windows/unixlinux/2020/04/02/huong-dan-cai-dat-ubuntu-song-song-windows.html">
+				<img class="img-thumbnail img-hover" src="/image/202042ubuntu-windows.png" style="height: 200px;">
+			</a>
+
+			<p class="entry-title"><a href="/windows/unixlinux/2020/04/02/huong-dan-cai-dat-ubuntu-song-song-windows.html">Hướng dẫn cài đặt ubuntu song song với windows</a></p>
+
+			<p class="blog-text text-content">Bạn là một người dùng hệ điều hành Windows và muốn chuyển sang dùng Ubuntu</p>
+
+			<p>
+				<a href="/windows/unixlinux/2020/04/02/huong-dan-cai-dat-ubuntu-song-song-windows.html" class="read-more-btn">Đọc thêm</a>
+
+				<span class="plugin-facebook">
+					<i id="fb-root"></i>
+					<i class="fb-like" data-href="http://localhost:4000//windows/unixlinux/2020/04/02/huong-dan-cai-dat-ubuntu-song-song-windows.html" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></i>
+				</span>
+			</p>		
+		</div>
+	</div>
+
     <div class="col-md-4">
 		<div class="single-blog">
 			<p class="blog-meta">
@@ -327,18 +299,12 @@
 		<i class="fab fa-blogger-b"> Blog game -</i><a href="http://www.cs-modbeta.tk/" target="_blank"> cs-mobeta</a>
 	</div>
 </footer><!-- button to top page -->
-	<script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
-	<script>
-		addBackToTop({
-			iameter: 56,
-			backgroundColor: 'rgb(24, 24, 24)',
-			textColor: '#fff'
-		});
-	</script>
-	<!---------------------->
-	<script src="/assets/js/jquery-3.4.1.min.js"></script>
-	<script src="/assets/js/popper.min.js"></script>
-	<script src="/assets/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	</body>
+<script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+<script>
+	addBackToTop({
+		iameter: 56,
+		backgroundColor: 'rgb(24, 24, 24)',
+		textColor: '#fff'
+	});
+</script></body>
 </html>
