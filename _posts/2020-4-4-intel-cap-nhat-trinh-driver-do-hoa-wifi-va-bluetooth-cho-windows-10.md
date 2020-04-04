@@ -59,5 +59,5 @@ Driver hiện có sẵn cho laptop sở hữu bất kỳ bộ điều hợp khô
 
 **`Intel`** cho biết họ đã sửa một lỗi trong đó việc truyền tệp **`Bluetooth`** có thể thất bại nếu người dùng sử dụng phát trực tiếp âm thanh **`Bluetooth HFP`** hoặc **`A2DP`**. Một lỗi khác trong đó các thiết bị **`Bluetooth`** sẽ ngắt kết nối ngẫu nhiên cũng đã được sửa.
 
-Nguồn thông tìn: [quantrimang.com](https://quantrimang.com/intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10-170846?fbclid=IwAR0So3YoyjBgNwShJiIB2XKXOKy1sB41vIPi3aRmaijIaQNkOAnYOw4Mgj0)
+Nguồn thông tin: [quantrimang.com](https://quantrimang.com/intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10-170846?fbclid=IwAR0So3YoyjBgNwShJiIB2XKXOKy1sB41vIPi3aRmaijIaQNkOAnYOw4Mgj0)
 <hr>
