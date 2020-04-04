@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-03T21:47:48+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Hướng dẫn cài đặt ubuntu song song với windows</title><link href="http://localhost:4000/windows/unixlinux/2020/04/02/huong-dan-cai-dat-ubuntu-song-song-windows.html" rel="alternate" type="text/html" title="Hướng dẫn cài đặt ubuntu song song với windows" /><published>2020-04-02T00:00:00+07:00</published><updated>2020-04-02T00:00:00+07:00</updated><id>http://localhost:4000/windows/unixlinux/2020/04/02/huong-dan-cai-dat-ubuntu-song-song-windows</id><content type="html" xml:base="http://localhost:4000/windows/unixlinux/2020/04/02/huong-dan-cai-dat-ubuntu-song-song-windows.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/202042ubuntu-windows.png&quot; /&gt;&lt;/center&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-04T17:45:56+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Intel cập nhật trình điều khiển đồ họa, WiFi và Bluetooth cho Windows 10</title><link href="http://localhost:4000/windows/news/2020/04/04/intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10.html" rel="alternate" type="text/html" title="Intel cập nhật trình điều khiển đồ họa, WiFi và Bluetooth cho Windows 10" /><published>2020-04-04T00:00:00+07:00</published><updated>2020-04-04T00:00:00+07:00</updated><id>http://localhost:4000/windows/news/2020/04/04/intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10</id><content type="html" xml:base="http://localhost:4000/windows/news/2020/04/04/intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10.html">&lt;p&gt;&lt;strong&gt;Intel vừa mới phát hành một loạt các bản cập nhật mới cho driver đồ họa DCH, WiFi và Bluetooth trên hệ điều hành Windows 10. Các driver mới hiện có sẵn cho cả người dùng cá nhân cũng như doanh nghiệp ở các phiên bản 64-bit và 32-bit.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 style=&quot;font-weight: bold;&quot;&gt;Đồ Họa:&lt;/h3&gt;
+
+&lt;p&gt;Cụ thể, Intel đã cập nhật driver đồ họa DCH của mình lên phiên bản 26.20.100.7985 với một số sửa lỗi và cải tiến. Đồng thời cũng đã tích hợp driver âm thanh mới cho các máy tính đang sử dụng bộ xử lý Intel thế hệ thứ 6, 7, 8, 9, và 10 trong gói đồ họa DCH.&lt;/p&gt;
+
+&lt;p&gt;Theo thông báo từ Intel, bản cập nhật đi kèm với các bản sửa lỗi cho &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;DirectX 12&lt;/code&gt;&lt;/strong&gt; đối với game &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Fortnite&lt;/code&gt;&lt;/strong&gt;, cũng như cũng bổ sung thêm khả năng hỗ trợ cho các trò chơi mới như &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bleting Edge&lt;/code&gt;&lt;/strong&gt;. Đối với những người không chơi game, &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Intel&lt;/code&gt;&lt;/strong&gt; cho biết họ đã khắc phục lỗi khiến hình ảnh không đồng bộ với âm thanh khi phát video HDR thông qua ứng dụng Movies &amp;amp; TV trên Windows 10.&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/202044IntelGraphic-2.jpg&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Một lỗ hổng khác tồn tại trong ứng dụng Movies &amp;amp; TV khiến Windows 10 hiển thị màn hình đen khi phát video ở chế độ toàn màn hình cũng đã được sửa.&lt;/p&gt;
+
+&lt;p&gt;Không có thay đổi nào về mặt tính năng ở bản cập nhật driver lần này. Bản cập nhật tương thích với PC có bộ xử lý thế hệ thứ 6 hoặc mới hơn, bộ xử lý Pentium, Celeron với HD Graphics 510, 505, 500, UHD Graphics 605 và 600.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Lưu ý, đây là driver DCH và bạn nên cài đặt nó trên PC đang chạy phiên bản Windows 10 May 2019 Update hoặc mới hơn.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 style=&quot;font-weight: bold;&quot;&gt;WiFi và Bluetooth:&lt;/h3&gt;
+
+&lt;p&gt;Nếu PC của bạn đi kèm với bộ điều hợp không dây Intel, có một bản cập nhật mới hiện có sẵn cho các bộ điều hợp WiFi cụ thể theo danh sách sau:&lt;/p&gt;
+
+&lt;p&gt;Wi-Fi 6 (Gig+) Desktop Kit2
+Wi-Fi 6 AX2012
+Wi-Fi 6 AX2002
+Wireless-AC 95602
+Wireless-AC 94622
+Wireless-AC 94612
+Wireless-AC 92602
+Dual-Band Wireless-AC 82652
+Dual Band Wireless-AC 82602
+Dual Band Wireless-AC 3168
+Wireless 7265 (Rev D) Family
+Dual Band Wireless-AC 3165&lt;/p&gt;
+
+&lt;p&gt;Các bổ sung và cải tiến trong bản cập nhật:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Khi hệ thống được kết nối với mạng Wi-Fi 6, điện thoại di động hỗ trợ Wi-Fi 6 không thể kết nối với điểm phát sóng di động ở tốc độ 5GHz.&lt;/li&gt;
+  &lt;li&gt;Truyền tệp thất bại ngẫu nhiên từ điện thoại di động sang PC&lt;/li&gt;
+  &lt;li&gt;Đối với các hệ thống sử dụng Modern Standby, sau khi hoạt động trở lại từ chế độ Sleep, danh sách quét mạng Wi-Fi sẽ cho kết quả trống.&lt;/li&gt;
+  &lt;li&gt;Sau khi hoạt động trở lại từ chế độ Sleep hoặc hibernation, Wireless-AC 3165 sẽ biến mất khỏi danh sách phần cứng của trình quản lý thiết bị.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bên cạnh đó, Intel cũng đã phát hành bản cập nhật driver Bluetooth cho PC với Dual Band Wireless-AC 3165, AC 3168, AC 7265, AC 8260, AC 8265, AC 8265 Desktop Kit và N 7265. Bản cập nhật này cũng áp dụng cho Tri-Band Wireless-AC 17265, AC 18260 và AC 18265.&lt;/p&gt;
+
+&lt;p&gt;Driver hiện có sẵn cho laptop sở hữu bất kỳ bộ điều hợp không dây nào sau đây:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Wireless-AC 9260&lt;/li&gt;
+  &lt;li&gt;Wireless-AC 9461&lt;/li&gt;
+  &lt;li&gt;Wireless-AC 9462&lt;/li&gt;
+  &lt;li&gt;Wireless-AC 9560&lt;/li&gt;
+  &lt;li&gt;Wireless-N 7265&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Intel&lt;/code&gt;&lt;/strong&gt; cho biết họ đã sửa một lỗi trong đó việc truyền tệp &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bluetooth&lt;/code&gt;&lt;/strong&gt; có thể thất bại nếu người dùng sử dụng phát trực tiếp âm thanh &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bluetooth HFP&lt;/code&gt;&lt;/strong&gt; hoặc &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;A2DP&lt;/code&gt;&lt;/strong&gt;. Một lỗi khác trong đó các thiết bị &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bluetooth&lt;/code&gt;&lt;/strong&gt; sẽ ngắt kết nối ngẫu nhiên cũng đã được sửa.&lt;/p&gt;
+
+&lt;p&gt;Nguồn thông tìn: &lt;a href=&quot;https://quantrimang.com/intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10-170846?fbclid=IwAR0So3YoyjBgNwShJiIB2XKXOKy1sB41vIPi3aRmaijIaQNkOAnYOw4Mgj0&quot;&gt;quantrimang.com&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;windows&quot;, &quot;news&quot;]" /><summary type="html">Intel vừa mới phát hành một loạt các bản cập nhật mới cho driver đồ họa DCH</summary></entry><entry><title type="html">Hướng dẫn cài đặt ubuntu song song với windows</title><link href="http://localhost:4000/windows/unixlinux/2020/04/02/huong-dan-cai-dat-ubuntu-song-song-windows.html" rel="alternate" type="text/html" title="Hướng dẫn cài đặt ubuntu song song với windows" /><published>2020-04-02T00:00:00+07:00</published><updated>2020-04-02T00:00:00+07:00</updated><id>http://localhost:4000/windows/unixlinux/2020/04/02/huong-dan-cai-dat-ubuntu-song-song-windows</id><content type="html" xml:base="http://localhost:4000/windows/unixlinux/2020/04/02/huong-dan-cai-dat-ubuntu-song-song-windows.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/202042ubuntu-windows.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Bạn là một người dùng hệ điều hành &lt;code class=&quot;highlighter-rouge&quot;&gt;Windows&lt;/code&gt; và muốn chuyển sang dùng &lt;code class=&quot;highlighter-rouge&quot;&gt;Ubuntu&lt;/code&gt; để trải nghiệm sự mới của hệ điều hành mang nhân &lt;code class=&quot;highlighter-rouge&quot;&gt;linux&lt;/code&gt;.&lt;/strong&gt;&lt;/p&gt;
@@ -823,83 +881,4 @@ Jekyll sử dụng Liquid template, Markdown, YAML front-matter để hoạt đ�
 
 &lt;p&gt;Tòa án quận Hoa Kỳ tuyên án 20 năm tù giam đối với bị cáo Volodymyr Kvashuk. Hắn phát biểu trước tòa rằng mình không có ý định qua mặt Microsoft, và lúc đó thực chất là đang làm “một dự án đặc biệt” để đem lợi nhuận về cho công ty.
 &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;news&quot;, &quot;windows&quot;]" /><summary type="html">Vừa rồi, một cựu kỹ sư Microsoft tên là Volodymyr Kvashuk đã bị Tòa án quận Hoa Kỳ (U.S. District Court) kết án vì tội biển thủ 10 triệu USD tiền ảo (cryptocurrency) của Microsoft.</summary></entry><entry><title type="html">Cài cặt giao diện (theme) cho Ubuntu 18.04 với Gnome Tweal Tool</title><link href="http://localhost:4000/unixlinux/terminal/2020/03/11/theme-cho-ubuntu-1804-voi-gnome-tool-tweak.html" rel="alternate" type="text/html" title="Cài cặt giao diện (theme) cho Ubuntu 18.04 với Gnome Tweal Tool" /><published>2020-03-11T00:00:00+07:00</published><updated>2020-03-11T00:00:00+07:00</updated><id>http://localhost:4000/unixlinux/terminal/2020/03/11/theme-cho-ubuntu-1804-voi-gnome-tool-tweak</id><content type="html" xml:base="http://localhost:4000/unixlinux/terminal/2020/03/11/theme-cho-ubuntu-1804-voi-gnome-tool-tweak.html">&lt;p&gt;Nếu nhắc tới hệ điều hành mã nguồn mở dựa trên nhân linux thì chắc hẵn các bạn sẽ không thể nhắc Ubuntu, 1 hệ điều hành mã nguồn mở.&lt;/p&gt;
-
-&lt;p&gt;Sau khi &lt;a href=&quot;https://vi.wikipedia.org/wiki/Ubuntu&quot;&gt;Canonical Ltd &lt;/a&gt;- Cty phát triển bản phân phối linux Ubuntu loại bỏ UNITY chuyển sang dùng môi trường GNOME từ phiên bản 17.04 về sau, thì việc theme bằng “Unity Tweak Tool” sẽ không còn khả dụng. Thay vào đó người dùng sẽ phải sử dụng “Gnome Tweak Tool” thể cài đặt và tùy biến giao diện cho Ubuntu trở nên đẹp hơn và có thể làm giao diện riêng cho chính mình.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;http://sf.co.ua/15/07/wallpaper-14218.jpg&quot; /&gt;&lt;/center&gt;
-
-&lt;h3 id=&quot;các-bước-tiến-hành-như-sau&quot;&gt;Các bước tiến hành như sau:&lt;/h3&gt;
-
-&lt;h3 id=&quot;bước-1&quot;&gt;Bước 1:&lt;/h3&gt;
-&lt;p&gt;Cài đặt Gnome Tweak Tool bằng cách thao tác ( Ctrl + Alt + T ) để mở Terminal và gõ lệnh.&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	sudo apt install gnome-tweal-tool -y&lt;br /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Như vậy các bạn đã cài xong trình điều khiển tùy biến giao diện của Ubuntu. Vào menu ứng dụng bạn tìm đến Gnome Tweal Tool click vào chuột phải chọn “ Add to favorites “ để ghim vào thành dask dock trên màng hình.&lt;/p&gt;
-
-&lt;h3 id=&quot;bước-2&quot;&gt;Bước 2:&lt;/h3&gt;
-&lt;p&gt;Cài đặt Add-ons (User Theme) đây là phần cần thiến để bạn có thể tùy biến giao theo ý muốn của chính mình, các bạn thao tác gõ lệnh như sau.&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	sudo apt install gnome-shell-extensions -y&lt;br /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Sau khi cài đặt xong thì phần “ shell “ trong Gnome Tweak Tool của bạn sẽ được unlock, như vậy các bạn đã có thể thêm giao diện của mình vào.&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://www.upsieutoc.com/images/2020/03/11/Screenshot-from-2020-03-11-20-30-29.png&quot; alt=&quot;Screenshot-from-2020-03-11-20-30-29.png&quot; border=&quot;0&quot; /&gt;&lt;/center&gt;
-
-&lt;h3 id=&quot;bước-3&quot;&gt;Bước 3:&lt;/h3&gt;
-
-&lt;p&gt;Tạo thư mục .themes và .icons bằng lệnh sau:&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	mkdir ~/.themes&lt;br /&gt;
-	mkdir ~/.icons
-&lt;/p&gt;
-
-&lt;p&gt;Vào “ Files “ thao tác tổ hợp phím ( Ctrl + h ) để hiển thị các thư mục ẩn trong đó có thư mục .themes và .icons, đây 2 thư mục chứ giao diện tùy biến của các bạn.&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://www.upsieutoc.com/images/2020/03/11/Screenshot-from-2020-03-11-20-36-06.png&quot; alt=&quot;Screenshot-from-2020-03-11-20-36-06.png&quot; border=&quot;0&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;Để thêm giao điện tùy biến riêng mình các bạn có thể vào trang &lt;a href=&quot;https://www.gnome-look.org/&quot;&gt;gnome-look.org&lt;/a&gt; để tải về những giao diện bạn thích.&lt;/p&gt;
-
-&lt;h3 id=&quot;bước-4-cài-đặt-numix-theme-icon-vs-adapta-theme-icon-paper&quot;&gt;Bước 4: Cài đặt Numix theme (icon) vs Adapta theme (icon Paper)&lt;/h3&gt;
-
-&lt;h3 id=&quot;theme-numix-vs-icon-numix&quot;&gt;Theme Numix vs icon Numix&lt;/h3&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	sudo add-apt-repository ppa:numix/ppa&lt;br /&gt;
-	sudo apt-get update&lt;br /&gt;
-	sudo apt-get install numix-gtk-theme numix-icon-theme-circle numix-icon-theme-square
-&lt;/p&gt;
-
-&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
-	&lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/9TNvaqtVKLk&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;theme-adapta-vs-icon-paper&quot;&gt;Theme Adapta vs Icon Paper&lt;/h3&gt;
-
-&lt;p&gt;Thông thường khi thêm một repo mới thì Ubuntu sẽ hỏi là có muốn thêm vào trong repo list không, khi nó hỏi chỉ cần nhấn [ENTER] là được. Tiếp theo là cài theme: &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;bước-1-1&quot;&gt;Bước 1:&lt;/h3&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	sudo add-apt-repository ppa:tista/adapta&lt;br /&gt;&lt;br /&gt;
-	sudo apt update &amp;amp;&amp;amp; sudo apt upgrade -y&lt;br /&gt;
-&lt;/p&gt;
-
-&lt;h3 id=&quot;bước-2-1&quot;&gt;Bước 2:&lt;/h3&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-	sudo apt-get install adapta-gtk-theme&lt;br /&gt;
-	sudo add-apt-repository -u ppa:snwh/ppa
-	sudo apt-get install paper-icon-theme
-&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://jaredchu.com/wp-content/uploads/2018/08/gnome-tweak-select-theme-jaredchu-blog.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;terminal&quot;]" /><summary type="html">Nếu nhắc tới hệ điều hành mã nguồn mở dựa trên nhân linux thì chắc hẵn các bạn sẽ không thể nhắc Ubuntu, 1 hệ điều hành mã nguồn mở.</summary></entry></feed>
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;news&quot;, &quot;windows&quot;]" /><summary type="html">Vừa rồi, một cựu kỹ sư Microsoft tên là Volodymyr Kvashuk đã bị Tòa án quận Hoa Kỳ (U.S. District Court) kết án vì tội biển thủ 10 triệu USD tiền ảo (cryptocurrency) của Microsoft.</summary></entry></feed>
