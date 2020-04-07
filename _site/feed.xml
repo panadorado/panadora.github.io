@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-04T17:45:56+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Intel cập nhật trình điều khiển đồ họa, WiFi và Bluetooth cho Windows 10</title><link href="http://localhost:4000/windows/news/2020/04/04/intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10.html" rel="alternate" type="text/html" title="Intel cập nhật trình điều khiển đồ họa, WiFi và Bluetooth cho Windows 10" /><published>2020-04-04T00:00:00+07:00</published><updated>2020-04-04T00:00:00+07:00</updated><id>http://localhost:4000/windows/news/2020/04/04/intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10</id><content type="html" xml:base="http://localhost:4000/windows/news/2020/04/04/intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10.html">&lt;p&gt;&lt;strong&gt;Intel vừa mới phát hành một loạt các bản cập nhật mới cho driver đồ họa DCH, WiFi và Bluetooth trên hệ điều hành Windows 10. Các driver mới hiện có sẵn cho cả người dùng cá nhân cũng như doanh nghiệp ở các phiên bản 64-bit và 32-bit.&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-07T20:59:39+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Hướng dẫn cài đặt WARP 1.1.1.1 trên PC, Windows và MAC OS</title><link href="http://localhost:4000/windows/news/2020/04/07/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html" rel="alternate" type="text/html" title="Hướng dẫn cài đặt WARP 1.1.1.1 trên PC, Windows và MAC OS" /><published>2020-04-07T00:00:00+07:00</published><updated>2020-04-07T00:00:00+07:00</updated><id>http://localhost:4000/windows/news/2020/04/07/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os</id><content type="html" xml:base="http://localhost:4000/windows/news/2020/04/07/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://tamnhin.net.vn/stores/news_dataimages/ctv3/042018/02/11/2448_dns_tang_toc_internet_anh_dong_1.gif&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hiện tại, phần lớn người dùng PC thường sử dụng Warp+ VPN bằng phần mềm WireGuard, tuy nhiên giao diện không thân thiện, thao tác thiết lập cũng khá phức tạp. Chính vì vậy, trong bài viết này mình xin hướng dẫn các bạn cách cài đặt Warp+ trên Windows/Mac OS thông qua công cụ APKCombo VPN, dễ sử dụng và trực quan.&lt;/p&gt;
+
+&lt;h3 style=&quot;font-size: 20px;&quot;&gt;GIỚI THIỆU VỀ APKCOMBO VPN:&lt;/h3&gt;
+
+&lt;p&gt;Đây là công cụ VPN dành cho PC Windows và Mac OS được phát triển bởi APKCombo (trang web chuyên cung cấp ứng dụng Android với định dạng &lt;strong&gt;file&lt;code class=&quot;highlighter-rouge&quot;&gt;.APK&lt;/code&gt;&lt;/strong&gt;, trong đó bao gồm cả các app có hoặc không có trên Play Store). Cách hoạt động của APKCombo VPN tương tự như WireGuard, cho phép người dùng sử dụng công nghệ CloudFlare WARP+ để hỗ trợ tăng tốc độ mạng (tùy trường hợp) và truy cập vào các dịch vụ bị chặn/giới hạn vị trí địa lý.&lt;/p&gt;
+
+&lt;p&gt;Ưu điểm của &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;APKCombo VPN&lt;/code&gt;&lt;/strong&gt; so với &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;WireGuard&lt;/code&gt;&lt;/strong&gt; là giao diện trực quan, thao tác thiết lập đơn giản, các bước cài đặt nhanh chóng và gần như ai cũng có thể làm được.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hỗ trợ tăng tốc độ truy cập internet trên các dịch vụ có máy chủ ngoài khu vực Việt Nam (ví dụ Facebook, Youtube, Zoom Meeting v.v…)&lt;/li&gt;
+  &lt;li&gt;Hỗ trợ tăng tốc độ mạng khi bị đứt cáp biển (thường thì bị bóp nhiều hơn là đứt)&lt;/li&gt;
+  &lt;li&gt;Dễ dàng truy cập vào các trang web, dịch vụ bị chặn hoặc giới hạn vị trí địa lý&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;TẢI VỀ APKCOMBO VPN TẠI ĐÂY:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/apkcombo/apkcombo-vpn/raw/master/apkcombovpn-0.1.0.msi&quot;&gt;APKCOMBO VPN CHO WINDOWS (7, 8, 10) - 64 BIT&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/apkcombo/apkcombo-vpn/raw/master/apkcombovpn-x86-0.1.0.msi&quot;&gt;APKCOMBO VPN CHO WINDOWS (7, 8, 10) - 32 BIT&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://drive.google.com/drive/folders/1FUdAjrhpCF6jdzfridQpCR5vXWegiEdO&quot;&gt;APKCOMBO VPN CHO WINDOWS (7, 8, 10) 64/32 BIT&lt;/a&gt; (dự phòng)&lt;/p&gt;
+
+&lt;h3 style=&quot;font-size: 20px;&quot;&gt;HƯỚNG DẪN CÀI ĐẶT APKCOMBO VPN VÀ THIẾT LẬP WARP+ VPN&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;TRÊN PC WINDOWS:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tải và cài đặt: &lt;a href=&quot;https://apkcombo.com/vi-vn/vpn/&quot;&gt;APKCombo VPN&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Mở APKCombo VPN &amp;gt; bấm nút Active CloudFlare WARP+ VPN.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://photo.techrum.vn/images/2020/04/06/4SCYMu.jpg&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bấm nút Active là xong.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://photo.techrum.vn/images/2020/04/06/4SCjTe.jpg&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Nếu muốn kiểm tra lại thì bạn bấm Check VPN (trên trang chủ ở dưới ảnh đầu tiên sẽ có dòng trạng thái màu xanh là thành công - Your WARP status: PLUS).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://photo.techrum.vn/images/2020/04/06/4SCXJY.jpg&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TRÊN MAC OS:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tải về cấu hình &lt;a href=&quot;https://warp.apkcombo.com/warpplus.conf&quot;&gt;Warp Plus&lt;/a&gt;&lt;br /&gt;
+Tải về và cài đặt ứng dụng &lt;a href=&quot;https://apps.apple.com/app/id1451685025&quot;&gt;WireGuard cho Mac OS&lt;/a&gt;&lt;br /&gt;
+Mở WireGuard và nhấp vào nút “Import Tunnel (s) from file”
+Chọn tệp “warpplus.conf” và nhấp vào nút “Active” là xong
+Nếu bạn sử dụng Warp+ trên điện thoại thì có thể tham khảo &lt;a href=&quot;https://www.techrum.vn/threads/huong-d-n-nh-n-1-4-tri-u-gb-data-vpn-warp-mi-n-phi-khong-co-thoi-han-nhung-c-n-luu-y-khi-dung.296546/&quot;&gt;bài viết này&lt;/a&gt; (&lt;a href=&quot;https://www.techrum.vn/threads/huong-d-n-nh-n-1-4-tri-u-gb-data-vpn-warp-mi-n-phi-khong-co-thoi-han-nhung-c-n-luu-y-khi-dung.296546/&quot;&gt;Hướng dẫn nhận 1.4 triệu GB data VPN Warp+ miễn phí, không có thời hạn nhưng cần lưu ý khi dùng&lt;/a&gt;) để biết cách nhận 1400TB data miễn phí nhé. Thao tác cũng khá đơn giản, dễ thực hiện và có thể dùng lại key mặc định mà không cần thay hoàn toàn.&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Nguồn post: &lt;a href=&quot;https://www.techrum.vn/threads/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.296753/?fbclid=IwAR0LGEItGoRSqTMik8-K_vtSq4ytb1-qnntShh_QATsMCZhfVEvBB8lPVq0&quot;&gt;techrum.vn&lt;/a&gt;&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;Tác giả: &lt;a href=&quot;https://apkcombo.com/vi-vn/vpn/&quot;&gt;APKCOMBO&lt;/a&gt; | Nguồn chia sẻ: &lt;a href=&quot;https://www.facebook.com/groups/j2team.community/&quot;&gt;J2TEAM&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;windows&quot;, &quot;news&quot;]" /><summary type="html">Hiện tại, phần lớn người dùng PC thường sử dụng Warp+ VPN bằng phần mềm WireGuard, tuy nhiên giao diện không thân thiện, thao tác thiết lập cũng khá phức tạp</summary></entry><entry><title type="html">Intel cập nhật trình điều khiển đồ họa, WiFi và Bluetooth cho Windows 10</title><link href="http://localhost:4000/windows/news/2020/04/04/intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10.html" rel="alternate" type="text/html" title="Intel cập nhật trình điều khiển đồ họa, WiFi và Bluetooth cho Windows 10" /><published>2020-04-04T00:00:00+07:00</published><updated>2020-04-04T00:00:00+07:00</updated><id>http://localhost:4000/windows/news/2020/04/04/intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10</id><content type="html" xml:base="http://localhost:4000/windows/news/2020/04/04/intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10.html">&lt;p&gt;&lt;strong&gt;Intel vừa mới phát hành một loạt các bản cập nhật mới cho driver đồ họa DCH, WiFi và Bluetooth trên hệ điều hành Windows 10. Các driver mới hiện có sẵn cho cả người dùng cá nhân cũng như doanh nghiệp ở các phiên bản 64-bit và 32-bit.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h3 style=&quot;font-weight: bold;&quot;&gt;Đồ Họa:&lt;/h3&gt;
 
@@ -869,16 +928,4 @@ Jekyll sử dụng Liquid template, Markdown, YAML front-matter để hoạt đ�
 
 &lt;p&gt;Trang chủ Jekyll: &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;jekyllrb.com&lt;/a&gt;&lt;br /&gt;
  Trang chủ Github: &lt;a href=&quot;https://pages.github.com/&quot;&gt;pages.github.com&lt;/a&gt;&lt;br /&gt;
- Blog có nhiều bài viết hay về Jekyll: &lt;a href=&quot;https://blog.webjeda.com/&quot;&gt;blog.webjeda.com&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;windows&quot;, &quot;news&quot;, &quot;unixlinux&quot;, &quot;terminal&quot;]" /><summary type="html">Bạn muốn làm một website đơn giản, không cầu kỳ về `database`, không nhập xuất dữ liệu thì `Jekyll` là một ứng cử viên sáng giá nhất nhì so với **Gatsby** hoặc **NextJS**.</summary></entry><entry><title type="html">Vì phát triển “dự án đặc biệt” nên cựu kỹ sư Microsoft đã… ngồi tù 20 năm</title><link href="http://localhost:4000/news/windows/2020/03/15/vi-phat-trien-du-an-nen-cuu-ky-su-ms-da-ngoi-tu.html" rel="alternate" type="text/html" title="Vì phát triển “dự án đặc biệt” nên cựu kỹ sư Microsoft đã… ngồi tù 20 năm" /><published>2020-03-15T00:00:00+07:00</published><updated>2020-03-15T00:00:00+07:00</updated><id>http://localhost:4000/news/windows/2020/03/15/vi-phat-trien-du-an-nen-cuu-ky-su-ms-da-ngoi-tu</id><content type="html" xml:base="http://localhost:4000/news/windows/2020/03/15/vi-phat-trien-du-an-nen-cuu-ky-su-ms-da-ngoi-tu.html">&lt;h3 id=&quot;vừa-rồi-một-cựu-kỹ-sư-microsoft-tên-là-volodymyr-kvashuk-đã-bị-tòa-án-quận-hoa-kỳ-us-district-court-kết-án-vì-tội-biển-thủ-10-triệu-usd-tiền-ảo-cryptocurrency-của-microsoft&quot;&gt;Vừa rồi, một cựu kỹ sư Microsoft tên là Volodymyr Kvashuk đã bị Tòa án quận Hoa Kỳ (U.S. District Court) kết án vì tội biển thủ 10 triệu USD tiền ảo (cryptocurrency) của Microsoft.&lt;/h3&gt;
-
-&lt;p&gt;Volodymyr Kvashuk làm việc cho Microsoft từ năm 2016 đến 2018 với vai trò phát triển và thử nghiệm nền tảng bán hàng online. Anh đã lợi dụng cơ hội này để lấy cắp thẻ quà tặng (digital gift card) và bán lại trên mạng. Cụ thể, Kvashuk đã lấy cắp hơn 12.000 USD bằng tài khoản của mình, sau đó tạo thêm nhiều tài khoản khác lấy tên của đồng nghiệp để biển thủ hàng triệu USD từ Microsoft. Số tiền này đã được Kvashuk chuyển thành bitcoin và gửi vào tài khoản ngân hàng của mình.&lt;/p&gt;
-
-&lt;center&gt;
-	&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://news.gearvn.com/wp-content/uploads/2020/02/image2-65-1024x683.jpg&quot; /&gt;
-&lt;/center&gt;
-
-&lt;p&gt;Hắn đã mua một chiếc Tesla trị giá 160.000 USD và một căn biết thự bờ hồ trị giá 1,6 tỷ USD. Tổng cộng Kvashuk đã chuyển 2,8 triệu USD tiền bitcoin qua tài khoản của hắn và khai báo là được họ hàng tặng. Microsoft sau đó đã phanh phui chuyện này vào năm 2018 và sa thải hắn khỏi công ty.&lt;/p&gt;
-
-&lt;p&gt;Tòa án quận Hoa Kỳ tuyên án 20 năm tù giam đối với bị cáo Volodymyr Kvashuk. Hắn phát biểu trước tòa rằng mình không có ý định qua mặt Microsoft, và lúc đó thực chất là đang làm “một dự án đặc biệt” để đem lợi nhuận về cho công ty.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;news&quot;, &quot;windows&quot;]" /><summary type="html">Vừa rồi, một cựu kỹ sư Microsoft tên là Volodymyr Kvashuk đã bị Tòa án quận Hoa Kỳ (U.S. District Court) kết án vì tội biển thủ 10 triệu USD tiền ảo (cryptocurrency) của Microsoft.</summary></entry></feed>
+ Blog có nhiều bài viết hay về Jekyll: &lt;a href=&quot;https://blog.webjeda.com/&quot;&gt;blog.webjeda.com&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;windows&quot;, &quot;news&quot;, &quot;unixlinux&quot;, &quot;terminal&quot;]" /><summary type="html">Bạn muốn làm một website đơn giản, không cầu kỳ về `database`, không nhập xuất dữ liệu thì `Jekyll` là một ứng cử viên sáng giá nhất nhì so với **Gatsby** hoặc **NextJS**.</summary></entry></feed>
