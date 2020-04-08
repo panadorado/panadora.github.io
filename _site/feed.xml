@@ -1,4 +1,137 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-07T20:59:39+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Hướng dẫn cài đặt WARP 1.1.1.1 trên PC, Windows và MAC OS</title><link href="http://localhost:4000/windows/news/2020/04/07/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html" rel="alternate" type="text/html" title="Hướng dẫn cài đặt WARP 1.1.1.1 trên PC, Windows và MAC OS" /><published>2020-04-07T00:00:00+07:00</published><updated>2020-04-07T00:00:00+07:00</updated><id>http://localhost:4000/windows/news/2020/04/07/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os</id><content type="html" xml:base="http://localhost:4000/windows/news/2020/04/07/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://tamnhin.net.vn/stores/news_dataimages/ctv3/042018/02/11/2448_dns_tang_toc_internet_anh_dong_1.gif&quot; /&gt;&lt;/center&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-08T22:10:33+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Tổng hợp một số lệnh terminal thường dùng trong Ubuntu/Linux</title><link href="http://localhost:4000/unixlinux/terminal/2020/04/08/tong-hop-mot-so-lenh-terminal-thuong-dung-trong-ubuntu-linux.html" rel="alternate" type="text/html" title="Tổng hợp một số lệnh terminal thường dùng trong Ubuntu/Linux" /><published>2020-04-08T00:00:00+07:00</published><updated>2020-04-08T00:00:00+07:00</updated><id>http://localhost:4000/unixlinux/terminal/2020/04/08/tong-hop-mot-so-lenh-terminal-thuong-dung-trong-ubuntu-linux</id><content type="html" xml:base="http://localhost:4000/unixlinux/terminal/2020/04/08/tong-hop-mot-so-lenh-terminal-thuong-dung-trong-ubuntu-linux.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://www.engisv.info/wp-content/uploads/2018/07/linux-terminal-1.jpg&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Giới thiểu 1 chút về Ubuntu:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ubuntu là một &lt;a href=&quot;https://vi.wikipedia.org/wiki/H%E1%BB%87_%C4%91i%E1%BB%81u_h%C3%A0nh&quot;&gt;hệ điều hành&lt;/a&gt; máy tính dựa trên &lt;a href=&quot;https://vi.wikipedia.org/wiki/Debian&quot;&gt;Debian GNU/Linux&lt;/a&gt;, một bản phân phối Linux thông dụng. Mục đích của Ubuntu bao gồm việc cung cấp một hệ điều hành ổn định, cập nhật cho người dùng thường, và tập trung vào sự tiện dụng và dễ dàng cài đặt. Ubuntu đã được đánh xếp hạng là bản phân phối Linux thông dụng nhất cho máy tính để bàn, chiếm khoảng 30% số bản Linux được cài đặt trên máy tính để bàn năm 2007.&lt;/p&gt;
+
+&lt;p&gt;Ubuntu là &lt;a href=&quot;https://vi.wikipedia.org/wiki/Ph%E1%BA%A7n_m%E1%BB%81m_t%E1%BB%B1_do_ngu%E1%BB%93n_m%E1%BB%9F&quot;&gt;phần mềm mã nguồn mở tự do&lt;/a&gt;, có nghĩa là người dùng được tự do chạy, sao chép, phân phối, nghiên cứu, thay đổi và cải tiến phần mềm theo điều khoản của &lt;a href=&quot;https://vi.wikipedia.org/wiki/Gi%E1%BA%A5y_ph%C3%A9p_C%C3%B4ng_c%E1%BB%99ng_GNU&quot;&gt;giấy phép GNU GPL&lt;/a&gt;. Ubuntu được tài trợ bởi Canonical Ltd (chủ sở hữu là một người Nam Phi Mark Shuttleworth). Thay vì bán Ubuntu, Canonical tạo ra doanh thu bằng cách bán hỗ trợ kĩ thuật. Bằng việc để cho Ubuntu tự do và mở mã nguồn, Canonical có thể tận dụng tài năng của những nhà phát triển ở bên ngoài trong các thành phần cấu tạo của Ubuntu mà không cần phải tự mình phát triển.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: right&quot;&gt;Tham khảo thêm từ &lt;a href=&quot;https://vi.wikipedia.org/wiki/Ubuntu&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;hr style=&quot;background: #000;&quot; /&gt;
+
+&lt;p&gt;Mở lệnh terminal với tổ hợp phím: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + t&lt;/code&gt;&lt;/strong&gt;&lt;br /&gt;
+Hoặc bạn có thể click biểu tượng của terminal để mở.&lt;/p&gt;
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/terminal-ubuntu.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Để có thể mở thêm tab mới cho terminal ta ấn phím tổ hợp: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Shift + t&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/terminal-ubuntu-2.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sau đây là tổng hợp một số lệnh thường dùng trên Terminal:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pwd&lt;/code&gt;&lt;/strong&gt;: ( path working directory ) In ra đường dẫn đến vị trí hiện tại bạn đang đứng.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr style=&quot;background: #000;&quot; /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt;&lt;/strong&gt;: ( list ) Hiển thị danh sách các tập tin và thư mục trong thư mục hiện tại bạn đang đứng. Mặc định, lệnh này sẽ không in ra các file ẩn. Do đó, để in ra các file ẩn này, bạn sử dụng thêm tuỳ chọn -a, câu lệnh sẽ là ( &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ls -a&lt;/code&gt;&lt;/strong&gt; ).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr style=&quot;background: #000;&quot; /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt;&lt;/strong&gt;: ( change directory ) Thay đổi vị trí thư mục hiện tại - di chuyển đến vị trí thư mục khác. Một số cách khác nhau khi sử dụng lệnh.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd .&lt;/code&gt;&lt;/strong&gt; : đứng nguyên ở thư mục hiện tại.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd ..&lt;/code&gt;&lt;/strong&gt; : di chuyển đến thư mục cha của thư mục hiện tại.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd -&lt;/code&gt;&lt;/strong&gt;  : di chuyển đến thư mục trước khi di chuyển đến thư mục hiện tại.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd hoặc cd ~&lt;/code&gt;&lt;/strong&gt; : di chuyển đến thư mục /home/username (ví dụ với mình là: /home/lampv). Đây là vị trí thư mục mặc định mỗi khi bạn mở Terminal. Và bạn có toàn quyền đối với thư mục này.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd /&lt;/code&gt;&lt;/strong&gt; : di chuyển đến thư mục root - thư mục gốc chứa mọi thư mục,( trong đó có home/username ).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd &amp;lt;tên thư mục con&amp;gt;&lt;/code&gt;&lt;/strong&gt; : di chuyển đến thư mục con bên trong thư mục hiện tại.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd &amp;lt;đường dẫn đến thư mục&amp;gt;&lt;/code&gt;&lt;/strong&gt; : di chuyển đến thư mục với đường dẫn là đường dẫn cứng. Đường dẫn cứng có thể ( ví dụ như: /home/lampv/Documents, ~/Documents/abc… )&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr style=&quot;background: #000;&quot; /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cp&lt;/code&gt;&lt;/strong&gt;: ( copy ) Dùng để sao chép tập tin hay thư mục đến một thư mục khác.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cp &amp;lt;tên tập tin&amp;gt; &amp;lt;tên thư mục&amp;gt;&lt;/code&gt;&lt;/strong&gt;: dùng để copy một tập tin vào một thư mục.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cp -r &amp;lt;tên thư mục nguồn&amp;gt; &amp;lt;tên thư mục đích&amp;gt;&lt;/code&gt;&lt;/strong&gt;: dùng để copy thư mục nguồn vào thư mục đích.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr style=&quot;background: #000;&quot; /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mv&lt;/code&gt;&lt;/strong&gt;: ( move ) Dùng để di chuyển tập tin đến một thư mục mới đồng thời đổi tên tập tin đó.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mv &amp;lt;tên tập tin cũ&amp;gt; &amp;lt;tên thư mục đích / tên tập tin mới&amp;gt;&lt;/code&gt;&lt;/strong&gt;: di chuyển một tập tin đến thư mục mới đồng thời đổi tên tập tin.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mv &amp;lt;tên tập tin cũ&amp;gt; &amp;lt;tên thư mục đích&amp;gt;&lt;/code&gt;&lt;/strong&gt;: di chuyển tập tin đến thư mục đích và không đổi tên.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr style=&quot;background: #000;&quot; /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm&lt;/code&gt;&lt;/strong&gt;: ( remove ) Dùng để xoá tập tin hay thư mục.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm &amp;lt;tên tập tin&amp;gt;&lt;/code&gt;&lt;/strong&gt;: dùng để xoá tập tin.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm &amp;lt;tên thư mục&amp;gt;&lt;/code&gt;&lt;/strong&gt;: dùng để xoá một thư mục rỗng.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm -r &amp;lt;tên thư mục&amp;gt;&lt;/code&gt;&lt;/strong&gt;: xoá bất kỳ thư mục nào.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr style=&quot;background: #000;&quot; /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mkdir &amp;lt;tên thư mục&amp;gt;&lt;/code&gt;&lt;/strong&gt;: Dùng để tạo thư mục mới.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;touch &amp;lt;tên tập tin&amp;gt;&lt;/code&gt;&lt;/strong&gt;: Dùng để tạo file mới.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;man &amp;lt;tên câu lệnh&amp;gt;&lt;/code&gt;&lt;/strong&gt;: Dùng để hiển thị hướng dẫn các câu lệnh, ví dụ: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;man touch&lt;/code&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;man mkdir&lt;/code&gt;,…&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;df&lt;/code&gt;&lt;/strong&gt;: Hiển thị mức độ chiếm dụng không gian đĩa cứng của tập tin hệ thống ở tất cả các phân vùng được gắn kết.&lt;br /&gt;
+Đơn vị hiển thị là 1K.&lt;br /&gt;
+Để hiển thị kết quả với đơn vị MB hay GB (dễ đọc hơn), bạn có thể dùng thêm tuỳ chọn -h (human-readable), câu lệnh thành &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;df -h&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;du&lt;/code&gt;&lt;/strong&gt;: Hiển thị mức chiếm dụng không gian đĩa cứng ở thư mục hiện tại và các thư mục con. Có một số tuỳ chọn mà bạn có thể sử dụng:&lt;br /&gt;
+&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-h&lt;/code&gt;&lt;/strong&gt;: (human-readable) kết quả hiển thị sử dụng đơn vị là KB, MB hay GB.&lt;br /&gt;
+&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-s&lt;/code&gt;&lt;/strong&gt;: (summary) hiển thị tổng dung lượng.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;free&lt;/code&gt;&lt;/strong&gt;: Hiển thị dung lượng bộ nhớ RAM còn trống và đang được sử dụng với một số tuỳ chọn:&lt;br /&gt;
+&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-h&lt;/code&gt;&lt;/strong&gt;: (human-readable) hiển thị cách dễ đọc với con người.&lt;br /&gt;
+&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-g&lt;/code&gt;&lt;/strong&gt;: hiển thị đơn vị dạng GB.&lt;br /&gt;
+&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-m&lt;/code&gt;&lt;/strong&gt;: hiển thị đơn vị dạng MB.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;top&lt;/code&gt;&lt;/strong&gt;: Hiển thị thông tin về hệ thống Linux của bạn, các tiến trình đang chạy và tài nguyên hệ thống, bao gồm: CPU, RAM, phân vùng Swap, và tổng số các tác vụ đang chạy.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;uname -a&lt;/code&gt;&lt;/strong&gt;: Hiển thị toàn bộ thông tin về tên máy tính, tên nhân kernel kèm theo số phiên bản và một vài chi tiết khác.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;lsb_release -a&lt;/code&gt;&lt;/strong&gt;: Hiển thị phiên bản linux đang dùng.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ifconfig&lt;/code&gt;&lt;/strong&gt;: Hiển thị danh sách các thiết bị mạng trên máy tính. Qua đó, bạn có thể biết được địa chỉ IP hiện tại của máy.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;adduser &amp;lt;tên user mới&amp;gt;&lt;/code&gt;&lt;/strong&gt;: Dùng để thêm một user mới cho máy.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;passwd &amp;lt;tên user mới&amp;gt;&lt;/code&gt;&lt;/strong&gt;: Dùng để thêm password cho người dùng mới.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo&lt;/code&gt;&lt;/strong&gt;: Nhiều câu lệnh trong Terminal cần phải có sudo phía trước. Khi dùng sudo, máy tính hiểu rằng bạn đang thực thi câu lệnh với quyền cao nhất, đó là quyền &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;root&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Để thực thi được câu lệnh này, bạn bắt buộc phải nhập mật khẩu. Một số lệnh bắt buộc phải dùng sudo như:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-update&lt;/code&gt;&lt;/strong&gt;: Để để fetch index mới nhất.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt list --upgradable&lt;/code&gt;&lt;/strong&gt;: Để kiểm tra 1 package có update mới.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-get upgrade&lt;/code&gt;&lt;/strong&gt;: Để cập nhật tất cả các gói phần mềm mới nhất.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-get &amp;lt;tên gói phần mềm&amp;gt;&lt;/code&gt;&lt;/strong&gt;: tải gói phần mềm hay ứng dụng về hệ điều hành ubuntu.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo shutdown -h now&lt;/code&gt;&lt;/strong&gt;: tắt máy tính ngay lập tức.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo reboot&lt;/code&gt;&lt;/strong&gt;: khởi động lại máy tính.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Lời kết&lt;/strong&gt;: Như vậy Ubuntu cũng không mấy khó thân thiện với người dùng lắm nhệ, vì thế các bạn có thể sử dụng hệ điều hành ubuntu như với số thao tác trên windows cũng được không nhất thiết phải sử dụng lệnh, trừ khi bạn cần cài các gói phần mềm bên ngoài vào Ubuntu thì buộc bạn phải sử dụng đến terminal.&lt;br /&gt;
+&lt;em&gt;( chú ý: một số phần mềm chưa được hộ trợ trên linux thì bạn ko thể cài đặt mà thôi, ngoài ra bạn có thể tìm trên google để được hướng dẫn cài đặt các phần mềm được hổ trợ trên ubuntu nhé )&lt;/em&gt;.&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;terminal&quot;]" /><summary type="html">Ubuntu là một hệ điều hành máy tính dựa trên Debian GNU/Linux, một bản phân phối Linux thông dụng.</summary></entry><entry><title type="html">Hướng dẫn cài đặt WARP 1.1.1.1 trên PC, Windows và MAC OS</title><link href="http://localhost:4000/windows/news/2020/04/07/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html" rel="alternate" type="text/html" title="Hướng dẫn cài đặt WARP 1.1.1.1 trên PC, Windows và MAC OS" /><published>2020-04-07T00:00:00+07:00</published><updated>2020-04-07T00:00:00+07:00</updated><id>http://localhost:4000/windows/news/2020/04/07/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os</id><content type="html" xml:base="http://localhost:4000/windows/news/2020/04/07/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;https://tamnhin.net.vn/stores/news_dataimages/ctv3/042018/02/11/2448_dns_tang_toc_internet_anh_dong_1.gif&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Hiện tại, phần lớn người dùng PC thường sử dụng Warp+ VPN bằng phần mềm WireGuard, tuy nhiên giao diện không thân thiện, thao tác thiết lập cũng khá phức tạp. Chính vì vậy, trong bài viết này mình xin hướng dẫn các bạn cách cài đặt Warp+ trên Windows/Mac OS thông qua công cụ APKCombo VPN, dễ sử dụng và trực quan.&lt;/p&gt;
@@ -114,7 +247,7 @@ Dual Band Wireless-AC 3165&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Intel&lt;/code&gt;&lt;/strong&gt; cho biết họ đã sửa một lỗi trong đó việc truyền tệp &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bluetooth&lt;/code&gt;&lt;/strong&gt; có thể thất bại nếu người dùng sử dụng phát trực tiếp âm thanh &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bluetooth HFP&lt;/code&gt;&lt;/strong&gt; hoặc &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;A2DP&lt;/code&gt;&lt;/strong&gt;. Một lỗi khác trong đó các thiết bị &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bluetooth&lt;/code&gt;&lt;/strong&gt; sẽ ngắt kết nối ngẫu nhiên cũng đã được sửa.&lt;/p&gt;
 
-&lt;p&gt;Nguồn thông tìn: &lt;a href=&quot;https://quantrimang.com/intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10-170846?fbclid=IwAR0So3YoyjBgNwShJiIB2XKXOKy1sB41vIPi3aRmaijIaQNkOAnYOw4Mgj0&quot;&gt;quantrimang.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Nguồn thông tin: &lt;a href=&quot;https://quantrimang.com/intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10-170846?fbclid=IwAR0So3YoyjBgNwShJiIB2XKXOKy1sB41vIPi3aRmaijIaQNkOAnYOw4Mgj0&quot;&gt;quantrimang.com&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;windows&quot;, &quot;news&quot;]" /><summary type="html">Intel vừa mới phát hành một loạt các bản cập nhật mới cho driver đồ họa DCH</summary></entry><entry><title type="html">Hướng dẫn cài đặt ubuntu song song với windows</title><link href="http://localhost:4000/windows/unixlinux/2020/04/02/huong-dan-cai-dat-ubuntu-song-song-windows.html" rel="alternate" type="text/html" title="Hướng dẫn cài đặt ubuntu song song với windows" /><published>2020-04-02T00:00:00+07:00</published><updated>2020-04-02T00:00:00+07:00</updated><id>http://localhost:4000/windows/unixlinux/2020/04/02/huong-dan-cai-dat-ubuntu-song-song-windows</id><content type="html" xml:base="http://localhost:4000/windows/unixlinux/2020/04/02/huong-dan-cai-dat-ubuntu-song-song-windows.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/202042ubuntu-windows.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -794,138 +927,4 @@ Banner này phù hợp các website về anime, manga.&lt;/p&gt;
 
 &lt;p&gt;Link tham khảo:&lt;br /&gt;
 &lt;a href=&quot;https://bashooka.com/coding/web-background-animation-effects/&quot;&gt;https://bashooka.com/coding/web-background-animation-effects/&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://speckyboy.com/css-javascript-text-animation-snippets/&quot;&gt;https://speckyboy.com/css-javascript-text-animation-snippets/&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;html&quot;, &quot;css&quot;, &quot;javascript&quot;]" /><summary type="html">Khi bạn là một lập trình viên web, ít nhất đôi lần bạn sẽ phải va chạm với css và js. Với 2 thứ bảo bối này kết hợp cho html, bạn sẽ thực sự ngạc nhiên nếu thấy những trang web độc đáo và cực kỳ bắt mắt mà chúng có thể tạo ra đấy. Chúng ta thử tìm hiểu một số hiệu ứng cool ngầu có thể áp dụng vào website nhé.</summary></entry><entry><title type="html">Cách tạo trang blog với Jekyll</title><link href="http://localhost:4000/windows/news/unixlinux/terminal/2020/03/21/cach-tao-trang-blog-voi-jekyll.html" rel="alternate" type="text/html" title="Cách tạo trang blog với Jekyll" /><published>2020-03-21T00:00:00+07:00</published><updated>2020-03-21T00:00:00+07:00</updated><id>http://localhost:4000/windows/news/unixlinux/terminal/2020/03/21/cach-tao-trang-blog-voi-jekyll</id><content type="html" xml:base="http://localhost:4000/windows/news/unixlinux/terminal/2020/03/21/cach-tao-trang-blog-voi-jekyll.html">&lt;p&gt;Bạn muốn làm một website đơn giản, không cầu kỳ về &lt;code class=&quot;highlighter-rouge&quot;&gt;database&lt;/code&gt;, không nhập xuất dữ liệu thì &lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt; là một ứng cử viên sáng giá nhất nhì so với &lt;strong&gt;Gatsby&lt;/strong&gt; hoặc &lt;strong&gt;NextJS&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://d33wubrfki0l68.cloudfront.net/c9b06c39af69c905b6d31819a9ac9c8a78c77cd6/a5f98/media/images/blogging/jekyll/jekyll.png&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;Một lý do để bạn nên bắt tay làm ngay 1 blog viết bằng &lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt; đó là &lt;strong&gt;Github&lt;/strong&gt; có hỗ trợ tên miền miễn phí và tạo ngay trên repositories.&lt;br /&gt;
-Jekyll sử dụng Liquid template, Markdown, YAML front-matter để hoạt động trên nó.&lt;/p&gt;
-
-&lt;p&gt;Trước khi bắt tay vào tạo một trang bằng Jekyll bạn nên cài đặt các phần mềm phát triển.&lt;br /&gt;
-&lt;small&gt;(Cài đặt trên Windows OS)&lt;/small&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;1-việc-đầu-tiên-cần-làm-là-cài-git-trên-máy-tính&quot;&gt;1. Việc đầu tiên cần làm là cài &lt;a href=&quot;https://git-scm.com/download&quot;&gt;Git&lt;/a&gt; trên máy tính.&lt;/h3&gt;
-&lt;h3 id=&quot;2-cài-ruby-trước-để-giảm-thiểu-quá-trình-phát-sinh-lỗi-khi-chạy-đồng-thời-quản-lý-ruby-gems-dependencies-cho-jekyll&quot;&gt;2. Cài &lt;a href=&quot;https://www.ruby-lang.org/en/downloads/&quot;&gt;Ruby&lt;/a&gt; trước để giảm thiểu quá trình phát sinh lỗi khi chạy, đồng thời quản lý &lt;kbd&gt;Ruby gems dependencies&lt;/kbd&gt; cho Jekyll.&lt;/h3&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;https://3fourstudios.com/assets/img/2019/03/05/ruby-logo1024%C3%97683.png&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;Kiểm tra phiên bản Ruby/Gem đã cài trên máy tính thành công hay chưa.&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-    ruby -v
-&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-    gem -v
-&lt;/p&gt;
-
-&lt;h3 id=&quot;3-cài-bundler-ta-dùng-lệnh&quot;&gt;3. Cài Bundler ta dùng lệnh&lt;/h3&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-    gem install jekyll bundler
-&lt;/p&gt;
-
-&lt;p&gt;Kiểm tra phiên bản Jekyll đã cài đặt trên máy tính chưa.&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-    jekyll -v
-&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;hr width=&quot;80%&quot; /&gt;
-
-&lt;h3 id=&quot;tiến-hành-tạo-blog-với-jekyll-nào&quot;&gt;&lt;center&gt;Tiến hành tạo Blog với Jekyll nào.&lt;/center&gt;&lt;/h3&gt;
-
-&lt;p&gt;Trước tiên hãy chọn nơi lưu trữ project cho mục đích phát triển và quản lý sau này.&lt;/p&gt;
-
-&lt;p&gt;Sau đó ta tiến hành tạo project với lệnh nhau sau.&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-    jekyll new [name-project]
-&lt;/p&gt;
-
-&lt;p&gt;Hãy trỏ tới thư mục chứa project trước đó.&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-    cd \
-&lt;/p&gt;
-
-&lt;p&gt;Sau khi tạo xong &lt;em&gt;project&lt;/em&gt; ta chạy server local.&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-    bundle exec jekyll serve
-&lt;/p&gt;
-
-&lt;p&gt;hoặc sợ bị trùng &lt;code class=&quot;highlighter-rouge&quot;&gt;port&lt;/code&gt; thì có thể dùng lệnh.&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-    bundle exec jekyll serve --port 1234
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cấu trúc thư mục Jekyll&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;: File này chứa đựng cấu hình của Jekyll, mọi thông tin về blog của bạn đều lưu bên trong này.&lt;br /&gt;
- &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;: Đây là file &lt;em&gt;trang chủ&lt;/em&gt;, bên trong chứa đụng HTML, YAML và Liquid templating.&lt;br /&gt;
- &lt;code class=&quot;highlighter-rouge&quot;&gt;aboutme.md&lt;/code&gt;: Những dữ liệu dưới dạng &lt;em&gt;text&lt;/em&gt; sẽ được chứa đựng bên trong file Markdown.&lt;br /&gt;
- &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt;: Nơi chứa đựng các bài viết dưới dạng file Markdown.&lt;br /&gt;
- &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts&lt;/code&gt;: Các cấu trúc từng trang chỉ định đều ở bên trong này.&lt;br /&gt;
- &lt;code class=&quot;highlighter-rouge&quot;&gt;_include&lt;/code&gt;: Nơi chứa các file HTML (Header-Footer).&lt;br /&gt;
- &lt;code class=&quot;highlighter-rouge&quot;&gt;_data&lt;/code&gt;: Các file YAML nơi chứa các thông tin đều được nằm bên trong này.&lt;br /&gt;
- &lt;code class=&quot;highlighter-rouge&quot;&gt;css, js&lt;/code&gt;: Có thể dử dụng CSS, JavaScript để làm trang web sinh động hơn.&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lưu ý khi tạo bài viết&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Có nhiều cách viết thông qua HTML, Markdown hoặc Liquid Templating nhưng hãy lưu ý các điểm sau.&lt;br /&gt;
- Tên file phải ở dưới dạng &lt;code class=&quot;highlighter-rouge&quot;&gt;yyyy-mm-dd-ten-bai-viet.md&lt;/code&gt;.&lt;br /&gt;
- Trước khi viết bài đều có mã YAML, nơi chứa thông tin bài viết đó.&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-    --- &lt;br /&gt;
-    YAML&lt;br /&gt;
-    --- &lt;br /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Ví dụ như:&lt;/em&gt;&lt;/p&gt;
-
-&lt;p style=&quot;font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd&quot;&gt;
-    --- &lt;br /&gt;
-    layout: post &lt;br /&gt;
-    title: &quot;Cách tạo một trang blog với Jekyll&quot; &lt;br /&gt;
-    date: 2019-10-31 09:00:00 +0700 &lt;br /&gt;
-    author: Panadora &lt;br /&gt;
-    tag: [&quot;jekyll&quot;, &quot;frontend&quot;] &lt;br /&gt;
-    img-title: /assets/img/blog16.jpg &lt;br /&gt;
-    permalink: /cach-tao-mot-trang-blog-voi-jekyll &lt;br /&gt;
-    --- &lt;br /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Giải thích một số mã YAML&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;title:&lt;/code&gt; Nơi chứa tiêu đề bài viết.&lt;br /&gt;
- &lt;code class=&quot;highlighter-rouge&quot;&gt;subtitle&lt;/code&gt; Nơi chứa tiêu đề phụ (nằm bên dưới tiêu đề chính).&lt;br /&gt;
- &lt;code class=&quot;highlighter-rouge&quot;&gt;bigimg&lt;/code&gt; Đưa ảnh to lên đầu trang hoặc bài viết.&lt;br /&gt;
- &lt;code class=&quot;highlighter-rouge&quot;&gt;comments&lt;/code&gt; Thêm chức năng comment cho bài viết, để kích hoạt bạn dùng &lt;em&gt;comments: true&lt;/em&gt;.&lt;br /&gt;
- &lt;code class=&quot;highlighter-rouge&quot;&gt;show-avatar&lt;/code&gt; Tuỳ chỉnh Ẩn-Hiện avatar trong trang hoặc bài viết.&lt;br /&gt;
- &lt;code class=&quot;highlighter-rouge&quot;&gt;social-share&lt;/code&gt; Tuỳ chỉnh bật tắt chức năng share bài viết.&lt;br /&gt;
- &lt;code class=&quot;highlighter-rouge&quot;&gt;layout&lt;/code&gt; Nơi bạn tuỳ chỉnh sử dụng layout nào được sử dụng file này.&lt;br /&gt;
- &lt;code class=&quot;highlighter-rouge&quot;&gt;js&lt;/code&gt; Danh sách các file JavaScript local.&lt;br /&gt;
- &lt;code class=&quot;highlighter-rouge&quot;&gt;css&lt;/code&gt; Danh sách các file CSS.&lt;br /&gt;
- &lt;code class=&quot;highlighter-rouge&quot;&gt;ext-js&lt;/code&gt; Danh sách các file JavaScript được nhúng từ bên ngoài.&lt;br /&gt;
- &lt;code class=&quot;highlighter-rouge&quot;&gt;ex&lt;/code&gt; Danh sách các file CSS được nhứng từ bên ngoài.&lt;br /&gt;
- &lt;code class=&quot;highlighter-rouge&quot;&gt;googlefonts&lt;/code&gt; Danh sách các Font Google được sư dụng.&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;một-số-lỗi-có-thể-xảy-ra&quot;&gt;Một số lỗi có thể xảy ra.&lt;/h3&gt;
-
-&lt;p&gt;&lt;i&gt;Could not find ffi-1.11.1-x64-mingw32 in any of the sources. Run &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; to install missing gems.&lt;/i&gt;&lt;/p&gt;
-
-&lt;p&gt;Cách khắc phục: &lt;br /&gt;
-       Cật nhật bundle và cài ffi cho gem: &lt;br /&gt;
-         &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle update&lt;/code&gt;&lt;br /&gt;
-         &lt;code class=&quot;highlighter-rouge&quot;&gt;gem install ffi -f&lt;/code&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;một-số-tài-liệu-kham-khảo&quot;&gt;Một số tài liệu kham khảo.&lt;/h3&gt;
-
-&lt;p&gt;Trang chủ Jekyll: &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;jekyllrb.com&lt;/a&gt;&lt;br /&gt;
- Trang chủ Github: &lt;a href=&quot;https://pages.github.com/&quot;&gt;pages.github.com&lt;/a&gt;&lt;br /&gt;
- Blog có nhiều bài viết hay về Jekyll: &lt;a href=&quot;https://blog.webjeda.com/&quot;&gt;blog.webjeda.com&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;windows&quot;, &quot;news&quot;, &quot;unixlinux&quot;, &quot;terminal&quot;]" /><summary type="html">Bạn muốn làm một website đơn giản, không cầu kỳ về `database`, không nhập xuất dữ liệu thì `Jekyll` là một ứng cử viên sáng giá nhất nhì so với **Gatsby** hoặc **NextJS**.</summary></entry></feed>
+&lt;a href=&quot;https://speckyboy.com/css-javascript-text-animation-snippets/&quot;&gt;https://speckyboy.com/css-javascript-text-animation-snippets/&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;html&quot;, &quot;css&quot;, &quot;javascript&quot;]" /><summary type="html">Khi bạn là một lập trình viên web, ít nhất đôi lần bạn sẽ phải va chạm với css và js. Với 2 thứ bảo bối này kết hợp cho html, bạn sẽ thực sự ngạc nhiên nếu thấy những trang web độc đáo và cực kỳ bắt mắt mà chúng có thể tạo ra đấy. Chúng ta thử tìm hiểu một số hiệu ứng cool ngầu có thể áp dụng vào website nhé.</summary></entry></feed>
