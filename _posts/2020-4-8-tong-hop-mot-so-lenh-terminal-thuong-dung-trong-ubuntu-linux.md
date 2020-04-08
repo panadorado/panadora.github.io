@@ -9,7 +9,7 @@ category: [unixlinux, terminal]
 
 <center><img class="img-thumbnail" src="https://www.engisv.info/wp-content/uploads/2018/07/linux-terminal-1.jpg"></center><br>
 
-**Giới thiểu 1 chút về Ubuntu:**
+**Giới thệu 1 chút về Ubuntu:**
 
 Ubuntu là một [hệ điều hành](https://vi.wikipedia.org/wiki/H%E1%BB%87_%C4%91i%E1%BB%81u_h%C3%A0nh) máy tính dựa trên [Debian GNU/Linux](https://vi.wikipedia.org/wiki/Debian), một bản phân phối Linux thông dụng. Mục đích của Ubuntu bao gồm việc cung cấp một hệ điều hành ổn định, cập nhật cho người dùng thường, và tập trung vào sự tiện dụng và dễ dàng cài đặt. Ubuntu đã được đánh xếp hạng là bản phân phối Linux thông dụng nhất cho máy tính để bàn, chiếm khoảng 30% số bản Linux được cài đặt trên máy tính để bàn năm 2007.
 
