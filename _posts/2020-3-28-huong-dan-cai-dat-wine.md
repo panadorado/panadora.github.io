@@ -27,8 +27,8 @@ Trước hết, nếu bạn đang chạy với hệ thống 64 bit, hãy bật k
 
 ```terminal
 
-	~$ sudo dpkg --add-architecture i386
-	~$ wget -qO - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
+~$ sudo dpkg --add-architecture i386
+~$ wget -qO - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
 
 ```
 
@@ -37,11 +37,26 @@ Sử dụng một trong các lệnh sau để bật kho lưu trữ Wine apt tron
 **Bước 2 - Cài đặt Wine trên Ubuntu**
 
 Sử dụng các lệnh dưới đây để cài đặt các gói Wine từ kho apt. Tùy chọn khuyến nghị cài đặt sẽ cài đặt tất cả các gói được đề xuất bởi các phiên bản ổn định của `Winehq` trên hệ thống `Ubuntu` của bạn.
+```terminal
+
+###  Ubuntu 19.10 
+~$ sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ eoan main'
+
+###  Ubuntu 18.04 
+~$ sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
+~$ sudo add-apt-repository ppa:cybermax-dexter/sdl2-backport
+
+
+###  Ubuntu 16.04 
+~$ sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ xenial main'
+
+```
+
 
 ```terminal
 
-	~$ sudo apt update
-	~$ sudo apt install --install-recommends winehq-stable
+~$ sudo apt update
+~$ sudo apt install --install-recommends winehq-stable
 
 ```
 
@@ -49,8 +64,8 @@ Nếu bạn gặp phải lỗi phụ thuộc chưa được đáp ứng trong kh
 
 ```terminal
 
-	~$ sudo apt install aptitude
-	~$ sudo aptitude install winehq-stable
+~$ sudo apt install aptitude
+~$ sudo aptitude install winehq-stable
 
 ```
 
@@ -60,9 +75,9 @@ Sau khi cài đặt `wine` thành công. Sử dụng lệnh sau để kiểm tra
 
 ```terminal
 
-	~$ wine --version
+~$ wine --version
 
-	wine-5.0
+wine-5.0
 
 ```
 
