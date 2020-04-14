@@ -5,6 +5,7 @@ layout: post
 excerpt: Intel vừa mới phát hành một loạt các bản cập nhật mới cho driver đồ họa DCH
 author: Panadora
 category: [windows, news]
+permalink: intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10
 ---
 
 **Intel vừa mới phát hành một loạt các bản cập nhật mới cho driver đồ họa DCH, WiFi và Bluetooth trên hệ điều hành Windows 10. Các driver mới hiện có sẵn cho cả người dùng cá nhân cũng như doanh nghiệp ở các phiên bản 64-bit và 32-bit.**

@@ -5,6 +5,7 @@ layout: post
 excerpt: Nếu nhắc tới hệ điều hành mã nguồn mở dựa trên nhân linux thì chắc hẵn các bạn sẽ không thể nhắc Ubuntu, 1 hệ điều hành mã nguồn mở.
 author: Panadora
 category: [unixlinux, terminal]
+permalink: /theme-cho-ubuntu-1804-voi-gnome-tool-tweak
 ---
 
  Nếu nhắc tới hệ điều hành mã nguồn mở dựa trên nhân linux thì chắc hẵn các bạn sẽ không thể nhắc Ubuntu, 1 hệ điều hành mã nguồn mở.

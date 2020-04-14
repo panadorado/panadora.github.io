@@ -5,6 +5,7 @@ title: Thuật toán là gì? Học thuật toán làm quái gì?
 excerpt: Tôi là một lập trình viên có trên 15 năm kinh nghiệm. Những năm đầu tiên (từ cấp 3), tôi học và làm nhiều về thuật toán.
 author: Panadora
 category: news
+permalink: /thuat-toan-la-gi-hoc-thuat-toan-lam-quai-gi
 ---
 
 <center><img class="img-thumbnail" src="https://techtalk.vn/wp-content/uploads/2018/08/00-696x406.png"></center><br>

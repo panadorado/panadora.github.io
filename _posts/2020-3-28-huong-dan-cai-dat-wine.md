@@ -5,6 +5,7 @@ layout: post
 author: Panadora
 excerpt: Wine 5.0 trên Ubuntu – Wine 5.0 là phiên bản phát triển mới của phần mềm mã nguồn mở wine, phần mềm cho phép chạy các chương trình Windows chạy trên Unix / Linux.
 category: [unixlinux, terminal]
+permalink: /huong-dan-cai-dat-wine
 ---
 
 <center><img class="img-thumbnail" width="350" src="https://idroot.us/wp-content/uploads/2019/01/wine-linux-logo.jpg"></center>
