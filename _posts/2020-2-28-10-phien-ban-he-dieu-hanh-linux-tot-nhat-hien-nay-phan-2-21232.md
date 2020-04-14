@@ -5,6 +5,7 @@ layout: post
 excerpt: Debian là phiên bản distro Linux được nhiều chuyên gia đánh giá là tốt nhất dành cho những hệ thống máy trạm, server hay database.
 author: Panadora
 category: unixlinux
+permalink: /phien-ban-he-dieu-hanh-linux-tot-nhat-hien-nay-phan-2-21232
 ---
 
 Debian là phiên bản distro Linux được nhiều chuyên gia đánh giá là tốt nhất dành cho những hệ thống máy trạm, server hay database.

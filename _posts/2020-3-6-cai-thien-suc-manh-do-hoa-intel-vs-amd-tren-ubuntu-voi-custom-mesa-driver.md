@@ -5,6 +5,7 @@ layout: post
 excerpt: Bạn là một người dùng Ubuntu (hoặc bất kì một distro base trên Ubuntu ví dụ như Mint) trên một computer dùng đồ họa của Intel hay AMD (Nvidia thì vẫn có thể dùng nhưng không đảm bảo sử dụng) và đòi hỏi máy đáp ứng nhu cầu đồ họa mạnh như game hay blender, render video,... (mà Mesa đi kèm - stock - không thể đáp ứng).
 author: Panadora
 category: [unixlinux, terminal]
+permalink: /cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver
 ---
 
 ### Đối tượng cho bài viết
@@ -41,12 +42,14 @@ PPA này lập từ 2011 do tác giả Oibaf, được lấy từ git commit h�
 PPA này hỗ trợ các bản Ubuntu từ 18.04 đến 19.10 (testing).
 Để cài đặt, bạn chạy lệnh sau (copy hết đọan rồi enter cho gọn):
 
-<p style="font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd">
-	sudo add-apt-repository ppa:oibaf/graphics-drivers<br>
-	sudo apt update <br>
-	sudo apt upgrade <br>
-	sudo reboot
-</p>
+```terminal
+
+ ~$ sudo add-apt-repository ppa:oibaf/graphics-drivers
+ ~$ sudo apt update
+ ~$ sudo apt upgrade
+ ~$ sudo reboot
+
+```
 
 Cả đoạn này bao gồm thêm PPA vào danh sách update và thay update từ PPA thay cho update từ Ubuntu. Chú ý: khi xong máy sẽ tự reboot, và không nên dùng máy khi đang thực hiện. Khi reboot, bạn vào thử 1 game và ngon cỡ nào nhé :D.
 Có nhiều điều quan trọng khi dùng cả 2 PPA này, bạn kéo xuống xem phần Lưu ý
@@ -58,30 +61,37 @@ Mình ít thấy ai review về PPA này, đa số đều đã cũ (từ hồi U
 PPA này chỉ hỗ trợ hai bản Ubuntu là 18.04.x và 18.10 do tác giả rất bận, không có thời gian.
 Sau đây là cách sử dụng:
 
-<p style="font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd">
-	sudo add-apt-repository ppa:paulo-miguel-dias/pkppa  <br>
-	sudo apt update  <br>
-	sudo apt upgrade  <br>
-	sudo reboot
-</p>
+```terminal
 
+ ~$ sudo add-apt-repository ppa:paulo-miguel-dias/pkppa
+ ~$ sudo apt update
+ ~$ sudo apt upgrade
+ ~$ sudo reboot
+
+```
 Đọan lệnh này cũng như trên, sẽ tự động restart máy khi hoàn thành nên mình khuyên đừng dùng nhé!
 
 ### Lưu ý
 Khi update lên 1 bản Ubuntu mới như 18.04 lên 18.10 hay 18.10 lên 19.04 v.v... thì bạn BẮT BUỘC phải gỡ hai PPA này trước khi update lên phiên bản mới của ubuntu, để gỡ bạn chạy 2 lệnh:
 
 ### Cài đặt gói ppa-purge
-<p style="font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd">
-	sudo apt-get install ppa-purge
-</p>
-### đối với Oibaf 
-<p style="font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd">
-	sudo ppa-purge ppa:oibaf/graphics-drivers
-</p>
-### đối với Padoka. 
-<p style="font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd">
-	sudo ppa-purge ppa:paulo-miguel-dias/pkppa 
-</p>
+```terminal
+
+ ~$ sudo apt-get install ppa-purge
+
+```
+### Gỡ cài đặt đối với Oibaf 
+```terminal
+
+ ~$ sudo ppa-purge ppa:oibaf/graphics-drivers
+
+```
+### Gỡ cài đặt đối với Padoka
+```terminal
+
+ ~$ sudo ppa-purge ppa:paulo-miguel-dias/pkppa 
+
+```
 Sau khi nâng Ubuntu bạn cài lại từ đầu nhé!
 Nếu muốn gỡ, thì bạn làm như trên.
 
