@@ -4,6 +4,7 @@ title: Tựa game anh em yêu thích mùa dịch Coronavirus, Plague Inc., bị 
 layout: post
 excerpt: Hồi trước thì vẫn ổn, bây giờ lại nói bất hợp pháp là sao?...
 author: Panadora
+permalink: /tua-game-anh-em-yeu-thich-mua-dich-coronavirus-plague-inc-bi-trung-quoc-to-la-bat-hop-phap
 ---
 
 ### Hồi trước thì vẫn ổn, bây giờ lại nói bất hợp pháp là sao?...

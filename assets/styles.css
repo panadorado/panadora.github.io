@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Hepta Slab', serif;
+  font-family: 'Roboto Mono', monospace;
   background-image: url(../image/background-body.jpg);
   background-size: cover;
   background-position: center;
@@ -16,6 +16,7 @@ body {
 /* Navber MENU */
 nav.navbar {
   background: #242424;
+  font-weight: bold;
 }
 
 button.navbar-toggler span {
@@ -50,7 +51,6 @@ a.dropdown-item:hover {
 .text-logo {
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Hepta Slab', serif;
   font-weight: bold;
   height: 220px;
   letter-spacing: .15em;
@@ -177,7 +177,6 @@ h1 a:hover {
   background-color: #242424;
   color: white;
   margin-top: 30px;
-  font-family: 'Hepta Slab', serif;
   padding: 5px;
 }
 
