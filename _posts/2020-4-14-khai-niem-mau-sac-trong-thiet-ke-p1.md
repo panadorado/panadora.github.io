@@ -4,7 +4,7 @@ layout: post
 title: Khái niệm màu sắc trong thiết kế (phần 1)
 excerpt: Khái niệm về màu sắc và cách phối hợp các màu như thế nào cho đúng sẽ giúp chúng ta có được chủ thể hài hoà hơn trong thiết kế.
 author: Panadora
-category: graphics
+category: [graphics, news, other]
 permalink: /khai-niem-mau-sac-trong-thiet-ke-p1
 ---
 
