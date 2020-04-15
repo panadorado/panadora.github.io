@@ -57,4 +57,4 @@ CMYK - viết tắt (<label style="color: #00ffff;">Cyan</label>, <label style="
 Màu đen (<canvas width="12" height="12" style="background-color: #000000;"></canvas> #000000) là màu không phản chiếu ánh sáng, trong khoa học, màu đen không phải là màu sắc
 <hr>
 
-Cảm ơn các bạn đã xem qua hi vọng các bạn thích post này của mình và đừng quên like và share cho mình, để mình có động lực tổng hợp đăng những bài học hữu ích về cộng nghệ nhé !. Mình sẽ tiếp tục series này trong phần 3 về bài `Tìm hiểu các hệ màu trong thiết kế`.
+Cảm ơn các bạn đã xem qua hi vọng các bạn thích post này của mình và đừng quên like và share cho mình, để mình có động lực tổng hợp đăng những bài học hữu ích về công nghệ nhé !. Mình sẽ tiếp tục series này trong phần 3 của bài `Tìm hiểu các hệ màu trong thiết kế`.
