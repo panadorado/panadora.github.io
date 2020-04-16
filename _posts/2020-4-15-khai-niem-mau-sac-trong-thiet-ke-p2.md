@@ -4,7 +4,7 @@ layout: post
 title: Khái niệm màu sắc trong thiết kế (phần 2)
 excerpt: Chào các bạn, mình sẽ tiếp tục với series của khái niệm màu sắc trong thiết kế phần 2.
 author: Panadora
-category: [graphics, news, other]
+category: [graphics, news, css]
 permalink: /khai-niem-mau-sac-trong-thiet-ke-p2
 ---
 

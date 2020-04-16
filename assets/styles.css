@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
 }
 
 body {
-  font-family: 'Roboto Mono', monospace;
   background-image: url(../image/background-body.jpg);
   background-size: cover;
   background-position: center;
@@ -54,7 +54,6 @@ a.dropdown-item:hover {
   font-weight: bold;
   height: 220px;
   letter-spacing: .15em;
-  text-shadow: 4px 4px 0px #d5d5d5, 4px 4px 0px rgba(0, 0, 0, 0.2);
   background-image: url(../image/background-logo.jpg);
   background-position: center;
   background-repeat: no-repeat;

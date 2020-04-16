@@ -4,7 +4,7 @@ layout: post
 title: Trong nghành IT, doanh nghiệp có trông giống một nhà từ thiện?
 excerpt:  Dạo 1 vòng trên các trang cộng đồng lập trình, có 1 bạn viết về chủ đề Doanh nghiệp không phải
 author: Panadora
-category: other
+category: [news, other]
 permalink: /doanh-nghiep-hay-mot-nha-tu-thien
 ---
 
