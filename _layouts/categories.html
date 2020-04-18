@@ -7,7 +7,7 @@ layout: page
 			<p class="blog-meta">
 				<i class="fas fa-book-reader"> Đăng bởi {{ post.author }}</i>
 				<span class="post-date">
-					<i class="fas fa-calendar-alt"> {{ post.date | date_to_string }}</i>
+					<i class="fas fa-calendar-alt"> {{ post.date | date: "%d-%m-%Y" }}</i>
 				</span>
 			</p>
 
