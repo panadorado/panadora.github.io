@@ -10,7 +10,7 @@ permalink: /huong-dan-tao-server-minecraft-p1
 
 **[Minecraft](https://vi.wikipedia.org/wiki/Minecraft) là một tựa game độc lập trong một thế giới mở. Ban đầu nó được tạo ra bởi lập trình viên người Thụy Điển [Markus "Notch" Persson](https://vi.wikipedia.org/wiki/Markus_%22Notch%22_Persson) và sau đó được phát triển và phát hành bởi [Mojang](https://vi.wikipedia.org/wiki/Mojang). Tựa game có đồ họa không mấy hấp dẫn những thu hút đông đảo số người chơi đặt biệt là thanh thiếu niên và trẻ em, vì lối chơi của tựa game này mạng lại tính sáng tạo và đầy thú vị với những khối block hình vuông với động, thực vật có hình thù vui nhộm. ``Minecraft``cho phép người chơi xây dựng các công trình bằng cách xây các khối kết cấu hình vuông trong một thế giới 3D.**
 
-Game bao gồm các chế độ chơi gôm: `Sinh Tồn, Sáng tạo, Phiêu lưu`. Chi tiết tại [wikipedia](https://vi.wikipedia.org/wiki/Minecraft).
+Game bao gồm các chế độ chơi: `Sinh Tồn, Sáng tạo, Phiêu lưu`. Chi tiết tại [wikipedia](https://vi.wikipedia.org/wiki/Minecraft).
 
 Ngoài ra game cho phép kết nối Online để có thể chơi game cùng bạn bè qua việc tạo server và sau đây là bài viết hướng dẫn tạo server minecraft để chơi cùng bạn bè.
 
