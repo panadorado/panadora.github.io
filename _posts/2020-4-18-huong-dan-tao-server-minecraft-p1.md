@@ -8,7 +8,7 @@ category: [games, news]
 permalink: /huong-dan-tao-server-minecraft-p1
 ---
 
-**[Minecraft](https://vi.wikipedia.org/wiki/Minecraft) là một tựa game độc lập trong một thế giới mở. Ban đầu nó được tạo ra bởi lập trình viên người Thụy Điển [Markus "Notch" Persson](https://vi.wikipedia.org/wiki/Markus_%22Notch%22_Persson) và sau đó được phát triển và phát hành bởi [Mojang](https://vi.wikipedia.org/wiki/Mojang). Tựa game có đồ họa không mấy hấp dẫn những thu hút đông đạo số người chơi đặt biệt là thanh thiếu niên và trẻ em, vì lối chơi của tựa game này mạng lại tính sáng tạo và đầy thú vị với những khối block hình vuông với động, thực vật có hình thù vui nhộm. ``Minecraft``cho phép người chơi xây dựng các công trình bằng cách xây các khối kết cấu hình vuông trong một thế giới 3D.**
+**[Minecraft](https://vi.wikipedia.org/wiki/Minecraft) là một tựa game độc lập trong một thế giới mở. Ban đầu nó được tạo ra bởi lập trình viên người Thụy Điển [Markus "Notch" Persson](https://vi.wikipedia.org/wiki/Markus_%22Notch%22_Persson) và sau đó được phát triển và phát hành bởi [Mojang](https://vi.wikipedia.org/wiki/Mojang). Tựa game có đồ họa không mấy hấp dẫn những thu hút đông đảo số người chơi đặt biệt là thanh thiếu niên và trẻ em, vì lối chơi của tựa game này mạng lại tính sáng tạo và đầy thú vị với những khối block hình vuông với động, thực vật có hình thù vui nhộm. ``Minecraft``cho phép người chơi xây dựng các công trình bằng cách xây các khối kết cấu hình vuông trong một thế giới 3D.**
 
 Game bao gồm các chế độ chơi gôm: `Sinh Tồn, Sáng tạo, Phiêu lưu`. Chi tiết tại [wikipedia](https://vi.wikipedia.org/wiki/Minecraft).
 
@@ -21,7 +21,7 @@ Ngoài ra game cho phép kết nối Online để có thể chơi game cùng b�
 
 Để có thể tạo server đầu tiên các bạn cần file để chạy server, các bạn có thể download phiên bản server minecarft bạn cần dưới đây.
 
-<p style="border: 3px double #242424; background: #dddd; font-style: italic; border-radius: 5px;">Chú ý: lời khuyên dành mình cho các bạn là để server có thể ổn định các bạn có thể tải phiên bản server thấp hơn một chút đối với phiên bản mới nhất hiện tại của minecraft.</p>
+<p style="border: 3px double #242424; background: #dddd; font-style: italic; border-radius: 5px;">Chú ý: lời khuyên mình  dành cho các bạn là để server có thể ổn định các bạn có thể tải phiên bản server thấp hơn một chút đối với phiên bản mới nhất hiện tại của minecraft.</p>
 
 [Vanilla](https://getbukkit.org/download/vanilla): Tổng hợp các phiên bản server minecraft không sử dụng plugins/addons
 
