@@ -4,7 +4,7 @@ layout: post
 title: Tìm hiểu về distro linux
 excerpt: Distro Linux là gì?. Nên dùng Distro Linux nào, chúng có gì khác nhau ?
 author: Panadora
-category: [linux, other, news]
+category: [unixlinux, other, news]
 ---
 
 **Distro Linux là gì?. Nên dùng Distro Linux nào, chúng có gì khác nhau ?**
@@ -13,7 +13,7 @@ Bạn mới tìm hiểu về Linux và chưa biết Distro Linux là gì, các b
 
 Có lẽ "linux" không còn xa lạ với nhiều người. Vì chúng xuất hiện rất nhiều lần trong tin tức hay những bài viết liên quan đến phần mềm mã nguồn mở. Thế nhưng, không phải ai cũng hiểu rõ về "linux". Chính vì thế, chia sẻ sau sẽ giúp các bạn hiểu về distro linux là gì và lý do chúng ta nên quan tâm.
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/2020425imagetitledistro.jpg" width="500" height="500"></center><br>
+<center><img class="img-thumbnail" src="{{baseurl}}/image/2020425distrolagi.png" width="1000" height="auto"></center><br>
 
 <h3 style="font-weight: bold;">Distro linux là gì ?</h3>
 
@@ -31,7 +31,7 @@ Mỗi distro Linux sẽ hướng đến một nhóm đối tượng và phục v
 
 <h3 style="font-weight: bold;">Giữa các distro giống và khác nhau thế nào ?</h3><br>
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/2020425distroquestion.png" width="500" height="500"></center><br>
+<center><img class="img-thumbnail" src="{{baseurl}}/image/2020425distroquestion.png" width="1000" height="auto"></center><br>
 
 Điểm giống nhau là về cơ bản, chúng đều dựa trên 3 nhánh chính, đó là Debian, Red Hat, Slackware. Đồng thời, tất cả các bản distrolinux đều có Kernel và Linux.
 
@@ -93,16 +93,14 @@ Và trên hết, như đã đề cập ở trên, Linux mang đến cho bạn s�
 
 Tuy nhiên, ngoài các ưu điểm nổi trội trên thì Linux cũng có mặt hạn chế. Đó là trên thị trường máy tính cá nhân, Linux vẫn còn yếu so với Windows hay MacOS, Do 2 đơn vị này có sự hậu thuẫn từ 2 ông lớn Microsoft và Apple. Vì vậy, người dùng đôi khi phát sinh một số lỗi nhỏ trên máy tính.
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/hostinglinuxdistro.jpg" width="500" height="500"></center><br>
+<center><img class="img-thumbnail" src="{{baseurl}}/image/hostinglinuxdistro.jpg" width="1000" height="auto"></center><br>
 
 <h3 style="font-weight: bold;">Tại sao Developer quan tâm distro Linux ?</h3>
 
-Linux cùng các bản distrolinux được giới developers sử dụng rộng rãi. Nhờ chúng có những ưu điểm sau:
+- Linux là mã nguồn mỡ và hoàn toàn miễn phí, bảo mật tốt, coi như là sự chọn hợp lý cho người dùng phổ thông cho việc tiết kiểm chi tiêu về vấn đề bản quyền, đối với người dùng Việt Nam cũng không ngoại lệ.
 
-Mã nguồn mở và miễn phí. Đây là 2 tiêu chí quan trọng mà developer nào cũng quan tâm.
-Dễ dàng tùy biến.
-MacOS và Linux là 2 hệ điều hành gần nhân Unix.
-Ngôn ngữ lập trình và thư viện (trừ một vài thiết kế riêng biệt cho Windows) đều được ưu tiên hỗ trợ hệ điều hành nhân Unix.
-Linux được dùng phổ biến trên server nên dễ dàng cho người sử dụng.
-Công cụ phát triển phần mềm mạnh.
-Trên đây là những chia sẻ về distro Linux là gì và giữa các distro giống và khác nhau thế nào. Hi vọng sẽ giúp bạn có được sự lựa chọn hoàn hảo nhất cho giải pháp phần mềm theo nhu cầu sử dụng.
+- Tự do tùy biến, và học tập nghiên, lập trình phát triển phần mềm ...v.v, đối với các cty doanh nghiệp thì linux server là lựa chọn hợp lý trong việc tiết kiệm chi phí chi trả hoặc lo ngoại về vấn đề bảo mật không an toàn.
+
+Tuy nhiên linux ko dành mục đích để chơi game vì thế sẽ là trở ngại lớn cho các game thủ khi đặt chân vào con đường này, tuy nhiên ko có nghĩa là linux không thể chơi game, và bạn vẫn có thể giải trí nhẹ với các tự game văn phòng, hoặc `Steam` phần mềm này đã hổ trợ trên linux 1 thời gian dài và hầu như có những tựa game ko thua kém gì trên windows, và buộc bạn chi 1 số tiền ko ít để sỡ hữu những tưa game support trên linux. Còn 1 tin vui cho các ae game thủ là các ông lớn về mãng đồ họa cũng đã có động thái support lên cho các dùng distro linux
+
+Vì thế sẽ không còn xa nếu linux tiếp tục được phát triển và vươn lên thành hệ điều hành thứ 2 của người dùng và thoát khỏi cái bóng thống trị của windows (Microssoft) !
