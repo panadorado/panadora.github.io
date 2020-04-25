@@ -5,6 +5,7 @@ title: Tìm hiểu về distro linux
 excerpt: Distro Linux là gì?. Nên dùng Distro Linux nào, chúng có gì khác nhau ?
 author: Panadora
 category: [unixlinux, other, news]
+permalink: /tim-hieu-ve-distro-linux
 ---
 
 **Distro Linux là gì?. Nên dùng Distro Linux nào, chúng có gì khác nhau ?**
