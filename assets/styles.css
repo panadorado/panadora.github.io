@@ -14,6 +14,13 @@ body {
 
 
 /* Navber MENU */
+.logo-style {
+  color: #fff;
+}
+.logo-style:hover {
+  color: #ddd;
+}
+
 nav.navbar {
   background: #242424;
   font-weight: bold;
