@@ -5,12 +5,12 @@
   font-family: 'Roboto Slab', serif;
 }
 
-#Title-Blog {
+.Title-Blog {
   color: #fff;
   transition: .5s;
 }
 
-#Title-Blog:hover {
+.Title-Blog:hover {
   color: #e9473f;
 }
 
