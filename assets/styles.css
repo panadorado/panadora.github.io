@@ -5,6 +5,15 @@
   font-family: 'Roboto Slab', serif;
 }
 
+#Title-Blog {
+  color: #fff;
+  transition: .5s;
+}
+
+#Title-Blog:hover {
+  color: #e9473f;
+}
+
 body {
   background-image: url(../image/background-body.jpg);
   background-size: cover;
