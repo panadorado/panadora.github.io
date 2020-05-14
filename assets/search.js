@@ -8,8 +8,7 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<div class="single-search">';
-        appendString += '<p class="entry-title"><a href="' + item.url + '" style="font-size: 20px; font-weight: bold;">' + item.title + '</a>';
+        appendString += '<div class="single-blog"><p class="entry-title"><a href="' + item.url + '" style="font-size: 20px; font-weight: bold;">' + item.title + '</a>';
         appendString += '<p>' + item.content.substring(0, 150) + '...</p></p></div>';
       }
 
