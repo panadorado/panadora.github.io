@@ -12,10 +12,10 @@ layout: default
 			</p>
 
 			<a href="{{ post.url }}">
-				<img class="img-thumbnail img-hover" src="{{ site.baseurl }}/image/{{ post.thumbnail }}" style="height: 180px;">
+				<img id="img-thumbnail" class="img-thumbnail img-hover" src="{{ site.baseurl }}/image/{{ post.thumbnail }}" style="height: 180px;" title="{{ post.title }}">
 			</a>
 
-			<p class="entry-title"><a href="{{ post.url }}">{{ post.title }}</a></p>
+			<p class="entry-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
 
 			<p class="blog-text text-content">{{ post.excerpt }}</p>
 

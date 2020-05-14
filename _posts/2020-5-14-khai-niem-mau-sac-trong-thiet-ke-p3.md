@@ -1,0 +1,60 @@
+---
+thumbnail: 2020514ColorP3.jpg
+layout: post
+title: Khái niệm màu sắc trong thiết kế (phần 3)
+excerpt: Chào các bạn, mình sẽ tiếp tục với series của khái niệm màu sắc trong thiết kế phần 3.
+author: Panadora
+category: [graphics, news, css]
+tag: [color, graphics, màu sắc, khái niệm màu sắc] 
+permalink: /khai-niem-mau-sac-trong-thiet-ke-p3
+---
+
+Chào các bạn, mình sẽ tiếp tục với series của Khái niệm màu sắc trong thiết kế (phần 3)<br>
+
+{:refdef: style="align-items: center;"}
+![title-image]({{site.url}}/image/2020514ColorP3.jpg)
+{:refdef:}
+
+<br>
+<hr>
+
+<h1 style="text-align: center;">LAB</h1>
+
+Lab - viết tắt **`Lightness-Luminance`** trong đó:
+
+(L) là trục thẳng đứng, chỉ biểu diễn độ sáng có giá trị từ 0 (#000000) đến 100 (#FFFFFF).<br>
+(-a) đến (a): chứa giá trị màu GREEN - (#00FF00) đến RED + (#FF0000).<br>
+(-b) đến (b): chứa giá trị màu BLUE - (#0000FF) đến YELLOW + (#FFFF00).
+
+Các thông tin màu được tách ra được dùng trong các filter của Photoshop, không làm ảnh hưởng đến màu sắc trong bức ảnh.
+
+<center><img width="450" height="450" class="img-thumbnail" src="{{baseurl}}/image/LAB.png"></center>
+
+<br>
+<hr>
+
+<h1 style="text-align: center;">HSB</h1>
+
+HSB hoặc V - viết tắt **`Hue - Saturation - Bright/Value`** trong đó:
+
+(Hue): Liên quan đến dải màu đỏ - cam - vàng - lục - lam - chàm - tím. Được biểu diễn có giá trị từ 0° đến 360°.<br>
+(Saturation): Liên quan đến sắc độ, có giá trị từ 0% đến 100%.<br>
+(Bright/Value): Độ sáng - tối, có giá trị từ 0% đến 100%<br>
+
+<center><img width="450" height="450" class="img-thumbnail" src="{{baseurl}}/image/HSB.png"></center>
+
+<br>
+<hr>
+
+<h1 style="text-align: center;">HEX</h1>
+
+HEX - viết tắt **`Hexadecimal`**, hệ thống màu biểu diễn giá trị màu sắc RGB dưới dạng thập lục phân, một chuỗi bao gồm 6 chữ hoặc số dạng ghép của 3 số dạng một byte. Mỗi byte đại diện cho một số trong khoảng 00 - FF tức 0 - 255 trong hệ thập phân.
+
+<center><img width="350" height="350" class="img-thumbnail" src="{{baseurl}}/image/HEX.jpg"></center>
+
+<hr><hr>
+
+Cảm ơn các bạn đã ghé qua blog của mình, đừng quên ấn nút share để bạn bè cùng biết đến nhé !
+
+[khái niệm màu sắc trong thiết kế Phần 1](https://congnghevacuocsong.tk/khai-niem-mau-sac-trong-thiet-ke-p1) <br>
+[khái niệm màu sắc trong thiết kế Phần 2](https://congnghevacuocsong.tk/khai-niem-mau-sac-trong-thiet-ke-p2) <br>
