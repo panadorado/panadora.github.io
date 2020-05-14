@@ -1,19 +1,24 @@
 (function() {
   function displaySearchResults(results, store) {
     var searchResults = document.getElementById('search-results');
+    //var errorpage = document,getElementById('')
 
     if (results.length) { // Are there any results?
       var appendString = '';
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<hr><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
-        appendString += '<p>' + item.content.substring(0, 150) + '...</p><hr>';
+        appendString += '<div class="single-search">';
+        appendString += '<p class="entry-title"><a href="' + item.url + '" style="font-size: 20px; font-weight: bold;">' + item.title + '</a>';
+        appendString += '<p>' + item.content.substring(0, 150) + '...</p></p></div>';
       }
 
       searchResults.innerHTML = appendString;
-    } else {
-      searchResults.innerHTML = '<center><p>Không tìm thấy kết quả tìm kiếm của bạn !</p></center>';
+    } 
+    else 
+    {
+      searchResults.innerHTML = '<center><p>Không tìm thấy kết quả tìm kiếm của bạn !</p></center>' + 
+                                '<center><img src="../image/404pagenotfound.jpeg" width="250"></center>';
     }
   }
 
@@ -39,6 +44,7 @@
     // a boost of 10 to indicate matches on this field are more important.
     var idx = lunr(function () {
       this.field('id');
+
       this.field('title', { boost: 10 });
       this.field('author');
       this.field('category');

@@ -1,4 +1,139 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-25T15:01:46+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Tìm hiểu về distro linux</title><link href="http://localhost:4000/unixlinux/other/news/2020/04/25/tim-hieu-ve-distro-linux.html" rel="alternate" type="text/html" title="Tìm hiểu về distro linux" /><published>2020-04-25T00:00:00+07:00</published><updated>2020-04-25T00:00:00+07:00</updated><id>http://localhost:4000/unixlinux/other/news/2020/04/25/tim-hieu-ve-distro-linux</id><content type="html" xml:base="http://localhost:4000/unixlinux/other/news/2020/04/25/tim-hieu-ve-distro-linux.html">&lt;p&gt;&lt;strong&gt;Distro Linux là gì?. Nên dùng Distro Linux nào, chúng có gì khác nhau ?&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-14T19:48:52+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Khái niệm màu sắc trong thiết kế (phần 3)</title><link href="http://localhost:4000/khai-niem-mau-sac-trong-thiet-ke-p3" rel="alternate" type="text/html" title="Khái niệm màu sắc trong thiết kế (phần 3)" /><published>2020-05-14T00:00:00+07:00</published><updated>2020-05-14T00:00:00+07:00</updated><id>http://localhost:4000/khai-niem-mau-sac-trong-thiet-ke-p3</id><content type="html" xml:base="http://localhost:4000/khai-niem-mau-sac-trong-thiet-ke-p3">&lt;p&gt;Chào các bạn, mình sẽ tiếp tục với series của Khái niệm màu sắc trong thiết kế (phần 3)&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/image/2020514ColorP3.jpg&quot; alt=&quot;title-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h1 style=&quot;text-align: center;&quot;&gt;LAB&lt;/h1&gt;
+
+&lt;p&gt;Lab - viết tắt &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Lightness-Luminance&lt;/code&gt;&lt;/strong&gt; trong đó:&lt;/p&gt;
+
+&lt;p&gt;(L) là trục thẳng đứng, chỉ biểu diễn độ sáng có giá trị từ 0 (#000000) đến 100 (#FFFFFF).&lt;br /&gt;
+(-a) đến (a): chứa giá trị màu GREEN - (#00FF00) đến RED + (#FF0000).&lt;br /&gt;
+(-b) đến (b): chứa giá trị màu BLUE - (#0000FF) đến YELLOW + (#FFFF00).&lt;/p&gt;
+
+&lt;p&gt;Các thông tin màu được tách ra được dùng trong các filter của Photoshop, không làm ảnh hưởng đến màu sắc trong bức ảnh.&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;450&quot; height=&quot;450&quot; class=&quot;img-thumbnail&quot; src=&quot;/image/LAB.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h1 style=&quot;text-align: center;&quot;&gt;HSB&lt;/h1&gt;
+
+&lt;p&gt;HSB hoặc V - viết tắt &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Hue - Saturation - Bright/Value&lt;/code&gt;&lt;/strong&gt; trong đó:&lt;/p&gt;
+
+&lt;p&gt;(Hue): Liên quan đến dải màu đỏ - cam - vàng - lục - lam - chàm - tím. Được biểu diễn có giá trị từ 0° đến 360°.&lt;br /&gt;
+(Saturation): Liên quan đến sắc độ, có giá trị từ 0% đến 100%.&lt;br /&gt;
+(Bright/Value): Độ sáng - tối, có giá trị từ 0% đến 100%&lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;450&quot; height=&quot;450&quot; class=&quot;img-thumbnail&quot; src=&quot;/image/HSB.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h1 style=&quot;text-align: center;&quot;&gt;HEX&lt;/h1&gt;
+
+&lt;p&gt;HEX - viết tắt &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Hexadecimal&lt;/code&gt;&lt;/strong&gt;, hệ thống màu biểu diễn giá trị màu sắc RGB dưới dạng thập lục phân, một chuỗi bao gồm 6 chữ hoặc số dạng ghép của 3 số dạng một byte. Mỗi byte đại diện cho một số trong khoảng 00 - FF tức 0 - 255 trong hệ thập phân.&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;350&quot; height=&quot;350&quot; class=&quot;img-thumbnail&quot; src=&quot;/image/HEX.jpg&quot; /&gt;&lt;/center&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Cảm ơn các bạn đã ghé qua blog của mình, đừng quên ấn nút share để bạn bè cùng biết đến nhé !&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://congnghevacuocsong.tk/khai-niem-mau-sac-trong-thiet-ke-p1&quot;&gt;khái niệm màu sắc trong thiết kế Phần 1&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://congnghevacuocsong.tk/khai-niem-mau-sac-trong-thiet-ke-p2&quot;&gt;khái niệm màu sắc trong thiết kế Phần 2&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;graphics&quot;, &quot;news&quot;, &quot;css&quot;]" /><category term="color" /><category term="graphics" /><category term="màu sắc" /><category term="khái niệm màu sắc" /><summary type="html">Chào các bạn, mình sẽ tiếp tục với series của khái niệm màu sắc trong thiết kế phần 3.</summary></entry><entry><title type="html">Một số thuật ngữ chuyên ngành CNTT</title><link href="http://localhost:4000/mot-so-thuat-ngu-chuyen-nganh-cntt" rel="alternate" type="text/html" title="Một số thuật ngữ chuyên ngành CNTT" /><published>2020-05-03T00:00:00+07:00</published><updated>2020-05-03T00:00:00+07:00</updated><id>http://localhost:4000/mot-so-thuat-ngu-chuyen-nganh-cntt</id><content type="html" xml:base="http://localhost:4000/mot-so-thuat-ngu-chuyen-nganh-cntt">&lt;p&gt;&lt;img src=&quot;/image/202053-title-image-tn.jpg&quot; alt=&quot;here-image-title&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Từ chuyên ngành luôn là hành trang cần thiết đối với một comtor, nhất là đối với một comtor chưa có kinh nghiệm trong lĩnh vực CNTT thì việc hiểu ý nghĩa của từ chuyên ngành cũng là một điều không thể thiếu. Chính vì vậy, trong bài viết này mình xin giới thiệu về khái niệm của một số từ chuyên ngành trong lĩnh vực CNTT này.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Archive ( Lưu trữ )&lt;/strong&gt; : Là phần mềm dùng để tổng hợp nhiều file vào chung 1 file. Nhờ việc tổng hợp này mà giảm được thời gian gửi nhận file qua network, bên cạnh đó việc quản lí ổ cứng cũng sẽ trở nên đơn giản hơn.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Account ( Tài khoản )&lt;/strong&gt; : Là tài khoản cần thiết khi sử dụng, hay còn gọi là quyền sử dụng resource trên máy tính hoặc trên network.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;data compression ( Nén dự liệu )&lt;/strong&gt; : Khôi phục lại trạng thái ban đầu của dữ liệu đã bị nén dung lượng.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Add in ( Add on / Thêm vào )&lt;/strong&gt; : Là chức năng mở rộng được bổ sung cho application. Để bổ sung thêm chức năng mở rộng, các application cần phải được thiết kế sao cho có thể ứng dụng được các chức năng này.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Application service provider ( Nhà cung cấp dịch vụ ứng dụng )&lt;/strong&gt; : Dùng để chỉ các nhà cung cấp thông qua internet thuê các phần mềm ứng dụng (application soft) phục vụ cho business để đáp ứng cho khách hàng. User sẽ thông qua trình duyệt Web để sử dụng application soft đã được cài đặt ở server lưu ASP.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Algorithm ( Thuật toán )&lt;/strong&gt; : Là trình tự xử lí để có thể thực hiện 1 hoặc nhiều thao tác trên máy tính, ngoài ra nó được ứng dụng để phát triển &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;trí tuệ nhân tạo (AI)&lt;/code&gt;&lt;/strong&gt; để xứ lý những công việc khó khăn hiện tại đến sau này.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Web Invisible Web ( web ẩn danh )&lt;/strong&gt; : Là nhóm các thông tin mà search engine không thể tìm ra được trong các thông tin được công khai ở &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;www.&lt;/code&gt;&lt;/strong&gt;, và nhóm thông tin này sẽ không được kiểm duyệt và bị loại bỏ hiện thị trên các trình duyệt có &lt;code class=&quot;highlighter-rouge&quot;&gt;Proxy&lt;/code&gt; máy chủ để bảo mật an toàn.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Infra (infrastructure / Cơ sở hạ tầng)&lt;/strong&gt; : Là từ tiếng Anh được dùng với ý nghĩa chỉ cấu tạo nền móng, cơ sở, có thể gọi tắt là infra. Trong lĩnh vực IT, từ này được dùng để nói đến các chế độ, thiết bị cơ sở cần thiết để cho các hệ thống được hoạt động có hiệu quả.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;HTML ( Hyper Text Markup Language )&lt;/strong&gt; : Là ngôn ngữ mark-up để tạo nên các Web page. HTML được sử dụng để tạo nên cấu trúc logic của văn bản hay diện mạo của trang web. Ngoài ra, cũng có thể chèn hình ảnh, âm thanh, video vào trong văn bản, hay cũng có thể chèn các hyper link đến các văn bản khác. Chúng ta sẽ sử dụng trình duyệt Web để xem các văn bản được tạo bằng HTML. Tuy nhiên, các văn bản HTML là một dạng của text nên khi mở HTML bằng text editor thì ở mỗi thẻ tag đều có thể đọc và viết giống như văn bản text.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SSL ( chứng chỉ SSL )&lt;/strong&gt; : Là protocol được nhận và gửi sau khi thông tin được mã hóa trên internet như các bạn đã thấy các trang web có SSL sẽ hiển thị &lt;label style=&quot;color: green;&quot;&gt;https://&lt;/label&gt;, do công ty Netscape Communications phát triển. Sau khi mã hóa dữ liệu (data) như FTP, www được sử dụng rộng rãi trên mạng internet thì việc truyền gửi các thông tin liên quan đến privacy, sredit card number, bí mật doanh nghiệp,…trở nên dễ dàng hơn.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SGML (Standard Generalized Mark-up Language)&lt;/strong&gt; : Là ngôn ngữ xây dựng cấu trúc logic, ý nghĩa cho văn bản. Có thể đánh dấu những phần có ý nghĩa đặc biệt ở trong văn bản như tiêu đề (title), trích dẫn,…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;XHTML(Extensible Hyper Text Markup Language)&lt;/strong&gt; : Là ngôn ngữ markup để xác định lại HTML được dùng để tạo nên Web page, sao cho phù hợp với XML. Bên cạnh đó ngôn ngữ markup này được dùng để tạo nên cấu trúc, ý nghĩa của dữ liệu hay đoạn văn XML(Extensible Markup Language). Ngôn ngữ markup chính là ngôn ngữ chèn cấu tạo vào đoạn văn bằng các chuỗi kí tự đã được chỉ định trước được gọi là các thẻ tag. Vì user có thể chỉ định các thẻ tag cá nhân nên XML cũng được gọi là ngôn ngữ meta – ngôn ngữ dùng để tạo ngôn ngữ markup. Vốn dĩ XML được tạo ra như là một tập con (sub-set) của “SGML” có khả năng chỉ định các thẻ tag cá nhân giống nhau, và nó được tạo ra với mục tiêu là truyền gửi dữ liệu tùy ý giống như HTML. Xét về các tính chất khác thì XML phần lớn được sử dụng như là framework của các ngôn ngữ markup khác.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OS (operating system)&lt;/strong&gt; : Là phần mềm quản lí toàn bộ hệ thống máy tính, cung cấp các chức năng cơ bản được sử dụng như các chức năng in/out: keyboard input, screen output, disk, quản lí memory,… Có thể gọi là “phần mềm cơ bản” hay được gọi với tên quen thuộc &lt;code class=&quot;highlighter-rouge&quot;&gt;Hệ Điều Hành&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Online storage&lt;/strong&gt; : Là dịch vụ cho mượn disk space dùng để lưu trữ file trên internet và được phân thành 2 loại: miễn phí và trả phí. Trường hợp dùng bản miễn phí, khi sử dụng sẽ hiển thị các mục quảng cáo.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Online translation service ( dịch vụ dịch thuật trực tuyến)&lt;/strong&gt; : Là dịch vụ sử dụng các application để dịch các web page, text được viết bằng ngôn ngữ mà user không đọc được và cung cấp bản dịch cho user.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Extension ( tiện ích mở rộng )&lt;/strong&gt; : cũng như (add-on) là tệp tin tiện ích bổ sung cho 1 ứng dụng nào đó, nếu ứng dụng đó được các nhà phát triển thêm vào thanh công cụ cho người dùng có thể lựa chọn phù hợp.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Customize&lt;/strong&gt; : Điều chỉnh lại thiết kế, setting của phần mềm và chỉnh sửa lại cho phù hợp với yêu cầu cá nhân của user.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cookie&lt;/strong&gt; : Là một dạng bản ghi được tạo ra và lưu trữ tạm thời trên máy tính thông qua trình duyệt Web.&lt;/p&gt;
+
+&lt;p&gt;Search engine optimization (SEO) : Là tập hợp các phương pháp nhằm đưa website lên vị trí TOP trong các trang kết quả của các công cụ tìm kiếm.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Control panel&lt;/strong&gt; : Là menu tập chung các phần mềm software để setting máy tính, OS. Thường được sử dụng cho các màn hình thao tác như Windows, Mac OS.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Server&lt;/strong&gt; : Trong mạng máy tính, server là máy tính cung cấp các dữ liệu, chức năng nó đang có cho các máy tính client. Nó tương ứng với www server trên mạng internet.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thumbnail&lt;/strong&gt; : Là ảnh đã được thu nhỏ để hiển thị nhiều ảnh trong 1 list.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVA&lt;/strong&gt; : Là ngôn ngữ lập trình do công ty Sun Microsystems phát triển. Java sử dụng hệ thống kí hiệu giống với ngôn ngữ C tuy nhiên ngôn ngữ Java được xây dựng trên những điểm yếu của các ngôn ngữ hiên tại, nó được trang bị định hướng đối tượng hoàn chỉnh cái mà ngôn ngữ hiện tại không có. Ngoài ra, ngôn ngữ này cũng được trang bị cơ chế bảo mật mạnh mẽ cũng như các chức năng liên quan đến network phong phú, chính vì vậy nó cũng đã trở thành một kĩ thuật được sử dụng nhiều trong môi trường network.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Integrated circuit (IC)&lt;/strong&gt; : Là bảng mạch điện tử có nhiều loại chức năng và được lắp đặt các chi tiết như là: transistor, điện trở, tụ điện, diode,…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Spell checker&lt;/strong&gt; : Là chức năng kiểm tra chính tả do user input vào, word-processing software đều được trang bị chức năng này. Hiện tại chức năng này cũng được sử dụng nhiều cho phần mềm thư điện tử. Spell checker sẽ đưa ra cảnh báo khi phát hiện thấy lỗi chính tả (spell miss), user có thể chỉnh sửa lại cho đúng chính tả hoặc bổ sung từ đó thêm vào từ điển để sử dụng.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thread&lt;/strong&gt; :Là tập hợp nhiều bài viết thuộc cùng một chủ đề như bảng thông tin điện tử, news group, mailing list,… Do tập hợp nhiều bài viết trong cùng một thread nên user có thể dễ dàng lựa chọn chủ đề mà mình quan tâm.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt; : Là hệ thống thông tin dùng để thực hiện các yêu cầu, giải quyết các vấn đề nghiệp vụ. Các nhà cung cấp sẽ thiết kế hệ thống theo yêu cầu của khách hàng, tổng hợp các yếu tố cần thiết (hardware, software, đường truyền thông, nhân viên hỗ trợ,…) và cung cấp cho họ. Đây là từ mang nhiều ý nghĩa và thường được sử dụng với ý nghĩa về “sản phẩm được customize” hay “sản phẩm trọn gói bao gồm nhiều sản phẩm”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Multiple language&lt;/strong&gt; : Là một bước trong việc đáp ứng đa ngôn ngữ của software, được xây dựng để đáp ứng cho nhiều loại ngôn ngữ khác nhau. User có thể thay đổi và cài đặt lại ngôn ngữ cho phù hợp với ngôn ngữ của mình sử dụng.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Decode&lt;/strong&gt; : Phục hồi lại dữ liệu bị mã hóa, hiểu nôm na dịch ngược ngôn ngữ máy thành ngôn ngữ bật cao, dựa trên các quy tắc nhất định để đưa ra dữ liệu gốc. Phần mềm giải mã được gọi là decode. Decode cũng được dùng cho các trường hợp như là phục hồi lại dữ liệu đã bị nén, giải mã hóa. Việc thực hiện mã hóa dữ liệu dựa trên các quy định bắt buộc được gọi là encode.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Database&lt;/strong&gt; : Là tập hợp các dữ liệu được chia sẻ bởi các user hay bởi các application. Ngoài ra, cũng có trường hợp data base bao gồm cả hệ thống quản lí.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Domain&lt;/strong&gt; : Là phần mở rộng hay còn biết đến với cách gọi là &lt;code class=&quot;highlighter-rouge&quot;&gt;tên miền&lt;/code&gt; nhằm thay thế cho Internet Protocol (IP) là những con số dấu chấm vô nghĩa với người dùng, nhầm để người dụng dễ nhớ dễ thao tác truy cập. Ví dụ như: &lt;code class=&quot;highlighter-rouge&quot;&gt;https://congnghevacuocsong.tk&lt;/code&gt; tên miền sẽ là ( congnghevacuocsong.tk ).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Normalize&lt;/strong&gt; : Thay đổi dữ liệu theo quy định nhất định để làm cho nó sử dụng dễ dàng hơn. Đây là từ được sử dụng ở nhiều lĩnh vực, tùy từng lĩnh vực mà ý nghĩa của từ này lại khác đi.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Script&lt;/strong&gt; : Là chương trình đơn giản dùng để thu gọn các thao tác chuyển đổi sang ngôn máy tính sao cho dễ dàng thực hiện. Thông thường, dựa trên source code do các lập trình viên viết các chương trình sẽ được chuyển đổi sang ngôn ngữ máy tính sao cho máy tính có thể hiểu và thực hiện được. Người ta gọi chương trình làm cho quá trình trên được tự động hóa và thực hiện một cách dễ dàng là Script. Trong ngôn ngữ dùng để mô tả scrip (ngôn ngữ scrip) có Perl, VBScript, JavaScript,…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bytes&lt;/strong&gt; : Là đơn vị đo lượng thông tin. 1 bytes = 8 bit. Việc lưu trữ, xử lí thông tin, truyền tải của máy tính thường được tính bằng bytes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hypertext&lt;/strong&gt; : Là một hệ thống văn bản sử dụng máy tính. Là cơ cấu có thể liên kết nhiều văn bản với nhau, chèn thông tin vị trí (hyperlink) của một văn bản vào một văn bản tùy chọn.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bug&lt;/strong&gt; : Là lỗi ở trong chương trình máy tính. Các chương trình trong máy tính là do con người tạo nên nên việc tạo ra một chương trình hoàn toàn không có lỗi là điều không thể. Do vậy, thao tác loại bỏ bug là một thao tác quan trong không thể thiếu trong quá trình phát triển phần mềm (thao tác này được gọi là “debug”). Thông thường người ta sử dụng phần mềm Debugger để hỗ trợ phát hiện ra và xử lí bug. Các nhân viên phát triển phần mềm khi phát hiện ra bug sẽ xử lí bug.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Optical disk&lt;/strong&gt; : Là phương tiện lưu trữ sử dụng chùm laser để đọc và ghi dữ liệu. Các ví dụ tiêu biểu cho Optical disk là CD, DVD, PD,…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Firewall ( Tường lửa )&lt;/strong&gt; : Là hệ thống phòng tránh sự xâm nhập từ bên ngoài vào bên trong mạng lưới computer network của tổ chức. Ngoài ra, nó cũng được hiểu là máy tính có chứa các hệ thống như này.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Flash&lt;/strong&gt; : Là phần mềm do công ty Macromedia (nay là công ty Adobe) phát triển. Đây là phần mềm kết hợp âm thanh, animation của đồ họa vector để tạo nên Web content. Ngoài ra cũng có nhiều content được tạo ra bởi flash.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Proxy&lt;/strong&gt; : Là máy tính có thể kết nối trực tiếp với mạng internet, giúp cho các máy tính trong mạng nội bộ có thể kết nối với internet, máy này được gọi là Proxy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Memory&lt;/strong&gt; : Là thiết bị lưu trữ dữ liệu gọi ngắn gọn là bộ nhớ, chương trình ở trong máy tính.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Usability&lt;/strong&gt; : Là tính năng “dễ sử dụng” của phần mềm hay của website. Có thể dễ dàng truy cập vào nhiều chức năng, không cảm thấy phiền toái hay khó chịu khi sử dụng chính là mục tiêu tối ưu của usability.&lt;/p&gt;
+
+&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;other&quot;, &quot;news&quot;]" /><summary type="html">Từ chuyên ngành luôn là hành trang cần thiết đối với một comtor</summary></entry><entry><title type="html">Tìm hiểu về distro linux</title><link href="http://localhost:4000/tim-hieu-ve-distro-linux" rel="alternate" type="text/html" title="Tìm hiểu về distro linux" /><published>2020-04-25T00:00:00+07:00</published><updated>2020-04-25T00:00:00+07:00</updated><id>http://localhost:4000/tim-hieu-ve-distro-linux</id><content type="html" xml:base="http://localhost:4000/tim-hieu-ve-distro-linux">&lt;p&gt;&lt;strong&gt;Distro Linux là gì?. Nên dùng Distro Linux nào, chúng có gì khác nhau ?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Bạn mới tìm hiểu về Linux và chưa biết Distro Linux là gì, các bản distro linux có gì giống và khác nhau. Hãy xem bài viết dưới đây của HostingViet.&lt;/p&gt;
 
@@ -668,82 +803,4 @@ Tiền vẫn nằm đó, nó cho phép bản thân có được cuộc sống kh
 &lt;p&gt;Con người là động vật nhóm, giá trị của bản thân là trung bình cộng từ những người bạn thân chơi với chính bản thân và đem đi chia cho tổng số người đó. Muốn tăng giá trị bản thân hay giao lưu với những người có tư tưởng tích cực, giỏi giang và thành đạt.&lt;/p&gt;
 
 &lt;h3 id=&quot;8-đừng-quên-gia-đình&quot;&gt;8) Đừng quên gia đình.&lt;/h3&gt;
-&lt;p&gt;Hãy nhớ dành thời gian cho gia đình. Chúng là nguồn động lực khi bạn còn trẻ, cố gắn phấn đấu kiếm tiền cho ba mẹ đỡ vất vả, hãy về ăn cơm với gia đình khi cảm thấy bế tắc.&lt;/p&gt;</content><author><name>Trần Đức Lĩnh</name></author><category term="[&quot;new&quot;, &quot;other&quot;]" /><summary type="html">Những ngày cuối cùng của năm **2019**, những gì bản thân đang và đã làm trong một năm qua.</summary></entry><entry><title type="html">Khái niệm màu sắc trong thiết kế (phần 2)</title><link href="http://localhost:4000/khai-niem-mau-sac-trong-thiet-ke-p2" rel="alternate" type="text/html" title="Khái niệm màu sắc trong thiết kế (phần 2)" /><published>2020-04-15T00:00:00+07:00</published><updated>2020-04-15T00:00:00+07:00</updated><id>http://localhost:4000/khai-niem-mau-sac-trong-thiet-ke-p2</id><content type="html" xml:base="http://localhost:4000/khai-niem-mau-sac-trong-thiet-ke-p2">&lt;p&gt;Chào các bạn, mình sẽ tiếp tục với series của &lt;a href=&quot;https://congnghevacuocsong.tk/khai-niem-mau-sac-trong-thiet-ke-p1&quot;&gt;khái niệm màu sắc trong thiết kế&lt;/a&gt; phần 2.&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/2020415KNMS.png&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;h3 style=&quot;font-weight: bold;&quot;&gt;Tìm hiểu các hệ màu trong thiết kế&lt;/h3&gt;
-&lt;h1 style=&quot;text-align: center;&quot;&gt;RGB&lt;/h1&gt;
-
-&lt;p&gt;RGB - viết tắt (&lt;label style=&quot;color: red;&quot;&gt;Red&lt;/label&gt;, &lt;label style=&quot;color: green;&quot;&gt;Green&lt;/label&gt;, &lt;label style=&quot;color: blue;&quot;&gt;Blue&lt;/label&gt;) được biết đến 3 màu gốc trong mô hình màu ánh sáng bổ sung, là một hệ thống màu cộng. Nếu kết hợp 3 màu này với nhau sẽ ra màu trắng &lt;canvas width=&quot;10&quot; height=&quot;10&quot; style=&quot;background: #fff; border: 1px solid #000;&quot;&gt;&lt;/canvas&gt; #FFFF.&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; width=&quot;320&quot; height=&quot;320&quot; src=&quot;/image/2020415RGB.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;
-(Mã hex bao gồm: &lt;canvas width=&quot;12&quot; height=&quot;12&quot; style=&quot;background: #FF0000;&quot;&gt;&lt;/canvas&gt;-#FF0000, &lt;canvas width=&quot;12&quot; height=&quot;12&quot; style=&quot;background: #00FF00;&quot;&gt;&lt;/canvas&gt;-#00FF00, &lt;canvas width=&quot;12&quot; height=&quot;12&quot; style=&quot;background: #0000FF;&quot;&gt;&lt;/canvas&gt;-#0000FF).&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;h1 style=&quot;text-align: center;&quot;&gt;RGBA&lt;/h1&gt;
-
-&lt;p&gt;RGB - viết tắt (&lt;label style=&quot;color: red;&quot;&gt;Red&lt;/label&gt;, &lt;label style=&quot;color: green;&quot;&gt;Green&lt;/label&gt;, &lt;label style=&quot;color: blue;&quot;&gt;Blue&lt;/label&gt;, &lt;label style=&quot;background-color: rgba(0, 0, 0, 0.2);&quot;&gt;Alpha&lt;/label&gt;), phần mở rộng của giá trị màu (&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;RGB&lt;/code&gt;&lt;/strong&gt; với phần bổ sung là &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;opacity&lt;/code&gt;&lt;/strong&gt; được quy định độ trong suốt của màu sắc. &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Alpha&lt;/code&gt;&lt;/strong&gt; có giá trị từ 0.0 - 1.0)&lt;/p&gt;
-
-&lt;article&gt;
-	&lt;style type=&quot;text/css&quot;&gt;
-		.rgba-color {
-			width: 250px;
-			height: 250px;
-			animation: rgbacolor 5s infinite;
-		}
-		@keyframes rgbacolor {
-			0%   {background: rgba(120, 0, 0, 1.0);}
-			25%  {background: rgba(120, 0, 0, 0.8);}
-			50%  {background: rgba(120, 0, 0, 0.6);}
-			75%  {background: rgba(120, 0, 0, 0.4);}
-			100% {background: rgba(120, 0, 0, 0.2);}
-		}
-	&lt;/style&gt;
-	&lt;center&gt;&lt;canvas class=&quot;rgba-color img-thumbnail&quot;&gt;&lt;/canvas&gt;&lt;/center&gt;
-&lt;/article&gt;
-&lt;hr /&gt;
-
-&lt;h1 style=&quot;text-align: center;&quot;&gt;CMYK (in ấn)&lt;/h1&gt;
-
-&lt;p&gt;CMYK - viết tắt (&lt;label style=&quot;color: #00ffff;&quot;&gt;Cyan&lt;/label&gt;, &lt;label style=&quot;color: #FF00FF;&quot;&gt;Megenta&lt;/label&gt;, &lt;label style=&quot;color: #FFFF00;&quot;&gt;Yellow&lt;/label&gt;, &lt;label style=&quot;color: #000;&quot;&gt;Key&lt;/label&gt;), một hệ thống màu trừ, ngược với RGB. Hệ thống làm việc trên hệ màu này dựa trên cơ sở hấp thụ ánh sáng. Nếu kết hợp 3 màu này với nhau sẽ ra màu đen (&lt;canvas width=&quot;12&quot; height=&quot;12&quot; style=&quot;background-color: #000;&quot;&gt;&lt;/canvas&gt; #000000).&lt;/p&gt;
-
-&lt;center&gt;&lt;img width=&quot;250&quot; height=&quot;250&quot; class=&quot;img-thumbnail&quot; src=&quot;/image/CMYK.png&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;(Mã hex bao gồm: &lt;canvas width=&quot;12&quot; height=&quot;12&quot; style=&quot;background-color: #00FFFF;&quot;&gt;&lt;/canvas&gt;-#00FFFF, &lt;canvas width=&quot;12&quot; height=&quot;12&quot; style=&quot;background-color: #FF00FF;&quot;&gt;&lt;/canvas&gt;-#FF00FF, &lt;canvas width=&quot;12&quot; height=&quot;12&quot; style=&quot;background-color: #FFFF00;&quot;&gt;&lt;/canvas&gt;-#FFFF00).&lt;/p&gt;
-
-&lt;p&gt;Màu đen (&lt;canvas width=&quot;12&quot; height=&quot;12&quot; style=&quot;background-color: #000000;&quot;&gt;&lt;/canvas&gt; #000000) là màu không phản chiếu ánh sáng, trong khoa học, màu đen không phải là màu sắc&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;Cảm ơn các bạn đã xem qua hi vọng các bạn thích post này của mình và đừng quên like và share cho mình, để mình có động lực tổng hợp đăng những bài học hữu ích về công nghệ nhé !. Mình sẽ tiếp tục series này trong phần 3 của bài &lt;code class=&quot;highlighter-rouge&quot;&gt;Tìm hiểu các hệ màu trong thiết kế&lt;/code&gt;.&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;graphics&quot;, &quot;news&quot;, &quot;css&quot;]" /><summary type="html">Chào các bạn, mình sẽ tiếp tục với series của khái niệm màu sắc trong thiết kế phần 2.</summary></entry><entry><title type="html">Trong nghành IT, doanh nghiệp có trông giống một nhà từ thiện?</title><link href="http://localhost:4000/doanh-nghiep-hay-mot-nha-tu-thien" rel="alternate" type="text/html" title="Trong nghành IT, doanh nghiệp có trông giống một nhà từ thiện?" /><published>2020-04-14T00:00:00+07:00</published><updated>2020-04-14T00:00:00+07:00</updated><id>http://localhost:4000/doanh-nghiep-hay-mot-nha-tu-thien</id><content type="html" xml:base="http://localhost:4000/doanh-nghiep-hay-mot-nha-tu-thien">&lt;p&gt;Dạo 1 vòng trên các trang cộng đồng lập trình, có 1 bạn viết về chủ đề Doanh nghiệp không phải trường học hay nhà từ thiện khá hay nên mình xin trích một vài đoạn trên trang topitworks như sau:&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/img-title.jpg&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;li&gt;Kiến thức lập trình của tui hơi kém cũng tại trường không dạy thì đi ra trường làm cái gì???&lt;/li&gt;
-&lt;li&gt;Mà ông cứ lo xa, vào công ty chắc chắn họ sẽ đào tạo lại thôi.&lt;/li&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;Đúng như mọi người nói, việc công ty đào tạo lại là có thật, nhưng nhiều thứ diễn ra không như bạn mong muốn đâu.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;li&gt;Bạn có chắc sẽ đào tạo đúng cách, kiến thức phù hợp?&lt;/li&gt;
-&lt;li&gt;Những ràng buộc sau khi đào tạo.&lt;/li&gt;
-&lt;li&gt;Nhiều thứ phiền toái nếu thời hạn đào tạo quá ngắn mà kiến thức thì chưa đến đâu.&lt;/li&gt;
-&lt;p&gt;&lt;br /&gt;
-Loa đài thường loa tin nghành công nghệ thông tin đang thiếu trầm trọng, nhưng họ đang thiếu những người giỏi, những senior, người nhiều kinh nghiệm, họ không thiếu những bạn sinh viên mới ra trường, kiến thức chưa vững.&lt;/p&gt;
-
-&lt;p&gt;Công ty thường ưu tiên những bạn giỏi, thông minh hơn những bạn khác vì họ mất công đào tạo lại mất thời gian.
-Thường thì công ty sẽ chịu lỗ nặng vì họ sẽ cử một anh có kinh nghiệm đi kèm với một bạn sinh viên thiếu kinh nghiệm, năng suất lao động của anh ta bị giảm đi một nữa, nhưng công ty lại trả tiền cho anh ấy đầy đủ. Vậy họ đã lỗ vì đã đào tạo cho bạn sinh viên đó rồi. Chưa hết, những gì bạn được đào tạo sẽ không như ý bạn, công ty có thể thiếu người bên PHP nhưng bạn lại thích C#, có khi đưa đẩy bạn sang tester, bạn sẽ không có sự lựa chọn nào khác đâu.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sự ràng buộc và khuyến mãi được tặng kèm.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Không có chuyện họ đào tạo cho bạn, sau đó bạn sẽ bỏ đi tìm một nơi nào đó ngon hơn. Công ty bỏ công sức đào tạo bạn, họ phải tìm cách kiếm lời hoặc ít ra phải hoà vốn chứ.
-Sự thật mà nói mọi thứ đều phải có lời cã hai bên, không có cái gì miễn phí cã, khi bạn tạo ra năng xuất cho công ty, công ty mới có tiền để trả lương cho bạn, họ không phải một nhà từ thiện mà cho bạn tiền hoài được.&lt;/p&gt;
-
-&lt;p&gt;Trên một số group giao lưu chia sẻ kiến thức lập trình trên Facebook, một bạn có hỏi về chuyện đi thực tập 3 công ty nhưng sau một khoảng thời gian họ đều nói rằng công ty không thể đào tạo lâu dài, phiền đi chỗ khác. Bạn đó cho rằng việc công ty đào tạo quá ngắn nhưng kiến thức lại quá nhiều, công việc công ty thì không đếm hết được. Áp lực đè lên bạn ấy quá lớn. Vậy ai là người có lỗi?&lt;/p&gt;
-
-&lt;p&gt;Tự ngẫm lại nhé.&lt;/p&gt;
-
-&lt;p&gt;Tóm lại bạn nên chủ động tìm hiểu học hỏi một lĩnh vực nào đó, tự định hướng cho bản thân sớm nhất có thể, từ đó bản thân sẽ có giá trị và con đường phát triển cũng dễ dàng hơn rất nhiều.&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;news&quot;, &quot;other&quot;]" /><summary type="html">Dạo 1 vòng trên các trang cộng đồng lập trình, có 1 bạn viết về chủ đề Doanh nghiệp không phải</summary></entry></feed>
+&lt;p&gt;Hãy nhớ dành thời gian cho gia đình. Chúng là nguồn động lực khi bạn còn trẻ, cố gắn phấn đấu kiếm tiền cho ba mẹ đỡ vất vả, hãy về ăn cơm với gia đình khi cảm thấy bế tắc.&lt;/p&gt;</content><author><name>Trần Đức Lĩnh</name></author><category term="[&quot;new&quot;, &quot;other&quot;]" /><summary type="html">Những ngày cuối cùng của năm **2019**, những gì bản thân đang và đã làm trong một năm qua.</summary></entry></feed>
