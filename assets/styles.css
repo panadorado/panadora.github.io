@@ -224,6 +224,7 @@ h1 a:hover {
   .single-blog .plugin-facebook {
     float: none;
   }
+
 }
 
 .page-pagination {
@@ -266,5 +267,15 @@ h1 a:hover {
   border-radius: 10px;
   padding: 10px;
   margin-top: 30px;
-  background: #fff; 
+  background: #fff;
+}
+
+.post-content {
+  display: flex;
+}
+
+@media screen and (max-width: 575px) {
+  #btn-search {
+    width: 100%;
+  }
 }

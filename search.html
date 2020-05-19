@@ -8,7 +8,10 @@ layout: search
   window.store = {
     {% for post in site.posts %}
       "{{ post.url | slugify }}": {
+        "site": "{{ site.url | xml_escape }}",
+        "date": "{{ post.date | date: "%d-%m-%Y" }}",
         "title": "{{ post.title | xml_escape }}",
+        "thumbnail": "{{ post.thumbnail }}",
         "author": "{{ post.author | xml_escape }}",
         "category": "{{ post.category | xml_escape }}",
         "content": {{ post.content | strip_html | strip_newlines | jsonify }},
