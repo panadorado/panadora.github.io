@@ -9,16 +9,11 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-<<<<<<< HEAD
         appendString += '<div class="single-search">'
                     + '<small><p><i class="fas fa-book-reader"></i> Đăng bởi: ' + item.author + ' | <i class="fas fa-calendar-alt"></i> Ngày đăng: ' + item.date + ' | '
                     + '<i class="fb-like" data-href="' + item.site + '/' + item.url + '" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></i></p></small>'
                     + '<hr><p class="entry-title"><a href="' + item.url + '" style="font-size: 20px; font-weight: bold;">' + item.title + '</a></p>'
                     + item.content.substring(0, 150) + '...</p></div>';
-=======
-        appendString += '<div class="single-blog"><p class="entry-title"><a href="' + item.url + '" style="font-size: 20px; font-weight: bold;">' + item.title + '</a>';
-        appendString += '<p>' + item.content.substring(0, 150) + '...</p></p></div>';
->>>>>>> ecbc8cd5319b9e2086c58b57bb0513a9a1e5ff15
       }
 
       searchResults.innerHTML = appendString;
