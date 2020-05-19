@@ -1,3 +1,4 @@
+ 
 (function() {
   function displaySearchResults(results, store) {
     var searchResults = document.getElementById('search-results');
@@ -8,16 +9,21 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<div class="single-blog"><p class="entry-title"><a href="' + item.url + '" style="font-size: 20px; font-weight: bold;">' + item.title + '</a>';
-        appendString += '<p>' + item.content.substring(0, 150) + '...</p></p></div>';
+        appendString += '<div class="single-search">'
+                    + '<small><p><i class="fas fa-book-reader"></i> Đăng bởi: ' + item.author + ' | <i class="fas fa-calendar-alt"></i> Ngày đăng: ' + item.date + ' | '
+                    + '<i class="fb-like" data-href="' + item.site + '/' + item.url + '" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></i></p></small>'
+                    + '<hr><p class="entry-title"><a href="' + item.url + '" style="font-size: 20px; font-weight: bold;">' + item.title + '</a></p>'
+                    + item.content.substring(0, 150) + '...</p></div>';
       }
 
       searchResults.innerHTML = appendString;
     } 
     else 
     {
-      searchResults.innerHTML = '<center><p>Không tìm thấy kết quả tìm kiếm của bạn !</p></center>' + 
-                                '<center><img src="../image/404pagenotfound.jpeg" width="250"></center>';
+      searchResults.innerHTML = '<div class="container post bg-light container-border-radius py-3 px-4 my-lg-4 my-3 post-content" style="border-radius: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);">' +
+                                '<div class="col-lg-12 col-md-9 col-sm-12">' +
+                                '<center><p>Không tìm thấy kết quả tìm kiếm của bạn !</p></center>' + 
+                                '<center><img src="../image/404pagenotfound.jpeg" width="250"></center></div></div>';
     }
   }
 
@@ -56,7 +62,7 @@
         'title': window.store[key].title,
         'author': window.store[key].author,
         'category': window.store[key].category,
-        'content': window.store[key].content
+        'content': window.store[key].content,
       });
 
       var results = idx.search(searchTerm); // Get lunr to perform a search
