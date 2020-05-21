@@ -8,7 +8,7 @@ category: [other, news]
 permalink: /mot-so-thuat-ngu-chuyen-nganh-cntt
 ---
 
-![here-image-title]({{baseurl}}/image/202053-title-image-tn.jpg){:width="100%"}
+![image-title-here]({{baseurl}}/image/202053-title-image-tn.jpg){:width="100%"}
 
 Từ chuyên ngành luôn là hành trang cần thiết đối với một comtor, nhất là đối với một comtor chưa có kinh nghiệm trong lĩnh vực CNTT thì việc hiểu ý nghĩa của từ chuyên ngành cũng là một điều không thể thiếu. Chính vì vậy, trong bài viết này mình xin giới thiệu về khái niệm của một số từ chuyên ngành trong lĩnh vực CNTT này.
 

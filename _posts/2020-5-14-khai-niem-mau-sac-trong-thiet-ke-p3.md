@@ -12,7 +12,7 @@ permalink: /khai-niem-mau-sac-trong-thiet-ke-p3
 Chào các bạn, mình sẽ tiếp tục với series của Khái niệm màu sắc trong thiết kế (phần 3)<br>
 
 {:refdef: style="align-items: center;"}
-![title-image]({{site.url}}/image/2020514ColorP3.jpg)
+![image-title-here]({{site.url}}/image/2020514ColorP3.jpg){:width="100%"}
 {:refdef:}
 
 <br>

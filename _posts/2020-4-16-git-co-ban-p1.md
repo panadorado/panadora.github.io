@@ -1,7 +1,7 @@
 ---
 thumbnail: GIT.jpg
 layout: post
-title:  "Các lệnh GIT cơ bản (P1)"
+title:  Các lệnh GIT cơ bản (P1)
 excerpt: Khi đã là một lập trình viên thì GIT là một công cụ không thể thiếu, nếu bạn không biết GIT là gì?
 author: Trần Đức Lĩnh
 permalink: /git-co-ban-p1
@@ -12,7 +12,7 @@ Khi đã là một lập trình viên thì **GIT** là một công cụ không t
 
 `GIT` là một hệ thông quản lý phiên bản phân tán `(VCS - distributed Version Control System)`, là một công cụ lập trình hỗ trợ quản lý code, ghi lại lịch sử thay đổi cũng như phân nhánh (branch), chia nhiệm vụ, và tổng hợp code một cách dễ dàng hơn.
 
-![image-title-here]({{baseurl}}/image/GIT.jpg){:width="100%"}
+<center><img class="img-thumbnail" src="{{baseurl}}/image/GIT.jpg"></center>
 
 ### <kbd>GIT</kbd>
 **Sau đây là những lệnh `GIT` cơ bản.**
