@@ -1,4 +1,3 @@
- 
 (function() {
   function displaySearchResults(results, store) {
     var searchResults = document.getElementById('search-results');
@@ -9,11 +8,25 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<div class="single-search">'
-                    + '<small><p><i class="fas fa-book-reader"></i> Đăng bởi: ' + item.author + ' | <i class="fas fa-calendar-alt"></i> Ngày đăng: ' + item.date + ' | '
-                    + '<i class="fb-like" data-href="' + item.site + '/' + item.url + '" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></i></p></small>'
-                    + '<hr><p class="entry-title"><a href="' + item.url + '" style="font-size: 20px; font-weight: bold;">' + item.title + '</a></p>'
-                    + item.content.substring(0, 150) + '...</p></div>';
+        appendString += 
+        '<div class="col-md-4">' + 
+          '<div class="single-blog">' + 
+            '<br>' +
+            '<small>' +
+              '<span class="top-left"><i class="fas fa-book-reader"> Đăng bởi: '+ item.author +'</i></span>' +
+              '<span class="top-right"><i class="fas fa-calendar-alt"> Ngày đăng: '+ item.date +'</i></span>' +
+            '</small><br>' +
+            '<a href="' + item.url + '">' +
+              '<img id="img-thumbnail" class="img-thumbnail img-hover" src="' + item.site + '/image/' + item.thumbnail + '" style="height: 180px;" title="' + item.url + '">' +
+            '</a><br>' +
+            '<a class="entry-title" href="' + item.url + '" title="' + item.url + '">' + item.title + '</a><br>' +
+            '<p>' + item.content.substring(0, 60) + ' ...</p>' +
+            '<a href="' + item.url + '" class="read-more-btn">Đọc thêm</a>' +
+            '<div class="plugin-facebook">' +
+              '<i class="fb-like" data-href="' + item.site + '/' + item.url + '" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></i>' +
+            '</div><br><br>' +
+          '</div>' +
+        '</div>';
       }
 
       searchResults.innerHTML = appendString;
