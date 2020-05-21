@@ -4,28 +4,24 @@ layout: default
 {% for post in paginator.posts %}
 	<div class="col-md-4">
 		<div class="single-blog">
-			<p class="blog-meta">
-				<i class="fas fa-book-reader"> Đăng bởi: {{ post.author }}</i>
-				<span class="post-date">
-					<i class="fas fa-calendar-alt"> Thời gian: {{ post.date | date: "%d-%m-%Y" }}</i>
-				</span>
-			</p>
-
+			<br>
+			<small>
+				<span class="top-left"><i class="fas fa-book-reader"> Đăng bởi: {{ post.author }}</i></span>
+				<span class="top-right"><i class="fas fa-calendar-alt"> Ngày đăng: {{ post.date | date: "%d-%m-%Y" }}</i></span>
+			</small><br>
 			<a href="{{ post.url }}">
 				<img id="img-thumbnail" class="img-thumbnail img-hover" src="{{ site.baseurl }}/image/{{ post.thumbnail }}" style="height: 180px;" title="{{ post.title }}">
 			</a>
+			<br>
+			<a class="entry-title" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+			<br>
+			<p class="content-SubString">{{ post.excerpt }}</p>
 
-			<p class="entry-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
+			<a href="{{ post.url }}" class="read-more-btn">Đọc thêm</a>
 
-			<p class="blog-text text-content">{{ post.excerpt }}</p>
-
-			<p>
-				<a href="{{ post.url }}" class="read-more-btn">Đọc thêm</a>
-
-				<span class="plugin-facebook">
-					<i class="fb-like" data-href="{{site.url}}/{{post.url}}" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></i>
-				</span>
-			</p>		
+			<div class="plugin-facebook">
+				<i class="fb-like" data-href="{{site.url}}/{{post.url}}" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></i>
+			</div><br><br>
 		</div>
 	</div>
 {% endfor %}
