@@ -17,7 +17,7 @@ layout: default
 			<br>
 			<p class="content-SubString">{{ post.excerpt }}</p>
 
-			<a href="{{ post.url }}" class="read-more-btn">Đọc thêm</a>
+			<a href='{{ post.url }}' class="read-more-btn">Đọc thêm</a>
 
 			<div class="plugin-facebook">
 				<i class="fb-like" data-href="{{site.url}}/{{post.url}}" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></i>
@@ -25,4 +25,3 @@ layout: default
 		</div>
 	</div>
 {% endfor %}
-{% include paginator.html %}

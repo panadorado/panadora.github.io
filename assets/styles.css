@@ -177,26 +177,20 @@ h1 a:hover {
 }
 
 .read-more-btn {
-  transition: all 1s background-image, 1s color;
-  -webkit-transition: 1s background-image, 1s color;
-  -moz-transition: 1s background-image, 1s color;
-  background-image: linear-gradient(to right, #00a8c5, #ffff7e);
-  padding: 5px 12px 8px;
+  background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
+  padding: 4px 12px 6px;
   border-radius: 5px;
-  line-height: 20px;
+  line-height: 12px;
   font-size: 14px;
   font-weight: bold;
-  color: #242424;
+  color: #fff;
   border: none!important;
 }
 
 .read-more-btn:hover {
   text-decoration: none;
-  transition: all 1s background-image, 1s color;
-  -webkit-transition: 1s background-image, 1s color;
-  -moz-transition: 1s background-image, 1s color;
-  background-image: linear-gradient(to left, #00ffa1, #00ffff);
-  color: red;
+  background-image: linear-gradient(to right, #77A1D3 100%, #79CBCA 51%, #77A1D3 0%);
+  color: rgb(255, 57, 57);
 }
 
 .footer {
@@ -242,19 +236,25 @@ h1 a:hover {
 
 }
 
-.page-pagination {
-  border-radius: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+#fontStyle {
+  font-family:"Montserrat","Helvetica Neue",Arial,sans-serif !important;
 }
 
-.btn-count-page {
-  margin-top: 20px;
-  background: transparent;
-  font-size: 20px;
+ul .page-item .page-link {
+  color: rgb(207, 45, 45);
+  background: #dddd;
+  font-weight: bold;
+  font-style: normal;
+  transition: .5s;
 }
 
-.btn-count-page li {
-  margin: 5px;
+ul .page-item .afterSelect {
+  background-image: linear-gradient(to right, #D66D75 0%, #E29587 51%, #D66D75 100%);
+}
+
+ul .page-item .page-link:hover{
+  background-image: linear-gradient(to right, #D66D75 0%, #E29587 51%, #D66D75 100%);
+  color: #000;
 }
 
 .img-hover {
