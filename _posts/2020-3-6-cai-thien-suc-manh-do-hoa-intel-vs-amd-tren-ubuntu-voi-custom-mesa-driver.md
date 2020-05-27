@@ -23,15 +23,22 @@ Chú ý rằng bài này sẽ không đề cập tới graphics Nvidia và chú 
 Trong bộ cài Ubuntu chứa Mesa - driver đồ họa mã nguồn mở cho linux - bản gốc tương thích với mọi phần cứng, nhưng chỉ đáp ứng đồ họa mức 2D ở mức Full HD là cùng, trở lên thì sẽ rất lag và có performance 3D vô cùng tệ. Như mình, vào các game đồ họa 3D trên Steam, hầu hết đều crash khi load game (Intel), nhiều người dùng khác cũng phản ánh điều này.
 Mình cũng tìm hiểu trên Google và ai cũng trả lời chung câu trả lời, theo Softpedia thì họ chốt 1 câu:
 
-<p style="font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd">
-	Ubuntu gamers with older AMD Radeon or Intel graphics cards know by now that they have to install a third-party PPA (Personal Package Archive) that contains the latest open-source graphics drivers to enjoy a much better gaming experience.
-</p>
+```console
+
+    Ubuntu gamers with older AMD Radeon or Intel graphics cards know by now that they have to install a third-party
+    PPA (Personal Package Archive) that contains the latest open-source graphics drivers to enjoy a much better gaming
+    experience.
+
+```
 
 Dịch sang tiếng việt:
 
-<p style="font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd">
-	Game thủ Ubuntu với card đồ họa AMD Radeon cũ hay Intel graphics đều biết rằng họ phải cài PPA bên thứ ba (Kho package cá nhân) chứa Mesa bản mới nhất để trải nghiệm gaming tốt hơn.
-</p>
+```console
+
+    Game thủ Ubuntu với card đồ họa AMD Radeon cũ hay Intel graphics đều biết rằng họ phải cài PPA bên thứ ba (Kho
+    package cá nhân) chứa Mesa bản mới nhất để trải nghiệm gaming tốt hơn.
+
+```
 
 Và chỉ có 2 PPA chứa bản Mesa mới nhất và đã tối ưu hóa rất đáng kể cho 3D do tác giả có nickname Oibaf - tên viết ngược từ tên thật của tác giả (Fabio Pedretti) và Padoka (Paulo Miguel Dias).
 Giới thiệu đủ rồi, đào thôi!
