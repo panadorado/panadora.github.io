@@ -5,7 +5,7 @@ title: Hướng dẫn tạo server minecraft ( Phần 1 )
 excerpt: Minecraft là một tựa game độc lập trong một thế giới mở.
 author: Panadora
 category: [games, news]
-permalink: /huong-dan-tao-server-minecraft-p1
+permalink: /huong-dan-tao-server-minecraft-p1.html
 ---
 
 **[Minecraft](https://vi.wikipedia.org/wiki/Minecraft) là một tựa game độc lập trong một thế giới mở. Ban đầu nó được tạo ra bởi lập trình viên người Thụy Điển [Markus "Notch" Persson](https://vi.wikipedia.org/wiki/Markus_%22Notch%22_Persson) và sau đó được phát triển và phát hành bởi [Mojang](https://vi.wikipedia.org/wiki/Mojang). Tựa game có đồ họa không mấy hấp dẫn những thu hút đông đảo số người chơi đặt biệt là thanh thiếu niên và trẻ em, vì lối chơi của tựa game này mạng lại tính sáng tạo và đầy thú vị với những khối block hình vuông với động, thực vật có hình thù vui nhộm. ``Minecraft``cho phép người chơi xây dựng các công trình bằng cách xây các khối kết cấu hình vuông trong một thế giới 3D.**
@@ -116,6 +116,6 @@ Hoặc bạn có thể tải file.bat [tại đây](https://www.mediafire.com/fi
 
 Như vậy các bạn hoàn thành cách tạo server minecraft, tuy nhiên để có thể chơi **`online`** cùng bạn bè thì bạn cần phải mở **`port`** của server để bạn bè có thể tham gia cùng bạn. 
 
-Mời các bạn liên kết đến [Hướng dẫn tạo server minecraft ( Phần 2 )]({{baseurl}}/huong-dan-tao-server-minecraft-p2.html)
+Mời các bạn liên kết đến [Hướng dẫn tạo server minecraft ( Phần 2 )](/huong-dan-tao-server-minecraft-p2.html)
 
 <hr>

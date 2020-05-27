@@ -6,7 +6,7 @@ excerpt: Chào các bạn, mình sẽ tiếp tục với series của khái ni�
 author: Panadora
 category: [graphics, news, css]
 tag: [color, graphics, màu sắc, khái niệm màu sắc] 
-permalink: /khai-niem-mau-sac-trong-thiet-ke-p3
+permalink: /khai-niem-mau-sac-trong-thiet-ke-p3.html
 ---
 
 Chào các bạn, mình sẽ tiếp tục với series của Khái niệm màu sắc trong thiết kế (phần 3)<br>

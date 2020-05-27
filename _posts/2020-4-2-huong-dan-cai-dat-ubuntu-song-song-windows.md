@@ -5,7 +5,7 @@ title: Hướng dẫn cài đặt ubuntu song song với windows
 excerpt: Bạn là một người dùng hệ điều hành Windows và muốn chuyển sang dùng Ubuntu
 author: Panadora
 category: [windows, unixlinux]
-permalink: /huong-dan-cai-dat-ubuntu-song-song-windows
+permalink: /huong-dan-cai-dat-ubuntu-song-song-windows.html
 ---
 
 <center><img class="img-thumbnail" src="{{site.baseurl}}/image/202042ubuntu-windows.png"></center><br>

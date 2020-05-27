@@ -5,7 +5,7 @@ title: Junior là gì? Senior là gì?
 excerpt: Junior, Senior là các thuật ngữ dùng để  phân chia trình độ giữa những người làm trong một công ty, trong một ngành hay trong một lĩnh vực nào đó.
 author: Pandora
 category: [other, news]
-permalink: /junior-la-gi-senior-la-gi
+permalink: /junior-la-gi-senior-la-gi.html
 ---
 
 <center><img class="img-thumbnail" src="{{baseurl}}/image/2020422JvsS.jpg" width="600"></center><br>

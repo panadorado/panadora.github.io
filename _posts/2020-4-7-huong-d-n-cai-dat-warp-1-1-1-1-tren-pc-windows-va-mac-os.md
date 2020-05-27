@@ -5,7 +5,7 @@ title: "Hướng dẫn cài đặt WARP 1.1.1.1 trên PC, Windows và MAC OS"
 excerpt: "Hiện tại, phần lớn người dùng PC thường sử dụng Warp+ VPN bằng phần mềm WireGuard, tuy nhiên giao diện không thân thiện, thao tác thiết lập cũng khá phức tạp"
 author: "Panadora"
 category: [windows, news]
-permalink: /huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os
+permalink: /huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html
 ---
 
 <center><img class="img-thumbnail" src="https://tamnhin.net.vn/stores/news_dataimages/ctv3/042018/02/11/2448_dns_tang_toc_internet_anh_dong_1.gif"></center><br>

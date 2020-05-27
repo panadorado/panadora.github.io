@@ -5,7 +5,7 @@ title: "Top các câu lệnh nguy hiểm trên linux ban cần chú ý khi sử 
 excerpt: "Như bạn đã biết, các câu lệnh trong Terminal thực sự rất hữu dụng và giúp cho người sử dụng có thể thao tác cực nhanh mà không cần phải qua GUI rườm rà."
 author: Panadora
 category: [unixlinux, terminal]
-permalink: "/top-cac-cau-lenh-nguy-hiem-tren-linux-ban-can-chu-y-khi-su-dung"
+permalink: "/top-cac-cau-lenh-nguy-hiem-tren-linux-ban-can-chu-y-khi-su-dung.html"
 ---
 
 <center><img class="img-thumbnail" width="550" src="{{site.url}}/image/2020525-Caution-Command-Terminal.png"></center><br>

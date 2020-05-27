@@ -5,7 +5,7 @@ layout: post
 excerpt: Hồi trước thì vẫn ổn, bây giờ lại nói bất hợp pháp là sao?...
 author: Panadora
 category: [games, news]
-permalink: /tua-game-anh-em-yeu-thich-mua-dich-coronavirus-plague-inc-bi-trung-quoc-to-la-bat-hop-phap
+permalink: /tua-game-anh-em-yeu-thich-mua-dich-coronavirus-plague-inc-bi-trung-quoc-to-la-bat-hop-phap.html
 ---
 
 ### Hồi trước thì vẫn ổn, bây giờ lại nói bất hợp pháp là sao?...
