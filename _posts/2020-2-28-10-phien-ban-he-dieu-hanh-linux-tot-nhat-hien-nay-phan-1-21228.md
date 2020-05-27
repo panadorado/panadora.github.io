@@ -5,7 +5,7 @@ layout: post
 excerpt: Windows, OS X đang là 2 trong số những hệ điều hành được sử dụng phổ biến nhất trên những hệ máy tính xách tay và máy tính bàn. Những tính năng, khả năng hoạt động mạnh mẽ và độ tương thích của nó là không thể bàn cãi, tuy nhiên không vì thế mà bạn lại không quan tâm, hay chú ý đến một hệ điều hành khác, một hệ điều hành được ra đời từ khá lâu, và cũng nổi tiếng không hề thua kém 2 hệ điều hành trên, đó là Linux. Linux được biết đến như là một trong những hệ điều hành cơ bản, với khả năng hoạt động hết sức tối ưu với phần cứng, giúp người dùng không phải bận tâm đến sức mạnh phần cứng của chiếc máy mình đang dùng.
 author: Panadora
 category: unixlinux
-permalink: /phien-ban-he-dieu-hanh-linux-tot-nhat-hien-nay-phan-1-21228
+permalink: /phien-ban-he-dieu-hanh-linux-tot-nhat-hien-nay-phan-1-21228.html
 ---
 
 ### Windows, OS X đang là 2 trong số những hệ điều hành được sử dụng phổ biến nhất trên những hệ máy tính xách tay và máy tính bàn. Những tính năng, khả năng hoạt động mạnh mẽ và độ tương thích của nó là không thể bàn cãi, tuy nhiên không vì thế mà bạn lại không quan tâm, hay chú ý đến một hệ điều hành khác, một hệ điều hành được ra đời từ khá lâu, và cũng nổi tiếng không hề thua kém 2 hệ điều hành trên, đó là Linux. Linux được biết đến như là một trong những hệ điều hành cơ bản, với khả năng hoạt động hết sức tối ưu với phần cứng, giúp người dùng không phải bận tâm đến sức mạnh phần cứng của chiếc máy mình đang dùng.

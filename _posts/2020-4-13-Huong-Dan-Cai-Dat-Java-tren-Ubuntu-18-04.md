@@ -5,7 +5,7 @@ title: Hướng Dẫn Cài Đặt Java trên Ubuntu 18.04
 excerpt: Trong bài viết này bạn sẽ được hướng dẫn cách cài đặt Java Runtime Environment (JRE) và Java Development Kit (JDK) trên Ubuntu phiên bản 18.04 sử dụng chương trình quản lý package apt-get.
 author: Panadora
 category: [unixlinux, terminal]
-permalink: /Huong-Dan-Cai-Dat-Java-tren-Ubuntu-18-04 
+permalink: /Huong-Dan-Cai-Dat-Java-tren-Ubuntu-18-04.html
 ---
 
 <center><img class="img-thumbnail" src="https://vnreview.vn/image/14/91/03/1491033.jpg"></center><br>

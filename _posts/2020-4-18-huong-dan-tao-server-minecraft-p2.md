@@ -5,12 +5,12 @@ title: Hướng dẫn tạo server minecraft ( Phần 2 )
 excerpt: Tiếp tục với phần 2 của Hướng dẫn tạo server minecarft
 author: Panadora
 category: [games, news]
-permalink: /huong-dan-tao-server-minecraft-p2
+permalink: /huong-dan-tao-server-minecraft-p2.html
 ---
 
 ![title-image-here]({{baseurl}}/image/2020418NetherPotal.jpg){:width="100%"}
 
-*Tiếp tục với phần 2 của [Hướng dẫn tạo server minecarft](http://localhost:4000/huong-dan-tao-server-minecraft-p1)*
+*Tiếp tục với phần 2 của [Hướng dẫn tạo server minecarft](/huong-dan-tao-server-minecraft-p1.html)*
 
 <h3 style="font-weight: bold;">Mở Port/Server Minecraft</h3>
 

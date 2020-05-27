@@ -4,7 +4,7 @@ layout: post
 title: "Tư duy và suy nghĩ ở tuổi đôi mươi"
 excerpt: Những ngày cuối cùng của năm **2019**, những gì bản thân đang và đã làm trong một năm qua.
 author: Trần Đức Lĩnh
-permalink: /tu-duy-va-suy-nghi-o-tuoi-doi-muoi
+permalink: /tu-duy-va-suy-nghi-o-tuoi-doi-muoi.html
 category: [new, other]
 ---
 

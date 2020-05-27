@@ -4,7 +4,7 @@ layout: post
 title: Thành công và sự kiên trì
 excerpt: Hãy nắm vững những phương pháp làm việc hiệu quả so với việc bạn cứ cắm đầu vào và làm việc như một cái máy.
 author: Trần Đức Lĩnh
-permalink: /thanh-cong-va-su-kien-tri
+permalink: /thanh-cong-va-su-kien-tri.html
 category: [news, other]
 ---
 

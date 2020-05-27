@@ -5,7 +5,7 @@ layout: post
 excerpt: Từ chuyên ngành luôn là hành trang cần thiết đối với một comtor
 author: Panadora
 category: [other, news]
-permalink: /mot-so-thuat-ngu-chuyen-nganh-cntt
+permalink: /mot-so-thuat-ngu-chuyen-nganh-cntt.html
 ---
 
 ![image-title-here]({{baseurl}}/image/202053-title-image-tn.jpg){:width="100%"}

@@ -5,7 +5,7 @@ title: Trong nghành IT, doanh nghiệp có trông giống một nhà từ thi�
 excerpt:  Dạo 1 vòng trên các trang cộng đồng lập trình, có 1 bạn viết về chủ đề Doanh nghiệp không phải
 author: Panadora
 category: [news, other]
-permalink: /doanh-nghiep-hay-mot-nha-tu-thien
+permalink: /doanh-nghiep-hay-mot-nha-tu-thien.html
 ---
 
 Dạo 1 vòng trên các trang cộng đồng lập trình, có 1 bạn viết về chủ đề Doanh nghiệp không phải trường học hay nhà từ thiện khá hay nên mình xin trích một vài đoạn trên trang topitworks như sau:

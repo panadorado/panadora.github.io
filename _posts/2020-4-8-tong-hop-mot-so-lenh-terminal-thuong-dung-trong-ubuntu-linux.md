@@ -5,7 +5,7 @@ title: Tổng hợp một số lệnh terminal thường dùng trong Ubuntu/Linu
 excerpt: Ubuntu là một hệ điều hành máy tính dựa trên Debian GNU/Linux, một bản phân phối Linux thông dụng.
 author: Panadora
 category: [unixlinux, terminal]
-permalink: /tong-hop-mot-so-lenh-terminal-thuong-dung-trong-ubuntu-linux
+permalink: /tong-hop-mot-so-lenh-terminal-thuong-dung-trong-ubuntu-linux.html
 ---
 
 <center><img class="img-thumbnail" src="https://www.engisv.info/wp-content/uploads/2018/07/linux-terminal-1.jpg"></center><br>

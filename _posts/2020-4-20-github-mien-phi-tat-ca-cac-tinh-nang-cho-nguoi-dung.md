@@ -5,7 +5,7 @@ title: GitHub miễn phí tất cả các tính năng cho người dùng
 excerpt: GitHub là một dịch vụ cung cấp kho lưu trữ mã nguồn Git dựa trên nền web cho các dự án phát triển phần mềm.
 author: Panadora
 category: news
-permalink: /github-mien-phi-tat-ca-cac-tinh-nang-cho-nguoi-dung
+permalink: /github-mien-phi-tat-ca-cac-tinh-nang-cho-nguoi-dung.html
 ---
 
 ![title-image-here]({{baseurl}}/image/2020420Github.png){:width="100%"}

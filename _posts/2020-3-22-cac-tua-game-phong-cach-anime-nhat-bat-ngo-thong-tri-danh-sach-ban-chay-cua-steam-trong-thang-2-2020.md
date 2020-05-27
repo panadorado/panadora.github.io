@@ -5,7 +5,7 @@ layout: post
 excerpt: Game Nhật thì anh em… biết cả rồi đấy.
 author: Panadora
 category: [games, news]
-permalink: /cac-tua-game-phong-cach-anime-nhat-bat-ngo-thong-tri-danh-sach-ban-chay-cua-steam-trong-thang-2-2020
+permalink: /cac-tua-game-phong-cach-anime-nhat-bat-ngo-thong-tri-danh-sach-ban-chay-cua-steam-trong-thang-2-2020.html
 ---
 **Game Nhật thì anh em… biết cả rồi đấy.***
 

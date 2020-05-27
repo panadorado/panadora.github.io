@@ -5,7 +5,7 @@ layout: post
 excerpt: Bạn là một người dùng Ubuntu (hoặc bất kì một distro base trên Ubuntu ví dụ như Mint) trên một computer dùng đồ họa của Intel hay AMD (Nvidia thì vẫn có thể dùng nhưng không đảm bảo sử dụng) và đòi hỏi máy đáp ứng nhu cầu đồ họa mạnh như game hay blender, render video,... (mà Mesa đi kèm - stock - không thể đáp ứng).
 author: Panadora
 category: [unixlinux, terminal]
-permalink: /cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver
+permalink: /cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver.html
 ---
 
 ### Đối tượng cho bài viết

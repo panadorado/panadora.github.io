@@ -5,7 +5,7 @@ title: Khái niệm màu sắc trong thiết kế (phần 1)
 excerpt: Khái niệm về màu sắc và cách phối hợp các màu như thế nào cho đúng sẽ giúp chúng ta có được chủ thể hài hoà hơn trong thiết kế.
 author: Panadora
 category: [graphics, news, css]
-permalink: /khai-niem-mau-sac-trong-thiet-ke-p1
+permalink: /khai-niem-mau-sac-trong-thiet-ke-p1.html
 ---
 
 Khái niệm về màu sắc và cách phối hợp các màu như thế nào cho đúng sẽ giúp chúng ta có được chủ thể hài hoà hơn trong thiết kế.

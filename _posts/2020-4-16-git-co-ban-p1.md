@@ -4,7 +4,7 @@ layout: post
 title:  Các lệnh GIT cơ bản (P1)
 excerpt: Khi đã là một lập trình viên thì GIT là một công cụ không thể thiếu, nếu bạn không biết GIT là gì?
 author: Trần Đức Lĩnh
-permalink: /git-co-ban-p1
+permalink: /git-co-ban-p1.html
 category: [windows, unixlinux. terminal]
 ---
 

@@ -5,7 +5,7 @@ layout: post
 excerpt: Khi bạn là một lập trình viên web, ít nhất đôi lần bạn sẽ phải va chạm với css và js. Với 2 thứ bảo bối này kết hợp cho html, bạn sẽ thực sự ngạc nhiên nếu thấy những trang web độc đáo và cực kỳ bắt mắt mà chúng có thể tạo ra đấy. Chúng ta thử tìm hiểu một số hiệu ứng cool ngầu có thể áp dụng vào website nhé.
 author: Panadora
 category: [html, css, javascript]
-permalink: /mot-so-animation-effect-dep-mat-de-apply-cho-website-cua-ban
+permalink: /mot-so-animation-effect-dep-mat-de-apply-cho-website-cua-ban.html
 ---
 
 Khi bạn là một lập trình viên web, ít nhất đôi lần bạn sẽ phải va chạm với css và js. Với 2 thứ bảo bối này kết hợp cho html, bạn sẽ thực sự ngạc nhiên nếu thấy những trang web độc đáo và cực kỳ bắt mắt mà chúng có thể tạo ra đấy. Chúng ta thử tìm hiểu một số hiệu ứng cool ngầu có thể áp dụng vào website nhé.
