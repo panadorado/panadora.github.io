@@ -2,35 +2,30 @@
 	<nav aria-label="Page navigation example">
         <ul class="pagination justify-content-center">
 			{% if paginator.total_pages > 1 %}
-	        		{% if paginator.previous_page %}
+				<li class="page-item px-1">
+		            <a class="page-link" href="{{ paginator.previous_page_path }}">◄</a>
+	            </li>
+
+				{% for page in (1..paginator.total_pages) %}
+					{% if page == paginator.page %}
 						<li class="page-item px-1">
-			                <a class="page-link" href="{{ paginator.previous_page_path }}">&laquo;</a>
+			                <a class="page-link afterSelect">{{ page }}</a>
 			            </li>
-	        		{% else %}
-	        		{% endif %}
-
-	        		{% for page in (1..paginator.total_pages) %}
-	            		{% if page == paginator.page %}
-							<li class="page-item px-1">
-			                    <a class="page-link afterSelect">{{ page }}</a>
-			                </li>
-	            		{% elsif page == 1 %}
-							<li class="page-item px-1">
-			                	<a class="page-link" href="/">{{ page }}</a>
-			                </li>
-	            		{% else %}
-							<li class="page-item px-1">
-			                    <a class="page-link" href="{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a>
-			                </li>
-	            		{% endif %}
-	       			{% endfor %}
-
-	        		{% if paginator.next_page %}
-			            <li class="page-item px-1">
-			                <a class="page-link" href="{{ paginator.next_page_path }}">&raquo;</a>
+	            	{% elsif page == 1 %}
+						<li class="page-item px-1">
+			            	<a class="page-link" href="/">{{ page }}</a>
 			            </li>
-	        		{% else %}
-					{% endif %}
+	            	{% else %}
+						<li class="page-item px-1">
+			                <a class="page-link" href="{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a>
+			            </li>
+	            	{% endif %}
+	       		{% endfor %}
+
+	        		
+		        <li class="page-item px-1">
+			        <a class="page-link" href="{{ paginator.next_page_path }}">►</a>
+			    </li>
     		{% endif %}
         </ul>
 	</nav>
