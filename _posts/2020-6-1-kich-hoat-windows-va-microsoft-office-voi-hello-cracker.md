@@ -2,8 +2,8 @@
 thumbnail: 202061Hellocracker.png
 layout: post
 title: "Kích hoạt Windows 10 và Microsoft Office bằng phần mềm HelloCracker"
-excerpt: Thông qua nút kích hoạt trên phần mềm, phần mềm sẽ tự động nhập lệnh commadline.
-author: PanadoraPanadora
+excerpt: Thông qua nút kích hoạt trên phần mềm, phần mềm sẽ tự động nhập lệnh commadline
+author: Panadora
 permalink: /kich-hoat-windows-va-microsoft-office-voi-hello-cracker.html
 category: [windows, new]
 ---
