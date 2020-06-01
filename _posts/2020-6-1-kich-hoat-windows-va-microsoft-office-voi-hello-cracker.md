@@ -1,5 +1,5 @@
 ---
-thumbnail: 202061Hellocracker.png
+thumbnail: 202061Hellocracker.PNG
 layout: post
 title: "Kích hoạt Windows 10 và Microsoft Office bằng phần mềm HelloCracker"
 excerpt: Thông qua nút kích hoạt trên phần mềm, phần mềm sẽ tự động nhập lệnh commadline
