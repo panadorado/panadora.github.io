@@ -8,7 +8,7 @@ permalink: /kich-hoat-windows-va-microsoft-office-voi-hello-cracker.html
 category: [windows, new]
 ---
 
-<center><img class="img-thumbnail" width="500" src="{{base.url}}/image/202061Hellocracker.png"></center>
+<center><img class="img-thumbnail" width="500" src="{{baseurl}}/image/202061Hellocracker.png"></center>
 <br>
 **`HelloCraker`** là phần mềm được lập trình bằng ngôn ngữ C# - WindowsForm, phần mềm giúp cho việc thao tác kích hoạt key windows một cách đơn giản. Cụ thể phần mềm đã có sẵn những bản key kích hoạt 365 ngày cho từng phiên bản của Windows 10 và Microsoft Office.
 
@@ -18,11 +18,11 @@ Vì là phần mềm kích hoạt bằng commadline ( **`cmd`** ) thông qua ser
 
 Sơ qua phần mềm, thì thao tác đơn giản bạn chỉ cần chọn phiên bản Windows 10 và Microsoft Office để mở khóa nút kích hoạt sau đó chọn đúng phiên bản Windows 10 và Microsoft Office để kích hoạt.
 
-<center><img class="img-thumbnail" width="500" src="{{base.url}}/image/202061Hellocracker2.png"></center>
+<center><img class="img-thumbnail" width="500" src="{{baseurl}}/image/202061Hellocracker2.png"></center>
 <br>
-<center><img class="img-thumbnail" width="1200" src="{{base.url}}/image/HellorCracker3.png"></center>
+<center><img class="img-thumbnail" width="1200" src="{{baseurl}}/image/HellorCracker3.png"></center>
 <br>
-<center><img class="img-thumbnail" width="1200" src="{{base.url}}/image/HellorCracker4.png"></center>
+<center><img class="img-thumbnail" width="1200" src="{{baseurl}}/image/HellorCracker4.png"></center>
 <br>
 Nếu AntiVirus của bạn cảnh báo thì hãy tắt nó đi hoặc trước khi tải phần mềm về hãy tắt nó trước nhá.<br>
 
