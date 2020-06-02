@@ -1,7 +1,7 @@
 ---
 thumbnail: "202061vpn.jpg"
 layout: "post"
-title: "Tổng hợp một số phần phần mềm VPN miễn phí"
+title: "Tổng hợp một số phần mềm VPN miễn phí"
 excerpt: "Trong vài năm qua, bạn có thể đã nghe người ta nói nhiều về HTML5..."
 author: "Panadora"
 category: [other, windows]
