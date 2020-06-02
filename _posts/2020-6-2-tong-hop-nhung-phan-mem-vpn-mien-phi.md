@@ -44,7 +44,7 @@ Hiện tại `Touch VPN` được tích hợp trong app store của Microsoft b�
 
 Cũng là 1 phần mềm VPN được sử dụng phổ biến nhất tại thời điểm bây giờ. Tại sao lại phổ biến thì tất nhiên là đối với các bạn nam đang còn F.A hay đại loại là ở nhà một mình :) hihi bạn hiểu ý tôi muốn về chủ đề gì rồi chứ.
 
-Tuy nhiên phần mềm này đang được hổ trợ trên Android và chưa có thông báo về phiên bản dành cho Windows và MacOs. để có thể download và hướng dẫn cài đặt sử dụng thig mời các bạn liên kết tới [bài hướng dẫn này](https://congnghevacuocsong.tk/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html)
+Tuy nhiên phần mềm này đang được hổ trợ trên Android và IOS, hiện tại nhà phát hành chưa có thông báo về phiên bản dành cho Windows và MacOs. để có thể download và hướng dẫn cài đặt sử dụng trên Windows thì mời các bạn liên kết tới [bài hướng dẫn này](https://congnghevacuocsong.tk/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html)
 
 **[Tải về cho Android](https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone)**<br>
 **[Tải về cho IOS](https://apps.apple.com/us/app/1-1-1-1-faster-internet/id1423538627)**
@@ -67,6 +67,6 @@ Một điều lưu ý rằng TunnelBear đã điều chỉnh chính sách bảo 
 
 **Lời kết**
 
-Vừa rồi là mình tổng hợp một số VPN được sử dụng hiện nay, các bạn đã từng sử dụng qua những phần mềm trên chưa hay cho mình biết ý kiến sử dụng của các bạn, và còn những phần mềm nào hữu ích hay comment cho mình biết để mình có thể tham khảo và tiềm hiểu nhá, cảm ơn các bạn đã xem qua đừng quên like và share cho bạn bè cùng biết đến nhá.
+Vừa rồi là mình tổng hợp một số VPN được sử dụng hiện nay, các bạn đã từng sử dụng qua những phần mềm trên chưa hãy cho mình biết ý kiến sử dụng của các bạn, và còn những phần mềm nào hữu ích hay comment cho mình biết để mình có thể tham khảo và tiềm hiểu nhá, cảm ơn các bạn đã xem qua đừng quên like và share cho bạn bè cùng biết đến nhá.
 
 <hr>
