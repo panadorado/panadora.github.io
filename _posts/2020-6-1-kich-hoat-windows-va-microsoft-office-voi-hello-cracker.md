@@ -10,7 +10,7 @@ category: [windows, new]
 
 <center><img class="img-thumbnail" width="500" src="{{baseurl}}/image/202061Hellocracker.PNG"></center>
 <br>
-**`HelloCraker`** là phần mềm được lập trình bằng ngôn ngữ C# - WindowsForm, phần mềm giúp cho việc thao tác kích hoạt key windows một cách đơn giản. Cụ thể phần mềm đã có sẵn những bản key kích hoạt 365 ngày cho từng phiên bản của Windows 10 và Microsoft Office.
+**`HelloCraker`** là phần mềm được lập trình bằng ngôn ngữ C# , phần mềm giúp cho việc thao tác kích hoạt key windows một cách đơn giản. Cụ thể phần mềm đã có sẵn những bản key kích hoạt 365 ngày cho từng phiên bản của Windows 10 và Microsoft Office.
 
 Thông qua nút kích hoạt trên phần mềm, phần mềm sẽ tự động nhập lệnh commadline ( **`cmd`** ) kích hoạt key qua một server **`kms`** để xác nhận đã kích hoạt Windows 10 và Microsoft Office và sử dụng được 365 ngày, nếu hết hạn bạn có thể thao tác nhấn nút **`xóa key`** và kích hoạt lại cho đến khi hết hạn key.
 
@@ -28,6 +28,10 @@ Nếu AntiVirus của bạn cảnh báo thì hãy tắt nó đi hoặc trước 
 
 <i class="fas fa-download"></i>[Link Download Fshare](https://www.fshare.vn/file/V18RVUF8JT8E)<br>
 <i class="fas fa-download"></i>[Link Download Mediafire](https://www.mediafire.com/file/ig62h8626p29a8p/HelloCracker.rar/file)<br>
+**`New Version HelloCrack 1.0.1`**
+<i class="fab fa-google-drive"></i>[Link Download Driver](https://drive.google.com/file/d/1Z7BdS-LoEmiLp9TQiduba2ldA6vPxX1h/view?usp=sharing)<br>
+<i class="fas fa-download">[Link Download Fshare](https://www.fshare.vn/file/NWAH9IL7YV9C)<br>
+<i class="fas fa-download">[Link Download Mediafire](https://www.mediafire.com/file/ekghz82ij52d4yc/HelloCrack-1.0.1.rar/file)
 
 Cảm ơn các bạn đã xem qua, hãy like và share cho mình có thêm động lực để tổng hợp những phần mềm hữu ích nhá ! ^^
 
