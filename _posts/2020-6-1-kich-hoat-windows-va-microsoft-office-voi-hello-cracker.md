@@ -28,7 +28,9 @@ Nếu AntiVirus của bạn cảnh báo thì hãy tắt nó đi hoặc trước 
 
 <i class="fas fa-download"></i>[Link Download Fshare](https://www.fshare.vn/file/V18RVUF8JT8E)<br>
 <i class="fas fa-download"></i>[Link Download Mediafire](https://www.mediafire.com/file/ig62h8626p29a8p/HelloCracker.rar/file)<br>
-**`New Version HelloCrack 1.0.1`**
+
+**`New Version HelloCrack 1.0.1`**<br>
+
 <i class="fab fa-google-drive"></i>[Link Download Driver](https://drive.google.com/file/d/1Z7BdS-LoEmiLp9TQiduba2ldA6vPxX1h/view?usp=sharing)<br>
 <i class="fas fa-download">[Link Download Fshare](https://www.fshare.vn/file/NWAH9IL7YV9C)<br>
 <i class="fas fa-download">[Link Download Mediafire](https://www.mediafire.com/file/ekghz82ij52d4yc/HelloCrack-1.0.1.rar/file)
