@@ -150,21 +150,21 @@ h1 a:hover {
 }
 
 .read-more-btn {
-  background-image: linear-gradient(to right, #77A1D3 100%, #79CBCA 51%, #77A1D3 0%);
+  background: #3b5998;
   padding: 4px 12px 6px;
   border-radius: 5px;
   line-height: 12px;
   font-size: 14px;
   font-weight: bold;
-  color: rgb(255, 73, 73);
+  color: #fff;
   border: none!important;
 }
 
 .read-more-btn:hover {
   text-decoration: none;
-  background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
+  background-image: #8b9dc3;
   font-weight: bold;
-  color: rgb(150, 16, 16);
+  color: #fff;
 }
 
 .footer {
