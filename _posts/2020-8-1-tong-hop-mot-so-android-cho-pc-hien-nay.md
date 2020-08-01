@@ -12,9 +12,9 @@ Với sự phát triển vượt bậc trong suốt các thập kỷ của khoa 
 
 Đặc biệt nhất kể đến hành trình phát triển của các dòng điện thoại thông minh tiếng anh gọi là **`smart phone`**, nó gần như hoàn toàn gom gọn các tính năng tiện ích cần thiết nhất cho con người, từ nghe nhạc đến xem phim và đọc báo lướt web v.v.., cùng với đó thì những chiếc **`smart phone`** được trang bị chung một **`hệ điều hành`** mở đó là Android. Tuy nhiên với nhu cầu hiện nay là **`smart phone`** chưa đủ Adnroid muốn hướng đến một **`hệ điều hành Android vs hệ sinh thái đồ sộ`** mang tính mở có thể trải nghiệm được trên cả PC.
 
-Để có thể đưa Android lên PC, các nhà phát triển đã hướng đến tính giả lập Android cho PC. Tuy nhiên nếu set về phương diện tối ưu phần cứng thì điều này khá là phức tạp khi nó đòi hỏi PC phải có các phần cứng đủ khỏe để có thể giả lập Android 1 mượt mà, trong khi đó bản thân phần cứng của các chiếc PC hay Laptop hiện nay đã đủ khỏe để có thể chạy được **`HDH Windows`** 1 cách mượt mà ?.
+Để có thể đưa Android lên PC, các nhà phát triển đã hướng đến tính giả lập Android cho PC. Tuy nhiên nếu set về phương diện tối ưu phần cứng thì điều này khá là phức tạp khi nó đòi hỏi PC phải có các phần cứng đủ khỏe để có thể giả lập Android một cách ổn định, trong khi đó bản thân phần cứng của những chiếc PC hay Laptop hiện nay đã đủ khỏe để có thể chạy được **`HDH Windows`** một cách mượt mà ?.
 
-Vì thế các nhà phát triển đã hướng đến 1 khả năng đó là mang tính mở vận hành độc lập cho hể điều hành Android này, về cơ bản thì hệ điều hành này cũng được phát triển dựa trên nhân **`Linux`** mà thôi. Dưới đây là tổng hợp 1 số Android cho PC
+Vì thế các nhà phát triển đã hướng đến 1 khả năng đó là mang tính mở vận hành độc lập cho hể điều hành Android này, về cơ bản thì hệ điều hành này cũng được phát triển dựa trên nhân **`Linux`** mà thôi. Dưới đây là tổng hợp một số Android cho PC
 
 [**`1. REMIX OS`**](https://www.fosshub.com/Remix-OS.html)
 
