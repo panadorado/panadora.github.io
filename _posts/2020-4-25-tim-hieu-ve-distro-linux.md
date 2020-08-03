@@ -100,8 +100,8 @@ Tuy nhiên, ngoài các ưu điểm nổi trội trên thì Linux cũng có mặ
 
 - Linux là mã nguồn mỡ và hoàn toàn miễn phí, bảo mật tốt, coi như là sự chọn hợp lý cho người dùng phổ thông cho việc tiết kiểm chi tiêu về vấn đề bản quyền, đối với người dùng Việt Nam cũng không ngoại lệ.
 
-- Tự do tùy biến, và học tập nghiên, lập trình phát triển phần mềm ...v.v, đối với các cty doanh nghiệp thì linux server là lựa chọn hợp lý trong việc tiết kiệm chi phí chi trả hoặc lo ngoại về vấn đề bảo mật không an toàn.
+- Tự do tùy biến, và học tập nghiên cứu, lập trình phát triển phần mềm ...v.v, đối với các cty doanh nghiệp thì linux server là lựa chọn hợp lý trong việc tiết kiệm chi phí chi trả hoặc lo ngoại về vấn đề bảo mật không an toàn.
 
-Tuy nhiên linux ko dành mục đích để chơi game vì thế sẽ là trở ngại lớn cho các game thủ khi đặt chân vào con đường này, tuy nhiên ko có nghĩa là linux không thể chơi game, và bạn vẫn có thể giải trí nhẹ với các tự game văn phòng, hoặc `Steam` phần mềm này đã hổ trợ trên linux 1 thời gian dài và hầu như có những tựa game ko thua kém gì trên windows, và buộc bạn chi 1 số tiền ko ít để sỡ hữu những tưa game support trên linux. Còn 1 tin vui cho các ae game thủ là các ông lớn về mãng đồ họa cũng đã có động thái support lên cho các dùng distro linux
+Tuy nhiên linux ko dành mục đích để chơi game vì thế sẽ là trở ngại lớn cho các game thủ khi đặt chân vào con đường này, tuy nhiên không có nghĩa là linux không thể chơi game, và bạn vẫn có thể giải trí nhẹ với các tựaa game văn phòng, hoặc [`Steam`](https://store.steampowered.com/) phần mềm này đã hổ trợ trên linux 1 thời gian dài và hầu như có những tựa game không thua kém gì trên windows, và có những tựa game buộc bạn chi 1 số tiền ko ít để sỡ hữu những tưa game support trên linux. Còn 1 tin vui cho các ae game thủ là các ông lớn về mãng đồ họa cũng đã có động thái support lên cho các dùng distro linux.
 
 Vì thế sẽ không còn xa nếu linux tiếp tục được phát triển và vươn lên thành hệ điều hành thứ 2 của người dùng và thoát khỏi cái bóng thống trị của windows (Microssoft) !

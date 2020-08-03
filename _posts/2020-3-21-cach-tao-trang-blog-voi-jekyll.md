@@ -24,25 +24,33 @@ Trước khi bắt tay vào tạo một trang bằng Jekyll bạn nên cài đ�
 
 Kiểm tra phiên bản Ruby/Gem đã cài trên máy tính thành công hay chưa.
 
-<p style="font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd">
-    ruby -v
-</p>
+```terminal
 
-<p style="font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd">
+    ruby -v
+
+```
+
+```terminal
+
     gem -v
-</p>
+
+```
 
 ### 3. Cài Bundler ta dùng lệnh
 
-<p style="font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd">
-    gem install jekyll bundler
-</p>
+```terminal
+
+ ~$ gem install jekyll bundler
+
+```
     
 Kiểm tra phiên bản Jekyll đã cài đặt trên máy tính chưa.
 
-<p style="font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd">
+```terminal
+
     jekyll -v
-</p>
+
+```
 
 <hr/>
 <hr/>{:width="80%"}
@@ -54,27 +62,35 @@ Trước tiên hãy chọn nơi lưu trữ project cho mục đích phát triể
 
 Sau đó ta tiến hành tạo project với lệnh nhau sau.
 
-<p style="font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd">
-    jekyll new [name-project]
-</p>
+```terminal
+
+ ~$ jekyll new [name-project]
+
+```
 
 Hãy trỏ tới thư mục chứa project trước đó.
 
-<p style="font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd">
+```terminal
+
     cd \
-</p>
+
+```
 
 Sau khi tạo xong *project* ta chạy server local.
 
-<p style="font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd">
-    bundle exec jekyll serve
-</p>
+```terminal
+
+ ~$ bundle exec jekyll serve
+
+```
 
 hoặc sợ bị trùng `port` thì có thể dùng lệnh.
 
-<p style="font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd">
-    bundle exec jekyll serve --port 1234
-</p>
+```terminal
+
+ ~$ bundle exec jekyll serve --port 1234
+
+```
 
 **Cấu trúc thư mục Jekyll**<br>
 
@@ -93,25 +109,29 @@ Có nhiều cách viết thông qua HTML, Markdown hoặc Liquid Templating như
  Tên file phải ở dưới dạng `yyyy-mm-dd-ten-bai-viet.md`.<br>
  Trước khi viết bài đều có mã YAML, nơi chứa thông tin bài viết đó.<br>
 
-<p style="font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd">
-    --- <br>
-    YAML<br>
-    --- <br>
-</p>
+```terminal
+
+    ---
+    YAML
+    --- 
+
+```
 
 *Ví dụ như:*
 
-<p style="font-size: 16px; border: 5px double #000; padding: 10px;border-radius: 5px; background: #dddd">
-    --- <br>
-    layout: post <br>
-    title: "Cách tạo một trang blog với Jekyll" <br>
-    date: 2019-10-31 09:00:00 +0700 <br>
-    author: Panadora <br>
-    tag: ["jekyll", "frontend"] <br>
-    img-title: /assets/img/blog16.jpg <br>
-    permalink: /cach-tao-mot-trang-blog-voi-jekyll <br>
-    --- <br>
-</p>
+```terminal
+
+    ---
+    layout: post
+    title: "Cách tạo một trang blog với Jekyll"
+    date: 2019-10-31 09:00:00 +0700
+    author: Panadora
+    tag: ["jekyll", "frontend"]
+    img-title: /assets/img/blog16.jpg
+    permalink: /cach-tao-mot-trang-blog-voi-jekyll
+    ---
+
+```
 
 **Giải thích một số mã YAML**<br>
 
@@ -131,12 +151,10 @@ Có nhiều cách viết thông qua HTML, Markdown hoặc Liquid Templating như
 
 ### Một số lỗi có thể xảy ra.
 
- <i>Could not find ffi-1.11.1-x64-mingw32 in any of the sources. Run `bundle install` to install missing gems.</i>
+ <i>Could not find ffi-1.11.1-x64-mingw32 in any of the sources. Run **`bundle install`** to install missing gems.</i>
 
- Cách khắc phục: <br>
-       Cật nhật bundle và cài ffi cho gem: <br>
-         `bundle update`<br>
-         `gem install ffi -f`<br>
+ Cách khắc phục: **`bundle update`**<br>
+ Cật nhật bundle và cài ffi cho gem: **`gem install ffi -f`** <br>
 
 ### Một số tài liệu kham khảo.
 
