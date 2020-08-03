@@ -199,6 +199,7 @@ h1 a:hover {
   font-family:"Montserrat","Helvetica Neue",Arial,sans-serif !important;
 }
 
+/********** Panigation **********/
 ul .page-item .page-link {
   color: rgb(207, 45, 45);
   background: #fff;
@@ -221,6 +222,14 @@ ul .page-item .page-link:hover{
   background-image: linear-gradient(to right, #D66D75 0%, #E29587 51%, #D66D75 100%);
   color: #000;
 }
+
+@media screen and (max-width: 365px)
+{
+  ul .page-item .page-link {
+    display: contents;
+  }
+}
+/***************************/
 
 .img-hover {
   transition: .4s;
