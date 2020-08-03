@@ -94,9 +94,12 @@ Hoặc bạn có thể click biểu tượng của terminal để mở.
 - **`sudo apt-update`**: Để để fetch index mới nhất.
 - **`sudo apt list --upgradable`**: Để kiểm tra 1 package có update mới.
 - **`sudo apt-get upgrade`**: Để cập nhật tất cả các gói phần mềm mới nhất.
-- **`sudo apt-get <tên gói phần mềm>`**: tải gói phần mềm hay ứng dụng về hệ điều hành ubuntu.
+- **`sudo apt-get install <tên gói phần mềm>`**: tải gói phần mềm hay ứng dụng về hệ điều hành ubuntu.
+- **`sudo apt-get autoremove <tên gói phần mềm>`**: gỡ cài đặt gói phần mềm hay ứng dụng đã tải về.
 - **`sudo shutdown -h now`**: tắt máy tính ngay lập tức.
 - **`sudo reboot`**: khởi động lại máy tính.
 
 **Lời kết**: Như vậy Ubuntu cũng không mấy khó thân thiện với người dùng lắm nhệ, vì thế các bạn có thể sử dụng hệ điều hành ubuntu như với số thao tác trên windows cũng được không nhất thiết phải sử dụng lệnh, trừ khi bạn cần cài các gói phần mềm bên ngoài vào Ubuntu thì buộc bạn phải sử dụng đến terminal.<br>
-*( chú ý: một số phần mềm chưa được hộ trợ trên linux thì bạn ko thể cài đặt mà thôi, ngoài ra bạn có thể tìm trên google để được hướng dẫn cài đặt các phần mềm được hổ trợ trên ubuntu nhé )*.
+*( chú ý: một số phần mềm chưa được hộ trợ trên linux thì bạn ko thể cài đặt mà thôi, ngoài ra bạn có thể tìm trên google để được hướng dẫn cài đặt các phần mềm được hổ trợ trên ubuntu nhé. 
+
+Lời khuyên trân thành mình dành cho các bạn là, không nền cài giả lập phần mềm của windows trên linux vì có thể không sử dụng được hoặc xóa không sạch tập tin rác.)*.
