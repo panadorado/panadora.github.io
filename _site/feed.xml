@@ -1,4 +1,125 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-03T22:55:27+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Tổng hợp một số Android cho PC hiện nay</title><link href="http://localhost:4000/tong-hop-mot-so-android-cho-hien-nay.html" rel="alternate" type="text/html" title="Tổng hợp một số Android cho PC hiện nay" /><published>2020-08-01T00:00:00+07:00</published><updated>2020-08-01T00:00:00+07:00</updated><id>http://localhost:4000/tong-hop-mot-so-android-cho-pc-hien-nay</id><content type="html" xml:base="http://localhost:4000/tong-hop-mot-so-android-cho-hien-nay.html">&lt;p&gt;Với sự phát triển vượt bậc trong suốt các thập kỷ của khoa học và công nghệ hiện nay, con người gần như tạo nên thành công những vật dụng nhỏ gọn và thông minh tưởng chừng chỉ có trên phim ảnh.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-04T16:15:29+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux</title><link href="http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html" rel="alternate" type="text/html" title="Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux" /><published>2020-08-04T00:00:00+07:00</published><updated>2020-08-04T00:00:00+07:00</updated><id>http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux</id><content type="html" xml:base="http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html">&lt;p&gt;Trên Windows để có thể đánh văn bản hay chat tin nhắn và một số thao tác khác bằng tiếng việt có dấu, thì buộc các bạn phải tải bộ gõ unikey tiếng việt để có thể sử dụng được. Nhưng còn trên các hệ điều hành linux thì sao, và bạn không thể nào dùng bộ gõ unikey tiếng việt trên windows choo linux được vì chúng vốn lập trình chỉ để thực thi được trên windows mà thôi, vì vậy bài viết này mình xin tổng hợp một số bộ gõ tiếng việt thông dụng hiện nay dành cho hệ điều hành linux nhá.&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/202084UnikeyLinuxWallpaper.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;1. ibus-unikey&lt;/h3&gt;
+
+&lt;p&gt;Để có thể cài đặt các bạn thao tác tổ hợp phím &lt;kbd&gt;ctrl + alt + t&lt;/kbd&gt; để mở terminal và tiếng hành gõ lệnh cài đặt gói ibus-unikey như sau:&lt;/p&gt;
+
+&lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;add-apt-repository ppa:ubuntu-vn/ppa
+&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update
+&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;ibus-unikey &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;ibus restart
+&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/vn-input/ibus-unikey&quot;&gt;&lt;i style=&quot;font-size: 20px; font-weigth: bold;&quot; class=&quot;fab fa-github&quot;&gt; Source Github ibus-unikey&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Chú ý: Hiện tại bộ gõ này không còn được hỗ trợ. Do đó cân nhắt khi cài đặt bộ gõ này lênh các phiên bản linux mới nhất sau này.&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;2. ibus-bamboo [Khuyên dùng]&lt;/h3&gt;
+
+&lt;p&gt;Tương tự như ibus-unikey, tuy nhiên ibus-bamboo vẫn còn được hổ trợ trên linux các phiên bản mới cho đến hiện tại.&lt;/p&gt;
+
+&lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;  #&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;#Ubuntu và các distro tương tự##&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;add-apt-repository ppa:bamboo-engine/ibus-bamboo
+&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update
+&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;ibus-bamboo
+&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;ibus restart
+&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;  #&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;#Arch Linux và các distro tương tự##&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;
+  Với Arch Linux, bạn có thể build từ AUR bằng yay:
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;  ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;yay &lt;span class=&quot;nt&quot;&gt;-S&lt;/span&gt; ibus-bamboo
+&lt;span class=&quot;go&quot;&gt;
+  Hoặc bằng pamac:
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;  ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;pamac build ibus-bamboo
+&lt;span class=&quot;go&quot;&gt;  
+  Hoặc build build từ file PKGBUILD:
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;  ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;git clone https://aur.archlinux.org/ibus-bamboo.git
+&lt;span class=&quot;gp&quot;&gt;  ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;ibus-bamboo
+&lt;span class=&quot;gp&quot;&gt;  ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;makepkg &lt;span class=&quot;nt&quot;&gt;-si&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/BambooEngine/ibus-bamboo&quot;&gt;&lt;i style=&quot;font-size: 20px; font-weigth: bold;&quot; class=&quot;fab fa-github&quot;&gt; Source Github ibus-bamboo&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;3. ibus-bogo&lt;/h3&gt;
+
+&lt;p&gt;ibus-bogo là một chương trình xử lý gõ tiếng Việt sử dụng engine BoGo và được thiết kế để chạy cùng iBus, một phần mềm quản lý các bộ gõ trong GNU/Linux.&lt;/p&gt;
+
+&lt;p&gt;ibus-bogo có thể được cài đặt từ gói cài đặt hoặc (nếu bạn muốn) trực tiếp từ mã nguồn.&lt;/p&gt;
+
+&lt;p&gt;Từ gói cài đặt cho các bản phân phối Linux thông dụng&lt;/p&gt;
+
+&lt;p&gt;Từ mã nguồn&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Chú ý: Nếu bạn chưa thành thạo Linux và chỉ muốn sử dụng BoGo thì không nên cài đặt từ mã nguồn.&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ibus-bogo có sử dụng các phần mềm sau, hãy chắc chắn rằng chúng đã được cài trên máy (theo tên gói cài đặt của Debian/Ubuntu):&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  ibus 1.4.x&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python 3.2+&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python3-gi (pygobject)&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python3-entrant (kiểm tra chính tả)&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  cmake&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  qt4-linguist-tools&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  pyqt4-dev-tools&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python3-pyside&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  gir1.2-ibus-1.0 (GObject Introspection data)&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  gir1.2-wnck-3.0&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lệnh sau sẽ cài đặt tất cả các gói cần thiết:&lt;/p&gt;
+
+&lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;python3 ibus cmake python3-gi pyqt4-dev-tools &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+gir1.2-ibus-1.0 gir1.2-wnck-3.0 python3-pyqt4 qt4-linguist-tools &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+python3-enchant
+&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Note&lt;/p&gt;
+
+&lt;p&gt;Từ bản 0.4 thì ibus-bogo sử dụng PyQt4 thay vì PySide.&lt;/p&gt;
+
+&lt;p&gt;Sau đó bạn tải mã nguồn tại &lt;a href=&quot;https://github.com/BoGoEngine/ibus-bogo-python/releases&quot;&gt;ibus-bogo-python&lt;/a&gt; rồi giải nén.&lt;/p&gt;
+
+&lt;p&gt;Hoặc dùng:&lt;/p&gt;
+
+&lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt; 
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt; #&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;#Nếu bạn chưa có gói lệnh git thì hay tải về như sau##&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;git &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt; #&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;#Lấy gói ibus-bogo.git##&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;git clone https://github.com/BoGoEngine/ibus-bogo.git
+&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt; #&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;#Nếu bạn tải từ trang releases, bạn cần khởi tạo CMake:##&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;cmake CMakeLists.txt
+&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;#Chạy lệnh sau để cài đặt:##&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;#Gỡ cài đặt:##&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make uninstall
+&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/BoGoEngine/ibus-bogo/blob/master/doc/sphinx/install.rst&quot;&gt;&lt;i style=&quot;font-size: 20px; font-weigth: bold;&quot; class=&quot;fab fa-github&quot;&gt; Source Github ibus-bogo&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Vừa rồi là tổng hợp một số bộ gõ tiếng việt dành cho hệ điều hành linux hiện nay, các bạn đang sử dụng bộ gõ nào và cho mình một comment và đừng quên ấn nút like và share chia sẻ bài post này cho những người mới tiếp cận linux bạn nhá, còn bộ gõ nào mình chưa liệt kê thì các bạn cũng comment bên dưới để mình có thêm thông tin tổng hợp tiếp nhá.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;terminal&quot;, &quot;news&quot;]" /><summary type="html">Trên Windows để có thể đánh văn bản hay chat tin nhắn và một số thao tác khác bằng tiếng việt có dấu...</summary></entry><entry><title type="html">Tổng hợp một số Android cho PC hiện nay</title><link href="http://localhost:4000/tong-hop-mot-so-android-cho-hien-nay.html" rel="alternate" type="text/html" title="Tổng hợp một số Android cho PC hiện nay" /><published>2020-08-01T00:00:00+07:00</published><updated>2020-08-01T00:00:00+07:00</updated><id>http://localhost:4000/tong-hop-mot-so-android-cho-pc-hien-nay</id><content type="html" xml:base="http://localhost:4000/tong-hop-mot-so-android-cho-hien-nay.html">&lt;p&gt;Với sự phát triển vượt bậc trong suốt các thập kỷ của khoa học và công nghệ hiện nay, con người gần như tạo nên thành công những vật dụng nhỏ gọn và thông minh tưởng chừng chỉ có trên phim ảnh.&lt;/p&gt;
 
 &lt;p&gt;Đặc biệt nhất kể đến hành trình phát triển của các dòng điện thoại thông minh tiếng anh gọi là &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;smart phone&lt;/code&gt;&lt;/strong&gt;, nó gần như hoàn toàn gom gọn các tính năng tiện ích cần thiết nhất cho con người, từ nghe nhạc đến xem phim và đọc báo lướt web v.v.., cùng với đó thì những chiếc &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;smart phone&lt;/code&gt;&lt;/strong&gt; được trang bị chung một &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hệ điều hành&lt;/code&gt;&lt;/strong&gt; mở đó là Android. Tuy nhiên với nhu cầu hiện nay là &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;smart phone&lt;/code&gt;&lt;/strong&gt; chưa đủ Adnroid muốn hướng đến một &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hệ điều hành Android vs hệ sinh thái đồ sộ&lt;/code&gt;&lt;/strong&gt; mang tính mở có thể trải nghiệm được trên cả PC.&lt;/p&gt;
 
@@ -58,7 +179,7 @@ Phoenix OS chỉ yêu cầu bộ vi xử lý Intel hoặc AMD x86 (Intel Atom) v
 
 &lt;hr /&gt;
 
-&lt;p&gt;Vừa rồi mình vừa tổng hợp 1 số hệ điều hành Adroid cho PC, bạn cảm thấy thế nào và đã từng trải nghiệm nó chưa vui lòng &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;comment&lt;/code&gt;&lt;/strong&gt; vào bên dưới cho mình biết ý kiến và còn bản Android PC nào mình cho biết đến hãy chia sẻ cho mình biết để mình tổng hợp thêm nhá.&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;other&quot;, &quot;windows&quot;, &quot;linux&quot;, &quot;news&quot;]" /><summary type="html">Với sự phát triển vượt bậc trong suốt các thập kỷ của khoa học và công nghệ hiện nay...</summary></entry><entry><title type="html">Ransomware RaaS, nguy hiểm với mã độc tống tiền mới</title><link href="http://localhost:4000/ma-doc-tong-tien-RaaS" rel="alternate" type="text/html" title="Ransomware RaaS, nguy hiểm với mã độc tống tiền mới" /><published>2020-06-21T00:00:00+07:00</published><updated>2020-06-21T00:00:00+07:00</updated><id>http://localhost:4000/ma-doc-tong-tien-RaaS</id><content type="html" xml:base="http://localhost:4000/ma-doc-tong-tien-RaaS">&lt;p&gt;&lt;strong&gt;Cách đây 2 ngày tình cơ trên facebook xuất hiện 1 bài đăng nói về sự nguy hiểm của loại mã độc tống tiền mới có tên là RaaS, và tôi cũng đã tò mò với điều và click vào bài post để xem thêm thông tin về con Ransomware mới này. Cụ thể như sau:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Vừa rồi mình vừa tổng hợp 1 số hệ điều hành Adroid cho PC, bạn cảm thấy thế nào và đã từng trải nghiệm nó chưa vui lòng &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;comment&lt;/code&gt;&lt;/strong&gt; vào bên dưới cho mình biết ý kiến và còn bản Android PC nào mình cho biết đến hãy chia sẻ cho mình biết để mình tổng hợp thêm nhá.&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;other&quot;, &quot;windows&quot;, &quot;unixlinux&quot;, &quot;news&quot;]" /><summary type="html">Với sự phát triển vượt bậc trong suốt các thập kỷ của khoa học và công nghệ hiện nay...</summary></entry><entry><title type="html">Ransomware RaaS, nguy hiểm với mã độc tống tiền mới</title><link href="http://localhost:4000/ma-doc-tong-tien-RaaS" rel="alternate" type="text/html" title="Ransomware RaaS, nguy hiểm với mã độc tống tiền mới" /><published>2020-06-21T00:00:00+07:00</published><updated>2020-06-21T00:00:00+07:00</updated><id>http://localhost:4000/ma-doc-tong-tien-RaaS</id><content type="html" xml:base="http://localhost:4000/ma-doc-tong-tien-RaaS">&lt;p&gt;&lt;strong&gt;Cách đây 2 ngày tình cơ trên facebook xuất hiện 1 bài đăng nói về sự nguy hiểm của loại mã độc tống tiền mới có tên là RaaS, và tôi cũng đã tò mò với điều và click vào bài post để xem thêm thông tin về con Ransomware mới này. Cụ thể như sau:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/image/ransomware-as-a-service.png&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;
 &lt;br /&gt;&lt;/p&gt;
@@ -128,7 +249,7 @@ Tuy nhiên, các đại lý tham gia RaaS sẽ phải tuân theo một loạt qu
 
 &lt;hr /&gt;
 
-&lt;p&gt;Dựa theo nguồn thông tin từ: &lt;a href=&quot;https://quantrimang.com/ransomware-nguy-hiem-nay-dang-phat-tan-nhanh-tren-toan-the-gioi-172808&quot;&gt;Quản Trị Mạng&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;other&quot;, &quot;windows&quot;, &quot;linux&quot;, &quot;news&quot;]" /><summary type="html">Loại mã độc Ransomware tốngg tiền mới được phát tán vào đầu tháng 6 này, do một tổ chức chuyên phát triển loại mã độc có tên Avaddon đã được thành lập.</summary></entry><entry><title type="html">Tổng hợp một số phần mềm VPN miễn phí</title><link href="http://localhost:4000/tong-hop-nhung-phan-mem-vpn-mien-phi.html" rel="alternate" type="text/html" title="Tổng hợp một số phần mềm VPN miễn phí" /><published>2020-06-02T00:00:00+07:00</published><updated>2020-06-02T00:00:00+07:00</updated><id>http://localhost:4000/tong-hop-nhung-phan-mem-vpn-mien-phi</id><content type="html" xml:base="http://localhost:4000/tong-hop-nhung-phan-mem-vpn-mien-phi.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; width=&quot;500&quot; src=&quot;/image/202061vpn.jpg&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;Dựa theo nguồn thông tin từ: &lt;a href=&quot;https://quantrimang.com/ransomware-nguy-hiem-nay-dang-phat-tan-nhanh-tren-toan-the-gioi-172808&quot;&gt;Quản Trị Mạng&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;other&quot;, &quot;windows&quot;, &quot;unixlinux&quot;, &quot;news&quot;]" /><summary type="html">Loại mã độc Ransomware tốngg tiền mới được phát tán vào đầu tháng 6 này, do một tổ chức chuyên phát triển loại mã độc có tên Avaddon đã được thành lập.</summary></entry><entry><title type="html">Tổng hợp một số phần mềm VPN miễn phí</title><link href="http://localhost:4000/tong-hop-nhung-phan-mem-vpn-mien-phi.html" rel="alternate" type="text/html" title="Tổng hợp một số phần mềm VPN miễn phí" /><published>2020-06-02T00:00:00+07:00</published><updated>2020-06-02T00:00:00+07:00</updated><id>http://localhost:4000/tong-hop-nhung-phan-mem-vpn-mien-phi</id><content type="html" xml:base="http://localhost:4000/tong-hop-nhung-phan-mem-vpn-mien-phi.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; width=&quot;500&quot; src=&quot;/image/202061vpn.jpg&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;VPN là gì ?&lt;/strong&gt;&lt;/p&gt;
@@ -656,39 +777,4 @@ Nguồn: &lt;a href=&quot;https://www.facebook.com/groups/linuxteamvietnam2018/p
 
 &lt;p&gt;Tuy nhiên linux ko dành mục đích để chơi game vì thế sẽ là trở ngại lớn cho các game thủ khi đặt chân vào con đường này, tuy nhiên không có nghĩa là linux không thể chơi game, và bạn vẫn có thể giải trí nhẹ với các tựaa game văn phòng, hoặc &lt;a href=&quot;https://store.steampowered.com/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Steam&lt;/code&gt;&lt;/a&gt; phần mềm này đã hổ trợ trên linux 1 thời gian dài và hầu như có những tựa game không thua kém gì trên windows, và có những tựa game buộc bạn chi 1 số tiền ko ít để sỡ hữu những tưa game support trên linux. Còn 1 tin vui cho các ae game thủ là các ông lớn về mãng đồ họa cũng đã có động thái support lên cho các dùng distro linux.&lt;/p&gt;
 
-&lt;p&gt;Vì thế sẽ không còn xa nếu linux tiếp tục được phát triển và vươn lên thành hệ điều hành thứ 2 của người dùng và thoát khỏi cái bóng thống trị của windows (Microssoft) !&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;other&quot;, &quot;news&quot;]" /><summary type="html">Distro Linux là gì?. Nên dùng Distro Linux nào, chúng có gì khác nhau ?</summary></entry><entry><title type="html">Junior là gì? Senior là gì?</title><link href="http://localhost:4000/junior-la-gi-senior-la-gi.html" rel="alternate" type="text/html" title="Junior là gì? Senior là gì?" /><published>2020-04-22T00:00:00+07:00</published><updated>2020-04-22T00:00:00+07:00</updated><id>http://localhost:4000/junior-la-gi-senior-la-gi</id><content type="html" xml:base="http://localhost:4000/junior-la-gi-senior-la-gi.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/2020422JvsS.jpg&quot; width=&quot;600&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Junior, Senior là các thuật ngữ dùng để  phân chia trình độ giữa những người làm trong một công ty, trong một ngành hay trong một lĩnh vực nào đó&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 style=&quot;font-weight: bold;&quot;&gt;Junior là gì? Senior là gì?&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Junior là gì?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/2020422Junior.jpg&quot; width=&quot;600&quot; height=&quot;auto&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Junior là từ tiếng anh chỉ những người nhỏ tuổi hơn, ít thâm niêm hơn, ở cấp dưới. Thường các bạn sinh viên mới ra trường, chưa có kinh nghiệm sẽ làm ở vị trí junior. Junior đa phần có chút ít kinh nghiệm trong chuyên môn cũng như khả năng làm việc. Họ có thể thực hiện, giải quyết và xoay sở những vấn đề nhỏ, không mấy phức tạp và khó khăn. Còn những công việc đòi hỏi trình độ chuyên môn cao thì họ cần sự giúp đỡ của những người có kinh nghiệm hơn.  Công việc chiếm phần lớn thời gian của Junior là học, học hỏi kinh nghiệm từ senior.&lt;/p&gt;
-
-&lt;p&gt;Một ví dụ về junior developer là những người chưa biết gì về công nghê, hoặc chỉ biết sơ sơ nhưng chưa được sử dụng thực tế bao giờ. Họ chỉ cần viết code theo yêu cầu, hoàn thành đúng chức năng và cho chạy được. Khi gặp khó khăn, họ tốn nhiều thời gian để tìm ra vấn đề, và giải quyết nó. Việc chủ yếu của các junior developer là học về công nghệ, học về cấu trúc dự án, và học cách viết code hoàn thiện từ senior.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Senior là gì ?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/2020422Senior.jpg&quot; width=&quot;600&quot; height=&quot;auto&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Được gọi là Senior khi bạn đã đủ sự hiểu biết, có kinh nghiệm dày dặn và trình độ chuyên môn cao trong lĩnh vực bạn làm việc. Mỗi khi gặp khó khăn trong công việc bạn sẽ luôn tìm được cách khắc phục và giải quyết, bạn cũng có khả năng làm việc độc lập để đem lại hiệu quả cao nhất. Những người đi làm từ 4-5 năm thì tạm gọi là senior. Tuy nhiên, nếu làm việc lâu năm nhưng chỉ làm những task nhỏ nhỏ, việc lặt vặt, không trau dồi thêm kiến thức thì cũng không khác junior là bao. Vì vậy số năm đi làm chưa đủ để đánh giá, phân loại một senior. Mỗi công ty có nhiều cấp bậc cho senior, tùy thuộc vào năng lực và trình độ mà các senior sẽ được phân theo cao thấp khác nhau.&lt;/p&gt;
-
-&lt;p&gt;Lý do mà các Senior được coi trọng ở công ty bởi vì họ là những người có thâm niên lâu năm nên họ có thể giải quyết các vấn đề khó khăn một các dễ dàng hơn, và tìm cách khắc phục những sai lầm tương tự..Họ có chuyên môn cao, có khả năng chỉ dẫn cho người mới trong công việc nên họ là người dạy các Junior&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Các kỹ năng cần có của một Senior&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Mỗi lĩnh vực thì cần có những kỹ năng đặc thù riêng biệt, tuy nhiên để làm một Senior chuyên nghiệm bạn cần vài kỹ năng cơ bản sau:&lt;/p&gt;
-
-&lt;p&gt;– Kỹ năng lãnh đạo: là một senior bạn tất nhiên phải có kỹ năng tổ chức lãnh đạo. Bạn phải lập kế hoạch dạy các junior như thế nào, giao công việc cho những người mới và quản lý tốt những người cấp dưới. Ngoài chuyên môn giỏi thì kỹ năng lãnh đạo sẽ góp phần giúp con đường sự nghiệp của bạn được thăng tiến&lt;/p&gt;
-
-&lt;p&gt;– Kỹ năng làm việc nhóm: dù bạn là ai thì kỹ năng này rất quan trọng. Bạn là senior, bạn giỏi và xuất sắc thôi chưa đủ, bạn cần biết hỗ trợ, giúp đỡ, góp ý để cả team của bạn ngày càng phát triển và tiến bộ hơn. Nhiều cái đầu cùng nhau làm việc thì vẫn tốt hơn một cái đầu.&lt;/p&gt;
-
-&lt;p&gt;– Kỹ năng giao tiếp: khi bạn làm mentor cho những người mới vào làm, bạn phải giao tiếp tốt với họ, giúp đỡ họ hòa nhập với cộng đồng công ty. Giao tiếp tốt sẽ giúp bạn dễ trình bày quan điểm, truyền tải được ý tưởng, tránh những hiểu lầm không đáng có.&lt;/p&gt;
-
-&lt;p&gt;Như vậy, Senior và Junior có sự khác biệt về kinh nghiệm cũng như trong trình độ và chuyên môn. Có một điểm giống giữa Senior và Junior đó là phải luôn luôn học hỏi tìm tòi cái mới, trau dồi kiến thức mỗi ngày. Trong môi trường khắc nghiệt như hiện nay, dù bạn có là Senior, nếu không chịu cập nhật kiên thức, giữ khư khư cái cũ, bạn sẽ nhanh chóng lỗi thời và bị đào thải. Do vậy, Senior nên giữ mindset của một junor luôn học hỏi cố gắng hoàn thiện bản thân, tiếp thu những điều mới lạ ở môi trường làm việc xung quanh.&lt;/p&gt;</content><author><name>Pandora</name></author><category term="[&quot;other&quot;, &quot;news&quot;]" /><summary type="html">Junior, Senior là các thuật ngữ dùng để phân chia trình độ giữa những người làm trong một công ty, trong một ngành hay trong một lĩnh vực nào đó.</summary></entry></feed>
+&lt;p&gt;Vì thế sẽ không còn xa nếu linux tiếp tục được phát triển và vươn lên thành hệ điều hành thứ 2 của người dùng và thoát khỏi cái bóng thống trị của windows (Microssoft) !&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;other&quot;, &quot;news&quot;]" /><summary type="html">Distro Linux là gì?. Nên dùng Distro Linux nào, chúng có gì khác nhau ?</summary></entry></feed>
