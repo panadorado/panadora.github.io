@@ -26,7 +26,7 @@ Trên Windows để có thể đánh văn bản hay chat tin nhắn và một s�
 
 ```
 <br>
-Chi tiết cấu hình cài đăt: [<i style="font-size: 20px; font-weigth: bold;" class="fab fa-github"> Source Github ibus-unikey</i>](https://github.com/vn-input/ibus-unikey)
+Chi tiết cấu hình cài đăt: [<i style="font-size: 20px; font-weight: bold;" class="fab fa-github"> Source Github ibus-unikey</i>](https://github.com/vn-input/ibus-unikey)
 
 **`Chú ý: Hiện tại bộ gõ này không còn được hỗ trợ. Do đó cân nhắt khi cài đặt bộ gõ này lênh các phiên bản linux mới nhất sau này.`**
 
@@ -58,7 +58,7 @@ Tương tự như ibus-unikey, tuy nhiên ibus-bamboo vẫn còn được hổ t
 
 ```
 <br>
-Chi tiết cấu hình cài đăt: [<i style="font-size: 20px; font-weigth: bold;" class="fab fa-github"> Source Github ibus-bamboo</i>](https://github.com/BambooEngine/ibus-bamboo)
+Chi tiết cấu hình cài đăt: [<i style="font-size: 20px; font-weight: bold;" class="fab fa-github"> Source Github ibus-bamboo</i>](https://github.com/BambooEngine/ibus-bamboo)
 
 <hr>
 <h3>3. ibus-bogo</h3>
@@ -125,7 +125,7 @@ Hoặc dùng:
 
 ```
 <br>
-Chi tiết cấu hình cài đăt: [<i style="font-size: 20px; font-weigth: bold;" class="fab fa-github"> Source Github ibus-bogo</i>](https://github.com/BoGoEngine/ibus-bogo/blob/master/doc/sphinx/install.rst)
+Chi tiết cấu hình cài đăt: [<i style="font-size: 20px; font-weight: bold;" class="fab fa-github"> Source Github ibus-bogo</i>](https://github.com/BoGoEngine/ibus-bogo/blob/master/doc/sphinx/install.rst)
 
 <hr>
 - Vừa rồi là tổng hợp một số bộ gõ tiếng việt dành cho hệ điều hành linux hiện nay, các bạn đang sử dụng bộ gõ nào và cho mình một comment và đừng quên ấn nút like và share chia sẻ bài post này cho những người mới tiếp cận linux bạn nhá, còn bộ gõ nào mình chưa liệt kê thì các bạn cũng comment bên dưới để mình có thêm thông tin tổng hợp tiếp nhá.

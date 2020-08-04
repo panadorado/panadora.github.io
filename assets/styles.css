@@ -169,20 +169,17 @@ h1 a:hover {
   color: #fff;
 }
 
+/**** FOOTER ****/
+
 .footer {
-  left: 0;
-  bottom: 0;
   width: 100%;
-  height: auto;
   background-color: #242424;
   color: white;
-  margin-top: 30px;
-  padding: 5px;
 }
 
 .footer-content {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .footer-content a {
@@ -192,11 +189,20 @@ h1 a:hover {
 
 .footer-content a:hover {
   text-decoration: none;
-  color: red;
+  color: rgb(255, 127, 110);
 }
 
 #fontStyle {
   font-family:"Montserrat","Helvetica Neue",Arial,sans-serif !important;
+}
+
+.footer-card {
+  padding-top: 15px;
+}
+
+.footer-btn-following
+{
+  margin-right: 1%;
 }
 
 /********** Panigation **********/

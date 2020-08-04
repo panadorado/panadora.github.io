@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-04T16:15:29+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux</title><link href="http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html" rel="alternate" type="text/html" title="Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux" /><published>2020-08-04T00:00:00+07:00</published><updated>2020-08-04T00:00:00+07:00</updated><id>http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux</id><content type="html" xml:base="http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html">&lt;p&gt;Trên Windows để có thể đánh văn bản hay chat tin nhắn và một số thao tác khác bằng tiếng việt có dấu, thì buộc các bạn phải tải bộ gõ unikey tiếng việt để có thể sử dụng được. Nhưng còn trên các hệ điều hành linux thì sao, và bạn không thể nào dùng bộ gõ unikey tiếng việt trên windows choo linux được vì chúng vốn lập trình chỉ để thực thi được trên windows mà thôi, vì vậy bài viết này mình xin tổng hợp một số bộ gõ tiếng việt thông dụng hiện nay dành cho hệ điều hành linux nhá.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-04T17:58:18+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux</title><link href="http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html" rel="alternate" type="text/html" title="Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux" /><published>2020-08-04T00:00:00+07:00</published><updated>2020-08-04T00:00:00+07:00</updated><id>http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux</id><content type="html" xml:base="http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html">&lt;p&gt;Trên Windows để có thể đánh văn bản hay chat tin nhắn và một số thao tác khác bằng tiếng việt có dấu, thì buộc các bạn phải tải bộ gõ unikey tiếng việt để có thể sử dụng được. Nhưng còn trên các hệ điều hành linux thì sao, và bạn không thể nào dùng bộ gõ unikey tiếng việt trên windows choo linux được vì chúng vốn lập trình chỉ để thực thi được trên windows mà thôi, vì vậy bài viết này mình xin tổng hợp một số bộ gõ tiếng việt thông dụng hiện nay dành cho hệ điều hành linux nhá.&lt;/p&gt;
 
 &lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/202084UnikeyLinuxWallpaper.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -17,7 +17,7 @@
 &lt;span class=&quot;go&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;
-Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/vn-input/ibus-unikey&quot;&gt;&lt;i style=&quot;font-size: 20px; font-weigth: bold;&quot; class=&quot;fab fa-github&quot;&gt; Source Github ibus-unikey&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/vn-input/ibus-unikey&quot;&gt;&lt;i style=&quot;font-size: 20px; font-weight: bold;&quot; class=&quot;fab fa-github&quot;&gt; Source Github ibus-unikey&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Chú ý: Hiện tại bộ gõ này không còn được hỗ trợ. Do đó cân nhắt khi cài đặt bộ gõ này lênh các phiên bản linux mới nhất sau này.&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
 
@@ -49,7 +49,7 @@ Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/vn-input/
 &lt;span class=&quot;go&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;
-Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/BambooEngine/ibus-bamboo&quot;&gt;&lt;i style=&quot;font-size: 20px; font-weigth: bold;&quot; class=&quot;fab fa-github&quot;&gt; Source Github ibus-bamboo&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/BambooEngine/ibus-bamboo&quot;&gt;&lt;i style=&quot;font-size: 20px; font-weight: bold;&quot; class=&quot;fab fa-github&quot;&gt; Source Github ibus-bamboo&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -113,7 +113,7 @@ python3-enchant
 &lt;span class=&quot;go&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;
-Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/BoGoEngine/ibus-bogo/blob/master/doc/sphinx/install.rst&quot;&gt;&lt;i style=&quot;font-size: 20px; font-weigth: bold;&quot; class=&quot;fab fa-github&quot;&gt; Source Github ibus-bogo&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/BoGoEngine/ibus-bogo/blob/master/doc/sphinx/install.rst&quot;&gt;&lt;i style=&quot;font-size: 20px; font-weight: bold;&quot; class=&quot;fab fa-github&quot;&gt; Source Github ibus-bogo&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
