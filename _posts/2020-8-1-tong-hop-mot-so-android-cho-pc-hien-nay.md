@@ -4,7 +4,7 @@ layout: "post"
 title: "Tổng hợp một số Android cho PC hiện nay"
 excerpt: "Với sự phát triển vượt bậc trong suốt các thập kỷ của khoa học và công nghệ hiện nay..."
 author: "Panadora"
-category: [other, windows, linux, news]
+category: [other, windows, unixlinux, news]
 permalink: "/tong-hop-mot-so-android-cho-hien-nay.html"
 ---
 

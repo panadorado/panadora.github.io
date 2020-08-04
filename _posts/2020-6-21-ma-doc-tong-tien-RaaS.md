@@ -4,7 +4,7 @@ layout: "post"
 title: "Ransomware RaaS, nguy hiểm với mã độc tống tiền mới"
 excerpt: "Loại mã độc Ransomware tốngg tiền mới được phát tán vào đầu tháng 6 này, do một tổ chức chuyên phát triển loại mã độc có tên Avaddon đã được thành lập."
 author: "Panadora"
-category: [other, windows, linux, news]
+category: [other, windows, unixlinux, news]
 permalink: "/ma-doc-tong-tien-RaaS"
 ---
 
