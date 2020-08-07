@@ -58,17 +58,4 @@ SourceMod là modify cho bất kỳ trò chơi chạy trên Half-Life Engine. N�
 
 ```
 
-Hướng dẫn này sẽ cung cấp cho bạn một giới thiệu cơ bản để chương trình viết một plugin <kbd>Sourcemod</kbd>. Nếu bạn không quen thuộc với ngôn ngữ <kbd>SourcePawn</kbd>, đó là khuyến cáo rằng bạn ít nhất một thời gian ngắn đọc giới thiệu về bài viết <kbd>SourcePawn</kbd> .
-
- • [SpEdit](https://forums.alliedmods.net/showthread.php?t=259917) `Khuyên dùng vì nó gần như đầy đủ từ file compile.exe đến thư viện viết plugins SourceMod`<br>
- • [Crimsion Editor](https://www.crimsoneditor.com/)<br>
- • [PsPad](http://www.pspad.com/)<br>
- • [UltraEdit](http://www.ultraedit.com/)<br>
- • [Notepad++](https://notepad-plus-plus.org/)<br>
- • [TextPad](https://www.textpad.com/)<br>
- • [Pawn Studio](http://sourceforge.net/projects/pawnstudio/)<br>
- • [BasicPawn](https://forums.alliedmods.net/showthread.php?t=289127)<br>
- • Và một số trình biên soạn khác...<br>
-<hr>
-
 [**`đi đến hướng dẫn viết Plugins`**](/sourcemods/huong-dan-viet-plugin-part-1.html)

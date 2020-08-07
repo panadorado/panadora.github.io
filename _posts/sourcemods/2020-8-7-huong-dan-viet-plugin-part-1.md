@@ -250,10 +250,10 @@ Hãy quyết định lệnh sẽ như thế nào. Hãy để nó hoạt động 
 
 Để thực hiện điều này, chúng ta sẽ cần một vài bước:
 
- • Get the input from the console. For this we use [**GetCmdArg()**](https://sm.alliedmods.net/new-api/console/GetCmdArg).
- • Find a matching player. For this we use [**FindTarget()**](https://sm.alliedmods.net/new-api/helpers/FindTarget).
- • Slap them. For this we use [**SlapPlayer()**](https://sm.alliedmods.net/new-api/sdktools_functions/SlapPlayer), which requires including sdktools, an extension bundled with SourceMod.
- • Respond to the admin. For this we use [**ReplyToCommand()**](https://sm.alliedmods.net/new-api/console/ReplyToCommand).
+ • Get the input from the console. For this we use [**GetCmdArg()**](https://sm.alliedmods.net/new-api/console/GetCmdArg).<br>
+ • Find a matching player. For this we use [**FindTarget()**](https://sm.alliedmods.net/new-api/helpers/FindTarget).<br>
+ • Slap them. For this we use [**SlapPlayer()**](https://sm.alliedmods.net/new-api/sdktools_functions/SlapPlayer), which requires including sdktools, an extension bundled with SourceMod.<br>
+ • Respond to the admin. For this we use [**ReplyToCommand()**](https://sm.alliedmods.net/new-api/console/ReplyToCommand).<br>
 
  Ví dụ mẫu đầy đủ:
 
