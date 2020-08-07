@@ -2,7 +2,7 @@
 thumbnail: "SourceMod/202086SourceModLogo.png"
 layout: "post"
 title: "Hướng dẫn về Plugins SourceMode (Part 1)"
-excerpt: "SourceMod là máy chủ sửa đổi cho bất kỳ trò chơi chạy trên Half-Life 2 động cơ..."
+excerpt: "Hướng dẫn này sẽ cung cấp cho bạn một giới thiệu cơ bản để viết một plugin Sourcemod..."
 author: "Panadora"
 category: [SourceMod, games]
 permalink: "sourcemods/huong-dan-viet-plugin-part-1.html"
