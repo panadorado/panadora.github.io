@@ -1,4 +1,544 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-04T17:58:18+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux</title><link href="http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html" rel="alternate" type="text/html" title="Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux" /><published>2020-08-04T00:00:00+07:00</published><updated>2020-08-04T00:00:00+07:00</updated><id>http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux</id><content type="html" xml:base="http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html">&lt;p&gt;Trên Windows để có thể đánh văn bản hay chat tin nhắn và một số thao tác khác bằng tiếng việt có dấu, thì buộc các bạn phải tải bộ gõ unikey tiếng việt để có thể sử dụng được. Nhưng còn trên các hệ điều hành linux thì sao, và bạn không thể nào dùng bộ gõ unikey tiếng việt trên windows choo linux được vì chúng vốn lập trình chỉ để thực thi được trên windows mà thôi, vì vậy bài viết này mình xin tổng hợp một số bộ gõ tiếng việt thông dụng hiện nay dành cho hệ điều hành linux nhá.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-07T15:54:34+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Hướng dẫn về Plugins SourceMode (Part 1)</title><link href="http://localhost:4000/sourcemods/huong-dan-viet-plugin-part-1.html" rel="alternate" type="text/html" title="Hướng dẫn về Plugins SourceMode (Part 1)" /><published>2020-08-07T00:00:00+07:00</published><updated>2020-08-07T00:00:00+07:00</updated><id>http://localhost:4000/sourcemods/huong-dan-viet-plugin-part-1</id><content type="html" xml:base="http://localhost:4000/sourcemods/huong-dan-viet-plugin-part-1.html">&lt;p&gt;&lt;img src=&quot;/image/SourceMod/logo.png&quot; alt=&quot;image-logo&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hướng dẫn này sẽ cung cấp cho bạn một giới thiệu cơ bản để viết một plugin Sourcemod. Nếu bạn không quen thuộc với ngôn ngữ SourcePawn, đó là khuyến cáo rằng bạn ít nhất một thời gian ngắn đọc giới thiệu về bài viết SourcePawn .&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Hướng dẫn này sẽ cung cấp cho bạn một giới thiệu cơ bản để viết một plugin Sourcemod. Nếu bạn không quen thuộc với ngôn ngữ SourcePawn, đó là khuyến cáo rằng bạn ít nhất một thời gian ngắn đọc giới thiệu về bài viết SourcePawn.&lt;/p&gt;
+
+&lt;p&gt;• &lt;a href=&quot;https://forums.alliedmods.net/showthread.php?t=259917&quot;&gt;SpEdit&lt;/a&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Khuyên dùng vì nó gần như đầy đủ từ file compile.exe đến thư viện viết plugins SourceMod&lt;/code&gt;&lt;br /&gt;
+ • &lt;a href=&quot;https://www.crimsoneditor.com/&quot;&gt;Crimsion Editor&lt;/a&gt;&lt;br /&gt;
+ • &lt;a href=&quot;http://www.pspad.com/&quot;&gt;PsPad&lt;/a&gt;&lt;br /&gt;
+ • &lt;a href=&quot;http://www.ultraedit.com/&quot;&gt;UltraEdit&lt;/a&gt;&lt;br /&gt;
+ • &lt;a href=&quot;https://notepad-plus-plus.org/&quot;&gt;Notepad++&lt;/a&gt;&lt;br /&gt;
+ • &lt;a href=&quot;https://www.textpad.com/&quot;&gt;TextPad&lt;/a&gt;&lt;br /&gt;
+ • &lt;a href=&quot;http://sourceforge.net/projects/pawnstudio/&quot;&gt;Pawn Studio&lt;/a&gt;&lt;br /&gt;
+ • &lt;a href=&quot;https://forums.alliedmods.net/showthread.php?t=289127&quot;&gt;BasicPawn&lt;/a&gt;&lt;br /&gt;
+ • Và một số trình biên soạn khác…&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1giới-thiệu-1-chút-về-spedit&quot;&gt;1.Giới thiệu 1 chút về &lt;a href=&quot;https://forums.alliedmods.net/showthread.php?t=259917&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SpEdit&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;/image/SourceMod/logoSpEdit.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;
+Mở trình biên dịch SpEdit.exe lên và khởi tạo một file có đuôi là .sp ví dụ untitle.sp
+Khai báo thư viện như C/C++ sẽ có lệnh như sau: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;#include 'tên file nguồn'&lt;/code&gt;&lt;/strong&gt;. Để trình biên soạn dẫn và đọc file nguồn để ghi nhớ câu lệnh.&lt;/p&gt;
+
+&lt;h2 id=&quot;2thiết-lập-thông-tin-cho-plugins&quot;&gt;2.Thiết lập thông tin cho plugins&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Bây giờ chúng ta đã có quyền truy cập vào các tính năng của SourceMod, đã đến lúc thiết lập thông tin sẽ được hiển thị thông qua lệnh sm plugins list. Không ai thích các plugin không tên.&lt;/p&gt;
+
+&lt;p&gt;Để làm điều đó, chúng ta sẽ xem xét bên trong tệp &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sourcemod.inc&lt;/code&gt;&lt;/strong&gt; và xem định dạng thông tin sẽ được khai báo.&lt;/p&gt;
+
+&lt;p&gt;Luôn luôn hữu ích khi xem bên trong SM bao gồm các tệp để tìm hiểu thông tin bạn không biết. Ngoài ra còn có một tài liệu API nhưng nó có thể bị lỗi thời và nó chỉ có các tệp lõi SM nên nếu plugin của bạn sẽ sử dụng bất kỳ tiện ích mở rộng của bên thứ ba hoặc plugin nào khác, &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bạn sẽ phải nghiên cứu các file inc&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Vì vậy, hãy mở &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sourcemod.inc&lt;/code&gt;&lt;/strong&gt; và cuộn xuống một chút cho đến khi bạn thấy điều này:&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Plugin public information.&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Plugin&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;                  &lt;span class=&quot;cm&quot;&gt;/**&amp;lt; Tên Plugin */&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;description&lt;/span&gt;            &lt;span class=&quot;cm&quot;&gt;/**&amp;lt; Mô tả Plugin */&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;              &lt;span class=&quot;cm&quot;&gt;/**&amp;lt; Tác giả viết Plugin */&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;             &lt;span class=&quot;cm&quot;&gt;/**&amp;lt; Phiên bản Plugin */&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;                &lt;span class=&quot;cm&quot;&gt;/**&amp;lt; Link Nguồn Plugin */&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;};&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;và đây:&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+    &lt;span class=&quot;cm&quot;&gt;/*
+        * Khai báo đây là một cấu trúc trong plugin của bạn để hiển thị thông tin của nó.
+        * Ví dụ
+        */&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Plugin&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myinfo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ten_plugin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;;&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;//tiếp... &lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Nó cho chúng ta biết rằng chúng ta cần tạo một biến &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public Plugin myinfo&lt;/code&gt;&lt;/strong&gt;, biến này phải thuộc loại Plugin, là một cấu trúc có 5 trường mà và thuộc kiểu dữ liệu là các chuỗi.&lt;/p&gt;
+
+&lt;p&gt;Nghe có vẻ phức tạp đối với người mới bắt đầu nhưng rất dễ dàng. Hãy tiếp tục và tạo một cái:&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+    &lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sourcemod&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Plugin&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myinfo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;My First Plugin&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;author&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Me&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;description&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;My first plugin ever&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;version&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;1.0&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;http://www.sourcemod.net/&quot;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;};&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;3bắt-mã-để-chạy&quot;&gt;3.Bắt mã để chạy&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;chúng ta đã bao gồm các tính năng của SourceMod và thông tin bổ sung hoặc plugin. Bây giờ chúng ta có một plugin được định dạng hoàn hảo có thể được biên dịch và tải bởi SourceMod.&lt;/p&gt;
+
+&lt;p&gt;Tuy nhiên, có một vấn đề - nó không làm gì cả. Bạn có thể bắt đầu viết mã sau khai báo &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;myinfo&lt;/code&gt;&lt;/strong&gt; chỉ để thấy rằng nó sẽ không biên dịch. &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SourcePawn&lt;/code&gt;&lt;/strong&gt;, không giống như các ngôn ngữ kịch bản khác như &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Lua&lt;/code&gt;&lt;/strong&gt;, không cho phép mã nằm ngoài các hàm. Sau khi đọc điều đó, có lẽ bạn chỉ muốn xác định một số chức năng, đặt tên chính là có thể, biên dịch và tải một plugin và thấy rằng mã của bạn không bao giờ được gọi.&lt;/p&gt;
+
+&lt;p&gt;Vì vậy, làm thế nào để chúng ta gọi &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SourceMod&lt;/code&gt;&lt;/strong&gt; mã của chúng ta? Vì lý do chính xác này, chúng ta phải chuyển tiếp. Chuyển tiếp là các nguyên mẫu hàm do một bên khai báo có thể được bên khác triển khai dưới dạng gọi lại. Khi bên thứ nhất bắt đầu cuộc gọi chuyển tiếp, tất cả các bên có cuộc gọi lại phù hợp sẽ nhận cuộc gọi.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SourceMod&lt;/code&gt;&lt;/strong&gt; khai báo rất nhiều chuyển tiếp thú vị mà chúng ta có thể triển khai. Như bạn có thể thấy, chuyển tiếp là cách duy nhất để mã của chúng ta được thực thi, hãy ghi nhớ điều đó. Vì vậy, hãy thực hiện &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;OnPluginStart&lt;/code&gt;&lt;/strong&gt; về phía trước. Như bạn có thể đoán, nó được gọi khi plugin của chúng ta khởi động. Để làm điều đó, chúng ta sẽ phải tra cứu khai báo của &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;OnPluginStart&lt;/code&gt;&lt;/strong&gt;. Nó được khai báo bên trong &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sourcemod.inc&lt;/code&gt;&lt;/strong&gt;, một tệp chúng ta đã quen thuộc.&lt;/p&gt;
+
+&lt;p&gt;Dấu ngoặc đơn trống cho chúng ta biết rằng không có đối số nào được chuyển vào bên trong &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;forward&lt;/code&gt;&lt;/strong&gt; này, tài liệu bên trong &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;@noreturn&lt;/code&gt;&lt;/strong&gt; cho chúng ta biết rằng chúng ta không phải trả về bất cứ thứ gì, khá đơn giản về phía trước.&lt;/p&gt;
+
+&lt;p&gt;Vậy làm thế nào để viết một cuộc gọi lại chính xác cho nó? Thứ nhất, lệnh gọi lại của chúng ta phải có cùng tên, vì vậy đó là &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;OnPluginStart&lt;/code&gt;&lt;/strong&gt;, thứ hai, lệnh gọi lại của chúng ta phải có cùng số lượng đối số, không có đối số nào trong trường hợp này và cuối cùng, &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SourceMod&lt;/code&gt;&lt;/strong&gt; cần có thể gọi lệnh gọi lại của chúng ta nên nó cần được công khai. Vì vậy, việc triển khai trông như thế này:&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+  &lt;span class=&quot;cm&quot;&gt;/**
+        * Được gọi khi plugin được khởi tạo hoàn toàn và tất cả các tham chiếu bên ngoài đã biết
+        * được giải quyết. Điều này chỉ được gọi một lần trong vòng đời của plugin và
+        * được ghép nối với OnPluginEnd().
+        *
+        * Nếu bất kỳ lỗi thời gian chạy nào được đưa ra trong quá trình gọi lại này, plugin sẽ được đánh dấu
+        * như không thành công.
+        *
+        * Không cần thiết phải đóng bất kỳ handles hoặc loại bỏ hooks trong function này.  
+        * SourceMod đảm bảo rằng plugin tắt tự động và phát hành chính xác 
+        * tất cả tài nguyên.
+        *
+        * @noreturn
+        */&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;forward&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;OnPluginStart&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Bây giờ chúng ta có thể viết mã bên trong dấu ngoặc nhọn và nó sẽ được thực thi khi plugin của chúng ta khởi động. Hãy xuất &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Hello world!&quot;&lt;/code&gt;&lt;/strong&gt; đến bảng điều khiển máy chủ.&lt;/p&gt;
+
+&lt;p&gt;Để làm điều đó, chúng ta sẽ sử dụng chức năng &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;PrintToServer&lt;/code&gt;&lt;/strong&gt;. Nó được khai báo bên trong &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;console.inc&lt;/code&gt;&lt;/strong&gt;, tuy nhiên, chúng ta không cần phải bao gồm &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;console.inc&lt;/code&gt;&lt;/strong&gt; theo cách thủ công vì nó được tự động đưa vào như một phần của &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sourcemod.inc&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+    &lt;span class=&quot;cm&quot;&gt;/**
+        * Print message đến bảng điều khiển máy chủ.
+        *
+        * @param format		Quy tắc định dạng.
+        * @param ...			Số lượng tham số định dạng thay đổi.
+        * @noreturn
+        */&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;native&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;PrintToServer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;any&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Như bạn có thể thấy, đây là một hàm gốc. Nó được thực hiện bên trong lõi SM. Đánh giá bằng các đối số của nó, chúng ta có thể thấy rằng nó là một hàm lớp định dạng. Tuy nhiên, hiện tại chúng ta không cần bất kỳ định dạng nào, vì vậy chúng ta chỉ cần chuyển chuỗi  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Hello world!&quot;&lt;/code&gt;&lt;/strong&gt; như là một đối số duy nhất:&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;OnPluginStart&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;PrintToServer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello world!&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Code đầy đủ trong một plugin chúng ta vừa viết có dạng như sau:&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+    &lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sourcemod&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Plugin&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myinfo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;My First Plugin&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;author&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Me&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;description&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;My first plugin ever&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;version&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;1.0&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;http://www.sourcemod.net/&quot;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;};&lt;/span&gt;
+    
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;OnPluginStart&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;PrintToServer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello world!&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Biên dịch và up plugin của bạn lên máy chủ của bạn và tự mình thấy rằng thông báo được hiển thị trong bảng điều khiển máy chủ.&lt;/p&gt;
+
+&lt;h2 id=&quot;includes&quot;&gt;Includes&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Pawn yêu cầu các tệp bao gồm, giống như C yêu cầu tệp tiêu đề. Bao gồm các tệp liệt kê tất cả các cấu trúc, chức năng, lệnh gọi lại và thẻ có sẵn. Có ba loại tệp bao gồm:&lt;/p&gt;
+
+&lt;p&gt;• Core - &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sourcemod.inc&lt;/code&gt;&lt;/strong&gt; và bất cứ thứ gì nó bao gồm. Tất cả đều được cung cấp bởi SourceMod’s Core.&lt;br /&gt;
+ • Extension - thêm phần phụ thuộc vào một phần mở rộng nhất định.&lt;br /&gt;
+ • Plugin - thêm phụ thuộc vào một plugin nhất định.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bao gồm các tệp được tải bằng cách sử dụng chỉ thị trình biên dịch &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;#include&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;commands&quot;&gt;Commands&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Ví dụ đầu tiên của chúng ta sẽ viết một lệnh Admin đơn giản để Slap một Player. Chúng ta sẽ tiếp tục mở rộng ví dụ này với nhiều tính năng hơn cho đến khi chúng ta có kết quả cuối cùng, hoàn chỉnh.&lt;/p&gt;
+
+&lt;h2 id=&quot;khai-báo&quot;&gt;Khai báo&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Trước tiên, hãy xem một lệnh Admim yêu cầu những gì. Các lệnh admin được register bằng cách khai báo hàm&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;RegAdminCmd&lt;/code&gt;&lt;/strong&gt;. Chúng yêu cầu &lt;strong&gt;“chuỗi lệnh thực thi”&lt;/strong&gt;, &lt;strong&gt;hàm được gọi&lt;/strong&gt;, &lt;strong&gt;cờ admin (flag)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Khai báo function, cách thức sử dụng &lt;a href=&quot;https://sm.alliedmods.net/new-api/console/ConCmd&quot;&gt;&lt;strong&gt;tại đây&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Cách viết:&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;OnPluginStart&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;RegAdminCmd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sm_myslap&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Command_MySlap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ADMFLAG_SLAY&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Action&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Command_MySlap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Bây giờ chúng tata đã thực hiện thành công một lệnh - mặc dù nó chưa thực hiện được gì. Trong thực tế, nó sẽ báo “Lệnh không xác định” nếu bạn sử dụng nó! Điều này là do bạn không trả về Plugin_Handled trong cuộc gọi lại của bạn.&lt;/p&gt;
+
+&lt;p&gt;Vì bạn chưa đăng ký nên &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SourceMod&lt;/code&gt;&lt;/strong&gt; tin rằng bạn không muốn &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Source Engine&lt;/code&gt;&lt;/strong&gt; biết lệnh đã được đăng ký và nó xử lý như vậy. Do &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SourceMod&lt;/code&gt;&lt;/strong&gt; mong đợi &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;function&lt;/code&gt;&lt;/strong&gt; của bạn &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;return Plugin_Handled&lt;/code&gt;&lt;/strong&gt; là do thẻ Action bạn đặt trong nguyên mẫu của hàm. Thẻ Hành động chỉ định rằng &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Command_MySlap&lt;/code&gt;&lt;/strong&gt; phải trả về một trong bốn điều. Xem liệt kê &lt;a href=&quot;https://sm.alliedmods.net/new-api/core/Action&quot;&gt;&lt;strong&gt;Action&lt;/strong&gt;&lt;/a&gt; trong &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;API sourcemod&lt;/code&gt;&lt;/strong&gt; để tìm hiểu thêm về các loại trả lại này và khi nào sử dụng chúng.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Action&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Command_MySlap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Plugin_Handled&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Bây giờ lệnh sẽ không báo lỗi, nhưng nó vẫn không làm gì cả. Điều này là do việc trả về “Plugin_Handled” trong lệnh gọi lại lệnh sẽ ngăn engine xử lý lệnh. Động cơ thậm chí sẽ không bao giờ thấy rằng lệnh đã được chạy. Đây là những gì bạn sẽ muốn làm nếu bạn đang đăng ký một lệnh hoàn toàn mới thông qua &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SourceMod&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;thực-thi&quot;&gt;Thực thi&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Hãy quyết định lệnh sẽ như thế nào. Hãy để nó hoạt động giống như lệnh sm_slap mặc định:&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+    &lt;span class=&quot;n&quot;&gt;sm_myslap&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;userid&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Để thực hiện điều này, chúng ta sẽ cần một vài bước:&lt;/p&gt;
+
+&lt;p&gt;• Get the input from the console. For this we use &lt;a href=&quot;https://sm.alliedmods.net/new-api/console/GetCmdArg&quot;&gt;&lt;strong&gt;GetCmdArg()&lt;/strong&gt;&lt;/a&gt;.
+ • Find a matching player. For this we use &lt;a href=&quot;https://sm.alliedmods.net/new-api/helpers/FindTarget&quot;&gt;&lt;strong&gt;FindTarget()&lt;/strong&gt;&lt;/a&gt;.
+ • Slap them. For this we use &lt;a href=&quot;https://sm.alliedmods.net/new-api/sdktools_functions/SlapPlayer&quot;&gt;&lt;strong&gt;SlapPlayer()&lt;/strong&gt;&lt;/a&gt;, which requires including sdktools, an extension bundled with SourceMod.
+ • Respond to the admin. For this we use &lt;a href=&quot;https://sm.alliedmods.net/new-api/console/ReplyToCommand&quot;&gt;&lt;strong&gt;ReplyToCommand()&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ví dụ mẫu đầy đủ:&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+    &lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sourcemod&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sdktools&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Plugin&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myinfo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;My First Plugin&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;author&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Me&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;description&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;My first plugin ever&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;version&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;1.0.0.0&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;http://www.sourcemod.net/&quot;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;OnPluginStart&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;RegAdminCmd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sm_myslap&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Command_MySlap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ADMFLAG_SLAY&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;// Bắt buộc đối với câu trả lời không thành công của FindTarget&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;LoadTranslations&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;common.phrases.txt&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; 
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Action&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Command_MySlap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+    
+        &lt;span class=&quot;cm&quot;&gt;/* Theo mặc định, chúng ta đặt damage = 0 */&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    
+        &lt;span class=&quot;cm&quot;&gt;/* Lấy đối số đầu tiên */&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;GetCmdArg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
+    
+        &lt;span class=&quot;cm&quot;&gt;/* Nếu có từ 2 đối số trở lên, chúng ta đặt damage cho
+                    * những gì người dùng chỉ định. Nếu một thiệt hại không được chỉ định
+                    * sau đó nó sẽ ở mức 0. 
+                    */&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;nc&quot;&gt;GetCmdArg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arg2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;StringToInt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arg2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    
+        &lt;span class=&quot;cm&quot;&gt;/* Try and find a matching player */&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;FindTarget&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;target&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;cm&quot;&gt;/* FindTarget() tự động trả lời với
+                                * lý do thất bại và trả về -1 nên chúng ta biết 0
+                                * tiếp tục...
+                                */&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Plugin_Handled&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    
+        &lt;span class=&quot;nc&quot;&gt;SlapPlayer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;ReplyToCommand&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;[SM] You slapped %N for %d damage!&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Plugin_Handled&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Để biết thêm thông tin về %N và %d là gì, hãy xem &lt;a href=&quot;https://wiki.alliedmods.net/Format_Class_Functions_(SourceMod_Scripting)&quot;&gt;&lt;strong&gt;function&lt;/strong&gt;&lt;/a&gt; lớp định dạng. Lưu ý rằng bạn không bao giờ cần hủy đăng ký hoặc xóa lệnh Admin của mình. Khi một plugin được tải xuống, SourceMod sẽ dọn dẹp nó cho bạn.&lt;/p&gt;
+
+&lt;h2 id=&quot;convars&quot;&gt;ConVars&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Tính năng tiện dụng của &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ConVars&lt;/code&gt;&lt;/strong&gt; là chúng dễ dàng cấu hình cho người dùng. Chúng có thể được đặt trong bất &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;file .cfg&lt;/code&gt;&lt;/strong&gt; nào, chẳng hạn như &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;server.cfg&lt;/code&gt;&lt;/strong&gt; hoặc &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sourcemod.cfg&lt;/code&gt;&lt;/strong&gt;. Để làm cho việc này dễ dàng hơn, SourceMod có chức năng &lt;a href=&quot;https://sm.alliedmods.net/new-api/sourcemod/AutoExecConfig&quot;&gt;&lt;strong&gt;AutoExecConfig()&lt;/strong&gt;&lt;/a&gt;. Chức năng này sẽ tự động tạo một &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;file .cfg&lt;/code&gt;&lt;/strong&gt; mặc định chứa tất cả các &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cvars&lt;/code&gt;&lt;/strong&gt; của bạn, được chú thích bằng nhận xét, cho người dùng. Rất khuyến khích bạn gọi nó nếu bạn có &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ConVars&lt;/code&gt;&lt;/strong&gt; có thể tùy chỉnh.&lt;/p&gt;
+
+&lt;p&gt;Hãy mở rộng ví dụ của bạn từ trước với một ConVar mới. ConVar của chúng tôi sẽ là &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;g_cvarMySlapDamage&lt;/code&gt;&lt;/strong&gt; và sẽ chỉ định &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;damage&lt;/code&gt;&lt;/strong&gt; mặc định mà ai đó bị tát nếu không có thiệt hại nào được chỉ định.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+    &lt;span class=&quot;nc&quot;&gt;ConVar&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;g_cvarMySlapDamage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;OnPluginStart&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;RegAdminCmd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sm_myslap&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Command_MySlap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ADMFLAG_SLAY&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    
+        &lt;span class=&quot;n&quot;&gt;g_cvarMySlapDamage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;CreateConVar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sm_myslap_damage&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;5&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Default slap damage&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;AutoExecConfig&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;plugin_myslap&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Action&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Command_MySlap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;g_cvarMySlapDamage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;IntValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    
+        &lt;span class=&quot;cm&quot;&gt;/* Phần còn lại vẫn không thay đổi! */&lt;/span&gt;
+    
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;hiển-thị-hoạt-động-ghi-nhật-ký&quot;&gt;Hiển thị Hoạt động, Ghi nhật ký&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Hầu hết tất cả các lệnh Admin sẽ ghi lại hoạt động của chúng và một số lệnh Admin sẽ hiển thị hoạt động của chúng cho các Client trong trò chơi. Điều này có thể được thực hiện thông qua các function &lt;a href=&quot;https://sm.alliedmods.net/new-api/logging/LogAction&quot;&gt;&lt;strong&gt;LogAction()&lt;/strong&gt;&lt;/a&gt; và &lt;a href=&quot;https://sm.alliedmods.net/new-api/console/ShowActivity2&quot;&gt;&lt;strong&gt;ShowActivity2()&lt;/strong&gt;&lt;/a&gt;. Chức năng chính xác của &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ShowActivity2()&lt;/code&gt;&lt;/strong&gt; được xác định bởi cvar &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sm_show_activity&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+        &lt;span class=&quot;nc&quot;&gt;SlapPlayer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    
+        &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;MAX_NAME_LENGTH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+    
+        &lt;span class=&quot;nc&quot;&gt;GetClientName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
+    
+        &lt;span class=&quot;nc&quot;&gt;ShowActivity2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;[SM] &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Slapped %s for %d damage!&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;LogAction&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;\&quot;%L\&quot; slapped \&quot;%L\&quot; (damage %d)&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Plugin_Handled&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;multiple-targets&quot;&gt;Multiple Targets&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Để hoàn thành đầy đủ phần thực thi Slap của chúng ta, hãy làm cho nó hỗ trợ &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;multiple targets&lt;/code&gt;&lt;/strong&gt;. &lt;a href=&quot;https://wiki.alliedmods.net/Admin_Commands_(SourceMod)#How_to_Target&quot;&gt;&lt;strong&gt;targeting sytem&lt;/strong&gt;&lt;/a&gt; của SourceMod khá tiên tiến, vì vậy việc sử dụng nó lúc đầu có vẻ phức tạp.&lt;/p&gt;
+
+&lt;p&gt;Hàm chúng tôi sử dụng là &lt;a href=&quot;https://sm.alliedmods.net/new-api/commandfilters/ProcessTargetString&quot;&gt;&lt;strong&gt;ProcessTargetString()&lt;/strong&gt;&lt;/a&gt;. Nó nhận đầu vào từ bảng điều khiển và trả về danh sách các máy khách phù hợp. Nó cũng trả về một danh từ sẽ xác định một khách hàng duy nhất hoặc mô tả một danh sách các khách hàng. Ý tưởng là sau đó mỗi Client sẽ được xử lý, nhưng hoạt động hiển thị cho tất cả người chơi chỉ được xử lý một lần. Điều này làm &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;spam message&lt;/code&gt;&lt;/strong&gt; trên màn hình.&lt;/p&gt;
+
+&lt;p&gt;Phương pháp xử lý đích này được sử dụng cho hầu hết mọi lệnh Admin trong SourceMod và trên thực tế, &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;FindTarget()&lt;/code&gt;&lt;/strong&gt; chỉ là một phiên bản đơn giản hóa.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+    &lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sourcemod&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sdktools&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    
+    &lt;span class=&quot;nc&quot;&gt;ConVar&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;g_cvarMySlapDamage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Plugin&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myinfo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;My First Plugin&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;author&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Me&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;description&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;My first plugin ever&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;version&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;1.0.0.0&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;http://www.sourcemod.net/&quot;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;OnPluginStart&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;RegAdminCmd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sm_myslap&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Command_MySlap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ADMFLAG_SLAY&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;LoadTranslations&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;common.phrases.txt&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    
+        &lt;span class=&quot;n&quot;&gt;g_cvarMySlapDamage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;CreateConVar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sm_myslap_damage&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;5&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Default slap damage&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;AutoExecConfig&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;plugin_myslap&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Action&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Command_MySlap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;g_cvarMySlapDamage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;IntValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    
+        &lt;span class=&quot;cm&quot;&gt;/* Get the first argument */&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;GetCmdArg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
+    
+        &lt;span class=&quot;cm&quot;&gt;/*Nếu có 2 hoặc nhiều đối số và đối số thứ hai tìm nạp
+         * thành công, hãy chuyển nó thành một số nguyên.
+         */&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;GetCmdArg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arg2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)))&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;StringToInt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arg2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+            
+        &lt;span class=&quot;cm&quot;&gt;/**
+                    * target_name - lưu trữ tên và xác định các target
+                    * target_list - mảng để lưu trữ danh sách Client
+                    * target_count - biến để lưu trữ số lượng Client
+                    * tn_is_ml - lưu trữ liệu danh từ có phải được dịch hay không
+                    */&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target_name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;MAX_TARGET_LENGTH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target_list&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;MAXPLAYERS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target_count&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tn_is_ml&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;target_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ProcessTargetString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;target_list&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;no&quot;&gt;MAXPLAYERS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;no&quot;&gt;COMMAND_FILTER_ALIVE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;cm&quot;&gt;/* Chỉ cho phép người chơi còn sống */&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;target_name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;target_name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;),&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;tn_is_ml&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;cm&quot;&gt;/* Chức năng này trả lời Admin bằng thông báo lỗi */&lt;/span&gt;
+            &lt;span class=&quot;nc&quot;&gt;ReplyToTargetError&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target_count&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Plugin_Handled&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    
+        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target_count&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++)&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;nc&quot;&gt;SlapPlayer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;target_list&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;nc&quot;&gt;LogAction&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target_list&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;\&quot;%L\&quot; slapped \&quot;%L\&quot; (damage %d)&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target_list&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tn_is_ml&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;nc&quot;&gt;ShowActivity2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;[SM] &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Slapped %t for %d damage!&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target_name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;nc&quot;&gt;ShowActivity2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;[SM] &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Slapped %s for %d damage!&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target_name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Plugin_Handled&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;events&quot;&gt;Events&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Events&lt;/code&gt;&lt;/strong&gt; là các thông báo &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;notification&lt;/code&gt;&lt;/strong&gt; thông tin được truyền giữa các đối tượng trong Server. Nhiều cũng được chuyển từ Server đến Client. Chúng được định nghĩa trong các &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;file .res&lt;/code&gt;&lt;/strong&gt; trong thư mục &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hl2/resource&lt;/code&gt;&lt;/strong&gt; và các thư mục &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;resource&lt;/code&gt;&lt;/strong&gt; của các mod cụ thể. Để biết danh sách cơ bản, hãy xem &lt;a href=&quot;https://wiki.alliedmods.net/Game_Events_(Source)&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Source Game Events&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Điều quan trọng cần lưu ý một vài khái niệm về các sự kiện:&lt;/p&gt;
+
+&lt;p&gt;• Chúng hầu như luôn luôn cung cấp thông tin. Tức là, chặn &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;player_death&lt;/code&gt;&lt;/strong&gt; sẽ không ngăn một người chơi chết. Nó có thể chặn tin nhắn &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;HUD&lt;/code&gt;&lt;/strong&gt; hoặc &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;console message&lt;/code&gt;&lt;/strong&gt; hoặc thứ gì đó nhỏ.&lt;br /&gt;
+ • Họ hầu như luôn sử dụng các &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;userids&lt;/code&gt;&lt;/strong&gt; thay vì các chỉ mục client.&lt;br /&gt;
+ • Chỉ vì nó nằm trong một tệp tài nguyên không có nghĩa là nó đã từng được gọi hoặc hoạt động theo cách bạn mong đợi. Các mod nổi tiếng là không ghi lại đúng chức năng sự kiện của chúng.&lt;/p&gt;
+
+&lt;p&gt;An example of finding when a player dies:&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;OnPluginStart&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;HookEvent&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;player_death&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Event_PlayerDeath&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Event_PlayerDeath&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Event&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dontBroadcast&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;victim_id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;GetInt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;userid&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;attacker_id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;GetInt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;attacker&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        
+        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;victim&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;GetClientOfUserId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;victim_id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;attacker&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;GetClientOfUserId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;attacker_id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        
+        &lt;span class=&quot;cm&quot;&gt;/* CODE */&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Panadora</name></author><category term="[&quot;SourceMod&quot;, &quot;games&quot;]" /><summary type="html">SourceMod là máy chủ sửa đổi cho bất kỳ trò chơi chạy trên Half-Life 2 động cơ...</summary></entry><entry><title type="html">Giới thiệu về SourceMod</title><link href="http://localhost:4000/SourceMod-Tutorial.html" rel="alternate" type="text/html" title="Giới thiệu về SourceMod" /><published>2020-08-06T00:00:00+07:00</published><updated>2020-08-06T00:00:00+07:00</updated><id>http://localhost:4000/SourceMod-Tutorial</id><content type="html" xml:base="http://localhost:4000/SourceMod-Tutorial.html">&lt;p&gt;&lt;img src=&quot;/image/SourceMod/logo.png&quot; alt=&quot;image-logo&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;1giới-thiệu-về-sourcemod&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;1.giới thiệu về SourceMod&lt;/code&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;SourceMod là modify cho bất kỳ trò chơi chạy trên Half-Life Engine. Nó là một giải pháp mạnh mẽ, tối ưu hóa nền tảng cho các plugin/script và quản lý, xử lý máy chủ. Gói mặc định đi kèm với một bộ phần bổ trợ cơ sở, nhưng có hơn 2.500 plugin trong cộng đồng.&lt;/p&gt;
+
+&lt;h3 id=&quot;2các-tính-năng-cơ-bản&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2.Các tính năng cơ bản&lt;/code&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;. Hệ thống quyền sử dụng tốt và dễ dàng (Khả năng tương thích vs SQL)&lt;br /&gt;
+ . Cấu hình menu quản trị nghiêm ngặc&lt;br /&gt;
+ . Quyền slots riêng biệt&lt;br /&gt;
+ . Các plugin quản lý bản đồ linh hoạt (nominations, rock the vote, etc)&lt;br /&gt;
+ . Các lệnh cơ bản như kick /ban /slap /mutee người chơi, thay đổi cvars, etc&lt;br /&gt;
+ . Các lệnh biểu quyết khác nhau&lt;br /&gt;
+ . Chống spam chat message&lt;br /&gt;
+ . Trình kích hoạt trò chuyện toàn diện cho cả người dùng và quản trị viên&lt;br /&gt;
+ . Dễ dàng chuyển đổi&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3tính-năng-script-developers&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;3.Tính năng script (Developers)&lt;/code&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;. Administration&lt;/strong&gt; - API toàn diện để phát triển hệ thống admin.&lt;br /&gt;
+ &lt;strong&gt;. Clients&lt;/strong&gt; - Làm việc với thông tin khách hàng trong trò chơi và cuộc gọi lại.&lt;br /&gt;
+ &lt;strong&gt;. Commands&lt;/strong&gt; - Creation, hooking, và overriding của client và server trong bảng điều khiển dòng lệnh.&lt;br /&gt;
+ &lt;strong&gt;. ConVars&lt;/strong&gt; - Creation, hooking, và retrieval của biến bảng dòng lệnh.&lt;br /&gt;
+ &lt;strong&gt;. Database&lt;/strong&gt; - Quyền truy cập dữ cơ sở dữ liệu nhanh gọn.&lt;br /&gt;
+ &lt;strong&gt;. Engine&lt;/strong&gt; - Truy cập vào nhiều tính năng của Half-Life 2 Engine, với nhiều tính năng liên tục được bổ sung.&lt;br /&gt;
+ &lt;strong&gt;. Entities&lt;/strong&gt; - Thay đổi và truy xuất các thuộc tính thực thể, và cả viết tên và đánh số.&lt;br /&gt;
+ &lt;strong&gt;. Events&lt;/strong&gt; - Tạo, kích hoạt và kết nối GameEvents Half-Life 2.&lt;br /&gt;
+ &lt;strong&gt;. Files&lt;/strong&gt; - Quyền truy cập vào hệ thống tệp.&lt;br /&gt;
+ &lt;strong&gt;. IPC&lt;/strong&gt; - Giao tiếp nâng cao giữa các plugin, tương tự như &lt;strong&gt;&lt;a href=&quot;https://www.amxmodx.org/&quot;&gt;AMX Mod X&lt;/a&gt;&lt;/strong&gt;.&lt;br /&gt;
+ &lt;strong&gt;. Menus&lt;/strong&gt; - Biến API để tạo menu thống nhất giữa các mod.&lt;br /&gt;
+ &lt;strong&gt;. Messages&lt;/strong&gt; - Gửi và kết nối Tin nhắn người dùng.&lt;br /&gt;
+ &lt;strong&gt;. Parsing&lt;/strong&gt; - Phân tích văn bản tiên tiến, tối ưu hóa cao.&lt;br /&gt;
+ &lt;strong&gt;. Timers&lt;/strong&gt; - Tạo các sự kiện theo thời gian.&lt;br /&gt;
+ &lt;strong&gt;. Translation&lt;/strong&gt; - Tra cứu tệp cụm từ đa ngôn ngữ.&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4điều-gì-làm-cho-sourcemod-khác-biệt--developers&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;4.Điều gì làm cho SourceMod khác biệt ? (Developers)&lt;/code&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;. Speed&lt;/strong&gt; - SourceMod dễ viết dễ mod tương thích nhanh với Engine Source. Mọi plugin đều được tải vào bộ nhớ và được chuyển đổi thành mã máy tính. Chúng tôi rất cẩn thận để đảm bảo mọi vùng nóng trong SourceMod đều nhanh như mong đợi. Ngôn ngữ kịch bản được nhập tĩnh và không bắt buộc lưu file rác.&lt;br /&gt;
+ &lt;strong&gt;. API&lt;/strong&gt; - Phần lớn công việc trong SourceMod xảy ra trong việc làm cho API trở nên tốt nhất có thể. Khi thêm bất kỳ giao diện hoặc chức năng nào.&lt;br /&gt;
+&lt;strong&gt;Extensibility&lt;/strong&gt; - SourceMod hoàn toàn có thể mở rộng. SourceMod cung cấp một API/C++ hoàn chỉnh để mở rộng cả SourceMod và Plugin event/native API.&lt;br /&gt;
+&lt;strong&gt;Open-Source&lt;/strong&gt; - SourceMod, Phần mở rộng của nó và plugins của nó, đều là mã nguồn mở theo Giấy phép Công cộng GNU!.&lt;/p&gt;
+
+&lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;
+    Có thể sẽ không xác nghĩa gốc nhưng mình đã cố gắn sub cho nó dễ hiểu hơn còn ae muốn xem bản tiếng anh 
+    thì các bạn có thể truy cập bài SourceMod gốc.
+
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Hướng dẫn này sẽ cung cấp cho bạn một giới thiệu cơ bản để chương trình viết một plugin &lt;kbd&gt;Sourcemod&lt;/kbd&gt;. Nếu bạn không quen thuộc với ngôn ngữ &lt;kbd&gt;SourcePawn&lt;/kbd&gt;, đó là khuyến cáo rằng bạn ít nhất một thời gian ngắn đọc giới thiệu về bài viết &lt;kbd&gt;SourcePawn&lt;/kbd&gt; .&lt;/p&gt;
+
+&lt;p&gt;• &lt;a href=&quot;https://forums.alliedmods.net/showthread.php?t=259917&quot;&gt;SpEdit&lt;/a&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Khuyên dùng vì nó gần như đầy đủ từ file compile.exe đến thư viện viết plugins SourceMod&lt;/code&gt;&lt;br /&gt;
+ • &lt;a href=&quot;https://www.crimsoneditor.com/&quot;&gt;Crimsion Editor&lt;/a&gt;&lt;br /&gt;
+ • &lt;a href=&quot;http://www.pspad.com/&quot;&gt;PsPad&lt;/a&gt;&lt;br /&gt;
+ • &lt;a href=&quot;http://www.ultraedit.com/&quot;&gt;UltraEdit&lt;/a&gt;&lt;br /&gt;
+ • &lt;a href=&quot;https://notepad-plus-plus.org/&quot;&gt;Notepad++&lt;/a&gt;&lt;br /&gt;
+ • &lt;a href=&quot;https://www.textpad.com/&quot;&gt;TextPad&lt;/a&gt;&lt;br /&gt;
+ • &lt;a href=&quot;http://sourceforge.net/projects/pawnstudio/&quot;&gt;Pawn Studio&lt;/a&gt;&lt;br /&gt;
+ • &lt;a href=&quot;https://forums.alliedmods.net/showthread.php?t=289127&quot;&gt;BasicPawn&lt;/a&gt;&lt;br /&gt;
+ • Và một số trình biên soạn khác…&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;/sourcemods/huong-dan-viet-plugin-part-1.html&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;đi đến hướng dẫn viết Plugins&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;SourceMod&quot;, &quot;games&quot;]" /><summary type="html">SourceMod là máy chủ sửa đổi cho bất kỳ trò chơi chạy trên Half-Life 2 động cơ...</summary></entry><entry><title type="html">Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux</title><link href="http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html" rel="alternate" type="text/html" title="Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux" /><published>2020-08-04T00:00:00+07:00</published><updated>2020-08-04T00:00:00+07:00</updated><id>http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux</id><content type="html" xml:base="http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html">&lt;p&gt;Trên Windows để có thể đánh văn bản hay chat tin nhắn và một số thao tác khác bằng tiếng việt có dấu, thì buộc các bạn phải tải bộ gõ unikey tiếng việt để có thể sử dụng được. Nhưng còn trên các hệ điều hành linux thì sao, và bạn không thể nào dùng bộ gõ unikey tiếng việt trên windows choo linux được vì chúng vốn lập trình chỉ để thực thi được trên windows mà thôi, vì vậy bài viết này mình xin tổng hợp một số bộ gõ tiếng việt thông dụng hiện nay dành cho hệ điều hành linux nhá.&lt;/p&gt;
 
 &lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/202084UnikeyLinuxWallpaper.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -569,212 +1109,4 @@ Nguồn: &lt;a href=&quot;https://www.facebook.com/groups/linuxteamvietnam2018/p
 &lt;p&gt;Cảm ơn các bạn đã ghé qua blog của mình, đừng quên ấn nút share để bạn bè cùng biết đến nhé !&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://congnghevacuocsong.tk/khai-niem-mau-sac-trong-thiet-ke-p1&quot;&gt;khái niệm màu sắc trong thiết kế Phần 1&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;https://congnghevacuocsong.tk/khai-niem-mau-sac-trong-thiet-ke-p2&quot;&gt;khái niệm màu sắc trong thiết kế Phần 2&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;graphics&quot;, &quot;news&quot;, &quot;css&quot;]" /><category term="color" /><category term="graphics" /><category term="màu sắc" /><category term="khái niệm màu sắc" /><summary type="html">Chào các bạn, mình sẽ tiếp tục với series của khái niệm màu sắc trong thiết kế phần 3.</summary></entry><entry><title type="html">Một số thuật ngữ chuyên ngành CNTT</title><link href="http://localhost:4000/mot-so-thuat-ngu-chuyen-nganh-cntt.html" rel="alternate" type="text/html" title="Một số thuật ngữ chuyên ngành CNTT" /><published>2020-05-03T00:00:00+07:00</published><updated>2020-05-03T00:00:00+07:00</updated><id>http://localhost:4000/mot-so-thuat-ngu-chuyen-nganh-cntt</id><content type="html" xml:base="http://localhost:4000/mot-so-thuat-ngu-chuyen-nganh-cntt.html">&lt;p&gt;&lt;img src=&quot;/image/202053-title-image-tn.jpg&quot; alt=&quot;image-title-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Từ chuyên ngành luôn là hành trang cần thiết đối với một comtor, nhất là đối với một comtor chưa có kinh nghiệm trong lĩnh vực CNTT thì việc hiểu ý nghĩa của từ chuyên ngành cũng là một điều không thể thiếu. Chính vì vậy, trong bài viết này mình xin giới thiệu về khái niệm của một số từ chuyên ngành trong lĩnh vực CNTT này.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Archive ( Lưu trữ )&lt;/strong&gt; : Là phần mềm dùng để tổng hợp nhiều file vào chung 1 file. Nhờ việc tổng hợp này mà giảm được thời gian gửi nhận file qua network, bên cạnh đó việc quản lí ổ cứng cũng sẽ trở nên đơn giản hơn.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Account ( Tài khoản )&lt;/strong&gt; : Là tài khoản cần thiết khi sử dụng, hay còn gọi là quyền sử dụng resource trên máy tính hoặc trên network.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;data compression ( Nén dự liệu )&lt;/strong&gt; : Khôi phục lại trạng thái ban đầu của dữ liệu đã bị nén dung lượng.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Add in ( Add on / Thêm vào )&lt;/strong&gt; : Là chức năng mở rộng được bổ sung cho application. Để bổ sung thêm chức năng mở rộng, các application cần phải được thiết kế sao cho có thể ứng dụng được các chức năng này.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Application service provider ( Nhà cung cấp dịch vụ ứng dụng )&lt;/strong&gt; : Dùng để chỉ các nhà cung cấp thông qua internet thuê các phần mềm ứng dụng (application soft) phục vụ cho business để đáp ứng cho khách hàng. User sẽ thông qua trình duyệt Web để sử dụng application soft đã được cài đặt ở server lưu ASP.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Algorithm ( Thuật toán )&lt;/strong&gt; : Là trình tự xử lí để có thể thực hiện 1 hoặc nhiều thao tác trên máy tính, ngoài ra nó được ứng dụng để phát triển &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;trí tuệ nhân tạo (AI)&lt;/code&gt;&lt;/strong&gt; để xứ lý những công việc khó khăn hiện tại đến sau này.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Web Invisible Web ( web ẩn danh )&lt;/strong&gt; : Là nhóm các thông tin mà search engine không thể tìm ra được trong các thông tin được công khai ở &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;www.&lt;/code&gt;&lt;/strong&gt;, và nhóm thông tin này sẽ không được kiểm duyệt và bị loại bỏ hiện thị trên các trình duyệt có &lt;code class=&quot;highlighter-rouge&quot;&gt;Proxy&lt;/code&gt; máy chủ để bảo mật an toàn.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Infra (infrastructure / Cơ sở hạ tầng)&lt;/strong&gt; : Là từ tiếng Anh được dùng với ý nghĩa chỉ cấu tạo nền móng, cơ sở, có thể gọi tắt là infra. Trong lĩnh vực IT, từ này được dùng để nói đến các chế độ, thiết bị cơ sở cần thiết để cho các hệ thống được hoạt động có hiệu quả.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;HTML ( Hyper Text Markup Language )&lt;/strong&gt; : Là ngôn ngữ mark-up để tạo nên các Web page. HTML được sử dụng để tạo nên cấu trúc logic của văn bản hay diện mạo của trang web. Ngoài ra, cũng có thể chèn hình ảnh, âm thanh, video vào trong văn bản, hay cũng có thể chèn các hyper link đến các văn bản khác. Chúng ta sẽ sử dụng trình duyệt Web để xem các văn bản được tạo bằng HTML. Tuy nhiên, các văn bản HTML là một dạng của text nên khi mở HTML bằng text editor thì ở mỗi thẻ tag đều có thể đọc và viết giống như văn bản text.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;SSL ( chứng chỉ SSL )&lt;/strong&gt; : Là protocol được nhận và gửi sau khi thông tin được mã hóa trên internet như các bạn đã thấy các trang web có SSL sẽ hiển thị &lt;label style=&quot;color: green;&quot;&gt;https://&lt;/label&gt;, do công ty Netscape Communications phát triển. Sau khi mã hóa dữ liệu (data) như FTP, www được sử dụng rộng rãi trên mạng internet thì việc truyền gửi các thông tin liên quan đến privacy, sredit card number, bí mật doanh nghiệp,…trở nên dễ dàng hơn.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;SGML (Standard Generalized Mark-up Language)&lt;/strong&gt; : Là ngôn ngữ xây dựng cấu trúc logic, ý nghĩa cho văn bản. Có thể đánh dấu những phần có ý nghĩa đặc biệt ở trong văn bản như tiêu đề (title), trích dẫn,…&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;XHTML(Extensible Hyper Text Markup Language)&lt;/strong&gt; : Là ngôn ngữ markup để xác định lại HTML được dùng để tạo nên Web page, sao cho phù hợp với XML. Bên cạnh đó ngôn ngữ markup này được dùng để tạo nên cấu trúc, ý nghĩa của dữ liệu hay đoạn văn XML(Extensible Markup Language). Ngôn ngữ markup chính là ngôn ngữ chèn cấu tạo vào đoạn văn bằng các chuỗi kí tự đã được chỉ định trước được gọi là các thẻ tag. Vì user có thể chỉ định các thẻ tag cá nhân nên XML cũng được gọi là ngôn ngữ meta – ngôn ngữ dùng để tạo ngôn ngữ markup. Vốn dĩ XML được tạo ra như là một tập con (sub-set) của “SGML” có khả năng chỉ định các thẻ tag cá nhân giống nhau, và nó được tạo ra với mục tiêu là truyền gửi dữ liệu tùy ý giống như HTML. Xét về các tính chất khác thì XML phần lớn được sử dụng như là framework của các ngôn ngữ markup khác.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;OS (operating system)&lt;/strong&gt; : Là phần mềm quản lí toàn bộ hệ thống máy tính, cung cấp các chức năng cơ bản được sử dụng như các chức năng in/out: keyboard input, screen output, disk, quản lí memory,… Có thể gọi là “phần mềm cơ bản” hay được gọi với tên quen thuộc &lt;code class=&quot;highlighter-rouge&quot;&gt;Hệ Điều Hành&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Online storage&lt;/strong&gt; : Là dịch vụ cho mượn disk space dùng để lưu trữ file trên internet và được phân thành 2 loại: miễn phí và trả phí. Trường hợp dùng bản miễn phí, khi sử dụng sẽ hiển thị các mục quảng cáo.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Online translation service ( dịch vụ dịch thuật trực tuyến)&lt;/strong&gt; : Là dịch vụ sử dụng các application để dịch các web page, text được viết bằng ngôn ngữ mà user không đọc được và cung cấp bản dịch cho user.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Extension ( tiện ích mở rộng )&lt;/strong&gt; : cũng như (add-on) là tệp tin tiện ích bổ sung cho 1 ứng dụng nào đó, nếu ứng dụng đó được các nhà phát triển thêm vào thanh công cụ cho người dùng có thể lựa chọn phù hợp.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Customize&lt;/strong&gt; : Điều chỉnh lại thiết kế, setting của phần mềm và chỉnh sửa lại cho phù hợp với yêu cầu cá nhân của user.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cookie&lt;/strong&gt; : Là một dạng bản ghi được tạo ra và lưu trữ tạm thời trên máy tính thông qua trình duyệt Web.&lt;/p&gt;
-
-&lt;p&gt;Search engine optimization (SEO) : Là tập hợp các phương pháp nhằm đưa website lên vị trí TOP trong các trang kết quả của các công cụ tìm kiếm.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Control panel&lt;/strong&gt; : Là menu tập chung các phần mềm software để setting máy tính, OS. Thường được sử dụng cho các màn hình thao tác như Windows, Mac OS.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Server&lt;/strong&gt; : Trong mạng máy tính, server là máy tính cung cấp các dữ liệu, chức năng nó đang có cho các máy tính client. Nó tương ứng với www server trên mạng internet.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thumbnail&lt;/strong&gt; : Là ảnh đã được thu nhỏ để hiển thị nhiều ảnh trong 1 list.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JAVA&lt;/strong&gt; : Là ngôn ngữ lập trình do công ty Sun Microsystems phát triển. Java sử dụng hệ thống kí hiệu giống với ngôn ngữ C tuy nhiên ngôn ngữ Java được xây dựng trên những điểm yếu của các ngôn ngữ hiên tại, nó được trang bị định hướng đối tượng hoàn chỉnh cái mà ngôn ngữ hiện tại không có. Ngoài ra, ngôn ngữ này cũng được trang bị cơ chế bảo mật mạnh mẽ cũng như các chức năng liên quan đến network phong phú, chính vì vậy nó cũng đã trở thành một kĩ thuật được sử dụng nhiều trong môi trường network.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Integrated circuit (IC)&lt;/strong&gt; : Là bảng mạch điện tử có nhiều loại chức năng và được lắp đặt các chi tiết như là: transistor, điện trở, tụ điện, diode,…&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Spell checker&lt;/strong&gt; : Là chức năng kiểm tra chính tả do user input vào, word-processing software đều được trang bị chức năng này. Hiện tại chức năng này cũng được sử dụng nhiều cho phần mềm thư điện tử. Spell checker sẽ đưa ra cảnh báo khi phát hiện thấy lỗi chính tả (spell miss), user có thể chỉnh sửa lại cho đúng chính tả hoặc bổ sung từ đó thêm vào từ điển để sử dụng.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thread&lt;/strong&gt; :Là tập hợp nhiều bài viết thuộc cùng một chủ đề như bảng thông tin điện tử, news group, mailing list,… Do tập hợp nhiều bài viết trong cùng một thread nên user có thể dễ dàng lựa chọn chủ đề mà mình quan tâm.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt; : Là hệ thống thông tin dùng để thực hiện các yêu cầu, giải quyết các vấn đề nghiệp vụ. Các nhà cung cấp sẽ thiết kế hệ thống theo yêu cầu của khách hàng, tổng hợp các yếu tố cần thiết (hardware, software, đường truyền thông, nhân viên hỗ trợ,…) và cung cấp cho họ. Đây là từ mang nhiều ý nghĩa và thường được sử dụng với ý nghĩa về “sản phẩm được customize” hay “sản phẩm trọn gói bao gồm nhiều sản phẩm”&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Multiple language&lt;/strong&gt; : Là một bước trong việc đáp ứng đa ngôn ngữ của software, được xây dựng để đáp ứng cho nhiều loại ngôn ngữ khác nhau. User có thể thay đổi và cài đặt lại ngôn ngữ cho phù hợp với ngôn ngữ của mình sử dụng.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Decode&lt;/strong&gt; : Phục hồi lại dữ liệu bị mã hóa, hiểu nôm na dịch ngược ngôn ngữ máy thành ngôn ngữ bật cao, dựa trên các quy tắc nhất định để đưa ra dữ liệu gốc. Phần mềm giải mã được gọi là decode. Decode cũng được dùng cho các trường hợp như là phục hồi lại dữ liệu đã bị nén, giải mã hóa. Việc thực hiện mã hóa dữ liệu dựa trên các quy định bắt buộc được gọi là encode.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Database&lt;/strong&gt; : Là tập hợp các dữ liệu được chia sẻ bởi các user hay bởi các application. Ngoài ra, cũng có trường hợp data base bao gồm cả hệ thống quản lí.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Domain&lt;/strong&gt; : Là phần mở rộng hay còn biết đến với cách gọi là &lt;code class=&quot;highlighter-rouge&quot;&gt;tên miền&lt;/code&gt; nhằm thay thế cho Internet Protocol (IP) là những con số dấu chấm vô nghĩa với người dùng, nhầm để người dụng dễ nhớ dễ thao tác truy cập. Ví dụ như: &lt;code class=&quot;highlighter-rouge&quot;&gt;https://congnghevacuocsong.tk&lt;/code&gt; tên miền sẽ là ( congnghevacuocsong.tk ).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Normalize&lt;/strong&gt; : Thay đổi dữ liệu theo quy định nhất định để làm cho nó sử dụng dễ dàng hơn. Đây là từ được sử dụng ở nhiều lĩnh vực, tùy từng lĩnh vực mà ý nghĩa của từ này lại khác đi.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Script&lt;/strong&gt; : Là chương trình đơn giản dùng để thu gọn các thao tác chuyển đổi sang ngôn máy tính sao cho dễ dàng thực hiện. Thông thường, dựa trên source code do các lập trình viên viết các chương trình sẽ được chuyển đổi sang ngôn ngữ máy tính sao cho máy tính có thể hiểu và thực hiện được. Người ta gọi chương trình làm cho quá trình trên được tự động hóa và thực hiện một cách dễ dàng là Script. Trong ngôn ngữ dùng để mô tả scrip (ngôn ngữ scrip) có Perl, VBScript, JavaScript,…&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bytes&lt;/strong&gt; : Là đơn vị đo lượng thông tin. 1 bytes = 8 bit. Việc lưu trữ, xử lí thông tin, truyền tải của máy tính thường được tính bằng bytes.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hypertext&lt;/strong&gt; : Là một hệ thống văn bản sử dụng máy tính. Là cơ cấu có thể liên kết nhiều văn bản với nhau, chèn thông tin vị trí (hyperlink) của một văn bản vào một văn bản tùy chọn.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bug&lt;/strong&gt; : Là lỗi ở trong chương trình máy tính. Các chương trình trong máy tính là do con người tạo nên nên việc tạo ra một chương trình hoàn toàn không có lỗi là điều không thể. Do vậy, thao tác loại bỏ bug là một thao tác quan trong không thể thiếu trong quá trình phát triển phần mềm (thao tác này được gọi là “debug”). Thông thường người ta sử dụng phần mềm Debugger để hỗ trợ phát hiện ra và xử lí bug. Các nhân viên phát triển phần mềm khi phát hiện ra bug sẽ xử lí bug.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Optical disk&lt;/strong&gt; : Là phương tiện lưu trữ sử dụng chùm laser để đọc và ghi dữ liệu. Các ví dụ tiêu biểu cho Optical disk là CD, DVD, PD,…&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Firewall ( Tường lửa )&lt;/strong&gt; : Là hệ thống phòng tránh sự xâm nhập từ bên ngoài vào bên trong mạng lưới computer network của tổ chức. Ngoài ra, nó cũng được hiểu là máy tính có chứa các hệ thống như này.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Flash&lt;/strong&gt; : Là phần mềm do công ty Macromedia (nay là công ty Adobe) phát triển. Đây là phần mềm kết hợp âm thanh, animation của đồ họa vector để tạo nên Web content. Ngoài ra cũng có nhiều content được tạo ra bởi flash.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Proxy&lt;/strong&gt; : Là máy tính có thể kết nối trực tiếp với mạng internet, giúp cho các máy tính trong mạng nội bộ có thể kết nối với internet, máy này được gọi là Proxy.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Memory&lt;/strong&gt; : Là thiết bị lưu trữ dữ liệu gọi ngắn gọn là bộ nhớ, chương trình ở trong máy tính.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Usability&lt;/strong&gt; : Là tính năng “dễ sử dụng” của phần mềm hay của website. Có thể dễ dàng truy cập vào nhiều chức năng, không cảm thấy phiền toái hay khó chịu khi sử dụng chính là mục tiêu tối ưu của usability.&lt;/p&gt;
-
-&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;other&quot;, &quot;news&quot;]" /><summary type="html">Từ chuyên ngành luôn là hành trang cần thiết đối với một comtor</summary></entry><entry><title type="html">Tìm hiểu về distro linux</title><link href="http://localhost:4000/tim-hieu-ve-distro-linux.html" rel="alternate" type="text/html" title="Tìm hiểu về distro linux" /><published>2020-04-25T00:00:00+07:00</published><updated>2020-04-25T00:00:00+07:00</updated><id>http://localhost:4000/tim-hieu-ve-distro-linux</id><content type="html" xml:base="http://localhost:4000/tim-hieu-ve-distro-linux.html">&lt;p&gt;&lt;strong&gt;Distro Linux là gì?. Nên dùng Distro Linux nào, chúng có gì khác nhau ?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Bạn mới tìm hiểu về Linux và chưa biết Distro Linux là gì, các bản distro linux có gì giống và khác nhau. Hãy xem bài viết dưới đây của HostingViet.&lt;/p&gt;
-
-&lt;p&gt;Có lẽ “linux” không còn xa lạ với nhiều người. Vì chúng xuất hiện rất nhiều lần trong tin tức hay những bài viết liên quan đến phần mềm mã nguồn mở. Thế nhưng, không phải ai cũng hiểu rõ về “linux”. Chính vì thế, chia sẻ sau sẽ giúp các bạn hiểu về distro linux là gì và lý do chúng ta nên quan tâm.&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/2020425distrolagi.png&quot; width=&quot;1000&quot; height=&quot;auto&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 style=&quot;font-weight: bold;&quot;&gt;Distro linux là gì ?&lt;/h3&gt;
-
-&lt;p&gt;Ban đầu, Linux chính là một hệ điều hành được tạo bởi Linus Torwalds và sau đó phát triển thành giải pháp hệ điều hành mã nguồn mở, nhằm giảm sự lệ thuộc vào những hệ điều hành đóng, ví dụ như Microsoft Windows.&lt;/p&gt;
-
-&lt;p&gt;Hệ điều hành mở cho phép người dùng sử dụng miễn phí, tự do phát triển và định hướng hay tùy chỉnh theo nhu cầu thực tế của mình (được gọi là distro Linux hay distribution Linux). Đây chính là điều hạn chế của các hệ điều hành đóng. Bên cạnh đó, mã nguồn mở còn giúp cho các hacker ít có cơ hội thực hiện âm mưu không tốt đối với người dùng.&lt;/p&gt;
-
-&lt;p&gt;Vì thế, do sự thuận tiện trong việc dựa vào nền tảng hệ điều hành Linux để tùy chỉnh theo mục đích sử dụng, nên nhiều người nghĩ Linux chính là phần cốt lõi giúp hệ điều hành dễ dàng điều khiển các phần cứng. Hay nói cách khác, dựa vào Linux, nhiều người đã phát triển thêm các hệ điều hành.&lt;/p&gt;
-
-&lt;p&gt;Hiện nay, hệ điều hành Linux được ứng dụng rộng rãi, nhất là trong mảng server và các thiết bị internet of things. Ngay cả các biển báo sân bay, máy đổi tiền và server các website này cũng sử dụng mã nguồn mở. Hay thiết bị di động sử dụng hệ điều hành Android mà bạn đang sử dụng cũng được xây dựng trên nền tảng Linux.&lt;/p&gt;
-
-&lt;h3 style=&quot;font-weight: bold;&quot;&gt;Các bản distrolinux&lt;/h3&gt;
-
-&lt;p&gt;Mỗi distro Linux sẽ hướng đến một nhóm đối tượng và phục vụ nhu cầu sử dụng khác nhau. Vì mã nguồn mở nên người dùng dễ dàng tùy ý điều chỉnh và đặt tên theo sở thích, miễn là tuân thủ theo quy định. Vậy giữa các distro giống và khác nhau thế nào?&lt;/p&gt;
-
-&lt;h3 style=&quot;font-weight: bold;&quot;&gt;Giữa các distro giống và khác nhau thế nào ?&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/2020425distroquestion.png&quot; width=&quot;1000&quot; height=&quot;auto&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Điểm giống nhau là về cơ bản, chúng đều dựa trên 3 nhánh chính, đó là Debian, Red Hat, Slackware. Đồng thời, tất cả các bản distrolinux đều có Kernel và Linux.&lt;/p&gt;
-
-&lt;p&gt;Còn khác nhau thì chủ yếu dựa vào 2 yếu tố chính: thị trường distro Linux là gì và triết lý phần mềm của chúng.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Xét về thị trường:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Các distro Linux phổ biến và phát triển hiện nay được chia thành 4 nhóm:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Nhóm 1: Arch, Gentoo và Slackware&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Các các bản distrolinux này nhắm vào người dùng am hiểu Linux. Do đó, phần lớn các phương thức xây dựng, cũng như cấu hình của hệ thống được thực hiện qua dòng lệnh.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Nhóm 2: Debian, Fedora&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Đối tượng người dùng của nhóm 2 là người am hiểu về hệ thống nhưng chưa thực sự hiểu về Linux. Vì vậy, distro sẽ cung cấp cho họ nhiều công cụ hơn. Nhóm này phù hợp với người dùng mới bắt đầu sử dụng Linux.&lt;/p&gt;
-
-&lt;p&gt;Tuy nhiên, các distro của nhóm 2 lại có quy trình phát triển và kiểm tra chất lượng phần mềm khắt khe hơn các nhóm còn lại. Do đó, để trở thành lập trình viên chính thức của nhóm này, bạn buộc phải có thời gian đóng góp dài. Đồng thời, được chứng nhận chất lượng bởi những lập trình viên khác. Vì thế, giới công nghệ luôn đánh giá cao môi trường của nhóm Debian, Fedora.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Nhóm 3: Centos, RHEL, SUSE EL&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Các bản distrolinux nhắm vào thị trường máy chủ, doanh nghiệp, cơ quan… Vì chúng có sự ổn định cao, thời gian ra phiên bản mới lâu, khoảng 3 – 5 năm tùy distrolinux. Ngoài ra, còn có dịch vụ hỗ trợ thương mại cho công ty, hướng dẫn sử dụng sản phẩm.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Nhóm 4: Ubuntu, Open SUSE, Linux Mint&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Đối tượng khách hàng của nhóm 4 là người mới bắt đầu dùng Linux và người dùng cuối. Đặc tính của chúng là phát triển trong thời gian ngắn, ứng dụng các công nghệ mới liên tục, nhiều công cụ đồ họa để thiết kế và cấu hình hệ thống theo nhu cầu sử dụng. Nhóm này cũng rất thân thiện với người dùng mới làm quen Linux.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Xét về triết lý phần mềm (Distro Philosophy)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Triết lý phần mềm là những nguyên tắc, hay định hướng, mục tiêu của người phát triển chúng đặt ra. Vì thế, khi xét về yếu tố này thì distro cũng được phân thành 4 nhóm.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Nhóm 1: nhóm này có cấu trúc gọn, linh hoạt để các lập trình viên có thể xây dựng theo nhu cầu của mình.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Nhóm 2: nhóm này nhắm đến sự chuẩn hóa quá trình phát triển phần mềm, nhằm tạo ra hệ thống hoạt động nhịp nhàng và hạn chế tối đa lỗ hỏng bảo mật.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Nhóm 3: phát triển theo hướng bền vững, chuyên nghiệp, phù hợp cho việc cung cấp dịch vụ/sản phẩm dài hạn, có vòng đời lên tới 7 năm.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Nhóm 4: đi theo hướng công nghệ. Nhóm này có nhiều công cụ hiệu ứng đồ họa và không cần cấu hình nhiều.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Như vậy, dù xét về thị trường hay triết lý phần mềm thì cũng đều có 4 nhóm distro để bạn quyết định nên dùng distro Linux nào phù hợp nhất với nhu cầu của mình.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/2020425treeuser.png&quot; alt=&quot;title-image-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 style=&quot;font-weight: bold;&quot;&gt;Tại sao người dùng phải quan tâm đến distro Linux là gì ?&lt;/h3&gt;
-
-&lt;p&gt;Phần mềm mã nguồn mở nói chung và các bản phân phối Linux nói riêng được phát triển nhằm cung cấp cho các lập trình viên sự miễn phí. Đồng thời, tùy ý điều chỉnh theo mục đích của mình. Vì thế, bạn cần quan tâm và hiểu rõ chúng để sử dụng phù hợp nhất.&lt;/p&gt;
-
-&lt;p&gt;Tại Việt Nam, khi vấn đề bản quyền vẫn còn chưa được chú trọng thì hầu như giá trị các phần mềm cũng không được đầu tư thỏa đáng. Vì chúng có giá không hề rẻ. Điển hình như bản Windows 10 Home bản quyền giá $119.99. Giá trị này khá lớn với một cá nhân. Còn đối với doanh nghiệp thì khi nhân lên số lượng máy đang sử dụng, chắc chắn sẽ ra một con số ngân sách không hề nhỏ.&lt;/p&gt;
-
-&lt;p&gt;Vì thế, xu hướng tìm các bản phần mềm có key lậu ngày càng nhiều. Điều này dẫn đến rủi ro bị đánh cắp thông tin, cài mã độc, … khi bạn sử dụng chúng.&lt;/p&gt;
-
-&lt;p&gt;Do đó, &lt;strong&gt;các bản distrolinux&lt;/strong&gt; mang đến những ưu điểm nổi bật là tính an toàn cao, hoạt động ổn định, miễn phí và thân thiện với người dùng. Chúng vô cùng thích hợp với người có nhu cầu sử dụng đơn giản cho máy tính.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/distro-board.jpg&quot; alt=&quot;title-image-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Bên cạnh đó, tùy từng ngành nghề mà bạn có thể lựa chọn nên dùng distro Linux nào giúp làm việc hiệu quả hơn.&lt;/p&gt;
-
-&lt;p&gt;Và trên hết, như đã đề cập ở trên, Linux mang đến cho bạn sự tự do tùy chỉnh. Với cá nhân, đều này rất đơn giản, bạn có thể giải quyết nhanh chóng những vấn đề phát sinh trong quá trình sử dụng. Còn với các doanh nghiệp hay nhà cung cấp dịch vụ, Linux như một kho tàng để rèn dũa thành bất kỳ công cụ nào theo nhu cầu.&lt;/p&gt;
-
-&lt;p&gt;Tuy nhiên, ngoài các ưu điểm nổi trội trên thì Linux cũng có mặt hạn chế. Đó là trên thị trường máy tính cá nhân, Linux vẫn còn yếu so với Windows hay MacOS, Do 2 đơn vị này có sự hậu thuẫn từ 2 ông lớn Microsoft và Apple. Vì vậy, người dùng đôi khi phát sinh một số lỗi nhỏ trên máy tính.&lt;/p&gt;
-
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/hostinglinuxdistro.jpg&quot; width=&quot;1000&quot; height=&quot;auto&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 style=&quot;font-weight: bold;&quot;&gt;Tại sao Developer quan tâm distro Linux ?&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Linux là mã nguồn mỡ và hoàn toàn miễn phí, bảo mật tốt, coi như là sự chọn hợp lý cho người dùng phổ thông cho việc tiết kiểm chi tiêu về vấn đề bản quyền, đối với người dùng Việt Nam cũng không ngoại lệ.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Tự do tùy biến, và học tập nghiên cứu, lập trình phát triển phần mềm …v.v, đối với các cty doanh nghiệp thì linux server là lựa chọn hợp lý trong việc tiết kiệm chi phí chi trả hoặc lo ngoại về vấn đề bảo mật không an toàn.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Tuy nhiên linux ko dành mục đích để chơi game vì thế sẽ là trở ngại lớn cho các game thủ khi đặt chân vào con đường này, tuy nhiên không có nghĩa là linux không thể chơi game, và bạn vẫn có thể giải trí nhẹ với các tựaa game văn phòng, hoặc &lt;a href=&quot;https://store.steampowered.com/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Steam&lt;/code&gt;&lt;/a&gt; phần mềm này đã hổ trợ trên linux 1 thời gian dài và hầu như có những tựa game không thua kém gì trên windows, và có những tựa game buộc bạn chi 1 số tiền ko ít để sỡ hữu những tưa game support trên linux. Còn 1 tin vui cho các ae game thủ là các ông lớn về mãng đồ họa cũng đã có động thái support lên cho các dùng distro linux.&lt;/p&gt;
-
-&lt;p&gt;Vì thế sẽ không còn xa nếu linux tiếp tục được phát triển và vươn lên thành hệ điều hành thứ 2 của người dùng và thoát khỏi cái bóng thống trị của windows (Microssoft) !&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;other&quot;, &quot;news&quot;]" /><summary type="html">Distro Linux là gì?. Nên dùng Distro Linux nào, chúng có gì khác nhau ?</summary></entry></feed>
+&lt;a href=&quot;https://congnghevacuocsong.tk/khai-niem-mau-sac-trong-thiet-ke-p2&quot;&gt;khái niệm màu sắc trong thiết kế Phần 2&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;graphics&quot;, &quot;news&quot;, &quot;css&quot;]" /><category term="color" /><category term="graphics" /><category term="màu sắc" /><category term="khái niệm màu sắc" /><summary type="html">Chào các bạn, mình sẽ tiếp tục với series của khái niệm màu sắc trong thiết kế phần 3.</summary></entry></feed>
