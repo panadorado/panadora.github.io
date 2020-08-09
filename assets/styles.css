@@ -138,14 +138,6 @@ h1 a:hover {
   width: 100%;
 }
 
-.top-left {
-  float: left;
-}
-.top-right {
-  float: right;
-}
-
-
 .single-blog .plugin-facebook {
   float: right;
 }
@@ -260,11 +252,9 @@ ul .page-item .page-link:hover{
   color: #000;
 }
 
-@media screen and (max-width: 365px)
-{
-  ul .page-item .page-link {
-    display: contents;
-  }
+.scroll-select-number {
+  font-size: 12px;
+  overflow-x: auto;
 }
 /***************************/
 
@@ -322,5 +312,17 @@ ul .page-item .page-link:hover{
   }
   .text-logo h1 {
     margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .text-logo {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .text-logo {
+    font-size: 12px;
   }
 }
