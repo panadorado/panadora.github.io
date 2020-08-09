@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-09T15:06:42+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Hướng dẫn về Plugins SourceMode (Part 1)</title><link href="http://localhost:4000/sourcemods/huong-dan-viet-plugin-part-1.html" rel="alternate" type="text/html" title="Hướng dẫn về Plugins SourceMode (Part 1)" /><published>2020-08-07T00:00:00+07:00</published><updated>2020-08-07T00:00:00+07:00</updated><id>http://localhost:4000/sourcemods/huong-dan-viet-plugin-part-1</id><content type="html" xml:base="http://localhost:4000/sourcemods/huong-dan-viet-plugin-part-1.html">&lt;p&gt;&lt;img src=&quot;/image/SourceMod/logo.png&quot; alt=&quot;image-logo&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-09T18:00:16+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Hướng dẫn về Plugins SourceMode (Part 2)</title><link href="http://localhost:4000/sourcemods/huong-dan-cai-dat-SourceMode-vao-CS-Source.html" rel="alternate" type="text/html" title="Hướng dẫn về Plugins SourceMode (Part 2)" /><published>2020-08-09T00:00:00+07:00</published><updated>2020-08-09T00:00:00+07:00</updated><id>http://localhost:4000/sourcemods/huong-dan-viet-plugin-part-2</id><content type="html" xml:base="http://localhost:4000/sourcemods/huong-dan-cai-dat-SourceMode-vao-CS-Source.html">&lt;p&gt;&lt;img src=&quot;/image/SourceMod/202089SourceModLogo.png&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sau bài viết &lt;a href=&quot;sourcemods/huong-dan-viet-plugin-part-1.html&quot;&gt;hướng dẫn về Plugins SourceMod (Part 1)&lt;/a&gt;, thì trong bài post này mình xin hướng dẫn cách cài đặt SourceMod vào &lt;a href=&quot;https://store.steampowered.com/app/240/CounterStrike_Source/&quot;&gt;Counter-Strike: Source&lt;/a&gt; để có thể sử dụng được Plugins trong game nhá !&lt;/p&gt;
+
+&lt;h2 id=&quot;1-download&quot;&gt;1. Download&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Tải SourceMod&lt;/strong&gt;&lt;br /&gt;
+ . &lt;a href=&quot;https://www.sourcemod.net/downloads.php?branch=stable&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bản SourceMod ổn định&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt; ► &lt;kbd&gt;khuyên dùng&lt;/kbd&gt; &lt;br /&gt;
+ . &lt;a href=&quot;https://www.sourcemod.net/downloads.php?branch=dev&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bản SourceMod Dev&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt; ► &lt;kbd&gt;Dành cho Dev chuyên nghiệp&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tải MetaMod:Source&lt;/strong&gt;&lt;br /&gt;
+ . &lt;a href=&quot;http://www.sourcemm.net/downloads.php?branch=stable&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bản MetaMod:Source ổn định&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt; ► &lt;kbd&gt;khuyên dùng&lt;/kbd&gt; &lt;br /&gt;
+ . &lt;a href=&quot;http://www.sourcemm.net/downloads.php/?branch=master&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bản MetaMod:Source Dev&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt; ► &lt;kbd&gt;Dành cho Dev chuyên nghiệp&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-setting&quot;&gt;2. Setting&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Các bạn tải hai bản SourceMod vs MetaMod:Source ổn định để sử dụng nha. Sau khi tải hoàn tất các bạn giải nén như sau:&lt;/p&gt;
+
+&lt;p&gt;đối với &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sourcemod-1.10.0-git6490-windows.zip&lt;/code&gt;&lt;/strong&gt; các bạn mở file lên với &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rar&lt;/code&gt;&lt;/strong&gt; và copy 2 thư mục &lt;kbd&gt;addons vs cfg&lt;/kbd&gt; vào đường dẫn vào thư mụcmục &lt;kbd&gt;D:/Counter-Strike Source/cstrike/&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/SourceMod/202086Tutorial1.PNG&quot; alt=&quot;tutorial-1&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;đối với &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mmsource-1.10.7-git971-windows.zip&lt;/code&gt;&lt;/strong&gt; các bạn mở file lên với &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rar&lt;/code&gt;&lt;/strong&gt; và copy thư mục &lt;kbd&gt;addons&lt;/kbd&gt; vào đường dẫn vào thư mục &lt;kbd&gt;D:/Counter-Strike Source/cstrike/&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/SourceMod/202086Tutoriral2.PNG&quot; alt=&quot;tutorial-2&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;. Đến đây thì đã hoàn thành xong giai đoạn cài đặt SoureMod cho CS:Source, để SourceMod có thể hoạt động trong CS:Source thì các bạn tìm đến thư mục &lt;kbd&gt;cstrike/gameinfo&lt;/kbd&gt; tìm đến dòng &lt;kbd&gt;SearchPaths&lt;/kbd&gt; sau đó đưa dòng &lt;kbd&gt;GameBin				|gameinfo_path|addons/metamod/bin&lt;/kbd&gt; vào trong {  } để SourceMod có thể hoạt động trong game nhá !&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/SourceMod/gameinfo.PNG&quot; alt=&quot;tutorial-3&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Để biết SourceMod có đang hoạt động trong CS:Source hay không các bạn có thể bật Game lênh sau đó ấn &lt;kbd&gt; ~&lt;/kbd&gt; để mở console và nhập lênh &lt;kbd&gt;sourcemod_version&lt;/kbd&gt; hoặc &lt;kbd&gt;sm_admin&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/SourceMod/SourceModVersion.PNG&quot; alt=&quot;tutorial-4&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/SourceMod/sm_admin.PNG&quot; alt=&quot;tutorial-5&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;nếu một trong 2 lệnh đều hiển thị được tức là bạn đã cài đặt SourmoceMod thành công !&lt;/p&gt;
+
+&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;SourceMod&quot;, &quot;games&quot;]" /><summary type="html">Sau bài viết hướng dẫn về Plugins SourceMod (Part 1), thì trong bài post này mình xin hướng dẫn cách cài đặt SourceMod</summary></entry><entry><title type="html">Hướng dẫn về Plugins SourceMode (Part 1)</title><link href="http://localhost:4000/sourcemods/huong-dan-viet-plugin-part-1.html" rel="alternate" type="text/html" title="Hướng dẫn về Plugins SourceMode (Part 1)" /><published>2020-08-07T00:00:00+07:00</published><updated>2020-08-07T00:00:00+07:00</updated><id>http://localhost:4000/sourcemods/huong-dan-viet-plugin-part-1</id><content type="html" xml:base="http://localhost:4000/sourcemods/huong-dan-viet-plugin-part-1.html">&lt;p&gt;&lt;img src=&quot;/image/SourceMod/logo.png&quot; alt=&quot;image-logo&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Hướng dẫn này sẽ cung cấp cho bạn một giới thiệu cơ bản để viết một plugin Sourcemod. Nếu bạn không quen thuộc với ngôn ngữ SourcePawn, đó là khuyến cáo rằng bạn ít nhất một thời gian ngắn đọc giới thiệu về bài viết SourcePawn .&lt;/p&gt;
 
@@ -1049,51 +1089,4 @@ P/s: nếu mình có sai sót gì trong bài viết thì mong các bạn góp ý
 &lt;p&gt;Nguồn: &lt;a href=&quot;https://www.facebook.com/groups/linuxteamvietnam2018/permalink/856171831568486/&quot;&gt;Linux Team Việt Nam (Official Group) Post 1&lt;/a&gt;&lt;br /&gt;
 Nguồn: &lt;a href=&quot;https://www.facebook.com/groups/linuxteamvietnam2018/permalink/856981638154172/&quot;&gt;Linux Team Việt Nam (Official Group) Post 2&lt;/a&gt;&lt;/p&gt;
 
-&lt;hr style=&quot;background: #000;&quot; /&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;terminal&quot;]" /><summary type="html">Như bạn đã biết, các câu lệnh trong Terminal thực sự rất hữu dụng và giúp cho người sử dụng có thể thao tác cực nhanh mà không cần phải qua GUI rườm rà.</summary></entry><entry><title type="html">Khái niệm màu sắc trong thiết kế (phần 3)</title><link href="http://localhost:4000/khai-niem-mau-sac-trong-thiet-ke-p3.html" rel="alternate" type="text/html" title="Khái niệm màu sắc trong thiết kế (phần 3)" /><published>2020-05-14T00:00:00+07:00</published><updated>2020-05-14T00:00:00+07:00</updated><id>http://localhost:4000/khai-niem-mau-sac-trong-thiet-ke-p3</id><content type="html" xml:base="http://localhost:4000/khai-niem-mau-sac-trong-thiet-ke-p3.html">&lt;p&gt;Chào các bạn, mình sẽ tiếp tục với series của Khái niệm màu sắc trong thiết kế (phần 3)&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/image/2020514ColorP3.jpg&quot; alt=&quot;image-title-here&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;h1 style=&quot;text-align: center;&quot;&gt;LAB&lt;/h1&gt;
-
-&lt;p&gt;Lab - viết tắt &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Lightness-Luminance&lt;/code&gt;&lt;/strong&gt; trong đó:&lt;/p&gt;
-
-&lt;p&gt;(L) là trục thẳng đứng, chỉ biểu diễn độ sáng có giá trị từ 0 (#000000) đến 100 (#FFFFFF).&lt;br /&gt;
-(-a) đến (a): chứa giá trị màu GREEN - (#00FF00) đến RED + (#FF0000).&lt;br /&gt;
-(-b) đến (b): chứa giá trị màu BLUE - (#0000FF) đến YELLOW + (#FFFF00).&lt;/p&gt;
-
-&lt;p&gt;Các thông tin màu được tách ra được dùng trong các filter của Photoshop, không làm ảnh hưởng đến màu sắc trong bức ảnh.&lt;/p&gt;
-
-&lt;center&gt;&lt;img width=&quot;450&quot; height=&quot;450&quot; class=&quot;img-thumbnail&quot; src=&quot;/image/LAB.png&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;h1 style=&quot;text-align: center;&quot;&gt;HSB&lt;/h1&gt;
-
-&lt;p&gt;HSB hoặc V - viết tắt &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Hue - Saturation - Bright/Value&lt;/code&gt;&lt;/strong&gt; trong đó:&lt;/p&gt;
-
-&lt;p&gt;(Hue): Liên quan đến dải màu đỏ - cam - vàng - lục - lam - chàm - tím. Được biểu diễn có giá trị từ 0° đến 360°.&lt;br /&gt;
-(Saturation): Liên quan đến sắc độ, có giá trị từ 0% đến 100%.&lt;br /&gt;
-(Bright/Value): Độ sáng - tối, có giá trị từ 0% đến 100%&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img width=&quot;450&quot; height=&quot;450&quot; class=&quot;img-thumbnail&quot; src=&quot;/image/HSB.png&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;h1 style=&quot;text-align: center;&quot;&gt;HEX&lt;/h1&gt;
-
-&lt;p&gt;HEX - viết tắt &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Hexadecimal&lt;/code&gt;&lt;/strong&gt;, hệ thống màu biểu diễn giá trị màu sắc RGB dưới dạng thập lục phân, một chuỗi bao gồm 6 chữ hoặc số dạng ghép của 3 số dạng một byte. Mỗi byte đại diện cho một số trong khoảng 00 - FF tức 0 - 255 trong hệ thập phân.&lt;/p&gt;
-
-&lt;center&gt;&lt;img width=&quot;350&quot; height=&quot;350&quot; class=&quot;img-thumbnail&quot; src=&quot;/image/HEX.jpg&quot; /&gt;&lt;/center&gt;
-
-&lt;hr /&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;Cảm ơn các bạn đã ghé qua blog của mình, đừng quên ấn nút share để bạn bè cùng biết đến nhé !&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://congnghevacuocsong.tk/khai-niem-mau-sac-trong-thiet-ke-p1&quot;&gt;khái niệm màu sắc trong thiết kế Phần 1&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;https://congnghevacuocsong.tk/khai-niem-mau-sac-trong-thiet-ke-p2&quot;&gt;khái niệm màu sắc trong thiết kế Phần 2&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;graphics&quot;, &quot;news&quot;, &quot;css&quot;]" /><category term="color" /><category term="graphics" /><category term="màu sắc" /><category term="khái niệm màu sắc" /><summary type="html">Chào các bạn, mình sẽ tiếp tục với series của khái niệm màu sắc trong thiết kế phần 3.</summary></entry></feed>
+&lt;hr style=&quot;background: #000;&quot; /&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;terminal&quot;]" /><summary type="html">Như bạn đã biết, các câu lệnh trong Terminal thực sự rất hữu dụng và giúp cho người sử dụng có thể thao tác cực nhanh mà không cần phải qua GUI rườm rà.</summary></entry></feed>
