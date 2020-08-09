@@ -149,7 +149,7 @@ h1 a:hover {
 .single-blog .plugin-facebook {
   float: right;
 }
-
+/*
 .read-more-btn {
   background: #0088dc;
   padding: 4px 12px 6px;
@@ -167,6 +167,37 @@ h1 a:hover {
   background: #3b5998;
   font-weight: bold;
   color: #fff;
+}
+*/
+.col-btn-click {
+  margin-left: 0.9em;
+  margin-right: 2.5em;
+  margin-bottom: 0.8em;
+  align-items: center;
+}
+
+.read-more-btn {
+  display: inline-block;
+  background: #0088dc;
+  padding: 0.11em 0.6em;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+  border: none!important;
+  transition: .4s;
+}
+a.read-more-btn:hover{
+  text-decoration: none;
+  background: #3b5998;
+  font-weight: bold;
+  color: #fff;
+}
+@media all and (max-width:30em){
+  a.read-more-btn{
+    display:block;
+    margin:0.4em auto;
+  }
 }
 
 /**** FOOTER ****/
@@ -275,9 +306,6 @@ ul .page-item .page-link:hover{
 {
   .single-blog {
     height: auto;
-  }
-  .read-more-btn {
-    display: inline-block;
   }
   .single-blog .post-date {
     float: none;
