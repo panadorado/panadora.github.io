@@ -1,5 +1,5 @@
 <div class="d-flex justify-content-center">
-	<nav aria-label="Page navigation example">
+	<nav aria-label="Page navigation example" class="scroll-select-number">
         <ul class="pagination justify-content-center">
 			{% if paginator.total_pages > 1 %}
 				<li class="page-item">
@@ -8,15 +8,15 @@
 
 				{% for page in (1..paginator.total_pages) %}
 					{% if page == paginator.page %}
-						<li class="page-item px-1">
+						<li class="page-item">
 			                <a class="page-link afterSelect">{{ page }}</a>
 			            </li>
 	            	{% elsif page == 1 %}
-						<li class="page-item px-1">
+						<li class="page-item">
 			            	<a class="page-link" href="/">{{ page }}</a>
 			            </li>
 	            	{% else %}
-						<li class="page-item px-1">
+						<li class="page-item">
 			                <a class="page-link" href="{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a>
 			            </li>
 	            	{% endif %}

@@ -5,9 +5,9 @@ layout: default
 	<div class="col-md-4">
 		<div class="single-blog">
 			<br>
-			<small>
-				<span class="top-left"><i class="fas fa-book-reader"> Đăng bởi: {{ post.author }}</i></span>
-				<span class="top-right"><i class="fas fa-calendar-alt"> Ngày đăng: {{ post.date | date: "%d-%m-%Y" }}</i></span>
+			<small class="row">
+				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: {{ post.author }}</i></span>
+				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: {{ post.date | date: "%d-%m-%Y" }}</i></span>
 			</small><br>
 			<a href="{{ post.url }}">
 				<img id="img-thumbnail" class="img-thumbnail img-hover" src="{{ site.baseurl }}/image/{{ post.thumbnail }}" style="height: 180px;" title="{{ post.title }}">
@@ -18,9 +18,10 @@ layout: default
 			<p class="content-SubString">{{ post.excerpt }}</p>
 
 			<div class="row">
-				<div class="col-btn-click"><a class="read-more-btn" href='{{ post.url }}'>Đọc thêm</a></div>
-				<div class="col-btn-click"><a class="fb-like" data-href="{{site.url}}/{{post.url}}" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
+				<div class="col-sm-8"><a class="fb-like" data-href="{{site.url}}/{{post.url}}" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
+				<div class="col-sm"><a class="read-more-btn text-center" href='{{ post.url }}'>Đọc thêm</a></div>
 			</div>
+			<br>
 		</div>
 	</div>
 {% endfor %}
