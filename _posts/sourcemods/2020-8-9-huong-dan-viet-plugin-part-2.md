@@ -36,7 +36,7 @@ Các bạn tải hai bản SourceMod vs MetaMod:Source ổn định để sử d
 
 ![tutorial-2]({{baseurl}}/image/SourceMod/202086Tutoriral2.PNG){:width="100%"}
 
- . Đến đây thì đã hoàn thành xong giai đoạn cài đặt SoureMod cho CS:Source, để SourceMod có thể hoạt động trong CS:Source thì các bạn tìm đến thư mục <kbd>cstrike/gameinfo</kbd> tìm đến dòng <kbd>SearchPaths</kbd> sau đó đưa dòng <kbd>GameBin				|gameinfo_path|addons/metamod/bin</kbd> vào trong {  } để SourceMod có thể hoạt động trong game nhá !
+ . Đến đây thì đã hoàn thành xong giai đoạn cài đặt SoureMod cho CS:Source, để SourceMod có thể hoạt động trong CS:Source thì các bạn tìm đến thư mục <kbd>cstrike/gameinfo.txt</kbd> tìm đến dòng <kbd>SearchPaths</kbd> sau đó đưa dòng <kbd>GameBin				|gameinfo_path|addons/metamod/bin</kbd> vào trong {  } để SourceMod có thể hoạt động trong game nhá !
 
  ![tutorial-3]({{baseurl}}/image/SourceMod/gameinfo.PNG){:width="100%"}
 
