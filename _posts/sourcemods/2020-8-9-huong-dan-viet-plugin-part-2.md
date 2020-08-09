@@ -46,6 +46,6 @@ Các bạn tải hai bản SourceMod vs MetaMod:Source ổn định để sử d
 
 ![tutorial-5]({{baseurl}}/image/SourceMod/sm_admin.PNG){:width="100%"}
 
-nếu một trong 2 lệnh đều hiển thị được tức là bạn đã cài đặt SourmoceMod thành công !
+nếu một trong 2 lệnh đều hiển thị được tức là bạn đã cài đặt SourceMod cho CS:Source thành công !
 
 <hr>
