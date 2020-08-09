@@ -21,10 +21,10 @@
             '</a><br>' +
             '<a class="entry-title" href="' + item.url + '" title="' + item.url + '">' + item.title + '</a><br>' +
             '<p>' + item.content.substring(0, 60) + ' ...</p>' +
-            '<a href="' + item.url + '" class="read-more-btn">Đọc thêm</a>' +
-            '<div class="plugin-facebook">' +
-              '<i class="fb-like" data-href="' + item.site + '/' + item.url + '" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></i>' +
-            '</div><br><br>' +
+            '<div class="row">' +
+              '<div class="col-sm-8"><a class="fb-like" data-href="' + item.site + '/' + item.url + '" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>' +
+              '<div class="col-sm"><a class="read-more-btn text-center" href=' + item.url + '>Đọc thêm</a></div>' +
+            '</div><br>' +
           '</div>' +
         '</div>';
       }
