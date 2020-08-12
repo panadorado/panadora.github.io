@@ -5,9 +5,9 @@ layout: page
     <div class="col-md-4">
 		<div class="single-blog">
 			<br>
-			<small>
-				<span class="top-left"><i class="fas fa-book-reader"> Đăng bởi: {{ post.author }}</i></span>
-				<span class="top-right"><i class="fas fa-calendar-alt"> Ngày đăng: {{ post.date | date: "%d-%m-%Y" }}</i></span>
+			<small class="row">
+				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: {{ post.author }}</i></span>
+				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: {{ post.date | date: "%d-%m-%Y" }}</i></span>
 			</small><br>
 			<a href="{{ post.url }}">
 				<img id="img-thumbnail" class="img-thumbnail img-hover" src="{{ site.baseurl }}/image/{{ post.thumbnail }}" style="height: 180px;" title="{{ post.title }}">
