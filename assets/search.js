@@ -12,9 +12,9 @@
         '<div class="col-md-4">' + 
           '<div class="single-blog">' + 
             '<br>' +
-            '<small>' +
-              '<span class="top-left"><i class="fas fa-book-reader"> Đăng bởi: '+ item.author +'</i></span>' +
-              '<span class="top-right"><i class="fas fa-calendar-alt"> Ngày đăng: '+ item.date +'</i></span>' +
+            '<small class="row">' +
+              '<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: '+ item.author +'</i></span>' +
+              '<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: '+ item.date +'</i></span>' +
             '</small><br>' +
             '<a href="' + item.url + '">' +
               '<img id="img-thumbnail" class="img-thumbnail img-hover" src="' + item.site + '/image/' + item.thumbnail + '" style="height: 180px;" title="' + item.url + '">' +
