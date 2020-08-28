@@ -4,7 +4,7 @@ site_name: "Công Nghệ Và Cuộc Sống"
 # the subpath of your site, e.g. /blog
 baseurl: ""
 # the base hostname & protocol for your site, e.g. http://example.com
-url: "https://panadorado.github.io/"
+url: "https://congnghevacuocsong.tk"
 
 gems: [jekyll-paginate, jekyll-paginate-category]
 
