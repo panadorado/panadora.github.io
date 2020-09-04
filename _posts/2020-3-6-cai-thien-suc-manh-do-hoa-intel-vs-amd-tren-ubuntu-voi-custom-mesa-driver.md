@@ -2,7 +2,7 @@
 thumbnail: 202036gpu.jpg
 title: Cải thiện sức mạnh đồ họa Intel/AMD trên ubuntu với Custom Mesa Driver
 layout: post
-excerpt: Bạn là một người dùng Ubuntu (hoặc bất kì một distro base trên Ubuntu ví dụ như Mint) trên một computer dùng đồ họa của Intel hay AMD (Nvidia thì vẫn có thể dùng nhưng không đảm bảo sử dụng) và đòi hỏi máy đáp ứng nhu cầu đồ họa mạnh như game hay blender, render video,... (mà Mesa đi kèm - stock - không thể đáp ứng).
+excerpt: Bạn là một người dùng Ubuntu (hoặc bất kì một distro base trên Ubuntu ví dụ như Mint).
 author: Panadora
 category: [unixlinux, terminal]
 permalink: /cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver.html
@@ -104,10 +104,10 @@ Nếu muốn gỡ, thì bạn làm như trên.
 
 ### Theo nguồn cung cấp từ:
 
-Tác giả bài viết: Đặng Trung Nhân
+Tác giả bài viết: [Đặng Trung Nhân](https://www.facebook.com/Wello6143)
 
-Softpedia quote on this post
+Softpedia quote on [this post](https://news.softpedia.com/news/padoka-or-oibaf-ppa-for-ubuntu-gaming-tell-us-which-one-do-you-prefer-and-why-512170.shtml)
 
-Oibaf's PPA & Padoka's PPA stable
+[Oibaf's PPA](https://launchpad.net/~oibaf/+archive/ubuntu/graphics-drivers) & [Padoka's PPA](https://launchpad.net/~paulo-miguel-dias/+archive/ubuntu/pkppa) stable
 <br>
 <br>
