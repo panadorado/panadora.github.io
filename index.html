@@ -4,8 +4,7 @@ layout: default
 {% for post in paginator.posts %}
 	<div class="col-md-4">
 		<div class="single-blog">
-			<br>
-			<small class="row">
+			<br><small class="row">
 				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: {{ post.author }}</i></span>
 				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: {{ post.date | date: "%d-%m-%Y" }}</i></span>
 			</small><br>
