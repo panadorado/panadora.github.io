@@ -224,7 +224,13 @@ body {
 
 @media (max-width : 576px) {
 	.form .input {
-		width: 70vw;
+		width: 120px;
+		height: 35px;
+		margin-right: 15px;
+		font-size: 12px;
+	}
+	.form .ok img {
+		width: 30px;
 	}
 }
 /****************************************/
@@ -233,7 +239,7 @@ body {
 @media (min-width: 576px) {
 	.card-columns {
 		column-count: 2;
-   	}
+	}  
 }
 @media (min-width: 768px) {
 	.card-columns {
