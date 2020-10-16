@@ -9,7 +9,8 @@ const playlistItem_key = [
 	"PLWZvGxtWFBkjehOm4MkAuUpe-cfmstdPH",
 	"PLWZvGxtWFBkiJqnBJHNWU9_7HwKrH8soL",
 	"PLWZvGxtWFBkhUQmDkCX5fcuTmao_6MGgf",
-	"PLWZvGxtWFBkjJB33xSfr_-dR36ky3Nieq"
+	"PLWZvGxtWFBkjJB33xSfr_-dR36ky3Nieq",
+	"PLitXtZ6mUvlMickjHJtoEM1vN6URFVGYT"
 ]
 
 const randomPlayList = Math.floor(Math.random() * playlistItem_key.length);
@@ -19,7 +20,8 @@ const AlbumBackGround = [
 	"albumMrSiro.jpg",
 	"albumDongNhi.jpg",
 	"albumTheMen.jpg",
-	"albumDuyManh.jpg"
+	"albumDuyManh.jpg",
+	"albumMinhVuong4u.jpg"
 ]
 
 var apiKey = apiKeyList[0];
