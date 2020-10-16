@@ -48,7 +48,7 @@ body {
 	color: #fff;
 	position: fixed;
 	width: 100%;
-	height: 100px;
+	height: 60px;
 	bottom: 0;
 	background-size: cover;
 	background-position: center;
@@ -60,7 +60,7 @@ body {
 
 .col-6,
 .col {
-	margin: 28px auto;
+	margin: 12px auto;
 	text-align: center;
 }
 
@@ -156,11 +156,11 @@ body {
 }
 
 .switch button img {
-  position: absolute;
-  top: 15px;
-  left: 20px;
-  width: 20px;
-  height: 20px;
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	width: 20px;
+	height: 20px;
 }
 
 .switch button:hover {
@@ -229,22 +229,59 @@ body {
 }
 /****************************************/
 
+/* Card Play List Music */
+@media (min-width: 576px) {
+	.card-columns {
+		column-count: 2;
+   	}
+}
+@media (min-width: 768px) {
+	.card-columns {
+		column-count: 3;
+   }
+}
+@media (min-width: 992px) {
+	.card-columns {
+		column-count: 4;
+   }
+}
+@media (min-width: 1200px) {
+	.card-columns {
+		column-count: 5;
+   }
+}
 
-.card {
-	height: auto;
+.zIndexList .row{
+	z-index: 1;
+}
+
+.card-columns .card {
+	background: transparent;
+	border: none;
+}
+
+.card .card-body{
+	color: white;
+	margin: auto;
+	width: 250px;
+	height: 140px;
 	background-position: center;
 	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 5px;
 }
 
-.card p {
+.card-body p {
 	width: 100%;
 	text-align: center;
-	background: #242424;
+	background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
 	color: #f9f9f9;
+	border-radius: 5px;
+	opacity: 0.8;
 }
 
-.card .playNow {
-	margin: 40px auto;
+.card-body .playNow {
+	margin: auto;
 	font-size: 18px;
 	color:#000;
 	display: block;
@@ -261,12 +298,12 @@ body {
 	height: 50px;
 	filter: invert(99%) sepia(1%) saturate(2%) hue-rotate(227deg) brightness(107%) contrast(101%);
 }
-
 .playNow:hover {
 	background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
 	opacity: 1.0;
-}
+}	
 
-.zIndexList .row .col-sm{
-	z-index: 1;
+.card-body:hover,
+.card-body .playNow:hover {
+	box-shadow: 0px -6px 12px 2px rgba(0,0,0,0.75);
 }
