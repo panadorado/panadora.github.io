@@ -405,7 +405,7 @@ setInterval(function() {
 }, 3000);
 
 
-this.progressBar.on('mouseup touchend', function (e) {
+progressBar.on('mouseup touchend', function (e) {
 
     // Calculate the new time for the video.
     // new time in seconds = total duration in seconds * ( value of range input / 100 )
@@ -418,7 +418,7 @@ this.progressBar.on('mouseup touchend', function (e) {
 
 function updateProgressBar()
 {
-	progressBar.value  = (this.player.getCurrentTime() / this.player.getDuration()) * 100;
+	this.progressBar.value  = (this.player.getCurrentTime() / this.player.getDuration()) * 100;
 }
 
 function updateTimerDisplay() {
