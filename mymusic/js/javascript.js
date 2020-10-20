@@ -418,7 +418,7 @@ this.progressBar.on('mouseup touchend', function (e) {
 
 function updateProgressBar()
 {
-	this.progressBar.value  = (this.player.getCurrentTime() / this.player.getDuration()) * 100;
+	progressBar.value  = (this.player.getCurrentTime() / this.player.getDuration()) * 100;
 }
 
 function updateTimerDisplay() {
