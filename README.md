@@ -7,3 +7,6 @@
 ![image1](https://raw.githubusercontent.com/panadorado/panadorado.github.io/master/image/Screenshot%20(11).png)
 
 ![image2](https://raw.githubusercontent.com/panadorado/panadorado.github.io/master/image/Screenshot%20(13).png)
+
+# Update 21-10-2020
+**+ Khắc phục lỗi thanh progressbar không tua được**
