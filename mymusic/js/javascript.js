@@ -50,7 +50,7 @@ var para = document.getElementById('title');
 var repeatIcon = document.getElementById('btn-repeat');
 var volumeIcon = document.getElementById('btn-volume');
 
-var progressBar = document.getElementById('progress-bar')
+var progressBar = document.querySelector('#progress-bar');
 var currentTime = document.getElementById('current-time');
 var duration = document.getElementById('duration');
 
@@ -404,15 +404,14 @@ setInterval(function() {
 	}
 }, 3000);
 
+$(".progress-bar").on('mouseup touchend', e => {
 
-progressBar.on('mouseup touchend', function (e) {
+	// Calculate the new time for the video.
+	// new time in seconds = total duration in seconds * ( value of range input / 100 )
+	var newTime = this.player.getDuration() * (e.target.value / 100);
 
-    // Calculate the new time for the video.
-    // new time in seconds = total duration in seconds * ( value of range input / 100 )
-    var newTime = this.player.getDuration() * (e.target.value / 100);
-
-    // Skip video to new time.
-    player.seekTo(newTime);
+	// Skip video to new time.
+	player.seekTo(newTime);
 
 });
 
