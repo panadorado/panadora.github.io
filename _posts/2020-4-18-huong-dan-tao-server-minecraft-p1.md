@@ -8,14 +8,13 @@ category: [games, news]
 permalink: /huong-dan-tao-server-minecraft-p1.html
 ---
 
-**[Minecraft](https://vi.wikipedia.org/wiki/Minecraft) là một tựa game độc lập trong một thế giới mở. Ban đầu nó được tạo ra bởi lập trình viên người Thụy Điển [Markus "Notch" Persson](https://vi.wikipedia.org/wiki/Markus_%22Notch%22_Persson) và sau đó được phát triển và phát hành bởi [Mojang](https://vi.wikipedia.org/wiki/Mojang). Tựa game có đồ họa không mấy hấp dẫn những thu hút đông đảo số người chơi đặt biệt là thanh thiếu niên và trẻ em, vì lối chơi của tựa game này mạng lại tính sáng tạo và đầy thú vị với những khối block hình vuông với động, thực vật có hình thù vui nhộm. ``Minecraft``cho phép người chơi xây dựng các công trình bằng cách xây các khối kết cấu hình vuông trong một thế giới 3D.**
+**[Minecraft](https://vi.wikipedia.org/wiki/Minecraft) là một tựa game độc lập trong một thế giới mở. Ban đầu nó được tạo ra bởi lập trình viên người Thụy Điển [Markus "Notch" Persson](https://vi.wikipedia.org/wiki/Markus_%22Notch%22_Persson) và sau đó được phát triển và phát hành bởi [Mojang](https://vi.wikipedia.org/wiki/Mojang). Tựa game có đồ họa không mấy hấp dẫn, tuy nhiên nó vẫn thu hút đông đảo số lượng người chơi đặt biệt là thanh thiếu niên và trẻ em, vì lối chơi của tựa game này mạng lại tính sáng tạo và đầy thú vị với những khối block hình vuông và động, thực vật có hình thù vui nhộm. ``Minecraft``cho phép người chơi xây dựng các công trình bằng cách dùng các khối block hình vuông có màu sắc đa dạng trong thế giới của Minecraft.**
 
-Game bao gồm các chế độ chơi: `Sinh Tồn, Sáng tạo, Phiêu lưu`. Chi tiết tại [wikipedia](https://vi.wikipedia.org/wiki/Minecraft).
+Minecraft gồm có các chế độ chơi: `Sinh Tồn, Sáng tạo, Phiêu lưu...`. Chi tiết tại [wikipedia](https://vi.wikipedia.org/wiki/Minecraft).
 
-Ngoài ra game cho phép kết nối Online để có thể chơi game cùng bạn bè qua việc tạo server và sau đây là bài viết hướng dẫn tạo server minecraft để chơi cùng bạn bè.
+Ngoài ra game cho phép người chơi có thể chơi Multiplayer tức là Online cùng bạn bè, để có thể chơi game cùng bạn bè qua việc tạo server sau đây là bài viết hướng dẫn tạo server minecraft để chơi cùng bạn bè.
 
-
-![image-title-here]({{baseurl}}/image/2020418CreateServerMinecraft.jpg){:width="100%"}<br><br>
+![image-title-here](https://raw.githubusercontent.com/panadorado/panadorado.github.io/master/image/2020418CreateServerMinecraft.jpg)<br><br>
 
 <h3 style="font-weight: bold;">Hướng dẫn tải Server Minecraft</h3>
 
@@ -33,7 +32,7 @@ Ngoài ra game cho phép kết nối Online để có thể chơi game cùng b�
 
 Sau khi download phiên bản file server bạn cần, thì việc bạn cần làm bây giờ là tạo 1 thư mục chưa file server download vừa rồi và bật nó lên, lưu ý để có thể chạy được file server thì máy tính bạn bắt buộc phải có `java` để chạy file server.
 
-**Để kiểm trả phiên bản java có trong máy tính của bạn thao tác như sau: Nhấm tổ hợp phím `Start + r ` mở `Command Prompt` gõ lệnh:**
+**Để kiểm trả phiên bản java có trong máy tính của bạn thao tác như sau: Nhấm tổ hợp phím `Start + r ` và gõ tìm `cmd` để mở `Command Prompt` sau đó gõ lệnh:**
 
 ```js
 
@@ -59,15 +58,15 @@ Sau khi download phiên bản file server bạn cần, thì việc bạn cần l
 
 Nếu đã cài sẵn Java thì bạn không `restart` lại máy, nếu bạn mới cài java thì bạn cần `restart` hoặc `login out` lại máy, sau đó thao tác theo các hướng dẫn sau để tạo server minecraft.
 
-![image-title-here]({{baseurl}}/image/minecraft-folder-1.png){:width="100%"}
+![image-title-here](https://raw.githubusercontent.com/panadorado/panadorado.github.io/master/image/minecraft-folder-1.png)
 
 `Double click chuột` vào file server trong thư mục bạn đã tạo, sau đó đợi file tiến hành giải nén thêm một số file khác như sau:
 
-![image-title-here]({{baseurl}}/image/minecraft-folder-2.png){:width="100%"}
+![image-title-here](https://raw.githubusercontent.com/panadorado/panadorado.github.io/master/image/minecraft-folder-2.png)
 
 `Double chuột phải` vào file eula.txt và sửa đổi `eula=false` thành `eula=true`
 
-![image-title-here]({{baseurl}}/image/minecraft-eula-text.png){:width="100%"}
+![image-title-here](https://raw.githubusercontent.com/panadorado/panadorado.github.io/master/image/minecraft-eula-text.png){:width="100%"}
 
 `ctrl + s` để `save` lại file eula.txt đã sửa sau đó tiền hành, mở file `server.properties` bằng cách click chuột phải và chọn `Open With` Text rồi chú ý và sửa đổi như sau:
 
@@ -112,7 +111,7 @@ Sau khi hoàn thành các bạn **`Ctrl + s`** để **`save`** lại **`server.
 
 Hoặc bạn có thể tải file.bat [tại đây](https://www.mediafire.com/file/z32ejk3b13q4nwz/start-server.bat/file) sau đó bỏ vào thư mục chứa file server của bạn và click chuột vào file start-server.bat để tiến hành khởi động server.
 
-![image-title-here]({{baseurl}}/image/minecraft-file-server.png){:width="100%"}
+![image-title-here](https://raw.githubusercontent.com/panadorado/panadorado.github.io/master/image/minecraft-file-server.png)
 
 Như vậy các bạn hoàn thành cách tạo server minecraft, tuy nhiên để có thể chơi **`online`** cùng bạn bè thì bạn cần phải mở **`port`** của server để bạn bè có thể tham gia cùng bạn. 
 
