@@ -1,0 +1,36 @@
+I"�<p><img src="../image/komorebi-animated-wallpapers-for-Linux.png" alt="image" />
+<br /><br />
+<strong>Để có thể một hình nền động tuyệt đẹp trên desktop chạy hệ điều hành Windows của <a href="https://www.microsoft.com/vi-vn">Microssorft</a> thì chúng ta phải có:</strong></p>
+
+<ul>
+  <li>
+    <p><a href="https://store.steampowered.com/app/431960/Wallpaper_Engine/">Wallpapper Engine</a> : Chú ý để có thể trải nghiệm tốt các tình năng có trên bộ cộng cụ này buộc các bạn phải trả phí mua trên Steam, hoặc bản có thể tải phiên bản crack <a href="https://linkneverdie.net/software/wallpaper-engine-6879">tại đây</a>.</p>
+  </li>
+  <li>
+    <p><a href="https://www.microsoft.com/en-us/p/lively-wallpaper/9ntm2qc6qws7?activetab=pivot:overviewtab">Lively Wallpaper</a> : Bộ công cụ này được miễn phí trên Store của microssoft chạy trên Windows 10, nên các pc hay laptop nào đang sử dụng Windows 10 trở lên đều có thể cài được.</p>
+  </li>
+  <li>
+    <p><a href="https://taimienphi.vn/download-push-video-wallpaper-32846">Push Video Wallpapper</a> : Tương tự như 2 bộ công cụ trên đó là dùng để làm ảnh động bằng video cho Desktop và hoàn toàn miễn phí.</p>
+  </li>
+</ul>
+
+<p>Điều đặc biệt trên đó là tất cả phần mềm trên đều được hổ trợ trên Windows, vậy để có thể dùng video làm ảnh động trên các hệ điều hành khác chẳn hạn như HĐH Linux thì sao… ?. Tất nhiên là có thì mình mới viết bài này đăng cho các bạn xem chứ 😂 hihihi, luyên thuyên vậy đủ rồi mình vào chủ đề chính nhen, vậy nó là phần mềm <strong><a href="https://github.com/cheesecakeufo/komorebi">Komorebi</a></strong>.<br /><br /></p>
+
+<h3 id="1-komorebi-là-gì-">1. Komorebi là gì ?</h3>
+<hr />
+
+<p><strong>Komorebi</strong> là một trình quản lý hình nền động tuyệt vời cho tất cả các nền tảng Linux. Nó cung cấp hình nền hình ảnh, video và trang web có thể tùy chỉnh hoàn toàn có thể được tinh chỉnh bất cứ lúc nào!</p>
+
+<p><img src="../image/komorebi-animated-wallpapers-for-Linux-1.jpg" alt="image" />{ width=100% }</p>
+
+<h3 id="2-cài-đặt-và-sử-dụng-komorebi">2. Cài đặt và sử dụng Komorebi.</h3>
+<hr />
+
+<p>Mở <strong><code class="highlighter-rouge">Terminal</code></strong> lên bằng cách <kbd>Ctrl + Alt + t</kbd> và nhập lệnh sau:</p>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">
+</span><span class="gp"> ~$</span><span class="w"> </span><span class="nb">sudo </span>add-apt-repository ppa:gnome3-team/gnome3 <span class="nt">-y</span>
+<span class="gp"> ~$</span><span class="w"> 
+</span><span class="go">
+</span></code></pre></div></div>
+:ET

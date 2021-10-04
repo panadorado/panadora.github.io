@@ -24,13 +24,65 @@ body {
 }
 
 
-/* Navber MENU */
-.logo-style {
-  color: #fff;
+/* Search Style */
+.searchResult {
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  margin-right: -100px;
+  margin-left: 50px;
 }
-.logo-style:hover {
-  color: #ddd;
+
+
+/* Page Not FOund */
+.page-notfound {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
+.message-box h1 {
+  color: #2e3641;
+  font-size: 60px;
+  line-height: 46px;
+  margin-bottom: 40px;
+}
+
+.message-box p {
+  color: #2e3641;
+  font-size: 18px;
+}
+
+#Polygon-1,
+#Polygon-2,
+#Polygon-3,
+#Polygon-4,
+#Polygon-4,
+#Polygon-5 {
+  animation: float 1s infinite ease-in-out alternate;
+}
+
+#Polygon-2 {
+  animation-delay: 0.2s;
+}
+
+#Polygon-3 {
+  animation-delay: 0.4s;
+}
+
+#Polygon-4 {
+  animation-delay: 0.6s;
+}
+
+#Polygon-5 {
+  animation-delay: 0.8s;
+}
+
+@keyframes float {
+  100% {
+    transform: translateY(20px);
+  }
+}
+/**************/
 
 nav.navbar {
   background: #242424;
@@ -317,6 +369,12 @@ ul .page-item .page-link:hover{
   }
   .text-logo h1 {
     margin-top: 10px;
+  }
+  .page-notfound {
+    flex-wrap: wrap;
+  }
+  .message-box h1 {
+    font-size: 30px;
   }
 }
 

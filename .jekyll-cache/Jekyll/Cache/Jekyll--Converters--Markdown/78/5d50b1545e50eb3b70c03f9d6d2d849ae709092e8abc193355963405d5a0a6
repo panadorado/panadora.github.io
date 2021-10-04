@@ -1,0 +1,43 @@
+I"�<p><img src="/image/SourceMod/202089SourceModLogo.png" alt="image-title" width="100%" /></p>
+
+<p>Sau bài viết <a href="sourcemods/huong-dan-viet-plugin-part-1.html">hướng dẫn về Plugins SourceMod (Part 1)</a>, thì trong bài post này mình xin hướng dẫn cách cài đặt SourceMod vào <a href="https://store.steampowered.com/app/240/CounterStrike_Source/">Counter-Strike: Source</a> để có thể sử dụng được Plugins trong game nhá !</p>
+
+<h2 id="1-download">1. Download</h2>
+<hr />
+
+<p><strong>Tải SourceMod</strong><br />
+ . <a href="https://www.sourcemod.net/downloads.php?branch=stable"><strong><code class="highlighter-rouge">Bản SourceMod ổn định</code></strong></a> ► <kbd>khuyên dùng</kbd> <br />
+ . <a href="https://www.sourcemod.net/downloads.php?branch=dev"><strong><code class="highlighter-rouge">Bản SourceMod Dev</code></strong></a> ► <kbd>Dành cho Dev chuyên nghiệp</kbd></p>
+
+<p><strong>Tải MetaMod:Source</strong><br />
+ . <a href="http://www.sourcemm.net/downloads.php?branch=stable"><strong><code class="highlighter-rouge">Bản MetaMod:Source ổn định</code></strong></a> ► <kbd>khuyên dùng</kbd> <br />
+ . <a href="http://www.sourcemm.net/downloads.php/?branch=master"><strong><code class="highlighter-rouge">Bản MetaMod:Source Dev</code></strong></a> ► <kbd>Dành cho Dev chuyên nghiệp</kbd></p>
+
+<h2 id="2-setting">2. Setting</h2>
+<hr />
+
+<p>Các bạn tải hai bản SourceMod vs MetaMod:Source ổn định để sử dụng nha. Sau khi tải hoàn tất các bạn giải nén như sau:</p>
+
+<p>đối với <strong><code class="highlighter-rouge">sourcemod-1.10.0-git6490-windows.zip</code></strong> các bạn mở file lên với <strong><code class="highlighter-rouge">rar</code></strong> và copy 2 thư mục <kbd>addons vs cfg</kbd> vào đường dẫn vào thư mụcmục <kbd>D:/Counter-Strike Source/cstrike/</kbd></p>
+
+<p><img src="/image/SourceMod/202086Tutorial1.PNG" alt="tutorial-1" width="100%" /></p>
+
+<p>đối với <strong><code class="highlighter-rouge">mmsource-1.10.7-git971-windows.zip</code></strong> các bạn mở file lên với <strong><code class="highlighter-rouge">rar</code></strong> và copy thư mục <kbd>addons</kbd> vào đường dẫn vào thư mục <kbd>D:/Counter-Strike Source/cstrike/</kbd></p>
+
+<p><img src="/image/SourceMod/202086Tutoriral2.PNG" alt="tutorial-2" width="100%" /></p>
+
+<p>. Đến đây thì đã hoàn thành xong giai đoạn cài đặt SoureMod cho CS:Source, để SourceMod có thể hoạt động trong CS:Source thì các bạn tìm đến thư mục <kbd>cstrike/gameinfo.txt</kbd> tìm đến dòng <kbd>SearchPaths</kbd> sau đó đưa dòng <kbd>GameBin				|gameinfo_path|addons/metamod/bin</kbd> vào trong {  } để SourceMod có thể hoạt động trong game nhá !</p>
+
+<p><img src="/image/SourceMod/gameinfo.PNG" alt="tutorial-3" width="100%" /></p>
+
+<p>Để biết SourceMod có đang hoạt động trong CS:Source hay không các bạn có thể bật Game lênh sau đó ấn <kbd> ~</kbd> để mở console và nhập lênh <kbd>sourcemod_version</kbd> hoặc <kbd>sm_admin</kbd></p>
+
+<p><img src="/image/SourceMod/SourceModVersion.PNG" alt="tutorial-4" width="100%" /></p>
+
+<p><img src="/image/SourceMod/sm_admin.PNG" alt="tutorial-5" width="100%" /></p>
+
+<p>nếu một trong 2 lệnh đều hiển thị được tức là bạn đã cài đặt SourceMod cho CS:Source thành công !</p>
+
+<hr />
+
+:ET

