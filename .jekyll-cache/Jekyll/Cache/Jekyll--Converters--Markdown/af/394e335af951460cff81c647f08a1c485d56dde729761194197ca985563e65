@@ -1,4 +1,5 @@
-I"G<p><img src="../image/komorebi-animated-wallpapers-for-Linux.png" alt="image" />
+I"M<center><img class="img-thumbnail" src="./image/komorebi-animated-wallpapers-for-Linux.png" /></center>
+<p><br />
 <br /><br />
 <strong>Để có thể một hình nền động tuyệt đẹp trên desktop chạy hệ điều hành Windows của <a href="https://www.microsoft.com/vi-vn">Microssorft</a> thì chúng ta phải có:</strong></p>
 
@@ -21,7 +22,8 @@
 
 <p><strong>Komorebi</strong> là một trình quản lý hình nền động tuyệt vời cho tất cả các nền tảng Linux. Nó cung cấp hình nền hình ảnh, video và trang web có thể tùy chỉnh hoàn toàn có thể được tinh chỉnh bất cứ lúc nào!</p>
 
-<p><img src="../image/komorebi-animated-wallpapers-for-Linux-1.png" alt="image" /></p>
+<center><img class="img-thumbnail" src="../image/komorebi-animated-wallpapers-for-Linux-1.png" /></center>
+<p><br /></p>
 
 <h3 id="2-cài-đặt-và-sử-dụng-komorebi">2. Cài đặt và sử dụng Komorebi.</h3>
 <hr />
@@ -48,7 +50,21 @@
 <span class="go">
 </span></code></pre></div></div>
 
-<h3 id="3-gỡ-bỏ-komorebi">3. Gỡ bỏ komorebi.</h3>
+<h3 id="3-custom-video-làm-ảnh-nền-cho-desktop">3. Custom video làm ảnh nền cho desktop</h3>
+<hr />
+
+<p>Komorebi cung cấp một công cụ đơn giản để tạo hình nền của riêng bạn! Đơn giản, mở ứng dụng của bạn và tìm kiếm ‘Trình tạo hình nền’.<br /><br /></p>
+
+<center><img class="img-thumbnail" src="../image/komorebi-animated-wallpapers-for-Linux-2.png" /></center>
+<p><br /></p>
+<center><img class="img-thumbnail" src="../image/komorebi-animated-wallpapers-for-Linux-3.png" /></center>
+<p><br /></p>
+<center><img class="img-thumbnail" src="../image/komorebi-animated-wallpapers-for-Linux-4.png" /></center>
+<p><br /></p>
+
+<p>Bạn có thể sử dụng hình ảnh, video hoặc trang web làm hình nền và bạn có nhiều tùy chọn khác nhau để tùy chỉnh hình nền của riêng mình!</p>
+
+<h3 id="5-gỡ-bỏ-komorebi">5. Gỡ bỏ komorebi.</h3>
 <hr />
 
 <div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">
@@ -60,4 +76,6 @@
 <span class="gp"> ~$</span><span class="w"> </span><span class="nb">sudo </span>make uninstall
 <span class="go">
 </span></code></pre></div></div>
+
+<p>Lời kết: Như vậy bạn đó có 1 hình nền desktop động tuyệt đẹp riêng cho chính mình, Bạn nào đã sử dụng rồi thì cho mình ý kiến nhá, và còn bộ công cụ nào hổ trợ làm ảnh động desktop cho linux nữa hay không thì các bạn chỉa sẽ cho mình và người khác cùng biết nhá.</p>
 :ET
