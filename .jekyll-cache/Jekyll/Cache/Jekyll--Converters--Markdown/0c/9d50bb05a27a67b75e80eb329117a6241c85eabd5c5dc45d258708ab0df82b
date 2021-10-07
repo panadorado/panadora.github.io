@@ -1,0 +1,120 @@
+I"T0<p><img src="https://www.engisv.info/wp-content/uploads/2018/07/linux-terminal-1.jpg" alt="terminal-ubuntu" /></p>
+
+<p><strong>Giới thiệu 1 chút về Ubuntu:</strong></p>
+
+<p>Ubuntu là một <a href="https://vi.wikipedia.org/wiki/H%E1%BB%87_%C4%91i%E1%BB%81u_h%C3%A0nh">hệ điều hành</a> máy tính dựa trên <a href="https://vi.wikipedia.org/wiki/Debian">Debian GNU/Linux</a>, một bản phân phối Linux thông dụng. Mục đích của Ubuntu bao gồm việc cung cấp một hệ điều hành ổn định, cập nhật cho người dùng thường, và tập trung vào sự tiện dụng và dễ dàng cài đặt. Ubuntu đã được đánh xếp hạng là bản phân phối Linux thông dụng nhất cho máy tính để bàn, chiếm khoảng 30% số bản Linux được cài đặt trên máy tính để bàn năm 2007.</p>
+
+<p>Ubuntu là <a href="https://vi.wikipedia.org/wiki/Ph%E1%BA%A7n_m%E1%BB%81m_t%E1%BB%B1_do_ngu%E1%BB%93n_m%E1%BB%9F">phần mềm mã nguồn mở tự do</a>, có nghĩa là người dùng được tự do chạy, sao chép, phân phối, nghiên cứu, thay đổi và cải tiến phần mềm theo điều khoản của <a href="https://vi.wikipedia.org/wiki/Gi%E1%BA%A5y_ph%C3%A9p_C%C3%B4ng_c%E1%BB%99ng_GNU">giấy phép GNU GPL</a>. Ubuntu được tài trợ bởi Canonical Ltd (chủ sở hữu là một người Nam Phi Mark Shuttleworth). Thay vì bán Ubuntu, Canonical tạo ra doanh thu bằng cách bán hỗ trợ kĩ thuật. Bằng việc để cho Ubuntu tự do và mở mã nguồn, Canonical có thể tận dụng tài năng của những nhà phát triển ở bên ngoài trong các thành phần cấu tạo của Ubuntu mà không cần phải tự mình phát triển.</p>
+
+<p style="text-align: right">Tham khảo thêm từ <a href="https://vi.wikipedia.org/wiki/Ubuntu">Wikipedia</a></p>
+
+<p>Mở lệnh terminal với tổ hợp phím: <strong><code class="highlighter-rouge">Ctrl + Alt + t</code></strong><br />
+Hoặc bạn có thể click biểu tượng của terminal để mở.
+<img src="../assets/images/terminal-ubuntu.png" alt="open-new-terminal-tab" /></p>
+
+<p>Để có thể mở thêm tab mới cho terminal ta ấn phím tổ hợp: <strong><code class="highlighter-rouge">Ctrl + Shift + t</code></strong>
+<img src="../assets/images/terminal-ubuntu-2.png" alt="plus-terminal-tab" /></p>
+
+<p><strong>Sau đây là tổng hợp một số lệnh thường dùng trên Terminal:</strong></p>
+<ul>
+  <li>
+    <p><strong><code class="highlighter-rouge">pwd</code></strong>: ( path working directory ) In ra đường dẫn đến vị trí hiện tại bạn đang đứng.</p>
+  </li>
+  <li>
+    <p><strong><code class="highlighter-rouge">ls</code></strong>: ( list ) Hiển thị danh sách các tập tin và thư mục trong thư mục hiện tại bạn đang đứng. Mặc định, lệnh này sẽ không in ra các file ẩn. Do đó, để in ra các file ẩn này, bạn sử dụng thêm tuỳ chọn -a, câu lệnh sẽ là ( <strong><code class="highlighter-rouge">ls -a</code></strong> ).</p>
+  </li>
+  <li>
+    <p><strong><code class="highlighter-rouge">cd</code></strong>: ( change directory ) Thay đổi vị trí thư mục hiện tại - di chuyển đến vị trí thư mục khác. Một số cách khác nhau khi sử dụng lệnh.</p>
+  </li>
+  <li><strong><code class="highlighter-rouge">cd .</code></strong> : đứng nguyên ở thư mục hiện tại.</li>
+  <li><strong><code class="highlighter-rouge">cd ..</code></strong> : di chuyển đến thư mục cha của thư mục hiện tại.</li>
+  <li><strong><code class="highlighter-rouge">cd -</code></strong>  : di chuyển đến thư mục trước khi di chuyển đến thư mục hiện tại.</li>
+  <li><strong><code class="highlighter-rouge">cd hoặc cd ~</code></strong> : di chuyển đến thư mục /home/username (ví dụ với mình là: /home/lampv). Đây là vị trí thư mục mặc định mỗi khi bạn mở Terminal. Và bạn có toàn quyền đối với thư mục này.</li>
+  <li><strong><code class="highlighter-rouge">cd /</code></strong> : di chuyển đến thư mục root - thư mục gốc chứa mọi thư mục,( trong đó có home/username ).</li>
+  <li><strong><code class="highlighter-rouge">cd &lt;tên thư mục con&gt;</code></strong> : di chuyển đến thư mục con bên trong thư mục hiện tại.</li>
+  <li>
+    <p><strong><code class="highlighter-rouge">cd &lt;đường dẫn đến thư mục&gt;</code></strong> : di chuyển đến thư mục với đường dẫn là đường dẫn cứng. Đường dẫn cứng có thể ( ví dụ như: /home/lampv/Documents, ~/Documents/abc… )</p>
+  </li>
+  <li>
+    <p><strong><code class="highlighter-rouge">cp</code></strong>: ( copy ) Dùng để sao chép tập tin hay thư mục đến một thư mục khác.</p>
+  </li>
+  <li><strong><code class="highlighter-rouge">cp &lt;tên tập tin&gt; &lt;tên thư mục&gt;</code></strong>: dùng để copy một tập tin vào một thư mục.</li>
+  <li>
+    <p><strong><code class="highlighter-rouge">cp -r &lt;tên thư mục nguồn&gt; &lt;tên thư mục đích&gt;</code></strong>: dùng để copy thư mục nguồn vào thư mục đích.</p>
+  </li>
+  <li><strong><code class="highlighter-rouge">mv</code></strong>: ( move ) Dùng để di chuyển tập tin đến một thư mục mới đồng thời đổi tên tập tin đó.</li>
+  <li><strong><code class="highlighter-rouge">mv &lt;tên tập tin cũ&gt; &lt;tên thư mục đích / tên tập tin mới&gt;</code></strong>: di chuyển một tập tin đến thư mục mới đồng thời đổi tên tập tin.</li>
+  <li>
+    <p><strong><code class="highlighter-rouge">mv &lt;tên tập tin cũ&gt; &lt;tên thư mục đích&gt;</code></strong>: di chuyển tập tin đến thư mục đích và không đổi tên.</p>
+  </li>
+  <li>
+    <p><strong><code class="highlighter-rouge">rm</code></strong>: ( remove ) Dùng để xoá tập tin hay thư mục.</p>
+  </li>
+  <li><strong><code class="highlighter-rouge">rm &lt;tên tập tin&gt;</code></strong>: dùng để xoá tập tin.</li>
+  <li><strong><code class="highlighter-rouge">rm &lt;tên thư mục&gt;</code></strong>: dùng để xoá một thư mục rỗng.</li>
+  <li>
+    <p><strong><code class="highlighter-rouge">rm -r &lt;tên thư mục&gt;</code></strong>: xoá bất kỳ thư mục nào.</p>
+  </li>
+  <li>
+    <p><strong><code class="highlighter-rouge">mkdir &lt;tên thư mục&gt;</code></strong>: Dùng để tạo thư mục mới.</p>
+  </li>
+  <li>
+    <p><strong><code class="highlighter-rouge">touch &lt;tên tập tin&gt;</code></strong>: Dùng để tạo file mới.</p>
+  </li>
+  <li>
+    <p><strong><code class="highlighter-rouge">man &lt;tên câu lệnh&gt;</code></strong>: Dùng để hiển thị hướng dẫn các câu lệnh, ví dụ: <strong><code class="highlighter-rouge">man touch</code></strong>, <strong><code class="highlighter-rouge">man mkdir</code>,…</strong></p>
+  </li>
+  <li>
+    <p><strong><code class="highlighter-rouge">df</code></strong>: Hiển thị mức độ chiếm dụng không gian đĩa cứng của tập tin hệ thống ở tất cả các phân vùng được gắn kết.<br />
+Đơn vị hiển thị là 1K.<br />
+Để hiển thị kết quả với đơn vị MB hay GB (dễ đọc hơn), bạn có thể dùng thêm tuỳ chọn -h (human-readable), câu lệnh thành <strong><code class="highlighter-rouge">df -h</code></strong>.</p>
+  </li>
+  <li>
+    <p><strong><code class="highlighter-rouge">du</code></strong>: Hiển thị mức chiếm dụng không gian đĩa cứng ở thư mục hiện tại và các thư mục con. Có một số tuỳ chọn mà bạn có thể sử dụng:<br />
+<strong><code class="highlighter-rouge">-h</code></strong>: (human-readable) kết quả hiển thị sử dụng đơn vị là KB, MB hay GB.<br />
+<strong><code class="highlighter-rouge">-s</code></strong>: (summary) hiển thị tổng dung lượng.</p>
+  </li>
+  <li>
+    <p><strong><code class="highlighter-rouge">free</code></strong>: Hiển thị dung lượng bộ nhớ RAM còn trống và đang được sử dụng với một số tuỳ chọn:<br />
+<strong><code class="highlighter-rouge">-h</code></strong>: (human-readable) hiển thị cách dễ đọc với con người.<br />
+<strong><code class="highlighter-rouge">-g</code></strong>: hiển thị đơn vị dạng GB.<br />
+<strong><code class="highlighter-rouge">-m</code></strong>: hiển thị đơn vị dạng MB.</p>
+  </li>
+  <li>
+    <p><strong><code class="highlighter-rouge">top</code></strong>: Hiển thị thông tin về hệ thống Linux của bạn, các tiến trình đang chạy và tài nguyên hệ thống, bao gồm: CPU, RAM, phân vùng Swap, và tổng số các tác vụ đang chạy.</p>
+  </li>
+  <li>
+    <p><strong><code class="highlighter-rouge">uname -a</code></strong>: Hiển thị toàn bộ thông tin về tên máy tính, tên nhân kernel kèm theo số phiên bản và một vài chi tiết khác.</p>
+  </li>
+  <li>
+    <p><strong><code class="highlighter-rouge">lsb_release -a</code></strong>: Hiển thị phiên bản linux đang dùng.</p>
+  </li>
+  <li>
+    <p><strong><code class="highlighter-rouge">ifconfig</code></strong>: Hiển thị danh sách các thiết bị mạng trên máy tính. Qua đó, bạn có thể biết được địa chỉ IP hiện tại của máy.</p>
+  </li>
+  <li>
+    <p><strong><code class="highlighter-rouge">adduser &lt;tên user mới&gt;</code></strong>: Dùng để thêm một user mới cho máy.</p>
+  </li>
+  <li>
+    <p><strong><code class="highlighter-rouge">passwd &lt;tên user mới&gt;</code></strong>: Dùng để thêm password cho người dùng mới.</p>
+  </li>
+  <li><strong><code class="highlighter-rouge">sudo</code></strong>: Nhiều câu lệnh trong Terminal cần phải có sudo phía trước. Khi dùng sudo, máy tính hiểu rằng bạn đang thực thi câu lệnh với quyền cao nhất, đó là quyền <strong><code class="highlighter-rouge">root</code></strong>.</li>
+</ul>
+
+<p>Để thực thi được câu lệnh này, bạn bắt buộc phải nhập mật khẩu. Một số lệnh bắt buộc phải dùng sudo như:</p>
+
+<ul>
+  <li><strong><code class="highlighter-rouge">sudo apt-update</code></strong>: Để để fetch index mới nhất.</li>
+  <li><strong><code class="highlighter-rouge">sudo apt list --upgradable</code></strong>: Để kiểm tra 1 package có update mới.</li>
+  <li><strong><code class="highlighter-rouge">sudo apt-get upgrade</code></strong>: Để cập nhật tất cả các gói phần mềm mới nhất.</li>
+  <li><strong><code class="highlighter-rouge">sudo apt-get install &lt;tên gói phần mềm&gt;</code></strong>: tải gói phần mềm hay ứng dụng về hệ điều hành ubuntu.</li>
+  <li><strong><code class="highlighter-rouge">sudo apt-get autoremove &lt;tên gói phần mềm&gt;</code></strong>: gỡ cài đặt gói phần mềm hay ứng dụng đã tải về.</li>
+  <li><strong><code class="highlighter-rouge">sudo shutdown -h now</code></strong>: tắt máy tính ngay lập tức.</li>
+  <li><strong><code class="highlighter-rouge">sudo reboot</code></strong>: khởi động lại máy tính.</li>
+</ul>
+
+<p><strong>Lời kết</strong>: Như vậy Ubuntu cũng không mấy khó thân thiện với người dùng lắm nhệ, vì thế các bạn có thể sử dụng hệ điều hành ubuntu như với số thao tác trên windows cũng được không nhất thiết phải sử dụng lệnh, trừ khi bạn cần cài các gói phần mềm bên ngoài vào Ubuntu thì buộc bạn phải sử dụng đến terminal.<br />
+*( chú ý: một số phần mềm chưa được hộ trợ trên linux thì bạn ko thể cài đặt mà thôi, ngoài ra bạn có thể tìm trên google để được hướng dẫn cài đặt các phần mềm được hổ trợ trên ubuntu nhé.</p>
+
+<p>Lời khuyên trân thành mình dành cho các bạn là, không nền cài giả lập phần mềm của windows trên linux vì có thể không sử dụng được hoặc xóa không sạch tập tin rác.)*.</p>
+:ET

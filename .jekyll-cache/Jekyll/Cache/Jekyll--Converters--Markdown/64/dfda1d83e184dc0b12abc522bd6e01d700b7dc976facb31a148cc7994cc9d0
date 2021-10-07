@@ -1,0 +1,264 @@
+I"-<p><img src="../assets/images/202042ubuntu-windows.png" alt="winvslinux" /></p>
+
+<p><strong>Bạn là một người dùng hệ điều hành <code class="highlighter-rouge">Windows</code> và muốn chuyển sang dùng <code class="highlighter-rouge">Ubuntu</code> để trải nghiệm sự mới của hệ điều hành mang nhân <code class="highlighter-rouge">linux</code>.</strong></p>
+
+<p>Tuy nhiên việc bạn cài hoàn toàn 1 hệ điều hành <code class="highlighter-rouge">Ubuntu/Linux</code> lên một chiếc PC hoặc Laptop thì hết sức bình thường, nhưng điều đó sẽ quá xa lạ với 1 hệ điều hành mang đầy tính năng mới mẽ đối với bạn. Thì buộc bạn phải cài song song cả 2 hệ điều hành trên cùng một chiếc PC hoặc Laptop để tiện cho việc nghiên cứu và học tập.</p>
+
+<p>Trong bài post này mình xin hướng dẫn các bạn cài đặt Ubuntu song song với Windows trên PC hoặc Laptop nhé.</p>
+
+<p><strong>Bước 1: Cài đặt và tạo boot USB</strong></p>
+
+<ul>
+  <li>
+    <p>Đầu tiện bạn cần tải phần mềm <code class="highlighter-rouge">rufus</code> để tạo boot USB <a href="https://rufus.ie/">tại đây</a></p>
+  </li>
+  <li>
+    <p>File <code class="highlighter-rouge">iso</code> chứa hệ điều hành <code class="highlighter-rouge">Ubuntu</code> <a href="https://ubuntu.com/#download">tại đây</a></p>
+  </li>
+</ul>
+
+<p>Tiếp theo bạn khởi tạo boot hệ điều hành ubuntu vào USB</p>
+
+<p>Kết nối USB vào Máy tính và mở phần mềm rufus lên và cấu hình như sau:</p>
+
+<p><img src="https://www.how2shout.com/wp-content/uploads/2020/04/set-Rufus-to-create-Ubuntu-20.04-ISO-bootable-drive.png" alt="rufus-create-boot" /></p>
+
+<p><strong>Bước 2: Tiến hành cài đặt song song Ubuntu vào máy tính</strong></p>
+
+<p><strong>Tổng hợp danh sách các phím truy cập BIOS cho bo mạch chủ của PC</strong></p>
+
+<article class="text-blog">
+	<style>	
+		table, th, td {
+		  background: #dddd;
+		  border: 1px solid #242424;
+		  padding: 8px;
+		}
+	</style>
+	<table>
+		<tr>
+			<th> Tên Mainboard PC </th>
+			<th> Phím tắt </th>
+		</tr>
+		<tr>
+			<td> Mainboard Abit </td>
+			<td> phím DEL </td>
+		</tr>
+		<tr>
+			<td> Mainboard ASRock </td>
+			<td> phím F2 </td>
+		</tr>
+		<tr>
+			<td> Mainboard ASUS </td>
+			<td> Phím DEL, Print hoặc F10 </td>
+		</tr>
+		<tr>
+			<td> Mainboard BFG </td>
+			<td> Phím DEL </td>
+		</tr>
+		<tr>
+			<td> Mainboard FREESCALE </td>
+			<td> Phím DEL </td>
+		</tr>
+		<tr>
+			<td> Mainboard DFI </td>
+			<td> Phím DEL </td>
+		</tr>
+		<tr>
+			<td> Mainboard ECS Elitegroup </td>
+			<td> Phím DEL hoặc F1 </td>
+		</tr>
+		<tr>
+			<td> Mainboard EVGA </td>
+			<td> Phím DEL </td>
+		</tr>
+		<tr>
+			<td> Mainboard Foxconn </td>
+			<td> Phím DEL </td>
+		</tr>
+		<tr>
+			<td> Mainboard GIGABYTE </td>
+			<td> Phím DEL </td>
+		</tr>
+		<tr>
+			<td> Mainboard Intel </td>
+			<td> Phím DEL </td>
+		</tr>
+		<tr>
+			<td> Mainboard JetWay </td>
+			<td> Phím DEL </td>
+		</tr>
+		<tr>
+			<td> Mainboard Mach Speed </td>
+			<td> Phím DEL </td>
+		</tr>
+		<tr>
+			<td> Mainboard MSI (Micro-Star) </td>
+			<td> Phím DEL </td>
+		</tr>
+		<tr>
+			<td> Mainboard PCChips </td>
+			<td> Phím DEL hoặc F1 </td>
+		</tr>
+		<tr>
+			<td> Mainboard SAPPHIRE </td>
+			<td> Phím DEL </td>
+		</tr>
+		<tr>
+			<td> Mainboard Shuttle </td>
+			<td> Del hoặc Ctrl + Alt + Esc </td>
+		</tr>
+		<tr>
+			<td> Mainboard Soyo </td>
+			<td> Phím DEL </td>
+		</tr>
+		<tr>
+			<td> Mainboard Super Micro </td>
+			<td> Phím DEL </td>
+		</tr>
+		<tr>
+			<td> Mainboard TYAN </td>
+			<td> DEL hoặc F4 </td>
+		</tr>
+		<tr>
+			<td> Mainboard XFX </td>
+			<td> DEL hoặc </td>
+		</tr>
+		<tr>
+			<th> Tên Laptop </th>
+			<th> Phím tắt </th>
+		</tr>
+	</table>
+</article>
+<p><br />
+<strong>Danh sách phím truy cập BIOS theo dòng máy</strong></p>
+<article class="text-blog">
+	<style>	
+		table, th, td {
+		  background: #dddd;
+		  border: 1px solid #242424;
+		  padding: 5px;
+		}
+	</style>
+	<table>
+		<tr>
+			<th> Tên Laptop </th>
+			<th> Phím tắt </th>
+		</tr>
+		<tr>
+			<td> Laptop SONY VAIO </td>
+			<td> 
+				Để vào được BIOS khi khởi động lại máy tính bạn cần nhấn và giữ phím F2 <br />
+				Để vào được Recovery khi khởi động lại máy tính bạn cần nhấn và giữ phím F10 
+			</td>
+		</tr>
+		<tr>
+			<td> Laptop HP – COMPAQ </td>
+			<td> 
+				Một số dòng máy của HP thì bạn sẽ phải bấm Esc - nút Escape để vào BIOS.<br />
+				Để vào được BIOS khi khởi động lại máy tính bạn cần nhấn và giữ phím F10<br />
+				Để vào được Recovery khi khởi động lại máy tính bạn cần nhấn và giữ phím F11<br />
+				Để vào được BOOT khi khởi động lại máy tính bạn cần nhấn và giữ phím F9
+			</td>
+		</tr>
+		<tr>
+			<td> Laptop ACER </td>
+			<td> 
+				Để vào được BOOT khi khởi động lại máy tính bạn cần nhấn và giữ phím F12<br />
+				Để vào được BIOS khi khởi động lại máy tính bạn cần nhấn và giữ phím F2.<br />
+			</td>
+		</tr>
+		<tr>
+			<td> Laptop ASUS </td>
+			<td> 
+				Để vào được BIOS khi khởi động lại máy tính bạn cần nhấn và giữ phím ESC<br />
+				Để vào được BOOT khi khởi động lại máy tính bạn cần nhấn và giữ phím F2 
+			</td>
+		</tr>
+		<tr>
+			<td> Laptop LENOVO THINKPAD </td>
+			<td> 
+				Để vào được BIOS khi khởi động lại máy tính bạn cần nhấn và giữ phím F1<br />
+				Để vào được Recovery khi khởi động lại máy tính bạn cần nhấn và giữ phím ThinkVantage<br />
+				Để vào được BOOT khi khởi động lại máy tính bạn cần nhấn và giữ phím F12 
+			</td>
+		</tr>
+		<tr>
+			<td> Laptop DELL </td>
+			<td> 
+				Để vào được BIOS khi khởi động lại máy tính bạn cần nhấn và giữ phím F2<br />
+				Để vào được Recovery khi khởi động lại máy tính bạn cần nhấn và giữ phím F8 rồi chọn Repair your Computer<br />
+				Để vào được BOOT khi khởi động lại máy tính bạn cần nhấn và giữ phím F12 
+			</td>
+		</tr>
+	</table>
+</article>
+<p><br /></p>
+
+<p><em>Lưu ý: trước khi cài đặt Ubuntu yêu cầu các bạn tắt <code class="highlighter-rouge">Security Boot</code> và chọn đúng Chuẩn boot bạn đang sử dụng nếu không nhớ bạn có thể nguyên chuẩn MBR (BIOS hoặc UEFI) như Bước 1 <code class="highlighter-rouge">Cài đặt và tạo boot USB</code></em></p>
+
+<p>Sau đó chọn Boot USB để vào giao diện cài đặt hệ điều hành <code class="highlighter-rouge">Ubuntu</code>:</p>
+
+<p><img src="https://ubuntucommunity.s3-us-east-2.amazonaws.com/original/2X/a/ad5e454a9fd45fd56d90da951702c2f2224cd32a.png" alt="boot-ubuntu" /></p>
+
+<ul>
+  <li>
+    <p>Bạn chọn <code class="highlighter-rouge">Install Ubuntu</code>, chọn ngôn ngữ <code class="highlighter-rouge">English</code>
+<img src="https://res.cloudinary.com/developerhub/image/upload/v1628792525/v2_5265/surwiscpmlo1rlmcu4ih.png" alt="install-Ubuntu" /></p>
+  </li>
+  <li>
+    <p>Keyboard (mặt định <code class="highlighter-rouge">English US</code>)</p>
+  </li>
+</ul>
+<center><img class="img-thumbnail" src="https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-3.png" alt="ubuntu-pic-3.png" border="0" /></center>
+<p><br /></p>
+
+<ul>
+  <li>
+    <p>Phần <code class="highlighter-rouge">Update and other software</code> bạn chọn <code class="highlighter-rouge">Normal installation</code> và tích vào 2 hàng ở phần Other option
+<img src="https://phoenixnap.com/kb/wp-content/uploads/2021/04/choose-starting-applications-for-ubuntu-20.04.png" alt="install-Ubuntu-UpdateAndSoftware" /></p>
+  </li>
+  <li>
+    <p>Phần <code class="highlighter-rouge">Installation type</code> nếu cài song song bạn chọn <code class="highlighter-rouge">Something else</code>, nếu bạn muốn cài đặt hoàn toàn Ubuntu thì bạn chọn <code class="highlighter-rouge">Erea disk and install Ubuntu</code>.
+<img src="https://www.tecmint.com/wp-content/uploads/2012/10/choose-something-scenarios2.png" alt="install-something-else" /></p>
+  </li>
+  <li>
+    <p>Phần <code class="highlighter-rouge">Installation type</code> trong phần này các bắt đầu khởi tạo phân vùng như sau:</p>
+  </li>
+</ul>
+
+<p>Bạn click vào phân vùng <strong><code class="highlighter-rouge">free space</code></strong> 
+Tiếp tục chọn <strong><code class="highlighter-rouge">+</code></strong> khởi tạo phân vùng <strong><code class="highlighter-rouge">Swap area</code></strong>:
+Phần Size (dung lượng) bạn set cho gắp đôi dung lương <code class="highlighter-rouge">RAM</code> nhé ví dụ:<br />
+RAM 2GB -&gt; Swap sẽ là 4GB (1024KB x 4 = 4096KB)<br />
+RAM 4GB -&gt; Swap sẽ là 8GB (1024KB x 8 = 8192KB)</p>
+
+<p>Phần Type for the new partition: <strong><code class="highlighter-rouge">Logical</code></strong><br />
+Phần Use as: <strong><code class="highlighter-rouge">Swap area</code></strong></p>
+
+<p><img src="https://i.stack.imgur.com/tyX1B.png" alt="create-swap-ubuntu" /></p>
+
+<p>Phần <strong><code class="highlighter-rouge">free space</code></strong> còn lại bạn dùng làm Phân vùng chính để cài <code class="highlighter-rouge">Ubuntu</code> <br />
+Phần Type for the new partition: <strong><code class="highlighter-rouge">Primary</code></strong> <br />
+Phần Use as: <strong><code class="highlighter-rouge">Ext4 journaling file system</code></strong>
+tiếp tục click vào <strong><code class="highlighter-rouge">Continue</code></strong></p>
+
+<p>Sau đó bạn chọn thông tin như sau:</p>
+
+<p><strong>Where are you?: <code class="highlighter-rouge">Ho Chi Minh</code></strong>
+<img src="https://blogsofts.net/wp-content/uploads/2021/05/cach-cai-ubuntu-8.png" alt="Region-HCM" /></p>
+
+<p><strong>Who are you?:</strong><br />
+Your name: <strong><code class="highlighter-rouge">&lt; tên user bạn muốn đặt &gt;</code></strong><br />
+Your computer’s name: <strong><code class="highlighter-rouge">&lt; tên cho máy tính bạn muốn đặt &gt;</code></strong><br />
+Pick a username: <strong><code class="highlighter-rouge">&lt; tên tài khoảng bạn muốn đặt &gt;</code></strong><br />
+Choose a password: <strong><code class="highlighter-rouge">&lt; mật khẩu bạn muốn đặt &gt;</code></strong><br />
+Confirm your password: <strong><code class="highlighter-rouge">&lt; xác nhận lại mật khẩu &gt;</code></strong></p>
+
+<p><img src="https://i.stack.imgur.com/TdMDH.png" alt="Create-User" /></p>
+
+<p>Click vào <strong><code class="highlighter-rouge">continue</code></strong> để tiến hành cài đặt <strong><code class="highlighter-rouge">Ubuntu</code></strong>.<br />
+Sau khi cài đặt hoàn tất, các bạn khởi động lại máy tính và màn hình Dual-Boot Ubuntu với Windows hiện lên. Bạn có thể sử dụng phím mũi tên để di chuyển đến hệ điều hành muốn khởi động và nhấn Enter, lựa chọn Ubuntu để vào Ubuntu hoặc <strong><code class="highlighter-rouge">Windows Boot Manager</code></strong> để truy cập vào Windows.</p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Ubuntu-20.04-cat.png" alt="Screen-Ubuntu" /></p>
+:ET

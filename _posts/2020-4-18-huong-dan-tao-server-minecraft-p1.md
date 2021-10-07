@@ -14,7 +14,7 @@ Minecraft gồm có các chế độ chơi: `Sinh Tồn, Sáng tạo, Phiêu lư
 
 Ngoài ra game cho phép người chơi có thể chơi Multiplayer tức là Online cùng bạn bè, để có thể chơi game cùng bạn bè qua việc tạo server sau đây là bài viết hướng dẫn tạo server minecraft để chơi cùng bạn bè.
 
-![image-title-here](https://raw.githubusercontent.com/panadorado/panadorado.github.io/master/image/2020418CreateServerMinecraft.jpg){:width="100%"}<br><br>
+![image-title-here](https://raw.githubusercontent.com/panadorado/panadorado.github.io/master/image/2020418CreateServerMinecraft.jpg)
 
 <h3 style="font-weight: bold;">Hướng dẫn tải Server Minecraft</h3>
 
@@ -63,15 +63,15 @@ Sau khi download phiên bản file server bạn cần, thì việc bạn cần l
 
 Nếu đã cài sẵn Java thì bạn không `restart` lại máy, nếu bạn mới cài java thì bạn cần `restart` hoặc `login out` lại máy, sau đó thao tác theo các hướng dẫn sau để tạo server minecraft.
 
-![image-title-here](https://raw.githubusercontent.com/panadorado/panadorado.github.io/master/image/minecraft-folder-1.png){:width="100%"}
+![image-title-here](https://raw.githubusercontent.com/panadorado/panadorado.github.io/master/image/minecraft-folder-1.png)
 
 `Double click chuột` vào file server trong thư mục bạn đã tạo, sau đó đợi file tiến hành giải nén thêm một số file khác như sau:
 
-![image-title-here](https://raw.githubusercontent.com/panadorado/panadorado.github.io/master/image/minecraft-folder-2.png){:width="100%"}
+![image-title-here](https://raw.githubusercontent.com/panadorado/panadorado.github.io/master/image/minecraft-folder-2.png)
 
 `Double chuột phải` vào file eula.txt và sửa đổi `eula=false` thành `eula=true`
 
-![image-title-here](https://raw.githubusercontent.com/panadorado/panadorado.github.io/master/image/minecraft-eula-text.png){:width="100%"}
+![image-title-here](https://raw.githubusercontent.com/panadorado/panadorado.github.io/master/image/minecraft-eula-text.png)
 
 `ctrl + s` để `save` lại file eula.txt đã sửa sau đó tiền hành, mở file `server.properties` bằng cách click chuột phải và chọn `Open With` Text rồi chú ý và sửa đổi như sau:
 
@@ -116,7 +116,7 @@ Sau khi hoàn thành các bạn **`Ctrl + s`** để **`save`** lại **`server.
 
 Hoặc bạn có thể tải file.bat [tại đây](https://www.mediafire.com/file/z32ejk3b13q4nwz/start-server.bat/file) sau đó bỏ vào thư mục chứa file server của bạn và click chuột vào file start-server.bat để tiến hành khởi động server.
 
-![image-title-here](https://raw.githubusercontent.com/panadorado/panadorado.github.io/master/image/minecraft-file-server.png){:width="100%"}
+![image-title-here](https://raw.githubusercontent.com/panadorado/panadorado.github.io/master/image/minecraft-file-server.png)
 
 Như vậy các bạn hoàn thành cách tạo server minecraft, tuy nhiên để có thể chơi **`online`** cùng bạn bè thì bạn cần phải mở **`port`** của server để bạn bè có thể tham gia cùng bạn. 
 

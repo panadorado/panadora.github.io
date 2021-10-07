@@ -12,9 +12,7 @@ permalink: /vi-phat-trien-du-an-nen-cuu-ky-su-ms-da-ngoi-tu.html
 
 Volodymyr Kvashuk làm việc cho Microsoft từ năm 2016 đến 2018 với vai trò phát triển và thử nghiệm nền tảng bán hàng online. Anh đã lợi dụng cơ hội này để lấy cắp thẻ quà tặng (digital gift card) và bán lại trên mạng. Cụ thể, Kvashuk đã lấy cắp hơn 12.000 USD bằng tài khoản của mình, sau đó tạo thêm nhiều tài khoản khác lấy tên của đồng nghiệp để biển thủ hàng triệu USD từ Microsoft. Số tiền này đã được Kvashuk chuyển thành bitcoin và gửi vào tài khoản ngân hàng của mình.
 
-<center>
-	<img class="img-thumbnail image-post" src="https://news.gearvn.com/wp-content/uploads/2020/02/image2-65-1024x683.jpg">
-</center>
+![Banner-Microssoft](https://news.gearvn.com/wp-content/uploads/2020/02/image2-65-1024x683.jpg)
 
 Hắn đã mua một chiếc Tesla trị giá 160.000 USD và một căn biết thự bờ hồ trị giá 1,6 tỷ USD. Tổng cộng Kvashuk đã chuyển 2,8 triệu USD tiền bitcoin qua tài khoản của hắn và khai báo là được họ hàng tặng. Microsoft sau đó đã phanh phui chuyện này vào năm 2018 và sa thải hắn khỏi công ty.
 

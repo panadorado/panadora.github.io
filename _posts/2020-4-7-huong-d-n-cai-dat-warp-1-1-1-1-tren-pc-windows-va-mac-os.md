@@ -8,7 +8,7 @@ category: [windows, news]
 permalink: /huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html
 ---
 
-<center><img class="img-thumbnail" src="https://tamnhin.net.vn/stores/news_dataimages/ctv3/042018/02/11/2448_dns_tang_toc_internet_anh_dong_1.gif"></center><br>
+![1.1.1.1](https://tamnhin.net.vn/stores/news_dataimages/ctv3/042018/02/11/2448_dns_tang_toc_internet_anh_dong_1.gif)
 
 Hiện tại, phần lớn người dùng PC thường sử dụng Warp+ VPN bằng phần mềm WireGuard, tuy nhiên giao diện không thân thiện, thao tác thiết lập cũng khá phức tạp. Chính vì vậy, trong bài viết này mình xin hướng dẫn các bạn cách cài đặt Warp+ trên Windows/Mac OS thông qua công cụ APKCombo VPN, dễ sử dụng và trực quan.
 
@@ -36,15 +36,15 @@ Hiện tại, phần lớn người dùng PC thường sử dụng Warp+ VPN b�
 - Tải và cài đặt: [APKCombo VPN](https://apkcombo.com/vi-vn/vpn/)
 - Mở APKCombo VPN > bấm nút Active CloudFlare WARP+ VPN.
 
-<center><img class="img-thumbnail" src="https://photo.techrum.vn/images/2020/04/06/4SCYMu.jpg"></center><br>
+![for-windows](https://photo.techrum.vn/images/2020/04/06/4SCYMu.jpg)
 
 - Bấm nút Active là xong.
 
-<center><img class="img-thumbnail" src="https://photo.techrum.vn/images/2020/04/06/4SCjTe.jpg"></center><br>
+![active](https://photo.techrum.vn/images/2020/04/06/4SCjTe.jpg)
 
 - Nếu muốn kiểm tra lại thì bạn bấm Check VPN (trên trang chủ ở dưới ảnh đầu tiên sẽ có dòng trạng thái màu xanh là thành công - Your WARP status: PLUS).
 
-<center><img class="img-thumbnail" src="https://photo.techrum.vn/images/2020/04/06/4SCXJY.jpg"></center><br>
+![check-vpn](https://photo.techrum.vn/images/2020/04/06/4SCXJY.jpg)
 
 **TRÊN MAC OS:**
 

@@ -1,0 +1,58 @@
+I"�<p>Với sự phát triển vượt bậc trong suốt các thập kỷ của khoa học và công nghệ hiện nay, con người gần như tạo nên thành công những vật dụng nhỏ gọn và thông minh tưởng chừng chỉ có trên phim ảnh.</p>
+
+<p>Đặc biệt nhất kể đến hành trình phát triển của các dòng điện thoại thông minh tiếng anh gọi là <strong><code class="highlighter-rouge">smart phone</code></strong>, nó gần như hoàn toàn gom gọn các tính năng tiện ích cần thiết nhất cho con người, từ nghe nhạc đến xem phim và đọc báo lướt web v.v.., cùng với đó thì những chiếc <strong><code class="highlighter-rouge">smart phone</code></strong> được trang bị chung một <strong><code class="highlighter-rouge">hệ điều hành</code></strong> mở đó là Android. Tuy nhiên với nhu cầu hiện nay là <strong><code class="highlighter-rouge">smart phone</code></strong> chưa đủ Adnroid muốn hướng đến một <strong><code class="highlighter-rouge">hệ điều hành Android vs hệ sinh thái đồ sộ</code></strong> mang tính mở có thể trải nghiệm được trên cả PC.</p>
+
+<p>Để có thể đưa Android lên PC, các nhà phát triển đã hướng đến tính giả lập Android cho PC. Tuy nhiên nếu set về phương diện tối ưu phần cứng thì điều này khá là phức tạp khi nó đòi hỏi PC phải có các phần cứng đủ khỏe để có thể giả lập Android một cách ổn định, trong khi đó bản thân phần cứng của những chiếc PC hay Laptop hiện nay đã đủ khỏe để có thể chạy được <strong><code class="highlighter-rouge">HDH Windows</code></strong> một cách mượt mà, rồi phải chạy thêm 1 cái giả lập ngốm tài nguyên khác gì bê một hệ điều hành khác vào trong hệ điều hành đang dùng, rồi lại phải chia sẻ thêm phần tài nguyên trong máy tính lên một hệ thống bên trong một hệ điều hành đó ?.</p>
+
+<p>Vì thế các nhà phát triển đã hướng đến một khả năng đó là mang tính mở với sự vận hành độc lập cho hể điều hành Android này, về cơ bản thì hệ điều hành này cũng được phát triển dựa trên nhân <strong><code class="highlighter-rouge">Linux</code></strong> mà thôi, nhưng nói vậy là chưa đủ vì nhu cầu người dùng cộng thêm sự bùng nổ của công nghệ và hệ sinh thái phong phú bên trong Android, chắc hẳn đã có một số ý tưởng của người dùng và nhà phác triển suy nghỉ ra là tại sao không tận dụng nó lên PC ?. Dưới đây là tổng hợp một số Android cho PC :</p>
+
+<p><a href="https://www.fosshub.com/Remix-OS.html"><strong><code class="highlighter-rouge">1. REMIX OS</code></strong></a></p>
+
+<p><img src="../assets/images/202081Android-PC-RemixOS.jpg" alt="Remix OS" /></p>
+
+<p>Remix OS mô phỏng hệ điều hành di động Android trên màn hình lớn hơn, có thể kết hợp với chuột và bàn phím mang đến cho bạn những trải nghiệm thú vị. Remix OS cũng là ứng dụng tiên phong về hệ điều hành nhân Android đầu tiên cho PC, được thiết kế với sự đơn giản và nhiều tính năng.</p>
+
+<p><a href="https://www.fosshub.com/Remix-OS.html">Download Remix OS 3.0</a></p>
+
+<p><a href="http://www.phoenixos.com/en/download_x86"><strong><code class="highlighter-rouge">2. Pheonix OS</code></strong></a></p>
+
+<p><img src="../assets/images/202081Android-PC-PheonixOS.jpg" alt="Phoenix OS" /></p>
+
+<p>Phoenix OS trông giống như Remix OS (hiện đã không còn được hỗ trợ). Nó tương thích với GPL-2.0 và cài đặt trên nhiều loại khác nhau của phần cứng dựa trên x86. (Nếu có thể cài đặt Linux trên một máy tính cụ thể, bạn có thể cài đặt Phoenix OS).</p>
+
+<p>Phoenix OS cũng bao gồm các cải tiến cho Android, chẳng hạn như tự động ngăn không cho ứng dụng chạy dưới nền. Ngoài tốc độ, hệ điều hành cũng nhận được cập nhật thường xuyên. Những tính năng này đã góp phần làm tăng tính phổ biến của nó gần đây. Một vài công ty phần cứng của Trung Quốc sẽ phát hành máy tính bảng và PC mini với việc sử dụng Phoenix OS làm hệ điều hành chính như máy tính bảng Pipo P10 2 trong 1.</p>
+
+<p>Không phải tất cả phần cứng đều tương thích với Phoenix OS. Nó có cùng một điểm yếu và khuyết điểm như Linux: cụ thể là nó sẽ không hoạt động với tất cả phần cứng. Và ngay cả khi đã hoạt động, nó sẽ thiếu một số tính năng nhất định như âm thanh thông qua một kết nối HDMI.</p>
+
+<p>Ngoài ra, bạn có thể thử nghiệm Phoenix OS từ bên trong một máy ảo, chẳng hạn như VMware hoặc VirtualBox.</p>
+
+<p>Yêu cầu cài đặt Phoenix OS
+Yêu cầu phần cứng của Phoenix OS
+Phoenix OS chỉ yêu cầu bộ vi xử lý Intel hoặc AMD x86 (Intel Atom) và bộ nhớ trong với ít nhất 2GB. Bạn nên sử dụng ít nhất ổ đĩa 16GB. Để cài đặt Phoenix OS, người dùng sẽ cần một ổ USB với ít nhất 8GB bộ nhớ.</p>
+
+<p><a href="http://www.phoenixos.com/en/download_x86">Donwload Phoenix OS</a></p>
+
+<p><a href="https://primeos.in/download/"><strong><code class="highlighter-rouge">3. Prime OS</code></strong></a></p>
+
+<p><img src="../assets/images/202081Android-PC-PrimeOS.jpg" alt="Prime OS" /></p>
+
+<p>Hệ điều hành PrimeOS cung cấp cho một trải nghiệm máy tính để bàn hoàn chỉnh tương tự như Windows hoặc MacOS với quyền truy cập vào hàng triệu ứng dụng Android. Nó được thiết kế để mang lại cho bạn tốt nhất của cả hai thế giới, một Fusion hoàn toàn của Android và PC.</p>
+
+<p><a href="https://primeos.in/download/">Download Prime OS</a></p>
+
+<p><a href="https://www.blissos.org/"><strong><code class="highlighter-rouge">4. Bliss OS</code></strong></a></p>
+
+<p><img src="../assets/images/202081Android-PC-BlissOS.jpg" alt="Bliss OS" /></p>
+
+<p>Một hệ điều hành nguồn mở, dựa trên Android, kết hợp nhiều tối ưu hóa, tính năng và hỗ trợ thiết bị mở rộng. Và nó có sẵn cho chỉ là về bất kỳ Chromebook, Windows/Linux PC hoặc máy tính bảng phát hành trong 4 năm qua.</p>
+
+<p>Bliss OS cho phép người dùng chọn giữa Desktop hoặc Tablet UI, dựa trên trình khởi chạy đang được sử dụng. Bạn thậm chí có thể pha trộn hai cho một kinh nghiệm thực sự tùy chỉnh.</p>
+
+<p>Bliss OS đi kèm với một loạt các tính năng bổ sung cho khả năng tương thích với ARM &amp; ARM64 ứng dụng. Cũng như các cấu hình bổ sung cho nhiều gamepads và hồ sơ cho Tincore Keymapper, cho phép người dùng trò chơi như không bao giờ trước.</p>
+
+<p><a href="https://www.blissos.org/">Download Bliss OS</a></p>
+
+<hr />
+
+<p>Vừa rồi mình vừa tổng hợp 1 số hệ điều hành Adroid cho PC, bạn cảm thấy thế nào và đã từng trải nghiệm nó chưa vui lòng <strong><code class="highlighter-rouge">comment</code></strong> vào bên dưới cho mình biết ý kiến và còn bản Android PC nào mình cho biết đến hãy chia sẻ cho mình biết để mình tổng hợp thêm nhá.</p>
+:ET

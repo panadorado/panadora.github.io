@@ -16,8 +16,8 @@ permalink: /cai-dat-photoshop-tren-ubuntu-linux.html
 
 *PlayOnLinux là một frontend cho lớp tương thích phần mềm Wine cho phép người dùng Linux cài đặt các video game dựa trên Windows, Microsoft Office, Microsoft Internet Explorer, cũng như nhiều ứng dụng khác như Apple iTunes và Safari, chi tiết xin mời các bạn truy cập <a href="https://vi.wikipedia.org/wiki/PlayOnLinux">Wikipedia</a>.*
 
-<center><img class="img-thumbnail" src="{{site.baseurl}}/image/reviewAppPlayOnLinux.png"></center>
-<br>
+![PlayOnLinux](../assets/images/reviewAppPlayOnLinux.png)
+
 Thao tác mở `terminal` của ubuntu lên với tổ hợp phím `Ctrl + Alt + t` và thao dòng lệnh sau:
 
 ```terminal
@@ -34,18 +34,18 @@ Xác nhận `Password` của bạn và tiến hành lấy gói tập tin về.
 
 *Đầu tiền bạn cần tải <a href="https://drive.google.com/file/d/1DD6PB5qzPMHD6FICQHCPHrlUwtRZt7E7/view">Adobe Photoshop CS6 Extended</a> về.*
 
-Mở PlayOnLinux lên và click chọn `install` <img class="img-thumbnail" src="{{site.baseurl}}/image/choose_install.png" width="60"> tìm và chọn mục `Graphics` <img class="img-thumbnail" src="{{site.baseurl}}/image/Type_Graphics.png" width="60">.
+Mở PlayOnLinux lên và click chọn `install` <img class="img-thumbnail" src="../assets/images/choose_install.png" width="60"> tìm và chọn mục `Graphics` <img class="img-thumbnail" src="../assets/images/Type_Graphics.png" width="60">.
 
 Tìm đến phần mềm `Adobe Photoshop CS6`.
 
-<img class="img-thumbnail" src="{{site.baseurl}}/image/app_ptscs6_pbp.png"> <br>
+![image1](../assets/images/app_ptscs6_pbp.png)
 
 Bạn chỉ cần ấn `next`
 
-<img class="img-thumbnail" src="{{site.baseurl}}/image/pts1.png"> <br>
-<img class="img-thumbnail" src="{{site.baseurl}}/image/pts2.png"> <br>
-<img class="img-thumbnail" src="{{site.baseurl}}/image/pts3.png"> <br>
-<img class="img-thumbnail" src="{{site.baseurl}}/image/pts4.png"> <br>
+![image2](../assets/images/pts1.png)
+![image3](../assets/images/pts2.png)
+![image4](../assets/images/pts3.png)
+![image5](../assets/images/pts4.png)
 
 Tới phần này buộc bạn ấn vào `Browse` tìm đến đường dẫn chứa `Set-up.exe` của Photoshop. Việc bây giờ bạn chỉ cần next để tiến hành giải nén và cài đặt tất cả các file của Photoshop. Sau Khi xong bạn có thể mở ứng dụng lên hưởng thành quả !
 

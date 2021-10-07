@@ -25,7 +25,7 @@ Trên Windows để có thể đánh văn bản hay chat tin nhắn và một s�
  ~$ ibus restart
 
 ```
-<br>
+
 Chi tiết cấu hình cài đăt: [<i style="font-size: 20px; font-weight: bold;" class="fab fa-github"> Source Github ibus-unikey</i>](https://github.com/vn-input/ibus-unikey)
 
 **`Chú ý: Hiện tại bộ gõ này không còn được hỗ trợ. Do đó cân nhắt khi cài đặt bộ gõ này lênh các phiên bản linux mới nhất sau này.`**
@@ -57,7 +57,7 @@ Tương tự như ibus-unikey, tuy nhiên ibus-bamboo vẫn còn được hổ t
   ~$ makepkg -si
 
 ```
-<br>
+
 Chi tiết cấu hình cài đăt: [<i style="font-size: 20px; font-weight: bold;" class="fab fa-github"> Source Github ibus-bamboo</i>](https://github.com/BambooEngine/ibus-bamboo)
 
 <hr>
@@ -76,16 +76,16 @@ Từ mã nguồn
 ibus-bogo có sử dụng các phần mềm sau, hãy chắc chắn rằng chúng đã được cài trên máy (theo tên gói cài đặt của Debian/Ubuntu):
 
 
-  **`.  ibus 1.4.x`** <br>
-  **`.  python 3.2+`** <br>
-  **`.  python3-gi (pygobject)`** <br>
-  **`.  python3-entrant (kiểm tra chính tả)`** <br>
-  **`.  cmake`** <br>
-  **`.  qt4-linguist-tools`** <br>
-  **`.  pyqt4-dev-tools`** <br>
-  **`.  python3-pyside`** <br>
-  **`.  gir1.2-ibus-1.0 (GObject Introspection data)`** <br>
-  **`.  gir1.2-wnck-3.0`** <br>
+  **`.  ibus 1.4.x`** 
+  **`.  python 3.2+`** 
+  **`.  python3-gi (pygobject)`** 
+  **`.  python3-entrant (kiểm tra chính tả)`** 
+  **`.  cmake`** 
+  **`.  qt4-linguist-tools`** 
+  **`.  pyqt4-dev-tools`** 
+  **`.  python3-pyside`** 
+  **`.  gir1.2-ibus-1.0 (GObject Introspection data)`** 
+  **`.  gir1.2-wnck-3.0`** 
 
 
 Lệnh sau sẽ cài đặt tất cả các gói cần thiết:
@@ -124,7 +124,7 @@ Hoặc dùng:
 ~$ sudo make uninstall
 
 ```
-<br>
+
 Chi tiết cấu hình cài đăt: [<i style="font-size: 20px; font-weight: bold;" class="fab fa-github"> Source Github ibus-bogo</i>](https://github.com/BoGoEngine/ibus-bogo/blob/master/doc/sphinx/install.rst)
 
 <hr>

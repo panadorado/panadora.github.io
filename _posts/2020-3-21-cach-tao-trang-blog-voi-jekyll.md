@@ -9,7 +9,7 @@ permalink: /cach-tao-trang-blog-voi-jekyll.html
 ---
 Bạn muốn làm một website đơn giản, không cầu kỳ về `database`, không nhập xuất dữ liệu thì `Jekyll` là một ứng cử viên sáng giá nhất nhì so với **Gatsby** hoặc **NextJS**.
 
-<center><img class="img-thumbnail image-post" src="https://d33wubrfki0l68.cloudfront.net/c9b06c39af69c905b6d31819a9ac9c8a78c77cd6/a5f98/media/images/blogging/jekyll/jekyll.png"></center>
+![Jekyll](https://d33wubrfki0l68.cloudfront.net/c9b06c39af69c905b6d31819a9ac9c8a78c77cd6/a5f98/media/images/blogging/jekyll/jekyll.png)
 
 Một lý do để bạn nên bắt tay làm ngay 1 blog viết bằng `Jekyll` đó là **Github** có hỗ trợ tên miền miễn phí và tạo ngay trên repositories.<br/>
 Jekyll sử dụng Liquid template, Markdown, YAML front-matter để hoạt động trên nó.
@@ -20,7 +20,7 @@ Trước khi bắt tay vào tạo một trang bằng Jekyll bạn nên cài đ�
 ### 1. Việc đầu tiên cần làm là cài [Git](https://git-scm.com/download) trên máy tính.
 ### 2. Cài [Ruby](https://www.ruby-lang.org/en/downloads/) trước để giảm thiểu quá trình phát sinh lỗi khi chạy, đồng thời quản lý <kbd>Ruby gems dependencies</kbd> cho Jekyll.
 
-<center><img class="img-thumbnail image-post" src="https://3fourstudios.com/assets/img/2019/03/05/ruby-logo1024%C3%97683.png"></center>
+![Ruby](https://3fourstudios.com/assets/img/2019/03/05/ruby-logo1024%C3%97683.png)
 
 Kiểm tra phiên bản Ruby/Gem đã cài trên máy tính thành công hay chưa.
 
@@ -51,10 +51,6 @@ Kiểm tra phiên bản Jekyll đã cài đặt trên máy tính chưa.
     jekyll -v
 
 ```
-
-<hr/>
-<hr/>{:width="80%"}
-
 
 ### <center>Tiến hành tạo Blog với Jekyll nào.</center>
 

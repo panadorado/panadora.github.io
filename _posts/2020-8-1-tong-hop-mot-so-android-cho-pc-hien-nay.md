@@ -18,7 +18,7 @@ Vì thế các nhà phát triển đã hướng đến một khả năng đó l�
 
 [**`1. REMIX OS`**](https://www.fosshub.com/Remix-OS.html)
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/202081Android-PC-RemixOS.jpg"></center><br>
+![Remix OS](../assets/images/202081Android-PC-RemixOS.jpg)
 
 Remix OS mô phỏng hệ điều hành di động Android trên màn hình lớn hơn, có thể kết hợp với chuột và bàn phím mang đến cho bạn những trải nghiệm thú vị. Remix OS cũng là ứng dụng tiên phong về hệ điều hành nhân Android đầu tiên cho PC, được thiết kế với sự đơn giản và nhiều tính năng.
 
@@ -26,7 +26,7 @@ Remix OS mô phỏng hệ điều hành di động Android trên màn hình lớ
 
 [**`2. Pheonix OS`**](http://www.phoenixos.com/en/download_x86)
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/202081Android-PC-PheonixOS.jpg"></center><br>
+![Phoenix OS](../assets/images/202081Android-PC-PheonixOS.jpg)
 
 Phoenix OS trông giống như Remix OS (hiện đã không còn được hỗ trợ). Nó tương thích với GPL-2.0 và cài đặt trên nhiều loại khác nhau của phần cứng dựa trên x86. (Nếu có thể cài đặt Linux trên một máy tính cụ thể, bạn có thể cài đặt Phoenix OS).
 
@@ -44,7 +44,7 @@ Phoenix OS chỉ yêu cầu bộ vi xử lý Intel hoặc AMD x86 (Intel Atom) v
 
 [**`3. Prime OS`**](https://primeos.in/download/)
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/202081Android-PC-PrimeOS.jpg"></center><br>
+![Prime OS](../assets/images/202081Android-PC-PrimeOS.jpg)
 
 Hệ điều hành PrimeOS cung cấp cho một trải nghiệm máy tính để bàn hoàn chỉnh tương tự như Windows hoặc MacOS với quyền truy cập vào hàng triệu ứng dụng Android. Nó được thiết kế để mang lại cho bạn tốt nhất của cả hai thế giới, một Fusion hoàn toàn của Android và PC.
 
@@ -52,7 +52,7 @@ Hệ điều hành PrimeOS cung cấp cho một trải nghiệm máy tính để
 
 [**`4. Bliss OS`**](https://www.blissos.org/)
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/202081Android-PC-BlissOS.jpg"></center><br>
+![Bliss OS](../assets/images/202081Android-PC-BlissOS.jpg)
 
 Một hệ điều hành nguồn mở, dựa trên Android, kết hợp nhiều tối ưu hóa, tính năng và hỗ trợ thiết bị mở rộng. Và nó có sẵn cho chỉ là về bất kỳ Chromebook, Windows/Linux PC hoặc máy tính bảng phát hành trong 4 năm qua.
 

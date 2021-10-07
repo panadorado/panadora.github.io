@@ -9,7 +9,7 @@ permalink: /cac-tua-game-phong-cach-anime-nhat-bat-ngo-thong-tri-danh-sach-ban-c
 ---
 **Game Nhật thì anh em… biết cả rồi đấy.***
 
-<center><img class="img-thumbnail image-post" src="https://zicxa.com/hinh-anh/wp-content/uploads/2020/02/T%E1%BB%95ng-h%E1%BB%A3p-h%C3%ACnh-n%E1%BB%81n-Nier-Automata-Wallpaper-%C4%91%E1%BA%B9p-nh%E1%BA%A5t-10.jpg"></center>
+![Game-Wibu](https://zicxa.com/hinh-anh/wp-content/uploads/2020/02/T%E1%BB%95ng-h%E1%BB%A3p-h%C3%ACnh-n%E1%BB%81n-Nier-Automata-Wallpaper-%C4%91%E1%BA%B9p-nh%E1%BA%A5t-10.jpg)
 
 Vào khoảng giữa mỗi tháng, Valve sẽ công bố danh sách top game mới bán chạy tháng trước trên Steam dựa trên doanh số trong 2 tuần đầu của các tựa game đó. Doanh số cụ thể không được tiết lộ nên chúng ta không biết được game nào bán chạy nhất, nhưng kiểu gì thì mỗi tháng sẽ có vài game nghiễm nhiên nằm trong danh sách trên, và vài game khá là bất ngờ.
 

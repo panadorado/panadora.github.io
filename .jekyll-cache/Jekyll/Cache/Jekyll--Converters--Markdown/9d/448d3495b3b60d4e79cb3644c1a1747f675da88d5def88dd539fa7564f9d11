@@ -1,0 +1,46 @@
+I"J	<p>Chào các bạn, mình sẽ tiếp tục với series của Khái niệm màu sắc trong thiết kế (phần 3</p>
+
+<p><img src="../assets/images/2020514ColorP3.jpg" alt="image-title-here" /></p>
+
+<hr />
+
+<h1 style="text-align: center;">LAB</h1>
+
+<p>Lab - viết tắt <strong><code class="highlighter-rouge">Lightness-Luminance</code></strong> trong đó:</p>
+
+<p>(L) là trục thẳng đứng, chỉ biểu diễn độ sáng có giá trị từ 0 (#000000) đến 100 (#FFFFFF)
+(-a) đến (a): chứa giá trị màu GREEN - (#00FF00) đến RED + (#FF0000)
+(-b) đến (b): chứa giá trị màu BLUE - (#0000FF) đến YELLOW + (#FFFF00).</p>
+
+<p>Các thông tin màu được tách ra được dùng trong các filter của Photoshop, không làm ảnh hưởng đến màu sắc trong bức ảnh.</p>
+
+<center><img width="450" height="450" class="img-thumbnail" src="../assets/images/LAB.png" /></center>
+
+<hr />
+
+<h1 style="text-align: center;">HSB</h1>
+
+<p>HSB hoặc V - viết tắt <strong><code class="highlighter-rouge">Hue - Saturation - Bright/Value</code></strong> trong đó:</p>
+
+<p>(Hue): Liên quan đến dải màu đỏ - cam - vàng - lục - lam - chàm - tím. Được biểu diễn có giá trị từ 0° đến 360°
+(Saturation): Liên quan đến sắc độ, có giá trị từ 0% đến 100%
+(Bright/Value): Độ sáng - tối, có giá trị từ 0% đến 100</p>
+
+<p><img src="../assets/images/HSB.png" alt="HSB" /></p>
+
+<hr />
+
+<h1 style="text-align: center;">HEX</h1>
+
+<p>HEX - viết tắt <strong><code class="highlighter-rouge">Hexadecimal</code></strong>, hệ thống màu biểu diễn giá trị màu sắc RGB dưới dạng thập lục phân, một chuỗi bao gồm 6 chữ hoặc số dạng ghép của 3 số dạng một byte. Mỗi byte đại diện cho một số trong khoảng 00 - FF tức 0 - 255 trong hệ thập phân.</p>
+
+<p><img src="../assets/images/HEX.jpg" alt="HEX" /></p>
+
+<hr />
+<hr />
+
+<p>Cảm ơn các bạn đã ghé qua blog của mình, đừng quên ấn nút share để bạn bè cùng biết đến nhé !</p>
+
+<p><a href="https://congnghevacuocsong.tk/khai-niem-mau-sac-trong-thiet-ke-p1">khái niệm màu sắc trong thiết kế Phần 1</a>
+<a href="https://congnghevacuocsong.tk/khai-niem-mau-sac-trong-thiet-ke-p2">khái niệm màu sắc trong thiết kế Phần 2</a></p>
+:ET

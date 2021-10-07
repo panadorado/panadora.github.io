@@ -10,7 +10,7 @@ category: [new, other]
 
 Những ngày cuối cùng của năm **2019**, những gì bản thân đang và đã làm trong một năm qua. Một chút suy tư, một chút hoài niệm.
 
-![image-title-here]({{baseurl}}/image/tu-duy-va-suy-nghi-o-tuoi-doi-muoi.jpg){:width="100%"}
+![image-title-here](../assets/images/tu-duy-va-suy-nghi-o-tuoi-doi-muoi.jpg)
 
 
 Sự trưởng thành được biểu đạt thông qua giao tiếp, cư xử, thái độ, trách nhiệm. Chứ không phải tuổi tác!<br/>

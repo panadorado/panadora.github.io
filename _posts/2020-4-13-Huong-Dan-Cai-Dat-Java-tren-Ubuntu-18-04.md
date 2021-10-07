@@ -8,7 +8,7 @@ category: [unixlinux, terminal]
 permalink: /Huong-Dan-Cai-Dat-Java-tren-Ubuntu-18-04.html
 ---
 
-<center><img class="img-thumbnail" src="https://vnreview.vn/image/14/91/03/1491033.jpg"></center><br>
+![iamge](https://vnreview.vn/image/14/91/03/1491033.jpg)
 
 Trong bài viết này bạn sẽ được hướng dẫn cách cài đặt Java Runtime Environment (JRE) và Java Development Kit (JDK) trên Ubuntu phiên bản 18.04 sử dụng chương trình quản lý package `apt-get`.
 
@@ -21,7 +21,7 @@ Trước khi cài đặt phần mềm sử dụng `apt-get` hay `apt`, chúng ta
 
 ```
 
-<h3 style="font-weight: bold;">Cài Đặt Java</h3>
+# **1. Cài Đặt Java** #
 Trước khi cài đặt Java chúng ta tiến hành kiểm tra phiên bản Java được cài trên máy tính sử dụng câu lệnh sau:
 
 ```terminal
@@ -87,7 +87,7 @@ Nếu bạn có nhu cầu lập trình ứng dụng Java bạn nên cài đặt 
  ~$ javac -version
 
 ```
-<h3 style="font-weight: bold;">Cài Đặt Các Phiên Bản Khác Của OpenJDK</h3>
+# **2. Cài Đặt Các Phiên Bản Khác Của OpenJDK** #
 
 **OpenJDK 8**
 
@@ -134,7 +134,7 @@ Kết thúc việc update package chúng ta sẽ tiến hành cài đặt:
 ```
 Nếu bạn cài đặt nhiều phiên bản Java khác nhau trên máy thì bạn nên tham khảo đoạn tiếp theo để biết cách quản lý các phiên bản Java.
 
-<h3 style="font-weight: bold;">Quản Lý Java</h3>
+# **3. Quản Lý Java** #
 Câu lệnh `update-alternatives` được sử dụng để cấu hình phiên bản Java nào sẽ được sử dụng:
 
 ```terminal

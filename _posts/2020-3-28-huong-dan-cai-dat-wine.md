@@ -8,8 +8,7 @@ category: [unixlinux, terminal]
 permalink: /huong-dan-cai-dat-wine.html
 ---
 
-<center><img class="img-thumbnail" width="350" src="https://idroot.us/wp-content/uploads/2019/01/wine-linux-logo.jpg"></center>
-<br>
+![wine5.0](https://idroot.us/wp-content/uploads/2019/01/wine-linux-logo.jpg)
 
 **Wine 5.0 trên Ubuntu – Wine 5.0 là phiên bản phát triển mới của phần mềm mã nguồn mở wine, phần mềm cho phép chạy các chương trình Windows chạy trên Unix / Linux.**
 
@@ -88,7 +87,7 @@ wine-5.0
 
 Ví dụ mình có file: `PTS-CS-PSP.exe` mình chỉ cần `click chuột` > `Open With Other Application` > `Wine Windows Program Loader` và đợi cho `wine` tiến hành mở ứng dụng cho bạn.
 
-<center><img class="img-thumbnail" src="{{site.baseurl}}/image/wine_application.png"></center>
-<br>
+![wine](../assets/images/wine_application.png)
+
 Nguồn thông tin chi tiết tại: <a href="https://tecadmin.net/install-wine-on-ubuntu/">https://tecadmin.net</a>
-<br>
+

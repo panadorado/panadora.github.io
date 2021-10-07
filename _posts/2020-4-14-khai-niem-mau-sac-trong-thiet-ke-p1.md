@@ -10,13 +10,13 @@ permalink: /khai-niem-mau-sac-trong-thiet-ke-p1.html
 
 Khái niệm về màu sắc và cách phối hợp các màu như thế nào cho đúng sẽ giúp chúng ta có được chủ thể hài hoà hơn trong thiết kế.
 
-<center><img class="img-thumbnail" src="{{ baseurl }}/image/khai-niem-mau-sac.jpg"></center><br>
+![Graphics](../assets/images/khai-niem-mau-sac.jpg)
 
 À ừ, trước khi đi vào vấn đề, hãy ngẫm chút ít kiến thức môn vật lý nhé.
 
 <li>Theo quang học: Khi có luồng ánh sáng trắng đi qua lăng kính sẽ tách ra các màu đơn sắc bao gồm (đỏ, cam, vàng, lục, lam, chàm, tím).</li>
 
-<center><img class="img-thumbnail" src="{{ baseurl }}/image/color.jpg"></center><br>
+![Graphics2](../assets/images/color.jpg)
 
 <li>Những câu hỏi thường gặp.</li>
 
@@ -63,9 +63,8 @@ Các loại màu được xếp theo thứ tự khác nhau.
 - **Màu bậc hai (Secondary):** Những màu bổ túc bao gồm: cam, xanh lục, tím. Nhóm màu bậc hai này được pha từ 2 cặp màu bậc nhất với phần lượng như nhau.
 - **Màu bậc ba (Tertiary):** Được pha trộn từ các màu bậc hai đứng cạnh nhau trên vòng thuần sắc, với phần lượng nhau nhau sẽ tạo ra màu bậc ba, có tổng cộng 6 màu bậc ba bao gồm: `vàng-lục`, `lam-lục`, `lam-tím`, `đỏ-tím`, `đỏ-cam`, `cam-vàng`. Từ đó ta sẽ thu về được 12 màu cơ bản nhất.
 
-<center><img class="img-thumbnail" width="500" height="500" src="{{baseurl}}/image/Color_.png"></center><br>
+![Gaphics3](../assets/images/Color_.png)
 
-<p style="text-align: center;">Các màu bậc cao hơn sẽ dựa vào nguyên tắc này để tạo những màu mới.</p>
-<hr>
+Các màu bậc cao hơn sẽ dựa vào nguyên tắc này để tạo những màu mới.
 
 Mình sẽ tiếm tục `series`  trong phần 2 của Khái niệm màu sắc trong thiết kế, Cảm ơn các bạn đã quan tâm, các bạn có thể like và share để mình có động lực nghiên cứu và hoàn thành `series` này.

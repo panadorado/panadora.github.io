@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-07T11:42:57+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Hướng dẫn về Plugins SourceMode (Part 2)</title><link href="http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source.html" rel="alternate" type="text/html" title="Hướng dẫn về Plugins SourceMode (Part 2)" /><published>2021-10-06T00:00:00+07:00</published><updated>2021-10-06T00:00:00+07:00</updated><id>http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source</id><content type="html" xml:base="http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source.html">&lt;p&gt;&lt;img src=&quot;../assets/images/SourceMod/202089SourceModLogo.png&quot; alt=&quot;image-title&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-07T15:47:22+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Hướng dẫn về Plugins SourceMode (Part 2)</title><link href="http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source.html" rel="alternate" type="text/html" title="Hướng dẫn về Plugins SourceMode (Part 2)" /><published>2021-10-06T00:00:00+07:00</published><updated>2021-10-06T00:00:00+07:00</updated><id>http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source</id><content type="html" xml:base="http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source.html">&lt;p&gt;&lt;img src=&quot;../assets/images/SourceMod/202089SourceModLogo.png&quot; alt=&quot;image-title&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Sau bài viết &lt;a href=&quot;sourcemods/huong-dan-viet-plugin-part-1.html&quot;&gt;hướng dẫn về Plugins SourceMod (Part 1)&lt;/a&gt;, thì trong bài post này mình xin hướng dẫn cách cài đặt SourceMod vào &lt;a href=&quot;https://store.steampowered.com/app/240/CounterStrike_Source/&quot;&gt;Counter-Strike: Source&lt;/a&gt; để có thể sử dụng được Plugins trong game nhá !&lt;/p&gt;
 
@@ -655,8 +655,8 @@ Khai báo thư viện như C/C++ sẽ có lệnh như sau: &lt;strong&gt;&lt;cod
 &lt;span class=&quot;gp&quot;&gt; ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;ibus restart
 &lt;span class=&quot;go&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;
-Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/vn-input/ibus-unikey&quot;&gt;&lt;i style=&quot;font-size: 20px; font-weight: bold;&quot; class=&quot;fab fa-github&quot;&gt; Source Github ibus-unikey&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/vn-input/ibus-unikey&quot;&gt;&lt;i style=&quot;font-size: 20px; font-weight: bold;&quot; class=&quot;fab fa-github&quot;&gt; Source Github ibus-unikey&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Chú ý: Hiện tại bộ gõ này không còn được hỗ trợ. Do đó cân nhắt khi cài đặt bộ gõ này lênh các phiên bản linux mới nhất sau này.&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
 
@@ -687,8 +687,8 @@ Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/vn-input/
 &lt;span class=&quot;gp&quot;&gt;  ~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;makepkg &lt;span class=&quot;nt&quot;&gt;-si&lt;/span&gt;
 &lt;span class=&quot;go&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;
-Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/BambooEngine/ibus-bamboo&quot;&gt;&lt;i style=&quot;font-size: 20px; font-weight: bold;&quot; class=&quot;fab fa-github&quot;&gt; Source Github ibus-bamboo&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/BambooEngine/ibus-bamboo&quot;&gt;&lt;i style=&quot;font-size: 20px; font-weight: bold;&quot; class=&quot;fab fa-github&quot;&gt; Source Github ibus-bamboo&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -706,16 +706,16 @@ Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/BambooEng
 
 &lt;p&gt;ibus-bogo có sử dụng các phần mềm sau, hãy chắc chắn rằng chúng đã được cài trên máy (theo tên gói cài đặt của Debian/Ubuntu):&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  ibus 1.4.x&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
-  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python 3.2+&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
-  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python3-gi (pygobject)&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
-  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python3-entrant (kiểm tra chính tả)&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
-  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  cmake&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
-  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  qt4-linguist-tools&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
-  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  pyqt4-dev-tools&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
-  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python3-pyside&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
-  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  gir1.2-ibus-1.0 (GObject Introspection data)&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
-  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  gir1.2-wnck-3.0&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  ibus 1.4.x&lt;/code&gt;&lt;/strong&gt; 
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python 3.2+&lt;/code&gt;&lt;/strong&gt; 
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python3-gi (pygobject)&lt;/code&gt;&lt;/strong&gt; 
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python3-entrant (kiểm tra chính tả)&lt;/code&gt;&lt;/strong&gt; 
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  cmake&lt;/code&gt;&lt;/strong&gt; 
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  qt4-linguist-tools&lt;/code&gt;&lt;/strong&gt; 
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  pyqt4-dev-tools&lt;/code&gt;&lt;/strong&gt; 
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python3-pyside&lt;/code&gt;&lt;/strong&gt; 
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  gir1.2-ibus-1.0 (GObject Introspection data)&lt;/code&gt;&lt;/strong&gt; 
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  gir1.2-wnck-3.0&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Lệnh sau sẽ cài đặt tất cả các gói cần thiết:&lt;/p&gt;
 
@@ -751,8 +751,8 @@ python3-enchant
 &lt;span class=&quot;gp&quot;&gt;~$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make uninstall
 &lt;span class=&quot;go&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;
-Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/BoGoEngine/ibus-bogo/blob/master/doc/sphinx/install.rst&quot;&gt;&lt;i style=&quot;font-size: 20px; font-weight: bold;&quot; class=&quot;fab fa-github&quot;&gt; Source Github ibus-bogo&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/BoGoEngine/ibus-bogo/blob/master/doc/sphinx/install.rst&quot;&gt;&lt;i style=&quot;font-size: 20px; font-weight: bold;&quot; class=&quot;fab fa-github&quot;&gt; Source Github ibus-bogo&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -768,8 +768,7 @@ Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/BoGoEngin
 
 &lt;p&gt;&lt;a href=&quot;https://www.fosshub.com/Remix-OS.html&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;1. REMIX OS&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/202081Android-PC-RemixOS.jpg&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/202081Android-PC-RemixOS.jpg&quot; alt=&quot;Remix OS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Remix OS mô phỏng hệ điều hành di động Android trên màn hình lớn hơn, có thể kết hợp với chuột và bàn phím mang đến cho bạn những trải nghiệm thú vị. Remix OS cũng là ứng dụng tiên phong về hệ điều hành nhân Android đầu tiên cho PC, được thiết kế với sự đơn giản và nhiều tính năng.&lt;/p&gt;
 
@@ -777,8 +776,7 @@ Chi tiết cấu hình cài đăt: &lt;a href=&quot;https://github.com/BoGoEngin
 
 &lt;p&gt;&lt;a href=&quot;http://www.phoenixos.com/en/download_x86&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2. Pheonix OS&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/202081Android-PC-PheonixOS.jpg&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/202081Android-PC-PheonixOS.jpg&quot; alt=&quot;Phoenix OS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Phoenix OS trông giống như Remix OS (hiện đã không còn được hỗ trợ). Nó tương thích với GPL-2.0 và cài đặt trên nhiều loại khác nhau của phần cứng dựa trên x86. (Nếu có thể cài đặt Linux trên một máy tính cụ thể, bạn có thể cài đặt Phoenix OS).&lt;/p&gt;
 
@@ -796,8 +794,7 @@ Phoenix OS chỉ yêu cầu bộ vi xử lý Intel hoặc AMD x86 (Intel Atom) v
 
 &lt;p&gt;&lt;a href=&quot;https://primeos.in/download/&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;3. Prime OS&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/202081Android-PC-PrimeOS.jpg&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/202081Android-PC-PrimeOS.jpg&quot; alt=&quot;Prime OS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Hệ điều hành PrimeOS cung cấp cho một trải nghiệm máy tính để bàn hoàn chỉnh tương tự như Windows hoặc MacOS với quyền truy cập vào hàng triệu ứng dụng Android. Nó được thiết kế để mang lại cho bạn tốt nhất của cả hai thế giới, một Fusion hoàn toàn của Android và PC.&lt;/p&gt;
 
@@ -805,8 +802,7 @@ Phoenix OS chỉ yêu cầu bộ vi xử lý Intel hoặc AMD x86 (Intel Atom) v
 
 &lt;p&gt;&lt;a href=&quot;https://www.blissos.org/&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;4. Bliss OS&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/202081Android-PC-BlissOS.jpg&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/202081Android-PC-BlissOS.jpg&quot; alt=&quot;Bliss OS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Một hệ điều hành nguồn mở, dựa trên Android, kết hợp nhiều tối ưu hóa, tính năng và hỗ trợ thiết bị mở rộng. Và nó có sẵn cho chỉ là về bất kỳ Chromebook, Windows/Linux PC hoặc máy tính bảng phát hành trong 4 năm qua.&lt;/p&gt;
 
@@ -820,56 +816,48 @@ Phoenix OS chỉ yêu cầu bộ vi xử lý Intel hoặc AMD x86 (Intel Atom) v
 
 &lt;p&gt;Vừa rồi mình vừa tổng hợp 1 số hệ điều hành Adroid cho PC, bạn cảm thấy thế nào và đã từng trải nghiệm nó chưa vui lòng &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;comment&lt;/code&gt;&lt;/strong&gt; vào bên dưới cho mình biết ý kiến và còn bản Android PC nào mình cho biết đến hãy chia sẻ cho mình biết để mình tổng hợp thêm nhá.&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;other&quot;, &quot;windows&quot;, &quot;unixlinux&quot;, &quot;news&quot;]" /><summary type="html">Với sự phát triển vượt bậc trong suốt các thập kỷ của khoa học và công nghệ hiện nay...</summary></entry><entry><title type="html">Ransomware RaaS, nguy hiểm với mã độc tống tiền mới</title><link href="http://localhost:4000/ma-doc-tong-tien-RaaS" rel="alternate" type="text/html" title="Ransomware RaaS, nguy hiểm với mã độc tống tiền mới" /><published>2020-06-21T00:00:00+07:00</published><updated>2020-06-21T00:00:00+07:00</updated><id>http://localhost:4000/ma-doc-tong-tien-RaaS</id><content type="html" xml:base="http://localhost:4000/ma-doc-tong-tien-RaaS">&lt;p&gt;&lt;strong&gt;Cách đây 2 ngày tình cơ trên facebook xuất hiện 1 bài đăng nói về sự nguy hiểm của loại mã độc tống tiền mới có tên là RaaS, và tôi cũng đã tò mò với điều và click vào bài post để xem thêm thông tin về con Ransomware mới này. Cụ thể như sau:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/image/ransomware-as-a-service.png&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/ransomware-as-a-service.png&quot; alt=&quot;image-title&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Loại mã độc Ransomware tốngg tiền mới được phát tán vào đầu tháng 6 này, do một tổ chức chuyên phát triển loại mã độc có tên Avaddon đã được thành lập. Tuy nhiên Avaddon không tự mình phân phối các mã đọc do họ tạo ra, thay vào đó Avaddon tuyển dụng một loại tin tặc và đại lý giúp họ phát tán mã độc.&lt;/p&gt;
 
 &lt;p&gt;Cách làm này giúp mã độc của Avaddon tấn công được cực kỳ nhiều nạn nhân. Đợt tấn công đầu tiên sử dụng mã độc ransomware có tên Avaddon Ransomware đang khiến cả thế giới lo lắng vì quy mô của nó. Với cái nháy mắt và nụ cười, Avaddon Ransomware đang spam, khủng bố hàng trăm ngàn người và rất nhiều trong số đó đã trở thành nạn nhân của Avaddon.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/image/Avaddon-Ransomware-1.jpg&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/Avaddon-Ransomware-1.jpg&quot; alt=&quot;image-title&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Một loạt email chứa mã độc với chủ đề gợi sự tò mò như “Ảnh mới của bạn nè?” hoặc “Bạn có thích ảnh của tôi không?”, với nội dung chẳng có gì ngoài biểu tượng nháy mắt hoặc mặt cười đã được gửi đi. Kèm trong thư đương nhiên là trình tải xuống JavaScript mà khi kích vào ransomware sẽ được cài đặt trên máy tính của nạn nhân.&lt;/p&gt;
 
 &lt;p&gt;David Picket, nhà nghiên cứu bảo mật của AppRiver, chia sẻ rằng họ đã chặn 300.000 email chứa Avaddon Ransomware chỉ trong một khoảng thời gian ngắn. Các đại lý, hacker làm việc cho Avaddon bao gồm cả những cái tên sừng sỏ như Phorpiex/Trik Botnet.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/image/Avaddon-Ransomware-2.jpg&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/Avaddon-Ransomware-2.jpg&quot; alt=&quot;image-title&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Thiết lập ảnh phần mở rộng tập tin mặc định của Microsoft vô tình tiếp tay cho Avaddon Ransomware&lt;/code&gt;&lt;/strong&gt;.&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Thiết lập ảnh phần mở rộng tập tin mặc định của Microsoft vô tình tiếp tay cho Avaddon Ransomware&lt;/code&gt;&lt;/strong&gt;.
 Trình cài đặt JavaScript được đính kèm trong email được ngụy trang giống như một bức ảnh định dạng JPG bằng cách đặt tên là IMG123101.jpg.js. Thiết lập ẩn phần mở rộng tập tin của Windows vô tình tiếp tay cho Avaddon Ransomware. Cụ thể, sau khi tải về máy, IMG123101.jpg.js sẽ chỉ hiển thị là IMG123101.jpg, khiến người dùng lầm tưởng đây chỉ là file ảnh và mở nó ra.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/image/Avaddon-Ransomware-3.jpg&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/Avaddon-Ransomware-3.jpg&quot; alt=&quot;image-title&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Các dòng code &quot;độc hại&quot; ẩn trong IMG123101.jpg.js&lt;/code&gt;&lt;/strong&gt;.&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Các dòng code &quot;độc hại&quot; ẩn trong IMG123101.jpg.js&lt;/code&gt;&lt;/strong&gt;.
 Khi được mở, IMG123101.jpg.js sẽ khởi chạy cả cửa sổ PowerShell và Bitsadmin để tải về và cài đặt Avaddon Ransomware vào thư mục %Temp%. Ransomware sẽ được khởi chạy ngay sau khi cài đặt xong.&lt;/p&gt;
 
 &lt;p&gt;Trong thử nghiệm được tiến hành bởi Bleeping Computer, sau khi chạy, Avaddon Ransomware sẽ tìm kiếm tất cả các dữ liệu trên máy và mã hóa chúng. Phần mở rộng .avdn sẽ được thêm vào các dữ liệu bị mã hóa.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/image/Avaddon-Ransomware-4.jpg&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/Avaddon-Ransomware-4.jpg&quot; alt=&quot;image-title&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Các tập tin bị mã hóa sau khi Avaddon Ransomware được khởi động&lt;/code&gt;&lt;/strong&gt;.&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Các tập tin bị mã hóa sau khi Avaddon Ransomware được khởi động&lt;/code&gt;&lt;/strong&gt;.
 Thư đòi tiền chuộc dữ liệu có tên [id]-readme.html cũng được tạo ra trong mỗi thư mục. Trong thư có chứa link tới trang web thanh toán, chỉ có thể truy cập bằng trình duyệt TOR và ID của nạn nhân. Mỗi nạn nhân có một ID riêng, duy nhất.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/image/Avaddon-Ransomware-5-1.jpg&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/Avaddon-Ransomware-5-1.jpg&quot; alt=&quot;image-title&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Thư đòi tiền chuộc của Avaddon, yêu cầu người dùng tải trình duyệt TOR để truy cập trang thanh toán&lt;/code&gt;&lt;/strong&gt;.&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Thư đòi tiền chuộc của Avaddon, yêu cầu người dùng tải trình duyệt TOR để truy cập trang thanh toán&lt;/code&gt;&lt;/strong&gt;.
 Khi truy cập trang web thanh toán, nạn nhân sẽ thấy số tiền mà Avaddon yêu cầu là 900 USD, có thể tăng thêm tùy theo số lượng tài liệu. Hướng dẫn chi tiết về cách thanh toán để nhận trình giải mã cũng được Avaddon liệt kê chi tiết.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/image/Avaddon-Ransomware-6.jpg&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/Avaddon-Ransomware-6.jpg&quot; alt=&quot;image-title&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Giá tiền chuộc dữ liệu là 900 USD, có thể tăng thêm tùy theo số lượng tài liệu&lt;/code&gt;&lt;/strong&gt;.&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Giá tiền chuộc dữ liệu là 900 USD, có thể tăng thêm tùy theo số lượng tài liệu&lt;/code&gt;&lt;/strong&gt;.
 Trang web cũng có đầy đủ các phần như hỗ trợ qua tin nhắn, giải mã thử miễn phí và trang trợ giúp vui nhộn với hình ảnh các nhân vật trong Harry Potter. Không may là sau khi tiến hành phân tích Avaddon Ransomware, Michael Gillespie kết luận rằng trình giải mã thử miễn phí không hoạt động. Gillespie là người tạo ra trang xác định ransomware ID-Ransomware.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/image/Avaddon-Ransomware-7.jpg&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/Avaddon-Ransomware-7.jpg&quot; alt=&quot;image-title&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Trang hỗ trợ đầy hài hước của Avaddon&lt;/code&gt;&lt;/strong&gt;.&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Trang hỗ trợ đầy hài hước của Avaddon&lt;/code&gt;&lt;/strong&gt;.
 Phân phối ransomware theo hình thức đại lý liên kết&lt;/p&gt;
 
 &lt;p&gt;Trong quảng cáo đăng trên một diễn đàn hacker của Nga, Avaddon tuyên bố rằng họ vận hành theo phương thức Ransomware-as-an-Affiliate (RaaS). Đây là phương thức hoàn toàn mới trong thế giới tội phạm mạng.&lt;/p&gt;
@@ -878,18 +866,16 @@ Phân phối ransomware theo hình thức đại lý liên kết&lt;/p&gt;
 
 &lt;p&gt;Nếu nạn nhân chi tiền chuộc lại dữ liệu, Avaddon sẽ trả 65% cho đại lý, giữ lại 35%. Các đại lý lớn có thể đàm phán với Avaddon để nhận mức doanh thu cao hơn, tùy theo quy mô của cuộc tấn công.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/image/Avaddon-Ransomware-8.jpg&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/Avaddon-Ransomware-8.jpg&quot; alt=&quot;image-title&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Avaddon đang rất tích cực tìm kiếm đại lý&lt;/code&gt;&lt;/strong&gt;.&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Avaddon đang rất tích cực tìm kiếm đại lý&lt;/code&gt;&lt;/strong&gt;.
 Tuy nhiên, các đại lý tham gia RaaS sẽ phải tuân theo một loạt quy định mà Avaddon đưa ra. Quy tắc quan trọng nhất mà Avaddon đưa ra đó là các đại lý không được tấn công nạn nhân tại các quốc gia trong Cộng đồng các Quốc gia Độc lập (CIS).&lt;/p&gt;
 
 &lt;p&gt;Hiện tại, Avaddon vẫn đang tích cực tuyển dụng thêm hacker và các đại lý. Vì thế, trong tương lai sẽ còn có thêm nhiều đợt tấn công với quy mô lớn của Avaddon Ransomware. Mời các bạn truy cập trang bên dưới để tham khảo cách bảo vệ dữ liệu trước các ransomware nguy hiểm.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Dựa theo nguồn thông tin từ: &lt;a href=&quot;https://quantrimang.com/ransomware-nguy-hiem-nay-dang-phat-tan-nhanh-tren-toan-the-gioi-172808&quot;&gt;Quản Trị Mạng&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;other&quot;, &quot;windows&quot;, &quot;unixlinux&quot;, &quot;news&quot;]" /><summary type="html">Loại mã độc Ransomware tốngg tiền mới được phát tán vào đầu tháng 6 này, do một tổ chức chuyên phát triển loại mã độc có tên Avaddon đã được thành lập.</summary></entry><entry><title type="html">Tổng hợp một số phần mềm VPN miễn phí</title><link href="http://localhost:4000/tong-hop-nhung-phan-mem-vpn-mien-phi.html" rel="alternate" type="text/html" title="Tổng hợp một số phần mềm VPN miễn phí" /><published>2020-06-02T00:00:00+07:00</published><updated>2020-06-02T00:00:00+07:00</updated><id>http://localhost:4000/tong-hop-nhung-phan-mem-vpn-mien-phi</id><content type="html" xml:base="http://localhost:4000/tong-hop-nhung-phan-mem-vpn-mien-phi.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; width=&quot;500&quot; src=&quot;/image/202061vpn.jpg&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Dựa theo nguồn thông tin từ: &lt;a href=&quot;https://quantrimang.com/ransomware-nguy-hiem-nay-dang-phat-tan-nhanh-tren-toan-the-gioi-172808&quot;&gt;Quản Trị Mạng&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;other&quot;, &quot;windows&quot;, &quot;unixlinux&quot;, &quot;news&quot;]" /><summary type="html">Loại mã độc Ransomware tốngg tiền mới được phát tán vào đầu tháng 6 này, do một tổ chức chuyên phát triển loại mã độc có tên Avaddon đã được thành lập.</summary></entry><entry><title type="html">Tổng hợp một số phần mềm VPN miễn phí</title><link href="http://localhost:4000/tong-hop-nhung-phan-mem-vpn-mien-phi.html" rel="alternate" type="text/html" title="Tổng hợp một số phần mềm VPN miễn phí" /><published>2020-06-02T00:00:00+07:00</published><updated>2020-06-02T00:00:00+07:00</updated><id>http://localhost:4000/tong-hop-nhung-phan-mem-vpn-mien-phi</id><content type="html" xml:base="http://localhost:4000/tong-hop-nhung-phan-mem-vpn-mien-phi.html">&lt;p&gt;&lt;img src=&quot;../assets/images/202061vpn.jpg&quot; alt=&quot;VPN&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;VPN là gì ?&lt;/strong&gt;&lt;/p&gt;
 
@@ -901,8 +887,7 @@ Tuy nhiên, các đại lý tham gia RaaS sẽ phải tuân theo một loạt qu
 
 &lt;p&gt;Đơn giản chỉ cần cài đặt VPN Gate Client plugin để SoftEther VPN Client. Nó sẽ cho phép bạn kết nối với bất kỳ VPN công cộng Relay máy chủ của VPN Gate trong một snap. Nó có một thông lượng tốt hơn so với L2TP, OpenVPN hoặc SSTP. Tệp chương trình này được ký điện tử bằng chứng chỉ do GlobalSign phát hành. Tệp nhị phân có một countersignature do Symantec phát hành.&lt;/p&gt;
 
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/vpngateclient.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/vpngateclient.png&quot; alt=&quot;VPN GATE CLIENT&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://touchvpn.net/&quot;&gt;2. Touch VPN&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
@@ -917,8 +902,7 @@ Tránh bị snooped bởi ISP của bạn và ngăn chặn các trang web từ t
 
 &lt;p&gt;Hiện tại &lt;code class=&quot;highlighter-rouge&quot;&gt;Touch VPN&lt;/code&gt; được tích hợp trong app store của Microsoft bạn cũng có thể vào đó &lt;strong&gt;&lt;a href=&quot;https://www.microsoft.com/store/productId/9NBLGGH5GB3F&quot;&gt;tải về&lt;/a&gt;&lt;/strong&gt;, và cũng đã có phiên bản &lt;strong&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.northghost.touchvpn&quot;&gt;CHPlay&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/TouchVPN.jpg&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/TouchVPN.jpg&quot; alt=&quot;Touch VPN&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://1.1.1.1/&quot;&gt;3. VPN 1.1.1.1&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
@@ -926,11 +910,10 @@ Tránh bị snooped bởi ISP của bạn và ngăn chặn các trang web từ t
 
 &lt;p&gt;Tuy nhiên phần mềm này đang được hổ trợ trên Android và IOS, hiện tại nhà phát hành chưa có thông báo về phiên bản dành cho Windows và MacOs. để có thể download và hướng dẫn cài đặt sử dụng trên Windows thì mời các bạn liên kết tới &lt;a href=&quot;https://congnghevacuocsong.tk/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html&quot;&gt;bài hướng dẫn này&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone&quot;&gt;Tải về cho Android&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone&quot;&gt;Tải về cho Android&lt;/a&gt;&lt;/strong&gt;
 &lt;strong&gt;&lt;a href=&quot;https://apps.apple.com/us/app/1-1-1-1-faster-internet/id1423538627&quot;&gt;Tải về cho IOS&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/1111vpn.jpg&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/1111vpn.jpg&quot; alt=&quot;VPN 1.1.1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.tunnelbear.com/&quot;&gt;4. TunnelBear&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
@@ -942,16 +925,15 @@ Tránh bị snooped bởi ISP của bạn và ngăn chặn các trang web từ t
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.tunnelbear.com/apps/windows&quot;&gt;Tải về Windows&lt;/a&gt; - &lt;a href=&quot;https://www.tunnelbear.com/apps/mac&quot;&gt;Tải về MacOS&lt;/a&gt; - &lt;a href=&quot;https://www.tunnelbear.com/apps/ios&quot;&gt;Tải về IOS&lt;/a&gt; - &lt;a href=&quot;https://www.tunnelbear.com/apps/android&quot;&gt;Tải về Android&lt;/a&gt; - &lt;a href=&quot;https://www.tunnelbear.com/apps/browser&quot;&gt;Tải về Browser&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/TunnelBear.jpg&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/TunnelBear.jpg&quot; alt=&quot;Tunnel Bear&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Lời kết&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Vừa rồi là mình tổng hợp một số VPN được sử dụng hiện nay, các bạn đã từng sử dụng qua những phần mềm trên chưa hãy cho mình biết ý kiến sử dụng của các bạn, và còn những phần mềm nào hữu ích hay comment cho mình biết để mình có thể tham khảo và tiềm hiểu nhá, cảm ơn các bạn đã xem qua đừng quên like và share cho bạn bè cùng biết đến nhá.&lt;/p&gt;
 
-&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;other&quot;, &quot;windows&quot;]" /><summary type="html">Trong vài năm qua, bạn có thể đã nghe người ta nói nhiều về HTML5...</summary></entry><entry><title type="html">Kích hoạt Windows 10 và Microsoft Office bằng phần mềm HelloCracker</title><link href="http://localhost:4000/kich-hoat-windows-va-microsoft-office-voi-hello-cracker.html" rel="alternate" type="text/html" title="Kích hoạt Windows 10 và Microsoft Office bằng phần mềm HelloCracker" /><published>2020-06-01T00:00:00+07:00</published><updated>2020-06-01T00:00:00+07:00</updated><id>http://localhost:4000/kich-hoat-windows-va-microsoft-office-voi-hello-cracker</id><content type="html" xml:base="http://localhost:4000/kich-hoat-windows-va-microsoft-office-voi-hello-cracker.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; width=&quot;500&quot; src=&quot;/image/202061Hellocracker.PNG&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;HelloCraker&lt;/code&gt;&lt;/strong&gt; là phần mềm được lập trình bằng ngôn ngữ C# , phần mềm giúp cho việc thao tác kích hoạt key windows một cách đơn giản. Cụ thể phần mềm đã có sẵn những bản key kích hoạt 365 ngày cho từng phiên bản của Windows 10 và Microsoft Office.&lt;/p&gt;
+&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;other&quot;, &quot;windows&quot;]" /><summary type="html">Trong vài năm qua, bạn có thể đã nghe người ta nói nhiều về HTML5...</summary></entry><entry><title type="html">Kích hoạt Windows 10 và Microsoft Office bằng phần mềm HelloCracker</title><link href="http://localhost:4000/kich-hoat-windows-va-microsoft-office-voi-hello-cracker.html" rel="alternate" type="text/html" title="Kích hoạt Windows 10 và Microsoft Office bằng phần mềm HelloCracker" /><published>2020-06-01T00:00:00+07:00</published><updated>2020-06-01T00:00:00+07:00</updated><id>http://localhost:4000/kich-hoat-windows-va-microsoft-office-voi-hello-cracker</id><content type="html" xml:base="http://localhost:4000/kich-hoat-windows-va-microsoft-office-voi-hello-cracker.html">&lt;p&gt;&lt;img src=&quot;../assets/images/202061Hellocracker.PNG&quot; alt=&quot;banner HelloCrack&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;HelloCraker&lt;/code&gt;&lt;/strong&gt; là phần mềm được lập trình bằng ngôn ngữ C# , phần mềm giúp cho việc thao tác kích hoạt key windows một cách đơn giản. Cụ thể phần mềm đã có sẵn những bản key kích hoạt 365 ngày cho từng phiên bản của Windows 10 và Microsoft Office.&lt;/p&gt;
 
 &lt;p&gt;Thông qua nút kích hoạt trên phần mềm, phần mềm sẽ tự động nhập lệnh commadline ( &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cmd&lt;/code&gt;&lt;/strong&gt; ) kích hoạt key qua một server &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;kms&lt;/code&gt;&lt;/strong&gt; để xác nhận đã kích hoạt Windows 10 và Microsoft Office và sử dụng được 365 ngày, nếu hết hạn bạn có thể thao tác nhấn nút &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;xóa key&lt;/code&gt;&lt;/strong&gt; và kích hoạt lại cho đến khi hết hạn key.&lt;/p&gt;
 
@@ -959,30 +941,27 @@ Tránh bị snooped bởi ISP của bạn và ngăn chặn các trang web từ t
 
 &lt;p&gt;Sơ qua phần mềm, thì thao tác đơn giản bạn chỉ cần chọn phiên bản Windows 10 và Microsoft Office để mở khóa nút kích hoạt sau đó chọn đúng phiên bản Windows 10 và Microsoft Office để kích hoạt.&lt;/p&gt;
 
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; width=&quot;500&quot; src=&quot;/image/202061Hellocracker2.PNG&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; width=&quot;1200&quot; src=&quot;/image/HellorCracker3.PNG&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; width=&quot;1200&quot; src=&quot;/image/HellorCracker4.PNG&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;
-Nếu AntiVirus của bạn cảnh báo thì hãy tắt nó đi hoặc trước khi tải phần mềm về hãy tắt nó trước nhá.&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/202061Hellocracker2.PNG&quot; alt=&quot;HelloCracker1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;i class=&quot;fas fa-download&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://www.fshare.vn/file/V18RVUF8JT8E&quot;&gt;Link Download Fshare&lt;/a&gt;&lt;br /&gt;
-&lt;i class=&quot;fas fa-download&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://www.mediafire.com/file/ig62h8626p29a8p/HelloCracker.rar/file&quot;&gt;Link Download Mediafire&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/HellorCracker3.PNG&quot; alt=&quot;HelloCracker2&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;New Version HelloCrack 1.0.1 beta&lt;/code&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; width=&quot;1200&quot; src=&quot;/image/HellorCrackerBeta.PNG&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;i class=&quot;fab fa-google-drive&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://drive.google.com/file/d/1Z7BdS-LoEmiLp9TQiduba2ldA6vPxX1h/view?usp=sharing&quot;&gt;Link Download Driver&lt;/a&gt;&lt;br /&gt;
-&lt;i class=&quot;fas fa-download&quot;&gt;&lt;a href=&quot;https://www.fshare.vn/file/NWAH9IL7YV9C&quot;&gt;Link Download Fshare&lt;/a&gt;&lt;br /&gt;
-&lt;i class=&quot;fas fa-download&quot;&gt;&lt;a href=&quot;https://www.mediafire.com/file/ekghz82ij52d4yc/HelloCrack-1.0.1.rar/file&quot;&gt;Link Download Mediafire&lt;/a&gt;&lt;br /&gt;&lt;/i&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/HellorCracker4.PNG&quot; alt=&quot;HelloCracker3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nếu AntiVirus của bạn cảnh báo thì hãy tắt nó đi hoặc trước khi tải phần mềm về hãy tắt nó trước nhá.&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fas fa-download&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://www.fshare.vn/file/V18RVUF8JT8E&quot;&gt;Link Download Fshare&lt;/a&gt;
+&lt;i class=&quot;fas fa-download&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://www.mediafire.com/file/ig62h8626p29a8p/HelloCracker.rar/file&quot;&gt;Link Download Mediafire&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;New Version HelloCrack 1.0.1 beta&lt;/code&gt;&lt;/strong&gt;
+&lt;img src=&quot;../assets/images/HellorCrackerBeta.PNG&quot; alt=&quot;Version 1.0.1 beta&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fab fa-google-drive&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://drive.google.com/file/d/1Z7BdS-LoEmiLp9TQiduba2ldA6vPxX1h/view?usp=sharing&quot;&gt;Link Download Driver&lt;/a&gt;
+&lt;i class=&quot;fas fa-download&quot;&gt;&lt;a href=&quot;https://www.fshare.vn/file/NWAH9IL7YV9C&quot;&gt;Link Download Fshare&lt;/a&gt;
+&lt;i class=&quot;fas fa-download&quot;&gt;&lt;a href=&quot;https://www.mediafire.com/file/ekghz82ij52d4yc/HelloCrack-1.0.1.rar/file&quot;&gt;Link Download Mediafire&lt;/a&gt;&lt;/i&gt;&lt;/i&gt;&lt;/p&gt;
 
 &lt;p&gt;Cảm ơn các bạn đã xem qua, hãy like và share cho mình có thêm động lực để tổng hợp những phần mềm hữu ích nhá ! ^^&lt;/p&gt;
 
-&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;windows&quot;, &quot;new&quot;]" /><summary type="html">Thông qua nút kích hoạt trên phần mềm, phần mềm sẽ tự động nhập lệnh commadline</summary></entry><entry><title type="html">HTML5 là gì, và nó đã làm thay đổi cách chúng ta duyệt web như thế nào?</title><link href="http://localhost:4000/html5-la-gi-hoc-lap-trinh-web-co-ban-den-nang-cao.html" rel="alternate" type="text/html" title="HTML5 là gì, và nó đã làm thay đổi cách chúng ta duyệt web như thế nào?" /><published>2020-05-27T00:00:00+07:00</published><updated>2020-05-27T00:00:00+07:00</updated><id>http://localhost:4000/html5-la-gi-hoc-lap-trinh-web-co-ban-den-nang-cao</id><content type="html" xml:base="http://localhost:4000/html5-la-gi-hoc-lap-trinh-web-co-ban-den-nang-cao.html">&lt;center&gt;
-    &lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/hoc-lap-trinh-web-co-ban-truc-tuyen-online-tot-nhat-16032016-1.jpg&quot; /&gt;
-&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;windows&quot;, &quot;new&quot;]" /><summary type="html">Thông qua nút kích hoạt trên phần mềm, phần mềm sẽ tự động nhập lệnh commadline</summary></entry><entry><title type="html">HTML5 là gì, và nó đã làm thay đổi cách chúng ta duyệt web như thế nào?</title><link href="http://localhost:4000/html5-la-gi-hoc-lap-trinh-web-co-ban-den-nang-cao.html" rel="alternate" type="text/html" title="HTML5 là gì, và nó đã làm thay đổi cách chúng ta duyệt web như thế nào?" /><published>2020-05-27T00:00:00+07:00</published><updated>2020-05-27T00:00:00+07:00</updated><id>http://localhost:4000/html5-la-gi-hoc-lap-trinh-web-co-ban-den-nang-cao</id><content type="html" xml:base="http://localhost:4000/html5-la-gi-hoc-lap-trinh-web-co-ban-den-nang-cao.html">&lt;p&gt;&lt;img src=&quot;../assets/images/hoc-lap-trinh-web-co-ban-truc-tuyen-online-tot-nhat-16032016-1.jpg&quot; alt=&quot;html1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Trong vài năm qua, bạn có thể đã nghe người ta nói nhiều về HTML5. Cho dù bạn biết mọi thứ về phát triển web hay không, thì khái niệm này có thể hơi mơ hồ và khó hiểu đối với bạn. Rõ ràng, nó là bước tiếp theo trong quá trình phát triển của HTML, nhưng chính xác nó để làm gì? Tại sao lại có quá nhiều sự hào hứng xung quanh nó? Và tại sao nó lại quan trọng đối với bạn?&lt;/p&gt;
 
@@ -990,18 +969,13 @@ Nếu AntiVirus của bạn cảnh báo thì hãy tắt nó đi hoặc trước 
 
 &lt;p&gt;Nó đã trở thành một cái gì đó khá cồng kềnh và các trình duyệt khác nhau thực hiện những tính năng theo cách riêng của chúng. HTML5 sinh ra để giải quyết những vấn đề lớn của HTML, giúp cho trang web trở nên rõ ràng và hiệu quả hơn.&lt;/p&gt;
 
-&lt;p style=&quot;padding-left: 10px; background: #dddd; border: 1px solid #242424; width: 100%; border-radius: 10px;&quot;&gt;
-Tại TechMaster có khóa học &lt;a href=&quot;https://techmaster.vn/khoa-hoc/25487/web-co-ban-html5-css3-va-javascript&quot;&gt;&quot;Web cơ bản HTML5, CSS3 và Javascript&quot;&lt;/a&gt; dành cho người mới bắt đầu, chưa học lập trình hoặc cho những ai muốn ôn lại kiến thức căn bản về lập trình web.
-&lt;/p&gt;
+&lt;p&gt;Tại TechMaster có khóa học &lt;a href=&quot;https://techmaster.vn/khoa-hoc/25487/web-co-ban-html5-css3-va-javascript&quot;&gt;Web cơ bản HTML5, CSS3 và Javascript&lt;/a&gt; dành cho người mới bắt đầu, chưa học lập trình hoặc cho những ai muốn ôn lại kiến thức căn bản về lập trình web.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;HTML: Một cái nhìn tổng quan&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;HTML như chúng ta biết hiện nay được gọi là HTML4 và nó đã được xuất bản lần đầu vào năm 1997. Vâng, điều đó có nghĩa là chúng ta đã sử dụng HTML4 trong hơn 15 năm nay, và đó là một khoảng thời gian rất dài trong lĩnh vực công nghệ. Khoảng năm 2000, một ngôn ngữ đánh dấu được gọi là XHTML bắt đầu được phát triển song song và nó đã được sử dụng khá tốt trong những năm qua, chủ yếu là do các tiêu chuẩn khắt khe mà nó áp đặt. Nhìn chung, mặc dù, hai ngôn ngữ này là tương tự nhau.&lt;/p&gt;
 
-&lt;center&gt;
-    &lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/hoc-lap-trinh-web-co-ban-truc-tuyen-online-tot-nhat-16032016-2.jpg&quot; /&gt;
-&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/hoc-lap-trinh-web-co-ban-truc-tuyen-online-tot-nhat-16032016-2.jpg&quot; alt=&quot;html2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Vấn đề đối với HTML4 là các chức năng của nó rất giới hạn. Nó phải được mở rộng thông qua các plugin như Flash, để cung cấp nhiều tính năng trên text (văn bản) và hình ảnh đơn giản hơn. Ví dụ, nhiều video player đã được tạo ra và duy trì trên nền tảng Flash và nhúng vào các trang HTML. Nhiều ứng dụng web được phát triển sử dụng Java và các applet nhúng vào web.&lt;/p&gt;
 
@@ -1011,10 +985,7 @@ Tại TechMaster có khóa học &lt;a href=&quot;https://techmaster.vn/khoa-hoc
 
 &lt;p&gt;&lt;strong&gt;Vậy chính xác HTML5 là gì?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;center&gt;
-    &lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/hoc-lap-trinh-web-co-ban-truc-tuyen-online-tot-nhat-16032016-3.jpg&quot; /&gt;
-&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/hoc-lap-trinh-web-co-ban-truc-tuyen-online-tot-nhat-16032016-3.jpg&quot; alt=&quot;html3&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Cụ thể hơn, HTML5 đã bổ sung thêm rất nhiều các thẻ đánh dấu (markup) mới:&lt;/p&gt;
 
@@ -1049,10 +1020,7 @@ Dùng để nhúng các nội dung hoặc các ứng dụng bên ngoài vào tra
 
 &lt;p&gt;Thêm vào đó, bạn sẽ không cần phải luôn để ý đến các bản cập nhật của các plugin như Flash và Java. Tôi rất ghét việc phải liên tục cập nhật rất nhiều addons và plugins trên nhiều trình duyệt. Và điều gì sẽ xảy ra khi một trong số chúng có phiên bản không phù hợp? Các trang web sẽ ngừng hoạt động và mang lại nhiều nỗi thất vọng. Tất cả điều đó sẽ được giải quyết ngay khi HTML5 trở thành tiêu chuẩn chính.&lt;/p&gt;
 
-&lt;center&gt;
-    &lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/hoc-lap-trinh-web-co-ban-truc-tuyen-online-tot-nhat-16032016-4.jpg&quot; /&gt;
-&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/hoc-lap-trinh-web-co-ban-truc-tuyen-online-tot-nhat-16032016-4.jpg&quot; alt=&quot;html4&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Nếu bạn chỉ là một người sử dụng web bình thường và bạn không có ý định viết code hoặc tạo ra trang web của riêng mình, thì bạn không cần phải làm bất cứ điều gì để được hưởng những tính năng tuyệt vời của HTML5. Tất cả các trình duyệt phổ biến hiện nay đều đã hỗ trợ HTML5 ở một mức độ nào đó và bạn có thể đã sử dụng nó mà không biết. Chỉ cần giữ cho trình duyệt của mình luôn cập nhật và bạn sẽ cảm nhận được những tính năng mới.&lt;/p&gt;
 

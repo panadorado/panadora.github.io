@@ -8,8 +8,8 @@ permalink: /kich-hoat-windows-va-microsoft-office-voi-hello-cracker.html
 category: [windows, new]
 ---
 
-<center><img class="img-thumbnail" width="500" src="{{baseurl}}/image/202061Hellocracker.PNG"></center>
-<br>
+![banner HelloCrack](../assets/images/202061Hellocracker.PNG)
+
 **`HelloCraker`** là phần mềm được lập trình bằng ngôn ngữ C# , phần mềm giúp cho việc thao tác kích hoạt key windows một cách đơn giản. Cụ thể phần mềm đã có sẵn những bản key kích hoạt 365 ngày cho từng phiên bản của Windows 10 và Microsoft Office.
 
 Thông qua nút kích hoạt trên phần mềm, phần mềm sẽ tự động nhập lệnh commadline ( **`cmd`** ) kích hoạt key qua một server **`kms`** để xác nhận đã kích hoạt Windows 10 và Microsoft Office và sử dụng được 365 ngày, nếu hết hạn bạn có thể thao tác nhấn nút **`xóa key`** và kích hoạt lại cho đến khi hết hạn key.
@@ -18,23 +18,23 @@ Vì là phần mềm kích hoạt bằng commadline ( **`cmd`** ) thông qua ser
 
 Sơ qua phần mềm, thì thao tác đơn giản bạn chỉ cần chọn phiên bản Windows 10 và Microsoft Office để mở khóa nút kích hoạt sau đó chọn đúng phiên bản Windows 10 và Microsoft Office để kích hoạt.
 
-<center><img class="img-thumbnail" width="500" src="{{baseurl}}/image/202061Hellocracker2.PNG"></center>
-<br>
-<center><img class="img-thumbnail" width="1200" src="{{baseurl}}/image/HellorCracker3.PNG"></center>
-<br>
-<center><img class="img-thumbnail" width="1200" src="{{baseurl}}/image/HellorCracker4.PNG"></center>
-<br>
-Nếu AntiVirus của bạn cảnh báo thì hãy tắt nó đi hoặc trước khi tải phần mềm về hãy tắt nó trước nhá.<br>
+![HelloCracker1](../assets/images/202061Hellocracker2.PNG)
 
-<i class="fas fa-download"></i>[Link Download Fshare](https://www.fshare.vn/file/V18RVUF8JT8E)<br>
-<i class="fas fa-download"></i>[Link Download Mediafire](https://www.mediafire.com/file/ig62h8626p29a8p/HelloCracker.rar/file)<br>
+![HelloCracker2](../assets/images/HellorCracker3.PNG)
 
-**`New Version HelloCrack 1.0.1 beta`**<br>
-<center><img class="img-thumbnail" width="1200" src="{{baseurl}}/image/HellorCrackerBeta.PNG"></center>
-<br>
-<i class="fab fa-google-drive"></i>[Link Download Driver](https://drive.google.com/file/d/1Z7BdS-LoEmiLp9TQiduba2ldA6vPxX1h/view?usp=sharing)<br>
-<i class="fas fa-download">[Link Download Fshare](https://www.fshare.vn/file/NWAH9IL7YV9C)<br>
-<i class="fas fa-download">[Link Download Mediafire](https://www.mediafire.com/file/ekghz82ij52d4yc/HelloCrack-1.0.1.rar/file)<br>
+![HelloCracker3](../assets/images/HellorCracker4.PNG)
+
+Nếu AntiVirus của bạn cảnh báo thì hãy tắt nó đi hoặc trước khi tải phần mềm về hãy tắt nó trước nhá.
+
+<i class="fas fa-download"></i>[Link Download Fshare](https://www.fshare.vn/file/V18RVUF8JT8E)
+<i class="fas fa-download"></i>[Link Download Mediafire](https://www.mediafire.com/file/ig62h8626p29a8p/HelloCracker.rar/file)
+
+**`New Version HelloCrack 1.0.1 beta`**
+![Version 1.0.1 beta](../assets/images/HellorCrackerBeta.PNG)
+
+<i class="fab fa-google-drive"></i>[Link Download Driver](https://drive.google.com/file/d/1Z7BdS-LoEmiLp9TQiduba2ldA6vPxX1h/view?usp=sharing)
+<i class="fas fa-download">[Link Download Fshare](https://www.fshare.vn/file/NWAH9IL7YV9C)
+<i class="fas fa-download">[Link Download Mediafire](https://www.mediafire.com/file/ekghz82ij52d4yc/HelloCrack-1.0.1.rar/file)
 
 Cảm ơn các bạn đã xem qua, hãy like và share cho mình có thêm động lực để tổng hợp những phần mềm hữu ích nhá ! ^^
 

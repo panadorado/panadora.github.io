@@ -8,7 +8,7 @@ category: [unixlinux, terminal]
 permalink: "/top-cac-cau-lenh-nguy-hiem-tren-linux-ban-can-chu-y-khi-su-dung.html"
 ---
 
-<center><img class="img-thumbnail" width="550" src="{{site.url}}/image/2020525-Caution-Command-Terminal.png"></center><br>
+![warning-terminal-linux](../assets/images/2020525-Caution-Command-Terminal.png)
 
 Như bạn đã biết, các câu lệnh trong Terminal thực sự rất hữu dụng và giúp cho người sử dụng có thể thao tác cực nhanh mà không cần phải qua GUI rườm rà. Tuy nhiên, nó cũng có nhiều rủi ro nếu như bạn sử dụng nó sai cách hoặc bạn không hề biết bạn đang thực thi câu lệnh có độ nguy hiểm như thế nào đối với hệ thống.
 

@@ -7,9 +7,9 @@ author: Panadora
 category: [html, css, javascript]
 permalink: /css-tao-hieu-ung-cho-background-tuyet-dep-P2.html
 ---
-<br>
-<center><img class="img-thumbnail image-post" src="https://giuseart.com/wp-content/uploads/2018/07/417645-636618158800124958-16x9.jpg"></center>
-<br>
+
+![BannerCSS](https://giuseart.com/wp-content/uploads/2018/07/417645-636618158800124958-16x9.jpg)
+
 Phần tiếp theo của bài <a href="{{ post.url }}/2020/03/26/13-css-tao-hieu-ung-cho-background-tuyet-dep-P1.html">post 13 CSS tạo hiệu ứng cho Background tuyệt đẹp</a>.
 
 <hr><hr>

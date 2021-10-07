@@ -12,7 +12,7 @@ Khi đã là một lập trình viên thì **GIT** là một công cụ không t
 
 `GIT` là một hệ thông quản lý phiên bản phân tán `(VCS - distributed Version Control System)`, là một công cụ lập trình hỗ trợ quản lý code, ghi lại lịch sử thay đổi cũng như phân nhánh (branch), chia nhiệm vụ, và tổng hợp code một cách dễ dàng hơn.
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/GIT.jpg"></center>
+![git](../assets/images/GIT.jpg)
 
 ### <kbd>GIT</kbd>
 **Sau đây là những lệnh `GIT` cơ bản.**

@@ -420,17 +420,17 @@ page[size="A4"][layout="landscape"] {
 }
 
 .image__modal img {
-  width: 1000px;
-  height: 450px;
+  width: 1024px;
+  height: 500px;
   left: 0;
   top: 0;
   object-fit: contain;
   margin: 0 auto;
 }
 
-.image__modal img:hover {
+/* .image__modal img:hover {
   image-rendering: pixelated;
-}
+} */
 
 @keyframes zoom {
   from {transform: scale(0.1)} 

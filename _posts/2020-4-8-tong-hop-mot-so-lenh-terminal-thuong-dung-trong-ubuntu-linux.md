@@ -8,7 +8,7 @@ category: [unixlinux, terminal]
 permalink: /tong-hop-mot-so-lenh-terminal-thuong-dung-trong-ubuntu-linux.html
 ---
 
-<center><img class="img-thumbnail" src="https://www.engisv.info/wp-content/uploads/2018/07/linux-terminal-1.jpg"></center><br>
+![terminal-ubuntu](https://www.engisv.info/wp-content/uploads/2018/07/linux-terminal-1.jpg)
 
 **Giới thiệu 1 chút về Ubuntu:**
 
@@ -17,20 +17,20 @@ Ubuntu là một [hệ điều hành](https://vi.wikipedia.org/wiki/H%E1%BB%87_%
 Ubuntu là [phần mềm mã nguồn mở tự do](https://vi.wikipedia.org/wiki/Ph%E1%BA%A7n_m%E1%BB%81m_t%E1%BB%B1_do_ngu%E1%BB%93n_m%E1%BB%9F), có nghĩa là người dùng được tự do chạy, sao chép, phân phối, nghiên cứu, thay đổi và cải tiến phần mềm theo điều khoản của [giấy phép GNU GPL](https://vi.wikipedia.org/wiki/Gi%E1%BA%A5y_ph%C3%A9p_C%C3%B4ng_c%E1%BB%99ng_GNU). Ubuntu được tài trợ bởi Canonical Ltd (chủ sở hữu là một người Nam Phi Mark Shuttleworth). Thay vì bán Ubuntu, Canonical tạo ra doanh thu bằng cách bán hỗ trợ kĩ thuật. Bằng việc để cho Ubuntu tự do và mở mã nguồn, Canonical có thể tận dụng tài năng của những nhà phát triển ở bên ngoài trong các thành phần cấu tạo của Ubuntu mà không cần phải tự mình phát triển.
 
 <p style="text-align: right">Tham khảo thêm từ <a href="https://vi.wikipedia.org/wiki/Ubuntu">Wikipedia</a></p>
-<hr style="background: #000;">
+
 
 Mở lệnh terminal với tổ hợp phím: **`Ctrl + Alt + t`**<br>
 Hoặc bạn có thể click biểu tượng của terminal để mở.
-<center><img class="img-thumbnail" src="{{site.baseurl}}/image/terminal-ubuntu.png"></center><br>
+![open-new-terminal-tab](../assets/images/terminal-ubuntu.png)
 
 Để có thể mở thêm tab mới cho terminal ta ấn phím tổ hợp: **`Ctrl + Shift + t`**
-<center><img class="img-thumbnail" src="{{site.baseurl}}/image/terminal-ubuntu-2.png"></center><br>
+![plus-terminal-tab](../assets/images/terminal-ubuntu-2.png)
 
 **Sau đây là tổng hợp một số lệnh thường dùng trên Terminal:**
 - **`pwd`**: ( path working directory ) In ra đường dẫn đến vị trí hiện tại bạn đang đứng.
-<hr style="background: #000;">
+
 - **`ls`**: ( list ) Hiển thị danh sách các tập tin và thư mục trong thư mục hiện tại bạn đang đứng. Mặc định, lệnh này sẽ không in ra các file ẩn. Do đó, để in ra các file ẩn này, bạn sử dụng thêm tuỳ chọn -a, câu lệnh sẽ là ( **`ls -a`** ).
-<hr style="background: #000;">
+
 - **`cd`**: ( change directory ) Thay đổi vị trí thư mục hiện tại - di chuyển đến vị trí thư mục khác. Một số cách khác nhau khi sử dụng lệnh.
 
 - **`cd .`** : đứng nguyên ở thư mục hiện tại.
@@ -40,22 +40,22 @@ Hoặc bạn có thể click biểu tượng của terminal để mở.
 - **`cd /`** : di chuyển đến thư mục root - thư mục gốc chứa mọi thư mục,( trong đó có home/username ).
 - **`cd <tên thư mục con>`** : di chuyển đến thư mục con bên trong thư mục hiện tại.
 - **`cd <đường dẫn đến thư mục>`** : di chuyển đến thư mục với đường dẫn là đường dẫn cứng. Đường dẫn cứng có thể ( ví dụ như: /home/lampv/Documents, ~/Documents/abc... )
-<hr style="background: #000;">
+
 - **`cp`**: ( copy ) Dùng để sao chép tập tin hay thư mục đến một thư mục khác.
 
 - **`cp <tên tập tin> <tên thư mục>`**: dùng để copy một tập tin vào một thư mục.
 - **`cp -r <tên thư mục nguồn> <tên thư mục đích>`**: dùng để copy thư mục nguồn vào thư mục đích.
-<hr style="background: #000;">
+
 - **`mv`**: ( move ) Dùng để di chuyển tập tin đến một thư mục mới đồng thời đổi tên tập tin đó.
 - **`mv <tên tập tin cũ> <tên thư mục đích / tên tập tin mới>`**: di chuyển một tập tin đến thư mục mới đồng thời đổi tên tập tin.
 - **`mv <tên tập tin cũ> <tên thư mục đích>`**: di chuyển tập tin đến thư mục đích và không đổi tên.
-<hr style="background: #000;">
+
 - **`rm`**: ( remove ) Dùng để xoá tập tin hay thư mục.
 
 - **`rm <tên tập tin>`**: dùng để xoá tập tin.
 - **`rm <tên thư mục>`**: dùng để xoá một thư mục rỗng.
 - **`rm -r <tên thư mục>`**: xoá bất kỳ thư mục nào.
-<hr style="background: #000;">
+
 - **`mkdir <tên thư mục>`**: Dùng để tạo thư mục mới.
 
 - **`touch <tên tập tin>`**: Dùng để tạo file mới.

@@ -8,8 +8,7 @@ category: [other, windows]
 permalink: "/tong-hop-nhung-phan-mem-vpn-mien-phi.html"
 ---
 
-<center><img class="img-thumbnail" width="500" src="{{baseurl}}/image/202061vpn.jpg"></center>
-<br>
+![VPN](../assets/images/202061vpn.jpg)
 
 **VPN là gì ?**
 
@@ -21,8 +20,8 @@ VPN là tên gọi tắt của **`Virtual Private Network`**, là một phần m
 
 Đơn giản chỉ cần cài đặt VPN Gate Client plugin để SoftEther VPN Client. Nó sẽ cho phép bạn kết nối với bất kỳ VPN công cộng Relay máy chủ của VPN Gate trong một snap. Nó có một thông lượng tốt hơn so với L2TP, OpenVPN hoặc SSTP. Tệp chương trình này được ký điện tử bằng chứng chỉ do GlobalSign phát hành. Tệp nhị phân có một countersignature do Symantec phát hành.
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/vpngateclient.png"></center>
-<br>
+![VPN GATE CLIENT](../assets/images/vpngateclient.png)
+
 
 **[2. Touch VPN](https://touchvpn.net/)**
 
@@ -37,8 +36,8 @@ Tránh bị snooped bởi ISP của bạn và ngăn chặn các trang web từ t
 
 Hiện tại `Touch VPN` được tích hợp trong app store của Microsoft bạn cũng có thể vào đó **[tải về](https://www.microsoft.com/store/productId/9NBLGGH5GB3F)**, và cũng đã có phiên bản **[CHPlay](https://play.google.com/store/apps/details?id=com.northghost.touchvpn)**
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/TouchVPN.jpg"></center>
-<br>
+![Touch VPN](../assets/images/TouchVPN.jpg)
+
 
 **[3. VPN 1.1.1.1](https://1.1.1.1/)**
 
@@ -46,11 +45,11 @@ Cũng là 1 phần mềm VPN được sử dụng phổ biến nhất tại th�
 
 Tuy nhiên phần mềm này đang được hổ trợ trên Android và IOS, hiện tại nhà phát hành chưa có thông báo về phiên bản dành cho Windows và MacOs. để có thể download và hướng dẫn cài đặt sử dụng trên Windows thì mời các bạn liên kết tới [bài hướng dẫn này](https://congnghevacuocsong.tk/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html)
 
-**[Tải về cho Android](https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone)**<br>
+**[Tải về cho Android](https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone)**
 **[Tải về cho IOS](https://apps.apple.com/us/app/1-1-1-1-faster-internet/id1423538627)**
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/1111vpn.jpg"></center>
-<br>
+![VPN 1.1.1](../assets/images/1111vpn.jpg)
+
 
 **[4. TunnelBear](https://www.tunnelbear.com/)**
 
@@ -62,8 +61,8 @@ Một điều lưu ý rằng TunnelBear đã điều chỉnh chính sách bảo 
 
 **[Tải về Windows](https://www.tunnelbear.com/apps/windows) - [Tải về MacOS](https://www.tunnelbear.com/apps/mac) - [Tải về IOS](https://www.tunnelbear.com/apps/ios) - [Tải về Android](https://www.tunnelbear.com/apps/android) - [Tải về Browser](https://www.tunnelbear.com/apps/browser)**
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/TunnelBear.jpg"></center>
-<br>
+![Tunnel Bear](../assets/images/TunnelBear.jpg)
+
 
 **Lời kết**
 

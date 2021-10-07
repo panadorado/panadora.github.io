@@ -16,7 +16,7 @@ Cụ thể, Intel đã cập nhật driver đồ họa DCH của mình lên phi�
 
 Theo thông báo từ Intel, bản cập nhật đi kèm với các bản sửa lỗi cho **`DirectX 12`** đối với game **`Fortnite`**, cũng như cũng bổ sung thêm khả năng hỗ trợ cho các trò chơi mới như **`Bleting Edge`**. Đối với những người không chơi game, **`Intel`** cho biết họ đã khắc phục lỗi khiến hình ảnh không đồng bộ với âm thanh khi phát video HDR thông qua ứng dụng Movies & TV trên Windows 10.
 
-<center><img class="img-thumbnail" src="{{site.baseurl}}/image/202044IntelGraphic-2.jpg"></center><br>
+![intel-update-drive](../assets/images/202044IntelGraphic-2.jpg)
 
 Một lỗ hổng khác tồn tại trong ứng dụng Movies & TV khiến Windows 10 hiển thị màn hình đen khi phát video ở chế độ toàn màn hình cũng đã được sửa.
 

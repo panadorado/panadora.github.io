@@ -8,7 +8,7 @@ category: [other, news]
 permalink: /junior-la-gi-senior-la-gi.html
 ---
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/2020422JvsS.jpg" width="600"></center><br>
+![title](../assets/images/2020422JvsS.jpg)
 
 **Junior, Senior là các thuật ngữ dùng để  phân chia trình độ giữa những người làm trong một công ty, trong một ngành hay trong một lĩnh vực nào đó**
 
@@ -16,7 +16,7 @@ permalink: /junior-la-gi-senior-la-gi.html
 
 **Junior là gì?**
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/2020422Junior.jpg" width="600" height="auto"></center><br>
+![junior](../assets/images/2020422Junior.jpg)
 
 Junior là từ tiếng anh chỉ những người nhỏ tuổi hơn, ít thâm niêm hơn, ở cấp dưới. Thường các bạn sinh viên mới ra trường, chưa có kinh nghiệm sẽ làm ở vị trí junior. Junior đa phần có chút ít kinh nghiệm trong chuyên môn cũng như khả năng làm việc. Họ có thể thực hiện, giải quyết và xoay sở những vấn đề nhỏ, không mấy phức tạp và khó khăn. Còn những công việc đòi hỏi trình độ chuyên môn cao thì họ cần sự giúp đỡ của những người có kinh nghiệm hơn.  Công việc chiếm phần lớn thời gian của Junior là học, học hỏi kinh nghiệm từ senior.
 
@@ -24,7 +24,7 @@ Một ví dụ về junior developer là những người chưa biết gì về 
 
 **Senior là gì ?**
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/2020422Senior.jpg" width="600" height="auto"></center><br>
+![senior](../assets/images/2020422Senior.jpg)
 
 Được gọi là Senior khi bạn đã đủ sự hiểu biết, có kinh nghiệm dày dặn và trình độ chuyên môn cao trong lĩnh vực bạn làm việc. Mỗi khi gặp khó khăn trong công việc bạn sẽ luôn tìm được cách khắc phục và giải quyết, bạn cũng có khả năng làm việc độc lập để đem lại hiệu quả cao nhất. Những người đi làm từ 4-5 năm thì tạm gọi là senior. Tuy nhiên, nếu làm việc lâu năm nhưng chỉ làm những task nhỏ nhỏ, việc lặt vặt, không trau dồi thêm kiến thức thì cũng không khác junior là bao. Vì vậy số năm đi làm chưa đủ để đánh giá, phân loại một senior. Mỗi công ty có nhiều cấp bậc cho senior, tùy thuộc vào năng lực và trình độ mà các senior sẽ được phân theo cao thấp khác nhau.
 

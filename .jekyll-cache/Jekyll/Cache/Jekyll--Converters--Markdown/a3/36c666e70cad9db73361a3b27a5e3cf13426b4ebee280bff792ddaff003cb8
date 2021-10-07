@@ -1,0 +1,122 @@
+I"� <p>Trên Windows để có thể đánh văn bản hay chat tin nhắn và một số thao tác khác bằng tiếng việt có dấu, thì buộc các bạn phải tải bộ gõ unikey tiếng việt để có thể sử dụng được. Nhưng còn trên các hệ điều hành linux thì sao, và bạn không thể nào dùng bộ gõ unikey tiếng việt trên windows choo linux được vì chúng vốn lập trình chỉ để thực thi được trên windows mà thôi, vì vậy bài viết này mình xin tổng hợp một số bộ gõ tiếng việt thông dụng hiện nay dành cho hệ điều hành linux nhá.</p>
+
+<p><img src="../assets/images/202084UnikeyLinuxWallpaper.png" alt="image-1" /></p>
+
+<hr />
+
+<h3>1. ibus-unikey</h3>
+
+<p>Để có thể cài đặt các bạn thao tác tổ hợp phím <kbd>ctrl + alt + t</kbd> để mở terminal và tiếng hành gõ lệnh cài đặt gói ibus-unikey như sau:</p>
+
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">
+</span><span class="gp"> ~$</span><span class="w"> </span><span class="nb">sudo </span>add-apt-repository ppa:ubuntu-vn/ppa
+<span class="gp"> ~$</span><span class="w"> </span><span class="nb">sudo </span>apt-get update
+<span class="gp"> ~$</span><span class="w"> </span><span class="nb">sudo </span>apt-get <span class="nb">install </span>ibus-unikey <span class="nt">-y</span>
+<span class="gp"> ~$</span><span class="w"> </span>ibus restart
+<span class="go">
+</span></code></pre></div></div>
+
+<p>Chi tiết cấu hình cài đăt: <a href="https://github.com/vn-input/ibus-unikey"><i style="font-size: 20px; font-weight: bold;" class="fab fa-github"> Source Github ibus-unikey</i></a></p>
+
+<p><strong><code class="highlighter-rouge">Chú ý: Hiện tại bộ gõ này không còn được hỗ trợ. Do đó cân nhắt khi cài đặt bộ gõ này lênh các phiên bản linux mới nhất sau này.</code></strong></p>
+
+<hr />
+
+<h3>2. ibus-bamboo [Khuyên dùng]</h3>
+
+<p>Tương tự như ibus-unikey, tuy nhiên ibus-bamboo vẫn còn được hổ trợ trên linux các phiên bản mới cho đến hiện tại.</p>
+
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">
+</span><span class="gp">  #</span><span class="c">#Ubuntu và các distro tương tự##</span>
+<span class="gp"> ~$</span><span class="w"> </span><span class="nb">sudo </span>add-apt-repository ppa:bamboo-engine/ibus-bamboo
+<span class="gp"> ~$</span><span class="w"> </span><span class="nb">sudo </span>apt-get update
+<span class="gp"> ~$</span><span class="w"> </span><span class="nb">sudo </span>apt-get <span class="nb">install </span>ibus-bamboo
+<span class="gp"> ~$</span><span class="w"> </span>ibus restart
+<span class="go">
+</span><span class="gp">  #</span><span class="c">#Arch Linux và các distro tương tự##</span>
+<span class="go">
+  Với Arch Linux, bạn có thể build từ AUR bằng yay:
+</span><span class="gp">  ~$</span><span class="w"> </span>yay <span class="nt">-S</span> ibus-bamboo
+<span class="go">
+  Hoặc bằng pamac:
+</span><span class="gp">  ~$</span><span class="w"> </span>pamac build ibus-bamboo
+<span class="go">  
+  Hoặc build build từ file PKGBUILD:
+</span><span class="gp">  ~$</span><span class="w"> </span>git clone https://aur.archlinux.org/ibus-bamboo.git
+<span class="gp">  ~$</span><span class="w"> </span><span class="nb">cd </span>ibus-bamboo
+<span class="gp">  ~$</span><span class="w"> </span>makepkg <span class="nt">-si</span>
+<span class="go">
+</span></code></pre></div></div>
+
+<p>Chi tiết cấu hình cài đăt: <a href="https://github.com/BambooEngine/ibus-bamboo"><i style="font-size: 20px; font-weight: bold;" class="fab fa-github"> Source Github ibus-bamboo</i></a></p>
+
+<hr />
+
+<h3>3. ibus-bogo</h3>
+
+<p>ibus-bogo là một chương trình xử lý gõ tiếng Việt sử dụng engine BoGo và được thiết kế để chạy cùng iBus, một phần mềm quản lý các bộ gõ trong GNU/Linux.</p>
+
+<p>ibus-bogo có thể được cài đặt từ gói cài đặt hoặc (nếu bạn muốn) trực tiếp từ mã nguồn.</p>
+
+<p>Từ gói cài đặt cho các bản phân phối Linux thông dụng</p>
+
+<p>Từ mã nguồn</p>
+
+<p><strong><code class="highlighter-rouge">Chú ý: Nếu bạn chưa thành thạo Linux và chỉ muốn sử dụng BoGo thì không nên cài đặt từ mã nguồn.</code></strong></p>
+
+<p>ibus-bogo có sử dụng các phần mềm sau, hãy chắc chắn rằng chúng đã được cài trên máy (theo tên gói cài đặt của Debian/Ubuntu):</p>
+
+<p><strong><code class="highlighter-rouge">.  ibus 1.4.x</code></strong> 
+  <strong><code class="highlighter-rouge">.  python 3.2+</code></strong> 
+  <strong><code class="highlighter-rouge">.  python3-gi (pygobject)</code></strong> 
+  <strong><code class="highlighter-rouge">.  python3-entrant (kiểm tra chính tả)</code></strong> 
+  <strong><code class="highlighter-rouge">.  cmake</code></strong> 
+  <strong><code class="highlighter-rouge">.  qt4-linguist-tools</code></strong> 
+  <strong><code class="highlighter-rouge">.  pyqt4-dev-tools</code></strong> 
+  <strong><code class="highlighter-rouge">.  python3-pyside</code></strong> 
+  <strong><code class="highlighter-rouge">.  gir1.2-ibus-1.0 (GObject Introspection data)</code></strong> 
+  <strong><code class="highlighter-rouge">.  gir1.2-wnck-3.0</code></strong></p>
+
+<p>Lệnh sau sẽ cài đặt tất cả các gói cần thiết:</p>
+
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">
+</span><span class="gp"> ~$</span><span class="w"> </span><span class="nb">sudo </span>apt-get <span class="nb">install </span>python3 ibus cmake python3-gi pyqt4-dev-tools <span class="se">\</span>
+gir1.2-ibus-1.0 gir1.2-wnck-3.0 python3-pyqt4 qt4-linguist-tools <span class="se">\</span>
+python3-enchant
+<span class="go">
+</span></code></pre></div></div>
+
+<p>Note</p>
+
+<p>Từ bản 0.4 thì ibus-bogo sử dụng PyQt4 thay vì PySide.</p>
+
+<p>Sau đó bạn tải mã nguồn tại <a href="https://github.com/BoGoEngine/ibus-bogo-python/releases">ibus-bogo-python</a> rồi giải nén.</p>
+
+<p>Hoặc dùng:</p>
+
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go"> 
+</span><span class="gp"> #</span><span class="c">#Nếu bạn chưa có gói lệnh git thì hay tải về như sau##</span>
+<span class="gp"> ~$</span><span class="w"> </span><span class="nb">sudo </span>apt-get <span class="nb">install </span>git <span class="nt">-y</span>
+<span class="go">
+</span><span class="gp"> #</span><span class="c">#Lấy gói ibus-bogo.git##</span>
+<span class="gp"> ~$</span><span class="w"> </span>git clone https://github.com/BoGoEngine/ibus-bogo.git
+<span class="go">
+</span><span class="gp"> #</span><span class="c">#Nếu bạn tải từ trang releases, bạn cần khởi tạo CMake:##</span>
+<span class="gp">~$</span><span class="w"> </span>cmake CMakeLists.txt
+<span class="go">
+</span><span class="gp">#</span><span class="c">#Chạy lệnh sau để cài đặt:##</span>
+<span class="gp">~$</span><span class="w"> </span><span class="nb">sudo </span>make <span class="nb">install</span>
+<span class="go">
+</span><span class="gp">#</span><span class="c">#Gỡ cài đặt:##</span>
+<span class="gp">~$</span><span class="w"> </span><span class="nb">sudo </span>make uninstall
+<span class="go">
+</span></code></pre></div></div>
+
+<p>Chi tiết cấu hình cài đăt: <a href="https://github.com/BoGoEngine/ibus-bogo/blob/master/doc/sphinx/install.rst"><i style="font-size: 20px; font-weight: bold;" class="fab fa-github"> Source Github ibus-bogo</i></a></p>
+
+<hr />
+
+<ul>
+  <li>Vừa rồi là tổng hợp một số bộ gõ tiếng việt dành cho hệ điều hành linux hiện nay, các bạn đang sử dụng bộ gõ nào và cho mình một comment và đừng quên ấn nút like và share chia sẻ bài post này cho những người mới tiếp cận linux bạn nhá, còn bộ gõ nào mình chưa liệt kê thì các bạn cũng comment bên dưới để mình có thêm thông tin tổng hợp tiếp nhá.</li>
+</ul>
+:ET

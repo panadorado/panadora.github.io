@@ -1,0 +1,57 @@
+I"�<p><img src="https://tamnhin.net.vn/stores/news_dataimages/ctv3/042018/02/11/2448_dns_tang_toc_internet_anh_dong_1.gif" alt="1.1.1.1" /></p>
+
+<p>Hiện tại, phần lớn người dùng PC thường sử dụng Warp+ VPN bằng phần mềm WireGuard, tuy nhiên giao diện không thân thiện, thao tác thiết lập cũng khá phức tạp. Chính vì vậy, trong bài viết này mình xin hướng dẫn các bạn cách cài đặt Warp+ trên Windows/Mac OS thông qua công cụ APKCombo VPN, dễ sử dụng và trực quan.</p>
+
+<h3 style="font-size: 20px;">GIỚI THIỆU VỀ APKCOMBO VPN:</h3>
+
+<p>Đây là công cụ VPN dành cho PC Windows và Mac OS được phát triển bởi APKCombo (trang web chuyên cung cấp ứng dụng Android với định dạng <strong>file<code class="highlighter-rouge">.APK</code></strong>, trong đó bao gồm cả các app có hoặc không có trên Play Store). Cách hoạt động của APKCombo VPN tương tự như WireGuard, cho phép người dùng sử dụng công nghệ CloudFlare WARP+ để hỗ trợ tăng tốc độ mạng (tùy trường hợp) và truy cập vào các dịch vụ bị chặn/giới hạn vị trí địa lý.</p>
+
+<p>Ưu điểm của <strong><code class="highlighter-rouge">APKCombo VPN</code></strong> so với <strong><code class="highlighter-rouge">WireGuard</code></strong> là giao diện trực quan, thao tác thiết lập đơn giản, các bước cài đặt nhanh chóng và gần như ai cũng có thể làm được.</p>
+
+<ul>
+  <li>Hỗ trợ tăng tốc độ truy cập internet trên các dịch vụ có máy chủ ngoài khu vực Việt Nam (ví dụ Facebook, Youtube, Zoom Meeting v.v…)</li>
+  <li>Hỗ trợ tăng tốc độ mạng khi bị đứt cáp biển (thường thì bị bóp nhiều hơn là đứt)</li>
+  <li>Dễ dàng truy cập vào các trang web, dịch vụ bị chặn hoặc giới hạn vị trí địa lý</li>
+</ul>
+
+<p><strong>TẢI VỀ APKCOMBO VPN TẠI ĐÂY:</strong></p>
+
+<p><a href="https://github.com/apkcombo/apkcombo-vpn/raw/master/apkcombovpn-0.1.0.msi">APKCOMBO VPN CHO WINDOWS (7, 8, 10) - 64 BIT</a><br />
+<a href="https://github.com/apkcombo/apkcombo-vpn/raw/master/apkcombovpn-x86-0.1.0.msi">APKCOMBO VPN CHO WINDOWS (7, 8, 10) - 32 BIT</a><br />
+<a href="https://drive.google.com/drive/folders/1FUdAjrhpCF6jdzfridQpCR5vXWegiEdO">APKCOMBO VPN CHO WINDOWS (7, 8, 10) 64/32 BIT</a> (dự phòng)</p>
+
+<h3 style="font-size: 20px;">HƯỚNG DẪN CÀI ĐẶT APKCOMBO VPN VÀ THIẾT LẬP WARP+ VPN</h3>
+
+<p><strong>TRÊN PC WINDOWS:</strong></p>
+
+<ul>
+  <li>Tải và cài đặt: <a href="https://apkcombo.com/vi-vn/vpn/">APKCombo VPN</a></li>
+  <li>Mở APKCombo VPN &gt; bấm nút Active CloudFlare WARP+ VPN.</li>
+</ul>
+
+<p><img src="https://photo.techrum.vn/images/2020/04/06/4SCYMu.jpg" alt="for-windows" /></p>
+
+<ul>
+  <li>Bấm nút Active là xong.</li>
+</ul>
+
+<p><img src="https://photo.techrum.vn/images/2020/04/06/4SCjTe.jpg" alt="active" /></p>
+
+<ul>
+  <li>Nếu muốn kiểm tra lại thì bạn bấm Check VPN (trên trang chủ ở dưới ảnh đầu tiên sẽ có dòng trạng thái màu xanh là thành công - Your WARP status: PLUS).</li>
+</ul>
+
+<p><img src="https://photo.techrum.vn/images/2020/04/06/4SCXJY.jpg" alt="check-vpn" /></p>
+
+<p><strong>TRÊN MAC OS:</strong></p>
+
+<p>Tải về cấu hình <a href="https://warp.apkcombo.com/warpplus.conf">Warp Plus</a><br />
+Tải về và cài đặt ứng dụng <a href="https://apps.apple.com/app/id1451685025">WireGuard cho Mac OS</a><br />
+Mở WireGuard và nhấp vào nút “Import Tunnel (s) from file”
+Chọn tệp “warpplus.conf” và nhấp vào nút “Active” là xong
+Nếu bạn sử dụng Warp+ trên điện thoại thì có thể tham khảo <a href="https://www.techrum.vn/threads/huong-d-n-nh-n-1-4-tri-u-gb-data-vpn-warp-mi-n-phi-khong-co-thoi-han-nhung-c-n-luu-y-khi-dung.296546/">bài viết này</a> (<a href="https://www.techrum.vn/threads/huong-d-n-nh-n-1-4-tri-u-gb-data-vpn-warp-mi-n-phi-khong-co-thoi-han-nhung-c-n-luu-y-khi-dung.296546/">Hướng dẫn nhận 1.4 triệu GB data VPN Warp+ miễn phí, không có thời hạn nhưng cần lưu ý khi dùng</a>) để biết cách nhận 1400TB data miễn phí nhé. Thao tác cũng khá đơn giản, dễ thực hiện và có thể dùng lại key mặc định mà không cần thay hoàn toàn.<br /></p>
+<hr />
+
+<p><em>Nguồn post: <a href="https://www.techrum.vn/threads/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.296753/?fbclid=IwAR0LGEItGoRSqTMik8-K_vtSq4ytb1-qnntShh_QATsMCZhfVEvBB8lPVq0">techrum.vn</a></em><br />
+<em>Tác giả: <a href="https://apkcombo.com/vi-vn/vpn/">APKCOMBO</a> | Nguồn chia sẻ: <a href="https://www.facebook.com/groups/j2team.community/">J2TEAM</a></em></p>
+:ET

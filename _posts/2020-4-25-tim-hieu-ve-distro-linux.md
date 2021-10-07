@@ -14,7 +14,7 @@ Bạn mới tìm hiểu về Linux và chưa biết Distro Linux là gì, các b
 
 Có lẽ "linux" không còn xa lạ với nhiều người. Vì chúng xuất hiện rất nhiều lần trong tin tức hay những bài viết liên quan đến phần mềm mã nguồn mở. Thế nhưng, không phải ai cũng hiểu rõ về "linux". Chính vì thế, chia sẻ sau sẽ giúp các bạn hiểu về distro linux là gì và lý do chúng ta nên quan tâm.
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/2020425distrolagi.png" width="1000" height="auto"></center><br>
+![image1](../assets/images/2020425distrolagi.png)
 
 <h3 style="font-weight: bold;">Distro linux là gì ?</h3>
 
@@ -32,7 +32,7 @@ Mỗi distro Linux sẽ hướng đến một nhóm đối tượng và phục v
 
 <h3 style="font-weight: bold;">Giữa các distro giống và khác nhau thế nào ?</h3><br>
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/2020425distroquestion.png" width="1000" height="auto"></center><br>
+![image2](../assets/images/2020425distroquestion.png)
 
 Điểm giống nhau là về cơ bản, chúng đều dựa trên 3 nhánh chính, đó là Debian, Red Hat, Slackware. Đồng thời, tất cả các bản distrolinux đều có Kernel và Linux.
 
@@ -74,7 +74,7 @@ Triết lý phần mềm là những nguyên tắc, hay định hướng, mục 
 
 Như vậy, dù xét về thị trường hay triết lý phần mềm thì cũng đều có 4 nhóm distro để bạn quyết định nên dùng distro Linux nào phù hợp nhất với nhu cầu của mình.
 
-![title-image-here]({{baseurl}}/image/2020425treeuser.png){:width="100%"}
+![title-image-here3](../assets/images/2020425treeuser.png)
 
 <h3 style="font-weight: bold;">Tại sao người dùng phải quan tâm đến distro Linux là gì ?</h3>
 
@@ -86,7 +86,7 @@ Vì thế, xu hướng tìm các bản phần mềm có key lậu ngày càng nh
 
 Do đó, **các bản distrolinux** mang đến những ưu điểm nổi bật là tính an toàn cao, hoạt động ổn định, miễn phí và thân thiện với người dùng. Chúng vô cùng thích hợp với người có nhu cầu sử dụng đơn giản cho máy tính. 
 
-![title-image-here]({{baseurl}}/image/distro-board.jpg){:width="100%"}
+![iamge4](../assets/images/distro-board.jpg)
 
 Bên cạnh đó, tùy từng ngành nghề mà bạn có thể lựa chọn nên dùng distro Linux nào giúp làm việc hiệu quả hơn.
 
@@ -94,7 +94,7 @@ Và trên hết, như đã đề cập ở trên, Linux mang đến cho bạn s�
 
 Tuy nhiên, ngoài các ưu điểm nổi trội trên thì Linux cũng có mặt hạn chế. Đó là trên thị trường máy tính cá nhân, Linux vẫn còn yếu so với Windows hay MacOS, Do 2 đơn vị này có sự hậu thuẫn từ 2 ông lớn Microsoft và Apple. Vì vậy, người dùng đôi khi phát sinh một số lỗi nhỏ trên máy tính.
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/hostinglinuxdistro.jpg" width="1000" height="auto"></center><br>
+![image5](../assets/images/hostinglinuxdistro.jpg)
 
 <h3 style="font-weight: bold;">Tại sao Developer quan tâm distro Linux ?</h3>
 

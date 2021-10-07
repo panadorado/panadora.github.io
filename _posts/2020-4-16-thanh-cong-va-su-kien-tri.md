@@ -10,7 +10,7 @@ category: [news, other]
 
 Hãy nắm vững những phương pháp làm việc hiệu quả so với việc bạn cứ cắm đầu vào và làm việc như một cái máy. Đầu óc trống rỗng không có chút tư duy, thật sự mà nói người tài giỏi đều chiến thẳng chính là nhờ có tư duy.
 
-![image-title-here]({{baseurl}}/image/thanh-cong-va-su-kien-tri.jpg){:width="100%"}
+![image-title-here](../assets/images/thanh-cong-va-su-kien-tri.jpg)
 
 
 #### Có một câu chuyện như sau:

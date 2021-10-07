@@ -8,7 +8,7 @@ category: [news, other]
 permalink: /thuat-toan-la-gi-hoc-thuat-toan-lam-quai-gi.html
 ---
 
-<center><img class="img-thumbnail" src="https://techtalk.vn/wp-content/uploads/2018/08/00-696x406.png"></center><br>
+![gorithm](https://techtalk.vn/wp-content/uploads/2018/08/00-696x406.png)
 
 Tôi là một lập trình viên có trên 15 năm kinh nghiệm. Những năm đầu tiên (từ cấp 3), tôi học và làm nhiều về thuật toán. Cho đến cả khi ra trường, tôi cũng luôn nghiên cứu và có đam mê với nó. Đồ án tốt nghiệp của tôi mang tính học thuật khá nhiều: “Xây dựng mô hình ngôn ngữ cho tiếng Việt”. Ra trường, tôi nung nấu ý định đi du học và theo con đường nghiên cứu. Tuy nhiên, sau quãng thời gian đi làm 1 năm, tôi thấy thích làm sản phẩm/phần mềm hơn là nghiên cứu. Tôi chuyển hướng học về công nghệ, kĩ thuật hơn là thuật toán. Nói như vậy để bạn hiểu rằng, hiện tại tôi không còn là tín đồ hay thần thánh hoá thuật toán nữa. Tuy nhiên, cá nhân tôi cho rằng, thuật toán vẫn là thứ gì đó khá quan trọng vs đối lập trình viên. Sau này lúc đi dạy học hay định hướng chia sẻ với những lập trình viên trẻ, cũng có khá nhiều người hỏi tôi có cần học giải thuật/thuật toán hay không? Câu trả lời của tôi luôn luôn là có. Vì sao?
 

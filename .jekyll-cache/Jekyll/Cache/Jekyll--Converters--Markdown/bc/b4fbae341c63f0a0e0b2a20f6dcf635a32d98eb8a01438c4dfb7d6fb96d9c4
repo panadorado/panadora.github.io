@@ -1,0 +1,91 @@
+I"<p><img src="/image/2020418NetherPotal.jpg" alt="title-image-here" /></p>
+
+<p><em>Tiếp tục với phần 2 của <a href="/huong-dan-tao-server-minecraft-p1.html">Hướng dẫn tạo server minecarft</a></em></p>
+
+<h3 style="font-weight: bold;">Mở Port/Server Minecraft</h3>
+
+<p>Bước này khá quan trọng trong việc bạn bè của bạn có thể kết nối tới server minecarft của bạn chơi cùng.</p>
+
+<p>Đầu tiên lấy địa chỉ IP của nhà mạng bằng cách thao tác tổ hợp phím <code class="highlighter-rouge">start + r</code> hoặc mở <code class="highlighter-rouge">Command Prompt</code> gõ lệnh:</p>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">
+	ipconfig /all
+
+</span></code></pre></div></div>
+<p>tìm đến <strong><code class="highlighter-rouge">Default Gateway:  192.168....</code></strong> copy dòng số IP và mở trình duyệt chrome paste vào thanh địa chỉ để liên kết đến</p>
+
+<p><img src="/image/2020418IPv4.png" alt="title-image-here" /></p>
+
+<p>Trường hợp bạn quên hoặc không biết <strong><code class="highlighter-rouge">user</code></strong> và <strong><code class="highlighter-rouge">password</code></strong> để truy cập vào địa <strong><code class="highlighter-rouge">Default Gateway</code></strong>, thì bạn có thể hỏi tổng đài nhà mạng đã cấp Internet hoặc kiểm tra phần đáy của router để xem thông tin <strong><code class="highlighter-rouge">user, password</code></strong> để truy cập.</p>
+
+<p>Sau khi truy cập được vào <strong><code class="highlighter-rouge">Default Gateway</code></strong> thì làm bước sau:</p>
+
+<p><strong>B1:</strong> : chọn <code class="highlighter-rouge">Firewall Setup &gt; Port Forwarding</code> và nhập như sau:</p>
+
+<p><img src="/image/2020418Setting1.png" alt="title-image-here" />
+<img src="/image/2020418Setting2.png" alt="title-image-here" /></p>
+
+<p><strong>B2:</strong> Nhập thông số cho IP/Port</p>
+
+<blockquote>
+  <p><strong>Protocol</strong>: chọn ALL <br />
+<strong>Start Port Number</strong>: <em><code class="highlighter-rouge">Port</code></em> này nằm trong <em><code class="highlighter-rouge">server.properties &gt; server-port= 25565</code></em> mặt định là 25565 <br />
+<strong>End Port Number</strong>: nhập giống <em><code class="highlighter-rouge">Start Port Number</code></em> <br />
+<strong>Local IP Address</strong>: địa chỉ <em><code class="highlighter-rouge">IPv4 Address</code></em> của bạn thao tác <em><code class="highlighter-rouge">ipconfig /all</code></em> để xem lại<br />
+<strong>Start Port Number(Local)</strong>: nhập giống <em><code class="highlighter-rouge">Start Port Number</code></em> <br />
+<strong>End Port Number(Local)</strong>: nhập giống <em><code class="highlighter-rouge">Start Port Number</code></em> <br /></p>
+</blockquote>
+
+<p><img src="/image/2020418Setting3.png" alt="title-image-here" /></p>
+
+<p>Cuối cùng nhấp chuột vào <strong><code class="highlighter-rouge">APPLY</code></strong> để xác nhận hoàn thành mở port</p>
+
+<p><strong>B3:</strong> Mở IP/Port từ <strong><code class="highlighter-rouge">Firewall</code></strong> của máy tính</p>
+
+<p>Tìm kiếm và mở <strong><code class="highlighter-rouge">Windows Defender Firewall</code></strong></p>
+
+<p><img src="/image/2020418FireWall1.png" alt="title-image-here" /></p>
+
+<p>Click chuột chọn <strong><code class="highlighter-rouge">Advanced settings</code></strong></p>
+
+<p><img src="/image/2020418FireWall2.png" alt="title-image-here" /></p>
+
+<p>Click chuột phải vào <strong><code class="highlighter-rouge">Inbound Rules</code></strong> và chọn <strong><code class="highlighter-rouge">New Rule..</code></strong></p>
+
+<p><img src="/image/2020418FireWall3.png" alt="title-image-here" /></p>
+
+<p>Click chuột chọn ô <strong><code class="highlighter-rouge">Port</code></strong> và ấn <strong><code class="highlighter-rouge">Next</code></strong> để tiếp tục</p>
+
+<p><img src="/image/2020418FireWall4.png" alt="title-image-here" /></p>
+
+<p>Click chuột chọn ô <strong><code class="highlighter-rouge">TCP</code></strong> và chọn <strong><code class="highlighter-rouge">Specific local ports</code></strong> đền số port: <strong><code class="highlighter-rouge">25565</code></strong> và Next để tiếp tục</p>
+
+<p><img src="/image/2020418FireWall5.png" alt="title-image-here" /></p>
+
+<p>Click chuột chọn ô <strong><code class="highlighter-rouge">Allow the connection</code></strong> và Next để tiếp tục</p>
+
+<p><img src="/image/2020418FireWall6.png" alt="title-image-here" /></p>
+
+<p>Next để tiếp tục</p>
+
+<p><img src="/image/2020418FireWall7.png" alt="title-image-here" /></p>
+
+<p>Nhập tên cho <strong><code class="highlighter-rouge">Inbound Rules</code></strong></p>
+
+<p><img src="/image/2020418FireWall8.png" alt="title-image-here" /></p>
+
+<ul>
+  <li>Tương tự với <strong><code class="highlighter-rouge">Inbound Rules</code></strong> bạn cũng khởi tạo như vậy với <strong><code class="highlighter-rouge">Outbound Rules</code></strong><br />
+Như vậy bạn đã hoàn thành khởi tạo server minecarft bạn, việc bây giờ là bạn chỉ cần chia sẻ địa chỉ IP/Port cho bạn bè cùng vào chơi.</li>
+</ul>
+
+<p>IP: chính là IPv4 của bạn<br />
+Port: chính là server-port= 25565 của bạn</p>
+
+<p>IP:Port ví dụ: 192.168.55.103:25565</p>
+
+<p>Chúc các bạn thành công !</p>
+
+<hr />
+
+:ET

@@ -9,9 +9,9 @@ permalink: /css-tao-hieu-ung-cho-background-tuyet-dep-P1.html
 ---
 
 Với CSS bạn có thể tạo ra các hiệu ứng rất đẹp và thú vị khi kết hợp với HTML và JavaScript, hoặc ngay cả khi chỉ có mình nó, CSS hỗ trợ rất nhiều trong việc thiết kế giao diện. Bạn sẽ ngạc nhiên về những gì các nhà phát triển có thể tạo ra.
-<br><br>
-<center><img class="img-thumbnail image-post" src="https://techtalk.vn/wp-content/uploads/2019/02/css-art.jpg"></center>
-<br><br>
+
+![BannerCSS](https://techtalk.vn/wp-content/uploads/2019/02/css-art.jpg)
+
 Từ các hình ảnh động cuộn đơn giản đến các background phức tạp được xây dựng hoàn toàn bằng CSS, những hiệu ứng này có thể làm trang web của bạn trơ nên lung linh và sáng tạo hơn.
 
 Hôm nay tôi đã thu thập được 14 CSS rất tuyệt vời.

@@ -10,9 +10,9 @@ permalink: /khai-niem-mau-sac-trong-thiet-ke-p2.html
 
 Chào các bạn, mình sẽ tiếp tục với series của [khái niệm màu sắc trong thiết kế](https://congnghevacuocsong.tk/khai-niem-mau-sac-trong-thiet-ke-p1) phần 2.
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/2020415KNMS.png"></center>
+![Graphics1](../assets/images/2020415KNMS.png)
 
-<br>
+
 <hr>
 
 <h3 style="font-weight: bold;">Tìm hiểu các hệ màu trong thiết kế</h3>
@@ -20,8 +20,8 @@ Chào các bạn, mình sẽ tiếp tục với series của [khái niệm màu 
 
 RGB - viết tắt (<label style="color: red;">Red</label>, <label style="color: green;">Green</label>, <label style="color: blue;">Blue</label>) được biết đến 3 màu gốc trong mô hình màu ánh sáng bổ sung, là một hệ thống màu cộng. Nếu kết hợp 3 màu này với nhau sẽ ra màu trắng <canvas width="10" height="10" style="background: #fff; border: 1px solid #000;"></canvas> #FFFF.
 
-<center><img class="img-thumbnail" width="320" height="320" src="{{baseurl}}/image/2020415RGB.png"></center>
-<br>
+![RGB](../assets/images/2020415RGB.png)
+
 (Mã hex bao gồm: <canvas width="12" height="12" style="background: #FF0000;"></canvas>-#FF0000, <canvas width="12" height="12" style="background: #00FF00;"></canvas>-#00FF00, <canvas width="12" height="12" style="background: #0000FF;"></canvas>-#0000FF).
 <hr>
 <h1 style="text-align: center;">RGBA</h1>
@@ -43,14 +43,14 @@ RGB - viết tắt (<label style="color: red;">Red</label>, <label style="color:
 			100% {background: rgba(120, 0, 0, 0.2);}
 		}
 	</style>
-	<center><canvas class="rgba-color img-thumbnail"></canvas></center>
+	<center><canvas class="rgba-color"></canvas></center>
 </article>
 <hr>
 <h1 style="text-align: center;">CMYK (in ấn)</h1>
 
 CMYK - viết tắt (<label style="color: #00ffff;">Cyan</label>, <label style="color: #FF00FF;">Megenta</label>, <label style="color: #FFFF00;">Yellow</label>, <label style="color: #000;">Key</label>), một hệ thống màu trừ, ngược với RGB. Hệ thống làm việc trên hệ màu này dựa trên cơ sở hấp thụ ánh sáng. Nếu kết hợp 3 màu này với nhau sẽ ra màu đen (<canvas width="12" height="12" style="background-color: #000;"></canvas> #000000).
 
-<center><img width="250" height="250" class="img-thumbnail" src="{{baseurl}}/image/CMYK.png"></center>
+![CMYK (in ấn)](../assets/images/CMYK.png)
 
 (Mã hex bao gồm: <canvas width="12" height="12" style="background-color: #00FFFF;"></canvas>-#00FFFF, <canvas width="12" height="12" style="background-color: #FF00FF;"></canvas>-#FF00FF, <canvas width="12" height="12" style="background-color: #FFFF00;"></canvas>-#FFFF00).
 

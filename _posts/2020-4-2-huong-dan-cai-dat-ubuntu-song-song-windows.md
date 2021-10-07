@@ -8,7 +8,7 @@ category: [windows, unixlinux]
 permalink: /huong-dan-cai-dat-ubuntu-song-song-windows.html
 ---
 
-<center><img class="img-thumbnail" src="{{site.baseurl}}/image/202042ubuntu-windows.png"></center><br>
+![winvslinux](../assets/images/202042ubuntu-windows.png)
 
 **Bạn là một người dùng hệ điều hành `Windows` và muốn chuyển sang dùng `Ubuntu` để trải nghiệm sự mới của hệ điều hành mang nhân `linux`.**
 
@@ -26,7 +26,7 @@ Tiếp theo bạn khởi tạo boot hệ điều hành ubuntu vào USB
 
 Kết nối USB vào Máy tính và mở phần mềm rufus lên và cấu hình như sau:
 
-<center><img class="img-thumbnail" src="https://www.upsieutoc.com/images/2020/04/03/rufus-createBoot-Ubuntu.png" alt="rufus-createBoot-Ubuntu.png" border="0"/></center><br>
+![rufus-create-boot](https://www.how2shout.com/wp-content/uploads/2020/04/set-Rufus-to-create-Ubuntu-20.04-ISO-bootable-drive.png)
 
 **Bước 2: Tiến hành cài đặt song song Ubuntu vào máy tính**
 
@@ -204,24 +204,24 @@ Kết nối USB vào Máy tính và mở phần mềm rufus lên và cấu hình
 
 Sau đó chọn Boot USB để vào giao diện cài đặt hệ điều hành `Ubuntu`:
 
-<center><img class="img-thumbnail" src="https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-1.png" alt="ubuntu-pic-1.png" border="0"></center><br>
+![boot-ubuntu](https://ubuntucommunity.s3-us-east-2.amazonaws.com/original/2X/a/ad5e454a9fd45fd56d90da951702c2f2224cd32a.png)
 
 + Bạn chọn `Install Ubuntu`, chọn ngôn ngữ `English`
-<center><img class="img-thumbnail" src="https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-2.png" alt="ubuntu-pic-2.png" border="0"></center><br>
+![install-Ubuntu](https://res.cloudinary.com/developerhub/image/upload/v1628792525/v2_5265/surwiscpmlo1rlmcu4ih.png)
 
 + Keyboard (mặt định `English US`)
 <center><img class="img-thumbnail" src="https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-3.png" alt="ubuntu-pic-3.png" border="0"></center><br>
 
 + Phần `Update and other software` bạn chọn `Normal installation` và tích vào 2 hàng ở phần Other option
-<center><img class="img-thumbnail" src="https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-4.png" alt="ubuntu-pic-4.png" border="0"></center><br>
+![install-Ubuntu-UpdateAndSoftware](https://phoenixnap.com/kb/wp-content/uploads/2021/04/choose-starting-applications-for-ubuntu-20.04.png)
 
 + Phần `Installation type` nếu cài song song bạn chọn `Something else`, nếu bạn muốn cài đặt hoàn toàn Ubuntu thì bạn chọn `Erea disk and install Ubuntu`.
-<center><img class="img-thumbnail" src="https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-6.png" alt="ubuntu-pic-6.png" border="0"></center><br>
+![install-something-else](https://www.tecmint.com/wp-content/uploads/2012/10/choose-something-scenarios2.png)
 
 + Phần `Installation type` trong phần này các bắt đầu khởi tạo phân vùng như sau:
 
-Bạn click vào dấu **`+`** khởi tạo phân vùng **`Swap area`**:
-
+Bạn click vào phân vùng **`free space`** 
+Tiếp tục chọn **`+`** khởi tạo phân vùng **`Swap area`**:
 Phần Size (dung lượng) bạn set cho gắp đôi dung lương `RAM` nhé ví dụ:<br>
 RAM 2GB -> Swap sẽ là 4GB (1024KB x 4 = 4096KB)<br>
 RAM 4GB -> Swap sẽ là 8GB (1024KB x 8 = 8192KB)
@@ -229,20 +229,17 @@ RAM 4GB -> Swap sẽ là 8GB (1024KB x 8 = 8192KB)
 Phần Type for the new partition: **`Logical`**<br>
 Phần Use as: **`Swap area`**
 
-<center><img class="img-thumbnail" src="https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-7.png" alt="ubuntu-pic-7.png" border="0"></center><br>
+![create-swap-ubuntu](https://i.stack.imgur.com/tyX1B.png)
 
-Phần còn lại bạn dùng làm Phân vùng chính để cài `Ubuntu` <br>
+Phần **`free space`** còn lại bạn dùng làm Phân vùng chính để cài `Ubuntu` <br>
 Phần Type for the new partition: **`Primary`** <br>
 Phần Use as: **`Ext4 journaling file system`**
-
-<center><img class="img-thumbnail" src="https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-8.png" alt="ubuntu-pic-8.png" border="0"></center><br>
-
 tiếp tục click vào **`Continue`**
 
-<center><img class="img-thumbnail" src="https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-9.png" alt="ubuntu-pic-9.png" border="0"></center><br>
+Sau đó bạn chọn thông tin như sau:
 
 **Where are you?: `Ho Chi Minh`**
-<center><img class="img-thumbnail" src="https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-10.png" alt="ubuntu-pic-10.png" border="0"></center><br>
+![Region-HCM](https://blogsofts.net/wp-content/uploads/2021/05/cach-cai-ubuntu-8.png)
 
 **Who are you?:**<br>
 Your name: **`< tên user bạn muốn đặt >`**<br>
@@ -251,10 +248,9 @@ Pick a username: **`< tên tài khoảng bạn muốn đặt >`**<br>
 Choose a password: **`< mật khẩu bạn muốn đặt >`**<br>
 Confirm your password: **`< xác nhận lại mật khẩu >`**
 
-<center><img class="img-thumbnail" src="https://www.upsieutoc.com/images/2020/04/03/ubuntu-pic-11.png" alt="ubuntu-pic-11.png" border="0"></center><br>
+![Create-User](https://i.stack.imgur.com/TdMDH.png)
 
 Click vào **`continue`** để tiến hành cài đặt **`Ubuntu`**.<br>
 Sau khi cài đặt hoàn tất, các bạn khởi động lại máy tính và màn hình Dual-Boot Ubuntu với Windows hiện lên. Bạn có thể sử dụng phím mũi tên để di chuyển đến hệ điều hành muốn khởi động và nhấn Enter, lựa chọn Ubuntu để vào Ubuntu hoặc **`Windows Boot Manager`** để truy cập vào Windows.
 
-<center><img class="img-thumbnail" src="https://privatstrand.dirkschmidtke.de/wp-content/ubuntu-18.04-welcome.jpg"></center>
-<hr>
+![Screen-Ubuntu](https://upload.wikimedia.org/wikipedia/commons/4/42/Ubuntu-20.04-cat.png)

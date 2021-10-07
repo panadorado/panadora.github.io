@@ -8,7 +8,7 @@ category: news
 permalink: /github-mien-phi-tat-ca-cac-tinh-nang-cho-nguoi-dung.html
 ---
 
-![title-image-here]({{baseurl}}/image/2020420Github.png){:width="100%"}
+![title-image-here](../assets/images/2020420Github.png){:width="100%"}
 
 **GitHub là một dịch vụ cung cấp kho lưu trữ mã nguồn Git dựa trên nền web cho các dự án phát triển phần mềm. GitHub cung cấp cả phiên bản trả tiền lẫn miễn phí cho các tài khoản. Sau khi cung cấp kho lưu trữ cá nhân không giới hạn cho người dùng miễn phí vào năm ngoái, mới đây GitHub tiếp tục cung cấp miễn phí các tính năng cốt lõi của mình cho mọi người dùng.**
 

@@ -16,7 +16,7 @@ Với Mesa (driver graphics mã nguồn mở trên hầu hết distro Linux) sto
 
 Chú ý rằng bài này sẽ không đề cập tới graphics Nvidia và chú trọng tới graphics Intel nhất, AMD thì cơ bản vẫn giống.
 
-<center><img class="img-thumbnail image-post" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/070d1750882925.58dc072db3109.jpg"></center>
+![Graphics](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/070d1750882925.58dc072db3109.jpg)
 
 ### Tìm hiểu sâu hơn
 
