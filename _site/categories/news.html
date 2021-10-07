@@ -1,638 +1,581 @@
 <!DOCTYPE html>
-<html lang="vi">
-<head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html lang="en">
+<head><meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-<link rel="shortcut icon" type="image/x-icon" href="/image/favicon.png">
+<link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.png">
 <title>Em Yêu Công Nghệ</title>
 
-<link rel="stylesheet" type="text/css" href="/assets/styles.css" integrity="">
-<link rel="stylesheet" type="text/css" href="/assets/zenburn.css" integrity="">
+<link rel="stylesheet" href="/assets/css/technology_portal.css" >
+<link rel="stylesheet" href="/assets/css/hightlight_zenburn.css" >
+
+<!-- ---------------------- Font Style ----------------------  -->
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Itim|Lobster|Montserrat:500|Noto+Serif|Nunito|Patrick+Hand|Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab|Saira" rel="stylesheet">
 
 <!-- ---------------------- BOOSTRAP CDN ---------------------- -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="">
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
 <!-- ----------------------------------------------------------- -->
 
-
-	<!--  ICON FONTAWESOME  -->
+<!--  ---------------------- ICON FONTAWESOME ----------------------   -->
 <script src="https://kit.fontawesome.com/01e0beb3d4.js" crossorigin="anonymous"></script>
 	
-	<!-- Script Add-ons Codepen -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- ---------------------- Script Add-ons Codepen ----------------------  -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-	<!-- Font Style -->
-<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Itim|Lobster|Montserrat:500|Noto+Serif|Nunito|Patrick+Hand|Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab|Saira" rel="stylesheet"><!--
+<!-- ---------------------- JQUERY ----------------------  -->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
-		────(♥)(♥)(♥)──(♥)(♥)(♥)────
-		──(♥)██████(♥)(♥)██████(♥)──
-		─(♥)████████(♥)████████(♥)─
-		─(♥)██████████████████(♥)─
-		──(♥)████████████████(♥)──
-		────(♥)████████████(♥)────
-		──────(♥)████████(♥)──────
-		────────(♥)████(♥)────────
-		─────────(♥)██(♥)─────────
-		───────────(♥)───────────
+<!-- <script src="/assets/js/search.js"></script> --></head>
+<body><nav>
+	<div class="logo">
+		<a href="/">Em yêu <span>Công Nghệ</span></a>
+	</div>
+	<label for="drop" class="toggle"><i class="fas fa-bars"></i></label>
+	<input type="checkbox" id="drop" />
+	<ul class="menu">
+		<li><a href="/">Home</a></li>
+		<li>
+			<!-- First Tier Drop Down -->
+			<label for="drop-1" class="toggle">HĐH/OS</label>
+			<a href="#">HĐH/OS</a>
+			<input type="checkbox" id="drop-1"/>
+			<ul>
+				<li><a href="/categories/windows.html">Windows</a></li>
+				<li><a href="/categories/unixlinux.html">Linux</a></li>
+			</ul> 
 
+		</li>
+		<li>
 
-		──────▄▌▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌
-		───▄▄██▌█ ░Xin chào !, hãy là người tốt bạn nhé ^^
-		▄▄▄▌▐██▌█ ░░░░░░ ░░░░░░░░░ ░░░░░░░	  ▐\.
-		███████▌█▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▌ \.
-		▀❍▀▀▀▀▀▀▀❍❍▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀❍❍ ▀▀.
-	-->
-</head>
-<body><nav class="navbar navbar-expand-lg">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="fas fa-bars"></span>
-		</button>
+			<!-- First Tier Drop Down -->
+			<label for="drop-2" class="toggle">Web Design</label>
+			<a href="#">Web Design</a>
+			<input type="checkbox" id="drop-2"/>
+			<ul>
+				<li><a href="/categories/html.html">HTML</a></li>
+				<li><a href="/categories/css.html">CSS</a></li>
+				<li><a href="/categories/javascript.html">JavaScript</a></li>
+				<!-- <li>
+					<!-- Second Tier Drop Down
+					<label for="drop-3" class="toggle">Tutorials +</label>
+					<a href="#">Tutorials</a>         
+					<input type="checkbox" id="drop-3"/>
 
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-			   	<li class="nav-item active">
-			    	<a class="nav-link" href="/"><i class="fas fa-home"></i> Trang chủ</a>
-				</li>
+					<ul>
+						<li><a href="#">HTML/CSS</a></li>
+						<li><a href="#">jQuery</a></li>
+						<li><a href="#">Other</a></li>
+					</ul>
+				</li> -->
+			</ul>
+		</li>
+		<li>
+			<!-- First Tier Drop Down -->
+			<label for="drop-1" class="toggle">Game Mod</label>
+			<a href="#">Game Mod</a>
+			<input type="checkbox" id="drop-1"/>
+			<ul>
+				<li><a href="/categories/games.html">Game</a></li>
+				<li><a href="/categories/sourcemod.html">SoureMod</a></li>
+			</ul> 
+		</li>
+		<li><a href="/categories/graphics.html">UI/Graphics</a></li>
+		<li><a href="/mymusic/music.html">my music</a></li>
+	</ul>
+</nav>
 
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-list"> Hệ điều hành</i></a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="/categories/windows.html"><i class="fab fa-windows"> Windows</i></a>
-						<a class="dropdown-item" href="/categories/unixlinux.html"><i class="fab fa-linux"> Unix/Linux</i></a>
-					</div>
-				</li>
-
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-list"> Desgin Web</i></a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="/categories/html.html"><i class="fab fa-html5"> HTML</i></a>
-						<a class="dropdown-item" href="/categories/css.html"><i class="fab fa-css3-alt"> CSS</i></a>
-						<a class="dropdown-item" href="/categories/javascript.html"><i class="fab fa-js"> JavaScript</i></a>
-					</div>
-				</li>
-				   
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-list"> Games/Mod</i></a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="nav-link" href="/categories/games.html"><i class="fas fa-gamepad"> Games</i></a>
-						<a class="nav-link" href="/categories/SourceMod.html"><i class="fas fa-puzzle-piece"> SourceMod</i></a>
-					</div>
-				</li>
-
-				<li class="nav-item">
-					<a class="nav-link" href="/categories/graphics.html"><i class="fas fa-microchip"> Design/Graphics</i></a>
-				</li>
-
-				<li class="nav-item">
-					<a class="nav-link" href="/mymusic/music.html"><i class="fas fa-music"> Nhạc yêu thích của tôi</i></a>
-				</li>
-
-		    </ul>
-		    <form class="form-inline my-2 my-lg-0" action="/search.html" method="get">
-		      <input class="form-control mr-sm-2" type="search" placeholder="Gõ vào để tìm kiếm...!" aria-label="Search" id="search-box" name="query">
-		      <input class="btn btn-outline-success my-2 my-sm-0" id="btn-search" type="submit" value="Tìm kiếm">
-		    </form>
-		  </div>
-	</nav>
-<!-- Script Add-ons Facebook -->
-	<div id="fb-root"></div>
-	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v7.0&appId=2448622068784376&autoLogAppEvents=1"></script>
+<form class="search" action="/search.html" method="get">
+	<input class="search" type="search" placeholder="Nhập tìm kiếm..." aria-label="Search" id="search-box" name="query">
+</form><!-- Script Add-ons Facebook -->
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0&appId=2448622068784376&autoLogAppEvents=1" nonce="S78sJM3q"></script>
 	
-	<section class="container">	
-		<div class="text-logo">
-			<h1 class="text-center"><a href="/">Em Yêu Công Nghệ</a></h1>
-			<p class="text-center">Nơi tổng hợp những thông tin về công nghệ, thông tin <br> gắn liền với cuộc sống của bạn !</p>
-		</div>
-
-		<div class="row">
-			
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 04-08-2020</i></span>
-			</small><br>
-			<a href="/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/202084UnikeyLinuxWallpaper.png" style="height: 180px;" title="Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux">
-			</a>
-			<br>
-			<a class="entry-title" href="/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html" title="Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux">Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux</a>
-			<br>
-			<p class="content-SubString">Trên Windows để có thể đánh văn bản hay chat tin nhắn và một số thao tác khác bằng tiếng việt có dấu...</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 01-08-2020</i></span>
-			</small><br>
-			<a href="/tong-hop-mot-so-android-cho-hien-nay.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/202081AndroidPC.png" style="height: 180px;" title="Tổng hợp một số Android cho PC hiện nay">
-			</a>
-			<br>
-			<a class="entry-title" href="/tong-hop-mot-so-android-cho-hien-nay.html" title="Tổng hợp một số Android cho PC hiện nay">Tổng hợp một số Android cho PC hiện nay</a>
-			<br>
-			<p class="content-SubString">Với sự phát triển vượt bậc trong suốt các thập kỷ của khoa học và công nghệ hiện nay...</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//tong-hop-mot-so-android-cho-hien-nay.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/tong-hop-mot-so-android-cho-hien-nay.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 21-06-2020</i></span>
-			</small><br>
-			<a href="/ma-doc-tong-tien-RaaS">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/ransomware-as-a-service.png" style="height: 180px;" title="Ransomware RaaS, nguy hiểm với mã độc tống tiền mới">
-			</a>
-			<br>
-			<a class="entry-title" href="/ma-doc-tong-tien-RaaS" title="Ransomware RaaS, nguy hiểm với mã độc tống tiền mới">Ransomware RaaS, nguy hiểm với mã độc tống tiền mới</a>
-			<br>
-			<p class="content-SubString">Loại mã độc Ransomware tốngg tiền mới được phát tán vào đầu tháng 6 này, do một tổ chức chuyên phát triển loại mã độc có tên Avaddon đã được thành lập.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//ma-doc-tong-tien-RaaS" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/ma-doc-tong-tien-RaaS'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 14-05-2020</i></span>
-			</small><br>
-			<a href="/khai-niem-mau-sac-trong-thiet-ke-p3.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020514ColorP3.jpg" style="height: 180px;" title="Khái niệm màu sắc trong thiết kế (phần 3)">
-			</a>
-			<br>
-			<a class="entry-title" href="/khai-niem-mau-sac-trong-thiet-ke-p3.html" title="Khái niệm màu sắc trong thiết kế (phần 3)">Khái niệm màu sắc trong thiết kế (phần 3)</a>
-			<br>
-			<p class="content-SubString">Chào các bạn, mình sẽ tiếp tục với series của khái niệm màu sắc trong thiết kế phần 3.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//khai-niem-mau-sac-trong-thiet-ke-p3.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/khai-niem-mau-sac-trong-thiet-ke-p3.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 03-05-2020</i></span>
-			</small><br>
-			<a href="/mot-so-thuat-ngu-chuyen-nganh-cntt.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/202053-t-n.jpg" style="height: 180px;" title="Một số thuật ngữ chuyên ngành CNTT">
-			</a>
-			<br>
-			<a class="entry-title" href="/mot-so-thuat-ngu-chuyen-nganh-cntt.html" title="Một số thuật ngữ chuyên ngành CNTT">Một số thuật ngữ chuyên ngành CNTT</a>
-			<br>
-			<p class="content-SubString">Từ chuyên ngành luôn là hành trang cần thiết đối với một comtor</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//mot-so-thuat-ngu-chuyen-nganh-cntt.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/mot-so-thuat-ngu-chuyen-nganh-cntt.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 25-04-2020</i></span>
-			</small><br>
-			<a href="/tim-hieu-ve-distro-linux.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020425distrolagi.png" style="height: 180px;" title="Tìm hiểu về distro linux">
-			</a>
-			<br>
-			<a class="entry-title" href="/tim-hieu-ve-distro-linux.html" title="Tìm hiểu về distro linux">Tìm hiểu về distro linux</a>
-			<br>
-			<p class="content-SubString">Distro Linux là gì?. Nên dùng Distro Linux nào, chúng có gì khác nhau ?</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//tim-hieu-ve-distro-linux.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/tim-hieu-ve-distro-linux.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Pandora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 22-04-2020</i></span>
-			</small><br>
-			<a href="/junior-la-gi-senior-la-gi.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020422Junior-Senior.png" style="height: 180px;" title="Junior là gì? Senior là gì?">
-			</a>
-			<br>
-			<a class="entry-title" href="/junior-la-gi-senior-la-gi.html" title="Junior là gì? Senior là gì?">Junior là gì? Senior là gì?</a>
-			<br>
-			<p class="content-SubString">Junior, Senior là các thuật ngữ dùng để  phân chia trình độ giữa những người làm trong một công ty, trong một ngành hay trong một lĩnh vực nào đó.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//junior-la-gi-senior-la-gi.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/junior-la-gi-senior-la-gi.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 20-04-2020</i></span>
-			</small><br>
-			<a href="/github-mien-phi-tat-ca-cac-tinh-nang-cho-nguoi-dung.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020420Github.png" style="height: 180px;" title="GitHub miễn phí tất cả các tính năng cho người dùng">
-			</a>
-			<br>
-			<a class="entry-title" href="/github-mien-phi-tat-ca-cac-tinh-nang-cho-nguoi-dung.html" title="GitHub miễn phí tất cả các tính năng cho người dùng">GitHub miễn phí tất cả các tính năng cho người dùng</a>
-			<br>
-			<p class="content-SubString">GitHub là một dịch vụ cung cấp kho lưu trữ mã nguồn Git dựa trên nền web cho các dự án phát triển phần mềm.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//github-mien-phi-tat-ca-cac-tinh-nang-cho-nguoi-dung.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/github-mien-phi-tat-ca-cac-tinh-nang-cho-nguoi-dung.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 18-04-2020</i></span>
-			</small><br>
-			<a href="/huong-dan-tao-server-minecraft-p2.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020418PostMinecraftP2.jpg" style="height: 180px;" title="Hướng dẫn tạo server minecraft ( Phần 2 )">
-			</a>
-			<br>
-			<a class="entry-title" href="/huong-dan-tao-server-minecraft-p2.html" title="Hướng dẫn tạo server minecraft ( Phần 2 )">Hướng dẫn tạo server minecraft ( Phần 2 )</a>
-			<br>
-			<p class="content-SubString">Tiếp tục với phần 2 của Hướng dẫn tạo server minecarft</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//huong-dan-tao-server-minecraft-p2.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/huong-dan-tao-server-minecraft-p2.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 18-04-2020</i></span>
-			</small><br>
-			<a href="/huong-dan-tao-server-minecraft-p1.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020418PostMinecraft.jpg" style="height: 180px;" title="Hướng dẫn tạo server minecraft ( Phần 1 )">
-			</a>
-			<br>
-			<a class="entry-title" href="/huong-dan-tao-server-minecraft-p1.html" title="Hướng dẫn tạo server minecraft ( Phần 1 )">Hướng dẫn tạo server minecraft ( Phần 1 )</a>
-			<br>
-			<p class="content-SubString">Minecraft là một tựa game độc lập trong một thế giới mở.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//huong-dan-tao-server-minecraft-p1.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/huong-dan-tao-server-minecraft-p1.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Trần Đức Lĩnh</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 16-04-2020</i></span>
-			</small><br>
-			<a href="/thanh-cong-va-su-kien-tri.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/thanh-cong-va-su-kien-tri.jpg" style="height: 180px;" title="Thành công và sự kiên trì">
-			</a>
-			<br>
-			<a class="entry-title" href="/thanh-cong-va-su-kien-tri.html" title="Thành công và sự kiên trì">Thành công và sự kiên trì</a>
-			<br>
-			<p class="content-SubString">Hãy nắm vững những phương pháp làm việc hiệu quả so với việc bạn cứ cắm đầu vào và làm việc như một cái máy.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//thanh-cong-va-su-kien-tri.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/thanh-cong-va-su-kien-tri.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 15-04-2020</i></span>
-			</small><br>
-			<a href="/khai-niem-mau-sac-trong-thiet-ke-p2.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020415KNMSPS.png" style="height: 180px;" title="Khái niệm màu sắc trong thiết kế (phần 2)">
-			</a>
-			<br>
-			<a class="entry-title" href="/khai-niem-mau-sac-trong-thiet-ke-p2.html" title="Khái niệm màu sắc trong thiết kế (phần 2)">Khái niệm màu sắc trong thiết kế (phần 2)</a>
-			<br>
-			<p class="content-SubString">Chào các bạn, mình sẽ tiếp tục với series của khái niệm màu sắc trong thiết kế phần 2.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//khai-niem-mau-sac-trong-thiet-ke-p2.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/khai-niem-mau-sac-trong-thiet-ke-p2.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 14-04-2020</i></span>
-			</small><br>
-			<a href="/khai-niem-mau-sac-trong-thiet-ke-p1.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020414ColorGraphics.jpg" style="height: 180px;" title="Khái niệm màu sắc trong thiết kế (phần 1)">
-			</a>
-			<br>
-			<a class="entry-title" href="/khai-niem-mau-sac-trong-thiet-ke-p1.html" title="Khái niệm màu sắc trong thiết kế (phần 1)">Khái niệm màu sắc trong thiết kế (phần 1)</a>
-			<br>
-			<p class="content-SubString">Khái niệm về màu sắc và cách phối hợp các màu như thế nào cho đúng sẽ giúp chúng ta có được chủ thể hài hoà hơn trong thiết kế.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//khai-niem-mau-sac-trong-thiet-ke-p1.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/khai-niem-mau-sac-trong-thiet-ke-p1.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 14-04-2020</i></span>
-			</small><br>
-			<a href="/doanh-nghiep-hay-mot-nha-tu-thien.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020414NoTitle.jpg" style="height: 180px;" title="Trong nghành IT, doanh nghiệp có trông giống một nhà từ thiện?">
-			</a>
-			<br>
-			<a class="entry-title" href="/doanh-nghiep-hay-mot-nha-tu-thien.html" title="Trong nghành IT, doanh nghiệp có trông giống một nhà từ thiện?">Trong nghành IT, doanh nghiệp có trông giống một nhà từ thiện?</a>
-			<br>
-			<p class="content-SubString">Dạo 1 vòng trên các trang cộng đồng lập trình, có 1 bạn viết về chủ đề Doanh nghiệp không phải</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//doanh-nghiep-hay-mot-nha-tu-thien.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/doanh-nghiep-hay-mot-nha-tu-thien.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 09-04-2020</i></span>
-			</small><br>
-			<a href="/thuat-toan-la-gi-hoc-thuat-toan-lam-quai-gi.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/202049Algorithm.png" style="height: 180px;" title="Thuật toán là gì? Học thuật toán làm quái gì?">
-			</a>
-			<br>
-			<a class="entry-title" href="/thuat-toan-la-gi-hoc-thuat-toan-lam-quai-gi.html" title="Thuật toán là gì? Học thuật toán làm quái gì?">Thuật toán là gì? Học thuật toán làm quái gì?</a>
-			<br>
-			<p class="content-SubString">Tôi là một lập trình viên có trên 15 năm kinh nghiệm. Những năm đầu tiên (từ cấp 3), tôi học và làm nhiều về thuật toán.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//thuat-toan-la-gi-hoc-thuat-toan-lam-quai-gi.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/thuat-toan-la-gi-hoc-thuat-toan-lam-quai-gi.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 07-04-2020</i></span>
-			</small><br>
-			<a href="/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/202047dnsclound.png" style="height: 180px;" title="Hướng dẫn cài đặt WARP 1.1.1.1 trên PC, Windows và MAC OS">
-			</a>
-			<br>
-			<a class="entry-title" href="/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html" title="Hướng dẫn cài đặt WARP 1.1.1.1 trên PC, Windows và MAC OS">Hướng dẫn cài đặt WARP 1.1.1.1 trên PC, Windows và MAC OS</a>
-			<br>
-			<p class="content-SubString">Hiện tại, phần lớn người dùng PC thường sử dụng Warp+ VPN bằng phần mềm WireGuard, tuy nhiên giao diện không thân thiện, thao tác thiết lập cũng khá phức tạp</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 04-04-2020</i></span>
-			</small><br>
-			<a href="/intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/202044IntelGraphic.png" style="height: 180px;" title="Intel cập nhật trình điều khiển đồ họa, WiFi và Bluetooth cho Windows 10">
-			</a>
-			<br>
-			<a class="entry-title" href="/intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10.html" title="Intel cập nhật trình điều khiển đồ họa, WiFi và Bluetooth cho Windows 10">Intel cập nhật trình điều khiển đồ họa, WiFi và Bluetooth cho Windows 10</a>
-			<br>
-			<p class="content-SubString">Intel vừa mới phát hành một loạt các bản cập nhật mới cho driver đồ họa DCH</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 22-03-2020</i></span>
-			</small><br>
-			<a href="/cac-tua-game-phong-cach-anime-nhat-bat-ngo-thong-tri-danh-sach-ban-chay-cua-steam-trong-thang-2-2020.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020322gamewibu.jpeg" style="height: 180px;" title="Các tựa game phong cách anime Nhật bất ngờ thống trị danh sách bán chạy của Steam trong tháng 2/2020">
-			</a>
-			<br>
-			<a class="entry-title" href="/cac-tua-game-phong-cach-anime-nhat-bat-ngo-thong-tri-danh-sach-ban-chay-cua-steam-trong-thang-2-2020.html" title="Các tựa game phong cách anime Nhật bất ngờ thống trị danh sách bán chạy của Steam trong tháng 2/2020">Các tựa game phong cách anime Nhật bất ngờ thống trị danh sách bán chạy của Steam trong tháng 2/2020</a>
-			<br>
-			<p class="content-SubString">Game Nhật thì anh em… biết cả rồi đấy.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//cac-tua-game-phong-cach-anime-nhat-bat-ngo-thong-tri-danh-sach-ban-chay-cua-steam-trong-thang-2-2020.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/cac-tua-game-phong-cach-anime-nhat-bat-ngo-thong-tri-danh-sach-ban-chay-cua-steam-trong-thang-2-2020.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 21-03-2020</i></span>
-			</small><br>
-			<a href="/cach-tao-trang-blog-voi-jekyll.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020222jekyll.png" style="height: 180px;" title="Cách tạo trang blog với Jekyll">
-			</a>
-			<br>
-			<a class="entry-title" href="/cach-tao-trang-blog-voi-jekyll.html" title="Cách tạo trang blog với Jekyll">Cách tạo trang blog với Jekyll</a>
-			<br>
-			<p class="content-SubString">Bạn muốn làm một website đơn giản, không cầu kỳ về `database`, không nhập xuất dữ liệu thì `Jekyll` là một ứng cử viên sáng giá nhất nhì so với **Gatsby** hoặc **NextJS**.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//cach-tao-trang-blog-voi-jekyll.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/cach-tao-trang-blog-voi-jekyll.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 15-03-2020</i></span>
-			</small><br>
-			<a href="/vi-phat-trien-du-an-nen-cuu-ky-su-ms-da-ngoi-tu.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/0604microsoft.jpg" style="height: 180px;" title="Vì phát triển “dự án đặc biệt” nên cựu kỹ sư Microsoft đã… ngồi tù 20 năm">
-			</a>
-			<br>
-			<a class="entry-title" href="/vi-phat-trien-du-an-nen-cuu-ky-su-ms-da-ngoi-tu.html" title="Vì phát triển “dự án đặc biệt” nên cựu kỹ sư Microsoft đã… ngồi tù 20 năm">Vì phát triển “dự án đặc biệt” nên cựu kỹ sư Microsoft đã… ngồi tù 20 năm</a>
-			<br>
-			<p class="content-SubString">Vừa rồi, một cựu kỹ sư Microsoft tên là Volodymyr Kvashuk đã bị Tòa án quận Hoa Kỳ (U.S. District Court) kết án vì tội biển thủ 10 triệu USD tiền ảo (cryptocurrency) của Microsoft.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//vi-phat-trien-du-an-nen-cuu-ky-su-ms-da-ngoi-tu.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/vi-phat-trien-du-an-nen-cuu-ky-su-ms-da-ngoi-tu.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 28-02-2020</i></span>
-			</small><br>
-			<a href="/tua-game-anh-em-yeu-thich-mua-dich-coronavirus-plague-inc-bi-trung-quoc-to-la-bat-hop-phap.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020228biohazard.jpg" style="height: 180px;" title="Tựa game anh em yêu thích mùa dịch Coronavirus, Plague Inc., bị Trung Quốc tố là bất hợp pháp">
-			</a>
-			<br>
-			<a class="entry-title" href="/tua-game-anh-em-yeu-thich-mua-dich-coronavirus-plague-inc-bi-trung-quoc-to-la-bat-hop-phap.html" title="Tựa game anh em yêu thích mùa dịch Coronavirus, Plague Inc., bị Trung Quốc tố là bất hợp pháp">Tựa game anh em yêu thích mùa dịch Coronavirus, Plague Inc., bị Trung Quốc tố là bất hợp pháp</a>
-			<br>
-			<p class="content-SubString">Hồi trước thì vẫn ổn, bây giờ lại nói bất hợp pháp là sao?...</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//tua-game-anh-em-yeu-thich-mua-dich-coronavirus-plague-inc-bi-trung-quoc-to-la-bat-hop-phap.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/tua-game-anh-em-yeu-thich-mua-dich-coronavirus-plague-inc-bi-trung-quoc-to-la-bat-hop-phap.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-
-		</div>
-	</section>
-
-	<section id="fontStyle" class="container" style="margin-top: 50px;" >
-		<div><div class="d-flex justify-content-center">
-	<nav aria-label="Page navigation example" class="scroll-select-number">
-        <ul class="pagination justify-content-center">
-			
-        </ul>
-	</nav>
-</div></div>
-	</section><footer class="footer footer-content">
 	<div class="container">
-		<section class="row">
-			<div class="footer-card col-md-4">
-				<p class="text-center">Following:<br>
-					<a class="footer-btn-following" href="https://www.facebook.com/xPanadora/" target="_blank"><i class="fab fa-facebook"></i></a>
-					<a class="footer-btn-following" href="https://www.instagram.com/panadorado/" target="_blank"><i class="fab fa-instagram"></i></a>
-					<a class="footer-btn-following" href="https://codepen.io/kaitochenshiba/" target="_blank"><i class="fab fa-codepen"></i></a>
-					<a class="footer-btn-following" href="https://www.cs-modbeta.tk/" target="_black"><i class="fab fa-blogger"></i></a>
-				</p>		
+		<div class="post-list">
+			
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 04-08-2020</time>
 			</div>
+		</a>
+		<a href="/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html" class="post-media">
+			<img src="/assets/images/202084UnikeyLinuxWallpaper.png" alt="Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>unixlinuxterminalnews</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html" title="Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux">Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux</a>
+		</h3>
+		<div class="post-desc">Trên Windows để có thể đánh văn bản hay chat tin nhắn và một số thao tác khác bằng tiếng việt có dấu...</div>
+	</div>
 
-			<div class="footer-card col-md-4">
-				<p class="text-center">
-					Copyright © <a href="http://jekyllthemes.org/">Jekyll Theme</a><br>
-					Design Theme by <a href="https://www.facebook.com/xPanadora/">Panadora</a>
-				</p>
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 01-08-2020</time>
 			</div>
+		</a>
+		<a href="/tong-hop-mot-so-android-cho-hien-nay.html" class="post-media">
+			<img src="/assets/images/202081AndroidPC.png" alt="Tổng hợp một số Android cho PC hiện nay" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>otherwindowsunixlinuxnews</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//tong-hop-mot-so-android-cho-hien-nay.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/tong-hop-mot-so-android-cho-hien-nay.html" title="Tổng hợp một số Android cho PC hiện nay">Tổng hợp một số Android cho PC hiện nay</a>
+		</h3>
+		<div class="post-desc">Với sự phát triển vượt bậc trong suốt các thập kỷ của khoa học và công nghệ hiện nay...</div>
+	</div>
 
-			<div class="footer-card col-md-4">
-				<p class="text-center">
-					<a class="footer-btn-following" href="https://jekyllrb.com/" target="_blank">Jekyll </a>
-					transform your plain text into static websites and blogs.
-				</p>
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 21-06-2020</time>
 			</div>
-		</section>
+		</a>
+		<a href="/ma-doc-tong-tien-RaaS" class="post-media">
+			<img src="/assets/images/ransomware-as-a-service.png" alt="Ransomware RaaS, nguy hiểm với mã độc tống tiền mới" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>otherwindowsunixlinuxnews</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//ma-doc-tong-tien-RaaS" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/ma-doc-tong-tien-RaaS" title="Ransomware RaaS, nguy hiểm với mã độc tống tiền mới">Ransomware RaaS, nguy hiểm với mã độc tống tiền mới</a>
+		</h3>
+		<div class="post-desc">Loại mã độc Ransomware tốngg tiền mới được phát tán vào đầu tháng 6 này, do một tổ chức chuyên phát triển loại mã độc có tên Avaddon đã được thành lập.</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 14-05-2020</time>
+			</div>
+		</a>
+		<a href="/khai-niem-mau-sac-trong-thiet-ke-p3.html" class="post-media">
+			<img src="/assets/images/2020514ColorP3.jpg" alt="Khái niệm màu sắc trong thiết kế (phần 3)" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>graphicsnewscss</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//khai-niem-mau-sac-trong-thiet-ke-p3.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/khai-niem-mau-sac-trong-thiet-ke-p3.html" title="Khái niệm màu sắc trong thiết kế (phần 3)">Khái niệm màu sắc trong thiết kế (phần 3)</a>
+		</h3>
+		<div class="post-desc">Chào các bạn, mình sẽ tiếp tục với series của khái niệm màu sắc trong thiết kế phần 3.</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 03-05-2020</time>
+			</div>
+		</a>
+		<a href="/mot-so-thuat-ngu-chuyen-nganh-cntt.html" class="post-media">
+			<img src="/assets/images/202053-t-n.jpg" alt="Một số thuật ngữ chuyên ngành CNTT" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>othernews</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//mot-so-thuat-ngu-chuyen-nganh-cntt.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/mot-so-thuat-ngu-chuyen-nganh-cntt.html" title="Một số thuật ngữ chuyên ngành CNTT">Một số thuật ngữ chuyên ngành CNTT</a>
+		</h3>
+		<div class="post-desc">Từ chuyên ngành luôn là hành trang cần thiết đối với một comtor</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 25-04-2020</time>
+			</div>
+		</a>
+		<a href="/tim-hieu-ve-distro-linux.html" class="post-media">
+			<img src="/assets/images/2020425distrolagi.png" alt="Tìm hiểu về distro linux" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>unixlinuxothernews</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//tim-hieu-ve-distro-linux.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/tim-hieu-ve-distro-linux.html" title="Tìm hiểu về distro linux">Tìm hiểu về distro linux</a>
+		</h3>
+		<div class="post-desc">Distro Linux là gì?. Nên dùng Distro Linux nào, chúng có gì khác nhau ?</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Pandora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 22-04-2020</time>
+			</div>
+		</a>
+		<a href="/junior-la-gi-senior-la-gi.html" class="post-media">
+			<img src="/assets/images/2020422Junior-Senior.png" alt="Junior là gì? Senior là gì?" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>othernews</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//junior-la-gi-senior-la-gi.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/junior-la-gi-senior-la-gi.html" title="Junior là gì? Senior là gì?">Junior là gì? Senior là gì?</a>
+		</h3>
+		<div class="post-desc">Junior, Senior là các thuật ngữ dùng để  phân chia trình độ giữa những người làm trong một công ty, trong một ngành hay trong một lĩnh vực nào đó.</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 20-04-2020</time>
+			</div>
+		</a>
+		<a href="/github-mien-phi-tat-ca-cac-tinh-nang-cho-nguoi-dung.html" class="post-media">
+			<img src="/assets/images/2020420Github.png" alt="GitHub miễn phí tất cả các tính năng cho người dùng" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>news</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//github-mien-phi-tat-ca-cac-tinh-nang-cho-nguoi-dung.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/github-mien-phi-tat-ca-cac-tinh-nang-cho-nguoi-dung.html" title="GitHub miễn phí tất cả các tính năng cho người dùng">GitHub miễn phí tất cả các tính năng cho người dùng</a>
+		</h3>
+		<div class="post-desc">GitHub là một dịch vụ cung cấp kho lưu trữ mã nguồn Git dựa trên nền web cho các dự án phát triển phần mềm.</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 18-04-2020</time>
+			</div>
+		</a>
+		<a href="/huong-dan-tao-server-minecraft-p2.html" class="post-media">
+			<img src="/assets/images/2020418PostMinecraftP2.jpg" alt="Hướng dẫn tạo server minecraft ( Phần 2 )" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>gamesnews</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//huong-dan-tao-server-minecraft-p2.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/huong-dan-tao-server-minecraft-p2.html" title="Hướng dẫn tạo server minecraft ( Phần 2 )">Hướng dẫn tạo server minecraft ( Phần 2 )</a>
+		</h3>
+		<div class="post-desc">Tiếp tục với phần 2 của Hướng dẫn tạo server minecarft</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 18-04-2020</time>
+			</div>
+		</a>
+		<a href="/huong-dan-tao-server-minecraft-p1.html" class="post-media">
+			<img src="/assets/images/2020418PostMinecraft.jpg" alt="Hướng dẫn tạo server minecraft ( Phần 1 )" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>gamesnews</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//huong-dan-tao-server-minecraft-p1.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/huong-dan-tao-server-minecraft-p1.html" title="Hướng dẫn tạo server minecraft ( Phần 1 )">Hướng dẫn tạo server minecraft ( Phần 1 )</a>
+		</h3>
+		<div class="post-desc">Minecraft là một tựa game độc lập trong một thế giới mở.</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Trần Đức Lĩnh</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 16-04-2020</time>
+			</div>
+		</a>
+		<a href="/thanh-cong-va-su-kien-tri.html" class="post-media">
+			<img src="/assets/images/thanh-cong-va-su-kien-tri.jpg" alt="Thành công và sự kiên trì" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>newsother</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//thanh-cong-va-su-kien-tri.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/thanh-cong-va-su-kien-tri.html" title="Thành công và sự kiên trì">Thành công và sự kiên trì</a>
+		</h3>
+		<div class="post-desc">Hãy nắm vững những phương pháp làm việc hiệu quả so với việc bạn cứ cắm đầu vào và làm việc như một cái máy.</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 15-04-2020</time>
+			</div>
+		</a>
+		<a href="/khai-niem-mau-sac-trong-thiet-ke-p2.html" class="post-media">
+			<img src="/assets/images/2020415KNMSPS.png" alt="Khái niệm màu sắc trong thiết kế (phần 2)" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>graphicsnewscss</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//khai-niem-mau-sac-trong-thiet-ke-p2.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/khai-niem-mau-sac-trong-thiet-ke-p2.html" title="Khái niệm màu sắc trong thiết kế (phần 2)">Khái niệm màu sắc trong thiết kế (phần 2)</a>
+		</h3>
+		<div class="post-desc">Chào các bạn, mình sẽ tiếp tục với series của khái niệm màu sắc trong thiết kế phần 2.</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 14-04-2020</time>
+			</div>
+		</a>
+		<a href="/khai-niem-mau-sac-trong-thiet-ke-p1.html" class="post-media">
+			<img src="/assets/images/2020414ColorGraphics.jpg" alt="Khái niệm màu sắc trong thiết kế (phần 1)" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>graphicsnewscss</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//khai-niem-mau-sac-trong-thiet-ke-p1.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/khai-niem-mau-sac-trong-thiet-ke-p1.html" title="Khái niệm màu sắc trong thiết kế (phần 1)">Khái niệm màu sắc trong thiết kế (phần 1)</a>
+		</h3>
+		<div class="post-desc">Khái niệm về màu sắc và cách phối hợp các màu như thế nào cho đúng sẽ giúp chúng ta có được chủ thể hài hoà hơn trong thiết kế.</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 14-04-2020</time>
+			</div>
+		</a>
+		<a href="/doanh-nghiep-hay-mot-nha-tu-thien.html" class="post-media">
+			<img src="/assets/images/2020414NoTitle.jpg" alt="Trong nghành IT, doanh nghiệp có trông giống một nhà từ thiện?" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>newsother</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//doanh-nghiep-hay-mot-nha-tu-thien.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/doanh-nghiep-hay-mot-nha-tu-thien.html" title="Trong nghành IT, doanh nghiệp có trông giống một nhà từ thiện?">Trong nghành IT, doanh nghiệp có trông giống một nhà từ thiện?</a>
+		</h3>
+		<div class="post-desc">Dạo 1 vòng trên các trang cộng đồng lập trình, có 1 bạn viết về chủ đề Doanh nghiệp không phải</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 09-04-2020</time>
+			</div>
+		</a>
+		<a href="/thuat-toan-la-gi-hoc-thuat-toan-lam-quai-gi.html" class="post-media">
+			<img src="/assets/images/202049Algorithm.png" alt="Thuật toán là gì? Học thuật toán làm quái gì?" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>newsother</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//thuat-toan-la-gi-hoc-thuat-toan-lam-quai-gi.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/thuat-toan-la-gi-hoc-thuat-toan-lam-quai-gi.html" title="Thuật toán là gì? Học thuật toán làm quái gì?">Thuật toán là gì? Học thuật toán làm quái gì?</a>
+		</h3>
+		<div class="post-desc">Tôi là một lập trình viên có trên 15 năm kinh nghiệm. Những năm đầu tiên (từ cấp 3), tôi học và làm nhiều về thuật toán.</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 07-04-2020</time>
+			</div>
+		</a>
+		<a href="/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html" class="post-media">
+			<img src="/assets/images/202047dnsclound.png" alt="Hướng dẫn cài đặt WARP 1.1.1.1 trên PC, Windows và MAC OS" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>windowsnews</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/huong-d-n-cai-dat-warp-1-1-1-1-tren-pc-windows-va-mac-os.html" title="Hướng dẫn cài đặt WARP 1.1.1.1 trên PC, Windows và MAC OS">Hướng dẫn cài đặt WARP 1.1.1.1 trên PC, Windows và MAC OS</a>
+		</h3>
+		<div class="post-desc">Hiện tại, phần lớn người dùng PC thường sử dụng Warp+ VPN bằng phần mềm WireGuard, tuy nhiên giao diện không thân thiện, thao tác thiết lập cũng khá phức tạp</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 04-04-2020</time>
+			</div>
+		</a>
+		<a href="/intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10.html" class="post-media">
+			<img src="/assets/images/202044IntelGraphic.png" alt="Intel cập nhật trình điều khiển đồ họa, WiFi và Bluetooth cho Windows 10" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>windowsnews</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/intel-cap-nhat-trinh-driver-do-hoa-wifi-va-bluetooth-cho-windows-10.html" title="Intel cập nhật trình điều khiển đồ họa, WiFi và Bluetooth cho Windows 10">Intel cập nhật trình điều khiển đồ họa, WiFi và Bluetooth cho Windows 10</a>
+		</h3>
+		<div class="post-desc">Intel vừa mới phát hành một loạt các bản cập nhật mới cho driver đồ họa DCH</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 22-03-2020</time>
+			</div>
+		</a>
+		<a href="/cac-tua-game-phong-cach-anime-nhat-bat-ngo-thong-tri-danh-sach-ban-chay-cua-steam-trong-thang-2-2020.html" class="post-media">
+			<img src="/assets/images/2020322gamewibu.jpeg" alt="Các tựa game phong cách anime Nhật bất ngờ thống trị danh sách bán chạy của Steam trong tháng 2/2020" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>gamesnews</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//cac-tua-game-phong-cach-anime-nhat-bat-ngo-thong-tri-danh-sach-ban-chay-cua-steam-trong-thang-2-2020.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/cac-tua-game-phong-cach-anime-nhat-bat-ngo-thong-tri-danh-sach-ban-chay-cua-steam-trong-thang-2-2020.html" title="Các tựa game phong cách anime Nhật bất ngờ thống trị danh sách bán chạy của Steam trong tháng 2/2020">Các tựa game phong cách anime Nhật bất ngờ thống trị danh sách bán chạy của Steam trong tháng 2/2020</a>
+		</h3>
+		<div class="post-desc">Game Nhật thì anh em… biết cả rồi đấy.</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 21-03-2020</time>
+			</div>
+		</a>
+		<a href="/cach-tao-trang-blog-voi-jekyll.html" class="post-media">
+			<img src="/assets/images/2020222jekyll.png" alt="Cách tạo trang blog với Jekyll" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>windowsnewsunixlinuxterminal</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//cach-tao-trang-blog-voi-jekyll.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/cach-tao-trang-blog-voi-jekyll.html" title="Cách tạo trang blog với Jekyll">Cách tạo trang blog với Jekyll</a>
+		</h3>
+		<div class="post-desc">Bạn muốn làm một website đơn giản, không cầu kỳ về `database`, không nhập xuất dữ liệu thì `Jekyll` là một ứng cử viên sáng giá nhất nhì so với **Gatsby** hoặc **NextJS**.</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 15-03-2020</time>
+			</div>
+		</a>
+		<a href="/vi-phat-trien-du-an-nen-cuu-ky-su-ms-da-ngoi-tu.html" class="post-media">
+			<img src="/assets/images/0604microsoft.jpg" alt="Vì phát triển “dự án đặc biệt” nên cựu kỹ sư Microsoft đã… ngồi tù 20 năm" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>newswindows</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//vi-phat-trien-du-an-nen-cuu-ky-su-ms-da-ngoi-tu.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/vi-phat-trien-du-an-nen-cuu-ky-su-ms-da-ngoi-tu.html" title="Vì phát triển “dự án đặc biệt” nên cựu kỹ sư Microsoft đã… ngồi tù 20 năm">Vì phát triển “dự án đặc biệt” nên cựu kỹ sư Microsoft đã… ngồi tù 20 năm</a>
+		</h3>
+		<div class="post-desc">Vừa rồi, một cựu kỹ sư Microsoft tên là Volodymyr Kvashuk đã bị Tòa án quận Hoa Kỳ (U.S. District Court) kết án vì tội biển thủ 10 triệu USD tiền ảo (cryptocurrency) của Microsoft.</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 28-02-2020</time>
+			</div>
+		</a>
+		<a href="/tua-game-anh-em-yeu-thich-mua-dich-coronavirus-plague-inc-bi-trung-quoc-to-la-bat-hop-phap.html" class="post-media">
+			<img src="/assets/images/2020228biohazard.jpg" alt="Tựa game anh em yêu thích mùa dịch Coronavirus, Plague Inc., bị Trung Quốc tố là bất hợp pháp" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>gamesnews</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//tua-game-anh-em-yeu-thich-mua-dich-coronavirus-plague-inc-bi-trung-quoc-to-la-bat-hop-phap.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/tua-game-anh-em-yeu-thich-mua-dich-coronavirus-plague-inc-bi-trung-quoc-to-la-bat-hop-phap.html" title="Tựa game anh em yêu thích mùa dịch Coronavirus, Plague Inc., bị Trung Quốc tố là bất hợp pháp">Tựa game anh em yêu thích mùa dịch Coronavirus, Plague Inc., bị Trung Quốc tố là bất hợp pháp</a>
+		</h3>
+		<div class="post-desc">Hồi trước thì vẫn ổn, bây giờ lại nói bất hợp pháp là sao?...</div>
+	</div>
+
+
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="post-pagination">
+			<div class="pagination">
+	
+</div>
+		</div>
+	</div><footer class="footer">
+	<div class="container post-list">
+		<div class="footer-card">
+			<p class="text-center">Following:<br>
+				<a class="footer-btn-following" href="https://www.facebook.com/xPanadora/" target="_blank"><i class="fab fa-facebook"></i></a>
+				<a class="footer-btn-following" href="https://www.instagram.com/panadorado/" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a class="footer-btn-following" href="https://codepen.io/kaitochenshiba/" target="_blank"><i class="fab fa-codepen"></i></a>
+				<a class="footer-btn-following" href="https://www.cs-modbeta.tk/" target="_black"><i class="fab fa-blogger"></i></a>
+			</p>		
+		</div>
+
+		<div class="footer-card">
+			<p class="text-center">
+				Copyright © <a href="http://jekyllthemes.org/">Jekyll Theme</a><br>
+				Design Theme by <a href="https://www.facebook.com/xPanadora/">Panadora</a>
+			</p>
+		</div>
+
+		<div class="footer-card">
+			<p class="text-center">
+				<a class="footer-btn-following" href="https://jekyllrb.com/" target="_blank">Jekyll </a>
+				transform your plain text into static websites and blogs.
+			</p>
+		</div>
 	</div>
 	<!--<div class="container"> Copyright
 		<i class="far fa-copyright"></i> 2020 by<a href="https://www.facebook.com/xPanadora" target="_blank"> Panadora </a>
@@ -646,26 +589,4 @@
 		textColor: '#fff'
 	});
 </script></body>
-
-	<!--
-	
-	Nếu post hữu ích bạn hạy like post đó và cmt cho mình biết ý kiến của các bạn nhé, đó cùng là một phần giúp
-	mình có thêm động lực ^^
-	
-
-	░░░░░░░░░░░░▄▄
-	░░░░░░░░░░░█░░█
-	░░░░░░░░░░░█░░█
-	░░░░░░░░░░█░░░█
-	░░░░░░░░░█░░░░█
-	███████▄▄█░░░░░██████▄
-	▓▓▓▓▓▓█░░░░░░░░░░░░░░█
-	▓▓▓▓▓▓█░░░░░░░░░░░░░░█
-	▓▓▓▓▓▓█░░░░░░░░░░░░░░█
-	▓▓▓▓▓▓█░░░░░░░░░░░░░░█
-	▓▓▓▓▓▓█░░░░░░░░░░░░░░█
-	▓▓▓▓▓▓█████░░░░░░░░░█
-	██████▀░░░░▀▀██████▀
-	
-	-->
 </html>

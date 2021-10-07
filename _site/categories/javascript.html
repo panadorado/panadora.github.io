@@ -1,224 +1,203 @@
 <!DOCTYPE html>
-<html lang="vi">
-<head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html lang="en">
+<head><meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-<link rel="shortcut icon" type="image/x-icon" href="/image/favicon.png">
+<link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.png">
 <title>Em Yêu Công Nghệ</title>
 
-<link rel="stylesheet" type="text/css" href="/assets/styles.css" integrity="">
-<link rel="stylesheet" type="text/css" href="/assets/zenburn.css" integrity="">
+<link rel="stylesheet" href="/assets/css/technology_portal.css" >
+<link rel="stylesheet" href="/assets/css/hightlight_zenburn.css" >
+
+<!-- ---------------------- Font Style ----------------------  -->
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Itim|Lobster|Montserrat:500|Noto+Serif|Nunito|Patrick+Hand|Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab|Saira" rel="stylesheet">
 
 <!-- ---------------------- BOOSTRAP CDN ---------------------- -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="">
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
 <!-- ----------------------------------------------------------- -->
 
-
-	<!--  ICON FONTAWESOME  -->
+<!--  ---------------------- ICON FONTAWESOME ----------------------   -->
 <script src="https://kit.fontawesome.com/01e0beb3d4.js" crossorigin="anonymous"></script>
 	
-	<!-- Script Add-ons Codepen -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- ---------------------- Script Add-ons Codepen ----------------------  -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-	<!-- Font Style -->
-<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Itim|Lobster|Montserrat:500|Noto+Serif|Nunito|Patrick+Hand|Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab|Saira" rel="stylesheet"><!--
+<!-- ---------------------- JQUERY ----------------------  -->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
-		────(♥)(♥)(♥)──(♥)(♥)(♥)────
-		──(♥)██████(♥)(♥)██████(♥)──
-		─(♥)████████(♥)████████(♥)─
-		─(♥)██████████████████(♥)─
-		──(♥)████████████████(♥)──
-		────(♥)████████████(♥)────
-		──────(♥)████████(♥)──────
-		────────(♥)████(♥)────────
-		─────────(♥)██(♥)─────────
-		───────────(♥)───────────
+<!-- <script src="/assets/js/search.js"></script> --></head>
+<body><nav>
+	<div class="logo">
+		<a href="/">Em yêu <span>Công Nghệ</span></a>
+	</div>
+	<label for="drop" class="toggle"><i class="fas fa-bars"></i></label>
+	<input type="checkbox" id="drop" />
+	<ul class="menu">
+		<li><a href="/">Home</a></li>
+		<li>
+			<!-- First Tier Drop Down -->
+			<label for="drop-1" class="toggle">HĐH/OS</label>
+			<a href="#">HĐH/OS</a>
+			<input type="checkbox" id="drop-1"/>
+			<ul>
+				<li><a href="/categories/windows.html">Windows</a></li>
+				<li><a href="/categories/unixlinux.html">Linux</a></li>
+			</ul> 
 
+		</li>
+		<li>
 
-		──────▄▌▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌
-		───▄▄██▌█ ░Xin chào !, hãy là người tốt bạn nhé ^^
-		▄▄▄▌▐██▌█ ░░░░░░ ░░░░░░░░░ ░░░░░░░	  ▐\.
-		███████▌█▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▌ \.
-		▀❍▀▀▀▀▀▀▀❍❍▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀❍❍ ▀▀.
-	-->
-</head>
-<body><nav class="navbar navbar-expand-lg">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="fas fa-bars"></span>
-		</button>
+			<!-- First Tier Drop Down -->
+			<label for="drop-2" class="toggle">Web Design</label>
+			<a href="#">Web Design</a>
+			<input type="checkbox" id="drop-2"/>
+			<ul>
+				<li><a href="/categories/html.html">HTML</a></li>
+				<li><a href="/categories/css.html">CSS</a></li>
+				<li><a href="/categories/javascript.html">JavaScript</a></li>
+				<!-- <li>
+					<!-- Second Tier Drop Down
+					<label for="drop-3" class="toggle">Tutorials +</label>
+					<a href="#">Tutorials</a>         
+					<input type="checkbox" id="drop-3"/>
 
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-			   	<li class="nav-item active">
-			    	<a class="nav-link" href="/"><i class="fas fa-home"></i> Trang chủ</a>
-				</li>
+					<ul>
+						<li><a href="#">HTML/CSS</a></li>
+						<li><a href="#">jQuery</a></li>
+						<li><a href="#">Other</a></li>
+					</ul>
+				</li> -->
+			</ul>
+		</li>
+		<li>
+			<!-- First Tier Drop Down -->
+			<label for="drop-1" class="toggle">Game Mod</label>
+			<a href="#">Game Mod</a>
+			<input type="checkbox" id="drop-1"/>
+			<ul>
+				<li><a href="/categories/games.html">Game</a></li>
+				<li><a href="/categories/sourcemod.html">SoureMod</a></li>
+			</ul> 
+		</li>
+		<li><a href="/categories/graphics.html">UI/Graphics</a></li>
+		<li><a href="/mymusic/music.html">my music</a></li>
+	</ul>
+</nav>
 
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-list"> Hệ điều hành</i></a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="/categories/windows.html"><i class="fab fa-windows"> Windows</i></a>
-						<a class="dropdown-item" href="/categories/unixlinux.html"><i class="fab fa-linux"> Unix/Linux</i></a>
-					</div>
-				</li>
-
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-list"> Desgin Web</i></a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="/categories/html.html"><i class="fab fa-html5"> HTML</i></a>
-						<a class="dropdown-item" href="/categories/css.html"><i class="fab fa-css3-alt"> CSS</i></a>
-						<a class="dropdown-item" href="/categories/javascript.html"><i class="fab fa-js"> JavaScript</i></a>
-					</div>
-				</li>
-				   
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-list"> Games/Mod</i></a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="nav-link" href="/categories/games.html"><i class="fas fa-gamepad"> Games</i></a>
-						<a class="nav-link" href="/categories/SourceMod.html"><i class="fas fa-puzzle-piece"> SourceMod</i></a>
-					</div>
-				</li>
-
-				<li class="nav-item">
-					<a class="nav-link" href="/categories/graphics.html"><i class="fas fa-microchip"> Design/Graphics</i></a>
-				</li>
-
-				<li class="nav-item">
-					<a class="nav-link" href="/mymusic/music.html"><i class="fas fa-music"> Nhạc yêu thích của tôi</i></a>
-				</li>
-
-		    </ul>
-		    <form class="form-inline my-2 my-lg-0" action="/search.html" method="get">
-		      <input class="form-control mr-sm-2" type="search" placeholder="Gõ vào để tìm kiếm...!" aria-label="Search" id="search-box" name="query">
-		      <input class="btn btn-outline-success my-2 my-sm-0" id="btn-search" type="submit" value="Tìm kiếm">
-		    </form>
-		  </div>
-	</nav>
-<!-- Script Add-ons Facebook -->
-	<div id="fb-root"></div>
-	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v7.0&appId=2448622068784376&autoLogAppEvents=1"></script>
+<form class="search" action="/search.html" method="get">
+	<input class="search" type="search" placeholder="Nhập tìm kiếm..." aria-label="Search" id="search-box" name="query">
+</form><!-- Script Add-ons Facebook -->
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0&appId=2448622068784376&autoLogAppEvents=1" nonce="S78sJM3q"></script>
 	
-	<section class="container">	
-		<div class="text-logo">
-			<h1 class="text-center"><a href="/">Em Yêu Công Nghệ</a></h1>
-			<p class="text-center">Nơi tổng hợp những thông tin về công nghệ, thông tin <br> gắn liền với cuộc sống của bạn !</p>
-		</div>
-
-		<div class="row">
-			
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 26-03-2020</i></span>
-			</small><br>
-			<a href="/css-tao-hieu-ung-cho-background-tuyet-dep-P2.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020326EffectCSSP2.jpg" style="height: 180px;" title="13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 2)">
-			</a>
-			<br>
-			<a class="entry-title" href="/css-tao-hieu-ung-cho-background-tuyet-dep-P2.html" title="13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 2)">13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 2)</a>
-			<br>
-			<p class="content-SubString">Phần tiếp theo của bài post 13 CSS tạo hiệu ứng cho Background tuyệt đẹp.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//css-tao-hieu-ung-cho-background-tuyet-dep-P2.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/css-tao-hieu-ung-cho-background-tuyet-dep-P2.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 26-03-2020</i></span>
-			</small><br>
-			<a href="/css-tao-hieu-ung-cho-background-tuyet-dep-P1.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020326EffectCSSP1.jpg" style="height: 180px;" title="13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 1)">
-			</a>
-			<br>
-			<a class="entry-title" href="/css-tao-hieu-ung-cho-background-tuyet-dep-P1.html" title="13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 1)">13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 1)</a>
-			<br>
-			<p class="content-SubString">Với CSS bạn có thể tạo ra các hiệu ứng rất đẹp và thú vị khi kết hợp với HTML và JavaScript, hoặc ngay cả khi chỉ có mình nó, CSS hỗ trợ rất nhiều trong việc thiết kế giao diện. Bạn sẽ ngạc nhiên về những gì các nhà phát triển có thể tạo ra.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//css-tao-hieu-ung-cho-background-tuyet-dep-P1.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/css-tao-hieu-ung-cho-background-tuyet-dep-P1.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 22-03-2020</i></span>
-			</small><br>
-			<a href="/mot-so-animation-effect-dep-mat-de-apply-cho-website-cua-ban.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020322code_animation.png" style="height: 180px;" title="Một số animation effect đẹp mắt để apply cho website của bạn">
-			</a>
-			<br>
-			<a class="entry-title" href="/mot-so-animation-effect-dep-mat-de-apply-cho-website-cua-ban.html" title="Một số animation effect đẹp mắt để apply cho website của bạn">Một số animation effect đẹp mắt để apply cho website của bạn</a>
-			<br>
-			<p class="content-SubString">Khi bạn là một lập trình viên web, ít nhất đôi lần bạn sẽ phải va chạm với css và js. Với 2 thứ bảo bối này kết hợp cho html, bạn sẽ thực sự ngạc nhiên nếu thấy những trang web độc đáo và cực kỳ bắt mắt mà chúng có thể tạo ra đấy. Chúng ta thử tìm hiểu một số hiệu ứng cool ngầu có thể áp dụng vào website nhé.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//mot-so-animation-effect-dep-mat-de-apply-cho-website-cua-ban.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/mot-so-animation-effect-dep-mat-de-apply-cho-website-cua-ban.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-
-		</div>
-	</section>
-
-	<section id="fontStyle" class="container" style="margin-top: 50px;" >
-		<div><div class="d-flex justify-content-center">
-	<nav aria-label="Page navigation example" class="scroll-select-number">
-        <ul class="pagination justify-content-center">
-			
-        </ul>
-	</nav>
-</div></div>
-	</section><footer class="footer footer-content">
 	<div class="container">
-		<section class="row">
-			<div class="footer-card col-md-4">
-				<p class="text-center">Following:<br>
-					<a class="footer-btn-following" href="https://www.facebook.com/xPanadora/" target="_blank"><i class="fab fa-facebook"></i></a>
-					<a class="footer-btn-following" href="https://www.instagram.com/panadorado/" target="_blank"><i class="fab fa-instagram"></i></a>
-					<a class="footer-btn-following" href="https://codepen.io/kaitochenshiba/" target="_blank"><i class="fab fa-codepen"></i></a>
-					<a class="footer-btn-following" href="https://www.cs-modbeta.tk/" target="_black"><i class="fab fa-blogger"></i></a>
-				</p>		
+		<div class="post-list">
+			
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 26-03-2020</time>
 			</div>
+		</a>
+		<a href="/css-tao-hieu-ung-cho-background-tuyet-dep-P2.html" class="post-media">
+			<img src="/assets/images/2020326EffectCSSP2.jpg" alt="13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 2)" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>htmlcssjavascript</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//css-tao-hieu-ung-cho-background-tuyet-dep-P2.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/css-tao-hieu-ung-cho-background-tuyet-dep-P2.html" title="13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 2)">13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 2)</a>
+		</h3>
+		<div class="post-desc">Phần tiếp theo của bài post 13 CSS tạo hiệu ứng cho Background tuyệt đẹp.</div>
+	</div>
 
-			<div class="footer-card col-md-4">
-				<p class="text-center">
-					Copyright © <a href="http://jekyllthemes.org/">Jekyll Theme</a><br>
-					Design Theme by <a href="https://www.facebook.com/xPanadora/">Panadora</a>
-				</p>
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 26-03-2020</time>
 			</div>
+		</a>
+		<a href="/css-tao-hieu-ung-cho-background-tuyet-dep-P1.html" class="post-media">
+			<img src="/assets/images/2020326EffectCSSP1.jpg" alt="13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 1)" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>htmlcssjavascript</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//css-tao-hieu-ung-cho-background-tuyet-dep-P1.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/css-tao-hieu-ung-cho-background-tuyet-dep-P1.html" title="13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 1)">13 CSS tạo hiệu ứng cho Background tuyệt đẹp (phần 1)</a>
+		</h3>
+		<div class="post-desc">Với CSS bạn có thể tạo ra các hiệu ứng rất đẹp và thú vị khi kết hợp với HTML và JavaScript, hoặc ngay cả khi chỉ có mình nó, CSS hỗ trợ rất nhiều trong việc thiết kế giao diện. Bạn sẽ ngạc nhiên về những gì các nhà phát triển có thể tạo ra.</div>
+	</div>
 
-			<div class="footer-card col-md-4">
-				<p class="text-center">
-					<a class="footer-btn-following" href="https://jekyllrb.com/" target="_blank">Jekyll </a>
-					transform your plain text into static websites and blogs.
-				</p>
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 22-03-2020</time>
 			</div>
-		</section>
+		</a>
+		<a href="/mot-so-animation-effect-dep-mat-de-apply-cho-website-cua-ban.html" class="post-media">
+			<img src="/assets/images/2020322code_animation.png" alt="Một số animation effect đẹp mắt để apply cho website của bạn" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>htmlcssjavascript</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//mot-so-animation-effect-dep-mat-de-apply-cho-website-cua-ban.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/mot-so-animation-effect-dep-mat-de-apply-cho-website-cua-ban.html" title="Một số animation effect đẹp mắt để apply cho website của bạn">Một số animation effect đẹp mắt để apply cho website của bạn</a>
+		</h3>
+		<div class="post-desc">Khi bạn là một lập trình viên web, ít nhất đôi lần bạn sẽ phải va chạm với css và js. Với 2 thứ bảo bối này kết hợp cho html, bạn sẽ thực sự ngạc nhiên nếu thấy những trang web độc đáo và cực kỳ bắt mắt mà chúng có thể tạo ra đấy. Chúng ta thử tìm hiểu một số hiệu ứng cool ngầu có thể áp dụng vào website nhé.</div>
+	</div>
+
+
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="post-pagination">
+			<div class="pagination">
+	
+</div>
+		</div>
+	</div><footer class="footer">
+	<div class="container post-list">
+		<div class="footer-card">
+			<p class="text-center">Following:<br>
+				<a class="footer-btn-following" href="https://www.facebook.com/xPanadora/" target="_blank"><i class="fab fa-facebook"></i></a>
+				<a class="footer-btn-following" href="https://www.instagram.com/panadorado/" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a class="footer-btn-following" href="https://codepen.io/kaitochenshiba/" target="_blank"><i class="fab fa-codepen"></i></a>
+				<a class="footer-btn-following" href="https://www.cs-modbeta.tk/" target="_black"><i class="fab fa-blogger"></i></a>
+			</p>		
+		</div>
+
+		<div class="footer-card">
+			<p class="text-center">
+				Copyright © <a href="http://jekyllthemes.org/">Jekyll Theme</a><br>
+				Design Theme by <a href="https://www.facebook.com/xPanadora/">Panadora</a>
+			</p>
+		</div>
+
+		<div class="footer-card">
+			<p class="text-center">
+				<a class="footer-btn-following" href="https://jekyllrb.com/" target="_blank">Jekyll </a>
+				transform your plain text into static websites and blogs.
+			</p>
+		</div>
 	</div>
 	<!--<div class="container"> Copyright
 		<i class="far fa-copyright"></i> 2020 by<a href="https://www.facebook.com/xPanadora" target="_blank"> Panadora </a>
@@ -232,26 +211,4 @@
 		textColor: '#fff'
 	});
 </script></body>
-
-	<!--
-	
-	Nếu post hữu ích bạn hạy like post đó và cmt cho mình biết ý kiến của các bạn nhé, đó cùng là một phần giúp
-	mình có thêm động lực ^^
-	
-
-	░░░░░░░░░░░░▄▄
-	░░░░░░░░░░░█░░█
-	░░░░░░░░░░░█░░█
-	░░░░░░░░░░█░░░█
-	░░░░░░░░░█░░░░█
-	███████▄▄█░░░░░██████▄
-	▓▓▓▓▓▓█░░░░░░░░░░░░░░█
-	▓▓▓▓▓▓█░░░░░░░░░░░░░░█
-	▓▓▓▓▓▓█░░░░░░░░░░░░░░█
-	▓▓▓▓▓▓█░░░░░░░░░░░░░░█
-	▓▓▓▓▓▓█░░░░░░░░░░░░░░█
-	▓▓▓▓▓▓█████░░░░░░░░░█
-	██████▀░░░░▀▀██████▀
-	
-	-->
 </html>

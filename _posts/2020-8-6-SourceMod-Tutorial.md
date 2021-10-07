@@ -4,11 +4,11 @@ layout: "post"
 title: "Giới thiệu về SourceMod"
 excerpt: "SourceMod là máy chủ sửa đổi cho bất kỳ trò chơi chạy trên Half-Life 2 động cơ..."
 author: "Panadora"
-category: [SourceMod, games]
+category: [sourcemod, games]
 permalink: "/SourceMod-Tutorial.html"
 ---
 
-![image-logo]({{baseurl}}/image/SourceMod/logo.png){:width="100%"}
+![image-logo](../assets/images/SourceMod/logo.png)
 
 ### `1.giới thiệu về SourceMod` ###
 <hr>

@@ -1,34 +1,61 @@
 ---
 layout: default
 ---
-<div class="container post bg-light container-border-radius py-3 px-4 my-lg-4 my-3 post-content" style="border-radius: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);">
-    <article>
-        <div class="row">
-            <div class="d-block mx-auto"></div>
-        </div>
-        	
-        <div class="text-center shadow-sm container-border-radius p-2 style-entrys">
-            <h1>{{ page.title }}</h1>
+<page size="A4" layout="landscape" class="post__content">
+    <div class="post__content--title">
+        <h1>{{ page.title }}</h1>
 
-            <div class="pb-1 pl-3">+
-                <i class="fas fa-user font-weight-light mr-1">
-                    <a href="#"><span>{{ page.author }}</span></a>
-				</i>
+        <div class="post__content--info">
+            <i class="fas fa-user font-weight-light mr-1">
+                <a href="#"><span>{{ page.author }}</span></a>
+            </i>
 
-                <i class="fas fa-clock font-weight-light mr-1">
-                    <a href="#"><span>{{ page.date | date: "%d-%m-%Y" }}</span></a>
-                </i>
-            </div>
+            <i class="fas fa-clock font-weight-light mr-1">
+                <a href="#"><span>{{ page.date | date: "%d-%m-%Y" }}</span></a>
+            </i>
         </div>
-        <hr/>
-        <div class="row justify-content-center">
-            <div class="col-lg-9 col-md-9 col-sm-12">
-            	{{ content }}
+    </div>
+    <hr/>
+    <div class="post__content--desc">
+        {{ content }}
+               
+        <div class="fb-like" data-href="{{site.url}}/{{page.url}}" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
+        <div class="fb-comments" data-href="{{site.url}}/{{page.url}}" data-width="" data-numposts="5"></div>
+    </div>
+</page>
 
-            	<div id="fb-root"></div>
-                <div class="fb-like" data-href="{{site.url}}/{{page.url}}" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
-                <div class="fb-comments" data-href="{{site.url}}/{{page.url}}" data-width="820" data-numposts="5" data-order-by="reverse_time"></div>
-            </div>
-        </div>
-    </article>
+<div id="image__myModal" class="image__modal">
+    <span class="image__close">&times;</span>
+    <img class="modal__content" id="img01">
+    <div id="modal__caption"></div>
 </div>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById('image__myModal');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("modal__caption");
+
+
+    // var img = document.getElementsByTagName("img")[0];
+    // console.log(img)
+    // Đếm có bảo thẻ image, add Element ID theo số lượng
+    $(".post__content--desc img").map((index, item) => {
+        // xử lý sự kiện click chuột
+        item.onclick = function(e) {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+    });
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("image__close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+        modal.style.display = "none";
+    }
+</script>

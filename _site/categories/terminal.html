@@ -1,362 +1,329 @@
 <!DOCTYPE html>
-<html lang="vi">
-<head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html lang="en">
+<head><meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-<link rel="shortcut icon" type="image/x-icon" href="/image/favicon.png">
+<link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.png">
 <title>Em Yêu Công Nghệ</title>
 
-<link rel="stylesheet" type="text/css" href="/assets/styles.css" integrity="">
-<link rel="stylesheet" type="text/css" href="/assets/zenburn.css" integrity="">
+<link rel="stylesheet" href="/assets/css/technology_portal.css" >
+<link rel="stylesheet" href="/assets/css/hightlight_zenburn.css" >
+
+<!-- ---------------------- Font Style ----------------------  -->
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Itim|Lobster|Montserrat:500|Noto+Serif|Nunito|Patrick+Hand|Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab|Saira" rel="stylesheet">
 
 <!-- ---------------------- BOOSTRAP CDN ---------------------- -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="">
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
 <!-- ----------------------------------------------------------- -->
 
-
-	<!--  ICON FONTAWESOME  -->
+<!--  ---------------------- ICON FONTAWESOME ----------------------   -->
 <script src="https://kit.fontawesome.com/01e0beb3d4.js" crossorigin="anonymous"></script>
 	
-	<!-- Script Add-ons Codepen -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- ---------------------- Script Add-ons Codepen ----------------------  -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-	<!-- Font Style -->
-<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Itim|Lobster|Montserrat:500|Noto+Serif|Nunito|Patrick+Hand|Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab|Saira" rel="stylesheet"><!--
+<!-- ---------------------- JQUERY ----------------------  -->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
-		────(♥)(♥)(♥)──(♥)(♥)(♥)────
-		──(♥)██████(♥)(♥)██████(♥)──
-		─(♥)████████(♥)████████(♥)─
-		─(♥)██████████████████(♥)─
-		──(♥)████████████████(♥)──
-		────(♥)████████████(♥)────
-		──────(♥)████████(♥)──────
-		────────(♥)████(♥)────────
-		─────────(♥)██(♥)─────────
-		───────────(♥)───────────
+<!-- <script src="/assets/js/search.js"></script> --></head>
+<body><nav>
+	<div class="logo">
+		<a href="/">Em yêu <span>Công Nghệ</span></a>
+	</div>
+	<label for="drop" class="toggle"><i class="fas fa-bars"></i></label>
+	<input type="checkbox" id="drop" />
+	<ul class="menu">
+		<li><a href="/">Home</a></li>
+		<li>
+			<!-- First Tier Drop Down -->
+			<label for="drop-1" class="toggle">HĐH/OS</label>
+			<a href="#">HĐH/OS</a>
+			<input type="checkbox" id="drop-1"/>
+			<ul>
+				<li><a href="/categories/windows.html">Windows</a></li>
+				<li><a href="/categories/unixlinux.html">Linux</a></li>
+			</ul> 
 
+		</li>
+		<li>
 
-		──────▄▌▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌
-		───▄▄██▌█ ░Xin chào !, hãy là người tốt bạn nhé ^^
-		▄▄▄▌▐██▌█ ░░░░░░ ░░░░░░░░░ ░░░░░░░	  ▐\.
-		███████▌█▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▌ \.
-		▀❍▀▀▀▀▀▀▀❍❍▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀❍❍ ▀▀.
-	-->
-</head>
-<body><nav class="navbar navbar-expand-lg">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="fas fa-bars"></span>
-		</button>
+			<!-- First Tier Drop Down -->
+			<label for="drop-2" class="toggle">Web Design</label>
+			<a href="#">Web Design</a>
+			<input type="checkbox" id="drop-2"/>
+			<ul>
+				<li><a href="/categories/html.html">HTML</a></li>
+				<li><a href="/categories/css.html">CSS</a></li>
+				<li><a href="/categories/javascript.html">JavaScript</a></li>
+				<!-- <li>
+					<!-- Second Tier Drop Down
+					<label for="drop-3" class="toggle">Tutorials +</label>
+					<a href="#">Tutorials</a>         
+					<input type="checkbox" id="drop-3"/>
 
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-			   	<li class="nav-item active">
-			    	<a class="nav-link" href="/"><i class="fas fa-home"></i> Trang chủ</a>
-				</li>
+					<ul>
+						<li><a href="#">HTML/CSS</a></li>
+						<li><a href="#">jQuery</a></li>
+						<li><a href="#">Other</a></li>
+					</ul>
+				</li> -->
+			</ul>
+		</li>
+		<li>
+			<!-- First Tier Drop Down -->
+			<label for="drop-1" class="toggle">Game Mod</label>
+			<a href="#">Game Mod</a>
+			<input type="checkbox" id="drop-1"/>
+			<ul>
+				<li><a href="/categories/games.html">Game</a></li>
+				<li><a href="/categories/sourcemod.html">SoureMod</a></li>
+			</ul> 
+		</li>
+		<li><a href="/categories/graphics.html">UI/Graphics</a></li>
+		<li><a href="/mymusic/music.html">my music</a></li>
+	</ul>
+</nav>
 
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-list"> Hệ điều hành</i></a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="/categories/windows.html"><i class="fab fa-windows"> Windows</i></a>
-						<a class="dropdown-item" href="/categories/unixlinux.html"><i class="fab fa-linux"> Unix/Linux</i></a>
-					</div>
-				</li>
-
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-list"> Desgin Web</i></a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="/categories/html.html"><i class="fab fa-html5"> HTML</i></a>
-						<a class="dropdown-item" href="/categories/css.html"><i class="fab fa-css3-alt"> CSS</i></a>
-						<a class="dropdown-item" href="/categories/javascript.html"><i class="fab fa-js"> JavaScript</i></a>
-					</div>
-				</li>
-				   
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-list"> Games/Mod</i></a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="nav-link" href="/categories/games.html"><i class="fas fa-gamepad"> Games</i></a>
-						<a class="nav-link" href="/categories/SourceMod.html"><i class="fas fa-puzzle-piece"> SourceMod</i></a>
-					</div>
-				</li>
-
-				<li class="nav-item">
-					<a class="nav-link" href="/categories/graphics.html"><i class="fas fa-microchip"> Design/Graphics</i></a>
-				</li>
-
-				<li class="nav-item">
-					<a class="nav-link" href="/mymusic/music.html"><i class="fas fa-music"> Nhạc yêu thích của tôi</i></a>
-				</li>
-
-		    </ul>
-		    <form class="form-inline my-2 my-lg-0" action="/search.html" method="get">
-		      <input class="form-control mr-sm-2" type="search" placeholder="Gõ vào để tìm kiếm...!" aria-label="Search" id="search-box" name="query">
-		      <input class="btn btn-outline-success my-2 my-sm-0" id="btn-search" type="submit" value="Tìm kiếm">
-		    </form>
-		  </div>
-	</nav>
-<!-- Script Add-ons Facebook -->
-	<div id="fb-root"></div>
-	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v7.0&appId=2448622068784376&autoLogAppEvents=1"></script>
+<form class="search" action="/search.html" method="get">
+	<input class="search" type="search" placeholder="Nhập tìm kiếm..." aria-label="Search" id="search-box" name="query">
+</form><!-- Script Add-ons Facebook -->
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0&appId=2448622068784376&autoLogAppEvents=1" nonce="S78sJM3q"></script>
 	
-	<section class="container">	
-		<div class="text-logo">
-			<h1 class="text-center"><a href="/">Em Yêu Công Nghệ</a></h1>
-			<p class="text-center">Nơi tổng hợp những thông tin về công nghệ, thông tin <br> gắn liền với cuộc sống của bạn !</p>
-		</div>
-
-		<div class="row">
-			
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 04-08-2020</i></span>
-			</small><br>
-			<a href="/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/202084UnikeyLinuxWallpaper.png" style="height: 180px;" title="Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux">
-			</a>
-			<br>
-			<a class="entry-title" href="/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html" title="Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux">Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux</a>
-			<br>
-			<p class="content-SubString">Trên Windows để có thể đánh văn bản hay chat tin nhắn và một số thao tác khác bằng tiếng việt có dấu...</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 25-05-2020</i></span>
-			</small><br>
-			<a href="/top-cac-cau-lenh-nguy-hiem-tren-linux-ban-can-chu-y-khi-su-dung.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020525-Caution-Command-Terminal.png" style="height: 180px;" title="Top các câu lệnh nguy hiểm trên linux ban cần chú ý khi sử dụng">
-			</a>
-			<br>
-			<a class="entry-title" href="/top-cac-cau-lenh-nguy-hiem-tren-linux-ban-can-chu-y-khi-su-dung.html" title="Top các câu lệnh nguy hiểm trên linux ban cần chú ý khi sử dụng">Top các câu lệnh nguy hiểm trên linux ban cần chú ý khi sử dụng</a>
-			<br>
-			<p class="content-SubString">Như bạn đã biết, các câu lệnh trong Terminal thực sự rất hữu dụng và giúp cho người sử dụng có thể thao tác cực nhanh mà không cần phải qua GUI rườm rà.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//top-cac-cau-lenh-nguy-hiem-tren-linux-ban-can-chu-y-khi-su-dung.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/top-cac-cau-lenh-nguy-hiem-tren-linux-ban-can-chu-y-khi-su-dung.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 13-04-2020</i></span>
-			</small><br>
-			<a href="/Huong-Dan-Cai-Dat-Java-tren-Ubuntu-18-04.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020413JDKUbuntu.png" style="height: 180px;" title="Hướng Dẫn Cài Đặt Java trên Ubuntu 18.04">
-			</a>
-			<br>
-			<a class="entry-title" href="/Huong-Dan-Cai-Dat-Java-tren-Ubuntu-18-04.html" title="Hướng Dẫn Cài Đặt Java trên Ubuntu 18.04">Hướng Dẫn Cài Đặt Java trên Ubuntu 18.04</a>
-			<br>
-			<p class="content-SubString">Trong bài viết này bạn sẽ được hướng dẫn cách cài đặt Java Runtime Environment (JRE) và Java Development Kit (JDK) trên Ubuntu phiên bản 18.04 sử dụng chương trình quản lý package apt-get.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//Huong-Dan-Cai-Dat-Java-tren-Ubuntu-18-04.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/Huong-Dan-Cai-Dat-Java-tren-Ubuntu-18-04.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 08-04-2020</i></span>
-			</small><br>
-			<a href="/tong-hop-mot-so-lenh-terminal-thuong-dung-trong-ubuntu-linux.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/202048terminalUbuntu.png" style="height: 180px;" title="Tổng hợp một số lệnh terminal thường dùng trong Ubuntu/Linux">
-			</a>
-			<br>
-			<a class="entry-title" href="/tong-hop-mot-so-lenh-terminal-thuong-dung-trong-ubuntu-linux.html" title="Tổng hợp một số lệnh terminal thường dùng trong Ubuntu/Linux">Tổng hợp một số lệnh terminal thường dùng trong Ubuntu/Linux</a>
-			<br>
-			<p class="content-SubString">Ubuntu là một hệ điều hành máy tính dựa trên Debian GNU/Linux, một bản phân phối Linux thông dụng.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//tong-hop-mot-so-lenh-terminal-thuong-dung-trong-ubuntu-linux.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/tong-hop-mot-so-lenh-terminal-thuong-dung-trong-ubuntu-linux.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 28-03-2020</i></span>
-			</small><br>
-			<a href="/huong-dan-cai-dat-wine.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020328InstallWine.png" style="height: 180px;" title="Hướng dẫn cài đặt Wine 5.0 trên Ubuntu">
-			</a>
-			<br>
-			<a class="entry-title" href="/huong-dan-cai-dat-wine.html" title="Hướng dẫn cài đặt Wine 5.0 trên Ubuntu">Hướng dẫn cài đặt Wine 5.0 trên Ubuntu</a>
-			<br>
-			<p class="content-SubString">Wine 5.0 trên Ubuntu – Wine 5.0 là phiên bản phát triển mới của phần mềm mã nguồn mở wine, phần mềm cho phép chạy các chương trình Windows chạy trên Unix / Linux.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//huong-dan-cai-dat-wine.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/huong-dan-cai-dat-wine.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 28-03-2020</i></span>
-			</small><br>
-			<a href="/cai-dat-photoshop-tren-ubuntu-linux.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020328PtsCs6.png" style="height: 180px;" title="Cài đặt Photoshop trên Ubuntu, Linux">
-			</a>
-			<br>
-			<a class="entry-title" href="/cai-dat-photoshop-tren-ubuntu-linux.html" title="Cài đặt Photoshop trên Ubuntu, Linux">Cài đặt Photoshop trên Ubuntu, Linux</a>
-			<br>
-			<p class="content-SubString">Bạn là một người dùng windows và sau đó bạn chuyển sang dùng 1 hệ điều hành xa lạ để trải nghiệm đó là Ubuntu/Linux , điều đầu tiên đập vào mắt bạn là ở 1 HĐH này là mới mẽ mang một loại cách tính năng khác lạ v.v.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//cai-dat-photoshop-tren-ubuntu-linux.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/cai-dat-photoshop-tren-ubuntu-linux.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 21-03-2020</i></span>
-			</small><br>
-			<a href="/cach-tao-trang-blog-voi-jekyll.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020222jekyll.png" style="height: 180px;" title="Cách tạo trang blog với Jekyll">
-			</a>
-			<br>
-			<a class="entry-title" href="/cach-tao-trang-blog-voi-jekyll.html" title="Cách tạo trang blog với Jekyll">Cách tạo trang blog với Jekyll</a>
-			<br>
-			<p class="content-SubString">Bạn muốn làm một website đơn giản, không cầu kỳ về `database`, không nhập xuất dữ liệu thì `Jekyll` là một ứng cử viên sáng giá nhất nhì so với **Gatsby** hoặc **NextJS**.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//cach-tao-trang-blog-voi-jekyll.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/cach-tao-trang-blog-voi-jekyll.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 11-03-2020</i></span>
-			</small><br>
-			<a href="/theme-cho-ubuntu-1804-voi-gnome-tool-tweak.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/2020311theme.jpg" style="height: 180px;" title="Cài cặt giao diện (theme) cho Ubuntu 18.04 với Gnome Tweal Tool">
-			</a>
-			<br>
-			<a class="entry-title" href="/theme-cho-ubuntu-1804-voi-gnome-tool-tweak.html" title="Cài cặt giao diện (theme) cho Ubuntu 18.04 với Gnome Tweal Tool">Cài cặt giao diện (theme) cho Ubuntu 18.04 với Gnome Tweal Tool</a>
-			<br>
-			<p class="content-SubString">Nếu nhắc tới hệ điều hành mã nguồn mở dựa trên nhân linux thì chắc hẵn các bạn sẽ không thể nhắc Ubuntu, 1 hệ điều hành mã nguồn mở.</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//theme-cho-ubuntu-1804-voi-gnome-tool-tweak.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/theme-cho-ubuntu-1804-voi-gnome-tool-tweak.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-    <div class="col-md-4">
-		<div class="single-blog">
-			<br>
-			<small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: Panadora</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: 06-03-2020</i></span>
-			</small><br>
-			<a href="/cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver.html">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="/image/202036gpu.jpg" style="height: 180px;" title="Cải thiện sức mạnh đồ họa Intel/AMD trên ubuntu với Custom Mesa Driver">
-			</a>
-			<br>
-			<a class="entry-title" href="/cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver.html" title="Cải thiện sức mạnh đồ họa Intel/AMD trên ubuntu với Custom Mesa Driver">Cải thiện sức mạnh đồ họa Intel/AMD trên ubuntu với Custom Mesa Driver</a>
-			<br>
-			<p class="content-SubString">Bạn là một người dùng Ubuntu (hoặc bất kì một distro base trên Ubuntu ví dụ như Mint).</p>
-
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="http://localhost:4000//cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='/cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver.html'>Đọc thêm</a></div>
-			</div>
-			<br>
-		</div>
-	</div>
-
-
-		</div>
-	</section>
-
-	<section id="fontStyle" class="container" style="margin-top: 50px;" >
-		<div><div class="d-flex justify-content-center">
-	<nav aria-label="Page navigation example" class="scroll-select-number">
-        <ul class="pagination justify-content-center">
-			
-        </ul>
-	</nav>
-</div></div>
-	</section><footer class="footer footer-content">
 	<div class="container">
-		<section class="row">
-			<div class="footer-card col-md-4">
-				<p class="text-center">Following:<br>
-					<a class="footer-btn-following" href="https://www.facebook.com/xPanadora/" target="_blank"><i class="fab fa-facebook"></i></a>
-					<a class="footer-btn-following" href="https://www.instagram.com/panadorado/" target="_blank"><i class="fab fa-instagram"></i></a>
-					<a class="footer-btn-following" href="https://codepen.io/kaitochenshiba/" target="_blank"><i class="fab fa-codepen"></i></a>
-					<a class="footer-btn-following" href="https://www.cs-modbeta.tk/" target="_black"><i class="fab fa-blogger"></i></a>
-				</p>		
+		<div class="post-list">
+			
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 04-08-2020</time>
 			</div>
+		</a>
+		<a href="/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html" class="post-media">
+			<img src="/assets/images/202084UnikeyLinuxWallpaper.png" alt="Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>unixlinuxterminalnews</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html" title="Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux">Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux</a>
+		</h3>
+		<div class="post-desc">Trên Windows để có thể đánh văn bản hay chat tin nhắn và một số thao tác khác bằng tiếng việt có dấu...</div>
+	</div>
 
-			<div class="footer-card col-md-4">
-				<p class="text-center">
-					Copyright © <a href="http://jekyllthemes.org/">Jekyll Theme</a><br>
-					Design Theme by <a href="https://www.facebook.com/xPanadora/">Panadora</a>
-				</p>
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 25-05-2020</time>
 			</div>
+		</a>
+		<a href="/top-cac-cau-lenh-nguy-hiem-tren-linux-ban-can-chu-y-khi-su-dung.html" class="post-media">
+			<img src="/assets/images/2020525-Caution-Command-Terminal.png" alt="Top các câu lệnh nguy hiểm trên linux ban cần chú ý khi sử dụng" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>unixlinuxterminal</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//top-cac-cau-lenh-nguy-hiem-tren-linux-ban-can-chu-y-khi-su-dung.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/top-cac-cau-lenh-nguy-hiem-tren-linux-ban-can-chu-y-khi-su-dung.html" title="Top các câu lệnh nguy hiểm trên linux ban cần chú ý khi sử dụng">Top các câu lệnh nguy hiểm trên linux ban cần chú ý khi sử dụng</a>
+		</h3>
+		<div class="post-desc">Như bạn đã biết, các câu lệnh trong Terminal thực sự rất hữu dụng và giúp cho người sử dụng có thể thao tác cực nhanh mà không cần phải qua GUI rườm rà.</div>
+	</div>
 
-			<div class="footer-card col-md-4">
-				<p class="text-center">
-					<a class="footer-btn-following" href="https://jekyllrb.com/" target="_blank">Jekyll </a>
-					transform your plain text into static websites and blogs.
-				</p>
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 13-04-2020</time>
 			</div>
-		</section>
+		</a>
+		<a href="/Huong-Dan-Cai-Dat-Java-tren-Ubuntu-18-04.html" class="post-media">
+			<img src="/assets/images/2020413JDKUbuntu.png" alt="Hướng Dẫn Cài Đặt Java trên Ubuntu 18.04" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>unixlinuxterminal</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//Huong-Dan-Cai-Dat-Java-tren-Ubuntu-18-04.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/Huong-Dan-Cai-Dat-Java-tren-Ubuntu-18-04.html" title="Hướng Dẫn Cài Đặt Java trên Ubuntu 18.04">Hướng Dẫn Cài Đặt Java trên Ubuntu 18.04</a>
+		</h3>
+		<div class="post-desc">Trong bài viết này bạn sẽ được hướng dẫn cách cài đặt Java Runtime Environment (JRE) và Java Development Kit (JDK) trên Ubuntu phiên bản 18.04 sử dụng chương trình quản lý package apt-get.</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 08-04-2020</time>
+			</div>
+		</a>
+		<a href="/tong-hop-mot-so-lenh-terminal-thuong-dung-trong-ubuntu-linux.html" class="post-media">
+			<img src="/assets/images/202048terminalUbuntu.png" alt="Tổng hợp một số lệnh terminal thường dùng trong Ubuntu/Linux" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>unixlinuxterminal</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//tong-hop-mot-so-lenh-terminal-thuong-dung-trong-ubuntu-linux.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/tong-hop-mot-so-lenh-terminal-thuong-dung-trong-ubuntu-linux.html" title="Tổng hợp một số lệnh terminal thường dùng trong Ubuntu/Linux">Tổng hợp một số lệnh terminal thường dùng trong Ubuntu/Linux</a>
+		</h3>
+		<div class="post-desc">Ubuntu là một hệ điều hành máy tính dựa trên Debian GNU/Linux, một bản phân phối Linux thông dụng.</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 28-03-2020</time>
+			</div>
+		</a>
+		<a href="/huong-dan-cai-dat-wine.html" class="post-media">
+			<img src="/assets/images/2020328InstallWine.png" alt="Hướng dẫn cài đặt Wine 5.0 trên Ubuntu" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>unixlinuxterminal</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//huong-dan-cai-dat-wine.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/huong-dan-cai-dat-wine.html" title="Hướng dẫn cài đặt Wine 5.0 trên Ubuntu">Hướng dẫn cài đặt Wine 5.0 trên Ubuntu</a>
+		</h3>
+		<div class="post-desc">Wine 5.0 trên Ubuntu – Wine 5.0 là phiên bản phát triển mới của phần mềm mã nguồn mở wine, phần mềm cho phép chạy các chương trình Windows chạy trên Unix / Linux.</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 28-03-2020</time>
+			</div>
+		</a>
+		<a href="/cai-dat-photoshop-tren-ubuntu-linux.html" class="post-media">
+			<img src="/assets/images/2020328PtsCs6.png" alt="Cài đặt Photoshop trên Ubuntu, Linux" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>unixlinuxterminal</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//cai-dat-photoshop-tren-ubuntu-linux.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/cai-dat-photoshop-tren-ubuntu-linux.html" title="Cài đặt Photoshop trên Ubuntu, Linux">Cài đặt Photoshop trên Ubuntu, Linux</a>
+		</h3>
+		<div class="post-desc">Bạn là một người dùng windows và sau đó bạn chuyển sang dùng 1 hệ điều hành xa lạ để trải nghiệm đó là Ubuntu/Linux , điều đầu tiên đập vào mắt bạn là ở 1 HĐH này là mới mẽ mang một loại cách tính năng khác lạ v.v.</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 21-03-2020</time>
+			</div>
+		</a>
+		<a href="/cach-tao-trang-blog-voi-jekyll.html" class="post-media">
+			<img src="/assets/images/2020222jekyll.png" alt="Cách tạo trang blog với Jekyll" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>windowsnewsunixlinuxterminal</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//cach-tao-trang-blog-voi-jekyll.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/cach-tao-trang-blog-voi-jekyll.html" title="Cách tạo trang blog với Jekyll">Cách tạo trang blog với Jekyll</a>
+		</h3>
+		<div class="post-desc">Bạn muốn làm một website đơn giản, không cầu kỳ về `database`, không nhập xuất dữ liệu thì `Jekyll` là một ứng cử viên sáng giá nhất nhì so với **Gatsby** hoặc **NextJS**.</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 11-03-2020</time>
+			</div>
+		</a>
+		<a href="/theme-cho-ubuntu-1804-voi-gnome-tool-tweak.html" class="post-media">
+			<img src="/assets/images/2020311theme.jpg" alt="Cài cặt giao diện (theme) cho Ubuntu 18.04 với Gnome Tweal Tool" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>unixlinuxterminal</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//theme-cho-ubuntu-1804-voi-gnome-tool-tweak.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/theme-cho-ubuntu-1804-voi-gnome-tool-tweak.html" title="Cài cặt giao diện (theme) cho Ubuntu 18.04 với Gnome Tweal Tool">Cài cặt giao diện (theme) cho Ubuntu 18.04 với Gnome Tweal Tool</a>
+		</h3>
+		<div class="post-desc">Nếu nhắc tới hệ điều hành mã nguồn mở dựa trên nhân linux thì chắc hẵn các bạn sẽ không thể nhắc Ubuntu, 1 hệ điều hành mã nguồn mở.</div>
+	</div>
+
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: Panadora</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: 06-03-2020</time>
+			</div>
+		</a>
+		<a href="/cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver.html" class="post-media">
+			<img src="/assets/images/202036gpu.jpg" alt="Cải thiện sức mạnh đồ họa Intel/AMD trên ubuntu với Custom Mesa Driver" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>unixlinuxterminal</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="http://localhost:4000//cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+		</div>
+		<h3>
+			<a class="post-title" href="/cai-thien-suc-manh-do-hoa-intel-vs-amd-tren-ubuntu-voi-custom-mesa-driver.html" title="Cải thiện sức mạnh đồ họa Intel/AMD trên ubuntu với Custom Mesa Driver">Cải thiện sức mạnh đồ họa Intel/AMD trên ubuntu với Custom Mesa Driver</a>
+		</h3>
+		<div class="post-desc">Bạn là một người dùng Ubuntu (hoặc bất kì một distro base trên Ubuntu ví dụ như Mint).</div>
+	</div>
+
+
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="post-pagination">
+			<div class="pagination">
+	
+</div>
+		</div>
+	</div><footer class="footer">
+	<div class="container post-list">
+		<div class="footer-card">
+			<p class="text-center">Following:<br>
+				<a class="footer-btn-following" href="https://www.facebook.com/xPanadora/" target="_blank"><i class="fab fa-facebook"></i></a>
+				<a class="footer-btn-following" href="https://www.instagram.com/panadorado/" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a class="footer-btn-following" href="https://codepen.io/kaitochenshiba/" target="_blank"><i class="fab fa-codepen"></i></a>
+				<a class="footer-btn-following" href="https://www.cs-modbeta.tk/" target="_black"><i class="fab fa-blogger"></i></a>
+			</p>		
+		</div>
+
+		<div class="footer-card">
+			<p class="text-center">
+				Copyright © <a href="http://jekyllthemes.org/">Jekyll Theme</a><br>
+				Design Theme by <a href="https://www.facebook.com/xPanadora/">Panadora</a>
+			</p>
+		</div>
+
+		<div class="footer-card">
+			<p class="text-center">
+				<a class="footer-btn-following" href="https://jekyllrb.com/" target="_blank">Jekyll </a>
+				transform your plain text into static websites and blogs.
+			</p>
+		</div>
 	</div>
 	<!--<div class="container"> Copyright
 		<i class="far fa-copyright"></i> 2020 by<a href="https://www.facebook.com/xPanadora" target="_blank"> Panadora </a>
@@ -370,26 +337,4 @@
 		textColor: '#fff'
 	});
 </script></body>
-
-	<!--
-	
-	Nếu post hữu ích bạn hạy like post đó và cmt cho mình biết ý kiến của các bạn nhé, đó cùng là một phần giúp
-	mình có thêm động lực ^^
-	
-
-	░░░░░░░░░░░░▄▄
-	░░░░░░░░░░░█░░█
-	░░░░░░░░░░░█░░█
-	░░░░░░░░░░█░░░█
-	░░░░░░░░░█░░░░█
-	███████▄▄█░░░░░██████▄
-	▓▓▓▓▓▓█░░░░░░░░░░░░░░█
-	▓▓▓▓▓▓█░░░░░░░░░░░░░░█
-	▓▓▓▓▓▓█░░░░░░░░░░░░░░█
-	▓▓▓▓▓▓█░░░░░░░░░░░░░░█
-	▓▓▓▓▓▓█░░░░░░░░░░░░░░█
-	▓▓▓▓▓▓█████░░░░░░░░░█
-	██████▀░░░░▀▀██████▀
-	
-	-->
 </html>

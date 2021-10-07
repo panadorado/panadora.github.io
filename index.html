@@ -1,26 +1,26 @@
 ---
 layout: default
 ---
-{% for post in paginator.posts %}
-	<div class="col-md-4">
-		<div class="single-blog">
-			<br><small class="row">
-				<span class="col-sm"><i class="fas fa-book-reader"> Đăng bởi: {{ post.author }}</i></span>
-				<span class="col-sm"><i class="fas fa-calendar-alt"> Ngày đăng: {{ post.date | date: "%d-%m-%Y" }}</i></span>
-			</small><br>
-			<a href="{{ post.url }}">
-				<img id="img-thumbnail" class="img-thumbnail img-hover" src="{{ site.baseurl }}/image/{{ post.thumbnail }}" style="height: 180px;" title="{{ post.title }}">
-			</a>
-			<br>
-			<a class="entry-title" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-			<br>
-			<p class="content-SubString">{{ post.excerpt }}</p>
 
-			<div class="row">
-				<div class="col-sm-8"><a class="fb-like" data-href="{{site.url}}/{{post.url}}" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a></div>
-				<div class="col-sm"><a class="read-more-btn text-center" href='{{ post.url }}'>Đọc thêm</a></div>
+{% for post in paginator.posts %}
+	<div class="post-item">
+		<a href="#" class="post-author">
+			<img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+			<div class="post-author-info">
+				<h4 class="post-author-name">Tác giả: {{post.author}}</h4>
+				<time class="post-author-time" id="datetime">Ngày đăng: {{post.date|date: "%d-%m-%Y"}}</time>
 			</div>
-			<br>
+		</a>
+		<a href="{{post.url}}" class="post-media">
+			<img src="{{site.baseurl}}/assets/images/{{post.thumbnail}}" alt="{{post.title}}" class="post-image">
+		</a>
+		<!-- <div href="#" class="post-category"><button>{{post.category}}</button></div -->
+		<div class="post-likeShare">
+			<a class="fb-like" data-href="{{site.url}}/{{post.url}}" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
 		</div>
+		<h3>
+			<a class="post-title" href="{{post.url}}" title="{{post.title}}">{{post.title}}</a>
+		</h3>
+		<div class="post-desc">{{post.excerpt}}</div>
 	</div>
 {% endfor %}

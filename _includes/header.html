@@ -1,51 +1,61 @@
-<nav class="navbar navbar-expand-lg">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="fas fa-bars"></span>
-		</button>
+<nav>
+	<div class="logo">
+		<a href="/">Em yêu <span>Công Nghệ</span></a>
+	</div>
+	<label for="drop" class="toggle"><i class="fas fa-bars"></i></label>
+	<input type="checkbox" id="drop" />
+	<ul class="menu">
+		<li><a href="/">Home</a></li>
+		<li>
+			<!-- First Tier Drop Down -->
+			<label for="drop-1" class="toggle">HĐH/OS</label>
+			<a href="#">HĐH/OS</a>
+			<input type="checkbox" id="drop-1"/>
+			<ul>
+				<li><a href="{{site.baseurl}}/categories/windows.html">Windows</a></li>
+				<li><a href="{{site.baseurl}}/categories/unixlinux.html">Linux</a></li>
+			</ul> 
 
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-			   	<li class="nav-item active">
-			    	<a class="nav-link" href="/"><i class="fas fa-home"></i> Trang chủ</a>
-				</li>
+		</li>
+		<li>
 
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-list"> Hệ điều hành</i></a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="{{site.baseurl}}/categories/windows.html"><i class="fab fa-windows"> Windows</i></a>
-						<a class="dropdown-item" href="{{site.baseurl}}/categories/unixlinux.html"><i class="fab fa-linux"> Unix/Linux</i></a>
-					</div>
-				</li>
+			<!-- First Tier Drop Down -->
+			<label for="drop-2" class="toggle">Web Design</label>
+			<a href="#">Web Design</a>
+			<input type="checkbox" id="drop-2"/>
+			<ul>
+				<li><a href="{{site.baseurl}}/categories/html.html">HTML</a></li>
+				<li><a href="{{site.baseurl}}/categories/css.html">CSS</a></li>
+				<li><a href="{{site.baseurl}}/categories/javascript.html">JavaScript</a></li>
+				<!-- <li>
+					<!-- Second Tier Drop Down
+					<label for="drop-3" class="toggle">Tutorials +</label>
+					<a href="#">Tutorials</a>         
+					<input type="checkbox" id="drop-3"/>
 
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-list"> Desgin Web</i></a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="{{site.baseurl}}/categories/html.html"><i class="fab fa-html5"> HTML</i></a>
-						<a class="dropdown-item" href="{{site.baseurl}}/categories/css.html"><i class="fab fa-css3-alt"> CSS</i></a>
-						<a class="dropdown-item" href="{{site.baseurl}}/categories/javascript.html"><i class="fab fa-js"> JavaScript</i></a>
-					</div>
-				</li>
-				   
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-list"> Games/Mod</i></a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="nav-link" href="{{site.baseurl}}/categories/games.html"><i class="fas fa-gamepad"> Games</i></a>
-						<a class="nav-link" href="{{site.baseurl}}/categories/SourceMod.html"><i class="fas fa-puzzle-piece"> SourceMod</i></a>
-					</div>
-				</li>
+					<ul>
+						<li><a href="#">HTML/CSS</a></li>
+						<li><a href="#">jQuery</a></li>
+						<li><a href="#">Other</a></li>
+					</ul>
+				</li> -->
+			</ul>
+		</li>
+		<li>
+			<!-- First Tier Drop Down -->
+			<label for="drop-1" class="toggle">Game Mod</label>
+			<a href="#">Game Mod</a>
+			<input type="checkbox" id="drop-1"/>
+			<ul>
+				<li><a href="{{site.baseurl}}/categories/games.html">Game</a></li>
+				<li><a href="{{site.baseurl}}/categories/sourcemod.html">SoureMod</a></li>
+			</ul> 
+		</li>
+		<li><a href="{{site.baseurl}}/categories/graphics.html">UI/Graphics</a></li>
+		<li><a href="{{site.baseurl}}/mymusic/music.html">my music</a></li>
+	</ul>
+</nav>
 
-				<li class="nav-item">
-					<a class="nav-link" href="{{site.baseurl}}/categories/graphics.html"><i class="fas fa-microchip"> Design/Graphics</i></a>
-				</li>
-
-				<li class="nav-item">
-					<a class="nav-link" href="{{site.baseurl}}/mymusic/music.html"><i class="fas fa-music"> Nhạc yêu thích của tôi</i></a>
-				</li>
-
-		    </ul>
-		    <form class="form-inline my-2 my-lg-0" action="{{site.baseurl}}/search.html" method="get">
-		      <input class="form-control mr-sm-2" type="search" placeholder="Gõ vào để tìm kiếm...!" aria-label="Search" id="search-box" name="query">
-		      <input class="btn btn-outline-success my-2 my-sm-0" id="btn-search" type="submit" value="Tìm kiếm">
-		    </form>
-		  </div>
-	</nav>
+<form class="search" action="{{site.baseurl}}/search.html" method="get">
+	<input class="search" type="search" placeholder="Nhập tìm kiếm..." aria-label="Search" id="search-box" name="query">
+</form>

@@ -1,0 +1,55 @@
+I"I<p><img src="../assets/images/SourceMod/logo.png" alt="image-logo" /></p>
+
+<h3 id="1giới-thiệu-về-sourcemod"><code class="highlighter-rouge">1.giới thiệu về SourceMod</code></h3>
+<hr />
+
+<p>SourceMod là modify cho bất kỳ trò chơi chạy trên Half-Life Engine. Nó là một giải pháp mạnh mẽ, tối ưu hóa nền tảng cho các plugin/script và quản lý, xử lý máy chủ. Gói mặc định đi kèm với một bộ phần bổ trợ cơ sở, nhưng có hơn 2.500 plugin trong cộng đồng.</p>
+
+<h3 id="2các-tính-năng-cơ-bản"><code class="highlighter-rouge">2.Các tính năng cơ bản</code></h3>
+<hr />
+
+<p>. Hệ thống quyền sử dụng tốt và dễ dàng (Khả năng tương thích vs SQL)<br />
+ . Cấu hình menu quản trị nghiêm ngặc<br />
+ . Quyền slots riêng biệt<br />
+ . Các plugin quản lý bản đồ linh hoạt (nominations, rock the vote, etc)<br />
+ . Các lệnh cơ bản như kick /ban /slap /mutee người chơi, thay đổi cvars, etc<br />
+ . Các lệnh biểu quyết khác nhau<br />
+ . Chống spam chat message<br />
+ . Trình kích hoạt trò chuyện toàn diện cho cả người dùng và quản trị viên<br />
+ . Dễ dàng chuyển đổi<br /></p>
+
+<h3 id="3tính-năng-script-developers"><code class="highlighter-rouge">3.Tính năng script (Developers)</code></h3>
+<hr />
+
+<p><strong>. Administration</strong> - API toàn diện để phát triển hệ thống admin.<br />
+ <strong>. Clients</strong> - Làm việc với thông tin khách hàng trong trò chơi và cuộc gọi lại.<br />
+ <strong>. Commands</strong> - Creation, hooking, và overriding của client và server trong bảng điều khiển dòng lệnh.<br />
+ <strong>. ConVars</strong> - Creation, hooking, và retrieval của biến bảng dòng lệnh.<br />
+ <strong>. Database</strong> - Quyền truy cập dữ cơ sở dữ liệu nhanh gọn.<br />
+ <strong>. Engine</strong> - Truy cập vào nhiều tính năng của Half-Life 2 Engine, với nhiều tính năng liên tục được bổ sung.<br />
+ <strong>. Entities</strong> - Thay đổi và truy xuất các thuộc tính thực thể, và cả viết tên và đánh số.<br />
+ <strong>. Events</strong> - Tạo, kích hoạt và kết nối GameEvents Half-Life 2.<br />
+ <strong>. Files</strong> - Quyền truy cập vào hệ thống tệp.<br />
+ <strong>. IPC</strong> - Giao tiếp nâng cao giữa các plugin, tương tự như <strong><a href="https://www.amxmodx.org/">AMX Mod X</a></strong>.<br />
+ <strong>. Menus</strong> - Biến API để tạo menu thống nhất giữa các mod.<br />
+ <strong>. Messages</strong> - Gửi và kết nối Tin nhắn người dùng.<br />
+ <strong>. Parsing</strong> - Phân tích văn bản tiên tiến, tối ưu hóa cao.<br />
+ <strong>. Timers</strong> - Tạo các sự kiện theo thời gian.<br />
+ <strong>. Translation</strong> - Tra cứu tệp cụm từ đa ngôn ngữ.<br /></p>
+
+<h3 id="4điều-gì-làm-cho-sourcemod-khác-biệt--developers"><code class="highlighter-rouge">4.Điều gì làm cho SourceMod khác biệt ? (Developers)</code></h3>
+<hr />
+
+<p><strong>. Speed</strong> - SourceMod dễ viết dễ mod tương thích nhanh với Engine Source. Mọi plugin đều được tải vào bộ nhớ và được chuyển đổi thành mã máy tính. Chúng tôi rất cẩn thận để đảm bảo mọi vùng nóng trong SourceMod đều nhanh như mong đợi. Ngôn ngữ kịch bản được nhập tĩnh và không bắt buộc lưu file rác.<br />
+ <strong>. API</strong> - Phần lớn công việc trong SourceMod xảy ra trong việc làm cho API trở nên tốt nhất có thể. Khi thêm bất kỳ giao diện hoặc chức năng nào.<br />
+<strong>Extensibility</strong> - SourceMod hoàn toàn có thể mở rộng. SourceMod cung cấp một API/C++ hoàn chỉnh để mở rộng cả SourceMod và Plugin event/native API.<br />
+<strong>Open-Source</strong> - SourceMod, Phần mở rộng của nó và plugins của nó, đều là mã nguồn mở theo Giấy phép Công cộng GNU!.</p>
+
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">
+    Có thể sẽ không xác nghĩa gốc nhưng mình đã cố gắn sub cho nó dễ hiểu hơn còn ae muốn xem bản tiếng anh 
+    thì các bạn có thể truy cập bài SourceMod gốc.
+
+</span></code></pre></div></div>
+
+<p><a href="/sourcemods/huong-dan-viet-plugin-part-1.html"><strong><code class="highlighter-rouge">đi đến hướng dẫn viết Plugins</code></strong></a></p>
+:ET

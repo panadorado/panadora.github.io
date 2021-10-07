@@ -10,7 +10,7 @@ permalink: "/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html"
 
 Trên Windows để có thể đánh văn bản hay chat tin nhắn và một số thao tác khác bằng tiếng việt có dấu, thì buộc các bạn phải tải bộ gõ unikey tiếng việt để có thể sử dụng được. Nhưng còn trên các hệ điều hành linux thì sao, và bạn không thể nào dùng bộ gõ unikey tiếng việt trên windows choo linux được vì chúng vốn lập trình chỉ để thực thi được trên windows mà thôi, vì vậy bài viết này mình xin tổng hợp một số bộ gõ tiếng việt thông dụng hiện nay dành cho hệ điều hành linux nhá.
 
-<center><img class="img-thumbnail" src="{{baseurl}}/image/202084UnikeyLinuxWallpaper.png"></center><br>
+![image-1](../assets/images/202084UnikeyLinuxWallpaper.png)
 
 <hr>
 <h3>1. ibus-unikey</h3>

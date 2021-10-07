@@ -1,7 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-05T09:36:53+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Komorebi - Animated Wallpapers cho Linux OS</title><link href="http://localhost:4000/komorebi-animated-wallpapers-for-Linux.html" rel="alternate" type="text/html" title="Komorebi - Animated Wallpapers cho Linux OS" /><published>2021-10-04T00:00:00+07:00</published><updated>2021-10-04T00:00:00+07:00</updated><id>http://localhost:4000/komorebi-animated-wallpapers-for-Linux</id><content type="html" xml:base="http://localhost:4000/komorebi-animated-wallpapers-for-Linux.html">&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;./image/komorebi-animated-wallpapers-for-Linux.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;strong&gt;Để có thể một hình nền động tuyệt đẹp trên desktop chạy hệ điều hành Windows của &lt;a href=&quot;https://www.microsoft.com/vi-vn&quot;&gt;Microssorft&lt;/a&gt; thì chúng ta phải có:&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-07T11:42:57+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Hướng dẫn về Plugins SourceMode (Part 2)</title><link href="http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source.html" rel="alternate" type="text/html" title="Hướng dẫn về Plugins SourceMode (Part 2)" /><published>2021-10-06T00:00:00+07:00</published><updated>2021-10-06T00:00:00+07:00</updated><id>http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source</id><content type="html" xml:base="http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source.html">&lt;p&gt;&lt;img src=&quot;../assets/images/SourceMod/202089SourceModLogo.png&quot; alt=&quot;image-title&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sau bài viết &lt;a href=&quot;sourcemods/huong-dan-viet-plugin-part-1.html&quot;&gt;hướng dẫn về Plugins SourceMod (Part 1)&lt;/a&gt;, thì trong bài post này mình xin hướng dẫn cách cài đặt SourceMod vào &lt;a href=&quot;https://store.steampowered.com/app/240/CounterStrike_Source/&quot;&gt;Counter-Strike: Source&lt;/a&gt; để có thể sử dụng được Plugins trong game nhá !&lt;/p&gt;
+
+&lt;h2 id=&quot;1-download&quot;&gt;1. Download&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Tải SourceMod&lt;/strong&gt;&lt;br /&gt;
+ . &lt;a href=&quot;https://www.sourcemod.net/downloads.php?branch=stable&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bản SourceMod ổn định&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt; ► &lt;kbd&gt;khuyên dùng&lt;/kbd&gt; &lt;br /&gt;
+ . &lt;a href=&quot;https://www.sourcemod.net/downloads.php?branch=dev&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bản SourceMod Dev&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt; ► &lt;kbd&gt;Dành cho Dev chuyên nghiệp&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tải MetaMod:Source&lt;/strong&gt;&lt;br /&gt;
+ . &lt;a href=&quot;http://www.sourcemm.net/downloads.php?branch=stable&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bản MetaMod:Source ổn định&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt; ► &lt;kbd&gt;khuyên dùng&lt;/kbd&gt; &lt;br /&gt;
+ . &lt;a href=&quot;http://www.sourcemm.net/downloads.php/?branch=master&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bản MetaMod:Source Dev&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt; ► &lt;kbd&gt;Dành cho Dev chuyên nghiệp&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-setting&quot;&gt;2. Setting&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Các bạn tải hai bản SourceMod vs MetaMod:Source ổn định để sử dụng nha. Sau khi tải hoàn tất các bạn giải nén như sau:&lt;/p&gt;
+
+&lt;p&gt;đối với &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sourcemod-1.10.0-git6490-windows.zip&lt;/code&gt;&lt;/strong&gt; các bạn mở file lên với &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rar&lt;/code&gt;&lt;/strong&gt; và copy 2 thư mục &lt;kbd&gt;addons vs cfg&lt;/kbd&gt; vào đường dẫn vào thư mụcmục &lt;kbd&gt;D:/Counter-Strike Source/cstrike/&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/SourceMod/202086Tutorial1.PNG&quot; alt=&quot;tutorial-1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;đối với &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mmsource-1.10.7-git971-windows.zip&lt;/code&gt;&lt;/strong&gt; các bạn mở file lên với &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rar&lt;/code&gt;&lt;/strong&gt; và copy thư mục &lt;kbd&gt;addons&lt;/kbd&gt; vào đường dẫn vào thư mục &lt;kbd&gt;D:/Counter-Strike Source/cstrike/&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/SourceMod/202086Tutoriral2.PNG&quot; alt=&quot;tutorial-2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;. Đến đây thì đã hoàn thành xong giai đoạn cài đặt SoureMod cho CS:Source, để SourceMod có thể hoạt động trong CS:Source thì các bạn tìm đến thư mục &lt;kbd&gt;cstrike/gameinfo.txt&lt;/kbd&gt; tìm đến dòng &lt;kbd&gt;SearchPaths&lt;/kbd&gt; sau đó đưa dòng &lt;kbd&gt;GameBin				|gameinfo_path|addons/metamod/bin&lt;/kbd&gt; vào trong {  } để SourceMod có thể hoạt động trong game nhá !&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/SourceMod/gameinfo.PNG&quot; alt=&quot;tutorial-3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Để biết SourceMod có đang hoạt động trong CS:Source hay không các bạn có thể bật Game lênh sau đó ấn &lt;kbd&gt; ~&lt;/kbd&gt; để mở console và nhập lênh &lt;kbd&gt;sourcemod_version&lt;/kbd&gt; hoặc &lt;kbd&gt;sm_admin&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/SourceMod/SourceModVersion.PNG&quot; alt=&quot;tutorial-4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/SourceMod/sm_admin.PNG&quot; alt=&quot;tutorial-5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;nếu một trong 2 lệnh đều hiển thị được tức là bạn đã cài đặt SourceMod cho CS:Source thành công !&lt;/p&gt;
+
+&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;sourcemod&quot;, &quot;games&quot;]" /><summary type="html">Sau bài viết hướng dẫn về Plugins SourceMod (Part 1), thì trong bài post này mình xin hướng dẫn cách cài đặt SourceMod</summary></entry><entry><title type="html">Komorebi - Animated Wallpapers cho Linux OS</title><link href="http://localhost:4000/komorebi-animated-wallpapers-for-Linux.html" rel="alternate" type="text/html" title="Komorebi - Animated Wallpapers cho Linux OS" /><published>2021-10-04T00:00:00+07:00</published><updated>2021-10-04T00:00:00+07:00</updated><id>http://localhost:4000/komorebi-animated-wallpapers-for-Linux</id><content type="html" xml:base="http://localhost:4000/komorebi-animated-wallpapers-for-Linux.html">&lt;p&gt;&lt;img src=&quot;../assets/images/komorebi-animated-wallpapers-for-Linux.png&quot; alt=&quot;image1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Để có thể một hình nền động tuyệt đẹp trên desktop chạy hệ điều hành Windows của &lt;a href=&quot;https://www.microsoft.com/vi-vn&quot;&gt;Microssorft&lt;/a&gt; thì chúng ta phải có:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -15,15 +54,14 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Điều đặc biệt trên đó là tất cả phần mềm trên đều được hổ trợ trên Windows, vậy để có thể dùng video làm ảnh động trên các hệ điều hành khác chẳn hạn như HĐH Linux thì sao… ?. Tất nhiên là có thì mình mới viết bài này đăng cho các bạn xem chứ 😂 hihihi, luyên thuyên vậy đủ rồi mình vào chủ đề chính nhen, vậy nó là phần mềm &lt;strong&gt;&lt;a href=&quot;https://github.com/cheesecakeufo/komorebi&quot;&gt;Komorebi&lt;/a&gt;&lt;/strong&gt;.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Điều đặc biệt trên đó là tất cả phần mềm trên đều được hổ trợ trên Windows, vậy để có thể dùng video làm ảnh động trên các hệ điều hành khác chẳn hạn như HĐH Linux thì sao… ?. Tất nhiên là có thì mình mới viết bài này đăng cho các bạn xem chứ 😂 hihihi, luyên thuyên vậy đủ rồi mình vào chủ đề chính nhen, vậy nó là phần mềm &lt;strong&gt;&lt;a href=&quot;https://github.com/cheesecakeufo/komorebi&quot;&gt;Komorebi&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;1-komorebi-là-gì-&quot;&gt;1. Komorebi là gì ?&lt;/h3&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;strong&gt;Komorebi&lt;/strong&gt; là một trình quản lý hình nền động tuyệt vời cho tất cả các nền tảng Linux. Nó cung cấp hình nền hình ảnh, video và trang web có thể tùy chỉnh hoàn toàn có thể được tinh chỉnh bất cứ lúc nào!&lt;/p&gt;
 
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;../image/komorebi-animated-wallpapers-for-Linux-1.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/komorebi-animated-wallpapers-for-Linux-1.png&quot; alt=&quot;image2&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;2-cài-đặt-và-sử-dụng-komorebi&quot;&gt;2. Cài đặt và sử dụng Komorebi.&lt;/h3&gt;
 &lt;hr /&gt;
@@ -53,14 +91,11 @@
 &lt;h3 id=&quot;3-custom-video-làm-ảnh-nền-cho-desktop&quot;&gt;3. Custom video làm ảnh nền cho desktop&lt;/h3&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;Komorebi cung cấp một công cụ đơn giản để tạo hình nền của riêng bạn! Đơn giản, mở ứng dụng của bạn và tìm kiếm ‘Trình tạo hình nền’.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Komorebi cung cấp một công cụ đơn giản để tạo hình nền của riêng bạn! Đơn giản, mở ứng dụng của bạn và tìm kiếm ‘Trình tạo hình nền’.&lt;/p&gt;
 
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;../image/komorebi-animated-wallpapers-for-Linux-2.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;../image/komorebi-animated-wallpapers-for-Linux-3.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;../image/komorebi-animated-wallpapers-for-Linux-4.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/komorebi-animated-wallpapers-for-Linux-2.png&quot; alt=&quot;image3&quot; /&gt;
+&lt;img src=&quot;../assets/images/komorebi-animated-wallpapers-for-Linux-3.png&quot; alt=&quot;image4&quot; /&gt;
+&lt;img src=&quot;../assets/images/komorebi-animated-wallpapers-for-Linux-4.png&quot; alt=&quot;image5&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Bạn có thể sử dụng hình ảnh, video hoặc trang web làm hình nền và bạn có nhiều tùy chọn khác nhau để tùy chỉnh hình nền của riêng mình!&lt;/p&gt;
 
@@ -77,47 +112,7 @@
 &lt;span class=&quot;go&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Lời kết: Như vậy bạn đó có 1 hình nền desktop động tuyệt đẹp riêng cho chính mình, Bạn nào đã sử dụng rồi thì cho mình ý kiến nhá, và còn bộ công cụ nào hổ trợ làm ảnh động desktop cho linux nữa hay không thì các bạn chỉa sẽ cho mình và người khác cùng biết nhá.&lt;/p&gt;</content><author><name>Pandora</name></author><category term="[&quot;linux&quot;]" /><summary type="html">Komorebi là một trình quản lý hình nền động tuyệt vời cho tất cả các nền tảng Linux.</summary></entry><entry><title type="html">Hướng dẫn về Plugins SourceMode (Part 2)</title><link href="http://localhost:4000/sourcemods/huong-dan-cai-dat-SourceMode-vao-CS-Source.html" rel="alternate" type="text/html" title="Hướng dẫn về Plugins SourceMode (Part 2)" /><published>2020-08-09T00:00:00+07:00</published><updated>2020-08-09T00:00:00+07:00</updated><id>http://localhost:4000/sourcemods/huong-dan-viet-plugin-part-2</id><content type="html" xml:base="http://localhost:4000/sourcemods/huong-dan-cai-dat-SourceMode-vao-CS-Source.html">&lt;p&gt;&lt;img src=&quot;/image/SourceMod/202089SourceModLogo.png&quot; alt=&quot;image-title&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Sau bài viết &lt;a href=&quot;sourcemods/huong-dan-viet-plugin-part-1.html&quot;&gt;hướng dẫn về Plugins SourceMod (Part 1)&lt;/a&gt;, thì trong bài post này mình xin hướng dẫn cách cài đặt SourceMod vào &lt;a href=&quot;https://store.steampowered.com/app/240/CounterStrike_Source/&quot;&gt;Counter-Strike: Source&lt;/a&gt; để có thể sử dụng được Plugins trong game nhá !&lt;/p&gt;
-
-&lt;h2 id=&quot;1-download&quot;&gt;1. Download&lt;/h2&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Tải SourceMod&lt;/strong&gt;&lt;br /&gt;
- . &lt;a href=&quot;https://www.sourcemod.net/downloads.php?branch=stable&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bản SourceMod ổn định&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt; ► &lt;kbd&gt;khuyên dùng&lt;/kbd&gt; &lt;br /&gt;
- . &lt;a href=&quot;https://www.sourcemod.net/downloads.php?branch=dev&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bản SourceMod Dev&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt; ► &lt;kbd&gt;Dành cho Dev chuyên nghiệp&lt;/kbd&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tải MetaMod:Source&lt;/strong&gt;&lt;br /&gt;
- . &lt;a href=&quot;http://www.sourcemm.net/downloads.php?branch=stable&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bản MetaMod:Source ổn định&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt; ► &lt;kbd&gt;khuyên dùng&lt;/kbd&gt; &lt;br /&gt;
- . &lt;a href=&quot;http://www.sourcemm.net/downloads.php/?branch=master&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bản MetaMod:Source Dev&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt; ► &lt;kbd&gt;Dành cho Dev chuyên nghiệp&lt;/kbd&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;2-setting&quot;&gt;2. Setting&lt;/h2&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;Các bạn tải hai bản SourceMod vs MetaMod:Source ổn định để sử dụng nha. Sau khi tải hoàn tất các bạn giải nén như sau:&lt;/p&gt;
-
-&lt;p&gt;đối với &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sourcemod-1.10.0-git6490-windows.zip&lt;/code&gt;&lt;/strong&gt; các bạn mở file lên với &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rar&lt;/code&gt;&lt;/strong&gt; và copy 2 thư mục &lt;kbd&gt;addons vs cfg&lt;/kbd&gt; vào đường dẫn vào thư mụcmục &lt;kbd&gt;D:/Counter-Strike Source/cstrike/&lt;/kbd&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/SourceMod/202086Tutorial1.PNG&quot; alt=&quot;tutorial-1&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;đối với &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mmsource-1.10.7-git971-windows.zip&lt;/code&gt;&lt;/strong&gt; các bạn mở file lên với &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rar&lt;/code&gt;&lt;/strong&gt; và copy thư mục &lt;kbd&gt;addons&lt;/kbd&gt; vào đường dẫn vào thư mục &lt;kbd&gt;D:/Counter-Strike Source/cstrike/&lt;/kbd&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/SourceMod/202086Tutoriral2.PNG&quot; alt=&quot;tutorial-2&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;. Đến đây thì đã hoàn thành xong giai đoạn cài đặt SoureMod cho CS:Source, để SourceMod có thể hoạt động trong CS:Source thì các bạn tìm đến thư mục &lt;kbd&gt;cstrike/gameinfo.txt&lt;/kbd&gt; tìm đến dòng &lt;kbd&gt;SearchPaths&lt;/kbd&gt; sau đó đưa dòng &lt;kbd&gt;GameBin				|gameinfo_path|addons/metamod/bin&lt;/kbd&gt; vào trong {  } để SourceMod có thể hoạt động trong game nhá !&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/SourceMod/gameinfo.PNG&quot; alt=&quot;tutorial-3&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Để biết SourceMod có đang hoạt động trong CS:Source hay không các bạn có thể bật Game lênh sau đó ấn &lt;kbd&gt; ~&lt;/kbd&gt; để mở console và nhập lênh &lt;kbd&gt;sourcemod_version&lt;/kbd&gt; hoặc &lt;kbd&gt;sm_admin&lt;/kbd&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/SourceMod/SourceModVersion.PNG&quot; alt=&quot;tutorial-4&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/image/SourceMod/sm_admin.PNG&quot; alt=&quot;tutorial-5&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;nếu một trong 2 lệnh đều hiển thị được tức là bạn đã cài đặt SourceMod cho CS:Source thành công !&lt;/p&gt;
-
-&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;SourceMod&quot;, &quot;games&quot;]" /><summary type="html">Sau bài viết hướng dẫn về Plugins SourceMod (Part 1), thì trong bài post này mình xin hướng dẫn cách cài đặt SourceMod</summary></entry><entry><title type="html">Hướng dẫn về Plugins SourceMode (Part 1)</title><link href="http://localhost:4000/sourcemods/huong-dan-viet-plugin-part-1.html" rel="alternate" type="text/html" title="Hướng dẫn về Plugins SourceMode (Part 1)" /><published>2020-08-07T00:00:00+07:00</published><updated>2020-08-07T00:00:00+07:00</updated><id>http://localhost:4000/sourcemods/huong-dan-viet-plugin-part-1</id><content type="html" xml:base="http://localhost:4000/sourcemods/huong-dan-viet-plugin-part-1.html">&lt;p&gt;&lt;img src=&quot;/image/SourceMod/logo.png&quot; alt=&quot;image-logo&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Lời kết: Như vậy bạn đó có 1 hình nền desktop động tuyệt đẹp riêng cho chính mình, Bạn nào đã sử dụng rồi thì cho mình ý kiến nhá, và còn bộ công cụ nào hổ trợ làm ảnh động desktop cho linux nữa hay không thì các bạn chỉa sẽ cho mình và người khác cùng biết nhá.&lt;/p&gt;</content><author><name>Pandora</name></author><category term="[&quot;linux&quot;]" /><summary type="html">Komorebi là một trình quản lý hình nền động tuyệt vời cho tất cả các nền tảng Linux.</summary></entry><entry><title type="html">Hướng dẫn về Plugins SourceMode (Part 1)</title><link href="http://localhost:4000/huong-dan-viet-plugin-part-1.html" rel="alternate" type="text/html" title="Hướng dẫn về Plugins SourceMode (Part 1)" /><published>2020-08-07T00:00:00+07:00</published><updated>2020-08-07T00:00:00+07:00</updated><id>http://localhost:4000/huong-dan-viet-plugin-part-1</id><content type="html" xml:base="http://localhost:4000/huong-dan-viet-plugin-part-1.html">&lt;p&gt;&lt;img src=&quot;../assets/images/SourceMod/logo.png&quot; alt=&quot;image-logo&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Hướng dẫn này sẽ cung cấp cho bạn một giới thiệu cơ bản để viết một plugin Sourcemod. Nếu bạn không quen thuộc với ngôn ngữ SourcePawn, đó là khuyến cáo rằng bạn ít nhất một thời gian ngắn đọc giới thiệu về bài viết SourcePawn .&lt;/p&gt;
 
@@ -139,8 +134,7 @@
 &lt;h2 id=&quot;1giới-thiệu-1-chút-về-spedit&quot;&gt;1.Giới thiệu 1 chút về &lt;a href=&quot;https://forums.alliedmods.net/showthread.php?t=259917&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SpEdit&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;hr /&gt;
 
-&lt;center&gt;&lt;img class=&quot;img-thumbnail image-post&quot; src=&quot;/image/SourceMod/logoSpEdit.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/SourceMod/logoSpEdit.png&quot; alt=&quot;image1&quot; /&gt;
 Mở trình biên dịch SpEdit.exe lên và khởi tạo một file có đuôi là .sp ví dụ untitle.sp
 Khai báo thư viện như C/C++ sẽ có lệnh như sau: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;#include &apos;tên file nguồn&apos;&lt;/code&gt;&lt;/strong&gt;. Để trình biên soạn dẫn và đọc file nguồn để ghi nhớ câu lệnh.&lt;/p&gt;
 
@@ -591,7 +585,7 @@ Khai báo thư viện như C/C++ sẽ có lệnh như sau: &lt;strong&gt;&lt;cod
         &lt;span class=&quot;cm&quot;&gt;/* CODE */&lt;/span&gt;
     &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Panadora</name></author><category term="[&quot;SourceMod&quot;, &quot;games&quot;]" /><summary type="html">Hướng dẫn này sẽ cung cấp cho bạn một giới thiệu cơ bản để viết một plugin Sourcemod...</summary></entry><entry><title type="html">Giới thiệu về SourceMod</title><link href="http://localhost:4000/SourceMod-Tutorial.html" rel="alternate" type="text/html" title="Giới thiệu về SourceMod" /><published>2020-08-06T00:00:00+07:00</published><updated>2020-08-06T00:00:00+07:00</updated><id>http://localhost:4000/SourceMod-Tutorial</id><content type="html" xml:base="http://localhost:4000/SourceMod-Tutorial.html">&lt;p&gt;&lt;img src=&quot;/image/SourceMod/logo.png&quot; alt=&quot;image-logo&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Panadora</name></author><category term="[&quot;sourcemod&quot;, &quot;games&quot;]" /><summary type="html">Hướng dẫn này sẽ cung cấp cho bạn một giới thiệu cơ bản để viết một plugin Sourcemod...</summary></entry><entry><title type="html">Giới thiệu về SourceMod</title><link href="http://localhost:4000/SourceMod-Tutorial.html" rel="alternate" type="text/html" title="Giới thiệu về SourceMod" /><published>2020-08-06T00:00:00+07:00</published><updated>2020-08-06T00:00:00+07:00</updated><id>http://localhost:4000/SourceMod-Tutorial</id><content type="html" xml:base="http://localhost:4000/SourceMod-Tutorial.html">&lt;p&gt;&lt;img src=&quot;../assets/images/SourceMod/logo.png&quot; alt=&quot;image-logo&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;1giới-thiệu-về-sourcemod&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;1.giới thiệu về SourceMod&lt;/code&gt;&lt;/h3&gt;
 &lt;hr /&gt;
@@ -644,10 +638,9 @@ Khai báo thư viện như C/C++ sẽ có lệnh như sau: &lt;strong&gt;&lt;cod
 
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a href=&quot;/sourcemods/huong-dan-viet-plugin-part-1.html&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;đi đến hướng dẫn viết Plugins&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;SourceMod&quot;, &quot;games&quot;]" /><summary type="html">SourceMod là máy chủ sửa đổi cho bất kỳ trò chơi chạy trên Half-Life 2 động cơ...</summary></entry><entry><title type="html">Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux</title><link href="http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html" rel="alternate" type="text/html" title="Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux" /><published>2020-08-04T00:00:00+07:00</published><updated>2020-08-04T00:00:00+07:00</updated><id>http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux</id><content type="html" xml:base="http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html">&lt;p&gt;Trên Windows để có thể đánh văn bản hay chat tin nhắn và một số thao tác khác bằng tiếng việt có dấu, thì buộc các bạn phải tải bộ gõ unikey tiếng việt để có thể sử dụng được. Nhưng còn trên các hệ điều hành linux thì sao, và bạn không thể nào dùng bộ gõ unikey tiếng việt trên windows choo linux được vì chúng vốn lập trình chỉ để thực thi được trên windows mà thôi, vì vậy bài viết này mình xin tổng hợp một số bộ gõ tiếng việt thông dụng hiện nay dành cho hệ điều hành linux nhá.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/sourcemods/huong-dan-viet-plugin-part-1.html&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;đi đến hướng dẫn viết Plugins&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;sourcemod&quot;, &quot;games&quot;]" /><summary type="html">SourceMod là máy chủ sửa đổi cho bất kỳ trò chơi chạy trên Half-Life 2 động cơ...</summary></entry><entry><title type="html">Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux</title><link href="http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html" rel="alternate" type="text/html" title="Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux" /><published>2020-08-04T00:00:00+07:00</published><updated>2020-08-04T00:00:00+07:00</updated><id>http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux</id><content type="html" xml:base="http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html">&lt;p&gt;Trên Windows để có thể đánh văn bản hay chat tin nhắn và một số thao tác khác bằng tiếng việt có dấu, thì buộc các bạn phải tải bộ gõ unikey tiếng việt để có thể sử dụng được. Nhưng còn trên các hệ điều hành linux thì sao, và bạn không thể nào dùng bộ gõ unikey tiếng việt trên windows choo linux được vì chúng vốn lập trình chỉ để thực thi được trên windows mà thôi, vì vậy bài viết này mình xin tổng hợp một số bộ gõ tiếng việt thông dụng hiện nay dành cho hệ điều hành linux nhá.&lt;/p&gt;
 
-&lt;center&gt;&lt;img class=&quot;img-thumbnail&quot; src=&quot;/image/202084UnikeyLinuxWallpaper.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/202084UnikeyLinuxWallpaper.png&quot; alt=&quot;image-1&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 

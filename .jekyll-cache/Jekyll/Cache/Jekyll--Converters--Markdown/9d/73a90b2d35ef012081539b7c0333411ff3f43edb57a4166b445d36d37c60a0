@@ -1,0 +1,475 @@
+I"ͼ<p><img src="../assets/images/SourceMod/logo.png" alt="image-logo" width="100%" /></p>
+
+<p>Hướng dẫn này sẽ cung cấp cho bạn một giới thiệu cơ bản để viết một plugin Sourcemod. Nếu bạn không quen thuộc với ngôn ngữ SourcePawn, đó là khuyến cáo rằng bạn ít nhất một thời gian ngắn đọc giới thiệu về bài viết SourcePawn .</p>
+
+<hr />
+
+<p>Hướng dẫn này sẽ cung cấp cho bạn một giới thiệu cơ bản để viết một plugin Sourcemod. Nếu bạn không quen thuộc với ngôn ngữ SourcePawn, đó là khuyến cáo rằng bạn ít nhất một thời gian ngắn đọc giới thiệu về bài viết SourcePawn.</p>
+
+<p>• <a href="https://forums.alliedmods.net/showthread.php?t=259917">SpEdit</a> <code class="highlighter-rouge">Khuyên dùng vì nó gần như đầy đủ từ file compile.exe đến thư viện viết plugins SourceMod</code><br />
+ • <a href="https://www.crimsoneditor.com/">Crimsion Editor</a><br />
+ • <a href="http://www.pspad.com/">PsPad</a><br />
+ • <a href="http://www.ultraedit.com/">UltraEdit</a><br />
+ • <a href="https://notepad-plus-plus.org/">Notepad++</a><br />
+ • <a href="https://www.textpad.com/">TextPad</a><br />
+ • <a href="http://sourceforge.net/projects/pawnstudio/">Pawn Studio</a><br />
+ • <a href="https://forums.alliedmods.net/showthread.php?t=289127">BasicPawn</a><br />
+ • Và một số trình biên soạn khác…<br /></p>
+<hr />
+
+<h2 id="1giới-thiệu-1-chút-về-spedit">1.Giới thiệu 1 chút về <a href="https://forums.alliedmods.net/showthread.php?t=259917"><strong><code class="highlighter-rouge">SpEdit</code></strong></a></h2>
+<hr />
+
+<p><img src="../assets/images/SourceMod/logoSpEdit.png" alt="image1" />
+Mở trình biên dịch SpEdit.exe lên và khởi tạo một file có đuôi là .sp ví dụ untitle.sp
+Khai báo thư viện như C/C++ sẽ có lệnh như sau: <strong><code class="highlighter-rouge">#include 'tên file nguồn'</code></strong>. Để trình biên soạn dẫn và đọc file nguồn để ghi nhớ câu lệnh.</p>
+
+<h2 id="2thiết-lập-thông-tin-cho-plugins">2.Thiết lập thông tin cho plugins</h2>
+<hr />
+
+<p>Bây giờ chúng ta đã có quyền truy cập vào các tính năng của SourceMod, đã đến lúc thiết lập thông tin sẽ được hiển thị thông qua lệnh sm plugins list. Không ai thích các plugin không tên.</p>
+
+<p>Để làm điều đó, chúng ta sẽ xem xét bên trong tệp <strong><code class="highlighter-rouge">sourcemod.inc</code></strong> và xem định dạng thông tin sẽ được khai báo.</p>
+
+<p>Luôn luôn hữu ích khi xem bên trong SM bao gồm các tệp để tìm hiểu thông tin bạn không biết. Ngoài ra còn có một tài liệu API nhưng nó có thể bị lỗi thời và nó chỉ có các tệp lõi SM nên nếu plugin của bạn sẽ sử dụng bất kỳ tiện ích mở rộng của bên thứ ba hoặc plugin nào khác, <strong><code class="highlighter-rouge">bạn sẽ phải nghiên cứu các file inc</code></strong>.</p>
+
+<p>Vì vậy, hãy mở <strong><code class="highlighter-rouge">sourcemod.inc</code></strong> và cuộn xuống một chút cho đến khi bạn thấy điều này:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+    <span class="c1">// Plugin public information.</span>
+    <span class="n">struct</span> <span class="nc">Plugin</span>
+    <span class="o">{</span>
+        <span class="kd">public</span> <span class="kd">const</span> <span class="kt">char</span><span class="o">[]</span> <span class="n">name</span><span class="o">;</span>                  <span class="cm">/**&lt; Tên Plugin */</span>
+        <span class="kd">public</span> <span class="kd">const</span> <span class="kt">char</span><span class="o">[]</span> <span class="n">description</span>            <span class="cm">/**&lt; Mô tả Plugin */</span>
+        <span class="kd">public</span> <span class="kd">const</span> <span class="kt">char</span><span class="o">[]</span> <span class="n">author</span><span class="o">;</span>              <span class="cm">/**&lt; Tác giả viết Plugin */</span>
+        <span class="kd">public</span> <span class="kd">const</span> <span class="kt">char</span><span class="o">[]</span> <span class="n">version</span><span class="o">;</span>             <span class="cm">/**&lt; Phiên bản Plugin */</span>
+        <span class="kd">public</span> <span class="kd">const</span> <span class="kt">char</span><span class="o">[]</span> <span class="n">url</span><span class="o">;</span>                <span class="cm">/**&lt; Link Nguồn Plugin */</span>
+    <span class="o">};</span>
+
+</code></pre></div></div>
+<p>và đây:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+    <span class="cm">/*
+        * Khai báo đây là một cấu trúc trong plugin của bạn để hiển thị thông tin của nó.
+        * Ví dụ
+        */</span>
+
+    <span class="kd">public</span> <span class="nc">Plugin</span> <span class="n">myinfo</span> <span class="o">=</span>
+    <span class="o">{</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">ten_plugin</span><span class="o">&gt;;</span>
+        <span class="c1">//tiếp... </span>
+    <span class="o">}</span>
+
+</code></pre></div></div>
+<p>Nó cho chúng ta biết rằng chúng ta cần tạo một biến <strong><code class="highlighter-rouge">public Plugin myinfo</code></strong>, biến này phải thuộc loại Plugin, là một cấu trúc có 5 trường mà và thuộc kiểu dữ liệu là các chuỗi.</p>
+
+<p>Nghe có vẻ phức tạp đối với người mới bắt đầu nhưng rất dễ dàng. Hãy tiếp tục và tạo một cái:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+    <span class="err">#</span><span class="n">include</span> <span class="o">&lt;</span><span class="n">sourcemod</span><span class="o">&gt;</span>
+    
+    <span class="kd">public</span> <span class="nc">Plugin</span> <span class="n">myinfo</span> <span class="o">=</span>
+    <span class="o">{</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="s">"My First Plugin"</span><span class="o">,</span>
+        <span class="n">author</span> <span class="o">=</span> <span class="s">"Me"</span><span class="o">,</span>
+        <span class="n">description</span> <span class="o">=</span> <span class="s">"My first plugin ever"</span><span class="o">,</span>
+        <span class="n">version</span> <span class="o">=</span> <span class="s">"1.0"</span><span class="o">,</span>
+        <span class="n">url</span> <span class="o">=</span> <span class="s">"http://www.sourcemod.net/"</span>
+    <span class="o">};</span>
+
+</code></pre></div></div>
+
+<h2 id="3bắt-mã-để-chạy">3.Bắt mã để chạy</h2>
+<hr />
+
+<p>chúng ta đã bao gồm các tính năng của SourceMod và thông tin bổ sung hoặc plugin. Bây giờ chúng ta có một plugin được định dạng hoàn hảo có thể được biên dịch và tải bởi SourceMod.</p>
+
+<p>Tuy nhiên, có một vấn đề - nó không làm gì cả. Bạn có thể bắt đầu viết mã sau khai báo <strong><code class="highlighter-rouge">myinfo</code></strong> chỉ để thấy rằng nó sẽ không biên dịch. <strong><code class="highlighter-rouge">SourcePawn</code></strong>, không giống như các ngôn ngữ kịch bản khác như <strong><code class="highlighter-rouge">Lua</code></strong>, không cho phép mã nằm ngoài các hàm. Sau khi đọc điều đó, có lẽ bạn chỉ muốn xác định một số chức năng, đặt tên chính là có thể, biên dịch và tải một plugin và thấy rằng mã của bạn không bao giờ được gọi.</p>
+
+<p>Vì vậy, làm thế nào để chúng ta gọi <strong><code class="highlighter-rouge">SourceMod</code></strong> mã của chúng ta? Vì lý do chính xác này, chúng ta phải chuyển tiếp. Chuyển tiếp là các nguyên mẫu hàm do một bên khai báo có thể được bên khác triển khai dưới dạng gọi lại. Khi bên thứ nhất bắt đầu cuộc gọi chuyển tiếp, tất cả các bên có cuộc gọi lại phù hợp sẽ nhận cuộc gọi.</p>
+
+<p><strong><code class="highlighter-rouge">SourceMod</code></strong> khai báo rất nhiều chuyển tiếp thú vị mà chúng ta có thể triển khai. Như bạn có thể thấy, chuyển tiếp là cách duy nhất để mã của chúng ta được thực thi, hãy ghi nhớ điều đó. Vì vậy, hãy thực hiện <strong><code class="highlighter-rouge">OnPluginStart</code></strong> về phía trước. Như bạn có thể đoán, nó được gọi khi plugin của chúng ta khởi động. Để làm điều đó, chúng ta sẽ phải tra cứu khai báo của <strong><code class="highlighter-rouge">OnPluginStart</code></strong>. Nó được khai báo bên trong <strong><code class="highlighter-rouge">sourcemod.inc</code></strong>, một tệp chúng ta đã quen thuộc.</p>
+
+<p>Dấu ngoặc đơn trống cho chúng ta biết rằng không có đối số nào được chuyển vào bên trong <strong><code class="highlighter-rouge">forward</code></strong> này, tài liệu bên trong <strong><code class="highlighter-rouge">@noreturn</code></strong> cho chúng ta biết rằng chúng ta không phải trả về bất cứ thứ gì, khá đơn giản về phía trước.</p>
+
+<p>Vậy làm thế nào để viết một cuộc gọi lại chính xác cho nó? Thứ nhất, lệnh gọi lại của chúng ta phải có cùng tên, vì vậy đó là <strong><code class="highlighter-rouge">OnPluginStart</code></strong>, thứ hai, lệnh gọi lại của chúng ta phải có cùng số lượng đối số, không có đối số nào trong trường hợp này và cuối cùng, <strong><code class="highlighter-rouge">SourceMod</code></strong> cần có thể gọi lệnh gọi lại của chúng ta nên nó cần được công khai. Vì vậy, việc triển khai trông như thế này:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+  <span class="cm">/**
+        * Được gọi khi plugin được khởi tạo hoàn toàn và tất cả các tham chiếu bên ngoài đã biết
+        * được giải quyết. Điều này chỉ được gọi một lần trong vòng đời của plugin và
+        * được ghép nối với OnPluginEnd().
+        *
+        * Nếu bất kỳ lỗi thời gian chạy nào được đưa ra trong quá trình gọi lại này, plugin sẽ được đánh dấu
+        * như không thành công.
+        *
+        * Không cần thiết phải đóng bất kỳ handles hoặc loại bỏ hooks trong function này.  
+        * SourceMod đảm bảo rằng plugin tắt tự động và phát hành chính xác 
+        * tất cả tài nguyên.
+        *
+        * @noreturn
+        */</span>
+
+    <span class="n">forward</span> <span class="kt">void</span> <span class="nf">OnPluginStart</span><span class="o">();</span>
+    <span class="o">{</span>
+        
+    <span class="o">}</span>
+
+</code></pre></div></div>
+<p>Bây giờ chúng ta có thể viết mã bên trong dấu ngoặc nhọn và nó sẽ được thực thi khi plugin của chúng ta khởi động. Hãy xuất <strong><code class="highlighter-rouge">"Hello world!"</code></strong> đến bảng điều khiển máy chủ.</p>
+
+<p>Để làm điều đó, chúng ta sẽ sử dụng chức năng <strong><code class="highlighter-rouge">PrintToServer</code></strong>. Nó được khai báo bên trong <strong><code class="highlighter-rouge">console.inc</code></strong>, tuy nhiên, chúng ta không cần phải bao gồm <strong><code class="highlighter-rouge">console.inc</code></strong> theo cách thủ công vì nó được tự động đưa vào như một phần của <strong><code class="highlighter-rouge">sourcemod.inc</code></strong>.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+    <span class="cm">/**
+        * Print message đến bảng điều khiển máy chủ.
+        *
+        * @param format		Quy tắc định dạng.
+        * @param ...			Số lượng tham số định dạng thay đổi.
+        * @noreturn
+        */</span>
+    <span class="kd">native</span> <span class="kt">int</span> <span class="nf">PrintToServer</span><span class="o">(</span><span class="kd">const</span> <span class="kt">char</span><span class="o">[]</span> <span class="n">format</span><span class="o">,</span> <span class="n">any</span> <span class="o">...);</span>
+
+</code></pre></div></div>
+
+<p>Như bạn có thể thấy, đây là một hàm gốc. Nó được thực hiện bên trong lõi SM. Đánh giá bằng các đối số của nó, chúng ta có thể thấy rằng nó là một hàm lớp định dạng. Tuy nhiên, hiện tại chúng ta không cần bất kỳ định dạng nào, vì vậy chúng ta chỉ cần chuyển chuỗi  <strong><code class="highlighter-rouge">"Hello world!"</code></strong> như là một đối số duy nhất:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">OnPluginStart</span><span class="o">()</span>
+    <span class="o">{</span>
+        <span class="nc">PrintToServer</span><span class="o">(</span><span class="s">"Hello world!"</span><span class="o">);</span>
+    <span class="o">}</span>
+
+</code></pre></div></div>
+
+<p>Code đầy đủ trong một plugin chúng ta vừa viết có dạng như sau:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+    <span class="err">#</span><span class="n">include</span> <span class="o">&lt;</span><span class="n">sourcemod</span><span class="o">&gt;</span>
+    
+    <span class="kd">public</span> <span class="nc">Plugin</span> <span class="n">myinfo</span> <span class="o">=</span>
+    <span class="o">{</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="s">"My First Plugin"</span><span class="o">,</span>
+        <span class="n">author</span> <span class="o">=</span> <span class="s">"Me"</span><span class="o">,</span>
+        <span class="n">description</span> <span class="o">=</span> <span class="s">"My first plugin ever"</span><span class="o">,</span>
+        <span class="n">version</span> <span class="o">=</span> <span class="s">"1.0"</span><span class="o">,</span>
+        <span class="n">url</span> <span class="o">=</span> <span class="s">"http://www.sourcemod.net/"</span>
+    <span class="o">};</span>
+    
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">OnPluginStart</span><span class="o">()</span>
+    <span class="o">{</span>
+        <span class="nc">PrintToServer</span><span class="o">(</span><span class="s">"Hello world!"</span><span class="o">);</span>
+    <span class="o">}</span>
+
+</code></pre></div></div>
+
+<p>Biên dịch và up plugin của bạn lên máy chủ của bạn và tự mình thấy rằng thông báo được hiển thị trong bảng điều khiển máy chủ.</p>
+
+<h2 id="includes">Includes</h2>
+<hr />
+
+<p>Pawn yêu cầu các tệp bao gồm, giống như C yêu cầu tệp tiêu đề. Bao gồm các tệp liệt kê tất cả các cấu trúc, chức năng, lệnh gọi lại và thẻ có sẵn. Có ba loại tệp bao gồm:</p>
+
+<p>• Core - <strong><code class="highlighter-rouge">sourcemod.inc</code></strong> và bất cứ thứ gì nó bao gồm. Tất cả đều được cung cấp bởi SourceMod’s Core.<br />
+ • Extension - thêm phần phụ thuộc vào một phần mở rộng nhất định.<br />
+ • Plugin - thêm phụ thuộc vào một plugin nhất định.<br /></p>
+
+<p>Bao gồm các tệp được tải bằng cách sử dụng chỉ thị trình biên dịch <strong><code class="highlighter-rouge">#include</code></strong>.</p>
+
+<h2 id="commands">Commands</h2>
+<hr />
+
+<p>Ví dụ đầu tiên của chúng ta sẽ viết một lệnh Admin đơn giản để Slap một Player. Chúng ta sẽ tiếp tục mở rộng ví dụ này với nhiều tính năng hơn cho đến khi chúng ta có kết quả cuối cùng, hoàn chỉnh.</p>
+
+<h2 id="khai-báo">Khai báo</h2>
+<hr />
+
+<p>Trước tiên, hãy xem một lệnh Admim yêu cầu những gì. Các lệnh admin được register bằng cách khai báo hàm<strong><code class="highlighter-rouge">RegAdminCmd</code></strong>. Chúng yêu cầu <strong>“chuỗi lệnh thực thi”</strong>, <strong>hàm được gọi</strong>, <strong>cờ admin (flag)</strong>.</p>
+
+<p>Khai báo function, cách thức sử dụng <a href="https://sm.alliedmods.net/new-api/console/ConCmd"><strong>tại đây</strong></a></p>
+
+<p>Cách viết:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">OnPluginStart</span><span class="o">()</span>
+    <span class="o">{</span>
+        <span class="nc">RegAdminCmd</span><span class="o">(</span><span class="s">"sm_myslap"</span><span class="o">,</span> <span class="n">Command_MySlap</span><span class="o">,</span> <span class="no">ADMFLAG_SLAY</span><span class="o">);</span>
+    <span class="o">}</span>
+    
+    <span class="kd">public</span> <span class="nc">Action</span> <span class="nf">Command_MySlap</span><span class="o">(</span><span class="kt">int</span> <span class="n">client</span><span class="o">,</span> <span class="kt">int</span> <span class="n">args</span><span class="o">)</span>
+    <span class="o">{</span>
+        
+    <span class="o">}</span>
+
+</code></pre></div></div>
+
+<p>Bây giờ chúng tata đã thực hiện thành công một lệnh - mặc dù nó chưa thực hiện được gì. Trong thực tế, nó sẽ báo “Lệnh không xác định” nếu bạn sử dụng nó! Điều này là do bạn không trả về Plugin_Handled trong cuộc gọi lại của bạn.</p>
+
+<p>Vì bạn chưa đăng ký nên <strong><code class="highlighter-rouge">SourceMod</code></strong> tin rằng bạn không muốn <strong><code class="highlighter-rouge">Source Engine</code></strong> biết lệnh đã được đăng ký và nó xử lý như vậy. Do <strong><code class="highlighter-rouge">SourceMod</code></strong> mong đợi <strong><code class="highlighter-rouge">function</code></strong> của bạn <strong><code class="highlighter-rouge">return Plugin_Handled</code></strong> là do thẻ Action bạn đặt trong nguyên mẫu của hàm. Thẻ Hành động chỉ định rằng <strong><code class="highlighter-rouge">Command_MySlap</code></strong> phải trả về một trong bốn điều. Xem liệt kê <a href="https://sm.alliedmods.net/new-api/core/Action"><strong>Action</strong></a> trong <strong><code class="highlighter-rouge">API sourcemod</code></strong> để tìm hiểu thêm về các loại trả lại này và khi nào sử dụng chúng.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+    <span class="kd">public</span> <span class="nc">Action</span> <span class="nf">Command_MySlap</span><span class="o">(</span><span class="kt">int</span> <span class="n">client</span><span class="o">,</span> <span class="kt">int</span> <span class="n">args</span><span class="o">)</span>
+    <span class="o">{</span>
+        <span class="k">return</span> <span class="n">Plugin_Handled</span><span class="o">;</span>
+    <span class="o">}</span>
+
+</code></pre></div></div>
+
+<p>Bây giờ lệnh sẽ không báo lỗi, nhưng nó vẫn không làm gì cả. Điều này là do việc trả về “Plugin_Handled” trong lệnh gọi lại lệnh sẽ ngăn engine xử lý lệnh. Động cơ thậm chí sẽ không bao giờ thấy rằng lệnh đã được chạy. Đây là những gì bạn sẽ muốn làm nếu bạn đang đăng ký một lệnh hoàn toàn mới thông qua <strong><code class="highlighter-rouge">SourceMod</code></strong>.</p>
+
+<h2 id="thực-thi">Thực thi</h2>
+<hr />
+
+<p>Hãy quyết định lệnh sẽ như thế nào. Hãy để nó hoạt động giống như lệnh sm_slap mặc định:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+    <span class="n">sm_myslap</span> <span class="o">&lt;</span><span class="n">name</span><span class="o">|</span><span class="err">#</span><span class="n">userid</span><span class="o">&gt;</span> <span class="o">[</span><span class="n">damage</span><span class="o">]</span>
+
+</code></pre></div></div>
+
+<p>Để thực hiện điều này, chúng ta sẽ cần một vài bước:</p>
+
+<p>• Get the input from the console. For this we use <a href="https://sm.alliedmods.net/new-api/console/GetCmdArg"><strong>GetCmdArg()</strong></a>.<br />
+ • Find a matching player. For this we use <a href="https://sm.alliedmods.net/new-api/helpers/FindTarget"><strong>FindTarget()</strong></a>.<br />
+ • Slap them. For this we use <a href="https://sm.alliedmods.net/new-api/sdktools_functions/SlapPlayer"><strong>SlapPlayer()</strong></a>, which requires including sdktools, an extension bundled with SourceMod.<br />
+ • Respond to the admin. For this we use <a href="https://sm.alliedmods.net/new-api/console/ReplyToCommand"><strong>ReplyToCommand()</strong></a>.<br /></p>
+
+<p>Ví dụ mẫu đầy đủ:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+    <span class="err">#</span><span class="n">include</span> <span class="o">&lt;</span><span class="n">sourcemod</span><span class="o">&gt;</span>
+    <span class="err">#</span><span class="n">include</span> <span class="o">&lt;</span><span class="n">sdktools</span><span class="o">&gt;</span>
+    
+    <span class="kd">public</span> <span class="nc">Plugin</span> <span class="n">myinfo</span> <span class="o">=</span>
+    <span class="o">{</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="s">"My First Plugin"</span><span class="o">,</span>
+        <span class="n">author</span> <span class="o">=</span> <span class="s">"Me"</span><span class="o">,</span>
+        <span class="n">description</span> <span class="o">=</span> <span class="s">"My first plugin ever"</span><span class="o">,</span>
+        <span class="n">version</span> <span class="o">=</span> <span class="s">"1.0.0.0"</span><span class="o">,</span>
+        <span class="n">url</span> <span class="o">=</span> <span class="s">"http://www.sourcemod.net/"</span>
+    <span class="o">}</span>
+    
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">OnPluginStart</span><span class="o">()</span>
+    <span class="o">{</span>
+        <span class="nc">RegAdminCmd</span><span class="o">(</span><span class="s">"sm_myslap"</span><span class="o">,</span> <span class="n">Command_MySlap</span><span class="o">,</span> <span class="no">ADMFLAG_SLAY</span><span class="o">);</span>
+
+        <span class="c1">// Bắt buộc đối với câu trả lời không thành công của FindTarget</span>
+        <span class="nc">LoadTranslations</span><span class="o">(</span><span class="s">"common.phrases.txt"</span><span class="o">);</span> 
+    <span class="o">}</span>
+    
+    <span class="kd">public</span> <span class="nc">Action</span> <span class="nf">Command_MySlap</span><span class="o">(</span><span class="kt">int</span> <span class="n">client</span><span class="o">,</span> <span class="kt">int</span> <span class="n">args</span><span class="o">)</span>
+    <span class="o">{</span>
+        <span class="kt">char</span> <span class="n">arg1</span><span class="o">[</span><span class="mi">32</span><span class="o">],</span> <span class="n">arg2</span><span class="o">[</span><span class="mi">32</span><span class="o">];</span>
+    
+        <span class="cm">/* Theo mặc định, chúng ta đặt damage = 0 */</span>
+        <span class="kt">int</span> <span class="n">damage</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+    
+        <span class="cm">/* Lấy đối số đầu tiên */</span>
+        <span class="nc">GetCmdArg</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="n">arg1</span><span class="o">,</span> <span class="n">sizeof</span><span class="o">(</span><span class="n">arg1</span><span class="o">));</span>
+    
+        <span class="cm">/* Nếu có từ 2 đối số trở lên, chúng ta đặt damage cho
+                    * những gì người dùng chỉ định. Nếu một thiệt hại không được chỉ định
+                    * sau đó nó sẽ ở mức 0. 
+                    */</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">args</span> <span class="o">&gt;=</span> <span class="mi">2</span><span class="o">)</span>
+        <span class="o">{</span>
+            <span class="nc">GetCmdArg</span><span class="o">(</span><span class="mi">2</span><span class="o">,</span> <span class="n">arg2</span><span class="o">,</span> <span class="n">sizeof</span><span class="o">(</span><span class="n">arg2</span><span class="o">));</span>
+            <span class="n">damage</span> <span class="o">=</span> <span class="nc">StringToInt</span><span class="o">(</span><span class="n">arg2</span><span class="o">);</span>
+        <span class="o">}</span>
+    
+        <span class="cm">/* Try and find a matching player */</span>
+        <span class="kt">int</span> <span class="n">target</span> <span class="o">=</span> <span class="nc">FindTarget</span><span class="o">(</span><span class="n">client</span><span class="o">,</span> <span class="n">arg1</span><span class="o">);</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">target</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="o">)</span>
+        <span class="o">{</span>
+            <span class="cm">/* FindTarget() tự động trả lời với
+                                * lý do thất bại và trả về -1 nên chúng ta biết 0
+                                * tiếp tục...
+                                */</span>
+            <span class="k">return</span> <span class="n">Plugin_Handled</span><span class="o">;</span>
+        <span class="o">}</span>
+    
+        <span class="nc">SlapPlayer</span><span class="o">(</span><span class="n">target</span><span class="o">,</span> <span class="n">damage</span><span class="o">);</span>
+        <span class="nc">ReplyToCommand</span><span class="o">(</span><span class="n">client</span><span class="o">,</span> <span class="s">"[SM] You slapped %N for %d damage!"</span><span class="o">,</span> <span class="n">target</span><span class="o">,</span> <span class="n">damage</span><span class="o">);</span>
+    
+        <span class="k">return</span> <span class="n">Plugin_Handled</span><span class="o">;</span>
+    <span class="o">}</span>
+
+</code></pre></div></div>
+
+<p>Để biết thêm thông tin về %N và %d là gì, hãy xem <a href="https://wiki.alliedmods.net/Format_Class_Functions_(SourceMod_Scripting)"><strong>function</strong></a> lớp định dạng. Lưu ý rằng bạn không bao giờ cần hủy đăng ký hoặc xóa lệnh Admin của mình. Khi một plugin được tải xuống, SourceMod sẽ dọn dẹp nó cho bạn.</p>
+
+<h2 id="convars">ConVars</h2>
+<hr />
+
+<p>Tính năng tiện dụng của <strong><code class="highlighter-rouge">ConVars</code></strong> là chúng dễ dàng cấu hình cho người dùng. Chúng có thể được đặt trong bất <strong><code class="highlighter-rouge">file .cfg</code></strong> nào, chẳng hạn như <strong><code class="highlighter-rouge">server.cfg</code></strong> hoặc <strong><code class="highlighter-rouge">sourcemod.cfg</code></strong>. Để làm cho việc này dễ dàng hơn, SourceMod có chức năng <a href="https://sm.alliedmods.net/new-api/sourcemod/AutoExecConfig"><strong>AutoExecConfig()</strong></a>. Chức năng này sẽ tự động tạo một <strong><code class="highlighter-rouge">file .cfg</code></strong> mặc định chứa tất cả các <strong><code class="highlighter-rouge">cvars</code></strong> của bạn, được chú thích bằng nhận xét, cho người dùng. Rất khuyến khích bạn gọi nó nếu bạn có <strong><code class="highlighter-rouge">ConVars</code></strong> có thể tùy chỉnh.</p>
+
+<p>Hãy mở rộng ví dụ của bạn từ trước với một ConVar mới. ConVar của chúng tôi sẽ là <strong><code class="highlighter-rouge">g_cvarMySlapDamage</code></strong> và sẽ chỉ định <strong><code class="highlighter-rouge">damage</code></strong> mặc định mà ai đó bị tát nếu không có thiệt hại nào được chỉ định.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+    <span class="nc">ConVar</span> <span class="n">g_cvarMySlapDamage</span> <span class="o">=</span> <span class="kc">null</span><span class="o">;</span>
+    
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">OnPluginStart</span><span class="o">()</span>
+    <span class="o">{</span>
+        <span class="nc">RegAdminCmd</span><span class="o">(</span><span class="s">"sm_myslap"</span><span class="o">,</span> <span class="n">Command_MySlap</span><span class="o">,</span> <span class="no">ADMFLAG_SLAY</span><span class="o">);</span>
+    
+        <span class="n">g_cvarMySlapDamage</span> <span class="o">=</span> <span class="nc">CreateConVar</span><span class="o">(</span><span class="s">"sm_myslap_damage"</span><span class="o">,</span> <span class="s">"5"</span><span class="o">,</span> <span class="s">"Default slap damage"</span><span class="o">);</span>
+        <span class="nc">AutoExecConfig</span><span class="o">(</span><span class="kc">true</span><span class="o">,</span> <span class="s">"plugin_myslap"</span><span class="o">);</span>
+    <span class="o">}</span>
+    
+    <span class="kd">public</span> <span class="nc">Action</span> <span class="nf">Command_MySlap</span><span class="o">(</span><span class="kt">int</span> <span class="n">client</span><span class="o">,</span> <span class="kt">int</span> <span class="n">args</span><span class="o">)</span>
+    <span class="o">{</span>
+        <span class="kt">char</span> <span class="n">arg1</span><span class="o">[</span><span class="mi">32</span><span class="o">],</span> <span class="n">arg2</span><span class="o">[</span><span class="mi">32</span><span class="o">];</span>
+        <span class="kt">int</span> <span class="n">damage</span> <span class="o">=</span> <span class="n">g_cvarMySlapDamage</span><span class="o">.</span><span class="na">IntValue</span><span class="o">;</span>
+    
+        <span class="cm">/* Phần còn lại vẫn không thay đổi! */</span>
+    
+
+</code></pre></div></div>
+
+<h2 id="hiển-thị-hoạt-động-ghi-nhật-ký">Hiển thị Hoạt động, Ghi nhật ký</h2>
+<hr />
+
+<p>Hầu hết tất cả các lệnh Admin sẽ ghi lại hoạt động của chúng và một số lệnh Admin sẽ hiển thị hoạt động của chúng cho các Client trong trò chơi. Điều này có thể được thực hiện thông qua các function <a href="https://sm.alliedmods.net/new-api/logging/LogAction"><strong>LogAction()</strong></a> và <a href="https://sm.alliedmods.net/new-api/console/ShowActivity2"><strong>ShowActivity2()</strong></a>. Chức năng chính xác của <strong><code class="highlighter-rouge">ShowActivity2()</code></strong> được xác định bởi cvar <strong><code class="highlighter-rouge">sm_show_activity</code></strong>.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+        <span class="nc">SlapPlayer</span><span class="o">(</span><span class="n">target</span><span class="o">,</span> <span class="n">damage</span><span class="o">);</span>
+    
+        <span class="kt">char</span> <span class="n">name</span><span class="o">[</span><span class="no">MAX_NAME_LENGTH</span><span class="o">];</span>
+    
+        <span class="nc">GetClientName</span><span class="o">(</span><span class="n">target</span><span class="o">,</span> <span class="n">name</span><span class="o">,</span> <span class="n">sizeof</span><span class="o">(</span><span class="n">name</span><span class="o">));</span>
+    
+        <span class="nc">ShowActivity2</span><span class="o">(</span><span class="n">client</span><span class="o">,</span> <span class="s">"[SM] "</span><span class="o">,</span> <span class="s">"Slapped %s for %d damage!"</span><span class="o">,</span> <span class="n">name</span><span class="o">,</span> <span class="n">damage</span><span class="o">);</span>
+        <span class="nc">LogAction</span><span class="o">(</span><span class="n">client</span><span class="o">,</span> <span class="n">target</span><span class="o">,</span> <span class="s">"\"%L\" slapped \"%L\" (damage %d)"</span><span class="o">,</span> <span class="n">client</span><span class="o">,</span> <span class="n">target</span><span class="o">,</span> <span class="n">damage</span><span class="o">);</span>
+    
+        <span class="k">return</span> <span class="n">Plugin_Handled</span><span class="o">;</span>
+    <span class="o">}</span>
+
+</code></pre></div></div>
+
+<h2 id="multiple-targets">Multiple Targets</h2>
+<hr />
+
+<p>Để hoàn thành đầy đủ phần thực thi Slap của chúng ta, hãy làm cho nó hỗ trợ <strong><code class="highlighter-rouge">multiple targets</code></strong>. <a href="https://wiki.alliedmods.net/Admin_Commands_(SourceMod)#How_to_Target"><strong>targeting sytem</strong></a> của SourceMod khá tiên tiến, vì vậy việc sử dụng nó lúc đầu có vẻ phức tạp.</p>
+
+<p>Hàm chúng tôi sử dụng là <a href="https://sm.alliedmods.net/new-api/commandfilters/ProcessTargetString"><strong>ProcessTargetString()</strong></a>. Nó nhận đầu vào từ bảng điều khiển và trả về danh sách các máy khách phù hợp. Nó cũng trả về một danh từ sẽ xác định một khách hàng duy nhất hoặc mô tả một danh sách các khách hàng. Ý tưởng là sau đó mỗi Client sẽ được xử lý, nhưng hoạt động hiển thị cho tất cả người chơi chỉ được xử lý một lần. Điều này làm <strong><code class="highlighter-rouge">spam message</code></strong> trên màn hình.</p>
+
+<p>Phương pháp xử lý đích này được sử dụng cho hầu hết mọi lệnh Admin trong SourceMod và trên thực tế, <strong><code class="highlighter-rouge">FindTarget()</code></strong> chỉ là một phiên bản đơn giản hóa.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+    <span class="err">#</span><span class="n">include</span> <span class="o">&lt;</span><span class="n">sourcemod</span><span class="o">&gt;</span>
+    <span class="err">#</span><span class="n">include</span> <span class="o">&lt;</span><span class="n">sdktools</span><span class="o">&gt;</span>
+    
+    <span class="nc">ConVar</span> <span class="n">g_cvarMySlapDamage</span> <span class="o">=</span> <span class="kc">null</span><span class="o">;</span>
+    
+    <span class="kd">public</span> <span class="nc">Plugin</span> <span class="n">myinfo</span> <span class="o">=</span>
+    <span class="o">{</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="s">"My First Plugin"</span><span class="o">,</span>
+        <span class="n">author</span> <span class="o">=</span> <span class="s">"Me"</span><span class="o">,</span>
+        <span class="n">description</span> <span class="o">=</span> <span class="s">"My first plugin ever"</span><span class="o">,</span>
+        <span class="n">version</span> <span class="o">=</span> <span class="s">"1.0.0.0"</span><span class="o">,</span>
+        <span class="n">url</span> <span class="o">=</span> <span class="s">"http://www.sourcemod.net/"</span>
+    <span class="o">}</span>
+    
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">OnPluginStart</span><span class="o">()</span>
+    <span class="o">{</span>
+        <span class="nc">RegAdminCmd</span><span class="o">(</span><span class="s">"sm_myslap"</span><span class="o">,</span> <span class="n">Command_MySlap</span><span class="o">,</span> <span class="no">ADMFLAG_SLAY</span><span class="o">);</span>
+        <span class="nc">LoadTranslations</span><span class="o">(</span><span class="s">"common.phrases.txt"</span><span class="o">);</span>
+    
+        <span class="n">g_cvarMySlapDamage</span> <span class="o">=</span> <span class="nc">CreateConVar</span><span class="o">(</span><span class="s">"sm_myslap_damage"</span><span class="o">,</span> <span class="s">"5"</span><span class="o">,</span> <span class="s">"Default slap damage"</span><span class="o">);</span>
+        <span class="nc">AutoExecConfig</span><span class="o">(</span><span class="kc">true</span><span class="o">,</span> <span class="s">"plugin_myslap"</span><span class="o">);</span>
+    <span class="o">}</span>
+    
+    <span class="kd">public</span> <span class="nc">Action</span> <span class="nf">Command_MySlap</span><span class="o">(</span><span class="kt">int</span> <span class="n">client</span><span class="o">,</span> <span class="kt">int</span> <span class="n">args</span><span class="o">)</span>
+    <span class="o">{</span>
+        <span class="kt">char</span> <span class="n">arg1</span><span class="o">[</span><span class="mi">32</span><span class="o">],</span> <span class="n">arg2</span><span class="o">[</span><span class="mi">32</span><span class="o">];</span>
+        <span class="kt">int</span> <span class="n">damage</span> <span class="o">=</span> <span class="n">g_cvarMySlapDamage</span><span class="o">.</span><span class="na">IntValue</span><span class="o">;</span>
+    
+        <span class="cm">/* Get the first argument */</span>
+        <span class="nc">GetCmdArg</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="n">arg1</span><span class="o">,</span> <span class="n">sizeof</span><span class="o">(</span><span class="n">arg1</span><span class="o">));</span>
+    
+        <span class="cm">/*Nếu có 2 hoặc nhiều đối số và đối số thứ hai tìm nạp
+         * thành công, hãy chuyển nó thành một số nguyên.
+         */</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">args</span> <span class="o">&gt;=</span> <span class="mi">2</span> <span class="o">&amp;&amp;</span> <span class="nc">GetCmdArg</span><span class="o">(</span><span class="mi">2</span><span class="o">,</span> <span class="n">arg2</span><span class="o">,</span> <span class="n">sizeof</span><span class="o">(</span><span class="n">arg2</span><span class="o">)))</span>
+        <span class="o">{</span>
+            <span class="n">damage</span> <span class="o">=</span> <span class="nc">StringToInt</span><span class="o">(</span><span class="n">arg2</span><span class="o">);</span>
+        <span class="o">}</span>
+            
+        <span class="cm">/**
+                    * target_name - lưu trữ tên và xác định các target
+                    * target_list - mảng để lưu trữ danh sách Client
+                    * target_count - biến để lưu trữ số lượng Client
+                    * tn_is_ml - lưu trữ liệu danh từ có phải được dịch hay không
+                    */</span>
+        <span class="kt">char</span> <span class="n">target_name</span><span class="o">[</span><span class="no">MAX_TARGET_LENGTH</span><span class="o">];</span>
+        <span class="kt">int</span> <span class="n">target_list</span><span class="o">[</span><span class="no">MAXPLAYERS</span><span class="o">],</span> <span class="n">target_count</span><span class="o">;</span>
+        <span class="n">bool</span> <span class="n">tn_is_ml</span><span class="o">;</span>
+    
+        <span class="k">if</span> <span class="o">((</span><span class="n">target_count</span> <span class="o">=</span> <span class="nc">ProcessTargetString</span><span class="o">(</span>
+                <span class="n">arg1</span><span class="o">,</span>
+                <span class="n">client</span><span class="o">,</span>
+                <span class="n">target_list</span><span class="o">,</span>
+                <span class="no">MAXPLAYERS</span><span class="o">,</span>
+                <span class="no">COMMAND_FILTER_ALIVE</span><span class="o">,</span> <span class="cm">/* Chỉ cho phép người chơi còn sống */</span>
+                <span class="n">target_name</span><span class="o">,</span>
+                <span class="n">sizeof</span><span class="o">(</span><span class="n">target_name</span><span class="o">),</span>
+                <span class="n">tn_is_ml</span><span class="o">))</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="o">)</span>
+        <span class="o">{</span>
+            <span class="cm">/* Chức năng này trả lời Admin bằng thông báo lỗi */</span>
+            <span class="nc">ReplyToTargetError</span><span class="o">(</span><span class="n">client</span><span class="o">,</span> <span class="n">target_count</span><span class="o">);</span>
+            <span class="k">return</span> <span class="n">Plugin_Handled</span><span class="o">;</span>
+        <span class="o">}</span>
+    
+        <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">target_count</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span>
+        <span class="o">{</span>
+            <span class="nc">SlapPlayer</span><span class="o">(</span><span class="n">target_list</span><span class="o">[</span><span class="n">i</span><span class="o">],</span> <span class="n">damage</span><span class="o">);</span>
+            <span class="nc">LogAction</span><span class="o">(</span><span class="n">client</span><span class="o">,</span> <span class="n">target_list</span><span class="o">[</span><span class="n">i</span><span class="o">],</span> <span class="s">"\"%L\" slapped \"%L\" (damage %d)"</span><span class="o">,</span> <span class="n">client</span><span class="o">,</span> <span class="n">target_list</span><span class="o">[</span><span class="n">i</span><span class="o">],</span> <span class="n">damage</span><span class="o">);</span>
+        <span class="o">}</span>
+    
+        <span class="k">if</span> <span class="o">(</span><span class="n">tn_is_ml</span><span class="o">)</span>
+        <span class="o">{</span>
+            <span class="nc">ShowActivity2</span><span class="o">(</span><span class="n">client</span><span class="o">,</span> <span class="s">"[SM] "</span><span class="o">,</span> <span class="s">"Slapped %t for %d damage!"</span><span class="o">,</span> <span class="n">target_name</span><span class="o">,</span> <span class="n">damage</span><span class="o">);</span>
+        <span class="o">}</span>
+        <span class="k">else</span>
+        <span class="o">{</span>
+            <span class="nc">ShowActivity2</span><span class="o">(</span><span class="n">client</span><span class="o">,</span> <span class="s">"[SM] "</span><span class="o">,</span> <span class="s">"Slapped %s for %d damage!"</span><span class="o">,</span> <span class="n">target_name</span><span class="o">,</span> <span class="n">damage</span><span class="o">);</span>
+        <span class="o">}</span>
+    
+        <span class="k">return</span> <span class="n">Plugin_Handled</span><span class="o">;</span>
+    <span class="o">}</span>
+
+</code></pre></div></div>
+
+<h2 id="events">Events</h2>
+<hr />
+
+<p><strong><code class="highlighter-rouge">Events</code></strong> là các thông báo <strong><code class="highlighter-rouge">notification</code></strong> thông tin được truyền giữa các đối tượng trong Server. Nhiều cũng được chuyển từ Server đến Client. Chúng được định nghĩa trong các <strong><code class="highlighter-rouge">file .res</code></strong> trong thư mục <strong><code class="highlighter-rouge">hl2/resource</code></strong> và các thư mục <strong><code class="highlighter-rouge">resource</code></strong> của các mod cụ thể. Để biết danh sách cơ bản, hãy xem <a href="https://wiki.alliedmods.net/Game_Events_(Source)"><strong><code class="highlighter-rouge">Source Game Events</code></strong></a>.</p>
+
+<p>Điều quan trọng cần lưu ý một vài khái niệm về các sự kiện:</p>
+
+<p>• Chúng hầu như luôn luôn cung cấp thông tin. Tức là, chặn <strong><code class="highlighter-rouge">player_death</code></strong> sẽ không ngăn một người chơi chết. Nó có thể chặn tin nhắn <strong><code class="highlighter-rouge">HUD</code></strong> hoặc <strong><code class="highlighter-rouge">console message</code></strong> hoặc thứ gì đó nhỏ.<br />
+ • Họ hầu như luôn sử dụng các <strong><code class="highlighter-rouge">userids</code></strong> thay vì các chỉ mục client.<br />
+ • Chỉ vì nó nằm trong một tệp tài nguyên không có nghĩa là nó đã từng được gọi hoặc hoạt động theo cách bạn mong đợi. Các mod nổi tiếng là không ghi lại đúng chức năng sự kiện của chúng.</p>
+
+<p>An example of finding when a player dies:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">OnPluginStart</span><span class="o">()</span>
+    <span class="o">{</span>
+        <span class="nc">HookEvent</span><span class="o">(</span><span class="s">"player_death"</span><span class="o">,</span> <span class="n">Event_PlayerDeath</span><span class="o">);</span>
+    <span class="o">}</span>
+    
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">Event_PlayerDeath</span><span class="o">(</span><span class="nc">Event</span> <span class="n">event</span><span class="o">,</span> <span class="kd">const</span> <span class="kt">char</span><span class="o">[]</span> <span class="n">name</span><span class="o">,</span> <span class="n">bool</span> <span class="n">dontBroadcast</span><span class="o">)</span>
+    <span class="o">{</span>
+        <span class="kt">int</span> <span class="n">victim_id</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="na">GetInt</span><span class="o">(</span><span class="s">"userid"</span><span class="o">);</span>
+        <span class="kt">int</span> <span class="n">attacker_id</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="na">GetInt</span><span class="o">(</span><span class="s">"attacker"</span><span class="o">);</span>
+        
+        <span class="kt">int</span> <span class="n">victim</span> <span class="o">=</span> <span class="nc">GetClientOfUserId</span><span class="o">(</span><span class="n">victim_id</span><span class="o">);</span>
+        <span class="kt">int</span> <span class="n">attacker</span> <span class="o">=</span> <span class="nc">GetClientOfUserId</span><span class="o">(</span><span class="n">attacker_id</span><span class="o">);</span>
+        
+        <span class="cm">/* CODE */</span>
+    <span class="o">}</span>
+
+</code></pre></div></div>
+:ET
