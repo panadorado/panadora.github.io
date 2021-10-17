@@ -55,7 +55,7 @@ Mở **`Terminal`** lên bằng cách <kbd>Ctrl + Alt + t</kbd> và nhập lện
 
 ### 3. Custom video làm ảnh nền cho desktop
 <hr>
-Komorebi cung cấp một công cụ đơn giản để tạo hình nền của riêng bạn! Đơn giản, mở ứng dụng của bạn và tìm kiếm 'Trình tạo hình nền'.
+Komorebi cung cấp một công cụ đơn giản để tạo hình nền của riêng bạn một cách đơn giản, bạn chỉ cần mở ứng dụng của bạn và tìm kiếm 'Wallpaper Creator'.
 
 ![image3](../assets/images/komorebi-animated-wallpapers-for-Linux-2.png)
 ![image4](../assets/images/komorebi-animated-wallpapers-for-Linux-3.png)
