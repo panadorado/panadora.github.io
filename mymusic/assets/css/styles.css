@@ -14,8 +14,17 @@ html {
     font-family: "Poppins", sans-serif;
 }
 
+body {
+    background: url('https://www.emyeucongnghe.tk/assets/images/background-body.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    padding: 0 20px;
+}
+
 #audio {
-    display: inherit;
+    /* display: inherit; */
+    position: fixed;
 }
 
 .player {
@@ -45,7 +54,6 @@ html {
     background-position: center;
     background-size: cover;
     border-bottom: 1px solid #ebebeb;
-    padding: 16px 16px 14px;
     width: 100%;
     max-width: 480px;
     box-shadow: 0 0px 8px rgba(24, 24, 24, 0.5);
@@ -54,27 +62,12 @@ html {
     transition: background-image 2s;
 }
 
-/* HEADER */
-header {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-header h4 {
-    color: var(--primary-color);
-    font-size: 12px;
-}
-
-header h2 {
-    color: var(--text-color);
-    font-size: 20px;
-}
-
 /* CD */
 .cd {
     display: flex;
     margin: auto;
     width: 200px;
+    padding: 20px 0px;
 }
 
 .cd-thumb {
@@ -87,7 +80,31 @@ header h2 {
     background-size: cover;
     box-shadow: 0 0px 10px rgba(24, 24, 24, 0.5);
     margin: auto;
-    transition: background-image 2s;
+    transition: all 0.2s linear;
+}
+
+.dashboard .mainController {
+    text-align: center;
+    background-color: rgba(24, 24, 24, 0.5);
+    padding: 0 20px;
+    visibility: hidden;
+}
+
+.dashboard:hover .mainController {
+    visibility: visible;
+}
+
+/* Title Music */
+.titleMusic {
+    padding: 10px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /* CONTROL */
@@ -95,12 +112,12 @@ header h2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 18px 0 8px 0;
+    padding: 8px 0 8px 0;
 }
 
 .control .btn {
     color: rgb(228, 228, 228);
-    padding: 18px;
+    padding: 15px;
     font-size: 18px;
     transition: 0.2s linear;
 }
@@ -109,23 +126,16 @@ header h2 {
     color: var(--primary-color);
 }
 
-/* .control .btn-prev i,
-.control .btn-next i,
-.control .btn-random i,
-.control .btn-repeat i {
-    color: rgb(228, 228, 228);
-} */
-
 .control .btn-prev i:active,
 .control .btn-next i:active {
     color: var(--primary-color);
 }
 
 .control .btn-toggle-play {
-    width: 56px;
-    height: 56px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    font-size: 24px;
+    font-size: 16px;
     color: #fff;
     display: flex;
     align-items: center;
@@ -144,7 +154,6 @@ header h2 {
     -webkit-transition: 0.2s;
     transition: opacity 0.2s;
     box-shadow: 0 4px 4px rgba(24, 24, 24, 0.5);
-
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -274,6 +283,10 @@ header h2 {
 }
 
 @media screen and (max-width : 768px) {
+    body {
+        padding:0;
+    }
+
     .player {
         display: block;
         position: relative;
@@ -297,7 +310,7 @@ header h2 {
     .playlist {
         border-radius: 0;
         background: #ddd;
-        margin-top: 430px;
+        margin-top: 400px;
         max-height: none;
     }
 }

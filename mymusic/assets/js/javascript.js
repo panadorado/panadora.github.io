@@ -25,11 +25,10 @@ const PLAYER_STORAGE_KEY = 'MUSIC_PLAYER';
 const playlist = $('.playlist');
 const player = $('.player');
 const cd = $('.cd');
-const heading = $('header h2');
+const heading = $('.titleMusic');
 const cdThumb = $('.cd-thumb');
 const audio = $('#audio');
 const dashboard = $('.dashboard');
-const header = $('header h2');
 
 const playBtn = $('.btn-toggle-play');
 const prevBtn = $('.btn-prev');
@@ -330,10 +329,10 @@ setTimeout(() => {
 
         loadCurrentSong: function(){
             heading.textContent = this.currentSong.name;
+            heading.style.color = '#fff';
 
             dashboard.style.backgroundImage = `url(${this.currentSong.image})`;
             dashboard.style.color = '#fff';
-            header.style.color = '#fff';
 
             cdThumb.style.backgroundImage = `url(${this.currentSong.image})`;
             audio.src = this.currentSong.path; 
@@ -350,7 +349,7 @@ setTimeout(() => {
             setInterval(() => {
                 timeCurrent.innerHTML = this.formatTime(playerYTB.getCurrentTime());
                 timeDuration.innerHTML = this.formatTime(playerYTB.getDuration()); 
-            }, 1500);
+            }, 1000);
         },
 
         loadConfig: function() {
