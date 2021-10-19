@@ -16,7 +16,7 @@
         `
         <div class="post-item">
           <a href="#" class="post-author">
-            <img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/237121164_1805104452995639_2165864989993464529_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=g-zenlR2EIIAX8BPtrS&tn=Pqtgy3KFd411Ehi9&_nc_ht=scontent.fdad3-1.fna&oh=84c221abcda088065270835559c577de&oe=61612208" alt="Panadora" class="post-author-image">
+            <img src="./assets/images/avatar.jpg" alt="Panadora" class="post-author-image">
             <div class="post-author-info">
               <h4 class="post-author-name">Tác giả: ${item.author}</h4>
               <time class="post-author-time" id="datetime">Ngày đăng: ${item.date}</time>
