@@ -48,4 +48,4 @@ Các bạn tải hai bản SourceMod vs MetaMod:Source ổn định để sử d
 
 nếu một trong 2 lệnh đều hiển thị được tức là bạn đã cài đặt SourceMod cho CS:Source thành công !
 
-<hr>
+Ngồn: [wiki.alliedmods.net](https://wiki.alliedmods.net/Main_Page)

@@ -76,16 +76,16 @@ Từ mã nguồn
 ibus-bogo có sử dụng các phần mềm sau, hãy chắc chắn rằng chúng đã được cài trên máy (theo tên gói cài đặt của Debian/Ubuntu):
 
 
-  **`.  ibus 1.4.x`** 
-  **`.  python 3.2+`** 
-  **`.  python3-gi (pygobject)`** 
-  **`.  python3-entrant (kiểm tra chính tả)`** 
-  **`.  cmake`** 
-  **`.  qt4-linguist-tools`** 
-  **`.  pyqt4-dev-tools`** 
-  **`.  python3-pyside`** 
-  **`.  gir1.2-ibus-1.0 (GObject Introspection data)`** 
-  **`.  gir1.2-wnck-3.0`** 
+  **`.  ibus 1.4.x`** <br>
+  **`.  python 3.2+`** <br>
+  **`.  python3-gi (pygobject)`** <br>
+  **`.  python3-entrant (kiểm tra chính tả)`** <br>
+  **`.  cmake`** <br>
+  **`.  qt4-linguist-tools`** <br>
+  **`.  pyqt4-dev-tools`** <br>
+  **`.  python3-pyside`** <br>
+  **`.  gir1.2-ibus-1.0 (GObject Introspection data)`** <br>
+  **`.  gir1.2-wnck-3.0`** <br>
 
 
 Lệnh sau sẽ cài đặt tất cả các gói cần thiết:

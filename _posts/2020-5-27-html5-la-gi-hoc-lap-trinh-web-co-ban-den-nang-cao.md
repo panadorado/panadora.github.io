@@ -79,6 +79,4 @@ HTML5 là tương lai của trình duyệt web và nó chắc chắn sẽ cách 
 
 Hy vọng rằng giờ đây bạn đã có thể nhìn thấy HTML5 một cách rõ ràng hơn và biết tại sao nó lại được thổi phồng lên nhiều đến như vậy. Nếu bạn có bất kỳ câu hỏi nào, xin hãy để lại ý kiến trong phần bình luận phía dưới nhé!
 
-<hr>
-
 Nguồn: [techmaster.vn](https://techmaster.vn/posts/33804/html5-la-gi-hoc-lap-trinh-web-co-ban-den-nang-cao?fbclid=IwAR06lAmlmuthMOeGKTpoZgLDTOCMJLI02j_ftRBWmUgLqzJHpinSCOGtJw4#toc-html-m-t-c-i-nh-n-t-ng-quan)

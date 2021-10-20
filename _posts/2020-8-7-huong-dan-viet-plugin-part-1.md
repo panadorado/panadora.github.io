@@ -496,3 +496,5 @@ Phương pháp xử lý đích này được sử dụng cho hầu hết mọi l
     }
 
  ```
+ 
+Ngồn: [wiki.alliedmods.net](https://wiki.alliedmods.net/Main_Page)

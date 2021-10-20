@@ -58,4 +58,6 @@ SourceMod là modify cho bất kỳ trò chơi chạy trên Half-Life Engine. N�
 
 ```
 
+Ngồn: [wiki.alliedmods.net](https://wiki.alliedmods.net/Main_Page)
+
 [**`đi đến hướng dẫn viết Plugins`**](/sourcemods/huong-dan-viet-plugin-part-1.html)

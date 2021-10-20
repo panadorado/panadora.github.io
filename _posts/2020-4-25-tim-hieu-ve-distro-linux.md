@@ -10,8 +10,6 @@ permalink: /tim-hieu-ve-distro-linux.html
 
 **Distro Linux là gì?. Nên dùng Distro Linux nào, chúng có gì khác nhau ?**
 
-Bạn mới tìm hiểu về Linux và chưa biết Distro Linux là gì, các bản distro linux có gì giống và khác nhau. Hãy xem bài viết dưới đây của HostingViet.
-
 Có lẽ "linux" không còn xa lạ với nhiều người. Vì chúng xuất hiện rất nhiều lần trong tin tức hay những bài viết liên quan đến phần mềm mã nguồn mở. Thế nhưng, không phải ai cũng hiểu rõ về "linux". Chính vì thế, chia sẻ sau sẽ giúp các bạn hiểu về distro linux là gì và lý do chúng ta nên quan tâm.
 
 ![image1](../assets/images/2020425distrolagi.png)
@@ -105,3 +103,5 @@ Tuy nhiên, ngoài các ưu điểm nổi trội trên thì Linux cũng có mặ
 Tuy nhiên linux ko dành mục đích để chơi game vì thế sẽ là trở ngại lớn cho các game thủ khi đặt chân vào con đường này, tuy nhiên không có nghĩa là linux không thể chơi game, và bạn vẫn có thể giải trí nhẹ với các tựaa game văn phòng, hoặc [`Steam`](https://store.steampowered.com/) phần mềm này đã hổ trợ trên linux 1 thời gian dài và hầu như có những tựa game không thua kém gì trên windows, và có những tựa game buộc bạn chi 1 số tiền ko ít để sỡ hữu những tưa game support trên linux. Còn 1 tin vui cho các ae game thủ là các ông lớn về mãng đồ họa cũng đã có động thái support lên cho các dùng distro linux.
 
 Vì thế sẽ không còn xa nếu linux tiếp tục được phát triển và vươn lên thành hệ điều hành thứ 2 của người dùng và thoát khỏi cái bóng thống trị của windows (Microssoft) !
+
+Ngồn: [HostingViet](https://hostingviet.vn/distro-linux-la-gi)
