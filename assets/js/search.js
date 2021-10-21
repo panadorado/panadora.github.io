@@ -22,6 +22,10 @@
         // Iterate over the results
         var item = store[results[i].ref];
 
+        var userAvatar = item.imageUser
+        if(userAvatar === '' || userAvatar === null) userAvatar = "./assets/images/Avt_user.png";    
+        else userAvatar = item.imageUser;
+
         var arrayhashtag = parseStringArray(item.category);
         arrayhashtag = arrayhashtag.map(item => {
           return `<small class="post-hashtags-item">${item}</small>`;
@@ -31,7 +35,7 @@
         `
           <div class="post-item">
             <a href="#" class="post-author">
-              <img src='${ !item.imageUser ? "./assets/images/Avt_user.png" : item.imageUser }' alt="Panadora" class="post-author-image">
+              <img src='${userAvatar}' alt="Panadora" class="post-author-image">
               <div class="post-author-info">
                 <h4 class="post-author-name">Tác giả: ${item.author}</h4>
                 <time class="post-author-time" id="datetime">Ngày đăng: ${item.date}</time>
