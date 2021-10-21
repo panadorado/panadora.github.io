@@ -3,14 +3,12 @@
   function parseStringArray(str) {
     str = str.replace(/\[|\]|~|"|&|'|;|:|quot|\$|_|`|-|{|}|\||\\/g, '');
     str = str.replace(/\u0300|\u0301|\u0303|\u0309|\u0323/g, '');
-    str = str.replace(/ ,| , |, /g, ',');
-    str = str.split(',');
+    str = str.split(/,/g);
     return str;
   }
 
   function displaySearchResults(results, store) {
     var searchResults = document.getElementById('search-results');
-    // var errorpage = document.getElementById('');
 
     if (results.length) { 
       
@@ -22,15 +20,17 @@
         // Iterate over the results
         var item = store[results[i].ref];
 
-        var userAvatar = item.imageUser
-        if(userAvatar === '' || userAvatar === null) userAvatar = "./assets/images/Avt_user.png";    
+        var userAvatar = item.imageUser;
+        if(!userAvatar) userAvatar = "./assets/images/Avt_user.png";
         else userAvatar = item.imageUser;
 
         var arrayhashtag = parseStringArray(item.category);
+        console.log(arrayhashtag)
         arrayhashtag = arrayhashtag.map(item => {
           return `<small class="post-hashtags-item">${item}</small>`;
         });
 
+        
         appendString += 
         `
           <div class="post-item">
@@ -113,6 +113,7 @@
       this.field('id');
       this.field('title', { boost: 10 });
       this.field('author');
+      this.field('imageUser');
       this.field('category');
       this.field('content');
     });
@@ -122,6 +123,7 @@
         'id': key,
         'title': window.store[key].title,
         'author': window.store[key].author,
+        'imageUser': window.store[key].imageUser,
         'category': window.store[key].category,
         'content': window.store[key].content,
       });
