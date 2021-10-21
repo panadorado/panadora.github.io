@@ -9,7 +9,7 @@ permalink: /komorebi-animated-wallpapers-for-Linux.html
 ---
 ![image1](../assets/images/komorebi-animated-wallpapers-for-Linux.png)
 
-**Để có thể một hình nền động tuyệt đẹp trên desktop chạy hệ điều hành Windows của [Microssorft](https://www.microsoft.com/vi-vn) thì chúng ta phải có:** 
+**Để có một hình nền động tuyệt đẹp trên desktop chạy hệ điều hành Windows của [Microssorft](https://www.microsoft.com/vi-vn) thì chúng ta phải có:** 
 
 * [Wallpapper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine/) : Chú ý để có thể trải nghiệm tốt các tình năng có trên bộ cộng cụ này buộc các bạn phải trả phí mua trên Steam, hoặc bản có thể tải phiên bản crack [tại đây](https://linkneverdie.net/software/wallpaper-engine-6879).
 
