@@ -6,7 +6,7 @@ excerpt: "Tới thời điểm hiện tại thì Minecraft đã có rất nhiề
 author: "Panadora"
 imageUser: "./assets/images/avatar.jpg"
 category: [games, windows]
-permalink: /huong-dan-cai-dat-SourceMode-vao-CS-Source.html
+permalink: /huong-dan-lam-server-mincraft-forge-choi-mod.html
 ---
 
 **Tới thời điểm hiện tại thì Minecraft đã có rất nhiều server với đủ thể loại mode, tuy nhiên để tương tác với nhiều người chơi đồng thời tối ưu chức năng cũng như phần lớn cho server thì họ thường sử dụng các phiên bản Vanila, Spigot, CraftBukkit và chạy plugins hay addons ko quá nặng, vậy còn các mod khác chẳn hạn như đi Dungoen, mở rộng Biome, một số chức năng khác mà Minecraft hường không có thì sao ???. thì buộc các bạn phải dựng dụng đết Minecraft Forge để chơi cũng như là lập Server, vậy nó là gì ?**
@@ -32,7 +32,7 @@ Trước khi tải về và cài đặt Minecraft Forge hãy chắc chắn rằn
 
 Link các phiên bản Minecraft Forge dành cho Server cũng như Client: [Minecraft Forge](https://files.minecraftforge.net/net/minecraftforge/forge/)
 
-![MINECRAFT FORGE](../assets/images/minecraft_forge.png)
+![MINECRAFT FORGE](../assets/images/minecraft_forge.PNG)
 
 Ví dụ: mình muốn chơi mod bản minecraft 1.12.2 thì mình sẽ tải forge 1.12.2 về:
 
