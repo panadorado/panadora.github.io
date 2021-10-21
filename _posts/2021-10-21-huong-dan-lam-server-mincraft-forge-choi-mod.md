@@ -4,7 +4,7 @@ layout: "post"
 title: "Hướng dẫn làm minecraft forge mod cho windows"
 excerpt: "Tới thời điểm hiện tại thì Minecraft đã có rất nhiều server với đủ thể loại mode"
 author: "Panadora"
-imageUser: "./assets/images/Avatar.jpg"
+imageUser: "./assets/images/avatar.jpg"
 category: [games, windows]
 permalink: /huong-dan-cai-dat-SourceMode-vao-CS-Source.html
 ---
