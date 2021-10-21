@@ -1,4 +1,4 @@
-I"ͼ<p><img src="../assets/images/SourceMod/logo.png" alt="image-logo" width="100%" /></p>
+I"%�<p><img src="../assets/images/SourceMod/logo.png" alt="image-logo" width="100%" /></p>
 
 <p>Hướng dẫn này sẽ cung cấp cho bạn một giới thiệu cơ bản để viết một plugin Sourcemod. Nếu bạn không quen thuộc với ngôn ngữ SourcePawn, đó là khuyến cáo rằng bạn ít nhất một thời gian ngắn đọc giới thiệu về bài viết SourcePawn .</p>
 
@@ -472,4 +472,6 @@ Khai báo thư viện như C/C++ sẽ có lệnh như sau: <strong><code class="
     <span class="o">}</span>
 
 </code></pre></div></div>
+
+<p>Ngồn: <a href="https://wiki.alliedmods.net/Main_Page">wiki.alliedmods.net</a></p>
 :ET

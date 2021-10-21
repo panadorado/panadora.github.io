@@ -1,4 +1,13 @@
 (function() {
+
+  function parseStringArray(str) {
+    str = str.replace(/\[|\]|~|"|&|'|;|:|quot|\$|_|`|-|{|}|\||\\/g, '');
+    str = str.replace(/\u0300|\u0301|\u0303|\u0309|\u0323/g, '');
+    str = str.replace(/ ,| , |, /g, ',');
+    str = str.split(',');
+    return str;
+  }
+
   function displaySearchResults(results, store) {
     var searchResults = document.getElementById('search-results');
     // var errorpage = document.getElementById('');
@@ -12,28 +21,35 @@
         
         // Iterate over the results
         var item = store[results[i].ref];
+
+        var arrayhashtag = parseStringArray(item.category);
+        arrayhashtag = arrayhashtag.map(item => {
+          return `<small class="post-hashtags-item">${item}</small>`;
+        });
+
         appendString += 
         `
-        <div class="post-item">
-          <a href="#" class="post-author">
-            <img src="./assets/images/avatar.jpg" alt="Panadora" class="post-author-image">
-            <div class="post-author-info">
-              <h4 class="post-author-name">Tác giả: ${item.author}</h4>
-              <time class="post-author-time" id="datetime">Ngày đăng: ${item.date}</time>
+          <div class="post-item">
+            <a href="#" class="post-author">
+              <img src='${ !item.imageUser ? "./assets/images/Avt_user.png" : item.imageUser }' alt="Panadora" class="post-author-image">
+              <div class="post-author-info">
+                <h4 class="post-author-name">Tác giả: ${item.author}</h4>
+                <time class="post-author-time" id="datetime">Ngày đăng: ${item.date}</time>
+              </div>
+            </a>
+            <a href="${item.url}" class="post-media">
+              <img src="${item.site}/assets/images/${item.thumbnail}" alt="${item.url}" class="post-image">
+            </a>
+            <div class="post-hashtags">${arrayhashtag}</div>
+            <!-- <div href="#" class="post-category"><button>{{post.category}}</button></div -->
+            <div class="post-likeShare">
+              <a class="fb-like" data-href="${item.site}/${item.url}" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
             </div>
-          </a>
-          <a href="${item.url}" class="post-media">
-            <img src="${item.site}/assets/images/${item.thumbnail}" alt="${item.url}" class="post-image">
-          </a>
-          <!-- <div href="#" class="post-category"><button>{{post.category}}</button></div -->
-          <div class="post-likeShare">
-            <a class="fb-like" data-href="${item.site}/${item.url}" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>
+            <h3>
+              <a class="post-title" href="${item.url}" title="${item.title}">${item.title}</a>
+            </h3>
+            <div class="post-desc">${item.content.substring(0, 60)} ...</div>
           </div>
-          <h3>
-            <a class="post-title" href="${item.url}" title="${item.title}">${item.title}</a>
-          </h3>
-          <div class="post-desc">${item.content.substring(0, 60)} ...</div>
-        </div>
         `;
       }
 

@@ -5,7 +5,11 @@ layout: default
 {% for post in paginator.posts %}
 	<div class="post-item">
 		<a href="#" class="post-author">
-			<img src="./assets/images/avatar.jpg" alt="Panadora" class="post-author-image">
+		{% if post.imageUser == "" or post.imageUser == nil %}
+			<img src="../assets/images/Avt_user.png" alt="Panadora" class="post-author-image">
+		{% else %}
+			<img src="{{ post.imageUser }}" alt="Panadora" class="post-author-image">
+		{% endif %}
 			<div class="post-author-info">
 				<h4 class="post-author-name">Tác giả: {{post.author}}</h4>
 				<time class="post-author-time" id="datetime">Ngày đăng: {{post.date|date: "%d-%m-%Y"}}</time>
@@ -14,6 +18,11 @@ layout: default
 		<a href="{{post.url}}" class="post-media">
 			<img src="{{site.baseurl}}/assets/images/{{post.thumbnail}}" alt="{{post.title}}" class="post-image">
 		</a>
+		<div class="post-hashtags">
+			{% for category in post.category %}
+				<small class="post-hashtags-item">{{category}}</small>
+			{% endfor %}
+		</div>
 		<!-- <div href="#" class="post-category"><button>{{post.category}}</button></div -->
 		<div class="post-likeShare">
 			<a class="fb-like" data-href="{{site.url}}/{{post.url}}" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></a>

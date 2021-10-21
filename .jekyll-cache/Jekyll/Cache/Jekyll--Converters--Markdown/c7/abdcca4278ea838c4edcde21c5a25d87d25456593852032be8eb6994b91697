@@ -1,4 +1,4 @@
-I"� <p>Trên Windows để có thể đánh văn bản hay chat tin nhắn và một số thao tác khác bằng tiếng việt có dấu, thì buộc các bạn phải tải bộ gõ unikey tiếng việt để có thể sử dụng được. Nhưng còn trên các hệ điều hành linux thì sao, và bạn không thể nào dùng bộ gõ unikey tiếng việt trên windows choo linux được vì chúng vốn lập trình chỉ để thực thi được trên windows mà thôi, vì vậy bài viết này mình xin tổng hợp một số bộ gõ tiếng việt thông dụng hiện nay dành cho hệ điều hành linux nhá.</p>
+I"� <p>Trên Windows để có thể đánh văn bản hay chat tin nhắn và một số thao tác khác bằng tiếng việt có dấu, thì buộc các bạn phải tải bộ gõ unikey tiếng việt để có thể sử dụng được. Nhưng còn trên các hệ điều hành linux thì sao, và bạn không thể nào dùng bộ gõ unikey tiếng việt trên windows choo linux được vì chúng vốn lập trình chỉ để thực thi được trên windows mà thôi, vì vậy bài viết này mình xin tổng hợp một số bộ gõ tiếng việt thông dụng hiện nay dành cho hệ điều hành linux nhá.</p>
 
 <p><img src="../assets/images/202084UnikeyLinuxWallpaper.png" alt="image-1" /></p>
 
@@ -66,16 +66,16 @@
 
 <p>ibus-bogo có sử dụng các phần mềm sau, hãy chắc chắn rằng chúng đã được cài trên máy (theo tên gói cài đặt của Debian/Ubuntu):</p>
 
-<p><strong><code class="highlighter-rouge">.  ibus 1.4.x</code></strong> 
-  <strong><code class="highlighter-rouge">.  python 3.2+</code></strong> 
-  <strong><code class="highlighter-rouge">.  python3-gi (pygobject)</code></strong> 
-  <strong><code class="highlighter-rouge">.  python3-entrant (kiểm tra chính tả)</code></strong> 
-  <strong><code class="highlighter-rouge">.  cmake</code></strong> 
-  <strong><code class="highlighter-rouge">.  qt4-linguist-tools</code></strong> 
-  <strong><code class="highlighter-rouge">.  pyqt4-dev-tools</code></strong> 
-  <strong><code class="highlighter-rouge">.  python3-pyside</code></strong> 
-  <strong><code class="highlighter-rouge">.  gir1.2-ibus-1.0 (GObject Introspection data)</code></strong> 
-  <strong><code class="highlighter-rouge">.  gir1.2-wnck-3.0</code></strong></p>
+<p><strong><code class="highlighter-rouge">.  ibus 1.4.x</code></strong> <br />
+  <strong><code class="highlighter-rouge">.  python 3.2+</code></strong> <br />
+  <strong><code class="highlighter-rouge">.  python3-gi (pygobject)</code></strong> <br />
+  <strong><code class="highlighter-rouge">.  python3-entrant (kiểm tra chính tả)</code></strong> <br />
+  <strong><code class="highlighter-rouge">.  cmake</code></strong> <br />
+  <strong><code class="highlighter-rouge">.  qt4-linguist-tools</code></strong> <br />
+  <strong><code class="highlighter-rouge">.  pyqt4-dev-tools</code></strong> <br />
+  <strong><code class="highlighter-rouge">.  python3-pyside</code></strong> <br />
+  <strong><code class="highlighter-rouge">.  gir1.2-ibus-1.0 (GObject Introspection data)</code></strong> <br />
+  <strong><code class="highlighter-rouge">.  gir1.2-wnck-3.0</code></strong> <br /></p>
 
 <p>Lệnh sau sẽ cài đặt tất cả các gói cần thiết:</p>
 

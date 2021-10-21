@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-07T16:32:19+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Hướng dẫn về Plugins SourceMode (Part 2)</title><link href="http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source.html" rel="alternate" type="text/html" title="Hướng dẫn về Plugins SourceMode (Part 2)" /><published>2021-10-06T00:00:00+07:00</published><updated>2021-10-06T00:00:00+07:00</updated><id>http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source</id><content type="html" xml:base="http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source.html">&lt;p&gt;&lt;img src=&quot;../assets/images/SourceMod/202089SourceModLogo.png&quot; alt=&quot;image-title&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-21T10:15:07+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Hướng dẫn về Plugins SourceMode (Part 2)</title><link href="http://localhost:4000/test.html" rel="alternate" type="text/html" title="Hướng dẫn về Plugins SourceMode (Part 2)" /><published>2021-10-20T00:00:00+07:00</published><updated>2021-10-20T00:00:00+07:00</updated><id>http://localhost:4000/test</id><content type="html" xml:base="http://localhost:4000/test.html"></content><author><name>Panadora</name></author><category term="[&quot;news&quot;, &quot;linux&quot;, &quot;windows&quot;, &quot;game&quot;, &quot;css&quot;, &quot;html&quot;, &quot;javascript&quot;]" /><summary type="html">Sau bài viết hướng dẫn về Plugins SourceMod (Part 1), thì trong bài post này mình xin hướng dẫn cách cài đặt SourceMod</summary></entry><entry><title type="html">Hướng dẫn về Plugins SourceMode (Part 2)</title><link href="http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source.html" rel="alternate" type="text/html" title="Hướng dẫn về Plugins SourceMode (Part 2)" /><published>2021-10-06T00:00:00+07:00</published><updated>2021-10-06T00:00:00+07:00</updated><id>http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source</id><content type="html" xml:base="http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source.html">&lt;p&gt;&lt;img src=&quot;../assets/images/SourceMod/202089SourceModLogo.png&quot; alt=&quot;image-title&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Sau bài viết &lt;a href=&quot;sourcemods/huong-dan-viet-plugin-part-1.html&quot;&gt;hướng dẫn về Plugins SourceMod (Part 1)&lt;/a&gt;, thì trong bài post này mình xin hướng dẫn cách cài đặt SourceMod vào &lt;a href=&quot;https://store.steampowered.com/app/240/CounterStrike_Source/&quot;&gt;Counter-Strike: Source&lt;/a&gt; để có thể sử dụng được Plugins trong game nhá !&lt;/p&gt;
 
@@ -38,7 +38,7 @@
 
 &lt;p&gt;nếu một trong 2 lệnh đều hiển thị được tức là bạn đã cài đặt SourceMod cho CS:Source thành công !&lt;/p&gt;
 
-&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;sourcemod&quot;, &quot;games&quot;]" /><summary type="html">Sau bài viết hướng dẫn về Plugins SourceMod (Part 1), thì trong bài post này mình xin hướng dẫn cách cài đặt SourceMod</summary></entry><entry><title type="html">Komorebi - Animated Wallpapers cho Linux OS</title><link href="http://localhost:4000/komorebi-animated-wallpapers-for-Linux.html" rel="alternate" type="text/html" title="Komorebi - Animated Wallpapers cho Linux OS" /><published>2021-10-04T00:00:00+07:00</published><updated>2021-10-04T00:00:00+07:00</updated><id>http://localhost:4000/komorebi-animated-wallpapers-for-Linux</id><content type="html" xml:base="http://localhost:4000/komorebi-animated-wallpapers-for-Linux.html">&lt;p&gt;&lt;img src=&quot;../assets/images/komorebi-animated-wallpapers-for-Linux.png&quot; alt=&quot;image1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Ngồn: &lt;a href=&quot;https://wiki.alliedmods.net/Main_Page&quot;&gt;wiki.alliedmods.net&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;sourcemod&quot;, &quot;games&quot;]" /><summary type="html">Sau bài viết hướng dẫn về Plugins SourceMod (Part 1), thì trong bài post này mình xin hướng dẫn cách cài đặt SourceMod</summary></entry><entry><title type="html">Komorebi - Animated Wallpapers cho Linux OS</title><link href="http://localhost:4000/komorebi-animated-wallpapers-for-Linux.html" rel="alternate" type="text/html" title="Komorebi - Animated Wallpapers cho Linux OS" /><published>2021-10-04T00:00:00+07:00</published><updated>2021-10-04T00:00:00+07:00</updated><id>http://localhost:4000/komorebi-animated-wallpapers-for-Linux</id><content type="html" xml:base="http://localhost:4000/komorebi-animated-wallpapers-for-Linux.html">&lt;p&gt;&lt;img src=&quot;../assets/images/komorebi-animated-wallpapers-for-Linux.png&quot; alt=&quot;image1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Để có thể một hình nền động tuyệt đẹp trên desktop chạy hệ điều hành Windows của &lt;a href=&quot;https://www.microsoft.com/vi-vn&quot;&gt;Microssorft&lt;/a&gt; thì chúng ta phải có:&lt;/strong&gt;&lt;/p&gt;
 
@@ -91,7 +91,7 @@
 &lt;h3 id=&quot;3-custom-video-làm-ảnh-nền-cho-desktop&quot;&gt;3. Custom video làm ảnh nền cho desktop&lt;/h3&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;Komorebi cung cấp một công cụ đơn giản để tạo hình nền của riêng bạn! Đơn giản, mở ứng dụng của bạn và tìm kiếm ‘Trình tạo hình nền’.&lt;/p&gt;
+&lt;p&gt;Komorebi cung cấp một công cụ đơn giản để tạo hình nền của riêng bạn một cách đơn giản, bạn chỉ cần mở ứng dụng của bạn và tìm kiếm ‘Wallpaper Creator’.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/images/komorebi-animated-wallpapers-for-Linux-2.png&quot; alt=&quot;image3&quot; /&gt;
 &lt;img src=&quot;../assets/images/komorebi-animated-wallpapers-for-Linux-3.png&quot; alt=&quot;image4&quot; /&gt;
@@ -585,7 +585,9 @@ Khai báo thư viện như C/C++ sẽ có lệnh như sau: &lt;strong&gt;&lt;cod
         &lt;span class=&quot;cm&quot;&gt;/* CODE */&lt;/span&gt;
     &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Panadora</name></author><category term="[&quot;sourcemod&quot;, &quot;games&quot;]" /><summary type="html">Hướng dẫn này sẽ cung cấp cho bạn một giới thiệu cơ bản để viết một plugin Sourcemod...</summary></entry><entry><title type="html">Giới thiệu về SourceMod</title><link href="http://localhost:4000/SourceMod-Tutorial.html" rel="alternate" type="text/html" title="Giới thiệu về SourceMod" /><published>2020-08-06T00:00:00+07:00</published><updated>2020-08-06T00:00:00+07:00</updated><id>http://localhost:4000/SourceMod-Tutorial</id><content type="html" xml:base="http://localhost:4000/SourceMod-Tutorial.html">&lt;p&gt;&lt;img src=&quot;../assets/images/SourceMod/logo.png&quot; alt=&quot;image-logo&quot; /&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Ngồn: &lt;a href=&quot;https://wiki.alliedmods.net/Main_Page&quot;&gt;wiki.alliedmods.net&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;sourcemod&quot;, &quot;games&quot;]" /><summary type="html">Hướng dẫn này sẽ cung cấp cho bạn một giới thiệu cơ bản để viết một plugin Sourcemod...</summary></entry><entry><title type="html">Giới thiệu về SourceMod</title><link href="http://localhost:4000/SourceMod-Tutorial.html" rel="alternate" type="text/html" title="Giới thiệu về SourceMod" /><published>2020-08-06T00:00:00+07:00</published><updated>2020-08-06T00:00:00+07:00</updated><id>http://localhost:4000/SourceMod-Tutorial</id><content type="html" xml:base="http://localhost:4000/SourceMod-Tutorial.html">&lt;p&gt;&lt;img src=&quot;../assets/images/SourceMod/logo.png&quot; alt=&quot;image-logo&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;1giới-thiệu-về-sourcemod&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;1.giới thiệu về SourceMod&lt;/code&gt;&lt;/h3&gt;
 &lt;hr /&gt;
@@ -637,6 +639,8 @@ Khai báo thư viện như C/C++ sẽ có lệnh như sau: &lt;strong&gt;&lt;cod
     thì các bạn có thể truy cập bài SourceMod gốc.
 
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Ngồn: &lt;a href=&quot;https://wiki.alliedmods.net/Main_Page&quot;&gt;wiki.alliedmods.net&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/sourcemods/huong-dan-viet-plugin-part-1.html&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;đi đến hướng dẫn viết Plugins&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;sourcemod&quot;, &quot;games&quot;]" /><summary type="html">SourceMod là máy chủ sửa đổi cho bất kỳ trò chơi chạy trên Half-Life 2 động cơ...</summary></entry><entry><title type="html">Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux</title><link href="http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html" rel="alternate" type="text/html" title="Tổng hợp một số bộ gõ tiếng việt cho hệ điều hành linux" /><published>2020-08-04T00:00:00+07:00</published><updated>2020-08-04T00:00:00+07:00</updated><id>http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux</id><content type="html" xml:base="http://localhost:4000/tong-hop-mot-so-bo-go-tieng-viet-cho-linux.html">&lt;p&gt;Trên Windows để có thể đánh văn bản hay chat tin nhắn và một số thao tác khác bằng tiếng việt có dấu, thì buộc các bạn phải tải bộ gõ unikey tiếng việt để có thể sử dụng được. Nhưng còn trên các hệ điều hành linux thì sao, và bạn không thể nào dùng bộ gõ unikey tiếng việt trên windows choo linux được vì chúng vốn lập trình chỉ để thực thi được trên windows mà thôi, vì vậy bài viết này mình xin tổng hợp một số bộ gõ tiếng việt thông dụng hiện nay dành cho hệ điều hành linux nhá.&lt;/p&gt;
 
@@ -706,16 +710,16 @@ Khai báo thư viện như C/C++ sẽ có lệnh như sau: &lt;strong&gt;&lt;cod
 
 &lt;p&gt;ibus-bogo có sử dụng các phần mềm sau, hãy chắc chắn rằng chúng đã được cài trên máy (theo tên gói cài đặt của Debian/Ubuntu):&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  ibus 1.4.x&lt;/code&gt;&lt;/strong&gt; 
-  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python 3.2+&lt;/code&gt;&lt;/strong&gt; 
-  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python3-gi (pygobject)&lt;/code&gt;&lt;/strong&gt; 
-  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python3-entrant (kiểm tra chính tả)&lt;/code&gt;&lt;/strong&gt; 
-  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  cmake&lt;/code&gt;&lt;/strong&gt; 
-  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  qt4-linguist-tools&lt;/code&gt;&lt;/strong&gt; 
-  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  pyqt4-dev-tools&lt;/code&gt;&lt;/strong&gt; 
-  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python3-pyside&lt;/code&gt;&lt;/strong&gt; 
-  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  gir1.2-ibus-1.0 (GObject Introspection data)&lt;/code&gt;&lt;/strong&gt; 
-  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  gir1.2-wnck-3.0&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  ibus 1.4.x&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python 3.2+&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python3-gi (pygobject)&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python3-entrant (kiểm tra chính tả)&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  cmake&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  qt4-linguist-tools&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  pyqt4-dev-tools&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  python3-pyside&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  gir1.2-ibus-1.0 (GObject Introspection data)&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;
+  &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.  gir1.2-wnck-3.0&lt;/code&gt;&lt;/strong&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Lệnh sau sẽ cài đặt tất cả các gói cần thiết:&lt;/p&gt;
 
@@ -961,77 +965,4 @@ Tránh bị snooped bởi ISP của bạn và ngăn chặn các trang web từ t
 
 &lt;p&gt;Cảm ơn các bạn đã xem qua, hãy like và share cho mình có thêm động lực để tổng hợp những phần mềm hữu ích nhá ! ^^&lt;/p&gt;
 
-&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;windows&quot;, &quot;new&quot;]" /><summary type="html">Thông qua nút kích hoạt trên phần mềm, phần mềm sẽ tự động nhập lệnh commadline</summary></entry><entry><title type="html">HTML5 là gì, và nó đã làm thay đổi cách chúng ta duyệt web như thế nào?</title><link href="http://localhost:4000/html5-la-gi-hoc-lap-trinh-web-co-ban-den-nang-cao.html" rel="alternate" type="text/html" title="HTML5 là gì, và nó đã làm thay đổi cách chúng ta duyệt web như thế nào?" /><published>2020-05-27T00:00:00+07:00</published><updated>2020-05-27T00:00:00+07:00</updated><id>http://localhost:4000/html5-la-gi-hoc-lap-trinh-web-co-ban-den-nang-cao</id><content type="html" xml:base="http://localhost:4000/html5-la-gi-hoc-lap-trinh-web-co-ban-den-nang-cao.html">&lt;p&gt;&lt;img src=&quot;../assets/images/hoc-lap-trinh-web-co-ban-truc-tuyen-online-tot-nhat-16032016-1.jpg&quot; alt=&quot;html1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Trong vài năm qua, bạn có thể đã nghe người ta nói nhiều về HTML5. Cho dù bạn biết mọi thứ về phát triển web hay không, thì khái niệm này có thể hơi mơ hồ và khó hiểu đối với bạn. Rõ ràng, nó là bước tiếp theo trong quá trình phát triển của HTML, nhưng chính xác nó để làm gì? Tại sao lại có quá nhiều sự hào hứng xung quanh nó? Và tại sao nó lại quan trọng đối với bạn?&lt;/p&gt;
-
-&lt;p&gt;HTML hay HyperText Markup Language, là thành phần quan trọng nhất của World Wide Web. Nó là ngôn ngữ dùng để mô tả những gì một trang web hiển thị. Tuy nhiên, nếu chỉ riêng HTML thôi thì khá nhàm chán bởi vì nó chỉ có thể cung cấp các trang web tĩnh; nhằm đáp ứng nhu cầu ngày càng tăng về các tính năng web ấn tượng hơn, HTML đã được kết hợp với các plugin như CSS, Flash, Java, Silverlight, v.v…&lt;/p&gt;
-
-&lt;p&gt;Nó đã trở thành một cái gì đó khá cồng kềnh và các trình duyệt khác nhau thực hiện những tính năng theo cách riêng của chúng. HTML5 sinh ra để giải quyết những vấn đề lớn của HTML, giúp cho trang web trở nên rõ ràng và hiệu quả hơn.&lt;/p&gt;
-
-&lt;p&gt;Tại TechMaster có khóa học &lt;a href=&quot;https://techmaster.vn/khoa-hoc/25487/web-co-ban-html5-css3-va-javascript&quot;&gt;Web cơ bản HTML5, CSS3 và Javascript&lt;/a&gt; dành cho người mới bắt đầu, chưa học lập trình hoặc cho những ai muốn ôn lại kiến thức căn bản về lập trình web.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;HTML: Một cái nhìn tổng quan&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;HTML như chúng ta biết hiện nay được gọi là HTML4 và nó đã được xuất bản lần đầu vào năm 1997. Vâng, điều đó có nghĩa là chúng ta đã sử dụng HTML4 trong hơn 15 năm nay, và đó là một khoảng thời gian rất dài trong lĩnh vực công nghệ. Khoảng năm 2000, một ngôn ngữ đánh dấu được gọi là XHTML bắt đầu được phát triển song song và nó đã được sử dụng khá tốt trong những năm qua, chủ yếu là do các tiêu chuẩn khắt khe mà nó áp đặt. Nhìn chung, mặc dù, hai ngôn ngữ này là tương tự nhau.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../assets/images/hoc-lap-trinh-web-co-ban-truc-tuyen-online-tot-nhat-16032016-2.jpg&quot; alt=&quot;html2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Vấn đề đối với HTML4 là các chức năng của nó rất giới hạn. Nó phải được mở rộng thông qua các plugin như Flash, để cung cấp nhiều tính năng trên text (văn bản) và hình ảnh đơn giản hơn. Ví dụ, nhiều video player đã được tạo ra và duy trì trên nền tảng Flash và nhúng vào các trang HTML. Nhiều ứng dụng web được phát triển sử dụng Java và các applet nhúng vào web.&lt;/p&gt;
-
-&lt;p&gt;Với tất cả các plugin này, nó trở nên khó khăn trong việc duy trì các tiêu chuẩn thích hợp. Lý tưởng nhất, mọi trình duyệt sẽ hiển thị các trang web theo cùng một cách để cung cấp những trải nghiệm tương tự cho mỗi người dùng. Để hiển thị kết quả tương tự trên nhiều trình duyệt, các lập trình viên web thường cần phải thực hiện những sửa chữa nhanh và áp dụng những mẹo vặt trong các phần khác nhau của trang web của họ để thích nghi với các quá trình rendering khác nhau. Điều này sẽ làm cho trang web trở nên cồng kềnh sau một thời gian ngắn.&lt;/p&gt;
-
-&lt;p&gt;Trên một lưu ý thực tế hơn, các trang web yêu cầu các plugin như Flash và Java cuối cùng sẽ sử dụng nhiều CPU và RAM hơn. Bạn đã bao giờ tự hỏi tại sao trình duyệt của mình lại sử dụng quá nhiều tài nguyên của máy tính đến như vậy? Rất nhiều trong số đó có thể xuất phát từ các phần mở rộng HTML. Đây là một trong những lý do tại sao Apple đã không hỗ trợ Flash trên các thiết bị di động của họ (để tiết kiệm pin).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Vậy chính xác HTML5 là gì?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../assets/images/hoc-lap-trinh-web-co-ban-truc-tuyen-online-tot-nhat-16032016-3.jpg&quot; alt=&quot;html3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Cụ thể hơn, HTML5 đã bổ sung thêm rất nhiều các thẻ đánh dấu (markup) mới:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Các thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;header&amp;gt;&lt;/code&gt; và &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;footer&amp;gt;&lt;/code&gt; :&lt;/strong&gt;
-giúp bạn tách các phần trên và dưới của các block nội dung. Để có thể sử dụng nhiều lần trên một trang duy nhất.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;article&amp;gt;&lt;/code&gt; :&lt;/strong&gt;
-Giúp xác định một phần cụ thể về nội dung, ví dụ, một bài blog hoặc một bình luận của độc giả.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nav&amp;gt;&lt;/code&gt;:&lt;/strong&gt; 
-Để xác định những phần nào được coi là khối điều hướng.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;section&amp;gt;&lt;/code&gt; :&lt;/strong&gt; 
-Cho phép bạn xác định một phần nội dung nào đó; tương tự như các thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; hiện nay.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Các thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;audio&amp;gt;&lt;/code&gt; và &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;video&amp;gt;&lt;/code&gt; :&lt;/strong&gt;
-Để đánh dấu những nội dung bao gồm âm thanh hoặc video.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; :&lt;/strong&gt;
-Cho phép bạn vẽ đồ họa sử dụng một ngôn ngữ kịch bản riêng biệt.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thẻ &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;embed&amp;gt;&lt;/code&gt; :&lt;/strong&gt;
-Dùng để nhúng các nội dung hoặc các ứng dụng bên ngoài vào trang web.&lt;/p&gt;
-
-&lt;p&gt;HTML5 cũng bỏ đi một số thẻ: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;acronym&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;applet&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;font&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;frame&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;frameset&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;noframes&amp;gt;&lt;/code&gt;&lt;/strong&gt;, và một số thẻ khác.&lt;/p&gt;
-
-&lt;p&gt;Các tiêu chuẩn đặc tả kỹ thuật đầy đủ cho HTML5 đã được lên kế hoạch hoàn thành từ năm 2014, nhưng HTML5 đã có nhiều tiến bộ đã và nó có thể được sử dụng để thực hiện các tính năng cho đến hiện nay. Các tiêu chuẩn đặc tả kỹ thuật đầy đủ cho HTML5.1 dự kiến ​​sẽ được hoàn thành vào năm 2016.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tại sao HTML5 lại quan trọng đối với bạn&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Là một người sử dụng web, bạn sẽ được hưởng lợi từ HTML5 bởi vì nó đã sửa chữa những vấn đề hay gặp phải trong HTML4. Các trang web sẽ có những tiêu chuẩn web tốt hơn, giúp cho việc hiển thị nội dung hiệu quả hơn và cải thiện hiệu suất. Khi HTML5 được phổ biến trên diện rộng, các trang web sẽ có tốc độ tải nhanh hơn, băng thông sử dụng ít hơn, và tuổi thọ pin của các thiết bị di động sẽ được kéo dài hơn.&lt;/p&gt;
-
-&lt;p&gt;Thêm vào đó, bạn sẽ không cần phải luôn để ý đến các bản cập nhật của các plugin như Flash và Java. Tôi rất ghét việc phải liên tục cập nhật rất nhiều addons và plugins trên nhiều trình duyệt. Và điều gì sẽ xảy ra khi một trong số chúng có phiên bản không phù hợp? Các trang web sẽ ngừng hoạt động và mang lại nhiều nỗi thất vọng. Tất cả điều đó sẽ được giải quyết ngay khi HTML5 trở thành tiêu chuẩn chính.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../assets/images/hoc-lap-trinh-web-co-ban-truc-tuyen-online-tot-nhat-16032016-4.jpg&quot; alt=&quot;html4&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Nếu bạn chỉ là một người sử dụng web bình thường và bạn không có ý định viết code hoặc tạo ra trang web của riêng mình, thì bạn không cần phải làm bất cứ điều gì để được hưởng những tính năng tuyệt vời của HTML5. Tất cả các trình duyệt phổ biến hiện nay đều đã hỗ trợ HTML5 ở một mức độ nào đó và bạn có thể đã sử dụng nó mà không biết. Chỉ cần giữ cho trình duyệt của mình luôn cập nhật và bạn sẽ cảm nhận được những tính năng mới.&lt;/p&gt;
-
-&lt;p&gt;Và nếu bạn là một nhà phát triển web, HTML5 sẽ làm cho mọi thứ đơn giản và dễ dàng hơn cho bạn. Nếu mọi việc suôn sẻ, bạn sẽ không phải vật lộn với các vấn đề trong thiết kế web như ở phiên bản HTML cũ, vì tất cả các trình duyệt sẽ cần phải tuân thủ cùng một bộ tiêu chuẩn mới.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Kết luận&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;HTML5 là tương lai của trình duyệt web và nó chắc chắn sẽ cách mạng hóa cách chúng ta lướt web. Thậm chí dưới những hạn chế của HTML4, các lập trình viên cũng đã tạo ra một số trang web rất tuyệt vời, vì vậy sẽ rất thú vị để xem những gì sắp được thực hiện với các chức năng của HTML5.&lt;/p&gt;
-
-&lt;p&gt;Hy vọng rằng giờ đây bạn đã có thể nhìn thấy HTML5 một cách rõ ràng hơn và biết tại sao nó lại được thổi phồng lên nhiều đến như vậy. Nếu bạn có bất kỳ câu hỏi nào, xin hãy để lại ý kiến trong phần bình luận phía dưới nhé!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Nguồn: &lt;a href=&quot;https://techmaster.vn/posts/33804/html5-la-gi-hoc-lap-trinh-web-co-ban-den-nang-cao?fbclid=IwAR06lAmlmuthMOeGKTpoZgLDTOCMJLI02j_ftRBWmUgLqzJHpinSCOGtJw4#toc-html-m-t-c-i-nh-n-t-ng-quan&quot;&gt;techmaster.vn&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;html&quot;, &quot;unixlinux&quot;, &quot;windows&quot;]" /><summary type="html">Trong vài năm qua, bạn có thể đã nghe người ta nói nhiều về HTML5...</summary></entry></feed>
+&lt;hr /&gt;</content><author><name>Panadora</name></author><category term="[&quot;windows&quot;, &quot;new&quot;]" /><summary type="html">Thông qua nút kích hoạt trên phần mềm, phần mềm sẽ tự động nhập lệnh commadline</summary></entry></feed>
