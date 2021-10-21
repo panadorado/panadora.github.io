@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-21T10:15:07+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Hướng dẫn về Plugins SourceMode (Part 2)</title><link href="http://localhost:4000/test.html" rel="alternate" type="text/html" title="Hướng dẫn về Plugins SourceMode (Part 2)" /><published>2021-10-20T00:00:00+07:00</published><updated>2021-10-20T00:00:00+07:00</updated><id>http://localhost:4000/test</id><content type="html" xml:base="http://localhost:4000/test.html"></content><author><name>Panadora</name></author><category term="[&quot;news&quot;, &quot;linux&quot;, &quot;windows&quot;, &quot;game&quot;, &quot;css&quot;, &quot;html&quot;, &quot;javascript&quot;]" /><summary type="html">Sau bài viết hướng dẫn về Plugins SourceMod (Part 1), thì trong bài post này mình xin hướng dẫn cách cài đặt SourceMod</summary></entry><entry><title type="html">Hướng dẫn về Plugins SourceMode (Part 2)</title><link href="http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source.html" rel="alternate" type="text/html" title="Hướng dẫn về Plugins SourceMode (Part 2)" /><published>2021-10-06T00:00:00+07:00</published><updated>2021-10-06T00:00:00+07:00</updated><id>http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source</id><content type="html" xml:base="http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source.html">&lt;p&gt;&lt;img src=&quot;../assets/images/SourceMod/202089SourceModLogo.png&quot; alt=&quot;image-title&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-21T15:31:38+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Hướng dẫn làm minecraft forge mod cho windows</title><link href="http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source.html" rel="alternate" type="text/html" title="Hướng dẫn làm minecraft forge mod cho windows" /><published>2021-10-21T00:00:00+07:00</published><updated>2021-10-21T00:00:00+07:00</updated><id>http://localhost:4000/huong-dan-lam-server-mincraft-forge-choi-mod</id><content type="html" xml:base="http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source.html">&lt;p&gt;&lt;strong&gt;Tới thời điểm hiện tại thì Minecraft đã có rất nhiều server với đủ thể loại mode, tuy nhiên để tương tác với nhiều người chơi đồng thời tối ưu chức năng cũng như phần lớn cho server thì họ thường sử dụng các phiên bản Vanila, Spigot, CraftBukkit và chạy plugins hay addons ko quá nặng, vậy còn các mod khác chẳn hạn như đi Dungoen, mở rộng Biome, một số chức năng khác mà Minecraft hường không có thì sao ???. thì buộc các bạn phải dựng dụng đết Minecraft Forge để chơi cũng như là lập Server, vậy nó là gì ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;1-minecraft-forge-là-gì-&quot;&gt;1. Minecraft Forge là gì ?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Minecraft Forge là một file tiện ích ( hay cũng được hiểu là 1 file mở rộng mod ) có đuôi &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.jar&lt;/code&gt;&lt;/strong&gt;, hỗ trợ người chơi cài đặt các bản mod khác của game với độ tương thích cao nhất. Minecraft Forge cung cấp cho người chơi tuỳ chọn cài đặt Server riêng dành cho game Minecraft và gửi lời mời cho những người chơi khác.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tuy nhiên không giống như các phiên bản Vanila, Spigot, CraftBukkit chỉ cần người chơi chọn đúng phiên bản minecraft mà server đang sử dụng là có thể vào được Server. Để có thể chơi Server Minecraft Forge thì buộc người chơi phải cài đúng phiên bản Minecraft Forge mà Server đang sự dụng đồng thời các mod riêng lẻ mà Server đang hoạt động.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-cài-đặc-và-sử-dụng-minecraft-forge&quot;&gt;2. Cài đặc và sử dụng Minecraft Forge.&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Cài đặt mod cho client&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Trước khi tải về và cài đặt Minecraft Forge hãy chắc chắn rằng bạn đã cài đặt JAVA vào máy, để kiểm tra máy tính của bạn đã có JAVA chỉ cần thao tác như sau:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bật Command Prompt gõ lệnh &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;java -version&lt;/code&gt;&lt;/strong&gt; để kiểm tra phiên bản JAVA bạn đang sử dụng&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/check_java.png&quot; alt=&quot;JAVA VERSION&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;nếu máy tính bạn chưa có thì bạn có thể tại đây: &lt;a href=&quot;https://www.java.com/en/download/manual.jsp&quot;&gt;JAVA DOWNLOAD&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Chú ý&lt;/strong&gt;: vui lòng xem và tải đúng phiên bản JAVA danh cho hệ điều hành bạn đang sử dụng.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Link các phiên bản Minecraft Forge dành cho Server cũng như Client: &lt;a href=&quot;https://files.minecraftforge.net/net/minecraftforge/forge/&quot;&gt;Minecraft Forge&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/minecraft_forge.png&quot; alt=&quot;MINECRAFT FORGE&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ví dụ: mình muốn chơi mod bản minecraft 1.12.2 thì mình sẽ tải forge 1.12.2 về:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/download_minecraft_forge.png&quot; alt=&quot;Download Minecraft Forge&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sau khi tải về bạn sẽ có được file setup mod như sau:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/file_minecraft_forge.PNG&quot; alt=&quot;Setup File Minecraft Forge&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Đối với windows bạn chỉ cần click double chuột vào file trên setup thì sẽ mở được.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/install_minecraft_forge.PNG&quot; alt=&quot;Install Minecraft Forge&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Install Client&lt;/strong&gt;: Cài đặt Forge dành cho launcher minecraft bạn dùng, đầy cũng là phiên bản dành cho single player (người chơi đơn) bạn sẽ dùng bản này cài đặt để chơi&lt;br /&gt;
+&lt;strong&gt;Install Server&lt;/strong&gt;: Cài đặt dành cho Server Minecraft, đây là phiên bản dành cho máy chủ và nhiều người truy cập chơi cùng&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Chú ý&lt;/strong&gt;: phần (The directory missing…) vì mình cài rồi nên nó sẽ báo lỗi, nếu các bạn chưa thì hoàn toàn sẽ không báo lỗi nhé, xong rồi bạn chỉ click OK hoặc Install nếu có đợi nó cài hoàn tất, sau đó bạn vào thư mục &lt;strong&gt;.minecraft&lt;/strong&gt; để bỏ &lt;strong&gt;mod&lt;/strong&gt; vào chơi thôi&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/open_minecraft_folder.png&quot; alt=&quot;Open Folder Minecrat&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/add_mod_minecraft.png&quot; alt=&quot;Add Mod Minecraft&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Đây là các mod dành cho mọi phiên bản bạn có thể tham khảm và tải về &lt;a href=&quot;https://www.9minecraft.net/tag/minecraft-1-12-2-mods/&quot;&gt;tại đây&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Nếu cách trên bạn cảm thấy khó khăn thì có thể tải &lt;a href=&quot;https://tlauncher.org/en/&quot;&gt;TLauncher&lt;/a&gt; này, nó được tích hợp mọi phiên bản minecraft bạn chỉ việc chọn vài cài đúng phiên bản Minecraft Forge bạn cần, ngoài ra nó cũng cho phép bạn lựa chọn các Pack Mod do người chơi tổng hợp.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/TLauncher_Install_Mod.png&quot; alt=&quot;TLauncher Install Mod&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/TLauncher_install_Pack_Mod.png&quot; alt=&quot;TLauncer Install Pack Mod&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cài đặt mod cho Server&lt;/strong&gt; Comming Soon update post&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;games&quot;, &quot;windows&quot;]" /><summary type="html">Tới thời điểm hiện tại thì Minecraft đã có rất nhiều server với đủ thể loại mode</summary></entry><entry><title type="html">Hướng dẫn về Plugins SourceMode (Part 2)</title><link href="http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source.html" rel="alternate" type="text/html" title="Hướng dẫn về Plugins SourceMode (Part 2)" /><published>2021-10-06T00:00:00+07:00</published><updated>2021-10-06T00:00:00+07:00</updated><id>http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source</id><content type="html" xml:base="http://localhost:4000/huong-dan-cai-dat-SourceMode-vao-CS-Source.html">&lt;p&gt;&lt;img src=&quot;../assets/images/SourceMod/202089SourceModLogo.png&quot; alt=&quot;image-title&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Sau bài viết &lt;a href=&quot;sourcemods/huong-dan-viet-plugin-part-1.html&quot;&gt;hướng dẫn về Plugins SourceMod (Part 1)&lt;/a&gt;, thì trong bài post này mình xin hướng dẫn cách cài đặt SourceMod vào &lt;a href=&quot;https://store.steampowered.com/app/240/CounterStrike_Source/&quot;&gt;Counter-Strike: Source&lt;/a&gt; để có thể sử dụng được Plugins trong game nhá !&lt;/p&gt;
 
@@ -40,7 +103,7 @@
 
 &lt;p&gt;Ngồn: &lt;a href=&quot;https://wiki.alliedmods.net/Main_Page&quot;&gt;wiki.alliedmods.net&lt;/a&gt;&lt;/p&gt;</content><author><name>Panadora</name></author><category term="[&quot;sourcemod&quot;, &quot;games&quot;]" /><summary type="html">Sau bài viết hướng dẫn về Plugins SourceMod (Part 1), thì trong bài post này mình xin hướng dẫn cách cài đặt SourceMod</summary></entry><entry><title type="html">Komorebi - Animated Wallpapers cho Linux OS</title><link href="http://localhost:4000/komorebi-animated-wallpapers-for-Linux.html" rel="alternate" type="text/html" title="Komorebi - Animated Wallpapers cho Linux OS" /><published>2021-10-04T00:00:00+07:00</published><updated>2021-10-04T00:00:00+07:00</updated><id>http://localhost:4000/komorebi-animated-wallpapers-for-Linux</id><content type="html" xml:base="http://localhost:4000/komorebi-animated-wallpapers-for-Linux.html">&lt;p&gt;&lt;img src=&quot;../assets/images/komorebi-animated-wallpapers-for-Linux.png&quot; alt=&quot;image1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Để có thể một hình nền động tuyệt đẹp trên desktop chạy hệ điều hành Windows của &lt;a href=&quot;https://www.microsoft.com/vi-vn&quot;&gt;Microssorft&lt;/a&gt; thì chúng ta phải có:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Để có một hình nền động tuyệt đẹp trên desktop chạy hệ điều hành Windows của &lt;a href=&quot;https://www.microsoft.com/vi-vn&quot;&gt;Microssorft&lt;/a&gt; thì chúng ta phải có:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
