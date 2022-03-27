@@ -2,9 +2,9 @@ site_name: "Em Yêu Công Nghệ"
 # permalink: /:title.html
 
 # the subpath of your site, e.g. /blog
-baseurl: "panadorado.github.io"
+baseurl: ""
 # the base hostname & protocol for your site, e.g. http://example.com
-# url: "https://emyeucongnghe.tk"
+url: "https://panadorado.github.io"
 
 gems: [jekyll-paginate, jekyll-paginate-category]
 
