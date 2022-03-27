@@ -2,7 +2,7 @@ site_name: "Em Yêu Công Nghệ"
 # permalink: /:title.html
 
 # the subpath of your site, e.g. /blog
-baseurl: "https://panadorado.github.io"
+baseurl: "panadorado.github.io"
 # the base hostname & protocol for your site, e.g. http://example.com
 # url: "https://emyeucongnghe.tk"
 
